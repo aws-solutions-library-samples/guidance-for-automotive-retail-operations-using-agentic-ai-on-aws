@@ -1,0 +1,119 @@
+[
+  {
+    "currency": "EUR",
+    "flat_rate_hours": 0.5,
+    "labor_op_id": "LOP-OIL",
+    "market_id": "de",
+    "name": "Oil & filter change",
+    "shop_rate": 145,
+    "source_ref": "curated:flat_rate_manual"
+  },
+  {
+    "currency": "EUR",
+    "flat_rate_hours": 1.8,
+    "labor_op_id": "LOP-BRAKE-F",
+    "market_id": "de",
+    "name": "Front brake pads & rotors",
+    "shop_rate": 145,
+    "source_ref": "curated:flat_rate_manual"
+  },
+  {
+    "currency": "EUR",
+    "flat_rate_hours": 1.6,
+    "labor_op_id": "LOP-BRAKE-R",
+    "market_id": "de",
+    "name": "Rear brake pads & rotors",
+    "shop_rate": 145,
+    "source_ref": "curated:flat_rate_manual"
+  },
+  {
+    "currency": "EUR",
+    "flat_rate_hours": 0.4,
+    "labor_op_id": "LOP-TIRE-ROT",
+    "market_id": "de",
+    "name": "Tire rotation",
+    "shop_rate": 145,
+    "source_ref": "curated:flat_rate_manual"
+  },
+  {
+    "currency": "EUR",
+    "flat_rate_hours": 0.9,
+    "labor_op_id": "LOP-TIRE-REPL",
+    "market_id": "de",
+    "name": "Tire replacement (mount & balance, per pair)",
+    "shop_rate": 145,
+    "source_ref": "curated:flat_rate_manual"
+  },
+  {
+    "currency": "EUR",
+    "flat_rate_hours": 0.6,
+    "labor_op_id": "LOP-BATT",
+    "market_id": "de",
+    "name": "12V battery replacement",
+    "shop_rate": 145,
+    "source_ref": "curated:flat_rate_manual"
+  },
+  {
+    "currency": "EUR",
+    "flat_rate_hours": 0.3,
+    "labor_op_id": "LOP-CABIN-FILTER",
+    "market_id": "de",
+    "name": "Cabin air filter",
+    "shop_rate": 145,
+    "source_ref": "curated:flat_rate_manual"
+  },
+  {
+    "currency": "EUR",
+    "flat_rate_hours": 1.0,
+    "labor_op_id": "LOP-ALIGN",
+    "market_id": "de",
+    "name": "Wheel alignment",
+    "shop_rate": 145,
+    "source_ref": "curated:flat_rate_manual"
+  },
+  {
+    "currency": "EUR",
+    "flat_rate_hours": 1.1,
+    "labor_op_id": "LOP-COOLANT",
+    "market_id": "de",
+    "name": "Coolant flush",
+    "shop_rate": 145,
+    "source_ref": "curated:flat_rate_manual"
+  },
+  {
+    "currency": "EUR",
+    "flat_rate_hours": 0.8,
+    "labor_op_id": "LOP-EV-HV-INSPECT",
+    "market_id": "de",
+    "name": "HV battery health inspection",
+    "shop_rate": 145,
+    "source_ref": "curated:flat_rate_manual"
+  },
+  {
+    "currency": "EUR",
+    "flat_rate_hours": 1.2,
+    "labor_op_id": "LOP-EV-CHARGE-PORT",
+    "market_id": "de",
+    "name": "Charge-port service",
+    "shop_rate": 145,
+    "source_ref": "curated:flat_rate_manual"
+  },
+  {
+    "currency": "EUR",
+    "flat_rate_hours": 1.5,
+    "labor_op_id": "LOP-TRANS",
+    "market_id": "de",
+    "name": "Transmission service",
+    "shop_rate": 145,
+    "source_ref": "curated:flat_rate_manual"
+  },
+  {
+    "currency": "EUR",
+    "flat_rate_hours": 1.0,
+    "labor_op_id": "LOP-DIAG",
+    "market_id": "de",
+    "name": "Diagnostic scan",
+    "shop_rate": 145,
+    "source_ref": "curated:flat_rate_manual"
+  }
+]

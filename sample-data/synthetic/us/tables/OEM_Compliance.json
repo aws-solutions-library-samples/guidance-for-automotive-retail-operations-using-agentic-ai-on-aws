@@ -1,0 +1,882 @@
+[
+  {
+    "area": "brand_standards",
+    "compliance_id": "CMPL-US-00001",
+    "dealer_id": "D-101",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-04-06T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "action_needed"
+  },
+  {
+    "area": "data_privacy",
+    "compliance_id": "CMPL-US-00002",
+    "dealer_id": "D-101",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-03-21T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "advertising",
+    "compliance_id": "CMPL-US-00003",
+    "dealer_id": "D-101",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-05-03T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "overdue"
+  },
+  {
+    "area": "sales_disclosure",
+    "compliance_id": "CMPL-US-00004",
+    "dealer_id": "D-101",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-04-17T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "action_needed"
+  },
+  {
+    "area": "finance_disclosure",
+    "compliance_id": "CMPL-US-00005",
+    "dealer_id": "D-101",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-05-13T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "safety_recall",
+    "compliance_id": "CMPL-US-00006",
+    "dealer_id": "D-101",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-13T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "action_needed"
+  },
+  {
+    "area": "ev_charging_cert",
+    "compliance_id": "CMPL-US-00007",
+    "dealer_id": "D-101",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-08-01T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "action_needed"
+  },
+  {
+    "area": "warranty_admin",
+    "compliance_id": "CMPL-US-00008",
+    "dealer_id": "D-101",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-05-11T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "brand_standards",
+    "compliance_id": "CMPL-US-00009",
+    "dealer_id": "D-102",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-02T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "data_privacy",
+    "compliance_id": "CMPL-US-00010",
+    "dealer_id": "D-102",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-07T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "advertising",
+    "compliance_id": "CMPL-US-00011",
+    "dealer_id": "D-102",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-21T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "sales_disclosure",
+    "compliance_id": "CMPL-US-00012",
+    "dealer_id": "D-102",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-05-07T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "finance_disclosure",
+    "compliance_id": "CMPL-US-00013",
+    "dealer_id": "D-102",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-02T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "safety_recall",
+    "compliance_id": "CMPL-US-00014",
+    "dealer_id": "D-102",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-06T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "overdue"
+  },
+  {
+    "area": "ev_charging_cert",
+    "compliance_id": "CMPL-US-00015",
+    "dealer_id": "D-102",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-07-12T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "warranty_admin",
+    "compliance_id": "CMPL-US-00016",
+    "dealer_id": "D-102",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-04-28T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "brand_standards",
+    "compliance_id": "CMPL-US-00017",
+    "dealer_id": "D-103",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-18T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "data_privacy",
+    "compliance_id": "CMPL-US-00018",
+    "dealer_id": "D-103",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-04-29T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "advertising",
+    "compliance_id": "CMPL-US-00019",
+    "dealer_id": "D-103",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-04-07T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "sales_disclosure",
+    "compliance_id": "CMPL-US-00020",
+    "dealer_id": "D-103",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-24T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "finance_disclosure",
+    "compliance_id": "CMPL-US-00021",
+    "dealer_id": "D-103",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-05-25T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "safety_recall",
+    "compliance_id": "CMPL-US-00022",
+    "dealer_id": "D-103",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-05-18T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "ev_charging_cert",
+    "compliance_id": "CMPL-US-00023",
+    "dealer_id": "D-103",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-13T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "warranty_admin",
+    "compliance_id": "CMPL-US-00024",
+    "dealer_id": "D-103",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-08-23T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "brand_standards",
+    "compliance_id": "CMPL-US-00025",
+    "dealer_id": "D-104",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-04-29T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "data_privacy",
+    "compliance_id": "CMPL-US-00026",
+    "dealer_id": "D-104",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-04-01T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "advertising",
+    "compliance_id": "CMPL-US-00027",
+    "dealer_id": "D-104",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-03-23T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "sales_disclosure",
+    "compliance_id": "CMPL-US-00028",
+    "dealer_id": "D-104",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-08-09T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "finance_disclosure",
+    "compliance_id": "CMPL-US-00029",
+    "dealer_id": "D-104",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-09-02T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "safety_recall",
+    "compliance_id": "CMPL-US-00030",
+    "dealer_id": "D-104",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-05-27T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "ev_charging_cert",
+    "compliance_id": "CMPL-US-00031",
+    "dealer_id": "D-104",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-05-14T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "warranty_admin",
+    "compliance_id": "CMPL-US-00032",
+    "dealer_id": "D-104",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-08-05T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "brand_standards",
+    "compliance_id": "CMPL-US-00033",
+    "dealer_id": "D-105",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-11T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "data_privacy",
+    "compliance_id": "CMPL-US-00034",
+    "dealer_id": "D-105",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-07-13T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "action_needed"
+  },
+  {
+    "area": "advertising",
+    "compliance_id": "CMPL-US-00035",
+    "dealer_id": "D-105",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-08-20T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "sales_disclosure",
+    "compliance_id": "CMPL-US-00036",
+    "dealer_id": "D-105",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-05-08T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "action_needed"
+  },
+  {
+    "area": "finance_disclosure",
+    "compliance_id": "CMPL-US-00037",
+    "dealer_id": "D-105",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-08-25T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "safety_recall",
+    "compliance_id": "CMPL-US-00038",
+    "dealer_id": "D-105",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-07-08T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "ev_charging_cert",
+    "compliance_id": "CMPL-US-00039",
+    "dealer_id": "D-105",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-03-14T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "warranty_admin",
+    "compliance_id": "CMPL-US-00040",
+    "dealer_id": "D-105",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-05-11T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "brand_standards",
+    "compliance_id": "CMPL-US-00041",
+    "dealer_id": "D-106",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-05-22T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "data_privacy",
+    "compliance_id": "CMPL-US-00042",
+    "dealer_id": "D-106",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-03-29T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "advertising",
+    "compliance_id": "CMPL-US-00043",
+    "dealer_id": "D-106",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-07-12T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "action_needed"
+  },
+  {
+    "area": "sales_disclosure",
+    "compliance_id": "CMPL-US-00044",
+    "dealer_id": "D-106",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-07-28T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "finance_disclosure",
+    "compliance_id": "CMPL-US-00045",
+    "dealer_id": "D-106",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-04-28T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "safety_recall",
+    "compliance_id": "CMPL-US-00046",
+    "dealer_id": "D-106",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-04-08T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "action_needed"
+  },
+  {
+    "area": "ev_charging_cert",
+    "compliance_id": "CMPL-US-00047",
+    "dealer_id": "D-106",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-05-17T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "warranty_admin",
+    "compliance_id": "CMPL-US-00048",
+    "dealer_id": "D-106",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-07-28T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "brand_standards",
+    "compliance_id": "CMPL-US-00049",
+    "dealer_id": "D-107",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-24T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "action_needed"
+  },
+  {
+    "area": "data_privacy",
+    "compliance_id": "CMPL-US-00050",
+    "dealer_id": "D-107",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-12T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "advertising",
+    "compliance_id": "CMPL-US-00051",
+    "dealer_id": "D-107",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-04-13T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "overdue"
+  },
+  {
+    "area": "sales_disclosure",
+    "compliance_id": "CMPL-US-00052",
+    "dealer_id": "D-107",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-07-30T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "finance_disclosure",
+    "compliance_id": "CMPL-US-00053",
+    "dealer_id": "D-107",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-08-10T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "safety_recall",
+    "compliance_id": "CMPL-US-00054",
+    "dealer_id": "D-107",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-08-03T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "ev_charging_cert",
+    "compliance_id": "CMPL-US-00055",
+    "dealer_id": "D-107",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-13T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "warranty_admin",
+    "compliance_id": "CMPL-US-00056",
+    "dealer_id": "D-107",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-28T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "brand_standards",
+    "compliance_id": "CMPL-US-00057",
+    "dealer_id": "D-108",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-05-18T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "data_privacy",
+    "compliance_id": "CMPL-US-00058",
+    "dealer_id": "D-108",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-05-03T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "advertising",
+    "compliance_id": "CMPL-US-00059",
+    "dealer_id": "D-108",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-03-22T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "sales_disclosure",
+    "compliance_id": "CMPL-US-00060",
+    "dealer_id": "D-108",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-08-31T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "finance_disclosure",
+    "compliance_id": "CMPL-US-00061",
+    "dealer_id": "D-108",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-23T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "safety_recall",
+    "compliance_id": "CMPL-US-00062",
+    "dealer_id": "D-108",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-05-16T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "ev_charging_cert",
+    "compliance_id": "CMPL-US-00063",
+    "dealer_id": "D-108",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-08-08T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "warranty_admin",
+    "compliance_id": "CMPL-US-00064",
+    "dealer_id": "D-108",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-04T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "action_needed"
+  },
+  {
+    "area": "brand_standards",
+    "compliance_id": "CMPL-US-00065",
+    "dealer_id": "D-109",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-26T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "data_privacy",
+    "compliance_id": "CMPL-US-00066",
+    "dealer_id": "D-109",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-04-17T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "advertising",
+    "compliance_id": "CMPL-US-00067",
+    "dealer_id": "D-109",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-05-08T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "sales_disclosure",
+    "compliance_id": "CMPL-US-00068",
+    "dealer_id": "D-109",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-07-08T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "finance_disclosure",
+    "compliance_id": "CMPL-US-00069",
+    "dealer_id": "D-109",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-04-28T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "safety_recall",
+    "compliance_id": "CMPL-US-00070",
+    "dealer_id": "D-109",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-08-29T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "ev_charging_cert",
+    "compliance_id": "CMPL-US-00071",
+    "dealer_id": "D-109",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-04-30T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "action_needed"
+  },
+  {
+    "area": "warranty_admin",
+    "compliance_id": "CMPL-US-00072",
+    "dealer_id": "D-109",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-03T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "action_needed"
+  },
+  {
+    "area": "brand_standards",
+    "compliance_id": "CMPL-US-00073",
+    "dealer_id": "D-110",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-05-05T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "data_privacy",
+    "compliance_id": "CMPL-US-00074",
+    "dealer_id": "D-110",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-05-05T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "advertising",
+    "compliance_id": "CMPL-US-00075",
+    "dealer_id": "D-110",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-14T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "sales_disclosure",
+    "compliance_id": "CMPL-US-00076",
+    "dealer_id": "D-110",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-09-04T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "overdue"
+  },
+  {
+    "area": "finance_disclosure",
+    "compliance_id": "CMPL-US-00077",
+    "dealer_id": "D-110",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-03-15T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "safety_recall",
+    "compliance_id": "CMPL-US-00078",
+    "dealer_id": "D-110",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-05-04T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "ev_charging_cert",
+    "compliance_id": "CMPL-US-00079",
+    "dealer_id": "D-110",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-08-08T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "warranty_admin",
+    "compliance_id": "CMPL-US-00080",
+    "dealer_id": "D-110",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-04-11T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "brand_standards",
+    "compliance_id": "CMPL-US-00081",
+    "dealer_id": "D-111",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-09-02T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "data_privacy",
+    "compliance_id": "CMPL-US-00082",
+    "dealer_id": "D-111",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-07-17T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "advertising",
+    "compliance_id": "CMPL-US-00083",
+    "dealer_id": "D-111",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-02T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "sales_disclosure",
+    "compliance_id": "CMPL-US-00084",
+    "dealer_id": "D-111",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-04-09T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "finance_disclosure",
+    "compliance_id": "CMPL-US-00085",
+    "dealer_id": "D-111",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-03-19T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "safety_recall",
+    "compliance_id": "CMPL-US-00086",
+    "dealer_id": "D-111",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-04-08T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "ev_charging_cert",
+    "compliance_id": "CMPL-US-00087",
+    "dealer_id": "D-111",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-06-28T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  },
+  {
+    "area": "warranty_admin",
+    "compliance_id": "CMPL-US-00088",
+    "dealer_id": "D-111",
+    "district_id": "DIST-07",
+    "last_reviewed_at": "2026-05-20T09:00:00Z",
+    "market_id": "us",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (compliance posture)",
+    "status": "compliant"
+  }
+]

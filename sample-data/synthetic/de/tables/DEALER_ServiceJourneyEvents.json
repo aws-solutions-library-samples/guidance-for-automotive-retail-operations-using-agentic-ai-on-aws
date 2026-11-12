@@ -1,0 +1,5399 @@
+[
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T04:35:15Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T05:34:43Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T05:52:31Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T08:47:33Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T10:57:52Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T14:50:20Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T20:53:08Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T14:49:00Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T19:38:10Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T20:19:04Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T23:09:48Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-11T09:52:22Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-11T16:07:02Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T19:07:09Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-11T09:52:13Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-11T22:58:50Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-11T12:19:21Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-11T18:18:20Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T20:17:22Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-11T01:37:29Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-11T06:34:15Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-12T14:08:55Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T16:34:31Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-12T15:14:54Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-12T01:19:03Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-12T16:58:07Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-11T19:03:32Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-12T17:08:32Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-11T21:11:25Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00001"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T04:45:28Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T05:17:56Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T10:16:09Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T06:58:57Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T15:42:09Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T19:31:59Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T10:42:56Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T12:14:58Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-11T03:02:27Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T21:16:04Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T17:34:13Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-11T10:07:36Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T14:01:29Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-11T03:15:59Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-11T09:12:09Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T15:41:39Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T21:05:58Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-11T20:08:29Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T14:13:45Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-12T09:58:17Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-12T14:12:49Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00002"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T06:36:35Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T08:03:19Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T09:16:48Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T14:04:27Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T08:44:27Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T11:56:37Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T20:46:28Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T23:34:17Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T19:32:44Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-11T00:11:51Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T17:40:58Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-11T07:12:50Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-11T17:29:34Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T19:35:40Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-11T00:14:35Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-11T10:58:52Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-11T07:09:19Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-12T05:10:33Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T18:40:44Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-11T06:49:29Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-11T07:38:38Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-11T09:25:32Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-11T22:37:00Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-11T08:07:32Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-13T06:30:05Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-11T23:06:00Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00003"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T22:21:13Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T23:55:55Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T02:58:27Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T01:43:00Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T10:20:05Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T03:29:55Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T13:07:35Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T11:12:16Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T18:51:35Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T07:55:04Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-11T02:35:39Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T07:54:44Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T17:49:21Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T10:27:10Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-11T14:16:17Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-11T04:54:48Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T23:38:02Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-11T05:35:03Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-11T08:48:16Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T12:40:38Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-11T00:03:21Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-11T19:56:32Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00004"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T06:27:22Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T08:59:18Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T11:30:04Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T08:02:17Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T16:42:29Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T10:36:04Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T19:05:36Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T21:39:22Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T22:50:50Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T19:14:49Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T14:24:47Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T02:40:32Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T19:10:13Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T20:58:08Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T23:00:53Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T11:07:43Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T17:33:42Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T16:51:08Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T17:13:39Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T11:43:51Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T22:52:14Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T16:04:43Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-11T16:50:36Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T16:43:32Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T20:17:26Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-11T16:17:29Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T13:22:28Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T04:25:44Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-11T23:26:47Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T00:56:27Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T08:14:19Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-12T22:10:50Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-11T20:24:53Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-11T10:36:20Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-13T09:44:03Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T21:35:00Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-12T01:00:11Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T06:17:07Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-11T09:31:35Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00005"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-04T20:59:15Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-04T22:47:38Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-05T02:43:35Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-05T05:32:47Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-05T01:15:43Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-05T02:22:09Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-05T10:15:10Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-05T08:54:25Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-05T04:31:44Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-05T03:18:53Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-06T00:11:25Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-05T06:57:46Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-05T18:42:28Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-05T04:32:59Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-05T18:44:17Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-06T00:10:14Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-06T15:39:05Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-06T18:23:34Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-06T03:37:07Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-05T13:47:10Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-05T20:53:26Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-05T10:18:50Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-06T11:36:28Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-07T10:57:00Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-06T02:02:41Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-07T14:36:20Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-06T22:39:02Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-06T15:18:54Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-08T07:51:39Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-05T16:12:24Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-05T23:18:05Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-06T12:12:10Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-08T18:49:20Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-06T03:33:51Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-08T06:23:00Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-09T01:28:01Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-06T07:35:40Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-07T13:04:40Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-08T13:17:38Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-09T05:36:00Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-06T03:03:57Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00006"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-08T03:07:24Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00007"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-08T04:48:03Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00007"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-08T04:24:49Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00007"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-08T07:51:26Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00007"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-08T14:16:27Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00007"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-08T07:59:21Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00007"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-08T11:50:25Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00007"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-08T18:44:47Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00007"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-08T13:52:13Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00007"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-08T12:39:02Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00007"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-08T23:17:03Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00007"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T07:14:03Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00007"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T13:17:55Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00007"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T15:20:53Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00007"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T19:34:56Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00007"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T20:56:21Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00007"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-08T18:40:33Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00007"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T22:39:33Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00007"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T07:58:46Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00007"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-08T23:20:33Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00007"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T02:32:33Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T05:17:14Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T03:51:21Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T08:37:12Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T11:02:28Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T10:15:58Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T14:19:48Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T21:11:58Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T20:26:46Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T10:50:37Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-11T06:04:55Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-11T05:06:20Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-11T13:09:55Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T12:35:38Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-11T06:05:31Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-11T20:22:58Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T15:21:20Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T13:19:42Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-11T19:02:18Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-11T07:36:14Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-12T11:41:02Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00008"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-06T11:07:07Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00009"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-06T12:29:39Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00009"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-06T16:39:27Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00009"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-06T16:08:11Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00009"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-18T09:25:53Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00010"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-18T11:31:32Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00010"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-18T13:04:55Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00010"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-18T13:00:05Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00010"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-06T22:34:16Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00011"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-06T23:55:48Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00011"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-07T01:09:03Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00011"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-07T06:52:11Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00011"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-07T06:17:01Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00011"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-07T05:05:29Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00011"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-07T05:47:18Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00011"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-06-28T02:37:25Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00012"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-06-28T03:21:45Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00012"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-06-28T04:43:07Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00012"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-06-28T11:27:55Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00012"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-06-28T11:56:38Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00012"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-06-28T05:51:06Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00012"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-06-28T20:10:53Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00012"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-08-23T18:06:03Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00013"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-08-23T19:05:20Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00013"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-08-23T20:02:20Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00013"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-08-23T20:12:26Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00013"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-08-24T02:04:11Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00013"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-08-24T06:23:12Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00013"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-08-23T21:39:04Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00013"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-08-24T12:09:11Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00013"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-08-24T06:11:16Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00013"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-08-24T02:49:56Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00013"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-08-24T09:18:14Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00013"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T18:55:51Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00014"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T21:12:55Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00014"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T22:52:41Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00014"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-08-30T00:46:47Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00015"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-08-30T03:16:20Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00015"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-08-30T02:57:29Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00015"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-08-30T03:37:59Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00015"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-08-30T10:50:51Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00015"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-08-30T09:53:16Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00015"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-08-30T09:52:28Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00015"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-08-30T07:03:03Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00015"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-08-30T10:01:22Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00015"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-08-30T07:00:42Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00015"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-08-30T14:35:12Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00015"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-08-30T06:41:09Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00015"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T19:43:25Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00016"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T21:03:22Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00016"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T23:25:59Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00016"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T22:38:31Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00016"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T02:21:55Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00016"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T06:06:11Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00016"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T00:25:39Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00016"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T09:30:32Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00016"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T05:42:21Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00016"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T00:20:57Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00016"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T16:54:26Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00016"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T11:42:22Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00016"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-03T15:11:40Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00017"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-03T17:48:25Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00017"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-03T16:54:48Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00017"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-03T18:59:14Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00017"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-03T21:43:34Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00017"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-08T01:40:04Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00018"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-08T02:39:57Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00018"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-08T04:57:03Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00018"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-08T06:52:14Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00018"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-08T21:57:00Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00019"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T00:35:34Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00019"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T01:46:47Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00019"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T00:13:36Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00019"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T00:05:03Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00019"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T08:18:46Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00019"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T15:34:39Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00019"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T18:43:00Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00019"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T15:17:05Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00019"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T05:51:53Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00020"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T07:45:25Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00020"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T10:08:59Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00020"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T14:44:15Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00020"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-02T12:54:20Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00021"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-02T13:32:07Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00021"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-02T17:45:43Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00021"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-02T16:48:31Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00021"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-02T22:18:41Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00021"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-02T16:42:50Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00021"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T00:42:53Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00022"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T02:52:13Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00022"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T06:16:06Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00022"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T06:11:10Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00022"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T11:07:33Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00022"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T04:48:08Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00022"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T15:46:23Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00022"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T07:54:20Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00022"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T21:22:32Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00022"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T21:52:01Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00022"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-11T03:15:15Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00022"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T19:53:13Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00022"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-04T16:13:31Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00023"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-04T18:58:52Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00023"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-04T17:30:14Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00023"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-04T20:26:49Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00023"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-08T08:18:39Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00024"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-08T09:35:22Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00024"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-08T14:07:14Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00024"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-08T10:45:37Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00024"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-08T12:00:14Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00024"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-08T16:19:29Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00024"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-09T00:08:40Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00024"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-08T23:32:30Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00024"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T21:01:16Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00025"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T23:50:16Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00025"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T01:23:25Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00025"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T01:51:44Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00025"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T01:25:15Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00025"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T00:25:39Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00025"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T14:37:52Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00025"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T07:40:04Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00025"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T17:25:46Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00025"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T09:50:28Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00025"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-08T12:11:56Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00026"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-08T14:28:32Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00026"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-08T15:09:57Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00026"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-08T16:01:08Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00026"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-29T13:54:08Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00027"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-29T15:10:25Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00027"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-29T18:18:40Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00027"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-29T15:54:52Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00027"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-29T16:00:20Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00027"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-30T00:14:33Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00027"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-12T07:17:52Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00028"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-12T09:26:01Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00028"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-12T08:25:50Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00028"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-12T15:17:42Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00028"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-12T16:28:06Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00028"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-12T16:14:45Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00028"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-08T23:09:55Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00029"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T01:21:16Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00029"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T02:17:46Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00029"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T02:11:25Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00029"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T09:30:17Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00029"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T13:35:45Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00029"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T02:27:42Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00030"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T03:30:35Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00030"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T03:45:40Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00030"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T09:20:26Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00030"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T09:05:07Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00030"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T10:26:32Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00030"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T06:22:09Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00030"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T06:40:57Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00030"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T11:10:10Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00030"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-08T00:07:13Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00031"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-08T02:20:55Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00031"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-08T05:49:51Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00031"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-08T04:57:45Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00031"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-08T10:14:44Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00031"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-08T09:55:51Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00031"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-07T10:08:48Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00032"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-07T11:23:02Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00032"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-07T15:30:13Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00032"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-07T12:49:47Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00032"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-07T15:54:45Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00032"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-07T14:16:01Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00032"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-07T17:48:23Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00032"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-06T01:05:37Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00033"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-06T01:37:07Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00033"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-06T03:06:59Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00033"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-06T07:47:02Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00033"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-06T03:51:53Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00033"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-06T14:58:42Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00033"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-06T09:29:00Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00033"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-05T09:56:55Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00034"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-05T11:04:52Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00034"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-05T11:31:14Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00034"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-08T00:54:57Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00035"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-08T03:00:27Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00035"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-08T05:48:26Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00035"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-08T02:27:47Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00035"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-08T06:34:55Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00035"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-08T08:04:18Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00035"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-08T18:18:30Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00035"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-08T06:54:12Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00035"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-08T21:50:36Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00035"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-08T10:16:05Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00035"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-08-01T05:08:14Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00036"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-08-01T08:01:55Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00036"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-08-01T10:13:52Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00036"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-08-01T10:07:56Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00036"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-08-01T13:17:13Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00036"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-08-01T12:52:59Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00036"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-08-01T15:50:01Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00036"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-08-01T19:28:18Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00036"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-08-01T14:58:04Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00036"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-08-02T00:09:12Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00036"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-08-02T10:46:05Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00036"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-08-02T05:02:19Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00036"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-09T17:44:05Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00037"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-09T19:21:42Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00037"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-09T20:00:41Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00037"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-09T22:39:01Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00037"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-09T22:27:35Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00037"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-09T22:34:58Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00037"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-10T09:37:48Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00037"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-10T14:13:31Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00037"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-10T06:23:52Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00037"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-06T07:55:29Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00038"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-06T09:40:42Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00038"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-06T10:29:17Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00038"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-06T14:20:44Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00038"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-06T11:03:36Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00038"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-06T20:46:36Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00038"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-06T13:41:07Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00038"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T05:38:50Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00039"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T08:20:09Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00039"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T08:57:22Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00039"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T10:03:57Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00039"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T15:10:55Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00039"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T12:29:53Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00039"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T10:42:53Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00039"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T16:45:42Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00039"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T01:26:56Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00039"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T05:37:50Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00039"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T01:27:50Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00039"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T00:45:47Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00040"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T01:58:58Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00040"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T03:06:15Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00040"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T07:46:33Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00040"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T06:25:28Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00040"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T11:50:18Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00040"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T17:55:37Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00040"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T14:23:11Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00040"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-10T20:11:35Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00040"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T13:24:03Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00040"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-04T00:35:50Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00041"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-04T02:59:08Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00041"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-04T06:33:38Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00041"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-04T05:14:45Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00041"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-04T02:51:48Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00041"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-04T07:30:09Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00041"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-04T17:59:31Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00041"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-04T19:02:10Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00041"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-04T17:54:00Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00041"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-04T22:57:05Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00041"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-04T17:07:19Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00041"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-05T01:55:51Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00041"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T21:13:39Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00042"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T23:14:30Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00042"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T00:50:34Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00042"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T22:56:56Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00042"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T07:01:07Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00042"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T17:49:08Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00043"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T19:44:11Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00043"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T19:59:04Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00043"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T21:33:54Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00043"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T00:46:56Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00043"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-29T15:10:15Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00044"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-29T17:48:25Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00044"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-29T20:22:17Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00044"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-29T22:53:14Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00044"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-30T00:05:53Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00044"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-29T23:27:06Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00044"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-29T18:59:36Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00044"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-30T09:50:12Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00044"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-30T02:50:24Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00044"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-30T07:13:27Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00044"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-30T11:44:55Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00044"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-06T06:19:56Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00045"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-06T08:15:43Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00045"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-06T10:42:13Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00045"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-06T10:25:51Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00045"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-06T15:09:45Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00045"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-06T13:48:50Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00045"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-18T02:31:25Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00046"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-18T05:06:46Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00046"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-07-18T05:24:08Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00046"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-07-18T05:23:56Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00046"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-07-18T09:46:37Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00046"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T21:20:14Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00047"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T22:53:38Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00047"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T22:29:27Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00047"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T23:07:12Z",
+    "event_type": "ro.line_completed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00047"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T04:24:52Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00047"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T16:42:21Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00048"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T17:57:17Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00048"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T22:08:58Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00048"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T19:01:48Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00048"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T22:36:10Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00048"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-10T05:27:53Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00048"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-10T00:32:58Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00048"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-04T10:39:42Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00049"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-04T11:55:46Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00049"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-04T13:14:03Z",
+    "event_type": "service.stage_changed",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00049"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-04T19:17:44Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00049"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-04T18:06:40Z",
+    "event_type": "parts.ordered",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00049"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-04T21:17:28Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00049"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-04T20:35:55Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00049"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-05T01:04:42Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00049"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-04T19:39:46Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00049"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T09:13:51Z",
+    "event_type": "inspection.submitted",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00050"
+  },
+  {
+    "actor": {
+      "agent": "A7",
+      "type": "agent"
+    },
+    "event_ts": "2026-09-09T11:13:13Z",
+    "event_type": "estimate.line_decided",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00050"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T13:57:17Z",
+    "event_type": "vehicle.ready",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00050"
+  },
+  {
+    "actor": {
+      "type": "advisor"
+    },
+    "event_ts": "2026-09-09T15:15:49Z",
+    "event_type": "ro.opened",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00050"
+  },
+  {
+    "actor": {
+      "type": "technician"
+    },
+    "event_ts": "2026-09-09T19:32:24Z",
+    "event_type": "estimate.presented",
+    "evidence": "synthetic",
+    "payload": {},
+    "service_journey_id": "SJ-DE-00050"
+  }
+]

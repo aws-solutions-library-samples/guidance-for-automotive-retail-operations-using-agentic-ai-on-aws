@@ -1,0 +1,43 @@
+country,date,euro95_eur_per_l,diesel_eur_per_l,unit,source_ref
+UK,2020-12-21,1.277,1.157,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:with_taxes:UK:2020-12-21
+Austria,2026-09-07,1.912,2.126,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Austria:2026-09-07
+Belgium,2026-09-07,1.938,2.254,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Belgium:2026-09-07
+Bulgaria,2026-09-07,1.571,1.813,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Bulgaria:2026-09-07
+Croatia,2026-09-07,1.731,1.908,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Croatia:2026-09-07
+Cyprus,2026-09-07,1.632,1.895,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Cyprus:2026-09-07
+Czechia,2026-09-07,1.806,1.958,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Czechia:2026-09-07
+Denmark,2026-09-07,2.632,2.435,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Denmark:2026-09-07
+Estonia,2026-09-07,1.812,1.922,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Estonia:2026-09-07
+Finland,2026-09-07,2.323,2.478,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Finland:2026-09-07
+France,2026-09-07,2.115,2.257,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:France:2026-09-07
+Germany,2026-09-07,2.331,2.328,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Germany:2026-09-07
+Greece,2026-09-07,2.093,2.054,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Greece:2026-09-07
+Hungary,2026-09-07,1.644,1.864,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Hungary:2026-09-07
+Ireland,2026-09-07,1.855,1.954,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Ireland:2026-09-07
+Italy,2026-09-07,2.035,2.142,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Italy:2026-09-07
+Latvia,2026-09-07,1.939,2.048,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Latvia:2026-09-07
+Lithuania,2026-09-07,1.884,2.128,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Lithuania:2026-09-07
+Luxembourg,2026-09-07,1.868,2.024,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Luxembourg:2026-09-07
+Malta,2026-09-07,1.34,1.21,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Malta:2026-09-07
+Netherlands,2026-09-07,2.466,2.442,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Netherlands:2026-09-07
+Poland,2026-09-07,1.812,1.982,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Poland:2026-09-07
+Portugal,2026-09-07,2.093,2.104,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Portugal:2026-09-07
+Romania,2026-09-07,1.851,1.942,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Romania:2026-09-07
+Slovakia,2026-09-07,1.774,1.908,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Slovakia:2026-09-07
+Slovenia,2026-09-07,1.633,1.88,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Slovenia:2026-09-07
+Spain,2026-09-07,1.816,1.795,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Spain:2026-09-07
+Sweden,2026-09-07,1.588,1.904,"EUR per litre (converted from EUR/1000 l), duties and taxes included",ec_oil_bulletin:weekly_with_taxes:Sweden:2026-09-07
+"CE/EC/EG EUR27_2020 (IV)
+Moyenne pondérée
+Weighted average
+Gewichteter Durchschnitt",2026-09-07,2.042,2.107,"EUR per litre (converted from EUR/1000 l), duties and taxes included","ec_oil_bulletin:weekly_with_taxes:CE/EC/EG EUR27_2020 (IV)
+Moyenne pondérée
+Weighted average
+Gewichteter Durchschnitt:2026-09-07"
+"CE/EC/EG Euro Area 20 (V)
+Moyenne pondérée
+Weighted average
+Gewichteter Durchschnitt",2026-09-07,2.1,2.138,"EUR per litre (converted from EUR/1000 l), duties and taxes included","ec_oil_bulletin:weekly_with_taxes:CE/EC/EG Euro Area 20 (V)
+Moyenne pondérée
+Weighted average
+Gewichteter Durchschnitt:2026-09-07"

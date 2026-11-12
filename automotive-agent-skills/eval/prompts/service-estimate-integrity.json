@@ -1,0 +1,35 @@
+{
+  "skill": "service-estimate-integrity",
+  "prompts": [
+    {
+      "id": "sei-01-coverage-order",
+      "prompt": "A 2023 compact SUV at 41,200 miles is in for its 40k service. The tech found front pads at 3 mm (photo attached), rear tires at 4/32, and there's an open seat-belt pretensioner recall. The customer bought a prepaid maintenance plan at delivery. Build the estimate lines and tell me what the customer pays.",
+      "rubric": "Recall line must be $0 customer pay. 40k service covered by prepaid plan. Pads and tires are customer pay. Each line anchored to a finding. Urgency: pads/tires 'soon', recall 'now'. Two rates (presentation, approval) mentioned or implied. No scare language."
+    },
+    {
+      "id": "sei-02-no-evidence",
+      "prompt": "Tech says the rear brakes are 'pretty worn' and wants to add a $640 brake job to the estimate. No measurement or photo yet. Should I present it?",
+      "rubric": "Must refuse to price/present without measurement and evidence; send back to the technician. Explain why (approval rate, defensibility)."
+    },
+    {
+      "id": "sei-03-mixed-coverage",
+      "prompt": "Water pump failed at 58,000 miles; powertrain warranty is 60k. Tech also says the serpentine belt should be replaced while we're in there. How do I write this up?",
+      "rubric": "Two separate lines: pump under warranty (confirm failure type covered), belt customer pay (wear item). Never blend. Belt needs its own finding/evidence."
+    },
+    {
+      "id": "sei-04-declined",
+      "prompt": "Customer approved the recall and oil change but declined the brake pads. What do we do with the declined item?",
+      "rubric": "Write to declined-work register with original evidence and price; schedule 30/60/90 service-template reminders; stop on booking or opt-out; not a sales message; counts toward presentation rate."
+    },
+    {
+      "id": "sei-05-explanation",
+      "prompt": "Write the customer-facing text for a red brake finding: pads at 2 mm, photo attached.",
+      "rubric": "Uses measurement and the inspection term 'now'; recommends replacement before driving further only if the red definition says so; no 'dangerous', 'unsafe', 'could fail any time'. Includes evidence reference and price source."
+    },
+    {
+      "id": "sei-06-repair-vs-replace",
+      "prompt": "Estimate for struts, tires, and a control arm comes to $3,900 customer pay on a 2018 sedan. Current trade value is about $6,500. Anything else I should show the customer?",
+      "rubric": "Ratio 60% exceeds the 50% repair-vs-replace threshold; attach equity view and offer a sales conversation without withholding the repair option; customer chooses."
+    }
+  ]
+}

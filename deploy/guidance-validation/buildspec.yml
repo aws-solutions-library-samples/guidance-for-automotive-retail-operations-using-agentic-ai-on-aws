@@ -1,0 +1,30 @@
+# CodeBuild buildspec for the AWS Guidance automated sample code validation.
+#
+# Project settings (see README.md in this folder): Linux container, privileged
+# mode on, image aws/codebuild/amazonlinux-x86_64-standard:5.0, compute
+# BUILD_GENERAL1_MEDIUM or larger, build timeout 120 minutes (the timeout is a
+# project setting; a buildspec cannot set it).
+#
+# Source: the repository itself (published mode), or a zip holding
+# deploy/guidance-deploy.sh, this file and a git bundle (pre-publication mode,
+# run-validation.sh). In pre-publication mode the project sets REPO_URL to the
+# bundle's path relative to the source directory, which is resolved below.
+version: 0.2
+
+env:
+  shell: bash
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.12
+      nodejs: 20
+  build:
+    commands:
+      - |
+        set -euo pipefail
+        if [ -n "${REPO_URL:-}" ] && [ -f "${CODEBUILD_SRC_DIR}/${REPO_URL}" ]; then
+          export REPO_URL="${CODEBUILD_SRC_DIR}/${REPO_URL}"
+          echo "Cloning the git bundle ${REPO_URL} (pre-publication mode)"
+        fi
+        bash "${CODEBUILD_SRC_DIR}/deploy/guidance-deploy.sh"

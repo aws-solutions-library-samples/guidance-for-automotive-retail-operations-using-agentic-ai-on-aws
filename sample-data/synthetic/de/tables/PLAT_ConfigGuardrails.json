@@ -1,0 +1,61 @@
+[
+  {
+    "config_key": "guardrails",
+    "effective_from": "2026-08-11T09:00:00Z",
+    "is_active": true,
+    "item_key": "guardrails#de",
+    "market_id": "de",
+    "rules": [
+      {
+        "action": "block",
+        "name": "Wholesale reduction recommendations",
+        "rule_id": "GR-001"
+      },
+      {
+        "action": "block",
+        "name": "Dealer termination / separation language",
+        "rule_id": "GR-002"
+      },
+      {
+        "action": "block",
+        "name": "Specific pricing guidance to dealers",
+        "rule_id": "GR-003"
+      },
+      {
+        "action": "block",
+        "name": "Personnel hiring / firing recommendations",
+        "rule_id": "GR-004"
+      },
+      {
+        "action": "block",
+        "name": "Allocation promises or commitments",
+        "rule_id": "GR-005"
+      },
+      {
+        "action": "require_approval",
+        "name": "Legal / regulatory interpretations",
+        "rule_id": "GR-006"
+      },
+      {
+        "action": "require_approval",
+        "name": "Financial advice beyond standard metrics",
+        "rule_id": "GR-007"
+      },
+      {
+        "action": "warn",
+        "name": "Competitive disparagement",
+        "rule_id": "GR-008"
+      }
+    ],
+    "scare_language_denylist": [
+      "lebensgefährlich",
+      "kann jederzeit ausfallen",
+      "muss heute repariert werden",
+      "unsicher für Ihre Familie",
+      "Totalausfall",
+      "bleiben Sie liegen"
+    ],
+    "source_ref": "spec:§3.6.1 GR-001..GR-008; plan:§3.9 A7 denylist",
+    "version": 1
+  }
+]

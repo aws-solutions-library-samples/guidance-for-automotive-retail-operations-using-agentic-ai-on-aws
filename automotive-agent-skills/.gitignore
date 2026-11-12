@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
+# keep only the summary from each eval run
+eval/results/*/*
+!eval/results/*/summary.json

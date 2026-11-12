@@ -1,0 +1,2702 @@
+[
+  {
+    "body_ref": "corpus:DOC-DE-00102",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00102",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00305",
+    "title": "CRM — C-DE-00305"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00103",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00103",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00349",
+    "title": "CRM — C-DE-00349"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00104",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00104",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00380",
+    "title": "CRM — C-DE-00380"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00105",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00105",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00200",
+    "title": "CRM — C-DE-00200"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00106",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00106",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00257",
+    "title": "CRM — C-DE-00257"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00107",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00107",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00379",
+    "title": "CRM — C-DE-00379"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00108",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00108",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00574",
+    "title": "CRM — C-DE-00574"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00109",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00109",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00179",
+    "title": "CRM — C-DE-00179"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00110",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00110",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00183",
+    "title": "CRM — C-DE-00183"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00111",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00111",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00007",
+    "title": "CRM — C-DE-00007"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00112",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00112",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00091",
+    "title": "CRM — C-DE-00091"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00113",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00113",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00131",
+    "title": "CRM — C-DE-00131"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00114",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00114",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00150",
+    "title": "CRM — C-DE-00150"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00115",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00115",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00582",
+    "title": "CRM — C-DE-00582"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00116",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00116",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00456",
+    "title": "CRM — C-DE-00456"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00117",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00117",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00333",
+    "title": "CRM — C-DE-00333"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00118",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00118",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00551",
+    "title": "CRM — C-DE-00551"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00119",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00119",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00082",
+    "title": "CRM — C-DE-00082"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00120",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00120",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00107",
+    "title": "CRM — C-DE-00107"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00121",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00121",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00391",
+    "title": "CRM — C-DE-00391"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00122",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00122",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00241",
+    "title": "CRM — C-DE-00241"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00123",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00123",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00264",
+    "title": "CRM — C-DE-00264"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00124",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00124",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00563",
+    "title": "CRM — C-DE-00563"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00125",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00125",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00025",
+    "title": "CRM — C-DE-00025"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00126",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00126",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00358",
+    "title": "CRM — C-DE-00358"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00127",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00127",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00010",
+    "title": "CRM — C-DE-00010"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00128",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00128",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00562",
+    "title": "CRM — C-DE-00562"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00129",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00129",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00415",
+    "title": "CRM — C-DE-00415"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00130",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00130",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00385",
+    "title": "CRM — C-DE-00385"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00131",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00131",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00311",
+    "title": "CRM — C-DE-00311"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00132",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00132",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00414",
+    "title": "CRM — C-DE-00414"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00133",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00133",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00388",
+    "title": "CRM — C-DE-00388"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00134",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00134",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00096",
+    "title": "CRM — C-DE-00096"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00135",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00135",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00148",
+    "title": "CRM — C-DE-00148"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00136",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00136",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00515",
+    "title": "CRM — C-DE-00515"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00137",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00137",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00093",
+    "title": "CRM — C-DE-00093"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00138",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00138",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-J1",
+    "title": "CRM — C-DE-J1"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00139",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00139",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00525",
+    "title": "CRM — C-DE-00525"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00140",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00140",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00052",
+    "title": "CRM — C-DE-00052"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00141",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00141",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00348",
+    "title": "CRM — C-DE-00348"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00142",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00142",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00573",
+    "title": "CRM — C-DE-00573"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00143",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00143",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00568",
+    "title": "CRM — C-DE-00568"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00144",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00144",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00045",
+    "title": "CRM — C-DE-00045"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00145",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00145",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00136",
+    "title": "CRM — C-DE-00136"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00146",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00146",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00519",
+    "title": "CRM — C-DE-00519"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00147",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00147",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00122",
+    "title": "CRM — C-DE-00122"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00148",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00148",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00319",
+    "title": "CRM — C-DE-00319"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00149",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00149",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00145",
+    "title": "CRM — C-DE-00145"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00150",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00150",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00223",
+    "title": "CRM — C-DE-00223"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00151",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00151",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00291",
+    "title": "CRM — C-DE-00291"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00152",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00152",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00474",
+    "title": "CRM — C-DE-00474"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00153",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00153",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00534",
+    "title": "CRM — C-DE-00534"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00154",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00154",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00280",
+    "title": "CRM — C-DE-00280"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00155",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00155",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00541",
+    "title": "CRM — C-DE-00541"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00156",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00156",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00030",
+    "title": "CRM — C-DE-00030"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00157",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00157",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00041",
+    "title": "CRM — C-DE-00041"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00158",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00158",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00398",
+    "title": "CRM — C-DE-00398"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00159",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00159",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00229",
+    "title": "CRM — C-DE-00229"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00160",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00160",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00531",
+    "title": "CRM — C-DE-00531"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00161",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00161",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00017",
+    "title": "CRM — C-DE-00017"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00162",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00162",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00372",
+    "title": "CRM — C-DE-00372"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00163",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00163",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00304",
+    "title": "CRM — C-DE-00304"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00164",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00164",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00097",
+    "title": "CRM — C-DE-00097"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00165",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00165",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00328",
+    "title": "CRM — C-DE-00328"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00166",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00166",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00387",
+    "title": "CRM — C-DE-00387"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00167",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00167",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00016",
+    "title": "CRM — C-DE-00016"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00168",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00168",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00300",
+    "title": "CRM — C-DE-00300"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00169",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00169",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00419",
+    "title": "CRM — C-DE-00419"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00170",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00170",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00219",
+    "title": "CRM — C-DE-00219"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00171",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00171",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00105",
+    "title": "CRM — C-DE-00105"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00172",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00172",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00518",
+    "title": "CRM — C-DE-00518"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00173",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00173",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00047",
+    "title": "CRM — C-DE-00047"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00174",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00174",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00209",
+    "title": "CRM — C-DE-00209"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00175",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00175",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00083",
+    "title": "CRM — C-DE-00083"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00176",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00176",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00433",
+    "title": "CRM — C-DE-00433"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00177",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00177",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00586",
+    "title": "CRM — C-DE-00586"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00178",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00178",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00509",
+    "title": "CRM — C-DE-00509"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00179",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00179",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00399",
+    "title": "CRM — C-DE-00399"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00180",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00180",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00487",
+    "title": "CRM — C-DE-00487"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00181",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00181",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00364",
+    "title": "CRM — C-DE-00364"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00182",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00182",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00587",
+    "title": "CRM — C-DE-00587"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00183",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00183",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00432",
+    "title": "CRM — C-DE-00432"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00184",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00184",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00125",
+    "title": "CRM — C-DE-00125"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00185",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00185",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00164",
+    "title": "CRM — C-DE-00164"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00186",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00186",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00027",
+    "title": "CRM — C-DE-00027"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00187",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00187",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00516",
+    "title": "CRM — C-DE-00516"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00188",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00188",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00315",
+    "title": "CRM — C-DE-00315"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00189",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00189",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00367",
+    "title": "CRM — C-DE-00367"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00190",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00190",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00393",
+    "title": "CRM — C-DE-00393"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00191",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00191",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00547",
+    "title": "CRM — C-DE-00547"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00192",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00192",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00174",
+    "title": "CRM — C-DE-00174"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00193",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00193",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00195",
+    "title": "CRM — C-DE-00195"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00194",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00194",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00381",
+    "title": "CRM — C-DE-00381"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00195",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00195",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00581",
+    "title": "CRM — C-DE-00581"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00196",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00196",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-J4",
+    "title": "CRM — C-DE-J4"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00197",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00197",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00190",
+    "title": "CRM — C-DE-00190"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00198",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00198",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00278",
+    "title": "CRM — C-DE-00278"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00199",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00199",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00163",
+    "title": "CRM — C-DE-00163"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00200",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00200",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00110",
+    "title": "CRM — C-DE-00110"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00201",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00201",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00126",
+    "title": "CRM — C-DE-00126"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00202",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00202",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00373",
+    "title": "CRM — C-DE-00373"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00203",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00203",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00204",
+    "title": "CRM — C-DE-00204"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00204",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00204",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00397",
+    "title": "CRM — C-DE-00397"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00205",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00205",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00344",
+    "title": "CRM — C-DE-00344"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00206",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00206",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-J3",
+    "title": "CRM — C-DE-J3"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00207",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00207",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00550",
+    "title": "CRM — C-DE-00550"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00208",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00208",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00144",
+    "title": "CRM — C-DE-00144"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00209",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00209",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00303",
+    "title": "CRM — C-DE-00303"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00210",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00210",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00055",
+    "title": "CRM — C-DE-00055"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00211",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00211",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00250",
+    "title": "CRM — C-DE-00250"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00212",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00212",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00014",
+    "title": "CRM — C-DE-00014"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00213",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00213",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-J7",
+    "title": "CRM — C-DE-J7"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00214",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00214",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00132",
+    "title": "CRM — C-DE-00132"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00215",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00215",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00022",
+    "title": "CRM — C-DE-00022"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00216",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00216",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00003",
+    "title": "CRM — C-DE-00003"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00217",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00217",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00251",
+    "title": "CRM — C-DE-00251"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00218",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00218",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00038",
+    "title": "CRM — C-DE-00038"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00219",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00219",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00210",
+    "title": "CRM — C-DE-00210"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00220",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00220",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00485",
+    "title": "CRM — C-DE-00485"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00221",
+    "collection_id": "KC-DE-crm_notes",
+    "doc_id": "DOC-DE-00221",
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "de",
+    "source_ref": "synthetic:crm_note; entity:C-DE-00384",
+    "title": "CRM — C-DE-00384"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00222",
+    "collection_id": "KC-DE-bulletins",
+    "doc_id": "DOC-DE-00222",
+    "index_target": "quick_index",
+    "kind": "bulletins",
+    "market_id": "de",
+    "source_ref": "entity:COMM-DE-00001; spec:§3.6.1",
+    "title": "Recommended retail pricing for the new EV trim [GR:GR-003]"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00223",
+    "collection_id": "KC-DE-bulletins",
+    "doc_id": "DOC-DE-00223",
+    "index_target": "quick_index",
+    "kind": "bulletins",
+    "market_id": "de",
+    "source_ref": "entity:COMM-DE-00002; spec:§3.6.1",
+    "title": "Interpreting the new emissions regulation [GR:GR-006]"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00224",
+    "collection_id": "KC-DE-bulletins",
+    "doc_id": "DOC-DE-00224",
+    "index_target": "quick_index",
+    "kind": "bulletins",
+    "market_id": "de",
+    "source_ref": "entity:COMM-DE-00003",
+    "title": "Q4 incentive summary"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00225",
+    "collection_id": "KC-DE-bulletins",
+    "doc_id": "DOC-DE-00225",
+    "index_target": "quick_index",
+    "kind": "bulletins",
+    "market_id": "de",
+    "source_ref": "entity:COMM-DE-00004",
+    "title": "EV charging partner update"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00226",
+    "collection_id": "KC-DE-bulletins",
+    "doc_id": "DOC-DE-00226",
+    "index_target": "quick_index",
+    "kind": "bulletins",
+    "market_id": "de",
+    "source_ref": "entity:COMM-DE-00005",
+    "title": "Service parts availability"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00227",
+    "collection_id": "KC-DE-bulletins",
+    "doc_id": "DOC-DE-00227",
+    "index_target": "quick_index",
+    "kind": "bulletins",
+    "market_id": "de",
+    "source_ref": "entity:COMM-DE-00006",
+    "title": "New model launch timing"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00228",
+    "collection_id": "KC-DE-bulletins",
+    "doc_id": "DOC-DE-00228",
+    "index_target": "quick_index",
+    "kind": "bulletins",
+    "market_id": "de",
+    "source_ref": "entity:COMM-DE-00007",
+    "title": "CSI program reminder"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00229",
+    "collection_id": "KC-DE-bulletins",
+    "doc_id": "DOC-DE-00229",
+    "index_target": "quick_index",
+    "kind": "bulletins",
+    "market_id": "de",
+    "source_ref": "entity:COMM-DE-00008",
+    "title": "Co-op marketing deadline"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00230",
+    "collection_id": "KC-DE-bulletins",
+    "doc_id": "DOC-DE-00230",
+    "index_target": "quick_index",
+    "kind": "bulletins",
+    "market_id": "de",
+    "source_ref": "entity:COMM-DE-00009",
+    "title": "Training webinar invite"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00231",
+    "collection_id": "KC-DE-bulletins",
+    "doc_id": "DOC-DE-00231",
+    "index_target": "quick_index",
+    "kind": "bulletins",
+    "market_id": "de",
+    "source_ref": "entity:COMM-DE-00010",
+    "title": "Conquest offer refresh"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00232",
+    "collection_id": "KC-DE-bulletins",
+    "doc_id": "DOC-DE-00232",
+    "index_target": "quick_index",
+    "kind": "bulletins",
+    "market_id": "de",
+    "source_ref": "entity:COMM-DE-00011",
+    "title": "Recall action notice"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00233",
+    "collection_id": "KC-DE-bulletins",
+    "doc_id": "DOC-DE-00233",
+    "index_target": "quick_index",
+    "kind": "bulletins",
+    "market_id": "de",
+    "source_ref": "entity:COMM-DE-00012",
+    "title": "Holiday hours guidance"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00234",
+    "collection_id": "KC-DE-product_guides",
+    "doc_id": "DOC-DE-00234",
+    "index_target": "quick_index",
+    "kind": "product_guides",
+    "market_id": "de",
+    "source_ref": "entity:NW-KORA",
+    "title": "Guide — Nordwerk Kora"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00235",
+    "collection_id": "KC-DE-product_guides",
+    "doc_id": "DOC-DE-00235",
+    "index_target": "quick_index",
+    "kind": "product_guides",
+    "market_id": "de",
+    "source_ref": "entity:NW-HAVEL",
+    "title": "Guide — Nordwerk Havel"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00236",
+    "collection_id": "KC-DE-product_guides",
+    "doc_id": "DOC-DE-00236",
+    "index_target": "quick_index",
+    "kind": "product_guides",
+    "market_id": "de",
+    "source_ref": "entity:NW-ELBE",
+    "title": "Guide — Nordwerk Elbe Kombi"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00237",
+    "collection_id": "KC-DE-product_guides",
+    "doc_id": "DOC-DE-00237",
+    "index_target": "quick_index",
+    "kind": "product_guides",
+    "market_id": "de",
+    "source_ref": "entity:NW-SPREE",
+    "title": "Guide — Nordwerk Spree"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00238",
+    "collection_id": "KC-DE-product_guides",
+    "doc_id": "DOC-DE-00238",
+    "index_target": "quick_index",
+    "kind": "product_guides",
+    "market_id": "de",
+    "source_ref": "entity:NW-VELA",
+    "title": "Guide — Nordwerk Vela"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00239",
+    "collection_id": "KC-DE-product_guides",
+    "doc_id": "DOC-DE-00239",
+    "index_target": "quick_index",
+    "kind": "product_guides",
+    "market_id": "de",
+    "source_ref": "entity:NW-AURIN",
+    "title": "Guide — Nordwerk Aurin"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00240",
+    "collection_id": "KC-DE-product_guides",
+    "doc_id": "DOC-DE-00240",
+    "index_target": "quick_index",
+    "kind": "product_guides",
+    "market_id": "de",
+    "source_ref": "entity:NW-STRATOS",
+    "title": "Guide — Nordwerk Stratos"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00241",
+    "collection_id": "KC-DE-prior_plans",
+    "doc_id": "DOC-DE-00241",
+    "index_target": "quick_index",
+    "kind": "prior_plans",
+    "market_id": "de",
+    "source_ref": "entity:AP-DE-00998",
+    "title": "Plan — AP-DE-00998 v1"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00242",
+    "collection_id": "KC-DE-prior_plans",
+    "doc_id": "DOC-DE-00242",
+    "index_target": "quick_index",
+    "kind": "prior_plans",
+    "market_id": "de",
+    "source_ref": "entity:AP-DE-00999",
+    "title": "Plan — AP-DE-00999 v2"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00243",
+    "collection_id": "KC-DE-prior_plans",
+    "doc_id": "DOC-DE-00243",
+    "index_target": "quick_index",
+    "kind": "prior_plans",
+    "market_id": "de",
+    "source_ref": "entity:AP-DE-01000",
+    "title": "Plan — AP-DE-01000 v1"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00244",
+    "collection_id": "KC-DE-prior_plans",
+    "doc_id": "DOC-DE-00244",
+    "index_target": "quick_index",
+    "kind": "prior_plans",
+    "market_id": "de",
+    "source_ref": "entity:AP-DE-01001",
+    "title": "Plan — AP-DE-01001 v1"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00245",
+    "collection_id": "KC-DE-prior_plans",
+    "doc_id": "DOC-DE-00245",
+    "index_target": "quick_index",
+    "kind": "prior_plans",
+    "market_id": "de",
+    "source_ref": "entity:AP-DE-01002",
+    "title": "Plan — AP-DE-01002 v1"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00246",
+    "collection_id": "KC-DE-prior_plans",
+    "doc_id": "DOC-DE-00246",
+    "index_target": "quick_index",
+    "kind": "prior_plans",
+    "market_id": "de",
+    "source_ref": "entity:AP-DE-01003",
+    "title": "Plan — AP-DE-01003 v1"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00247",
+    "collection_id": "KC-DE-prior_plans",
+    "doc_id": "DOC-DE-00247",
+    "index_target": "quick_index",
+    "kind": "prior_plans",
+    "market_id": "de",
+    "source_ref": "entity:AP-DE-01004",
+    "title": "Plan — AP-DE-01004 v1"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00248",
+    "collection_id": "KC-DE-prior_plans",
+    "doc_id": "DOC-DE-00248",
+    "index_target": "quick_index",
+    "kind": "prior_plans",
+    "market_id": "de",
+    "source_ref": "entity:AP-DE-01005",
+    "title": "Plan — AP-DE-01005 v1"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00249",
+    "collection_id": "KC-DE-prior_plans",
+    "doc_id": "DOC-DE-00249",
+    "index_target": "quick_index",
+    "kind": "prior_plans",
+    "market_id": "de",
+    "source_ref": "entity:AP-DE-01006",
+    "title": "Plan — AP-DE-01006 v1"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00250",
+    "collection_id": "KC-DE-prior_plans",
+    "doc_id": "DOC-DE-00250",
+    "index_target": "quick_index",
+    "kind": "prior_plans",
+    "market_id": "de",
+    "source_ref": "entity:AP-DE-01007",
+    "title": "Plan — AP-DE-01007 v1"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00251",
+    "collection_id": "KC-DE-prior_plans",
+    "doc_id": "DOC-DE-00251",
+    "index_target": "quick_index",
+    "kind": "prior_plans",
+    "market_id": "de",
+    "source_ref": "entity:AP-DE-01008",
+    "title": "Plan — AP-DE-01008 v1"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00252",
+    "collection_id": "KC-DE-prior_plans",
+    "doc_id": "DOC-DE-00252",
+    "index_target": "quick_index",
+    "kind": "prior_plans",
+    "market_id": "de",
+    "source_ref": "entity:AP-DE-01009",
+    "title": "Plan — AP-DE-01009 v1"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00253",
+    "collection_id": "KC-DE-repair_procedures",
+    "doc_id": "DOC-DE-00253",
+    "index_target": "quick_index",
+    "kind": "repair_procedures",
+    "market_id": "de",
+    "source_ref": "entity:LOP-OIL",
+    "title": "Procedure — LOP-OIL"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00254",
+    "collection_id": "KC-DE-repair_procedures",
+    "doc_id": "DOC-DE-00254",
+    "index_target": "quick_index",
+    "kind": "repair_procedures",
+    "market_id": "de",
+    "source_ref": "entity:LOP-BRAKE-F",
+    "title": "Procedure — LOP-BRAKE-F"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00255",
+    "collection_id": "KC-DE-repair_procedures",
+    "doc_id": "DOC-DE-00255",
+    "index_target": "quick_index",
+    "kind": "repair_procedures",
+    "market_id": "de",
+    "source_ref": "entity:LOP-BRAKE-R",
+    "title": "Procedure — LOP-BRAKE-R"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00256",
+    "collection_id": "KC-DE-repair_procedures",
+    "doc_id": "DOC-DE-00256",
+    "index_target": "quick_index",
+    "kind": "repair_procedures",
+    "market_id": "de",
+    "source_ref": "entity:LOP-TIRE-ROT",
+    "title": "Procedure — LOP-TIRE-ROT"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00257",
+    "collection_id": "KC-DE-repair_procedures",
+    "doc_id": "DOC-DE-00257",
+    "index_target": "quick_index",
+    "kind": "repair_procedures",
+    "market_id": "de",
+    "source_ref": "entity:LOP-TIRE-REPL",
+    "title": "Procedure — LOP-TIRE-REPL"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00258",
+    "collection_id": "KC-DE-repair_procedures",
+    "doc_id": "DOC-DE-00258",
+    "index_target": "quick_index",
+    "kind": "repair_procedures",
+    "market_id": "de",
+    "source_ref": "entity:LOP-BATT",
+    "title": "Procedure — LOP-BATT"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00259",
+    "collection_id": "KC-DE-repair_procedures",
+    "doc_id": "DOC-DE-00259",
+    "index_target": "quick_index",
+    "kind": "repair_procedures",
+    "market_id": "de",
+    "source_ref": "entity:LOP-CABIN-FILTER",
+    "title": "Procedure — LOP-CABIN-FILTER"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00260",
+    "collection_id": "KC-DE-repair_procedures",
+    "doc_id": "DOC-DE-00260",
+    "index_target": "quick_index",
+    "kind": "repair_procedures",
+    "market_id": "de",
+    "source_ref": "entity:LOP-ALIGN",
+    "title": "Procedure — LOP-ALIGN"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00261",
+    "collection_id": "KC-DE-repair_procedures",
+    "doc_id": "DOC-DE-00261",
+    "index_target": "quick_index",
+    "kind": "repair_procedures",
+    "market_id": "de",
+    "source_ref": "entity:LOP-COOLANT",
+    "title": "Procedure — LOP-COOLANT"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00262",
+    "collection_id": "KC-DE-repair_procedures",
+    "doc_id": "DOC-DE-00262",
+    "index_target": "quick_index",
+    "kind": "repair_procedures",
+    "market_id": "de",
+    "source_ref": "entity:LOP-EV-HV-INSPECT",
+    "title": "Procedure — LOP-EV-HV-INSPECT"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00263",
+    "collection_id": "KC-DE-repair_procedures",
+    "doc_id": "DOC-DE-00263",
+    "index_target": "quick_index",
+    "kind": "repair_procedures",
+    "market_id": "de",
+    "source_ref": "entity:LOP-EV-CHARGE-PORT",
+    "title": "Procedure — LOP-EV-CHARGE-PORT"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00264",
+    "collection_id": "KC-DE-repair_procedures",
+    "doc_id": "DOC-DE-00264",
+    "index_target": "quick_index",
+    "kind": "repair_procedures",
+    "market_id": "de",
+    "source_ref": "entity:LOP-TRANS",
+    "title": "Procedure — LOP-TRANS"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00265",
+    "collection_id": "KC-DE-repair_procedures",
+    "doc_id": "DOC-DE-00265",
+    "index_target": "quick_index",
+    "kind": "repair_procedures",
+    "market_id": "de",
+    "source_ref": "entity:LOP-DIAG",
+    "title": "Procedure — LOP-DIAG"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00266",
+    "collection_id": "KC-DE-tsbs",
+    "doc_id": "DOC-DE-00266",
+    "index_target": "quick_index",
+    "kind": "tsbs",
+    "market_id": "de",
+    "source_ref": "entity:P0300",
+    "title": "TSB — P0300"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00267",
+    "collection_id": "KC-DE-tsbs",
+    "doc_id": "DOC-DE-00267",
+    "index_target": "quick_index",
+    "kind": "tsbs",
+    "market_id": "de",
+    "source_ref": "entity:P0420",
+    "title": "TSB — P0420"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00268",
+    "collection_id": "KC-DE-tsbs",
+    "doc_id": "DOC-DE-00268",
+    "index_target": "quick_index",
+    "kind": "tsbs",
+    "market_id": "de",
+    "source_ref": "entity:P0455",
+    "title": "TSB — P0455"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00269",
+    "collection_id": "KC-DE-tsbs",
+    "doc_id": "DOC-DE-00269",
+    "index_target": "quick_index",
+    "kind": "tsbs",
+    "market_id": "de",
+    "source_ref": "entity:B1318",
+    "title": "TSB — B1318"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00270",
+    "collection_id": "KC-DE-tsbs",
+    "doc_id": "DOC-DE-00270",
+    "index_target": "quick_index",
+    "kind": "tsbs",
+    "market_id": "de",
+    "source_ref": "entity:P0A80",
+    "title": "TSB — P0A80"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00271",
+    "collection_id": "KC-DE-tsbs",
+    "doc_id": "DOC-DE-00271",
+    "index_target": "quick_index",
+    "kind": "tsbs",
+    "market_id": "de",
+    "source_ref": "entity:C1234",
+    "title": "TSB — C1234"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00272",
+    "collection_id": "KC-DE-tsbs",
+    "doc_id": "DOC-DE-00272",
+    "index_target": "quick_index",
+    "kind": "tsbs",
+    "market_id": "de",
+    "source_ref": "entity:U0100",
+    "title": "TSB — U0100"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00273",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00273",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00193",
+    "title": "Transcript — J-DE-00193"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00274",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00274",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00234",
+    "title": "Transcript — J-DE-00234"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00275",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00275",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00094",
+    "title": "Transcript — J-DE-00094"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00276",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00276",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00122",
+    "title": "Transcript — J-DE-00122"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00277",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00277",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-J9",
+    "title": "Transcript — J-DE-J9"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00278",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00278",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00217",
+    "title": "Transcript — J-DE-00217"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00279",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00279",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00155",
+    "title": "Transcript — J-DE-00155"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00280",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00280",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00129",
+    "title": "Transcript — J-DE-00129"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00281",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00281",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00156",
+    "title": "Transcript — J-DE-00156"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00282",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00282",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00429",
+    "title": "Transcript — J-DE-00429"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00283",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00283",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00083",
+    "title": "Transcript — J-DE-00083"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00284",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00284",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00304",
+    "title": "Transcript — J-DE-00304"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00285",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00285",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00064",
+    "title": "Transcript — J-DE-00064"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00286",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00286",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00114",
+    "title": "Transcript — J-DE-00114"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00287",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00287",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00347",
+    "title": "Transcript — J-DE-00347"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00288",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00288",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00307",
+    "title": "Transcript — J-DE-00307"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00289",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00289",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00454",
+    "title": "Transcript — J-DE-00454"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00290",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00290",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00319",
+    "title": "Transcript — J-DE-00319"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00291",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00291",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00377",
+    "title": "Transcript — J-DE-00377"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00292",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00292",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00295",
+    "title": "Transcript — J-DE-00295"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00293",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00293",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00236",
+    "title": "Transcript — J-DE-00236"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00294",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00294",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00172",
+    "title": "Transcript — J-DE-00172"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00295",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00295",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00206",
+    "title": "Transcript — J-DE-00206"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00296",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00296",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00027",
+    "title": "Transcript — J-DE-00027"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00297",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00297",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00169",
+    "title": "Transcript — J-DE-00169"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00298",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00298",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00229",
+    "title": "Transcript — J-DE-00229"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00299",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00299",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00123",
+    "title": "Transcript — J-DE-00123"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00300",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00300",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00376",
+    "title": "Transcript — J-DE-00376"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00301",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00301",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00018",
+    "title": "Transcript — J-DE-00018"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00302",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00302",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00480",
+    "title": "Transcript — J-DE-00480"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00303",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00303",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00415",
+    "title": "Transcript — J-DE-00415"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00304",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00304",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00087",
+    "title": "Transcript — J-DE-00087"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00305",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00305",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00286",
+    "title": "Transcript — J-DE-00286"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00306",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00306",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00226",
+    "title": "Transcript — J-DE-00226"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00307",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00307",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00373",
+    "title": "Transcript — J-DE-00373"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00308",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00308",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00423",
+    "title": "Transcript — J-DE-00423"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00309",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00309",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00436",
+    "title": "Transcript — J-DE-00436"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00310",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00310",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00121",
+    "title": "Transcript — J-DE-00121"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00311",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00311",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00021",
+    "title": "Transcript — J-DE-00021"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00312",
+    "collection_id": "KC-DE-transcripts",
+    "doc_id": "DOC-DE-00312",
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "de",
+    "source_ref": "entity:J-DE-00192",
+    "title": "Transcript — J-DE-00192"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00313",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00313",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-DISCOVER-email; config:nurture v1",
+    "title": "Template — T-DE-DISCOVER-email"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00314",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00314",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-DISCOVER-sms; config:nurture v1",
+    "title": "Template — T-DE-DISCOVER-sms"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00315",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00315",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-DISCOVER-chat; config:nurture v1",
+    "title": "Template — T-DE-DISCOVER-chat"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00316",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00316",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-CONFIGURE-email; config:nurture v1",
+    "title": "Template — T-DE-CONFIGURE-email"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00317",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00317",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-CONFIGURE-sms; config:nurture v1",
+    "title": "Template — T-DE-CONFIGURE-sms"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00318",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00318",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-CONFIGURE-chat; config:nurture v1",
+    "title": "Template — T-DE-CONFIGURE-chat"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00319",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00319",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-QUALIFY-email; config:nurture v1",
+    "title": "Template — T-DE-QUALIFY-email"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00320",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00320",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-QUALIFY-sms; config:nurture v1",
+    "title": "Template — T-DE-QUALIFY-sms"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00321",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00321",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-QUALIFY-chat; config:nurture v1",
+    "title": "Template — T-DE-QUALIFY-chat"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00322",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00322",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-FINANCE-email; config:nurture v1",
+    "title": "Template — T-DE-FINANCE-email"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00323",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00323",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-FINANCE-sms; config:nurture v1",
+    "title": "Template — T-DE-FINANCE-sms"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00324",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00324",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-FINANCE-chat; config:nurture v1",
+    "title": "Template — T-DE-FINANCE-chat"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00325",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00325",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-TRADE_IN-email; config:nurture v1",
+    "title": "Template — T-DE-TRADE_IN-email"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00326",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00326",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-TRADE_IN-sms; config:nurture v1",
+    "title": "Template — T-DE-TRADE_IN-sms"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00327",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00327",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-TRADE_IN-chat; config:nurture v1",
+    "title": "Template — T-DE-TRADE_IN-chat"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00328",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00328",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-AGREE-email; config:nurture v1",
+    "title": "Template — T-DE-AGREE-email"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00329",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00329",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-AGREE-sms; config:nurture v1",
+    "title": "Template — T-DE-AGREE-sms"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00330",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00330",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-AGREE-chat; config:nurture v1",
+    "title": "Template — T-DE-AGREE-chat"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00331",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00331",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-DELIVER-email; config:nurture v1",
+    "title": "Template — T-DE-DELIVER-email"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00332",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00332",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-DELIVER-sms; config:nurture v1",
+    "title": "Template — T-DE-DELIVER-sms"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00333",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00333",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-DELIVER-chat; config:nurture v1",
+    "title": "Template — T-DE-DELIVER-chat"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00334",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00334",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-OWN-email; config:nurture v1",
+    "title": "Template — T-DE-OWN-email"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00335",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00335",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-OWN-sms; config:nurture v1",
+    "title": "Template — T-DE-OWN-sms"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00336",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00336",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-OWN-chat; config:nurture v1",
+    "title": "Template — T-DE-OWN-chat"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00337",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00337",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-SVC-due_service-email; config:nurture v1",
+    "title": "Template — T-DE-SVC-due_service-email"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00338",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00338",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-SVC-due_service-sms; config:nurture v1",
+    "title": "Template — T-DE-SVC-due_service-sms"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00339",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00339",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-SVC-declined_reminder_30d-email; config:nurture v1",
+    "title": "Template — T-DE-SVC-declined_reminder_30d-email"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00340",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00340",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-SVC-declined_reminder_30d-sms; config:nurture v1",
+    "title": "Template — T-DE-SVC-declined_reminder_30d-sms"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00341",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00341",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-SVC-declined_reminder_60d-email; config:nurture v1",
+    "title": "Template — T-DE-SVC-declined_reminder_60d-email"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00342",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00342",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-SVC-declined_reminder_60d-sms; config:nurture v1",
+    "title": "Template — T-DE-SVC-declined_reminder_60d-sms"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00343",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00343",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-SVC-declined_reminder_90d-email; config:nurture v1",
+    "title": "Template — T-DE-SVC-declined_reminder_90d-email"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00344",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00344",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-SVC-declined_reminder_90d-sms; config:nurture v1",
+    "title": "Template — T-DE-SVC-declined_reminder_90d-sms"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00345",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00345",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-SVC-estimate_presented-email; config:nurture v1",
+    "title": "Template — T-DE-SVC-estimate_presented-email"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00346",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00346",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-SVC-estimate_presented-sms; config:nurture v1",
+    "title": "Template — T-DE-SVC-estimate_presented-sms"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00347",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00347",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-SVC-vehicle_ready-email; config:nurture v1",
+    "title": "Template — T-DE-SVC-vehicle_ready-email"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00348",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00348",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-SVC-vehicle_ready-sms; config:nurture v1",
+    "title": "Template — T-DE-SVC-vehicle_ready-sms"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00349",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00349",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-SVC-promise_moved-email; config:nurture v1",
+    "title": "Template — T-DE-SVC-promise_moved-email"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00350",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00350",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-SVC-promise_moved-sms; config:nurture v1",
+    "title": "Template — T-DE-SVC-promise_moved-sms"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00351",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00351",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-SVC-csi_survey-email; config:nurture v1",
+    "title": "Template — T-DE-SVC-csi_survey-email"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00352",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00352",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-SVC-csi_survey-sms; config:nurture v1",
+    "title": "Template — T-DE-SVC-csi_survey-sms"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00353",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00353",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-SVC-recall-email; config:nurture v1",
+    "title": "Template — T-DE-SVC-recall-email"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00354",
+    "collection_id": "KC-DE-templates",
+    "doc_id": "DOC-DE-00354",
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "de",
+    "source_ref": "entity:T-DE-SVC-recall-sms; config:nurture v1",
+    "title": "Template — T-DE-SVC-recall-sms"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00355",
+    "collection_id": "KC-DE-objection_strategies",
+    "doc_id": "DOC-DE-00355",
+    "index_target": "quick_index",
+    "kind": "objection_strategies",
+    "market_id": "de",
+    "source_ref": "curated:objection_strategy:price_too_high",
+    "title": "Objection — price_too_high"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00356",
+    "collection_id": "KC-DE-objection_strategies",
+    "doc_id": "DOC-DE-00356",
+    "index_target": "quick_index",
+    "kind": "objection_strategies",
+    "market_id": "de",
+    "source_ref": "curated:objection_strategy:payment_too_high",
+    "title": "Objection — payment_too_high"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00357",
+    "collection_id": "KC-DE-objection_strategies",
+    "doc_id": "DOC-DE-00357",
+    "index_target": "quick_index",
+    "kind": "objection_strategies",
+    "market_id": "de",
+    "source_ref": "curated:objection_strategy:range_anxiety",
+    "title": "Objection — range_anxiety"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00358",
+    "collection_id": "KC-DE-objection_strategies",
+    "doc_id": "DOC-DE-00358",
+    "index_target": "quick_index",
+    "kind": "objection_strategies",
+    "market_id": "de",
+    "source_ref": "curated:objection_strategy:charging_access",
+    "title": "Objection — charging_access"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00359",
+    "collection_id": "KC-DE-objection_strategies",
+    "doc_id": "DOC-DE-00359",
+    "index_target": "quick_index",
+    "kind": "objection_strategies",
+    "market_id": "de",
+    "source_ref": "curated:objection_strategy:resale_value",
+    "title": "Objection — resale_value"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00360",
+    "collection_id": "KC-DE-objection_strategies",
+    "doc_id": "DOC-DE-00360",
+    "index_target": "quick_index",
+    "kind": "objection_strategies",
+    "market_id": "de",
+    "source_ref": "curated:objection_strategy:incentive_confusion",
+    "title": "Objection — incentive_confusion"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00361",
+    "collection_id": "KC-DE-objection_strategies",
+    "doc_id": "DOC-DE-00361",
+    "index_target": "quick_index",
+    "kind": "objection_strategies",
+    "market_id": "de",
+    "source_ref": "curated:objection_strategy:interest_rate",
+    "title": "Objection — interest_rate"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00362",
+    "collection_id": "KC-DE-objection_strategies",
+    "doc_id": "DOC-DE-00362",
+    "index_target": "quick_index",
+    "kind": "objection_strategies",
+    "market_id": "de",
+    "source_ref": "curated:objection_strategy:trade_value_low",
+    "title": "Objection — trade_value_low"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00363",
+    "collection_id": "KC-DE-objection_strategies",
+    "doc_id": "DOC-DE-00363",
+    "index_target": "quick_index",
+    "kind": "objection_strategies",
+    "market_id": "de",
+    "source_ref": "curated:objection_strategy:timing_not_ready",
+    "title": "Objection — timing_not_ready"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00364",
+    "collection_id": "KC-DE-objection_strategies",
+    "doc_id": "DOC-DE-00364",
+    "index_target": "quick_index",
+    "kind": "objection_strategies",
+    "market_id": "de",
+    "source_ref": "curated:objection_strategy:competitor_better",
+    "title": "Objection — competitor_better"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00365",
+    "collection_id": "KC-DE-objection_strategies",
+    "doc_id": "DOC-DE-00365",
+    "index_target": "quick_index",
+    "kind": "objection_strategies",
+    "market_id": "de",
+    "source_ref": "curated:objection_strategy:trust_reliability",
+    "title": "Objection — trust_reliability"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00366",
+    "collection_id": "KC-DE-objection_strategies",
+    "doc_id": "DOC-DE-00366",
+    "index_target": "quick_index",
+    "kind": "objection_strategies",
+    "market_id": "de",
+    "source_ref": "curated:objection_strategy:feature_missing",
+    "title": "Objection — feature_missing"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00367",
+    "collection_id": "KC-DE-objection_strategies",
+    "doc_id": "DOC-DE-00367",
+    "index_target": "quick_index",
+    "kind": "objection_strategies",
+    "market_id": "de",
+    "source_ref": "curated:objection_strategy:tariff_price_increase",
+    "title": "Objection — tariff_price_increase"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00368",
+    "collection_id": "KC-DE-objection_strategies",
+    "doc_id": "DOC-DE-00368",
+    "index_target": "quick_index",
+    "kind": "objection_strategies",
+    "market_id": "de",
+    "source_ref": "curated:objection_strategy:repair_cost",
+    "title": "Objection — repair_cost"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00369",
+    "collection_id": "KC-DE-objection_strategies",
+    "doc_id": "DOC-DE-00369",
+    "index_target": "quick_index",
+    "kind": "objection_strategies",
+    "market_id": "de",
+    "source_ref": "curated:objection_strategy:can_it_wait",
+    "title": "Objection — can_it_wait"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00370",
+    "collection_id": "KC-DE-objection_strategies",
+    "doc_id": "DOC-DE-00370",
+    "index_target": "quick_index",
+    "kind": "objection_strategies",
+    "market_id": "de",
+    "source_ref": "curated:objection_strategy:second_opinion",
+    "title": "Objection — second_opinion"
+  },
+  {
+    "body_ref": "corpus:DOC-DE-00371",
+    "collection_id": "KC-DE-objection_strategies",
+    "doc_id": "DOC-DE-00371",
+    "index_target": "quick_index",
+    "kind": "objection_strategies",
+    "market_id": "de",
+    "source_ref": "curated:objection_strategy:warranty_dispute",
+    "title": "Objection — warranty_dispute"
+  }
+]

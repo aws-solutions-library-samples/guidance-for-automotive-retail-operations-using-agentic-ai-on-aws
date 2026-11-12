@@ -1,0 +1,2252 @@
+[
+  {
+    "breached": false,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-08-24T00:17:53Z",
+    "lead_id": "LD-US-00001",
+    "response_minutes": 46,
+    "sla_due_at": "2026-08-24T00:01:53Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-08-13T02:46:55Z",
+    "lead_id": "LD-US-00002",
+    "response_minutes": 38,
+    "sla_due_at": "2026-08-13T02:38:55Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-07-21T14:30:00Z",
+    "lead_id": "LD-US-00003",
+    "response_minutes": 284,
+    "sla_due_at": "2026-07-21T10:16:00Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-08-26T12:26:41Z",
+    "lead_id": "LD-US-00004",
+    "response_minutes": 357,
+    "sla_due_at": "2026-08-26T06:59:41Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-08-05T15:36:29Z",
+    "lead_id": "LD-US-00005",
+    "response_minutes": 43,
+    "sla_due_at": "2026-08-05T15:23:29Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-08-21T12:29:33Z",
+    "lead_id": "LD-US-00006",
+    "response_minutes": 51,
+    "sla_due_at": "2026-08-21T12:08:33Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-07-28T15:35:06Z",
+    "lead_id": "LD-US-00007",
+    "response_minutes": 33,
+    "sla_due_at": "2026-07-28T15:32:06Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-08-21T11:26:24Z",
+    "lead_id": "LD-US-00008",
+    "response_minutes": 42,
+    "sla_due_at": "2026-08-21T11:14:24Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-104",
+    "first_response_at": "2026-07-13T05:04:22Z",
+    "lead_id": "LD-US-00009",
+    "response_minutes": 37,
+    "sla_due_at": "2026-07-13T04:57:22Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-111",
+    "first_response_at": "2026-07-14T18:03:15Z",
+    "lead_id": "LD-US-00010",
+    "response_minutes": 48,
+    "sla_due_at": "2026-07-14T17:45:15Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-07-16T08:22:34Z",
+    "lead_id": "LD-US-00011",
+    "response_minutes": 354,
+    "sla_due_at": "2026-07-16T02:58:34Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-07-20T06:27:22Z",
+    "lead_id": "LD-US-00012",
+    "response_minutes": 54,
+    "sla_due_at": "2026-07-20T06:03:22Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-08-06T01:26:04Z",
+    "lead_id": "LD-US-00013",
+    "response_minutes": 9,
+    "sla_due_at": "2026-08-06T01:47:04Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-09-04T10:07:52Z",
+    "lead_id": "LD-US-00014",
+    "response_minutes": 31,
+    "sla_due_at": "2026-09-04T10:06:52Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-08-13T12:42:28Z",
+    "lead_id": "LD-US-00015",
+    "response_minutes": 23,
+    "sla_due_at": "2026-08-13T12:49:28Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-101",
+    "first_response_at": null,
+    "lead_id": "LD-US-00016",
+    "response_minutes": 33,
+    "sla_due_at": "2026-09-10T09:10:00Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-08-12T19:22:19Z",
+    "lead_id": "LD-US-00017",
+    "response_minutes": 35,
+    "sla_due_at": "2026-08-12T19:17:19Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-101",
+    "first_response_at": null,
+    "lead_id": "LD-US-00018",
+    "response_minutes": 9,
+    "sla_due_at": "2026-09-10T09:08:00Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-08-21T03:22:14Z",
+    "lead_id": "LD-US-00019",
+    "response_minutes": 19,
+    "sla_due_at": "2026-08-21T03:33:14Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-07-19T09:45:17Z",
+    "lead_id": "LD-US-00020",
+    "response_minutes": 26,
+    "sla_due_at": "2026-07-19T09:49:17Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-101",
+    "first_response_at": null,
+    "lead_id": "LD-US-00021",
+    "response_minutes": 21,
+    "sla_due_at": "2026-09-10T09:09:00Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-111",
+    "first_response_at": "2026-08-13T05:34:27Z",
+    "lead_id": "LD-US-00022",
+    "response_minutes": 292,
+    "sla_due_at": "2026-08-13T01:12:27Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-09-04T01:30:04Z",
+    "lead_id": "LD-US-00023",
+    "response_minutes": 5,
+    "sla_due_at": "2026-09-04T01:55:04Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-07-14T11:16:16Z",
+    "lead_id": "LD-US-00024",
+    "response_minutes": 10,
+    "sla_due_at": "2026-07-14T11:36:16Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-104",
+    "first_response_at": "2026-07-26T10:20:13Z",
+    "lead_id": "LD-US-00025",
+    "response_minutes": 32,
+    "sla_due_at": "2026-07-26T10:18:13Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-08-16T23:57:02Z",
+    "lead_id": "LD-US-00026",
+    "response_minutes": 39,
+    "sla_due_at": "2026-08-16T23:48:02Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-08-19T04:16:22Z",
+    "lead_id": "LD-US-00027",
+    "response_minutes": 318,
+    "sla_due_at": "2026-08-18T23:28:22Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-07-27T23:12:15Z",
+    "lead_id": "LD-US-00028",
+    "response_minutes": 388,
+    "sla_due_at": "2026-07-27T17:14:15Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-08-28T17:05:57Z",
+    "lead_id": "LD-US-00029",
+    "response_minutes": 52,
+    "sla_due_at": "2026-08-28T16:43:57Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-111",
+    "first_response_at": "2026-08-09T19:40:35Z",
+    "lead_id": "LD-US-00030",
+    "response_minutes": 8,
+    "sla_due_at": "2026-08-09T20:02:35Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-08-25T01:36:23Z",
+    "lead_id": "LD-US-00031",
+    "response_minutes": 48,
+    "sla_due_at": "2026-08-25T01:18:23Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-07-23T13:04:19Z",
+    "lead_id": "LD-US-00032",
+    "response_minutes": 3,
+    "sla_due_at": "2026-07-23T13:31:19Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-08-12T08:17:49Z",
+    "lead_id": "LD-US-00033",
+    "response_minutes": 45,
+    "sla_due_at": "2026-08-12T08:02:49Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-08-23T14:59:37Z",
+    "lead_id": "LD-US-00034",
+    "response_minutes": 127,
+    "sla_due_at": "2026-08-23T13:22:37Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-08-14T16:16:20Z",
+    "lead_id": "LD-US-00035",
+    "response_minutes": 51,
+    "sla_due_at": "2026-08-14T15:55:20Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-07-18T22:29:45Z",
+    "lead_id": "LD-US-00036",
+    "response_minutes": 25,
+    "sla_due_at": "2026-07-18T22:34:45Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-07-15T14:44:44Z",
+    "lead_id": "LD-US-00037",
+    "response_minutes": 48,
+    "sla_due_at": "2026-07-15T14:26:44Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-08-22T05:33:14Z",
+    "lead_id": "LD-US-00038",
+    "response_minutes": 12,
+    "sla_due_at": "2026-08-22T05:51:14Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-08-05T05:04:51Z",
+    "lead_id": "LD-US-00039",
+    "response_minutes": 341,
+    "sla_due_at": "2026-08-04T23:53:51Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-07-12T09:45:45Z",
+    "lead_id": "LD-US-00040",
+    "response_minutes": 39,
+    "sla_due_at": "2026-07-12T09:36:45Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-08-09T23:40:25Z",
+    "lead_id": "LD-US-00041",
+    "response_minutes": 43,
+    "sla_due_at": "2026-08-09T23:27:25Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-07-13T18:17:49Z",
+    "lead_id": "LD-US-00042",
+    "response_minutes": 51,
+    "sla_due_at": "2026-07-13T17:56:49Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-08-18T13:47:25Z",
+    "lead_id": "LD-US-00043",
+    "response_minutes": 17,
+    "sla_due_at": "2026-08-18T14:00:25Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-08-21T16:42:10Z",
+    "lead_id": "LD-US-00044",
+    "response_minutes": 170,
+    "sla_due_at": "2026-08-21T14:22:10Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-07-19T08:13:33Z",
+    "lead_id": "LD-US-00045",
+    "response_minutes": 14,
+    "sla_due_at": "2026-07-19T08:29:33Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-07-22T15:54:19Z",
+    "lead_id": "LD-US-00046",
+    "response_minutes": 8,
+    "sla_due_at": "2026-07-22T16:16:19Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-07-28T03:24:09Z",
+    "lead_id": "LD-US-00047",
+    "response_minutes": 21,
+    "sla_due_at": "2026-07-28T03:33:09Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-07-14T15:14:10Z",
+    "lead_id": "LD-US-00048",
+    "response_minutes": 14,
+    "sla_due_at": "2026-07-14T15:30:10Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-08-31T04:12:40Z",
+    "lead_id": "LD-US-00049",
+    "response_minutes": 29,
+    "sla_due_at": "2026-08-31T04:13:40Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-08-02T18:08:38Z",
+    "lead_id": "LD-US-00050",
+    "response_minutes": 37,
+    "sla_due_at": "2026-08-02T18:01:38Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-104",
+    "first_response_at": "2026-07-28T17:27:36Z",
+    "lead_id": "LD-US-00051",
+    "response_minutes": 24,
+    "sla_due_at": "2026-07-28T17:33:36Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-08-29T13:51:42Z",
+    "lead_id": "LD-US-00052",
+    "response_minutes": 25,
+    "sla_due_at": "2026-08-29T13:56:42Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-07-23T17:53:57Z",
+    "lead_id": "LD-US-00053",
+    "response_minutes": 48,
+    "sla_due_at": "2026-07-23T17:35:57Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-08-13T06:01:03Z",
+    "lead_id": "LD-US-00054",
+    "response_minutes": 22,
+    "sla_due_at": "2026-08-13T06:09:03Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-09-05T11:41:03Z",
+    "lead_id": "LD-US-00055",
+    "response_minutes": 245,
+    "sla_due_at": "2026-09-05T08:06:03Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-07-29T08:52:49Z",
+    "lead_id": "LD-US-00056",
+    "response_minutes": 167,
+    "sla_due_at": "2026-07-29T06:35:49Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-08-03T11:18:48Z",
+    "lead_id": "LD-US-00057",
+    "response_minutes": 38,
+    "sla_due_at": "2026-08-03T11:10:48Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-08-31T05:18:01Z",
+    "lead_id": "LD-US-00058",
+    "response_minutes": 45,
+    "sla_due_at": "2026-08-31T05:03:01Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-09-09T06:33:41Z",
+    "lead_id": "LD-US-00059",
+    "response_minutes": 25,
+    "sla_due_at": "2026-09-09T06:38:41Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-08-25T13:10:22Z",
+    "lead_id": "LD-US-00060",
+    "response_minutes": 49,
+    "sla_due_at": "2026-08-25T12:51:22Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-07-28T22:31:00Z",
+    "lead_id": "LD-US-00061",
+    "response_minutes": 29,
+    "sla_due_at": "2026-07-28T22:32:00Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-08-06T12:17:39Z",
+    "lead_id": "LD-US-00062",
+    "response_minutes": 48,
+    "sla_due_at": "2026-08-06T11:59:39Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-08-23T04:48:36Z",
+    "lead_id": "LD-US-00063",
+    "response_minutes": 17,
+    "sla_due_at": "2026-08-23T05:01:36Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-111",
+    "first_response_at": "2026-08-19T08:56:56Z",
+    "lead_id": "LD-US-00064",
+    "response_minutes": 4,
+    "sla_due_at": "2026-08-19T09:22:56Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-104",
+    "first_response_at": "2026-07-23T00:24:06Z",
+    "lead_id": "LD-US-00065",
+    "response_minutes": 36,
+    "sla_due_at": "2026-07-23T00:18:06Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-07-28T19:17:11Z",
+    "lead_id": "LD-US-00066",
+    "response_minutes": 122,
+    "sla_due_at": "2026-07-28T17:45:11Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-111",
+    "first_response_at": "2026-08-16T08:38:01Z",
+    "lead_id": "LD-US-00067",
+    "response_minutes": 35,
+    "sla_due_at": "2026-08-16T08:33:01Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-07-14T14:32:54Z",
+    "lead_id": "LD-US-00068",
+    "response_minutes": 24,
+    "sla_due_at": "2026-07-14T14:38:54Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-07-22T14:47:25Z",
+    "lead_id": "LD-US-00069",
+    "response_minutes": 230,
+    "sla_due_at": "2026-07-22T11:27:25Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-08-13T08:13:08Z",
+    "lead_id": "LD-US-00070",
+    "response_minutes": 4,
+    "sla_due_at": "2026-08-13T08:39:08Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-08-05T12:01:09Z",
+    "lead_id": "LD-US-00071",
+    "response_minutes": 39,
+    "sla_due_at": "2026-08-05T11:52:09Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-104",
+    "first_response_at": "2026-09-03T02:49:48Z",
+    "lead_id": "LD-US-00072",
+    "response_minutes": 41,
+    "sla_due_at": "2026-09-03T02:38:48Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-08-07T03:21:38Z",
+    "lead_id": "LD-US-00073",
+    "response_minutes": 7,
+    "sla_due_at": "2026-08-07T03:44:38Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-08-14T00:06:14Z",
+    "lead_id": "LD-US-00074",
+    "response_minutes": 23,
+    "sla_due_at": "2026-08-14T00:13:14Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-08-22T23:47:07Z",
+    "lead_id": "LD-US-00075",
+    "response_minutes": 8,
+    "sla_due_at": "2026-08-23T00:09:07Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-08-13T18:51:12Z",
+    "lead_id": "LD-US-00076",
+    "response_minutes": 54,
+    "sla_due_at": "2026-08-13T18:27:12Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-08-25T07:50:39Z",
+    "lead_id": "LD-US-00077",
+    "response_minutes": 24,
+    "sla_due_at": "2026-08-25T07:56:39Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-08-11T02:01:15Z",
+    "lead_id": "LD-US-00078",
+    "response_minutes": 37,
+    "sla_due_at": "2026-08-11T01:54:15Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-09-03T23:54:59Z",
+    "lead_id": "LD-US-00079",
+    "response_minutes": 9,
+    "sla_due_at": "2026-09-04T00:15:59Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-08-16T20:12:08Z",
+    "lead_id": "LD-US-00080",
+    "response_minutes": 42,
+    "sla_due_at": "2026-08-16T20:00:08Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-07-24T07:25:28Z",
+    "lead_id": "LD-US-00081",
+    "response_minutes": 55,
+    "sla_due_at": "2026-07-24T07:00:28Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-08-12T11:16:58Z",
+    "lead_id": "LD-US-00082",
+    "response_minutes": 41,
+    "sla_due_at": "2026-08-12T11:05:58Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-09-09T14:20:10Z",
+    "lead_id": "LD-US-00083",
+    "response_minutes": 43,
+    "sla_due_at": "2026-09-09T14:07:10Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-09-09T16:17:26Z",
+    "lead_id": "LD-US-00084",
+    "response_minutes": 16,
+    "sla_due_at": "2026-09-09T16:31:26Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-08-06T18:47:21Z",
+    "lead_id": "LD-US-00085",
+    "response_minutes": 22,
+    "sla_due_at": "2026-08-06T18:55:21Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-08-08T04:48:10Z",
+    "lead_id": "LD-US-00086",
+    "response_minutes": 205,
+    "sla_due_at": "2026-08-08T01:53:10Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-08-16T20:14:55Z",
+    "lead_id": "LD-US-00087",
+    "response_minutes": 5,
+    "sla_due_at": "2026-08-16T20:39:55Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-07-21T11:24:18Z",
+    "lead_id": "LD-US-00088",
+    "response_minutes": 27,
+    "sla_due_at": "2026-07-21T11:27:18Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-07-13T00:32:42Z",
+    "lead_id": "LD-US-00089",
+    "response_minutes": 6,
+    "sla_due_at": "2026-07-13T00:56:42Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-08-08T23:32:37Z",
+    "lead_id": "LD-US-00090",
+    "response_minutes": 29,
+    "sla_due_at": "2026-08-08T23:33:37Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-09-05T16:19:08Z",
+    "lead_id": "LD-US-00091",
+    "response_minutes": 383,
+    "sla_due_at": "2026-09-05T10:26:08Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-07-23T03:06:17Z",
+    "lead_id": "LD-US-00092",
+    "response_minutes": 31,
+    "sla_due_at": "2026-07-23T03:05:17Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-07-22T02:54:04Z",
+    "lead_id": "LD-US-00093",
+    "response_minutes": 17,
+    "sla_due_at": "2026-07-22T03:07:04Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-07-31T08:37:06Z",
+    "lead_id": "LD-US-00094",
+    "response_minutes": 222,
+    "sla_due_at": "2026-07-31T05:25:06Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-104",
+    "first_response_at": "2026-08-21T13:57:20Z",
+    "lead_id": "LD-US-00095",
+    "response_minutes": 154,
+    "sla_due_at": "2026-08-21T11:53:20Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-08-19T10:49:46Z",
+    "lead_id": "LD-US-00096",
+    "response_minutes": 18,
+    "sla_due_at": "2026-08-19T11:01:46Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-08-06T18:58:24Z",
+    "lead_id": "LD-US-00097",
+    "response_minutes": 44,
+    "sla_due_at": "2026-08-06T18:44:24Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-08-21T13:15:29Z",
+    "lead_id": "LD-US-00098",
+    "response_minutes": 25,
+    "sla_due_at": "2026-08-21T13:20:29Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-08-03T13:24:06Z",
+    "lead_id": "LD-US-00099",
+    "response_minutes": 43,
+    "sla_due_at": "2026-08-03T13:11:06Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-08-31T18:08:24Z",
+    "lead_id": "LD-US-00100",
+    "response_minutes": 54,
+    "sla_due_at": "2026-08-31T17:44:24Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-08-09T23:18:51Z",
+    "lead_id": "LD-US-00101",
+    "response_minutes": 3,
+    "sla_due_at": "2026-08-09T23:45:51Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-07-14T19:27:37Z",
+    "lead_id": "LD-US-00102",
+    "response_minutes": 49,
+    "sla_due_at": "2026-07-14T19:08:37Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-08-13T17:18:53Z",
+    "lead_id": "LD-US-00103",
+    "response_minutes": 32,
+    "sla_due_at": "2026-08-13T17:16:53Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-08-27T07:40:56Z",
+    "lead_id": "LD-US-00104",
+    "response_minutes": 46,
+    "sla_due_at": "2026-08-27T07:24:56Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-08-19T20:21:35Z",
+    "lead_id": "LD-US-00105",
+    "response_minutes": 10,
+    "sla_due_at": "2026-08-19T20:41:35Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-08-29T00:53:37Z",
+    "lead_id": "LD-US-00106",
+    "response_minutes": 22,
+    "sla_due_at": "2026-08-29T01:01:37Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-07-31T10:14:36Z",
+    "lead_id": "LD-US-00107",
+    "response_minutes": 50,
+    "sla_due_at": "2026-07-31T09:54:36Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-08-18T12:26:07Z",
+    "lead_id": "LD-US-00108",
+    "response_minutes": 43,
+    "sla_due_at": "2026-08-18T12:13:07Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-08-31T16:17:57Z",
+    "lead_id": "LD-US-00109",
+    "response_minutes": 18,
+    "sla_due_at": "2026-08-31T16:29:57Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-08-10T20:54:36Z",
+    "lead_id": "LD-US-00110",
+    "response_minutes": 13,
+    "sla_due_at": "2026-08-10T21:11:36Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-08-13T20:18:55Z",
+    "lead_id": "LD-US-00111",
+    "response_minutes": 37,
+    "sla_due_at": "2026-08-13T20:11:55Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-111",
+    "first_response_at": "2026-07-26T18:05:57Z",
+    "lead_id": "LD-US-00112",
+    "response_minutes": 32,
+    "sla_due_at": "2026-07-26T18:03:57Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-07-27T14:39:09Z",
+    "lead_id": "LD-US-00113",
+    "response_minutes": 22,
+    "sla_due_at": "2026-07-27T14:47:09Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-09-07T08:59:54Z",
+    "lead_id": "LD-US-00114",
+    "response_minutes": 17,
+    "sla_due_at": "2026-09-07T09:12:54Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-07-23T17:34:37Z",
+    "lead_id": "LD-US-00115",
+    "response_minutes": 12,
+    "sla_due_at": "2026-07-23T17:52:37Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-08-24T10:54:36Z",
+    "lead_id": "LD-US-00116",
+    "response_minutes": 49,
+    "sla_due_at": "2026-08-24T10:35:36Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-07-30T20:53:14Z",
+    "lead_id": "LD-US-00117",
+    "response_minutes": 7,
+    "sla_due_at": "2026-07-30T21:16:14Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-08-11T09:17:18Z",
+    "lead_id": "LD-US-00118",
+    "response_minutes": 39,
+    "sla_due_at": "2026-08-11T09:08:18Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-08-12T13:40:12Z",
+    "lead_id": "LD-US-00119",
+    "response_minutes": 44,
+    "sla_due_at": "2026-08-12T13:26:12Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-09-08T19:50:35Z",
+    "lead_id": "LD-US-00120",
+    "response_minutes": 29,
+    "sla_due_at": "2026-09-08T19:51:35Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-07-28T04:10:01Z",
+    "lead_id": "LD-US-00121",
+    "response_minutes": 23,
+    "sla_due_at": "2026-07-28T04:17:01Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-08-17T06:19:10Z",
+    "lead_id": "LD-US-00122",
+    "response_minutes": 3,
+    "sla_due_at": "2026-08-17T06:46:10Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-08-31T22:14:38Z",
+    "lead_id": "LD-US-00123",
+    "response_minutes": 21,
+    "sla_due_at": "2026-08-31T22:23:38Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-09-09T12:40:14Z",
+    "lead_id": "LD-US-00124",
+    "response_minutes": 8,
+    "sla_due_at": "2026-09-09T13:02:14Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-07-29T08:57:34Z",
+    "lead_id": "LD-US-00125",
+    "response_minutes": 44,
+    "sla_due_at": "2026-07-29T08:43:34Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-08-12T13:17:23Z",
+    "lead_id": "LD-US-00126",
+    "response_minutes": 10,
+    "sla_due_at": "2026-08-12T13:37:23Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-07-13T22:39:18Z",
+    "lead_id": "LD-US-00127",
+    "response_minutes": 11,
+    "sla_due_at": "2026-07-13T22:58:18Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-08-08T11:26:16Z",
+    "lead_id": "LD-US-00128",
+    "response_minutes": 24,
+    "sla_due_at": "2026-08-08T11:32:16Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-08-13T15:07:25Z",
+    "lead_id": "LD-US-00129",
+    "response_minutes": 35,
+    "sla_due_at": "2026-08-13T15:02:25Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-08-31T14:40:42Z",
+    "lead_id": "LD-US-00130",
+    "response_minutes": 3,
+    "sla_due_at": "2026-08-31T15:07:42Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-07-30T10:36:41Z",
+    "lead_id": "LD-US-00131",
+    "response_minutes": 27,
+    "sla_due_at": "2026-07-30T10:39:41Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-09-04T06:04:06Z",
+    "lead_id": "LD-US-00132",
+    "response_minutes": 36,
+    "sla_due_at": "2026-09-04T05:58:06Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-07-15T03:17:44Z",
+    "lead_id": "LD-US-00133",
+    "response_minutes": 19,
+    "sla_due_at": "2026-07-15T03:28:44Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-07-13T03:42:49Z",
+    "lead_id": "LD-US-00134",
+    "response_minutes": 42,
+    "sla_due_at": "2026-07-13T03:30:49Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-08-16T16:09:22Z",
+    "lead_id": "LD-US-00135",
+    "response_minutes": 48,
+    "sla_due_at": "2026-08-16T15:51:22Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-08-30T07:12:17Z",
+    "lead_id": "LD-US-00136",
+    "response_minutes": 343,
+    "sla_due_at": "2026-08-30T01:59:17Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-07-27T23:31:32Z",
+    "lead_id": "LD-US-00137",
+    "response_minutes": 46,
+    "sla_due_at": "2026-07-27T23:15:32Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-08-29T12:38:38Z",
+    "lead_id": "LD-US-00138",
+    "response_minutes": 16,
+    "sla_due_at": "2026-08-29T12:52:38Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-08-22T19:09:37Z",
+    "lead_id": "LD-US-00139",
+    "response_minutes": 4,
+    "sla_due_at": "2026-08-22T19:35:37Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-104",
+    "first_response_at": "2026-07-30T12:42:23Z",
+    "lead_id": "LD-US-00140",
+    "response_minutes": 50,
+    "sla_due_at": "2026-07-30T12:22:23Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-07-31T22:13:32Z",
+    "lead_id": "LD-US-00141",
+    "response_minutes": 11,
+    "sla_due_at": "2026-07-31T22:32:32Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-08-29T06:01:04Z",
+    "lead_id": "LD-US-00142",
+    "response_minutes": 24,
+    "sla_due_at": "2026-08-29T06:07:04Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-08-25T17:35:49Z",
+    "lead_id": "LD-US-00143",
+    "response_minutes": 263,
+    "sla_due_at": "2026-08-25T13:42:49Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-07-21T18:42:51Z",
+    "lead_id": "LD-US-00144",
+    "response_minutes": 25,
+    "sla_due_at": "2026-07-21T18:47:51Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-08-19T01:14:51Z",
+    "lead_id": "LD-US-00145",
+    "response_minutes": 47,
+    "sla_due_at": "2026-08-19T00:57:51Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-07-23T20:50:31Z",
+    "lead_id": "LD-US-00146",
+    "response_minutes": 55,
+    "sla_due_at": "2026-07-23T20:25:31Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-07-30T02:06:52Z",
+    "lead_id": "LD-US-00147",
+    "response_minutes": 369,
+    "sla_due_at": "2026-07-29T20:27:52Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-08-17T14:07:15Z",
+    "lead_id": "LD-US-00148",
+    "response_minutes": 48,
+    "sla_due_at": "2026-08-17T13:49:15Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-08-09T12:12:35Z",
+    "lead_id": "LD-US-00149",
+    "response_minutes": 7,
+    "sla_due_at": "2026-08-09T12:35:35Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-08-14T09:46:50Z",
+    "lead_id": "LD-US-00150",
+    "response_minutes": 32,
+    "sla_due_at": "2026-08-14T09:44:50Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-07-29T15:57:25Z",
+    "lead_id": "LD-US-00151",
+    "response_minutes": 46,
+    "sla_due_at": "2026-07-29T15:41:25Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-07-21T22:31:23Z",
+    "lead_id": "LD-US-00152",
+    "response_minutes": 33,
+    "sla_due_at": "2026-07-21T22:28:23Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-08-24T16:19:05Z",
+    "lead_id": "LD-US-00153",
+    "response_minutes": 28,
+    "sla_due_at": "2026-08-24T16:21:05Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-07-25T10:07:12Z",
+    "lead_id": "LD-US-00154",
+    "response_minutes": 18,
+    "sla_due_at": "2026-07-25T10:19:12Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-09-05T12:36:10Z",
+    "lead_id": "LD-US-00155",
+    "response_minutes": 38,
+    "sla_due_at": "2026-09-05T12:28:10Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-07-12T11:55:42Z",
+    "lead_id": "LD-US-00156",
+    "response_minutes": 19,
+    "sla_due_at": "2026-07-12T12:06:42Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-104",
+    "first_response_at": "2026-08-09T06:49:54Z",
+    "lead_id": "LD-US-00157",
+    "response_minutes": 21,
+    "sla_due_at": "2026-08-09T06:58:54Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-08-19T01:14:28Z",
+    "lead_id": "LD-US-00158",
+    "response_minutes": 44,
+    "sla_due_at": "2026-08-19T01:00:28Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-07-19T16:45:06Z",
+    "lead_id": "LD-US-00159",
+    "response_minutes": 22,
+    "sla_due_at": "2026-07-19T16:53:06Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-08-27T21:42:33Z",
+    "lead_id": "LD-US-00160",
+    "response_minutes": 19,
+    "sla_due_at": "2026-08-27T21:53:33Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-104",
+    "first_response_at": "2026-09-03T16:45:27Z",
+    "lead_id": "LD-US-00161",
+    "response_minutes": 36,
+    "sla_due_at": "2026-09-03T16:39:27Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-08-23T12:54:33Z",
+    "lead_id": "LD-US-00162",
+    "response_minutes": 44,
+    "sla_due_at": "2026-08-23T12:40:33Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-08-28T19:29:42Z",
+    "lead_id": "LD-US-00163",
+    "response_minutes": 48,
+    "sla_due_at": "2026-08-28T19:11:42Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-08-22T23:31:55Z",
+    "lead_id": "LD-US-00164",
+    "response_minutes": 32,
+    "sla_due_at": "2026-08-22T23:29:55Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-09-07T02:08:10Z",
+    "lead_id": "LD-US-00165",
+    "response_minutes": 37,
+    "sla_due_at": "2026-09-07T02:01:10Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-08-16T04:02:41Z",
+    "lead_id": "LD-US-00166",
+    "response_minutes": 11,
+    "sla_due_at": "2026-08-16T04:21:41Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-07-24T01:09:52Z",
+    "lead_id": "LD-US-00167",
+    "response_minutes": 20,
+    "sla_due_at": "2026-07-24T01:19:52Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-07-16T13:25:59Z",
+    "lead_id": "LD-US-00168",
+    "response_minutes": 12,
+    "sla_due_at": "2026-07-16T13:43:59Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-08-06T00:25:24Z",
+    "lead_id": "LD-US-00169",
+    "response_minutes": 11,
+    "sla_due_at": "2026-08-06T00:44:24Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-08-20T14:53:12Z",
+    "lead_id": "LD-US-00170",
+    "response_minutes": 52,
+    "sla_due_at": "2026-08-20T14:31:12Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-09-06T20:41:54Z",
+    "lead_id": "LD-US-00171",
+    "response_minutes": 38,
+    "sla_due_at": "2026-09-06T20:33:54Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-08-31T08:51:59Z",
+    "lead_id": "LD-US-00172",
+    "response_minutes": 8,
+    "sla_due_at": "2026-08-31T09:13:59Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-08-14T08:16:44Z",
+    "lead_id": "LD-US-00173",
+    "response_minutes": 55,
+    "sla_due_at": "2026-08-14T07:51:44Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-08-20T21:42:53Z",
+    "lead_id": "LD-US-00174",
+    "response_minutes": 7,
+    "sla_due_at": "2026-08-20T22:05:53Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-08-19T23:24:31Z",
+    "lead_id": "LD-US-00175",
+    "response_minutes": 11,
+    "sla_due_at": "2026-08-19T23:43:31Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-07-26T20:49:11Z",
+    "lead_id": "LD-US-00176",
+    "response_minutes": 21,
+    "sla_due_at": "2026-07-26T20:58:11Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-08-12T17:06:05Z",
+    "lead_id": "LD-US-00177",
+    "response_minutes": 36,
+    "sla_due_at": "2026-08-12T17:00:05Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-08-14T16:04:22Z",
+    "lead_id": "LD-US-00178",
+    "response_minutes": 51,
+    "sla_due_at": "2026-08-14T15:43:22Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-08-10T19:00:36Z",
+    "lead_id": "LD-US-00179",
+    "response_minutes": 24,
+    "sla_due_at": "2026-08-10T19:06:36Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-07-20T06:07:48Z",
+    "lead_id": "LD-US-00180",
+    "response_minutes": 40,
+    "sla_due_at": "2026-07-20T05:57:48Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-08-06T04:14:46Z",
+    "lead_id": "LD-US-00181",
+    "response_minutes": 102,
+    "sla_due_at": "2026-08-06T03:02:46Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-09-06T16:15:13Z",
+    "lead_id": "LD-US-00182",
+    "response_minutes": 23,
+    "sla_due_at": "2026-09-06T16:22:13Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-08-14T17:09:59Z",
+    "lead_id": "LD-US-00183",
+    "response_minutes": 181,
+    "sla_due_at": "2026-08-14T14:38:59Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-08-07T05:26:04Z",
+    "lead_id": "LD-US-00184",
+    "response_minutes": 297,
+    "sla_due_at": "2026-08-07T00:59:04Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-09-08T17:20:58Z",
+    "lead_id": "LD-US-00185",
+    "response_minutes": 50,
+    "sla_due_at": "2026-09-08T17:00:58Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-08-10T19:04:00Z",
+    "lead_id": "LD-US-00186",
+    "response_minutes": 16,
+    "sla_due_at": "2026-08-10T19:18:00Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-07-26T18:19:40Z",
+    "lead_id": "LD-US-00187",
+    "response_minutes": 33,
+    "sla_due_at": "2026-07-26T18:16:40Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-07-24T22:57:59Z",
+    "lead_id": "LD-US-00188",
+    "response_minutes": 14,
+    "sla_due_at": "2026-07-24T23:13:59Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-07-15T08:13:22Z",
+    "lead_id": "LD-US-00189",
+    "response_minutes": 16,
+    "sla_due_at": "2026-07-15T08:27:22Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-08-20T05:50:50Z",
+    "lead_id": "LD-US-00190",
+    "response_minutes": 16,
+    "sla_due_at": "2026-08-20T06:04:50Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-07-25T09:16:46Z",
+    "lead_id": "LD-US-00191",
+    "response_minutes": 39,
+    "sla_due_at": "2026-07-25T09:07:46Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-104",
+    "first_response_at": "2026-07-18T04:41:46Z",
+    "lead_id": "LD-US-00192",
+    "response_minutes": 30,
+    "sla_due_at": "2026-07-18T04:41:46Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-09-07T23:05:36Z",
+    "lead_id": "LD-US-00193",
+    "response_minutes": 7,
+    "sla_due_at": "2026-09-07T23:28:36Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-08-13T10:10:08Z",
+    "lead_id": "LD-US-00194",
+    "response_minutes": 43,
+    "sla_due_at": "2026-08-13T09:57:08Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-08-12T03:02:32Z",
+    "lead_id": "LD-US-00195",
+    "response_minutes": 22,
+    "sla_due_at": "2026-08-12T03:10:32Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-08-11T10:52:19Z",
+    "lead_id": "LD-US-00196",
+    "response_minutes": 45,
+    "sla_due_at": "2026-08-11T10:37:19Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-08-17T03:31:53Z",
+    "lead_id": "LD-US-00197",
+    "response_minutes": 17,
+    "sla_due_at": "2026-08-17T03:44:53Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-111",
+    "first_response_at": "2026-08-10T09:32:59Z",
+    "lead_id": "LD-US-00198",
+    "response_minutes": 44,
+    "sla_due_at": "2026-08-10T09:18:59Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-104",
+    "first_response_at": "2026-07-15T13:13:33Z",
+    "lead_id": "LD-US-00199",
+    "response_minutes": 19,
+    "sla_due_at": "2026-07-15T13:24:33Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-07-13T00:26:52Z",
+    "lead_id": "LD-US-00200",
+    "response_minutes": 51,
+    "sla_due_at": "2026-07-13T00:05:52Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-09-03T14:34:58Z",
+    "lead_id": "LD-US-00201",
+    "response_minutes": 17,
+    "sla_due_at": "2026-09-03T14:47:58Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-08-19T12:07:51Z",
+    "lead_id": "LD-US-00202",
+    "response_minutes": 43,
+    "sla_due_at": "2026-08-19T11:54:51Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-111",
+    "first_response_at": "2026-07-19T15:20:00Z",
+    "lead_id": "LD-US-00203",
+    "response_minutes": 6,
+    "sla_due_at": "2026-07-19T15:44:00Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-08-22T02:20:30Z",
+    "lead_id": "LD-US-00204",
+    "response_minutes": 29,
+    "sla_due_at": "2026-08-22T02:21:30Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-08-09T09:09:55Z",
+    "lead_id": "LD-US-00205",
+    "response_minutes": 24,
+    "sla_due_at": "2026-08-09T09:15:55Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-08-28T14:49:27Z",
+    "lead_id": "LD-US-00206",
+    "response_minutes": 31,
+    "sla_due_at": "2026-08-28T14:48:27Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-09-04T07:47:41Z",
+    "lead_id": "LD-US-00207",
+    "response_minutes": 47,
+    "sla_due_at": "2026-09-04T07:30:41Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-111",
+    "first_response_at": "2026-08-01T21:48:57Z",
+    "lead_id": "LD-US-00208",
+    "response_minutes": 48,
+    "sla_due_at": "2026-08-01T21:30:57Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-09-06T18:10:35Z",
+    "lead_id": "LD-US-00209",
+    "response_minutes": 52,
+    "sla_due_at": "2026-09-06T17:48:35Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-08-02T02:24:36Z",
+    "lead_id": "LD-US-00210",
+    "response_minutes": 18,
+    "sla_due_at": "2026-08-02T02:36:36Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-07-31T20:31:36Z",
+    "lead_id": "LD-US-00211",
+    "response_minutes": 30,
+    "sla_due_at": "2026-07-31T20:31:36Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-08-17T01:20:13Z",
+    "lead_id": "LD-US-00212",
+    "response_minutes": 19,
+    "sla_due_at": "2026-08-17T01:31:13Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-07-27T05:02:27Z",
+    "lead_id": "LD-US-00213",
+    "response_minutes": 3,
+    "sla_due_at": "2026-07-27T05:29:27Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-08-06T09:33:46Z",
+    "lead_id": "LD-US-00214",
+    "response_minutes": 29,
+    "sla_due_at": "2026-08-06T09:34:46Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-07-21T19:11:23Z",
+    "lead_id": "LD-US-00215",
+    "response_minutes": 7,
+    "sla_due_at": "2026-07-21T19:34:23Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-07-31T08:08:12Z",
+    "lead_id": "LD-US-00216",
+    "response_minutes": 24,
+    "sla_due_at": "2026-07-31T08:14:12Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-09-05T03:24:05Z",
+    "lead_id": "LD-US-00217",
+    "response_minutes": 187,
+    "sla_due_at": "2026-09-05T00:47:05Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-107",
+    "first_response_at": "2026-08-10T09:20:51Z",
+    "lead_id": "LD-US-00218",
+    "response_minutes": 21,
+    "sla_due_at": "2026-08-10T09:29:51Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-08-13T23:28:43Z",
+    "lead_id": "LD-US-00219",
+    "response_minutes": 27,
+    "sla_due_at": "2026-08-13T23:31:43Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-09-07T14:47:33Z",
+    "lead_id": "LD-US-00220",
+    "response_minutes": 27,
+    "sla_due_at": "2026-09-07T14:50:33Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-07-26T05:03:34Z",
+    "lead_id": "LD-US-00221",
+    "response_minutes": 51,
+    "sla_due_at": "2026-07-26T04:42:34Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-110",
+    "first_response_at": "2026-09-04T08:30:21Z",
+    "lead_id": "LD-US-00222",
+    "response_minutes": 31,
+    "sla_due_at": "2026-09-04T08:29:21Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-104",
+    "first_response_at": "2026-08-05T12:51:53Z",
+    "lead_id": "LD-US-00223",
+    "response_minutes": 5,
+    "sla_due_at": "2026-08-05T13:16:53Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-09-03T18:49:20Z",
+    "lead_id": "LD-US-00224",
+    "response_minutes": 305,
+    "sla_due_at": "2026-09-03T14:14:20Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-07-13T07:31:00Z",
+    "lead_id": "LD-US-00225",
+    "response_minutes": 46,
+    "sla_due_at": "2026-07-13T07:15:00Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-08-06T05:20:48Z",
+    "lead_id": "LD-US-00226",
+    "response_minutes": 33,
+    "sla_due_at": "2026-08-06T05:17:48Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-08-21T18:41:03Z",
+    "lead_id": "LD-US-00227",
+    "response_minutes": 22,
+    "sla_due_at": "2026-08-21T18:49:03Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-109",
+    "first_response_at": "2026-08-23T05:47:11Z",
+    "lead_id": "LD-US-00228",
+    "response_minutes": 39,
+    "sla_due_at": "2026-08-23T05:38:11Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-104",
+    "first_response_at": "2026-07-13T15:13:31Z",
+    "lead_id": "LD-US-00229",
+    "response_minutes": 51,
+    "sla_due_at": "2026-07-13T14:52:31Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-08-23T02:48:11Z",
+    "lead_id": "LD-US-00230",
+    "response_minutes": 52,
+    "sla_due_at": "2026-08-23T02:26:11Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-08-08T12:15:58Z",
+    "lead_id": "LD-US-00231",
+    "response_minutes": 41,
+    "sla_due_at": "2026-08-08T12:04:58Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-08-26T19:31:33Z",
+    "lead_id": "LD-US-00232",
+    "response_minutes": 4,
+    "sla_due_at": "2026-08-26T19:57:33Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-106",
+    "first_response_at": "2026-08-12T19:05:01Z",
+    "lead_id": "LD-US-00233",
+    "response_minutes": 378,
+    "sla_due_at": "2026-08-12T13:17:01Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-08-09T16:09:32Z",
+    "lead_id": "LD-US-00234",
+    "response_minutes": 27,
+    "sla_due_at": "2026-08-09T16:12:32Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-104",
+    "first_response_at": "2026-08-27T06:06:03Z",
+    "lead_id": "LD-US-00235",
+    "response_minutes": 44,
+    "sla_due_at": "2026-08-27T05:52:03Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-09-05T09:05:20Z",
+    "lead_id": "LD-US-00236",
+    "response_minutes": 15,
+    "sla_due_at": "2026-09-05T09:20:20Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-104",
+    "first_response_at": "2026-07-17T08:58:56Z",
+    "lead_id": "LD-US-00237",
+    "response_minutes": 21,
+    "sla_due_at": "2026-07-17T09:07:56Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-09-08T10:31:51Z",
+    "lead_id": "LD-US-00238",
+    "response_minutes": 27,
+    "sla_due_at": "2026-09-08T10:34:51Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": true,
+    "dealer_id": "D-103",
+    "first_response_at": "2026-08-20T06:03:18Z",
+    "lead_id": "LD-US-00239",
+    "response_minutes": 95,
+    "sla_due_at": "2026-08-20T04:58:18Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-08-30T06:40:55Z",
+    "lead_id": "LD-US-00240",
+    "response_minutes": 27,
+    "sla_due_at": "2026-08-30T06:43:55Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-08-25T01:00:20Z",
+    "lead_id": "LD-US-00241",
+    "response_minutes": 14,
+    "sla_due_at": "2026-08-25T01:16:20Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-09-05T08:43:56Z",
+    "lead_id": "LD-US-00242",
+    "response_minutes": 18,
+    "sla_due_at": "2026-09-05T08:55:56Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-111",
+    "first_response_at": "2026-08-15T22:47:00Z",
+    "lead_id": "LD-US-00243",
+    "response_minutes": 31,
+    "sla_due_at": "2026-08-15T22:46:00Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-101",
+    "first_response_at": "2026-07-25T07:09:52Z",
+    "lead_id": "LD-US-00244",
+    "response_minutes": 49,
+    "sla_due_at": "2026-07-25T06:50:52Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-07-24T02:40:47Z",
+    "lead_id": "LD-US-00245",
+    "response_minutes": 28,
+    "sla_due_at": "2026-07-24T02:42:47Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-105",
+    "first_response_at": "2026-09-03T02:44:49Z",
+    "lead_id": "LD-US-00246",
+    "response_minutes": 22,
+    "sla_due_at": "2026-09-03T02:52:49Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-102",
+    "first_response_at": "2026-09-01T21:45:32Z",
+    "lead_id": "LD-US-00247",
+    "response_minutes": 38,
+    "sla_due_at": "2026-09-01T21:37:32Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-08-03T16:09:41Z",
+    "lead_id": "LD-US-00248",
+    "response_minutes": 19,
+    "sla_due_at": "2026-08-03T16:20:41Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-108",
+    "first_response_at": "2026-08-02T08:09:35Z",
+    "lead_id": "LD-US-00249",
+    "response_minutes": 11,
+    "sla_due_at": "2026-08-02T08:28:35Z",
+    "sla_minutes": 30
+  },
+  {
+    "breached": false,
+    "dealer_id": "D-104",
+    "first_response_at": "2026-07-21T02:26:06Z",
+    "lead_id": "LD-US-00250",
+    "response_minutes": 13,
+    "sla_due_at": "2026-07-21T02:43:06Z",
+    "sla_minutes": 30
+  }
+]

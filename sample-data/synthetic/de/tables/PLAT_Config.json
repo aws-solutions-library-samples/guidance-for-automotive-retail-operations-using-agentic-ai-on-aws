@@ -1,0 +1,18 @@
+[
+  {
+    "autonomy_observation_days": 14,
+    "config_key": "tenant",
+    "effective_from": "2026-08-27T09:00:00Z",
+    "is_active": true,
+    "item_key": "tenant#de",
+    "lead_sla_minutes": 30,
+    "market_id": "de",
+    "quiet_hours_default": {
+      "end": "08:00",
+      "start": "20:00",
+      "tz": "Europe/Berlin"
+    },
+    "source_ref": "spec:§3.1 lead SLA 30min; plan:§3.11 observation fortnight",
+    "version": 1
+  }
+]

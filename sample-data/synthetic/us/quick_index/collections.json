@@ -1,0 +1,65 @@
+[
+  {
+    "collection_id": "KC-US-bulletins",
+    "doc_count": 12,
+    "index_target": "quick_index",
+    "kind": "bulletins",
+    "market_id": "us"
+  },
+  {
+    "collection_id": "KC-US-crm_notes",
+    "doc_count": 120,
+    "index_target": "quick_index",
+    "kind": "crm_notes",
+    "market_id": "us"
+  },
+  {
+    "collection_id": "KC-US-objection_strategies",
+    "doc_count": 17,
+    "index_target": "quick_index",
+    "kind": "objection_strategies",
+    "market_id": "us"
+  },
+  {
+    "collection_id": "KC-US-prior_plans",
+    "doc_count": 12,
+    "index_target": "quick_index",
+    "kind": "prior_plans",
+    "market_id": "us"
+  },
+  {
+    "collection_id": "KC-US-product_guides",
+    "doc_count": 7,
+    "index_target": "quick_index",
+    "kind": "product_guides",
+    "market_id": "us"
+  },
+  {
+    "collection_id": "KC-US-repair_procedures",
+    "doc_count": 13,
+    "index_target": "quick_index",
+    "kind": "repair_procedures",
+    "market_id": "us"
+  },
+  {
+    "collection_id": "KC-US-templates",
+    "doc_count": 42,
+    "index_target": "quick_index",
+    "kind": "templates",
+    "market_id": "us"
+  },
+  {
+    "collection_id": "KC-US-transcripts",
+    "doc_count": 40,
+    "index_target": "quick_index",
+    "kind": "transcripts",
+    "market_id": "us"
+  },
+  {
+    "collection_id": "KC-US-tsbs",
+    "doc_count": 7,
+    "index_target": "quick_index",
+    "kind": "tsbs",
+    "market_id": "us"
+  }
+]

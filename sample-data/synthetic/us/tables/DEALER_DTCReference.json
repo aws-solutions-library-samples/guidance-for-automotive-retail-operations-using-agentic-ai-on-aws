@@ -1,0 +1,51 @@
+[
+  {
+    "description": "Random/multiple cylinder misfire",
+    "dtc": "P0300",
+    "market_id": "us",
+    "source_ref": "curated:dtc_reference",
+    "system": "P"
+  },
+  {
+    "description": "Catalyst efficiency below threshold",
+    "dtc": "P0420",
+    "market_id": "us",
+    "source_ref": "curated:dtc_reference",
+    "system": "P"
+  },
+  {
+    "description": "EVAP large leak",
+    "dtc": "P0455",
+    "market_id": "us",
+    "source_ref": "curated:dtc_reference",
+    "system": "P"
+  },
+  {
+    "description": "Battery voltage low",
+    "dtc": "B1318",
+    "market_id": "us",
+    "source_ref": "curated:dtc_reference",
+    "system": "B"
+  },
+  {
+    "description": "Replace hybrid battery pack",
+    "dtc": "P0A80",
+    "market_id": "us",
+    "source_ref": "curated:dtc_reference",
+    "system": "P"
+  },
+  {
+    "description": "Wheel speed sensor fault",
+    "dtc": "C1234",
+    "market_id": "us",
+    "source_ref": "curated:dtc_reference",
+    "system": "C"
+  },
+  {
+    "description": "Lost comms with ECM",
+    "dtc": "U0100",
+    "market_id": "us",
+    "source_ref": "curated:dtc_reference",
+    "system": "U"
+  }
+]

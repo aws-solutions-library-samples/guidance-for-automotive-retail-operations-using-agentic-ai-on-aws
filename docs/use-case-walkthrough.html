@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Use case walkthrough: Automotive Retail Operations powered by Agentic AI</title>
+<meta name="description" content="The business use case and architecture of the Guidance for Automotive Retail Operations using Agentic AI on AWS, on one page.">
+<style>
+  :root {
+    --ink: #16191f; --muted: #414d5c; --line: #d5dbdb; --panel: #f2f3f3;
+    --squid: #232f3e; --accent: #b84d00; --link: #0b5fbd; --max: 1180px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { margin: 0; font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; color: var(--ink); background: #fff; }
+  a { color: var(--link); }
+  a:focus-visible, iframe:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+  .skip { position: absolute; left: -9999px; top: 0; background: #fff; padding: .6rem 1rem; z-index: 10; }
+  .skip:focus { left: 1rem; }
+  header.hero { background: var(--squid); color: #fff; padding: 3rem 1.25rem 2.5rem; }
+  header.hero .wrap { max-width: var(--max); margin: 0 auto; }
+  .eyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: .8rem; color: #ffb980; margin: 0 0 .5rem; }
+  header.hero h1 { font-size: clamp(1.8rem, 3.4vw, 2.6rem); line-height: 1.2; margin: 0 0 .8rem; }
+  header.hero p { max-width: 62rem; margin: 0 0 .8rem; color: #e9ecef; }
+  header.hero a { color: #9fd0ff; }
+  nav.toc { position: sticky; top: 0; z-index: 5; background: #fff; border-bottom: 1px solid var(--line); }
+  nav.toc ol { list-style: none; margin: 0 auto; padding: .6rem 1.25rem; max-width: var(--max); display: flex; flex-wrap: wrap; gap: .4rem 1.4rem; font-size: .92rem; }
+  nav.toc a { text-decoration: none; color: var(--muted); font-weight: 600; }
+  nav.toc a:hover { color: var(--link); text-decoration: underline; }
+  main { max-width: var(--max); margin: 0 auto; padding: 0 1.25rem 3rem; }
+  section { padding-top: 2.6rem; scroll-margin-top: 3.2rem; }
+  h2 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 .4rem; }
+  h3 { font-size: 1.2rem; margin: 2rem 0 .4rem; }
+  .lede { color: var(--muted); max-width: 62rem; margin-top: 0; }
+  .part { display: inline-block; font-size: .8rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); margin-bottom: .3rem; }
+  .grid3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; margin: 1.2rem 0; }
+  .card { border: 1px solid var(--line); border-radius: 8px; padding: 1rem 1.1rem; background: #fff; }
+  .card h3 { margin: 0 0 .4rem; font-size: 1.05rem; }
+  .card p { margin: 0; color: var(--muted); font-size: .95rem; }
+  .story { margin: 1.4rem 0 .6rem; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: #0f141a; }
+  .story iframe { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; background: #0f141a; }
+  .story-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem; font-size: .9rem; color: var(--muted); margin-bottom: 1.6rem; }
+  figure { margin: 1.4rem 0 2rem; }
+  figure a.img { display: block; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  figure img { display: block; width: 100%; height: auto; }
+  figcaption { margin-top: .6rem; }
+  figcaption strong { display: block; font-size: 1.05rem; }
+  figcaption ol, figcaption ul { margin: .4rem 0 0; padding-left: 1.3rem; color: var(--muted); font-size: .95rem; }
+  .bridge { background: var(--panel); border-left: 4px solid var(--accent); padding: .8rem 1rem; border-radius: 0 6px 6px 0; margin: 1rem 0 0; font-size: .95rem; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .95rem; }
+  th, td { text-align: left; padding: .55rem .7rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { background: var(--panel); }
+  td.num { text-align: right; white-space: nowrap; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 1rem; margin: 1rem 0; }
+  .kpi { border: 1px solid var(--line); border-radius: 8px; padding: .9rem 1rem; }
+  .kpi b { display: block; font-size: 1.5rem; color: var(--squid); }
+  .kpi span { color: var(--muted); font-size: .9rem; }
+  footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; padding: 1.5rem 1.25rem 2.5rem; }
+  footer .wrap { max-width: var(--max); margin: 0 auto; }
+  @media print { nav.toc { position: static; } .story { display: none; } .story-meta::before { content: "Interactive story: open the linked file in a browser."; } }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Guidance for Automotive Retail Operations using Agentic AI on AWS</p>
+    <h1>One journey, lead to service: the use case and how it is built</h1>
+    <p>This page puts the business story and the architecture side by side. Each part opens with a short interactive story of the people and agents at work, followed by the architecture diagrams that implement it.</p>
+    <p>Use the play control at the bottom of each story to play, pause and scrub. Select a diagram to open it full size. Deployment steps and cost are in the <a href="../README.md">README</a>.</p>
+  </div>
+</header>
+
+<nav class="toc" aria-label="On this page">
+  <ol>
+    <li><a href="#problem">The problem</a></li>
+    <li><a href="#dealer">Part 1: Dealer journey</a></li>
+    <li><a href="#oem">Part 2: OEM field sales</a></li>
+    <li><a href="#agents">The seven agents</a></li>
+    <li><a href="#deploy">What gets deployed</a></li>
+  </ol>
+</nav>
+
+<main id="main">
+
+<section id="problem" aria-labelledby="problem-h">
+  <h2 id="problem-h">The problem: every handoff loses the customer</h2>
+  <p class="lede">A vehicle purchase and its service visits cross many systems that each optimize their own step: the CRM owns the lead, the dealer management system (DMS) owns the deal and the repair order, valuation tools own the trade-in, marketing platforms own the campaign, and scheduling and inspection tools own the service visit. None of them sees the whole customer, so context is lost at each handoff, and people re-key, look up and chase information by hand while the buyer waits.</p>
+  <div class="grid3">
+    <div class="card"><h3>One shared journey record</h3><p>Sales and service run as two state machines, DISCOVER → OWN and BOOK → FOLLOW-UP, that share one customer record and talk only through events and recorded handoffs.</p></div>
+    <div class="card"><h3>Agents that do the legwork</h3><p>Seven agents draft first responses, prepare trade-in and finance options, build estimates and turn service-lane equity into the next sale. Every figure comes from a deterministic service, with its source.</p></div>
+    <div class="card"><h3>People stay in control</h3><p>Agents start at <em>recommend</em>: they write cards, leads and drafts for a person to approve. Amazon Bedrock Guardrails check every model call.</p></div>
+  </div>
+</section>
+
+<section id="dealer" aria-labelledby="dealer-h">
+  <span class="part">Part 1</span>
+  <h2 id="dealer-h">Agents for your team and your customer: one journey, lead to service</h2>
+  <p class="lede">Follow one buyer from an online lead through sale, finance, delivery and the first service visit, and see which agent helps each role at each handoff.</p>
+
+  <div class="story">
+    <iframe src="../assets/story-01-agents-one-journey-lead-to-service.html"
+            title="Interactive story: agents for your team and your customer, one journey from lead to service"
+            loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  </div>
+  <p class="story-meta"><span>Interactive story, about 1920 × 1080. Sound may play when you press play.</span>
+    <a href="../assets/story-01-agents-one-journey-lead-to-service.html" target="_blank" rel="noopener">Open the story full screen<span class="skip"> (opens in a new tab)</span></a></p>
+
+  <h3>How it is built</h3>
+
+  <figure id="arch-overview">
+    <a class="img" href="../assets/images/architecture-01-end-to-end-overview.png" target="_blank" rel="noopener">
+      <img src="../assets/images/architecture-01-end-to-end-overview.png" loading="lazy" width="2667" height="1500"
+           alt="End-to-end overview: the sales journey (DISCOVER to OWN) and the service journey (BOOK to FOLLOW-UP) run as two independent state machines that communicate only through Amazon EventBridge events and recorded handoffs, with a read-only service-lane projection for the sales floor">
+    </a>
+    <figcaption>
+      <strong>End-to-end overview</strong>
+      The sales journey and the service journey run as two independent state machines. The Purchase Journey supervisor advances DISCOVER → OWN; the Service Journey supervisor runs BOOK → FOLLOW-UP. They share no synchronous call path: delivery (DELIVER → OWN) emits an event that opens service eligibility, and an equity signal in the service lane becomes a recorded handoff that opens a new sales journey.
+    </figcaption>
+  </figure>
+
+  <figure id="arch-sales">
+    <a class="img" href="../assets/images/architecture-02-sales-flow.png" target="_blank" rel="noopener">
+      <img src="../assets/images/architecture-02-sales-flow.png" loading="lazy" width="2667" height="1500"
+           alt="Sales flow architecture: lead response with Amazon Bedrock and Amazon SES or SNS, live floor coaching with Amazon Bedrock, trade and finance with Amazon Bedrock AgentCore Code Interpreter and AWS Secrets Manager, journey orchestration with Amazon EventBridge, EventBridge Scheduler and AWS Step Functions, delivery, and audit and analytics with Amazon Data Firehose and Amazon Athena">
+    </a>
+    <figcaption>
+      <strong>Sales flow: lead to delivery</strong>
+      <ol>
+        <li>Every request takes the same path: Amazon CloudFront, Amazon Cognito, Amazon API Gateway, AWS Lambda and Amazon DynamoDB, with no model call on page load.</li>
+        <li>An inbound lead gets a drafted first response from the Sales Agent on Amazon Bedrock.</li>
+        <li>On the sales floor, the advisor sees ranked vehicle matches, objection handling and the next best action.</li>
+        <li>Trade-in equity, payments and total cost of ownership are calculated in AgentCore Code Interpreter, so every number is auditable.</li>
+        <li>A stage gate checks each handoff; Step Functions routes approvals above the autonomy ceiling.</li>
+        <li>Delivery moves the journey to OWN, which My Garage reads.</li>
+        <li>Every tool call lands in the agent-trace table and the event lake.</li>
+      </ol>
+    </figcaption>
+  </figure>
+
+  <figure id="arch-service">
+    <a class="img" href="../assets/images/architecture-03-service-flow.png" target="_blank" rel="noopener">
+      <img src="../assets/images/architecture-03-service-flow.png" loading="lazy" width="2667" height="1500"
+           alt="Service flow architecture: booking with Amazon DynamoDB and AWS Lambda, check-in and inspection with Amazon Bedrock, estimate with Amazon Bedrock AgentCore, customer approval through an Amazon Cognito magic link, repair to ready driven by Amazon EventBridge, and follow-up and audit with EventBridge Scheduler and Amazon Athena">
+    </a>
+    <figcaption>
+      <strong>Service flow: booking to follow-up</strong>
+      <ol>
+        <li>My Garage books against due maintenance, open recalls and prior declines; a Lambda function computes bay capacity and the promised time.</li>
+        <li>At check-in and inspection, the Service Agent writes the repair-order brief and joins trouble codes to cited service bulletins.</li>
+        <li>The estimate is priced in Code Interpreter; every line carries its source.</li>
+        <li>The customer approves line items on a phone; decisions and declines are stored.</li>
+        <li>A parts-received event moves the repair order to REPAIR and re-forecasts the promise.</li>
+        <li>Scheduled jobs drive approval chasing and 30/60/90-day follow-up.</li>
+      </ol>
+    </figcaption>
+  </figure>
+
+  <figure id="arch-handoff">
+    <a class="img" href="../assets/images/architecture-04-service-to-sales-handoff.png" target="_blank" rel="noopener">
+      <img src="../assets/images/architecture-04-service-to-sales-handoff.png" loading="lazy" width="2667" height="1500"
+           alt="Service to sales handoff architecture: a nightly EventBridge Scheduler job computes equity, a service-lane-monitor job scores today's repair orders, Amazon Bedrock writes an upsell brief, AWS Lambda records the handoff in Amazon DynamoDB and publishes it on Amazon EventBridge, a new DISCOVER journey opens, and Amazon Data Firehose and Amazon Athena attribute the handoff to the eventual delivery">
+    </a>
+    <figcaption>
+      <strong>Service to sales handoff: the next purchase</strong>
+      A nightly job computes vehicle equity, and the service-lane monitor flags positive equity, high mileage and lease-end on today's repair orders. The Sales Agent writes an upsell brief grounded on the inspection and declined work. The handoff is recorded and published as an event, and the Journey Agent opens a new DISCOVER journey. One correlation ID lets the event lake attribute the eventual delivery back to the service visit.
+    </figcaption>
+  </figure>
+
+  <p class="bridge">In the story: the first response, trade-in and finance desks map to the sales flow; the booking, inspection, estimate and approval scenes map to the service flow; the "upgrade signal" in the service lane is the handoff.</p>
+</section>
+
+<section id="oem" aria-labelledby="oem-h">
+  <span class="part">Part 2</span>
+  <h2 id="oem-h">Sales operations, simplified with Amazon Quick Flows</h2>
+  <p class="lede">One input in, a finished draft out. Eight Flows give the OEM district manager and sales operations a cited draft from live, scoped dealer data: District Roll-up, Sales Ops Digest, Account Plan, Opportunity Brief, Meeting Package, Win Strategy, Contact Report and Action Plan.</p>
+
+  <div class="story">
+    <iframe src="../assets/story-02-sales-operations-quick-flows.html"
+            title="Interactive story: sales operations simplified with Amazon Quick Flows, eight Flows for the district manager and sales operations"
+            loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  </div>
+  <p class="story-meta"><span>Interactive story, about 1920 × 1080. Sound may play when you press play.</span>
+    <a href="../assets/story-02-sales-operations-quick-flows.html" target="_blank" rel="noopener">Open the story full screen<span class="skip"> (opens in a new tab)</span></a></p>
+
+  <h3>How it is built</h3>
+
+  <figure id="arch-field">
+    <a class="img" href="../assets/images/architecture-06-oem-field-sales.png" target="_blank" rel="noopener">
+      <img src="../assets/images/architecture-06-oem-field-sales.png" loading="lazy" width="2667" height="1500"
+           alt="OEM field sales architecture: the OEM field team opens Amazon Quick, whose shared space holds the Field Sales chat agent, eight Flows, a topic, a dashboard and nine knowledge bases; an MCP connector authenticates with Amazon Cognito and AWS Secrets Manager and reads scoped dealer data through the Amazon Bedrock AgentCore Gateway, AWS Lambda and Amazon DynamoDB; the event lake flows from Amazon Data Firehose to Amazon S3, AWS Glue and Amazon Athena">
+    </a>
+    <figcaption>
+      <strong>OEM field sales in Amazon Quick</strong>
+      <ol>
+        <li>District managers, regional leads, planners, marketing and finance sign in to Amazon Quick, or open the OEM Workspace from the console.</li>
+        <li>One shared Quick space holds the Field Sales chat agent, the eight Flows, the Journey Funnel topic, the Campaign ROI &amp; Funnel dashboard and nine knowledge bases.</li>
+        <li>An MCP connector gets a token from Amazon Cognito, with its client secret in AWS Secrets Manager.</li>
+        <li>The AgentCore Gateway checks the token and calls a Lambda function that derives the OEM scope and returns cited rows through four read-only tools.</li>
+        <li>Amazon Data Firehose streams every journey and service event to the S3 lake; AWS Glue catalogs it and Amazon Athena queries it.</li>
+        <li>The knowledge corpus (538 documents, contact details masked) feeds the knowledge bases.</li>
+        <li>Every Flow ends in a cited draft that a person reviews before it is sent, checked against OEM policy rules GR-001 to GR-008.</li>
+      </ol>
+    </figcaption>
+  </figure>
+
+  <figure id="arch-marketing">
+    <a class="img" href="../assets/images/architecture-05-marketing-analytics.png" target="_blank" rel="noopener">
+      <img src="../assets/images/architecture-05-marketing-analytics.png" loading="lazy" width="2667" height="1500"
+           alt="Marketing analytics architecture: Amazon Data Firehose lands events in Amazon S3 catalogued by AWS Glue, a nightly attribution job queries Amazon Athena, Amazon Bedrock recommends budget shifts, AWS Step Functions routes approval, approved policy is published to Amazon DynamoDB and Amazon Quick through the AgentCore Gateway, and a nurture job executes it">
+    </a>
+    <figcaption>
+      <strong>Marketing analytics: spend to delivered vehicles</strong>
+      Journey and service events land in the S3 event lake. A nightly attribution job joins marketing spend to delivered vehicles in Amazon Athena, and the Campaign Agent drafts a budget shift with a source for each figure. Step Functions routes the plan to finance for approval, the approved policy is published as versioned configuration, and a scheduled nurture job executes it.
+    </figcaption>
+  </figure>
+
+  <p class="bridge">In the story: each Flow's "Where the data comes from" panel is the path in the field sales diagram, from the input through the OEM Read Gateway and the funnel topic to the cited draft.</p>
+</section>
+
+<section id="agents" aria-labelledby="agents-h">
+  <h2 id="agents-h">The seven agents</h2>
+  <p class="lede">The console and Amazon Quick show agents by name only. Each agent is named for its job and serves one or both processes, or the OEM level above them.</p>
+  <table>
+    <caption class="skip">Agents, the work they do and where they run</caption>
+    <thead><tr><th scope="col">Agent</th><th scope="col">What it does</th><th scope="col">Where it works</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">Journey Agent</th><td>Supervises the purchase journey, DISCOVER → OWN; validates each stage handoff and builds the Sales Package</td><td>Sales process</td></tr>
+      <tr><th scope="row">Discovery Agent</th><td>Lifestyle intake and ranked vehicle matches, EV and ICE</td><td>Sales process</td></tr>
+      <tr><th scope="row">Sales Agent</th><td>First responses, live floor assistance and objection handling; upsell briefs from the service lane</td><td>Sales process</td></tr>
+      <tr><th scope="row">Trade-In Agent</th><td>Trade-in value, payoff and equity, with comparables</td><td>Sales process</td></tr>
+      <tr><th scope="row">Service Agent</th><td>Supervises the service journey, BOOK → FOLLOW-UP; repair-order briefs, estimates and follow-up</td><td>Service and ownership</td></tr>
+      <tr><th scope="row">Campaign Agent</th><td>Campaign attribution and budget-shift recommendations</td><td>OEM marketing</td></tr>
+      <tr><th scope="row">Field Sales Agent</th><td>Chat and the eight Flows for district managers and sales operations</td><td>OEM field sales, in Amazon Quick</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="deploy" aria-labelledby="deploy-h">
+  <h2 id="deploy-h">What gets deployed, and what it costs</h2>
+  <p class="lede">The one-click deployment (<code>deploy/guidance-deploy.sh</code>) runs unattended in a fresh account, verifies itself and prints the console URL. It needs no Docker, CDK, CloudFormation or third-party key. Amazon Quick is an optional add-on.</p>
+  <div class="kpis">
+    <div class="kpi"><b>6</b><span>agent runtimes on Amazon Bedrock AgentCore</span></div>
+    <div class="kpi"><b>68</b><span>on-demand Amazon DynamoDB tables</span></div>
+    <div class="kpi"><b>17</b><span>AWS Lambda functions for the API, events and scheduled agent jobs</span></div>
+    <div class="kpi"><b>2</b><span>Amazon Bedrock Guardrails on every model call</span></div>
+  </div>
+  <table>
+    <caption class="skip">Estimated monthly cost by scenario</caption>
+    <thead><tr><th scope="col">Scenario (fictional OEMs from the synthetic data)</th><th scope="col" class="num">Per month</th><th scope="col" class="num">Per dealer</th></tr></thead>
+    <tbody>
+      <tr><td>Pilot: Meridian Motors (US), 11 dealers, 72 users</td><td class="num">$693.14</td><td class="num">$63.01</td></tr>
+      <tr><td>Regional rollout: Meridian Motors (US) + Nordwerk Automobile (DE), 100 dealers, 1,000 users</td><td class="num">$6,121.38</td><td class="num">$61.21</td></tr>
+    </tbody>
+  </table>
+  <p>US East (N. Virginia), on-demand list prices, for the resources a default deployment creates; Amazon Bedrock model usage is most of it. The assumptions and unit prices are in the <a href="cost/cost-estimate.pdf">cost estimate (PDF)</a> and the editable <a href="cost/cost-estimate.xlsx">workbook</a>. Prices change; check the AWS Pricing Calculator before you rely on them.</p>
+  <p>Next: <a href="../README.md#deploy-the-guidance">Deploy the Guidance</a> · <a href="external/README.md">Documentation for customers and partners</a> · <a href="DEMO_WORKFLOWS.md">Step-by-step demo workflows</a></p>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>The data shown is synthetic: fictional brands and dealers, no real customer records.</p>
+    <p>Customers are responsible for making their own independent assessment of the information in this Guidance. This Guidance: (a) is for informational purposes only, (b) represents AWS current product offerings and practices, which are subject to change without notice, and (c) does not create any commitments or assurances from AWS and its affiliates, suppliers or licensors. AWS products or services are provided “as is” without warranties, representations, or conditions of any kind, whether express or implied. AWS responsibilities and liabilities to its customers are controlled by AWS agreements, and this Guidance is not part of, nor does it modify, any agreement between AWS and its customers.</p>
+    <p>© 2026 Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>

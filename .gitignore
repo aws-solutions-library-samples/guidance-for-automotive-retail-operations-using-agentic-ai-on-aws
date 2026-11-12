@@ -25,3 +25,31 @@ cdk.out
 **/data/**.csv
 
 .env
+
+### Retail Ops: local-only and generated files (README "Generated and local-only files") ###
+# Local deployment settings (may hold identity-provider secrets)
+deploy/config.env
+# Account-specific deployment state written by the deployers
+app/infra/*-config.json
+app/infra/*-config.*.json
+app/infra/l4-api.yaml
+# Presentation source, retired documents, reproducible evidence, raw open-data downloads
+docs/presentation/
+backup/
+sample-data/generated/
+sample-data/open/raw/
+# Evaluation reports other than the retained baseline
+app/eval/reports/*
+!app/eval/reports/agent-baseline.json
+
+### Python ###
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.log
+
+### Per-user agent tooling (AI-DLC), not part of the published sample ###
+AGENTS.md
+aidlc/

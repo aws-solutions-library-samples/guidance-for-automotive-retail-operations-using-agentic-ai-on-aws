@@ -1,0 +1,39 @@
+[
+  {
+    "confidence_threshold": 0.72,
+    "config_key": "suggestions",
+    "effective_from": "2026-08-11T09:00:00Z",
+    "is_active": true,
+    "item_key": "suggestions#us",
+    "market_id": "us",
+    "objection_types": [
+      "price_too_high",
+      "payment_too_high",
+      "range_anxiety",
+      "charging_access",
+      "resale_value",
+      "incentive_confusion",
+      "interest_rate",
+      "trade_value_low",
+      "timing_not_ready",
+      "competitor_better",
+      "trust_reliability",
+      "feature_missing",
+      "tariff_price_increase",
+      "repair_cost",
+      "can_it_wait",
+      "second_opinion",
+      "warranty_dispute"
+    ],
+    "precompute_stages": [
+      "DISCOVER",
+      "CONFIGURE",
+      "QUALIFY",
+      "BOOK",
+      "CHECK_IN"
+    ],
+    "precompute_stages_source": "spec:§3.3 (sales stages); spec:§2.1.1 + plan:§3.13 service-lane upsell briefs (BOOK, CHECK_IN)",
+    "source_ref": "spec:§3.3 A3 suggestion matrix; curated threshold",
+    "version": 1
+  }
+]

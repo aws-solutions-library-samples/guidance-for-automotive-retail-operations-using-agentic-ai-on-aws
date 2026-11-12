@@ -1,0 +1,32 @@
+[
+  {
+    "code": "gap",
+    "coverage_id": "COV-DE-gap",
+    "currency": "EUR",
+    "market_id": "de",
+    "name": "GAP",
+    "price_from": 580,
+    "source_ref": "synthetic:coverage_catalog",
+    "term_months": 36
+  },
+  {
+    "code": "vsc",
+    "coverage_id": "COV-DE-vsc",
+    "currency": "EUR",
+    "market_id": "de",
+    "name": "Service contract",
+    "price_from": 1422,
+    "source_ref": "synthetic:coverage_catalog",
+    "term_months": 48
+  },
+  {
+    "code": "maint",
+    "coverage_id": "COV-DE-maint",
+    "currency": "EUR",
+    "market_id": "de",
+    "name": "Prepaid maintenance",
+    "price_from": 1191,
+    "source_ref": "synthetic:coverage_catalog",
+    "term_months": 48
+  }
+]

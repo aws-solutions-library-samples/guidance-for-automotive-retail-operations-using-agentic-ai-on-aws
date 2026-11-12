@@ -1,0 +1,32 @@
+[
+  {
+    "code": "gap",
+    "coverage_id": "COV-US-gap",
+    "currency": "USD",
+    "market_id": "us",
+    "name": "GAP",
+    "price_from": 1136,
+    "source_ref": "synthetic:coverage_catalog",
+    "term_months": 48
+  },
+  {
+    "code": "vsc",
+    "coverage_id": "COV-US-vsc",
+    "currency": "USD",
+    "market_id": "us",
+    "name": "Service contract",
+    "price_from": 1652,
+    "source_ref": "synthetic:coverage_catalog",
+    "term_months": 60
+  },
+  {
+    "code": "maint",
+    "coverage_id": "COV-US-maint",
+    "currency": "USD",
+    "market_id": "us",
+    "name": "Prepaid maintenance",
+    "price_from": 441,
+    "source_ref": "synthetic:coverage_catalog",
+    "term_months": 60
+  }
+]

@@ -1,0 +1,566 @@
+[
+  {
+    "body": "Compact SUV",
+    "brand": "Meridian Motors",
+    "competitors": [
+      {
+        "base_price": 29250,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.51
+        },
+        "make": "Kestrel",
+        "model": "Trek 4",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 30100,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.51
+        },
+        "make": "Halden",
+        "model": "Alder",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 28700,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.65
+        },
+        "make": "Solari",
+        "model": "Dune",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 29500,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.59
+        },
+        "make": "Larkspur",
+        "model": "Fenland",
+        "source_url": null,
+        "verify": true
+      }
+    ],
+    "market_id": "us",
+    "model_id": "MER-CROSSTRAIL",
+    "name": "Meridian Crosstrail",
+    "powertrains": [
+      "ICE",
+      "HEV"
+    ],
+    "segment": "Small Sport Utility Vehicle 4WD",
+    "source_ref": "curated:lineup.json:MER-CROSSTRAIL",
+    "us_final_assembly": null
+  },
+  {
+    "body": "Mid-size SUV",
+    "brand": "Meridian Motors",
+    "competitors": [
+      {
+        "base_price": 39500,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.54
+        },
+        "make": "Kestrel",
+        "model": "Highmark",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 40200,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.45
+        },
+        "make": "Halden",
+        "model": "Summit 3R",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 36400,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.59
+        },
+        "make": "Verdant",
+        "model": "Ascent 8",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 39800,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.6
+        },
+        "make": "Larkspur",
+        "model": "Trailmark",
+        "source_url": null,
+        "verify": true
+      }
+    ],
+    "market_id": "us",
+    "model_id": "MER-RIDGELINE",
+    "name": "Meridian Ridgemark",
+    "powertrains": [
+      "ICE",
+      "HEV"
+    ],
+    "segment": "Standard Sport Utility Vehicle 4WD",
+    "source_ref": "curated:lineup.json:MER-RIDGELINE",
+    "us_final_assembly": null
+  },
+  {
+    "body": "3-row SUV",
+    "brand": "Meridian Motors",
+    "competitors": [
+      {
+        "base_price": 41000,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.49
+        },
+        "make": "Brightwater",
+        "model": "Harbor",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 38000,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.64
+        },
+        "make": "Solari",
+        "model": "Ridgeway",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 36400,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.52
+        },
+        "make": "Kitano",
+        "model": "Wayfinder",
+        "source_url": null,
+        "verify": true
+      }
+    ],
+    "market_id": "us",
+    "model_id": "MER-ATLASX",
+    "name": "Meridian Atlas X",
+    "powertrains": [
+      "ICE"
+    ],
+    "segment": "Standard Sport Utility Vehicle 4WD",
+    "source_ref": "curated:lineup.json:MER-ATLASX",
+    "us_final_assembly": null
+  },
+  {
+    "body": "Mid-size pickup",
+    "brand": "Meridian Motors",
+    "competitors": [
+      {
+        "base_price": 31600,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.46
+        },
+        "make": "Kestrel",
+        "model": "Canyon Pick",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 33400,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.45
+        },
+        "make": "Larkspur",
+        "model": "Scout Pick",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 31900,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.57
+        },
+        "make": "Brightwater",
+        "model": "Mesa Truck",
+        "source_url": null,
+        "verify": true
+      }
+    ],
+    "market_id": "us",
+    "model_id": "MER-TRAILHAND",
+    "name": "Meridian Trailhand",
+    "powertrains": [
+      "ICE",
+      "HEV"
+    ],
+    "segment": "Small Pickup Trucks 4WD",
+    "source_ref": "curated:lineup.json:MER-TRAILHAND",
+    "us_final_assembly": null
+  },
+  {
+    "body": "Compact EV crossover",
+    "brand": "Meridian Motors",
+    "competitors": [
+      {
+        "base_price": 34000,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.49
+        },
+        "make": "Brightwater",
+        "model": "Tide EV",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 33000,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.5
+        },
+        "make": "Solari",
+        "model": "Cove Electric",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 40000,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.6
+        },
+        "make": "Rheinmark",
+        "model": "Eco 4",
+        "source_url": null,
+        "verify": true
+      }
+    ],
+    "market_id": "us",
+    "model_id": "MER-VOLT-C",
+    "name": "Meridian Ion C",
+    "powertrains": [
+      "EV"
+    ],
+    "segment": "Small Sport Utility Vehicle 2WD",
+    "source_ref": "curated:lineup.json:MER-VOLT-C",
+    "us_final_assembly": true
+  },
+  {
+    "body": "Mid-size EV SUV",
+    "brand": "Meridian Motors",
+    "competitors": [
+      {
+        "base_price": 44990,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.45
+        },
+        "make": "Ampera",
+        "model": "Spark X",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 38000,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.46
+        },
+        "make": "Larkspur",
+        "model": "Stallion E",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 42600,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.5
+        },
+        "make": "Solari",
+        "model": "Lumen 5",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 42900,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.55
+        },
+        "make": "Verdant",
+        "model": "Pulse 6",
+        "source_url": null,
+        "verify": true
+      }
+    ],
+    "market_id": "us",
+    "model_id": "MER-VOLT-M",
+    "name": "Meridian Ion M",
+    "powertrains": [
+      "EV"
+    ],
+    "segment": "Standard Sport Utility Vehicle 4WD",
+    "source_ref": "curated:lineup.json:MER-VOLT-M",
+    "us_final_assembly": true
+  },
+  {
+    "body": "EV sedan",
+    "brand": "Meridian Motors",
+    "competitors": [
+      {
+        "base_price": 42490,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.63
+        },
+        "make": "Ampera",
+        "model": "Spark S",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 37900,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.64
+        },
+        "make": "Solari",
+        "model": "Lumen 6",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 52200,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.44
+        },
+        "make": "Brandt",
+        "model": "Arc E4",
+        "source_url": null,
+        "verify": true
+      }
+    ],
+    "market_id": "us",
+    "model_id": "MER-VOLT-S",
+    "name": "Meridian Ion S",
+    "powertrains": [
+      "EV"
+    ],
+    "segment": "Midsize Cars",
+    "source_ref": "curated:lineup.json:MER-VOLT-S",
+    "us_final_assembly": false
+  }
+]

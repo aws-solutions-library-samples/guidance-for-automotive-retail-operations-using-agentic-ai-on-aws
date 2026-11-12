@@ -1,0 +1,97 @@
+[
+  {
+    "annual_distance_default": 13500,
+    "brand": {
+      "captive_finance": "Meridian Financial Services",
+      "colors": {
+        "accent": "#E07A1F",
+        "primary": "#1F3A5F"
+      },
+      "name": "Meridian Motors",
+      "short": "Meridian",
+      "tagline": "Built for every road ahead"
+    },
+    "country": "US",
+    "credit_tiers": [
+      {
+        "apr": 4.9,
+        "fico_min": 781,
+        "tier": "Super Prime"
+      },
+      {
+        "apr": 6.4,
+        "fico_min": 661,
+        "tier": "Prime"
+      },
+      {
+        "apr": 9.8,
+        "fico_min": 601,
+        "tier": "Near Prime"
+      },
+      {
+        "apr": 14.5,
+        "fico_min": 501,
+        "tier": "Subprime"
+      }
+    ],
+    "currency": "USD",
+    "currency_symbol": "$",
+    "distance_unit": "mi",
+    "efficiency_unit_ev": "mpge",
+    "efficiency_unit_ice": "mpg",
+    "energy_price_default": 0.1636,
+    "finance_products": [
+      {
+        "code": "RETAIL",
+        "name": "Retail installment",
+        "terms_months": [
+          36,
+          48,
+          60,
+          72
+        ]
+      },
+      {
+        "code": "LEASE",
+        "name": "Lease",
+        "terms_months": [
+          24,
+          36,
+          39
+        ]
+      },
+      {
+        "code": "BALLOON",
+        "name": "Balloon",
+        "terms_months": [
+          48,
+          60
+        ]
+      }
+    ],
+    "fuel_price_default": 4.295,
+    "fuel_unit": "gal",
+    "incentive_tiers": [
+      "federal",
+      "state",
+      "utility",
+      "oem"
+    ],
+    "list_price_includes_tax": false,
+    "locale": "en-US",
+    "market_id": "us",
+    "phone_format": "(xxx) xxx-xxxx",
+    "region_dimension": "state",
+    "regulatory_disclosures": [
+      "TILA/Reg Z payment disclosure",
+      "State doc-fee disclosure"
+    ],
+    "source_refs": [
+      "eia_gasoline_weekly",
+      "eia_electricity_state:GA",
+      "curated:us/state_rules.csv"
+    ],
+    "tax_model": "state_sales_tax",
+    "timezone_default": "America/New_York"
+  }
+]

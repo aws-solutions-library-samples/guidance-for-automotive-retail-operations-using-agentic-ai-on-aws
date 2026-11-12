@@ -1,0 +1,598 @@
+state,geoid,place,lat,lon,land_sqmi,source_ref
+AK,0270540,Sitka city and,57.1932,-135.3674,2870.1,census_gazetteer_places:2023:0270540
+AK,0236400,Juneau city and,58.37291,-134.17845,2704.2,census_gazetteer_places:2023:0236400
+AK,0286380,Wrangell city and,56.18078,-132.02679,2556.1,census_gazetteer_places:2023:0286380
+AK,0203000,Anchorage,61.17425,-149.28433,1707.0,census_gazetteer_places:2023:0203000
+AK,0282200,Valdez,61.08362,-146.31718,212.9,census_gazetteer_places:2023:0282200
+AK,0280770,Unalaska,53.91025,-166.52903,102.2,census_gazetteer_places:2023:0280770
+AK,0253930,Nightmute,60.4624,-164.83464,99.0,census_gazetteer_places:2023:0253930
+AK,0246890,Manokotak,58.72729,-158.90644,73.1,census_gazetteer_places:2023:0246890
+AK,0201090,Akutan,54.13998,-165.76303,66.0,census_gazetteer_places:2023:0201090
+AK,0217410,Cordova,60.53014,-145.64207,61.3,census_gazetteer_places:2023:0217410
+AK,0216530,Cold Bay,55.21552,-162.77555,53.4,census_gazetteer_places:2023:0216530
+AK,0261080,Platinum,58.95258,-161.74703,47.3,census_gazetteer_places:2023:0261080
+AL,0137000,Huntsville,34.69772,-86.67667,223.6,census_gazetteer_places:2023:0137000
+AL,0151000,Montgomery,32.3485,-86.26731,159.9,census_gazetteer_places:2023:0151000
+AL,0107000,Birmingham,33.52717,-86.79704,147.1,census_gazetteer_places:2023:0107000
+AL,0150000,Mobile,30.66843,-88.10023,139.5,census_gazetteer_places:2023:0150000
+AL,0121184,Dothan,31.2337,-85.40682,89.8,census_gazetteer_places:2023:0121184
+AL,0103076,Auburn,32.60781,-85.49475,62.5,census_gazetteer_places:2023:0103076
+AL,0177256,Tuscaloosa,33.2344,-87.5283,62.1,census_gazetteer_places:2023:0177256
+AL,0157048,Opelika,32.66074,-85.37889,61.2,census_gazetteer_places:2023:0157048
+AL,0124568,Eufaula,31.90994,-85.15271,59.5,census_gazetteer_places:2023:0124568
+AL,0127616,Fort Payne,34.45733,-85.68945,56.4,census_gazetteer_places:2023:0127616
+AL,0120104,Decatur,34.57299,-86.9899,54.6,census_gazetteer_places:2023:0120104
+AL,0168736,Scottsboro,34.64462,-86.04815,50.6,census_gazetteer_places:2023:0168736
+AR,0541000,Little Rock,34.72539,-92.35856,120.3,census_gazetteer_places:2023:0541000
+AR,0535710,Jonesboro,35.81976,-90.67903,80.2,census_gazetteer_places:2023:0535710
+AR,0524550,Fort Smith,35.34928,-94.37088,64.2,census_gazetteer_places:2023:0524550
+AR,0523290,Fayetteville,36.07146,-94.16656,54.8,census_gazetteer_places:2023:0523290
+AR,0550450,North Little Rock,34.78175,-92.23506,53.0,census_gazetteer_places:2023:0550450
+AR,0566080,Springdale,36.19144,-94.15506,49.8,census_gazetteer_places:2023:0566080
+AR,0515190,Conway,35.0744,-92.467,46.6,census_gazetteer_places:2023:0515190
+AR,0504840,Bella Vista,36.46664,-94.26632,45.3,census_gazetteer_places:2023:0504840
+AR,0555310,Pine Bluff,34.21159,-92.01756,44.2,census_gazetteer_places:2023:0555310
+AR,0568810,Texarkana,33.43634,-93.98712,42.0,census_gazetteer_places:2023:0568810
+AR,0560410,Rogers,36.31809,-94.15229,38.9,census_gazetteer_places:2023:0560410
+AR,0533400,Hot Springs,34.48944,-93.05025,37.6,census_gazetteer_places:2023:0533400
+AZ,0455000,Phoenix,33.57215,-112.09013,518.3,census_gazetteer_places:2023:0455000
+AZ,0407940,Buckeye,33.43157,-112.64163,394.8,census_gazetteer_places:2023:0407940
+AZ,0477000,Tucson,32.15304,-110.87077,242.2,census_gazetteer_places:2023:0477000
+AZ,0428380,Goodyear,33.25403,-112.36647,191.3,census_gazetteer_places:2023:0428380
+AZ,0465000,Scottsdale,33.68427,-111.86145,184.0,census_gazetteer_places:2023:0465000
+AZ,0454050,Peoria,33.78619,-112.30804,176.7,census_gazetteer_places:2023:0454050
+AZ,0466820,Sierra Vista,31.56541,-110.31451,152.4,census_gazetteer_places:2023:0466820
+AZ,0446000,Mesa,33.40063,-111.71649,141.4,census_gazetteer_places:2023:0446000
+AZ,0444270,Marana,32.46594,-111.1354,121.1,census_gazetteer_places:2023:0444270
+AZ,0485540,Yuma,32.51629,-114.52178,121.0,census_gazetteer_places:2023:0485540
+AZ,0422360,Eloy,32.74126,-111.59401,114.7,census_gazetteer_places:2023:0422360
+AZ,0410530,Casa Grande,32.90692,-111.76349,113.8,census_gazetteer_places:2023:0410530
+CA,0644000,Los Angeles,34.01939,-118.41083,470.5,census_gazetteer_places:2023:0644000
+CA,0666000,San Diego,32.81498,-117.13556,326.1,census_gazetteer_places:2023:0666000
+CA,0609780,California City,35.14659,-117.86935,203.6,census_gazetteer_places:2023:0609780
+CA,0668000,San Jose,37.29601,-121.81455,177.9,census_gazetteer_places:2023:0668000
+CA,0603526,Bakersfield,35.35317,-119.03792,150.3,census_gazetteer_places:2023:0603526
+CA,0627000,Fresno,36.78268,-119.79336,115.8,census_gazetteer_places:2023:0627000
+CA,0655156,Palmdale,34.59104,-118.1054,106.1,census_gazetteer_places:2023:0655156
+CA,0664000,Sacramento,38.56769,-121.46816,98.6,census_gazetteer_places:2023:0664000
+CA,0655254,Palm Springs,33.80336,-116.53828,94.5,census_gazetteer_places:2023:0655254
+CA,0640130,Lancaster,34.69356,-118.1753,94.3,census_gazetteer_places:2023:0640130
+CA,0662000,Riverside,33.93814,-117.39317,81.1,census_gazetteer_places:2023:0662000
+CA,0626000,Fremont,37.49446,-121.94115,78.1,census_gazetteer_places:2023:0626000
+CO,0816000,Colorado Springs,38.86726,-104.76075,201.9,census_gazetteer_places:2023:0816000
+CO,0804000,Aurora,39.70363,-104.72009,163.0,census_gazetteer_places:2023:0804000
+CO,0820000,Denver,39.76185,-104.88111,153.1,census_gazetteer_places:2023:0820000
+CO,0827425,Fort Collins,40.54822,-105.06483,57.2,census_gazetteer_places:2023:0827425
+CO,0862000,Pueblo,38.26923,-104.61082,56.5,census_gazetteer_places:2023:0862000
+CO,0832155,Greeley,40.41403,-104.77104,49.4,census_gazetteer_places:2023:0832155
+CO,0843000,Lakewood,39.69894,-105.11757,43.5,census_gazetteer_places:2023:0843000
+CO,0831660,Grand Junction,39.08906,-108.56745,40.6,census_gazetteer_places:2023:0831660
+CO,0803455,Arvada,39.83373,-105.15031,39.0,census_gazetteer_places:2023:0803455
+CO,0816495,Commerce City,39.88279,-104.79491,36.5,census_gazetteer_places:2023:0816495
+CO,0877290,Thornton,39.92043,-104.94141,36.5,census_gazetteer_places:2023:0877290
+CO,0846465,Loveland,40.4169,-105.06311,35.4,census_gazetteer_places:2023:0846465
+CT,0918430,Danbury,41.39874,-73.4781,42.0,census_gazetteer_places:2023:0918430
+CT,0947290,Middletown,41.54861,-72.65678,41.0,census_gazetteer_places:2023:0947290
+CT,0976500,Torrington,41.8342,-73.13147,39.8,census_gazetteer_places:2023:0976500
+CT,0973000,Stamford,41.07961,-73.54608,37.6,census_gazetteer_places:2023:0973000
+CT,0968100,Shelton,41.30458,-73.13921,30.6,census_gazetteer_places:2023:0968100
+CT,0980000,Waterbury,41.5585,-73.03669,28.6,census_gazetteer_places:2023:0980000
+CT,0956200,Norwich,41.54801,-72.08945,28.1,census_gazetteer_places:2023:0956200
+CT,0908420,Bristol,41.68158,-72.94075,26.4,census_gazetteer_places:2023:0908420
+CT,0946450,Meriden,41.53678,-72.79454,23.7,census_gazetteer_places:2023:0946450
+CT,0955990,Norwalk,41.09274,-73.4198,22.9,census_gazetteer_places:2023:0955990
+CT,0947515,Milford city (balance),41.22364,-73.06456,21.9,census_gazetteer_places:2023:0947515
+CT,0952000,New Haven,41.31081,-72.92495,18.7,census_gazetteer_places:2023:0952000
+DC,1150000,Washington,38.90425,-77.01652,61.1,census_gazetteer_places:2023:1150000
+DE,1021200,Dover,39.1606,-75.52166,23.8,census_gazetteer_places:2023:1021200
+DE,1047030,Middletown,39.44339,-75.7175,12.7,census_gazetteer_places:2023:1047030
+DE,1077580,Wilmington,39.73565,-75.5321,10.9,census_gazetteer_places:2023:1077580
+DE,1047420,Milford,38.90979,-75.4223,9.9,census_gazetteer_places:2023:1047420
+DE,1050670,Newark,39.67765,-75.75748,9.5,census_gazetteer_places:2023:1050670
+DE,1067310,Smyrna,39.2953,-75.60871,6.4,census_gazetteer_places:2023:1067310
+DE,1047940,Millsboro,38.58872,-75.30956,5.1,census_gazetteer_places:2023:1047940
+DE,1064320,Seaford,38.65725,-75.61338,5.1,census_gazetteer_places:2023:1064320
+DE,1029090,Georgetown,38.68945,-75.38723,5.0,census_gazetteer_places:2023:1029090
+DE,1008680,Bridgeville,38.7252,-75.60285,4.8,census_gazetteer_places:2023:1008680
+DE,1041830,Lewes,38.77864,-75.14369,4.2,census_gazetteer_places:2023:1041830
+DE,1010760,Camden,39.0992,-75.55694,3.7,census_gazetteer_places:2023:1010760
+FL,1235000,Jacksonville,30.33686,-81.6616,747.3,census_gazetteer_places:2023:1235000
+FL,1209550,Bunnell,29.41874,-81.31948,139.4,census_gazetteer_places:2023:1209550
+FL,1258715,Port St. Lucie,27.28055,-80.38826,119.2,census_gazetteer_places:2023:1258715
+FL,1271000,Tampa,27.96626,-82.47762,113.6,census_gazetteer_places:2023:1271000
+FL,1253000,Orlando,28.40865,-81.25481,111.2,census_gazetteer_places:2023:1253000
+FL,1210275,Cape Coral,26.64319,-81.99736,106.1,census_gazetteer_places:2023:1210275
+FL,1270600,Tallahassee,30.45353,-84.25227,102.4,census_gazetteer_places:2023:1270600
+FL,1249675,North Port,27.05817,-82.19804,99.4,census_gazetteer_places:2023:1249675
+FL,1254200,Palm Coast,29.53684,-81.24263,95.7,census_gazetteer_places:2023:1254200
+FL,1254000,Palm Bay,27.96489,-80.65828,86.7,census_gazetteer_places:2023:1254000
+FL,1216525,Daytona Beach,29.19071,-81.09708,67.4,census_gazetteer_places:2023:1216525
+FL,1238250,Lakeland,28.0555,-81.95477,66.6,census_gazetteer_places:2023:1238250
+GA,1326156,Echols County consolidated government,30.71401,-82.89738,420.4,census_gazetteer_places:2023:1326156
+GA,1304204,Augusta-Richmond County consolidated government (balance),33.36553,-82.07342,302.3,census_gazetteer_places:2023:1304204
+GA,1349008,Macon-Bibb County,32.80884,-83.69419,249.4,census_gazetteer_places:2023:1349008
+GA,1321017,Cusseta-Chattahoochee County unified government,32.34745,-84.78802,248.7,census_gazetteer_places:2023:1321017
+GA,1319000,Columbus,32.5102,-84.87495,216.5,census_gazetteer_places:2023:1319000
+GA,1381128,Webster County unified government,32.04669,-84.55383,209.7,census_gazetteer_places:2023:1381128
+GA,1332528,Georgetown-Quitman County unified government,31.86294,-85.0048,151.2,census_gazetteer_places:2023:1332528
+GA,1304000,Atlanta,33.76291,-84.42267,135.3,census_gazetteer_places:2023:1304000
+GA,1303440,Athens-Clarke County unified government (balance),33.9496,-83.37009,116.4,census_gazetteer_places:2023:1303440
+GA,1369000,Savannah,32.01804,-81.19649,108.9,census_gazetteer_places:2023:1369000
+GA,1372122,South Fulton,33.63572,-84.58342,93.0,census_gazetteer_places:2023:1372122
+GA,1315552,Chattahoochee Hills,33.58107,-84.74589,58.2,census_gazetteer_places:2023:1315552
+IA,1921000,Des Moines,41.57259,-93.61024,88.2,census_gazetteer_places:2023:1921000
+IA,1912000,Cedar Rapids,41.96585,-91.6789,74.2,census_gazetteer_places:2023:1912000
+IA,1919000,Davenport,41.55682,-90.60395,63.9,census_gazetteer_places:2023:1919000
+IA,1982425,Waterloo,42.49233,-92.35195,61.6,census_gazetteer_places:2023:1982425
+IA,1973335,Sioux City,42.49529,-96.38986,58.9,census_gazetteer_places:2023:1973335
+IA,1983910,West Des Moines,41.54994,-93.78135,47.3,census_gazetteer_places:2023:1983910
+IA,1916860,Council Bluffs,41.23599,-95.85316,43.0,census_gazetteer_places:2023:1916860
+IA,1914430,Clinton,41.84237,-90.24282,35.6,census_gazetteer_places:2023:1914430
+IA,1902305,Ankeny,41.73017,-93.60251,31.7,census_gazetteer_places:2023:1902305
+IA,1922395,Dubuque,42.4989,-90.70726,31.2,census_gazetteer_places:2023:1922395
+IA,1911755,Cedar Falls,42.51907,-92.45401,29.4,census_gazetteer_places:2023:1911755
+IA,1901855,Ames,42.02633,-93.62126,28.2,census_gazetteer_places:2023:1901855
+ID,1608830,Boise City,43.60023,-116.23166,84.6,census_gazetteer_places:2023:1608830
+ID,1652120,Meridian,43.61149,-116.40066,36.9,census_gazetteer_places:2023:1652120
+ID,1656260,Nampa,43.58554,-116.56563,34.8,census_gazetteer_places:2023:1656260
+ID,1664090,Pocatello,42.87275,-112.46384,33.6,census_gazetteer_places:2023:1664090
+ID,1623410,Eagle,43.69342,-116.34599,32.5,census_gazetteer_places:2023:1623410
+ID,1639700,Idaho Falls,43.48885,-112.0363,26.6,census_gazetteer_places:2023:1639700
+ID,1644290,Kuna,43.52484,-116.40364,25.7,census_gazetteer_places:2023:1644290
+ID,1612250,Caldwell,43.64588,-116.65934,23.5,census_gazetteer_places:2023:1612250
+ID,1682810,Twin Falls,42.56467,-114.46061,19.6,census_gazetteer_places:2023:1682810
+ID,1664810,Post Falls,47.72556,-116.94417,18.5,census_gazetteer_places:2023:1664810
+ID,1646540,Lewiston,46.39313,-116.99347,17.5,census_gazetteer_places:2023:1646540
+ID,1616750,Coeur d'Alene,47.7035,-116.79386,16.1,census_gazetteer_places:2023:1616750
+IL,1714000,Chicago,41.83705,-87.68494,227.7,census_gazetteer_places:2023:1714000
+IL,1738570,Joliet,41.5177,-88.14885,66.1,census_gazetteer_places:2023:1738570
+IL,1765000,Rockford,42.25884,-89.06455,65.1,census_gazetteer_places:2023:1765000
+IL,1772000,Springfield,39.79106,-89.64457,61.3,census_gazetteer_places:2023:1772000
+IL,1759000,Peoria,40.75164,-89.6172,48.1,census_gazetteer_places:2023:1759000
+IL,1703012,Aurora,41.76346,-88.2901,45.1,census_gazetteer_places:2023:1703012
+IL,1718823,Decatur,39.85598,-88.93375,43.5,census_gazetteer_places:2023:1718823
+IL,1751622,Naperville,41.74917,-88.16202,39.2,census_gazetteer_places:2023:1751622
+IL,1723074,Elgin,42.03896,-88.32567,38.1,census_gazetteer_places:2023:1723074
+IL,1730094,Godfrey,38.95289,-90.22254,34.4,census_gazetteer_places:2023:1730094
+IL,1706613,Bloomington,40.47578,-88.96991,27.1,census_gazetteer_places:2023:1706613
+IL,1703883,Barrington Hills,42.13864,-88.20296,27.0,census_gazetteer_places:2023:1703883
+IN,1836003,Indianapolis city (balance),39.77666,-86.14593,361.0,census_gazetteer_places:2023:1836003
+IN,1825000,Fort Wayne,41.08913,-85.1439,110.6,census_gazetteer_places:2023:1825000
+IN,1886372,Zionsville,39.99153,-86.32175,67.2,census_gazetteer_places:2023:1886372
+IN,1827000,Gary,41.59074,-87.34711,49.9,census_gazetteer_places:2023:1827000
+IN,1810342,Carmel,39.96548,-86.14837,49.1,census_gazetteer_places:2023:1810342
+IN,1822000,Evansville,37.98774,-87.53471,47.4,census_gazetteer_places:2023:1822000
+IN,1871000,South Bend,41.67664,-86.26881,41.9,census_gazetteer_places:2023:1871000
+IN,1801468,Anderson,40.08977,-85.68945,41.7,census_gazetteer_places:2023:1801468
+IN,1840392,Kokomo,40.46401,-86.12735,36.7,census_gazetteer_places:2023:1840392
+IN,1823278,Fishers,39.96183,-85.96836,36.1,census_gazetteer_places:2023:1823278
+IN,1854180,Noblesville,40.0353,-86.00016,34.8,census_gazetteer_places:2023:1854180
+IN,1875428,Terre Haute,39.46415,-87.37604,34.8,census_gazetteer_places:2023:1875428
+KS,2028412,Greeley County unified government (balance),38.48041,-101.80602,777.4,census_gazetteer_places:2023:2028412
+KS,2079000,Wichita,37.69064,-97.34584,162.9,census_gazetteer_places:2023:2079000
+KS,2036000,Kansas City,39.12254,-94.74178,124.7,census_gazetteer_places:2023:2036000
+KS,2053775,Overland Park,38.88904,-94.69058,75.2,census_gazetteer_places:2023:2053775
+KS,2052575,Olathe,38.88203,-94.82005,62.5,census_gazetteer_places:2023:2052575
+KS,2071000,Topeka,39.03468,-95.69482,61.7,census_gazetteer_places:2023:2071000
+KS,2064500,Shawnee,39.01749,-94.8058,42.0,census_gazetteer_places:2023:2064500
+KS,2038900,Lawrence,38.96003,-95.26293,34.3,census_gazetteer_places:2023:2038900
+KS,2039350,Lenexa,38.96527,-94.80394,34.1,census_gazetteer_places:2023:2039350
+KS,2062700,Salina,38.81309,-97.61448,26.2,census_gazetteer_places:2023:2062700
+KS,2033625,Hutchinson,38.06729,-97.90952,24.6,census_gazetteer_places:2023:2033625
+KS,2039000,Leavenworth,39.32272,-94.92501,24.4,census_gazetteer_places:2023:2039000
+KY,2146027,Lexington-Fayette urban county,38.04068,-84.45827,283.9,census_gazetteer_places:2023:2146027
+KY,2148006,Louisville/Jefferson County metro government (balance),38.16538,-85.64738,263.1,census_gazetteer_places:2023:2148006
+KY,2148000,Louisville,38.22473,-85.74061,61.5,census_gazetteer_places:2023:2148000
+KY,2108902,Bowling Green,36.97565,-86.43596,41.5,census_gazetteer_places:2023:2108902
+KY,2137918,Hopkinsville,36.83928,-87.47354,32.8,census_gazetteer_places:2023:2137918
+KY,2124274,Elizabethtown,37.704,-85.87888,27.9,census_gazetteer_places:2023:2124274
+KY,2165226,Richmond,37.72915,-84.29936,21.8,census_gazetteer_places:2023:2165226
+KY,2158620,Owensboro,37.75715,-87.11673,20.9,census_gazetteer_places:2023:2158620
+KY,2160852,Pikeville,37.47689,-82.5288,20.8,census_gazetteer_places:2023:2160852
+KY,2158836,Paducah,37.07089,-88.64448,20.3,census_gazetteer_places:2023:2158836
+KY,2151024,Maysville,38.65002,-83.79296,19.0,census_gazetteer_places:2023:2151024
+KY,2119882,Danville,37.63926,-84.77601,18.1,census_gazetteer_places:2023:2119882
+LA,2255000,New Orleans,30.05342,-89.9345,169.5,census_gazetteer_places:2023:2255000
+LA,2270000,Shreveport,32.46688,-93.79219,108.1,census_gazetteer_places:2023:2270000
+LA,2205000,Baton Rouge,30.44044,-91.13317,86.9,census_gazetteer_places:2023:2205000
+LA,2213960,Central,30.5593,-91.03551,62.3,census_gazetteer_places:2023:2213960
+LA,2240735,Lafayette,30.2056,-92.02806,56.0,census_gazetteer_places:2023:2240735
+LA,2241155,Lake Charles,30.19902,-93.21084,47.5,census_gazetteer_places:2023:2241155
+LA,2208920,Bossier City,32.52367,-93.65543,44.3,census_gazetteer_places:2023:2208920
+LA,2251410,Monroe,32.51899,-92.07718,29.7,census_gazetteer_places:2023:2251410
+LA,2267250,St. Gabriel,30.2552,-91.10036,29.7,census_gazetteer_places:2023:2267250
+LA,2200975,Alexandria,31.29345,-92.47019,28.5,census_gazetteer_places:2023:2200975
+LA,2203145,Ashland,32.12038,-93.11254,27.0,census_gazetteer_places:2023:2203145
+LA,2283405,Zachary,30.66438,-91.16578,26.9,census_gazetteer_places:2023:2283405
+MA,2503690,Barnstable Town,41.66148,-70.35695,59.9,census_gazetteer_places:2023:2503690
+MA,2507000,Boston,42.33855,-71.01825,48.3,census_gazetteer_places:2023:2507000
+MA,2569170,Taunton,41.90332,-71.09499,46.7,census_gazetteer_places:2023:2569170
+MA,2576030,Westfield,42.13884,-72.75591,46.3,census_gazetteer_places:2023:2576030
+MA,2553960,Pittsfield,42.45184,-73.26068,40.5,census_gazetteer_places:2023:2553960
+MA,2582000,Worcester,42.26948,-71.80778,37.4,census_gazetteer_places:2023:2582000
+MA,2546330,Northampton,42.32704,-72.67463,34.2,census_gazetteer_places:2023:2546330
+MA,2523000,Fall River,41.72535,-71.09416,33.1,census_gazetteer_places:2023:2523000
+MA,2529405,Haverhill,42.78294,-71.08744,33.0,census_gazetteer_places:2023:2529405
+MA,2567000,Springfield,42.11545,-72.53998,31.9,census_gazetteer_places:2023:2567000
+MA,2552144,Palmer Town,42.18886,-72.30648,31.6,census_gazetteer_places:2023:2552144
+MA,2535075,Leominster,42.52088,-71.77061,28.8,census_gazetteer_places:2023:2535075
+MD,2404000,Baltimore,39.30003,-76.61048,80.9,census_gazetteer_places:2023:2404000
+MD,2430325,Frederick,39.43409,-77.41454,24.0,census_gazetteer_places:2023:2430325
+MD,2408775,Bowie,38.9547,-76.73883,20.4,census_gazetteer_places:2023:2408775
+MD,2469925,Salisbury,38.37533,-75.58593,13.8,census_gazetteer_places:2023:2469925
+MD,2467675,Rockville,39.08367,-77.15559,13.6,census_gazetteer_places:2023:2467675
+MD,2436075,Hagerstown,39.64018,-77.72269,12.7,census_gazetteer_places:2023:2436075
+MD,2424475,Easton,38.77626,-76.07048,11.5,census_gazetteer_places:2023:2424475
+MD,2412400,Cambridge,38.55406,-76.07712,10.6,census_gazetteer_places:2023:2412400
+MD,2431175,Gaithersburg,39.1486,-77.19513,10.3,census_gazetteer_places:2023:2431175
+MD,2421325,Cumberland,39.6519,-78.75838,10.1,census_gazetteer_places:2023:2421325
+MD,2425800,Elkton,39.60578,-75.82169,9.0,census_gazetteer_places:2023:2425800
+MD,2445750,La Plata,38.54347,-76.96979,7.4,census_gazetteer_places:2023:2445750
+ME,2310565,Caribou,46.83655,-67.93606,79.3,census_gazetteer_places:2023:2310565
+ME,2323200,Ellsworth,44.58293,-68.48009,79.3,census_gazetteer_places:2023:2323200
+ME,2360825,Presque Isle,46.68895,-67.99191,75.8,census_gazetteer_places:2023:2360825
+ME,2302060,Auburn,44.08454,-70.24965,59.3,census_gazetteer_places:2023:2302060
+ME,2302100,Augusta,44.3349,-69.7342,55.1,census_gazetteer_places:2023:2302100
+ME,2365725,Sanford,43.42414,-70.75786,47.8,census_gazetteer_places:2023:2365725
+ME,2355225,Old Town,44.95417,-68.73969,38.8,census_gazetteer_places:2023:2355225
+ME,2364675,Saco,43.52796,-70.41957,38.6,census_gazetteer_places:2023:2364675
+ME,2309585,Calais,45.14295,-67.21753,34.3,census_gazetteer_places:2023:2309585
+ME,2302795,Bangor,44.82963,-68.78877,34.3,census_gazetteer_places:2023:2302795
+ME,2338740,Lewiston,44.08951,-70.17209,34.1,census_gazetteer_places:2023:2338740
+ME,2303950,Belfast,44.42587,-69.02642,34.1,census_gazetteer_places:2023:2303950
+MI,2622000,Detroit,42.38304,-83.10224,138.7,census_gazetteer_places:2023:2622000
+MI,2634000,Grand Rapids,42.96116,-85.65557,44.8,census_gazetteer_places:2023:2634000
+MI,2605920,Battle Creek,42.29918,-85.22927,42.6,census_gazetteer_places:2023:2605920
+MI,2646000,Lansing,42.71434,-84.56089,39.2,census_gazetteer_places:2023:2646000
+MI,2676460,Sterling Heights,42.58121,-83.03032,36.4,census_gazetteer_places:2023:2676460
+MI,2649000,Livonia,42.39718,-83.37232,35.7,census_gazetteer_places:2023:2649000
+MI,2669420,Romulus,42.22365,-83.36604,35.6,census_gazetteer_places:2023:2669420
+MI,2653780,Midland,43.6248,-84.23198,34.5,census_gazetteer_places:2023:2653780
+MI,2684000,Warren,42.4929,-83.025,34.4,census_gazetteer_places:2023:2684000
+MI,2680700,Troy,42.58388,-83.14553,33.4,census_gazetteer_places:2023:2680700
+MI,2629000,Flint,43.02442,-83.69197,33.4,census_gazetteer_places:2023:2629000
+MI,2627440,Farmington Hills,42.48565,-83.37596,33.3,census_gazetteer_places:2023:2627440
+MN,2728790,Hibbing,47.3959,-92.94647,182.0,census_gazetteer_places:2023:2728790
+MN,2703106,Babbitt,47.6431,-91.92834,106.0,census_gazetteer_places:2023:2703106
+MN,2717000,Duluth,46.77446,-92.13414,71.7,census_gazetteer_places:2023:2717000
+MN,2744548,Mountain Iron,47.53669,-92.61657,68.1,census_gazetteer_places:2023:2744548
+MN,2754880,Rochester,44.0143,-92.47859,56.5,census_gazetteer_places:2023:2754880
+MN,2730302,Hoyt Lakes,47.57162,-92.10833,55.9,census_gazetteer_places:2023:2730302
+MN,2743000,Minneapolis,44.96332,-93.26832,54.0,census_gazetteer_places:2023:2743000
+MN,2758000,St. Paul,44.9489,-93.10406,52.0,census_gazetteer_places:2023:2758000
+MN,2712718,Columbus,45.25491,-93.10768,44.8,census_gazetteer_places:2023:2712718
+MN,2717486,East Bethel,45.3532,-93.21766,44.6,census_gazetteer_places:2023:2717486
+MN,2754934,Rock Creek,45.76465,-92.90351,43.0,census_gazetteer_places:2023:2754934
+MN,2718674,Elk River,45.33221,-93.56653,42.3,census_gazetteer_places:2023:2718674
+MO,2938000,Kansas City,39.12236,-94.55512,314.7,census_gazetteer_places:2023:2938000
+MO,2970000,Springfield,37.19416,-93.29264,83.2,census_gazetteer_places:2023:2970000
+MO,2935000,Independence,39.08547,-94.35208,78.0,census_gazetteer_places:2023:2935000
+MO,2915670,Columbia,38.94729,-92.32639,67.3,census_gazetteer_places:2023:2915670
+MO,2979820,Wildwood,38.57707,-90.66781,66.7,census_gazetteer_places:2023:2979820
+MO,2941348,Lee's Summit,38.9216,-94.38476,63.9,census_gazetteer_places:2023:2941348
+MO,2965000,St. Louis,38.6357,-90.24458,61.7,census_gazetteer_places:2023:2965000
+MO,2964550,St. Joseph,39.75946,-94.82114,44.0,census_gazetteer_places:2023:2964550
+MO,2937592,Joplin,37.07522,-94.50126,38.1,census_gazetteer_places:2023:2937592
+MO,2937000,Jefferson City,38.56746,-92.17525,36.1,census_gazetteer_places:2023:2937000
+MO,2913600,Chesterfield,38.65813,-90.57595,31.8,census_gazetteer_places:2023:2913600
+MO,2954074,O'Fallon,38.78467,-90.72074,30.5,census_gazetteer_places:2023:2954074
+MS,2836000,Jackson,32.31583,-90.21285,111.7,census_gazetteer_places:2023:2836000
+MS,2874840,Tupelo,34.2706,-88.73246,64.4,census_gazetteer_places:2023:2874840
+MS,2854040,Olive Branch,34.95575,-89.84115,55.8,census_gazetteer_places:2023:2854040
+MS,2829700,Gulfport,30.41949,-89.06902,55.6,census_gazetteer_places:2023:2829700
+MS,2846640,Meridian,32.38417,-88.68945,53.7,census_gazetteer_places:2023:2846640
+MS,2831020,Hattiesburg,31.3073,-89.31743,53.4,census_gazetteer_places:2023:2831020
+MS,2806220,Biloxi,30.42666,-88.93576,42.9,census_gazetteer_places:2023:2806220
+MS,2814420,Clinton,32.35444,-90.34189,41.9,census_gazetteer_places:2023:2814420
+MS,2869280,Southaven,34.95101,-89.97767,41.3,census_gazetteer_places:2023:2869280
+MS,2876720,Vicksburg,32.322,-90.88156,33.0,census_gazetteer_places:2023:2876720
+MS,2826860,Gautier,30.40621,-88.65934,30.3,census_gazetteer_places:2023:2826860
+MS,2815700,Corinth,34.94835,-88.51362,30.2,census_gazetteer_places:2023:2815700
+MT,3001675,Anaconda-Deer Lodge County,46.09467,-113.14162,736.7,census_gazetteer_places:2023:3001675
+MT,3011397,Butte-Silver Bow (balance),45.89623,-112.66007,715.8,census_gazetteer_places:2023:3011397
+MT,3006550,Billings,45.78854,-108.55248,45.6,census_gazetteer_places:2023:3006550
+MT,3050200,Missoula,46.87436,-114.02614,34.8,census_gazetteer_places:2023:3050200
+MT,3032800,Great Falls,47.50252,-111.29997,23.1,census_gazetteer_places:2023:3032800
+MT,3008950,Bozeman,45.68315,-111.05378,21.4,census_gazetteer_places:2023:3008950
+MT,3035600,Helena,46.59546,-112.01875,16.9,census_gazetteer_places:2023:3035600
+MT,3040075,Kalispell,48.21615,-114.32765,12.7,census_gazetteer_places:2023:3040075
+MT,3079825,Whitefish,48.43799,-114.34803,7.2,census_gazetteer_places:2023:3079825
+MT,3043975,Livingston,45.6655,-110.55588,6.0,census_gazetteer_places:2023:3043975
+MT,3067450,Shelby,48.50213,-111.86204,5.8,census_gazetteer_places:2023:3067450
+MT,3043375,Lewistown,47.05138,-109.4524,5.7,census_gazetteer_places:2023:3043375
+NC,3712000,Charlotte,35.20905,-80.83099,310.8,census_gazetteer_places:2023:3712000
+NC,3755000,Raleigh,35.83187,-78.64104,149.4,census_gazetteer_places:2023:3755000
+NC,3722920,Fayetteville,35.08277,-78.97352,148.3,census_gazetteer_places:2023:3722920
+NC,3728000,Greensboro,36.09485,-79.82362,133.9,census_gazetteer_places:2023:3728000
+NC,3775000,Winston-Salem,36.10286,-80.26083,133.6,census_gazetteer_places:2023:3775000
+NC,3719000,Durham,35.97806,-78.8995,116.8,census_gazetteer_places:2023:3719000
+NC,3714100,Concord,35.39209,-80.63551,64.0,census_gazetteer_places:2023:3714100
+NC,3710740,Cary,35.7813,-78.82344,60.1,census_gazetteer_places:2023:3710740
+NC,3731400,High Point,35.9908,-79.99271,57.3,census_gazetteer_places:2023:3731400
+NC,3725580,Gastonia,35.249,-81.18483,53.1,census_gazetteer_places:2023:3725580
+NC,3774440,Wilmington,34.20923,-77.88577,51.4,census_gazetteer_places:2023:3774440
+NC,3734200,Jacksonville,34.72973,-77.39366,48.8,census_gazetteer_places:2023:3734200
+ND,3825700,Fargo,46.8647,-96.82908,50.8,census_gazetteer_places:2023:3825700
+ND,3807200,Bismarck,46.81458,-100.77009,34.7,census_gazetteer_places:2023:3807200
+ND,3801740,Alsen,48.63046,-98.70427,29.4,census_gazetteer_places:2023:3801740
+ND,3832060,Grand Forks,47.9196,-97.08733,29.1,census_gazetteer_places:2023:3832060
+ND,3853380,Minot,48.23613,-101.27753,27.7,census_gazetteer_places:2023:3853380
+ND,3847660,Loma,48.63773,-98.5257,26.5,census_gazetteer_places:2023:3847660
+ND,3886220,Williston,48.1895,-103.64912,25.7,census_gazetteer_places:2023:3886220
+ND,3884780,West Fargo,46.85638,-96.90481,16.2,census_gazetteer_places:2023:3884780
+ND,3849900,Mandan,46.82948,-100.88706,13.5,census_gazetteer_places:2023:3849900
+ND,3840580,Jamestown,46.90585,-98.69358,13.3,census_gazetteer_places:2023:3840580
+ND,3819620,Dickinson,46.89278,-102.79596,13.2,census_gazetteer_places:2023:3819620
+ND,3838900,Horace,46.75695,-96.91133,12.7,census_gazetteer_places:2023:3838900
+NE,3137000,Omaha,41.2627,-96.05348,143.0,census_gazetteer_places:2023:3137000
+NE,3128000,Lincoln,40.80894,-96.6779,100.0,census_gazetteer_places:2023:3128000
+NE,3119595,Grand Island,40.92135,-98.35856,30.1,census_gazetteer_places:2023:3119595
+NE,3103950,Bellevue,41.1633,-95.90327,22.1,census_gazetteer_places:2023:3103950
+NE,3134615,Norfolk,42.02822,-97.42781,18.1,census_gazetteer_places:2023:3134615
+NE,3125055,Kearney,40.70175,-99.08231,15.0,census_gazetteer_places:2023:3125055
+NE,3121415,Hastings,40.59626,-98.39032,14.9,census_gazetteer_places:2023:3121415
+NE,3135000,North Platte,41.12526,-100.7634,13.7,census_gazetteer_places:2023:3135000
+NE,3138295,Papillion,41.14338,-96.07809,12.0,census_gazetteer_places:2023:3138295
+NE,3117670,Fremont,41.43984,-96.487,11.0,census_gazetteer_places:2023:3117670
+NE,3110110,Columbus,41.43707,-97.35735,10.6,census_gazetteer_places:2023:3110110
+NE,3103390,Beatrice,40.27328,-96.74595,9.5,census_gazetteer_places:2023:3103390
+NH,3314200,Concord,43.23249,-71.56125,64.0,census_gazetteer_places:2023:3314200
+NH,3305140,Berlin,44.48433,-71.27712,61.3,census_gazetteer_places:2023:3305140
+NH,3365140,Rochester,43.29849,-70.97701,45.0,census_gazetteer_places:2023:3365140
+NH,3312900,Claremont,43.38647,-72.3345,43.2,census_gazetteer_places:2023:3312900
+NH,3341300,Lebanon,43.63543,-72.25384,40.3,census_gazetteer_places:2023:3341300
+NH,3339300,Keene,42.95384,-72.30688,37.1,census_gazetteer_places:2023:3339300
+NH,3345140,Manchester,42.98494,-71.44413,33.1,census_gazetteer_places:2023:3345140
+NH,3350260,Nashua,42.74907,-71.49054,30.8,census_gazetteer_places:2023:3350260
+NH,3327380,Franklin,43.45392,-71.66989,27.4,census_gazetteer_places:2023:3327380
+NH,3318820,Dover,43.18636,-70.88362,26.7,census_gazetteer_places:2023:3318820
+NH,3340180,Laconia,43.57653,-71.48226,19.8,census_gazetteer_places:2023:3340180
+NH,3362900,Portsmouth,43.06059,-70.78035,15.7,census_gazetteer_places:2023:3362900
+NJ,3476070,Vineland,39.46501,-74.99711,68.4,census_gazetteer_places:2023:3476070
+NJ,3421870,Estell Manor,39.35393,-74.77514,53.4,census_gazetteer_places:2023:3421870
+NJ,3446680,Millville,39.39009,-75.0548,42.0,census_gazetteer_places:2023:3446680
+NJ,3429430,Hammonton,39.66078,-74.76702,40.7,census_gazetteer_places:2023:3429430
+NJ,3463150,Ringwood,41.10396,-74.27114,25.6,census_gazetteer_places:2023:3463150
+NJ,3451000,Newark,40.72422,-74.17257,24.1,census_gazetteer_places:2023:3451000
+NJ,3437110,Kinnelon,40.98204,-74.3859,18.0,census_gazetteer_places:2023:3437110
+NJ,3460900,Princeton,40.35824,-74.66673,17.9,census_gazetteer_places:2023:3460900
+NJ,3465790,Sayreville,40.46695,-74.32019,15.8,census_gazetteer_places:2023:3465790
+NJ,3473020,Tinton Falls,40.26626,-74.09613,15.5,census_gazetteer_places:2023:3473020
+NJ,3436000,Jersey City,40.71142,-74.06476,14.7,census_gazetteer_places:2023:3436000
+NJ,3405590,Bernardsville,40.73038,-74.5926,12.8,census_gazetteer_places:2023:3405590
+NM,3502000,Albuquerque,35.10478,-106.64681,187.3,census_gazetteer_places:2023:3502000
+NM,3563460,Rio Rancho,35.28507,-106.69887,103.4,census_gazetteer_places:2023:3563460
+NM,3539380,Las Cruces,32.32644,-106.78969,76.9,census_gazetteer_places:2023:3539380
+NM,3522380,Edgewood,35.13132,-106.22016,56.8,census_gazetteer_places:2023:3522380
+NM,3570500,Santa Fe,35.66198,-105.98181,52.2,census_gazetteer_places:2023:3570500
+NM,3525800,Farmington,36.75383,-108.18053,34.5,census_gazetteer_places:2023:3525800
+NM,3512150,Carlsbad,32.40079,-104.24101,31.7,census_gazetteer_places:2023:3512150
+NM,3564930,Roswell,33.37344,-104.52939,29.7,census_gazetteer_places:2023:3564930
+NM,3503400,Angel Fire,36.37797,-105.25884,28.8,census_gazetteer_places:2023:3503400
+NM,3579840,Truth or Consequences,33.23764,-107.27624,28.0,census_gazetteer_places:2023:3579840
+NM,3532520,Hobbs,32.72909,-103.16083,26.4,census_gazetteer_places:2023:3532520
+NM,3516420,Clovis,34.43857,-103.19419,23.6,census_gazetteer_places:2023:3516420
+NV,3206500,Boulder City,35.84376,-114.91155,208.3,census_gazetteer_places:2023:3206500
+NV,3209700,Carson City,39.15306,-119.74737,144.5,census_gazetteer_places:2023:3209700
+NV,3240000,Las Vegas,36.2335,-115.26404,141.9,census_gazetteer_places:2023:3240000
+NV,3224900,Fernley,39.56477,-119.18943,122.7,census_gazetteer_places:2023:3224900
+NV,3231900,Henderson,36.00896,-115.0268,120.5,census_gazetteer_places:2023:3231900
+NV,3260600,Reno,39.5491,-119.84991,109.0,census_gazetteer_places:2023:3260600
+NV,3251800,North Las Vegas,36.28986,-115.08918,105.3,census_gazetteer_places:2023:3251800
+NV,3208500,Caliente,37.64576,-114.49293,53.0,census_gazetteer_places:2023:3208500
+NV,3268400,Sparks,39.57434,-119.71515,36.5,census_gazetteer_places:2023:3268400
+NV,3246000,Mesquite,36.81112,-114.12565,31.8,census_gazetteer_places:2023:3246000
+NV,3285400,Yerington,38.95547,-119.11011,29.5,census_gazetteer_places:2023:3285400
+NV,3222500,Elko,40.83811,-115.76781,17.8,census_gazetteer_places:2023:3222500
+NY,3651000,New York,40.66271,-73.93868,300.5,census_gazetteer_places:2023:3651000
+NY,3663418,Rome,43.226,-75.48952,74.9,census_gazetteer_places:2023:3663418
+NY,3670123,Speculator,43.57604,-74.35623,44.6,census_gazetteer_places:2023:3670123
+NY,3675779,Tuxedo,41.24201,-74.17169,44.1,census_gazetteer_places:2023:3675779
+NY,3611000,Buffalo,42.89249,-78.85969,40.4,census_gazetteer_places:2023:3611000
+NY,3663000,Rochester,43.16993,-77.61689,35.8,census_gazetteer_places:2023:3663000
+NY,3682750,Woodbury,41.32754,-74.10211,35.6,census_gazetteer_places:2023:3682750
+NY,3665255,Saratoga Springs,43.0677,-73.77814,28.1,census_gazetteer_places:2023:3665255
+NY,3673000,Syracuse,43.041,-76.14355,25.1,census_gazetteer_places:2023:3673000
+NY,3654837,Oneida,43.07045,-75.67356,22.1,census_gazetteer_places:2023:3654837
+NY,3601000,Albany,42.66575,-73.79835,21.4,census_gazetteer_places:2023:3601000
+NY,3684000,Yonkers,40.94586,-73.86745,18.0,census_gazetteer_places:2023:3684000
+OH,3918000,Columbus,39.98394,-82.98488,220.7,census_gazetteer_places:2023:3918000
+OH,3977000,Toledo,41.66407,-83.58186,80.5,census_gazetteer_places:2023:3977000
+OH,3915000,Cincinnati,39.14018,-84.50583,77.9,census_gazetteer_places:2023:3915000
+OH,3916000,Cleveland,41.47846,-81.67943,77.7,census_gazetteer_places:2023:3916000
+OH,3901000,Akron,41.08046,-81.52143,61.9,census_gazetteer_places:2023:3901000
+OH,3921000,Dayton,39.78474,-84.19963,55.8,census_gazetteer_places:2023:3921000
+OH,3988000,Youngstown,41.09909,-80.6459,33.9,census_gazetteer_places:2023:3988000
+OH,3931860,Green,40.95382,-81.47204,32.0,census_gazetteer_places:2023:3931860
+OH,3947138,Mansfield,40.76672,-82.53082,30.9,census_gazetteer_places:2023:3947138
+OH,3977504,Trotwood,39.79184,-84.32183,30.5,census_gazetteer_places:2023:3977504
+OH,3961112,Pataskala,40.0198,-82.71988,29.0,census_gazetteer_places:2023:3961112
+OH,3958730,Oregon,41.65596,-83.43833,28.5,census_gazetteer_places:2023:3958730
+OK,4055000,Oklahoma City,35.46708,-97.51366,606.5,census_gazetteer_places:2023:4055000
+OK,4075000,Tulsa,36.12795,-95.90232,197.8,census_gazetteer_places:2023:4075000
+OK,4052500,Norman,35.24057,-97.3453,178.6,census_gazetteer_places:2023:4052500
+OK,4023200,Edmond,35.67381,-97.41308,84.4,census_gazetteer_places:2023:4023200
+OK,4041850,Lawton,34.61922,-98.42111,81.4,census_gazetteer_places:2023:4041850
+OK,4023700,El Reno,35.54183,-97.96127,79.6,census_gazetteer_places:2023:4023700
+OK,4023950,Enid,36.4067,-97.86986,73.9,census_gazetteer_places:2023:4023950
+OK,4009050,Broken Arrow,36.03653,-95.781,63.0,census_gazetteer_places:2023:4009050
+OK,4008550,Bray,34.60836,-97.81748,61.6,census_gazetteer_places:2023:4008550
+OK,4051150,Newcastle,35.2424,-97.59534,60.1,census_gazetteer_places:2023:4051150
+OK,4075950,Union City,35.39952,-97.90671,56.1,census_gazetteer_places:2023:4075950
+OK,4013135,Central High,34.61433,-98.08865,52.9,census_gazetteer_places:2023:4013135
+OR,4159000,Portland,45.53695,-122.64997,133.5,census_gazetteer_places:2023:4159000
+OR,4164900,Salem,44.9239,-123.02301,48.9,census_gazetteer_places:2023:4164900
+OR,4123850,Eugene,44.05685,-123.11902,44.4,census_gazetteer_places:2023:4123850
+OR,4105800,Bend,44.05668,-121.30799,34.8,census_gazetteer_places:2023:4105800
+OR,4147000,Medford,42.33689,-122.85177,28.3,census_gazetteer_places:2023:4147000
+OR,4134100,Hillsboro,45.5268,-122.93539,25.8,census_gazetteer_places:2023:4134100
+OR,4131250,Gresham,45.50232,-122.44161,23.5,census_gazetteer_places:2023:4131250
+OR,4139700,Klamath Falls,42.21885,-121.77872,20.1,census_gazetteer_places:2023:4139700
+OR,4105350,Beaverton,45.47783,-122.8169,19.6,census_gazetteer_places:2023:4105350
+OR,4161200,Redmond,44.26069,-121.18242,18.6,census_gazetteer_places:2023:4161200
+OR,4101000,Albany,44.62693,-123.09674,17.8,census_gazetteer_places:2023:4101000
+OR,4169600,Springfield,44.05378,-122.98111,15.9,census_gazetteer_places:2023:4169600
+PA,4260000,Philadelphia,40.00938,-75.13335,134.4,census_gazetteer_places:2023:4260000
+PA,4267344,St. Marys,41.45504,-78.52019,99.3,census_gazetteer_places:2023:4267344
+PA,4261000,Pittsburgh,40.43994,-79.97568,55.4,census_gazetteer_places:2023:4261000
+PA,4275000,Sugarcreek,41.44017,-79.82875,37.5,census_gazetteer_places:2023:4275000
+PA,4252432,Murrysville,40.44286,-79.65831,36.8,census_gazetteer_places:2023:4252432
+PA,4234064,Hermitage,41.22955,-80.4407,29.5,census_gazetteer_places:2023:4234064
+PA,4261536,Plum,40.50187,-79.74818,28.6,census_gazetteer_places:2023:4261536
+PA,4269000,Scranton,41.40418,-75.66591,25.3,census_gazetteer_places:2023:4269000
+PA,4256432,Ohioville,40.68473,-80.48372,23.3,census_gazetteer_places:2023:4256432
+PA,4253088,Nesquehoning,40.87808,-75.822,21.2,census_gazetteer_places:2023:4253088
+PA,4250528,Monroeville,40.42632,-79.76138,19.7,census_gazetteer_places:2023:4250528
+PA,4224000,Erie,42.11659,-80.0735,19.1,census_gazetteer_places:2023:4224000
+PR,7276770,San Juan zona urbana,18.40456,-66.06375,39.8,census_gazetteer_places:2023:7276770
+PR,7263820,Ponce zona urbana,17.99971,-66.62368,28.4,census_gazetteer_places:2023:7263820
+PR,7206593,Bayamón zona urbana,18.38005,-66.16325,27.1,census_gazetteer_places:2023:7206593
+PR,7252431,Mayagüez zona urbana,18.20122,-67.14178,21.0,census_gazetteer_places:2023:7252431
+PR,7214290,Carolina zona urbana,18.41208,-65.97981,20.7,census_gazetteer_places:2023:7214290
+PR,7203368,Arecibo zona urbana,18.45486,-66.73545,15.5,census_gazetteer_places:2023:7203368
+PR,7232522,Guaynabo zona urbana,18.38399,-66.11494,12.0,census_gazetteer_places:2023:7232522
+PR,7210334,Caguas zona urbana,18.23215,-66.03903,10.9,census_gazetteer_places:2023:7210334
+PR,7227964,Fajardo zona urbana,18.33334,-65.65763,8.1,census_gazetteer_places:2023:7227964
+PR,7283606,Trujillo Alto zona urbana,18.35961,-66.01266,7.4,census_gazetteer_places:2023:7283606
+PR,7285326,Vega Baja zona urbana,18.44105,-66.39902,6.1,census_gazetteer_places:2023:7285326
+PR,7235532,Humacao zona urbana,18.15177,-65.8206,4.9,census_gazetteer_places:2023:7235532
+RI,4474300,Warwick,41.70309,-71.42031,35.0,census_gazetteer_places:2023:4474300
+RI,4419180,Cranston,41.76973,-71.48505,28.3,census_gazetteer_places:2023:4419180
+RI,4459000,Providence,41.82306,-71.41878,18.4,census_gazetteer_places:2023:4459000
+RI,4422960,East Providence,41.80043,-71.35926,13.3,census_gazetteer_places:2023:4422960
+RI,4454640,Pawtucket,41.87482,-71.37332,8.7,census_gazetteer_places:2023:4454640
+RI,4480780,Woonsocket,42.00171,-71.49995,7.7,census_gazetteer_places:2023:4480780
+RI,4449960,Newport,41.47668,-71.31963,7.7,census_gazetteer_places:2023:4449960
+RI,4414140,Central Falls,41.89006,-71.39348,1.2,census_gazetteer_places:2023:4414140
+SC,4516000,Columbia,34.04052,-80.9061,138.3,census_gazetteer_places:2023:4516000
+SC,4513330,Charleston,32.82802,-79.9729,115.1,census_gazetteer_places:2023:4513330
+SC,4550875,North Charleston,32.91788,-80.065,77.6,census_gazetteer_places:2023:4550875
+SC,4532245,Hardeeville,32.29531,-81.04098,56.7,census_gazetteer_places:2023:4532245
+SC,4507210,Bluffton,32.21445,-80.92953,52.1,census_gazetteer_places:2023:4507210
+SC,4548535,Mount Pleasant,32.80838,-79.86504,49.6,census_gazetteer_places:2023:4548535
+SC,4560280,Ridgeland,32.46884,-80.92113,48.3,census_gazetteer_places:2023:4560280
+SC,4561405,Rock Hill,34.93822,-81.01918,44.3,census_gazetteer_places:2023:4561405
+SC,4529815,Goose Creek,32.99429,-80.00659,42.4,census_gazetteer_places:2023:4529815
+SC,4534045,Hilton Head Island,32.19031,-80.73843,41.4,census_gazetteer_places:2023:4534045
+SC,4570405,Sumter,33.94085,-80.39554,33.0,census_gazetteer_places:2023:4570405
+SC,4530850,Greenville,34.8369,-82.363,30.1,census_gazetteer_places:2023:4530850
+SD,4659020,Sioux Falls,43.5407,-96.73196,82.7,census_gazetteer_places:2023:4659020
+SD,4652980,Rapid City,44.07107,-103.21792,55.1,census_gazetteer_places:2023:4652980
+SD,4669300,Watertown,44.90919,-97.15569,18.4,census_gazetteer_places:2023:4669300
+SD,4660020,Spearfish,44.49209,-103.81965,17.2,census_gazetteer_places:2023:4660020
+SD,4600100,Aberdeen,45.46468,-98.4681,16.5,census_gazetteer_places:2023:4600100
+SD,4606620,Box Elder,44.11094,-103.08107,14.8,census_gazetteer_places:2023:4606620
+SD,4607580,Brookings,44.30336,-96.78734,14.0,census_gazetteer_places:2023:4607580
+SD,4649600,Pierre,44.37516,-100.32,13.0,census_gazetteer_places:2023:4649600
+SD,4643100,Mitchell,43.72707,-98.04219,11.5,census_gazetteer_places:2023:4643100
+SD,4631060,Huron,44.36234,-98.20957,9.7,census_gazetteer_places:2023:4631060
+SD,4604380,Belle Fourche,44.6638,-103.85914,8.9,census_gazetteer_places:2023:4604380
+SD,4673060,Yankton,42.88975,-97.39269,8.7,census_gazetteer_places:2023:4673060
+TN,4752006,Nashville-Davidson metropolitan government (balance),36.1718,-86.785,475.6,census_gazetteer_places:2023:4752006
+TN,4748000,Memphis,35.10903,-89.96746,296.2,census_gazetteer_places:2023:4748000
+TN,4714000,Chattanooga,35.06596,-85.24839,142.4,census_gazetteer_places:2023:4714000
+TN,4744382,"Lynchburg, Moore County metropolitan government",35.28889,-86.35868,129.2,census_gazetteer_places:2023:4744382
+TN,4732742,Hartsville/Trousdale County,36.39303,-86.15669,114.3,census_gazetteer_places:2023:4732742
+TN,4715160,Clarksville,36.56643,-87.34522,99.7,census_gazetteer_places:2023:4715160
+TN,4740000,Knoxville,35.97068,-83.94927,98.7,census_gazetteer_places:2023:4740000
+TN,4755120,Oak Ridge,35.96648,-84.29055,85.2,census_gazetteer_places:2023:4755120
+TN,4751560,Murfreesboro,35.85392,-86.42122,64.3,census_gazetteer_places:2023:4751560
+TN,4737640,Jackson,35.65415,-88.83497,58.7,census_gazetteer_places:2023:4737640
+TN,4739560,Kingsport,36.51937,-82.54339,53.0,census_gazetteer_places:2023:4739560
+TN,4727740,Franklin,35.91403,-86.85216,44.5,census_gazetteer_places:2023:4727740
+TX,4835000,Houston,29.78574,-95.38881,640.6,census_gazetteer_places:2023:4835000
+TX,4865000,San Antonio,29.46281,-98.52464,498.9,census_gazetteer_places:2023:4865000
+TX,4827000,Fort Worth,32.78195,-97.34857,350.3,census_gazetteer_places:2023:4827000
+TX,4819000,Dallas,32.79333,-96.76651,339.7,census_gazetteer_places:2023:4819000
+TX,4805000,Austin,30.29862,-97.75413,326.4,census_gazetteer_places:2023:4805000
+TX,4824000,El Paso,31.84778,-106.43111,258.8,census_gazetteer_places:2023:4824000
+TX,4817000,Corpus Christi,27.75425,-97.17338,162.3,census_gazetteer_places:2023:4817000
+TX,4845000,Lubbock,33.5619,-101.88888,142.0,census_gazetteer_places:2023:4845000
+TX,4810768,Brownsville,25.99569,-97.45085,131.8,census_gazetteer_places:2023:4810768
+TX,4841464,Laredo,27.56038,-99.48918,106.8,census_gazetteer_places:2023:4841464
+TX,4801000,Abilene,32.45451,-99.73815,106.7,census_gazetteer_places:2023:4801000
+TX,4803000,Amarillo,35.19806,-101.83311,103.6,census_gazetteer_places:2023:4803000
+UT,4967000,Salt Lake City,40.77693,-111.93099,110.9,census_gazetteer_places:2023:4967000
+UT,4965330,St. George,37.07701,-113.57653,77.1,census_gazetteer_places:2023:4965330
+UT,4937170,Hurricane,37.14847,-113.35886,52.7,census_gazetteer_places:2023:4937170
+UT,4920810,Eagle Mountain,40.31432,-112.01171,51.0,census_gazetteer_places:2023:4920810
+UT,4936400,Hooper,41.16258,-112.34196,47.3,census_gazetteer_places:2023:4936400
+UT,4962470,Provo,40.24531,-111.64506,41.7,census_gazetteer_places:2023:4962470
+UT,4923640,Erda,40.61808,-112.30894,40.1,census_gazetteer_places:2023:4923640
+UT,4931120,Grantsville,40.61135,-112.46908,39.9,census_gazetteer_places:2023:4931120
+UT,4901905,Apple Valley,37.08097,-113.1034,39.7,census_gazetteer_places:2023:4901905
+UT,4906700,Bluff,37.29035,-109.5961,36.6,census_gazetteer_places:2023:4906700
+UT,4911320,Cedar City,37.68377,-113.09548,36.1,census_gazetteer_places:2023:4911320
+UT,4981960,Washington,37.12668,-113.48776,36.1,census_gazetteer_places:2023:4981960
+VA,5176432,Suffolk,36.69716,-76.63478,399.2,census_gazetteer_places:2023:5176432
+VA,5116000,Chesapeake,36.67938,-76.30179,338.5,census_gazetteer_places:2023:5116000
+VA,5182000,Virginia Beach,36.77952,-76.02914,244.7,census_gazetteer_places:2023:5182000
+VA,5156000,Newport News,37.07614,-76.52198,69.0,census_gazetteer_places:2023:5156000
+VA,5167000,Richmond,37.5314,-77.47601,59.9,census_gazetteer_places:2023:5167000
+VA,5157000,Norfolk,36.92301,-76.24464,53.3,census_gazetteer_places:2023:5157000
+VA,5135000,Hampton,37.04796,-76.29729,51.5,census_gazetteer_places:2023:5135000
+VA,5147672,Lynchburg,37.39902,-79.19546,49.0,census_gazetteer_places:2023:5147672
+VA,5121344,Danville,36.58333,-79.40807,42.8,census_gazetteer_places:2023:5121344
+VA,5168000,Roanoke,37.27846,-79.95817,42.5,census_gazetteer_places:2023:5168000
+VA,5164000,Portsmouth,36.85934,-76.35697,33.3,census_gazetteer_places:2023:5164000
+VA,5161832,Petersburg,37.20473,-77.39237,22.7,census_gazetteer_places:2023:5161832
+VT,5066175,South Burlington,44.43647,-73.18262,16.4,census_gazetteer_places:2023:5066175
+VT,5010675,Burlington,44.49193,-73.23888,10.3,census_gazetteer_places:2023:5010675
+VT,5046000,Montpelier,44.26645,-72.57152,10.1,census_gazetteer_places:2023:5046000
+VT,5061225,Rutland,43.60967,-72.97779,7.6,census_gazetteer_places:2023:5061225
+VT,5048850,Newport,44.93669,-72.20956,5.9,census_gazetteer_places:2023:5048850
+VT,5048100,Newbury,44.08083,-72.05772,5.0,census_gazetteer_places:2023:5048100
+VT,5024400,Essex Junction,44.49029,-73.11412,4.6,census_gazetteer_places:2023:5024400
+VT,5003175,Barre,44.19909,-72.50798,4.0,census_gazetteer_places:2023:5003175
+VT,5042700,Manchester,43.16004,-73.0671,3.5,census_gazetteer_places:2023:5042700
+VT,5024025,Enosburg Falls,44.91001,-72.80195,3.5,census_gazetteer_places:2023:5024025
+VT,5074650,Vergennes,44.16766,-73.25532,2.5,census_gazetteer_places:2023:5074650
+VT,5046825,Morrisville,44.55723,-72.58997,2.0,census_gazetteer_places:2023:5046825
+WA,5363000,Seattle,47.61933,-122.35154,84.0,census_gazetteer_places:2023:5363000
+WA,5367000,Spokane,47.66694,-117.43332,68.8,census_gazetteer_places:2023:5367000
+WA,5370000,Tacoma,47.2522,-122.45983,49.7,census_gazetteer_places:2023:5370000
+WA,5374060,Vancouver,45.63716,-122.59657,48.7,census_gazetteer_places:2023:5374060
+WA,5358235,Richland,46.28409,-119.29405,39.9,census_gazetteer_places:2023:5358235
+WA,5353545,Pasco,46.26611,-119.12143,39.0,census_gazetteer_places:2023:5353545
+WA,5367167,Spokane Valley,47.66335,-117.23278,37.7,census_gazetteer_places:2023:5367167
+WA,5335415,Kent,47.38797,-122.21273,33.8,census_gazetteer_places:2023:5335415
+WA,5322640,Everett,47.96541,-122.1899,33.6,census_gazetteer_places:2023:5322640
+WA,5305210,Bellevue,47.59784,-122.15648,33.5,census_gazetteer_places:2023:5305210
+WA,5303180,Auburn,47.30377,-122.21,29.6,census_gazetteer_places:2023:5303180
+WA,5335275,Kennewick,46.19762,-119.17592,28.5,census_gazetteer_places:2023:5335275
+WI,5553000,Milwaukee,43.06335,-87.9667,96.2,census_gazetteer_places:2023:5553000
+WI,5548000,Madison,43.08781,-89.42986,83.1,census_gazetteer_places:2023:5548000
+WI,5540550,Kronenwetter,44.81989,-89.58867,51.6,census_gazetteer_places:2023:5540550
+WI,5551150,Mequon,43.21136,-88.01424,46.3,census_gazetteer_places:2023:5551150
+WI,5531000,Green Bay,44.52154,-87.98657,45.5,census_gazetteer_places:2023:5531000
+WI,5511950,Caledonia,42.79741,-87.8774,45.2,census_gazetteer_places:2023:5511950
+WI,5548225,Maine,45.05803,-89.68132,43.1,census_gazetteer_places:2023:5548225
+WI,5578650,Superior,46.69212,-92.08036,36.6,census_gazetteer_places:2023:5578650
+WI,5556375,New Berlin,42.972,-88.12917,36.4,census_gazetteer_places:2023:5556375
+WI,5577975,Suamico,44.62673,-88.03305,36.3,census_gazetteer_places:2023:5577975
+WI,5567475,Richfield,43.23939,-88.23402,35.9,census_gazetteer_places:2023:5567475
+WI,5531525,Greenville,44.28413,-88.54727,35.7,census_gazetteer_places:2023:5531525
+WV,5414600,Charleston,38.34869,-81.63232,31.4,census_gazetteer_places:2023:5414600
+WV,5485156,Weirton,40.40633,-80.56558,18.1,census_gazetteer_places:2023:5485156
+WV,5439460,Huntington,38.41065,-82.43469,16.2,census_gazetteer_places:2023:5439460
+WV,5486452,Wheeling,40.07375,-80.69603,13.8,census_gazetteer_places:2023:5486452
+WV,5462140,Parkersburg,39.26128,-81.54335,11.8,census_gazetteer_places:2023:5462140
+WV,5410180,Bridgeport,39.30336,-80.2429,10.6,census_gazetteer_places:2023:5410180
+WV,5455756,Morgantown,39.63749,-79.94686,10.2,census_gazetteer_places:2023:5455756
+WV,5475292,South Charleston,38.34077,-81.71085,9.8,census_gazetteer_places:2023:5475292
+WV,5460028,Oak Hill,37.97198,-81.15789,9.7,census_gazetteer_places:2023:5460028
+WV,5415628,Clarksburg,39.2703,-80.36179,9.7,census_gazetteer_places:2023:5415628
+WV,5405332,Beckley,37.77315,-81.16155,9.5,census_gazetteer_places:2023:5405332
+WV,5408524,Bluefield,37.26282,-81.21134,9.0,census_gazetteer_places:2023:5408524
+WY,5613900,Cheyenne,41.12727,-104.79022,36.3,census_gazetteer_places:2023:5613900
+WY,5613150,Casper,42.84212,-106.32128,26.8,census_gazetteer_places:2023:5613150
+WY,5631855,Gillette,44.27258,-105.49894,23.2,census_gazetteer_places:2023:5631855
+WY,5667235,Rock Springs,41.5947,-109.22092,19.8,census_gazetteer_places:2023:5667235
+WY,5645050,Laramie,41.30595,-105.60864,18.4,census_gazetteer_places:2023:5645050
+WY,5633740,Green River,41.51292,-109.4708,13.8,census_gazetteer_places:2023:5633740
+WY,5669845,Sheridan,44.79622,-106.96417,12.7,census_gazetteer_places:2023:5669845
+WY,5666220,Riverton,43.02626,-108.3813,10.3,census_gazetteer_places:2023:5666220
+WY,5625620,Evanston,41.26009,-110.96374,10.3,census_gazetteer_places:2023:5625620
+WY,5615760,Cody,44.52124,-109.05747,10.2,census_gazetteer_places:2023:5615760
+WY,5644760,Lander,42.83128,-108.75989,9.4,census_gazetteer_places:2023:5644760
+WY,5663900,Rawlins,41.78513,-107.22465,8.2,census_gazetteer_places:2023:5663900

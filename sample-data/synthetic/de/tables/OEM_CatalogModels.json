@@ -1,0 +1,625 @@
+[
+  {
+    "body": "Kompakt-SUV",
+    "brand": "Nordwerk Automobile",
+    "competitors": [
+      {
+        "base_price": 27700,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.51
+        },
+        "make": "Rheinmark",
+        "model": "Tamar",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 30500,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.6
+        },
+        "make": "Vltava",
+        "model": "Karst",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 33000,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.57
+        },
+        "make": "Solari",
+        "model": "Dune",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 34000,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.63
+        },
+        "make": "Kestrel",
+        "model": "Kite",
+        "source_url": null,
+        "verify": true
+      }
+    ],
+    "market_id": "de",
+    "model_id": "NW-KORA",
+    "name": "Nordwerk Kora",
+    "powertrains": [
+      "ICE",
+      "HEV"
+    ],
+    "segment": "SUVs",
+    "source_ref": "curated:lineup.json:NW-KORA",
+    "us_final_assembly": null
+  },
+  {
+    "body": "Mittelklasse-SUV",
+    "brand": "Nordwerk Automobile",
+    "competitors": [
+      {
+        "base_price": 36600,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.59
+        },
+        "make": "Rheinmark",
+        "model": "Tarn",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 42000,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.61
+        },
+        "make": "Vltava",
+        "model": "Korvo",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 33500,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.55
+        },
+        "make": "Verdant",
+        "model": "Sprint X",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 43000,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.47
+        },
+        "make": "Brandt",
+        "model": "Terra S",
+        "source_url": null,
+        "verify": true
+      }
+    ],
+    "market_id": "de",
+    "model_id": "NW-HAVEL",
+    "name": "Nordwerk Havel",
+    "powertrains": [
+      "ICE",
+      "HEV",
+      "PHEV"
+    ],
+    "segment": "SUVs",
+    "source_ref": "curated:lineup.json:NW-HAVEL",
+    "us_final_assembly": null
+  },
+  {
+    "body": "Kombi (estate)",
+    "brand": "Nordwerk Automobile",
+    "competitors": [
+      {
+        "base_price": 41000,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.64
+        },
+        "make": "Rheinmark",
+        "model": "Linden Wagon",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 38500,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.65
+        },
+        "make": "Vltava",
+        "model": "Grand Combi",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 50000,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.63
+        },
+        "make": "Brandt",
+        "model": "Kombi T3",
+        "source_url": null,
+        "verify": true
+      }
+    ],
+    "market_id": "de",
+    "model_id": "NW-ELBE",
+    "name": "Nordwerk Elbe Kombi",
+    "powertrains": [
+      "ICE",
+      "PHEV"
+    ],
+    "segment": "Mittelklasse",
+    "source_ref": "curated:lineup.json:NW-ELBE",
+    "us_final_assembly": null
+  },
+  {
+    "body": "Kompaktwagen",
+    "brand": "Nordwerk Automobile",
+    "competitors": [
+      {
+        "base_price": 28000,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.55
+        },
+        "make": "Rheinmark",
+        "model": "Linden",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 28500,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.64
+        },
+        "make": "Vltava",
+        "model": "Ottavo",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 27500,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.57
+        },
+        "make": "Lindau",
+        "model": "Lyra",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 30000,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Resale history"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.44
+        },
+        "make": "Kestrel",
+        "model": "Corvane",
+        "source_url": null,
+        "verify": true
+      }
+    ],
+    "market_id": "de",
+    "model_id": "NW-SPREE",
+    "name": "Nordwerk Spree",
+    "powertrains": [
+      "ICE",
+      "HEV"
+    ],
+    "segment": "Kompaktklasse",
+    "source_ref": "curated:lineup.json:NW-SPREE",
+    "us_final_assembly": null
+  },
+  {
+    "body": "EV Kompakt-Crossover",
+    "brand": "Nordwerk Automobile",
+    "competitors": [
+      {
+        "base_price": 33300,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.49
+        },
+        "make": "Rheinmark",
+        "model": "Eco 3",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 37000,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.63
+        },
+        "make": "Cordero",
+        "model": "Vento",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 27900,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.54
+        },
+        "make": "Aurel",
+        "model": "Petit E",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 35000,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.65
+        },
+        "make": "Lyrien",
+        "model": "E-Pico",
+        "source_url": null,
+        "verify": true
+      }
+    ],
+    "market_id": "de",
+    "model_id": "NW-VELA",
+    "name": "Nordwerk Vela",
+    "powertrains": [
+      "EV"
+    ],
+    "segment": "Kompaktklasse",
+    "source_ref": "curated:lineup.json:NW-VELA",
+    "us_final_assembly": null
+  },
+  {
+    "body": "EV Mittelklasse-SUV",
+    "brand": "Nordwerk Automobile",
+    "competitors": [
+      {
+        "base_price": 40300,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.46
+        },
+        "make": "Rheinmark",
+        "model": "Eco 4",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 44400,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.62
+        },
+        "make": "Vltava",
+        "model": "Elva",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 44990,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.46
+        },
+        "make": "Ampera",
+        "model": "Spark X",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 43900,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.5
+        },
+        "make": "Solari",
+        "model": "Lumen 5",
+        "source_url": null,
+        "verify": true
+      }
+    ],
+    "market_id": "de",
+    "model_id": "NW-AURIN",
+    "name": "Nordwerk Aurin",
+    "powertrains": [
+      "EV"
+    ],
+    "segment": "SUVs",
+    "source_ref": "curated:lineup.json:NW-AURIN",
+    "us_final_assembly": null
+  },
+  {
+    "body": "EV Limousine",
+    "brand": "Nordwerk Automobile",
+    "competitors": [
+      {
+        "base_price": 54000,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.48
+        },
+        "make": "Rheinmark",
+        "model": "Eco 7",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 39990,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.51
+        },
+        "make": "Ampera",
+        "model": "Spark S",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 57500,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.65
+        },
+        "make": "Brandt",
+        "model": "Arc E4",
+        "source_url": null,
+        "verify": true
+      },
+      {
+        "base_price": 44900,
+        "intel": {
+          "why_we_lose": [
+            "Brand recognition",
+            "Charging network (EV)"
+          ],
+          "why_we_win": [
+            "Lower total cost of ownership over 5 years",
+            "Longer warranty",
+            "Local dealer service network"
+          ],
+          "win_rate": 0.45
+        },
+        "make": "Solari",
+        "model": "Lumen 6",
+        "source_url": null,
+        "verify": true
+      }
+    ],
+    "market_id": "de",
+    "model_id": "NW-STRATOS",
+    "name": "Nordwerk Stratos",
+    "powertrains": [
+      "EV"
+    ],
+    "segment": "Mittelklasse",
+    "source_ref": "curated:lineup.json:NW-STRATOS",
+    "us_final_assembly": null
+  }
+]

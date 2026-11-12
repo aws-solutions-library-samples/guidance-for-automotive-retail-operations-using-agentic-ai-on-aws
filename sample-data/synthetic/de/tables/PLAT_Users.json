@@ -1,0 +1,1403 @@
+[
+  {
+    "active": true,
+    "dealer_id": "D-201",
+    "district_id": "DIST-SW",
+    "email": "lea.schulz@beispiel.example",
+    "family_name": "Schulz",
+    "federated_identity": null,
+    "given_name": "Lea",
+    "groups": [
+      "dealer_manager"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "D-201",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00001",
+    "username": "lea.schulz.201"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-201",
+    "district_id": "DIST-SW",
+    "email": "mehmet.richter11@example.de",
+    "family_name": "Richter",
+    "federated_identity": null,
+    "given_name": "Mehmet",
+    "groups": [
+      "dealer_advisor"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-201",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00002",
+    "username": "mehmet.richter.201"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-201",
+    "district_id": "DIST-SW",
+    "email": "stefan.wagner@mail.example.org",
+    "family_name": "Wagner",
+    "federated_identity": null,
+    "given_name": "Stefan",
+    "groups": [
+      "dealer_advisor"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-201",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00003",
+    "username": "stefan.wagner.201"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-201",
+    "district_id": "DIST-SW",
+    "email": "nina.werner50@beispiel.example",
+    "family_name": "Werner",
+    "federated_identity": null,
+    "given_name": "Nina",
+    "groups": [
+      "dealer_advisor"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-201",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00004",
+    "username": "nina.werner.201"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-201",
+    "district_id": "DIST-SW",
+    "email": "lena.lehmann@beispiel.example",
+    "family_name": "Lehmann",
+    "federated_identity": null,
+    "given_name": "Lena",
+    "groups": [
+      "dealer_bdc"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "D-201",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00005",
+    "username": "lena.lehmann.201"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-201",
+    "district_id": "DIST-SW",
+    "email": "lisa.huber@example.de",
+    "family_name": "Huber",
+    "federated_identity": null,
+    "given_name": "Lisa",
+    "groups": [
+      "dealer_fni"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-201",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00006",
+    "username": "lisa.huber.201"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-201",
+    "district_id": "DIST-SW",
+    "email": "kerstin.schwarz6@beispiel.example",
+    "family_name": "Schwarz",
+    "federated_identity": null,
+    "given_name": "Kerstin",
+    "groups": [
+      "dealer_service"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-201",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00007",
+    "username": "kerstin.schwarz.201"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-201",
+    "district_id": "DIST-SW",
+    "email": "niklas.schmidt@beispiel.example",
+    "family_name": "Schmidt",
+    "federated_identity": null,
+    "given_name": "Niklas",
+    "groups": [
+      "dealer_inventory"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-201",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00008",
+    "username": "niklas.schmidt.201"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-201",
+    "district_id": "DIST-SW",
+    "email": "vanessa.yilmaz@beispiel.example",
+    "family_name": "Yilmaz",
+    "federated_identity": null,
+    "given_name": "Vanessa",
+    "groups": [
+      "dealer_delivery"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-201",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00009",
+    "username": "vanessa.yilmaz.201"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-202",
+    "district_id": "DIST-SW",
+    "email": "thomas.walter77@beispiel.example",
+    "family_name": "Walter",
+    "federated_identity": null,
+    "given_name": "Thomas",
+    "groups": [
+      "dealer_manager"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "D-202",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00010",
+    "username": "thomas.walter.202"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-202",
+    "district_id": "DIST-SW",
+    "email": "ayşe.fischer@beispiel.example",
+    "family_name": "Fischer",
+    "federated_identity": null,
+    "given_name": "Ayşe",
+    "groups": [
+      "dealer_advisor"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-202",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00011",
+    "username": "ayşe.fischer.202"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-202",
+    "district_id": "DIST-SW",
+    "email": "elif.schroeder@beispiel.example",
+    "family_name": "Schröder",
+    "federated_identity": null,
+    "given_name": "Elif",
+    "groups": [
+      "dealer_advisor"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-202",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00012",
+    "username": "elif.schröder.202"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-202",
+    "district_id": "DIST-SW",
+    "email": "felix.meyer87@example.de",
+    "family_name": "Meyer",
+    "federated_identity": null,
+    "given_name": "Felix",
+    "groups": [
+      "dealer_advisor"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-202",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00013",
+    "username": "felix.meyer.202"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-202",
+    "district_id": "DIST-SW",
+    "email": "kerstin.mueller@example.de",
+    "family_name": "Müller",
+    "federated_identity": null,
+    "given_name": "Kerstin",
+    "groups": [
+      "dealer_bdc"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "D-202",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00014",
+    "username": "kerstin.müller.202"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-202",
+    "district_id": "DIST-SW",
+    "email": "julia.becker12@beispiel.example",
+    "family_name": "Becker",
+    "federated_identity": null,
+    "given_name": "Julia",
+    "groups": [
+      "dealer_fni"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-202",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00015",
+    "username": "julia.becker.202"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-202",
+    "district_id": "DIST-SW",
+    "email": "jonas.hofmann@example.de",
+    "family_name": "Hofmann",
+    "federated_identity": null,
+    "given_name": "Jonas",
+    "groups": [
+      "dealer_service"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-202",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00016",
+    "username": "jonas.hofmann.202"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-202",
+    "district_id": "DIST-SW",
+    "email": "moritz.becker63@mail.example.org",
+    "family_name": "Becker",
+    "federated_identity": null,
+    "given_name": "Moritz",
+    "groups": [
+      "dealer_inventory"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-202",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00017",
+    "username": "moritz.becker.202"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-202",
+    "district_id": "DIST-SW",
+    "email": "maximilian.mayer16@beispiel.example",
+    "family_name": "Mayer",
+    "federated_identity": null,
+    "given_name": "Maximilian",
+    "groups": [
+      "dealer_delivery"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-202",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00018",
+    "username": "maximilian.mayer.202"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-203",
+    "district_id": "DIST-SW",
+    "email": "hannah.zimmermann@beispiel.example",
+    "family_name": "Zimmermann",
+    "federated_identity": null,
+    "given_name": "Hannah",
+    "groups": [
+      "dealer_manager"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "D-203",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00019",
+    "username": "hannah.zimmermann.203"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-203",
+    "district_id": "DIST-SW",
+    "email": "nina.peters@mail.example.org",
+    "family_name": "Peters",
+    "federated_identity": null,
+    "given_name": "Nina",
+    "groups": [
+      "dealer_advisor"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-203",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00020",
+    "username": "nina.peters.203"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-203",
+    "district_id": "DIST-SW",
+    "email": "florian.lang27@beispiel.example",
+    "family_name": "Lang",
+    "federated_identity": null,
+    "given_name": "Florian",
+    "groups": [
+      "dealer_advisor"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-203",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00021",
+    "username": "florian.lang.203"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-203",
+    "district_id": "DIST-SW",
+    "email": "silke.schaefer60@example.de",
+    "family_name": "Schäfer",
+    "federated_identity": null,
+    "given_name": "Silke",
+    "groups": [
+      "dealer_advisor"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-203",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00022",
+    "username": "silke.schäfer.203"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-203",
+    "district_id": "DIST-SW",
+    "email": "daniel.weber@mail.example.org",
+    "family_name": "Weber",
+    "federated_identity": null,
+    "given_name": "Daniel",
+    "groups": [
+      "dealer_bdc"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "D-203",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00023",
+    "username": "daniel.weber.203"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-203",
+    "district_id": "DIST-SW",
+    "email": "jonas.albrecht69@beispiel.example",
+    "family_name": "Albrecht",
+    "federated_identity": null,
+    "given_name": "Jonas",
+    "groups": [
+      "dealer_fni"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-203",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00024",
+    "username": "jonas.albrecht.203"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-203",
+    "district_id": "DIST-SW",
+    "email": "nicole.bauer88@beispiel.example",
+    "family_name": "Bauer",
+    "federated_identity": null,
+    "given_name": "Nicole",
+    "groups": [
+      "dealer_service"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-203",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00025",
+    "username": "nicole.bauer.203"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-203",
+    "district_id": "DIST-SW",
+    "email": "anna.hofmann@beispiel.example",
+    "family_name": "Hofmann",
+    "federated_identity": null,
+    "given_name": "Anna",
+    "groups": [
+      "dealer_inventory"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-203",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00026",
+    "username": "anna.hofmann.203"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-203",
+    "district_id": "DIST-SW",
+    "email": "petra.kaya@example.de",
+    "family_name": "Kaya",
+    "federated_identity": null,
+    "given_name": "Petra",
+    "groups": [
+      "dealer_delivery"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-203",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00027",
+    "username": "petra.kaya.203"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-204",
+    "district_id": "DIST-SW",
+    "email": "ali.demir30@beispiel.example",
+    "family_name": "Demir",
+    "federated_identity": null,
+    "given_name": "Ali",
+    "groups": [
+      "dealer_manager"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "D-204",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00028",
+    "username": "ali.demir.204"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-204",
+    "district_id": "DIST-SW",
+    "email": "melanie.hofmann12@example.de",
+    "family_name": "Hofmann",
+    "federated_identity": null,
+    "given_name": "Melanie",
+    "groups": [
+      "dealer_advisor"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-204",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00029",
+    "username": "melanie.hofmann.204"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-205",
+    "district_id": "DIST-SW",
+    "email": "christian.hoffmann82@beispiel.example",
+    "family_name": "Hoffmann",
+    "federated_identity": null,
+    "given_name": "Christian",
+    "groups": [
+      "dealer_manager"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "D-205",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00030",
+    "username": "christian.hoffmann.205"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-205",
+    "district_id": "DIST-SW",
+    "email": "sarah.mueller98@example.de",
+    "family_name": "Müller",
+    "federated_identity": null,
+    "given_name": "Sarah",
+    "groups": [
+      "dealer_advisor"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-205",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00031",
+    "username": "sarah.müller.205"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-206",
+    "district_id": "DIST-SW",
+    "email": "jonas.schroeder@mail.example.org",
+    "family_name": "Schröder",
+    "federated_identity": null,
+    "given_name": "Jonas",
+    "groups": [
+      "dealer_manager"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "D-206",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00032",
+    "username": "jonas.schröder.206"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-206",
+    "district_id": "DIST-SW",
+    "email": "lena.hoffmann@beispiel.example",
+    "family_name": "Hoffmann",
+    "federated_identity": null,
+    "given_name": "Lena",
+    "groups": [
+      "dealer_advisor"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-206",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00033",
+    "username": "lena.hoffmann.206"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-207",
+    "district_id": "DIST-SW",
+    "email": "silke.schroeder@example.de",
+    "family_name": "Schröder",
+    "federated_identity": null,
+    "given_name": "Silke",
+    "groups": [
+      "dealer_manager"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "D-207",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00034",
+    "username": "silke.schröder.207"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-207",
+    "district_id": "DIST-SW",
+    "email": "sabine.herrmann24@example.de",
+    "family_name": "Herrmann",
+    "federated_identity": null,
+    "given_name": "Sabine",
+    "groups": [
+      "dealer_advisor"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-207",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00035",
+    "username": "sabine.herrmann.207"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-208",
+    "district_id": "DIST-SW",
+    "email": "lena.schmitt93@example.de",
+    "family_name": "Schmitt",
+    "federated_identity": null,
+    "given_name": "Lena",
+    "groups": [
+      "dealer_manager"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "D-208",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00036",
+    "username": "lena.schmitt.208"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-208",
+    "district_id": "DIST-SW",
+    "email": "nicole.fischer@example.de",
+    "family_name": "Fischer",
+    "federated_identity": null,
+    "given_name": "Nicole",
+    "groups": [
+      "dealer_advisor"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-208",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00037",
+    "username": "nicole.fischer.208"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-209",
+    "district_id": "DIST-SW",
+    "email": "tobias.weiss86@beispiel.example",
+    "family_name": "Weiß",
+    "federated_identity": null,
+    "given_name": "Tobias",
+    "groups": [
+      "dealer_manager"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "D-209",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00038",
+    "username": "tobias.weiß.209"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-209",
+    "district_id": "DIST-SW",
+    "email": "marie.wagner56@example.de",
+    "family_name": "Wagner",
+    "federated_identity": null,
+    "given_name": "Marie",
+    "groups": [
+      "dealer_advisor"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-209",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00039",
+    "username": "marie.wagner.209"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-210",
+    "district_id": "DIST-SW",
+    "email": "ali.moeller@example.de",
+    "family_name": "Möller",
+    "federated_identity": null,
+    "given_name": "Ali",
+    "groups": [
+      "dealer_manager"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "D-210",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00040",
+    "username": "ali.möller.210"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-210",
+    "district_id": "DIST-SW",
+    "email": "sabine.schneider@beispiel.example",
+    "family_name": "Schneider",
+    "federated_identity": null,
+    "given_name": "Sabine",
+    "groups": [
+      "dealer_advisor"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-210",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00041",
+    "username": "sabine.schneider.210"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-211",
+    "district_id": "DIST-SW",
+    "email": "lisa.wagner@mail.example.org",
+    "family_name": "Wagner",
+    "federated_identity": null,
+    "given_name": "Lisa",
+    "groups": [
+      "dealer_manager"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "D-211",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00042",
+    "username": "lisa.wagner.211"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-211",
+    "district_id": "DIST-SW",
+    "email": "ayşe.albrecht@example.de",
+    "family_name": "Albrecht",
+    "federated_identity": null,
+    "given_name": "Ayşe",
+    "groups": [
+      "dealer_advisor"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-211",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00043",
+    "username": "ayşe.albrecht.211"
+  },
+  {
+    "active": true,
+    "dealer_id": null,
+    "district_id": "DIST-SW",
+    "email": "katrin.vogel@nordwerk-oem.example.com",
+    "family_name": "Vogel",
+    "federated_identity": "CorpDirectory:katrinv",
+    "given_name": "Katrin",
+    "groups": [
+      "oem_dm"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "DIST-SW",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00044",
+    "username": "katrin.vogel"
+  },
+  {
+    "active": true,
+    "dealer_id": null,
+    "district_id": null,
+    "email": "bernd.sailer@nordwerk-oem.example.com",
+    "family_name": "Sailer",
+    "federated_identity": null,
+    "given_name": "Bernd",
+    "groups": [
+      "oem_regional"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "REG-S",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00045",
+    "username": "bernd.sailer"
+  },
+  {
+    "active": true,
+    "dealer_id": null,
+    "district_id": null,
+    "email": "thomas.kaya@nordwerk-oem.example.com",
+    "family_name": "Kaya",
+    "federated_identity": null,
+    "given_name": "Thomas",
+    "groups": [
+      "oem_ci_planning"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "OEM",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00046",
+    "username": "thomas.kaya"
+  },
+  {
+    "active": true,
+    "dealer_id": null,
+    "district_id": null,
+    "email": "lena.hahn@nordwerk-oem.example.com",
+    "family_name": "Hahn",
+    "federated_identity": null,
+    "given_name": "Lena",
+    "groups": [
+      "oem_sales_ops"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "OEM",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00047",
+    "username": "lena.hahn"
+  },
+  {
+    "active": true,
+    "dealer_id": null,
+    "district_id": null,
+    "email": "michael.bauer@nordwerk-oem.example.com",
+    "family_name": "Bauer",
+    "federated_identity": null,
+    "given_name": "Michael",
+    "groups": [
+      "oem_finance"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "OEM",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00048",
+    "username": "michael.bauer"
+  },
+  {
+    "active": true,
+    "dealer_id": null,
+    "district_id": null,
+    "email": "michael.yilmaz@nordwerk-oem.example.com",
+    "family_name": "Yilmaz",
+    "federated_identity": null,
+    "given_name": "Michael",
+    "groups": [
+      "oem_marketing"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "OEM",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00049",
+    "username": "michael.yilmaz"
+  },
+  {
+    "active": true,
+    "dealer_id": null,
+    "district_id": null,
+    "email": "sabine.meier@nordwerk-oem.example.com",
+    "family_name": "Meier",
+    "federated_identity": null,
+    "given_name": "Sabine",
+    "groups": [
+      "oem_cx"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "OEM",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00050",
+    "username": "sabine.meier"
+  },
+  {
+    "active": true,
+    "dealer_id": null,
+    "district_id": null,
+    "email": "thomas.mayer@nordwerk-oem.example.com",
+    "family_name": "Mayer",
+    "federated_identity": "CorpDirectory:thomasm",
+    "given_name": "Thomas",
+    "groups": [
+      "admin_tenant"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "OEM",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00051",
+    "username": "thomas.mayer"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-201",
+    "district_id": "DIST-SW",
+    "email": "ali.albrecht@nordwerk-oem.example.com",
+    "family_name": "Albrecht",
+    "federated_identity": null,
+    "given_name": "Ali",
+    "groups": [
+      "admin_dealer"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-201",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00052",
+    "username": "ali.albrecht"
+  },
+  {
+    "active": true,
+    "certifications": [
+      "ev_hv_l2"
+    ],
+    "dealer_id": "D-201",
+    "district_id": "DIST-SW",
+    "email": "claudia.neumann@beispiel.example",
+    "family_name": "Neumann",
+    "federated_identity": null,
+    "given_name": "Claudia",
+    "groups": [
+      "dealer_technician"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-201",
+    "skills": [
+      "brakes",
+      "diagnostics",
+      "electrical",
+      "hv_certified"
+    ],
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00053",
+    "username": "claudia.neumann.201"
+  },
+  {
+    "active": true,
+    "certifications": [],
+    "dealer_id": "D-201",
+    "district_id": "DIST-SW",
+    "email": "sebastian.koehler@mail.example.org",
+    "family_name": "Köhler",
+    "federated_identity": null,
+    "given_name": "Sebastian",
+    "groups": [
+      "dealer_technician"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-201",
+    "skills": [
+      "alignment",
+      "diagnostics",
+      "driveline"
+    ],
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00054",
+    "username": "sebastian.köhler.201"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-201",
+    "district_id": "DIST-SW",
+    "email": "niklas.winter@example.de",
+    "family_name": "Winter",
+    "federated_identity": null,
+    "given_name": "Niklas",
+    "groups": [
+      "dealer_parts"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-201",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00055",
+    "username": "niklas.winter.201"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-201",
+    "district_id": "DIST-SW",
+    "email": "lukas.yilmaz@beispiel.example",
+    "family_name": "Yilmaz",
+    "federated_identity": null,
+    "given_name": "Lukas",
+    "groups": [
+      "dealer_service_manager"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "D-201",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00056",
+    "username": "lukas.yilmaz.201"
+  },
+  {
+    "active": true,
+    "certifications": [
+      "ev_hv_l2"
+    ],
+    "dealer_id": "D-202",
+    "district_id": "DIST-SW",
+    "email": "mehmet.fuchs@example.de",
+    "family_name": "Fuchs",
+    "federated_identity": null,
+    "given_name": "Mehmet",
+    "groups": [
+      "dealer_technician"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-202",
+    "skills": [
+      "brakes",
+      "diagnostics",
+      "electrical",
+      "hv_certified"
+    ],
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00057",
+    "username": "mehmet.fuchs.202"
+  },
+  {
+    "active": true,
+    "certifications": [],
+    "dealer_id": "D-202",
+    "district_id": "DIST-SW",
+    "email": "michael.albrecht@beispiel.example",
+    "family_name": "Albrecht",
+    "federated_identity": null,
+    "given_name": "Michael",
+    "groups": [
+      "dealer_technician"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-202",
+    "skills": [
+      "brakes",
+      "ev_battery",
+      "hvac"
+    ],
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00058",
+    "username": "michael.albrecht.202"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-202",
+    "district_id": "DIST-SW",
+    "email": "maximilian.fuchs@mail.example.org",
+    "family_name": "Fuchs",
+    "federated_identity": null,
+    "given_name": "Maximilian",
+    "groups": [
+      "dealer_parts"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-202",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00059",
+    "username": "maximilian.fuchs.202"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-202",
+    "district_id": "DIST-SW",
+    "email": "jana.huber55@example.de",
+    "family_name": "Huber",
+    "federated_identity": null,
+    "given_name": "Jana",
+    "groups": [
+      "dealer_service_manager"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "D-202",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00060",
+    "username": "jana.huber.202"
+  },
+  {
+    "active": true,
+    "certifications": [
+      "ev_hv_l2"
+    ],
+    "dealer_id": "D-203",
+    "district_id": "DIST-SW",
+    "email": "niklas.schmitt34@example.de",
+    "family_name": "Schmitt",
+    "federated_identity": null,
+    "given_name": "Niklas",
+    "groups": [
+      "dealer_technician"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-203",
+    "skills": [
+      "brakes",
+      "diagnostics",
+      "ev_battery",
+      "hv_certified"
+    ],
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00061",
+    "username": "niklas.schmitt.203"
+  },
+  {
+    "active": true,
+    "certifications": [],
+    "dealer_id": "D-203",
+    "district_id": "DIST-SW",
+    "email": "jan.meier52@example.de",
+    "family_name": "Meier",
+    "federated_identity": null,
+    "given_name": "Jan",
+    "groups": [
+      "dealer_technician"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-203",
+    "skills": [
+      "alignment",
+      "electrical",
+      "ev_battery"
+    ],
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00062",
+    "username": "jan.meier.203"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-203",
+    "district_id": "DIST-SW",
+    "email": "silke.lehmann95@example.de",
+    "family_name": "Lehmann",
+    "federated_identity": null,
+    "given_name": "Silke",
+    "groups": [
+      "dealer_parts"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-203",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00063",
+    "username": "silke.lehmann.203"
+  },
+  {
+    "active": true,
+    "dealer_id": "D-203",
+    "district_id": "DIST-SW",
+    "email": "marie.schulz9@mail.example.org",
+    "family_name": "Schulz",
+    "federated_identity": null,
+    "given_name": "Marie",
+    "groups": [
+      "dealer_service_manager"
+    ],
+    "market_id": "de",
+    "quick_provisioned": true,
+    "scope_node_id": "D-203",
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00064",
+    "username": "marie.schulz.203"
+  },
+  {
+    "active": true,
+    "certifications": [],
+    "dealer_id": "D-204",
+    "district_id": "DIST-SW",
+    "email": "petra.mueller34@beispiel.example",
+    "family_name": "Müller",
+    "federated_identity": null,
+    "given_name": "Petra",
+    "groups": [
+      "dealer_technician"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-204",
+    "skills": [
+      "brakes",
+      "driveline",
+      "ev_battery"
+    ],
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00065",
+    "username": "petra.müller.204"
+  },
+  {
+    "active": true,
+    "certifications": [
+      "ev_hv_l2"
+    ],
+    "dealer_id": "D-205",
+    "district_id": "DIST-SW",
+    "email": "daniel.demir@beispiel.example",
+    "family_name": "Demir",
+    "federated_identity": null,
+    "given_name": "Daniel",
+    "groups": [
+      "dealer_technician"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-205",
+    "skills": [
+      "brakes",
+      "driveline",
+      "electrical",
+      "hv_certified"
+    ],
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00066",
+    "username": "daniel.demir.205"
+  },
+  {
+    "active": true,
+    "certifications": [],
+    "dealer_id": "D-206",
+    "district_id": "DIST-SW",
+    "email": "lisa.schwarz@beispiel.example",
+    "family_name": "Schwarz",
+    "federated_identity": null,
+    "given_name": "Lisa",
+    "groups": [
+      "dealer_technician"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-206",
+    "skills": [
+      "alignment",
+      "driveline",
+      "hvac"
+    ],
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00067",
+    "username": "lisa.schwarz.206"
+  },
+  {
+    "active": true,
+    "certifications": [
+      "ev_hv_l2"
+    ],
+    "dealer_id": "D-207",
+    "district_id": "DIST-SW",
+    "email": "nina.yilmaz71@beispiel.example",
+    "family_name": "Yilmaz",
+    "federated_identity": null,
+    "given_name": "Nina",
+    "groups": [
+      "dealer_technician"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-207",
+    "skills": [
+      "driveline",
+      "ev_battery",
+      "hv_certified",
+      "hvac"
+    ],
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00068",
+    "username": "nina.yilmaz.207"
+  },
+  {
+    "active": true,
+    "certifications": [],
+    "dealer_id": "D-208",
+    "district_id": "DIST-SW",
+    "email": "florian.winter@mail.example.org",
+    "family_name": "Winter",
+    "federated_identity": null,
+    "given_name": "Florian",
+    "groups": [
+      "dealer_technician"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-208",
+    "skills": [
+      "driveline",
+      "electrical",
+      "ev_battery"
+    ],
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00069",
+    "username": "florian.winter.208"
+  },
+  {
+    "active": true,
+    "certifications": [
+      "ev_hv_l2"
+    ],
+    "dealer_id": "D-209",
+    "district_id": "DIST-SW",
+    "email": "lena.kaiser85@mail.example.org",
+    "family_name": "Kaiser",
+    "federated_identity": null,
+    "given_name": "Lena",
+    "groups": [
+      "dealer_technician"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-209",
+    "skills": [
+      "brakes",
+      "diagnostics",
+      "electrical",
+      "hv_certified"
+    ],
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00070",
+    "username": "lena.kaiser.209"
+  },
+  {
+    "active": true,
+    "certifications": [],
+    "dealer_id": "D-210",
+    "district_id": "DIST-SW",
+    "email": "claudia.peters71@mail.example.org",
+    "family_name": "Peters",
+    "federated_identity": null,
+    "given_name": "Claudia",
+    "groups": [
+      "dealer_technician"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-210",
+    "skills": [
+      "alignment",
+      "brakes",
+      "hvac"
+    ],
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00071",
+    "username": "claudia.peters.210"
+  },
+  {
+    "active": true,
+    "certifications": [
+      "ev_hv_l2"
+    ],
+    "dealer_id": "D-211",
+    "district_id": "DIST-SW",
+    "email": "andreas.hoffmann@mail.example.org",
+    "family_name": "Hoffmann",
+    "federated_identity": null,
+    "given_name": "Andreas",
+    "groups": [
+      "dealer_technician"
+    ],
+    "market_id": "de",
+    "quick_provisioned": false,
+    "scope_node_id": "D-211",
+    "skills": [
+      "brakes",
+      "electrical",
+      "ev_battery",
+      "hv_certified"
+    ],
+    "test_password": "IrpoDemo2026!",
+    "user_id": "U-DE-00072",
+    "username": "andreas.hoffmann.211"
+  }
+]

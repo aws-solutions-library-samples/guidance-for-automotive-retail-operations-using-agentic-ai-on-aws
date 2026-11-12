@@ -1,0 +1,121 @@
+[
+  {
+    "example_phrasing": "I hear you — let's look at what's in that number. With the incentives you qualify for and the trade applied, the figure that matters is the monthly, so let me show you two ways to structure it.",
+    "market_id": "us",
+    "objection_type": "price_too_high",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-US-price_too_high"
+  },
+  {
+    "example_phrasing": "Understood. Payment is a mix of term, rate and what we put down — let me run a 60- and 72-month version side by side so you can see where it lands before we talk about anything else.",
+    "market_id": "us",
+    "objection_type": "payment_too_high",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-US-payment_too_high"
+  },
+  {
+    "example_phrasing": "That's the most common question we get. Let's start from how you actually drive: for your daily miles a full charge covers well over a week, and I'll show you the DC fast-chargers on your usual routes.",
+    "market_id": "us",
+    "objection_type": "range_anxiety",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-US-range_anxiety"
+  },
+  {
+    "example_phrasing": "Fair point, and it's worth sorting before you buy. Most owners charge at home overnight on a Level 2 unit — there's a rebate for the install — and I can map public chargers near your home and work right now.",
+    "market_id": "us",
+    "objection_type": "charging_access",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-US-charging_access"
+  },
+  {
+    "example_phrasing": "Good question. Residuals on this model have held up better than the segment, and the battery warranty transfers to the next owner, which is what keeps resale strong — I can pull the current used values for you.",
+    "market_id": "us",
+    "objection_type": "resale_value",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-US-resale_value"
+  },
+  {
+    "example_phrasing": "There are a lot of them, so let me simplify: here's which ones apply to you today, which depend on how you finance, and which have expired. We'll only build the deal on the ones that are live.",
+    "market_id": "us",
+    "objection_type": "incentive_confusion",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-US-incentive_confusion"
+  },
+  {
+    "example_phrasing": "Rates have moved, so that's a real concern. The captive-finance special on this model is the lever here — let me check what term it applies to and what a shorter loan does to the total interest.",
+    "market_id": "us",
+    "objection_type": "interest_rate",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-US-interest_rate"
+  },
+  {
+    "example_phrasing": "I understand — your car is worth more to you than a number on a screen. The valuation is anchored on recent comps; let me walk you through them and show how the equity, positive or negative, rolls into the deal.",
+    "market_id": "us",
+    "objection_type": "trade_value_low",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-US-trade_value_low"
+  },
+  {
+    "example_phrasing": "No pressure at all. What I can do is hold the build and the incentive snapshot so you don't lose either, and send you a reminder when anything that affects your price changes.",
+    "market_id": "us",
+    "objection_type": "timing_not_ready",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-US-timing_not_ready"
+  },
+  {
+    "example_phrasing": "They make a good car. Rather than argue the spec sheet, let's compare the two on what you told me matters — cargo space, charging speed and five-year cost — and you decide.",
+    "market_id": "us",
+    "objection_type": "competitor_better",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-US-competitor_better"
+  },
+  {
+    "example_phrasing": "That's fair; it's a big purchase. This model carries an 8-year battery warranty and I can show you the warranty-claim rate and owner survey scores, not just our brochure.",
+    "market_id": "us",
+    "objection_type": "trust_reliability",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-US-trust_reliability"
+  },
+  {
+    "example_phrasing": "Let me check that against the trims — it may be available one level up or as an accessory. If it isn't, I'd rather tell you now than have you find out after delivery.",
+    "market_id": "us",
+    "objection_type": "feature_missing",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-US-feature_missing"
+  },
+  {
+    "example_phrasing": "Pricing did move with the tariff changes. The in-stock units were built before the increase, so today's price on this VIN is the earlier one — that's the honest reason to decide on this car rather than wait.",
+    "market_id": "us",
+    "objection_type": "tariff_price_increase",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-US-tariff_price_increase"
+  },
+  {
+    "example_phrasing": "I know that's more than you expected. Let me separate what's a safety item from what can wait, and show you the estimate line by line so you decide what we do today.",
+    "market_id": "us",
+    "objection_type": "repair_cost",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-US-repair_cost"
+  },
+  {
+    "example_phrasing": "Some of it can. The brake measurement is the one I'd do now; the rest I'll put on a 60-day reminder with today's price so nothing sneaks up on you.",
+    "market_id": "us",
+    "objection_type": "can_it_wait",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-US-can_it_wait"
+  },
+  {
+    "example_phrasing": "Absolutely — take the inspection photos and measurements with you. If another shop quotes it, bring it back and I'll match the scope line for line.",
+    "market_id": "us",
+    "objection_type": "second_opinion",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-US-second_opinion"
+  },
+  {
+    "example_phrasing": "Let me check the coverage rule rather than guess. Here's the warranty term and the in-service date on your VIN; if it's covered, it's covered, and I'll show you the rule we applied.",
+    "market_id": "us",
+    "objection_type": "warranty_dispute",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-US-warranty_dispute"
+  }
+]

@@ -1,0 +1,118 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Amazon Bedrock AgentCore — Vehicle Recommendation Agent Configuration
+# ─────────────────────────────────────────────────────────────────────────────
+
+runtime:
+  agent_name: vehicle-recommendation-agent
+  container_image: ""          # Populated by deploy script after ECR push
+  port: 8080
+  health_check_path: /ping
+  cpu: 2048                    # 2 vCPU
+  memory: 4096                 # 4 GB
+  min_capacity: 1
+  max_capacity: 10
+
+memory:
+  event_memory:
+    name: vehicle-recommendation-event-memory
+    description: "Recommendation records and customer interaction history"
+    retention_days: 90
+    memory_window_turns: 50
+  semantic_memory:
+    name: vehicle-recommendation-semantic-memory
+    description: "Vehicle specs, features, reviews, and preference signals"
+    embedding_model: "amazon.titan-embed-text-v2:0"
+
+gateway:
+  name: vehicle-recommendation-gateway
+  description: "Gateway for Customer 360, inventory, financing, and incentive APIs"
+  tools:
+    - name: getCustomer360Profile
+      description: "Retrieve unified customer profile from CDP"
+      endpoint: "https://cdp.example-dealer.com/api/v1/profiles"
+      method: GET
+      auth_type: api_key
+      auth_config:
+        header: "X-API-Key"
+        key: "${CDP_API_KEY}"
+
+    - name: getCustomerPreferences
+      description: "Retrieve explicit and inferred customer vehicle preferences"
+      endpoint: "https://cdp.example-dealer.com/api/v1/preferences"
+      method: GET
+      auth_type: api_key
+      auth_config:
+        header: "X-API-Key"
+        key: "${CDP_API_KEY}"
+
+    - name: getVehicleInventory
+      description: "Query available vehicle inventory with filters"
+      endpoint: "https://dms.example-dealer.com/api/v1/inventory"
+      method: GET
+      auth_type: oauth2
+      auth_config:
+        token_endpoint: "https://auth.example-dealer.com/oauth/token"
+        client_id: "${DMS_CLIENT_ID}"
+        client_secret: "${DMS_CLIENT_SECRET}"
+        scope: "inventory:read"
+
+    - name: getFinancingOptions
+      description: "Retrieve financing rates and pre-qualification for a customer"
+      endpoint: "https://finance.example-dealer.com/api/v1/options"
+      method: GET
+      auth_type: oauth2
+      auth_config:
+        token_endpoint: "https://auth.example-dealer.com/oauth/token"
+        client_id: "${FINANCE_CLIENT_ID}"
+        client_secret: "${FINANCE_CLIENT_SECRET}"
+        scope: "finance:read"
+
+    - name: getTradeInValuation
+      description: "Get trade-in valuation for a customer's current vehicle"
+      endpoint: "https://dms.example-dealer.com/api/v1/trade-in"
+      method: GET
+      auth_type: oauth2
+      auth_config:
+        token_endpoint: "https://auth.example-dealer.com/oauth/token"
+        client_id: "${DMS_CLIENT_ID}"
+        client_secret: "${DMS_CLIENT_SECRET}"
+        scope: "trade-in:read"
+
+    - name: getIncentivePrograms
+      description: "Retrieve active manufacturer incentive and rebate programs"
+      endpoint: "https://oem-api.example-oem.com/v2/incentives"
+      method: GET
+      auth_type: oauth2
+      auth_config:
+        token_endpoint: "https://auth.example-oem.com/oauth/token"
+        client_id: "${OEM_CLIENT_ID}"
+        client_secret: "${OEM_CLIENT_SECRET}"
+        scope: "incentives:read"
+
+identity:
+  user_pool_name: vehicle-recommendation-users
+  client_name: vehicle-recommendation-agent-client
+  scopes:
+    - name: cdp:read
+      description: Read access to CDP customer profiles and preferences
+    - name: inventory:read
+      description: Read access to vehicle inventory
+    - name: finance:read
+      description: Read access to financing options
+    - name: trade-in:read
+      description: Read access to trade-in valuations
+
+observability:
+  cloudwatch:
+    log_group: /vehicle-recommendation-agent/logs
+    log_stream: agent
+    retention_days: 30
+  xray:
+    enabled: true
+    sampling_rate: 0.10
+  metrics:
+    namespace: VehicleRecommendation
+    dimensions:
+      - match_confidence
+      - body_style
+      - fuel_type

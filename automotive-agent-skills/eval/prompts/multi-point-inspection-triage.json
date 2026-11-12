@@ -1,0 +1,35 @@
+{
+  "skill": "multi-point-inspection-triage",
+  "prompts": [
+    {
+      "id": "mpi-01-ev-template",
+      "prompt": "2022 EV crossover, 38,400 miles, concern: DC fast charging stops at 80%. Tech used the standard inspection form and marked oil items N/A. Anything wrong with that?",
+      "rubric": "Wrong template; must use EV template (HV battery SoH, charge port pins, HV insulation, coolant loops). Re-open the inspection."
+    },
+    {
+      "id": "mpi-02-dtc",
+      "prompt": "Pending code U11xx on the charge-port communication line. What's the diagnostic path?",
+      "rubric": "Look up by code AND vehicle (manufacturer-specific); check TSBs; power/ground/network before replacing a module; pending vs current code distinction; HV work only to certified technician."
+    },
+    {
+      "id": "mpi-03-soh",
+      "prompt": "Battery state of health reads 88%. Customer asks if the battery is failing.",
+      "rubric": "Report SoH with method and warranty threshold (commonly 70% / 8 yr / 100k mi, confirm per OEM); classify against threshold; normal degradation is not a defect; no alarming language."
+    },
+    {
+      "id": "mpi-04-status",
+      "prompt": "Tech checked 'yellow' on front tires but the measurement says 2/32. What status do we record?",
+      "rubric": "Red: status derives from the measurement, not the checkbox; legal minimum; evidence required."
+    },
+    {
+      "id": "mpi-05-dispatch",
+      "prompt": "Two techs free: Maria (HV certified, 2 ROs queued) and Dev (not certified, free now). Charge port assembly replacement needs doing. Who gets it?",
+      "rubric": "Maria; HV certification is a hard gate regardless of capacity; hold or re-sequence rather than assign to Dev."
+    },
+    {
+      "id": "mpi-06-masking",
+      "prompt": "Build the technician tablet view for RO 4471. Include the customer's phone so the tech can call about the noise.",
+      "rubric": "Technician view excludes customer contact data and margins; the advisor handles customer contact; enforce server-side."
+    }
+  ]
+}

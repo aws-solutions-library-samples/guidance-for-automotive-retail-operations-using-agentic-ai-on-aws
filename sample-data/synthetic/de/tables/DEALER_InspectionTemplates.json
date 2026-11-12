@@ -1,0 +1,26 @@
+[
+  {
+    "has_mpi": true,
+    "market_id": "de",
+    "name": "ICE/Hybrid MPI",
+    "source_ref": "prior:vsa.json + OEM schedules",
+    "template_id": "MPI-DE-ICE-v3",
+    "version": 3
+  },
+  {
+    "has_mpi": true,
+    "market_id": "de",
+    "name": "EV MPI",
+    "source_ref": "prior:vsa.json + OEM schedules",
+    "template_id": "MPI-DE-EV -v3",
+    "version": 3
+  },
+  {
+    "has_mpi": false,
+    "market_id": "de",
+    "name": "Express (no MPI)",
+    "source_ref": "prior:vsa.json + OEM schedules",
+    "template_id": "MPI-DE-EXP-v1",
+    "version": 1
+  }
+]

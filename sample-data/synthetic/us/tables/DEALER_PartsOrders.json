@@ -1,0 +1,211 @@
+[
+  {
+    "description": "Front brake pad & rotor kit",
+    "eta": "2026-09-13T09:00:00Z",
+    "part_id": "PRT-US-00001",
+    "part_number": "P29013",
+    "parts_order_id": "PO-US-00001",
+    "qty": 1,
+    "ro_id": "RO-US-00001",
+    "source_ref": "synthetic:parts_order",
+    "status": "backordered"
+  },
+  {
+    "description": "Wiper blade pair",
+    "eta": "2026-09-15T09:00:00Z",
+    "part_id": "PRT-US-00003",
+    "part_number": "P20029",
+    "parts_order_id": "PO-US-00002",
+    "qty": 1,
+    "ro_id": "RO-US-00002",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Oil & filter kit",
+    "eta": "2026-09-12T09:00:00Z",
+    "part_id": "PRT-US-00011",
+    "part_number": "P10016",
+    "parts_order_id": "PO-US-00004",
+    "qty": 1,
+    "ro_id": "RO-US-00006",
+    "source_ref": "synthetic:parts_order",
+    "status": "backordered"
+  },
+  {
+    "description": "12V battery",
+    "eta": "2026-09-12T09:00:00Z",
+    "part_id": "PRT-US-00012",
+    "part_number": "P49245",
+    "parts_order_id": "PO-US-00005",
+    "qty": 1,
+    "ro_id": "RO-US-00007",
+    "source_ref": "synthetic:parts_order",
+    "status": "backordered"
+  },
+  {
+    "description": "12V battery",
+    "eta": "2026-09-14T09:00:00Z",
+    "part_id": "PRT-US-00020",
+    "part_number": "P53797",
+    "parts_order_id": "PO-US-00006",
+    "qty": 1,
+    "ro_id": "RO-US-00012",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Tire (OE size)",
+    "eta": "2026-09-16T09:00:00Z",
+    "part_id": "PRT-US-00024",
+    "part_number": "P15688",
+    "parts_order_id": "PO-US-00007",
+    "qty": 2,
+    "ro_id": "RO-US-00015",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Wiper blade",
+    "eta": "2026-09-11T09:00:00Z",
+    "part_id": "PRT-US-00027",
+    "part_number": "P52761",
+    "parts_order_id": "PO-US-00008",
+    "qty": 1,
+    "ro_id": "RO-US-00016",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Wiper blade pair",
+    "eta": "2026-09-15T09:00:00Z",
+    "part_id": "PRT-US-00032",
+    "part_number": "P77891",
+    "parts_order_id": "PO-US-00009",
+    "qty": 1,
+    "ro_id": "RO-US-00019",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Rear brake pad & rotor kit",
+    "eta": "2026-09-17T09:00:00Z",
+    "part_id": "PRT-US-00038",
+    "part_number": "P55079",
+    "parts_order_id": "PO-US-00010",
+    "qty": 1,
+    "ro_id": "RO-US-00022",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Coolant (OEM spec)",
+    "eta": "2026-09-14T09:00:00Z",
+    "part_id": "PRT-US-00039",
+    "part_number": "P74881",
+    "parts_order_id": "PO-US-00011",
+    "qty": 1,
+    "ro_id": "RO-US-00023",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Oil & filter kit",
+    "eta": "2026-09-14T09:00:00Z",
+    "part_id": "PRT-US-00041",
+    "part_number": "P32465",
+    "parts_order_id": "PO-US-00012",
+    "qty": 1,
+    "ro_id": "RO-US-00024",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Coolant (OEM spec)",
+    "eta": "2026-09-13T09:00:00Z",
+    "part_id": "PRT-US-00044",
+    "part_number": "P15330",
+    "parts_order_id": "PO-US-00013",
+    "qty": 1,
+    "ro_id": "RO-US-00025",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "12V battery",
+    "eta": "2026-09-17T09:00:00Z",
+    "part_id": "PRT-US-00045",
+    "part_number": "P33827",
+    "parts_order_id": "PO-US-00014",
+    "qty": 1,
+    "ro_id": "RO-US-00026",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Wiper blade pair",
+    "eta": "2026-09-11T09:00:00Z",
+    "part_id": "PRT-US-00061",
+    "part_number": "P44876",
+    "parts_order_id": "PO-US-00015",
+    "qty": 1,
+    "ro_id": "RO-US-00034",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Rear brake pad & rotor kit",
+    "eta": "2026-09-11T09:00:00Z",
+    "part_id": "PRT-US-00066",
+    "part_number": "P90263",
+    "parts_order_id": "PO-US-00016",
+    "qty": 1,
+    "ro_id": "RO-US-00036",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Charge-port seal kit",
+    "eta": "2026-09-12T09:00:00Z",
+    "part_id": "PRT-US-00074",
+    "part_number": "P65563",
+    "parts_order_id": "PO-US-00017",
+    "qty": 1,
+    "ro_id": "RO-US-00041",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Cabin air filter",
+    "eta": "2026-09-17T09:00:00Z",
+    "part_id": "PRT-US-00078",
+    "part_number": "P92944",
+    "parts_order_id": "PO-US-00018",
+    "qty": 1,
+    "ro_id": "RO-US-00043",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Wiper blade set",
+    "eta": "2026-09-14T09:00:00Z",
+    "part_id": "PRT-US-00085",
+    "part_number": "P55670",
+    "parts_order_id": "PO-US-00019",
+    "qty": 1,
+    "ro_id": "RO-US-00047",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Wiper blade pair",
+    "eta": "2026-09-15T09:00:00Z",
+    "part_id": "PRT-US-00086",
+    "part_number": "P39997",
+    "parts_order_id": "PO-US-00020",
+    "qty": 1,
+    "ro_id": "RO-US-00049",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  }
+]

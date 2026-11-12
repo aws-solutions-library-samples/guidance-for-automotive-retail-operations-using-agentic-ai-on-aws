@@ -1,0 +1,52 @@
+state,state_name,period,residential_cents_per_kwh,residential_cents_per_kwh_prior_year,usd_per_kwh,source_ref
+CT,Connecticut,June 2026,24.32,27.19,0.2432,eia_electricity_state:June 2026:CT
+ME,Maine,June 2026,29.59,28.14,0.2959,eia_electricity_state:June 2026:ME
+MA,Massachusetts,June 2026,29.61,30.33,0.2961,eia_electricity_state:June 2026:MA
+NH,New Hampshire,June 2026,27.01,23.51,0.2701,eia_electricity_state:June 2026:NH
+RI,Rhode Island,June 2026,29.23,26.84,0.2923,eia_electricity_state:June 2026:RI
+VT,Vermont,June 2026,24.44,23.0,0.2444,eia_electricity_state:June 2026:VT
+NJ,New Jersey,June 2026,24.95,24.88,0.2495,eia_electricity_state:June 2026:NJ
+NY,New York,June 2026,29.49,26.55,0.2949,eia_electricity_state:June 2026:NY
+PA,Pennsylvania,June 2026,21.73,19.69,0.2173,eia_electricity_state:June 2026:PA
+IL,Illinois,June 2026,19.89,18.29,0.1989,eia_electricity_state:June 2026:IL
+IN,Indiana,June 2026,17.51,16.48,0.1751,eia_electricity_state:June 2026:IN
+MI,Michigan,June 2026,22.99,20.82,0.2299,eia_electricity_state:June 2026:MI
+OH,Ohio,June 2026,19.19,17.5,0.1919,eia_electricity_state:June 2026:OH
+WI,Wisconsin,June 2026,19.56,18.52,0.1956,eia_electricity_state:June 2026:WI
+IA,Iowa,June 2026,15.93,15.33,0.1593,eia_electricity_state:June 2026:IA
+KS,Kansas,June 2026,15.71,15.04,0.1571,eia_electricity_state:June 2026:KS
+MN,Minnesota,June 2026,17.52,17.12,0.1752,eia_electricity_state:June 2026:MN
+MO,Missouri,June 2026,16.22,15.91,0.1622,eia_electricity_state:June 2026:MO
+NE,Nebraska,June 2026,13.25,13.14,0.1325,eia_electricity_state:June 2026:NE
+ND,North Dakota,June 2026,14.12,13.71,0.1412,eia_electricity_state:June 2026:ND
+SD,South Dakota,June 2026,15.36,14.22,0.1536,eia_electricity_state:June 2026:SD
+DE,Delaware,June 2026,19.29,18.16,0.1929,eia_electricity_state:June 2026:DE
+DC,District of Columbia,June 2026,24.39,22.7,0.2439,eia_electricity_state:June 2026:DC
+FL,Florida,June 2026,15.1,15.35,0.151,eia_electricity_state:June 2026:FL
+GA,Georgia,June 2026,16.36,15.96,0.1636,eia_electricity_state:June 2026:GA
+MD,Maryland,June 2026,21.84,19.29,0.2184,eia_electricity_state:June 2026:MD
+NC,North Carolina,June 2026,14.74,13.38,0.1474,eia_electricity_state:June 2026:NC
+SC,South Carolina,June 2026,15.55,14.79,0.1555,eia_electricity_state:June 2026:SC
+VA,Virginia,June 2026,17.22,15.23,0.1722,eia_electricity_state:June 2026:VA
+WV,West Virginia,June 2026,15.45,15.82,0.1545,eia_electricity_state:June 2026:WV
+AL,Alabama,June 2026,16.4,16.06,0.164,eia_electricity_state:June 2026:AL
+KY,Kentucky,June 2026,14.26,13.4,0.1426,eia_electricity_state:June 2026:KY
+MS,Mississippi,June 2026,14.88,14.07,0.1488,eia_electricity_state:June 2026:MS
+TN,Tennessee,June 2026,14.07,13.82,0.1407,eia_electricity_state:June 2026:TN
+AR,Arkansas,June 2026,14.12,13.37,0.1412,eia_electricity_state:June 2026:AR
+LA,Louisiana,June 2026,13.49,12.74,0.1349,eia_electricity_state:June 2026:LA
+OK,Oklahoma,June 2026,14.33,13.63,0.1433,eia_electricity_state:June 2026:OK
+TX,Texas,June 2026,15.94,15.26,0.1594,eia_electricity_state:June 2026:TX
+AZ,Arizona,June 2026,15.18,15.23,0.1518,eia_electricity_state:June 2026:AZ
+CO,Colorado,June 2026,17.13,16.04,0.1713,eia_electricity_state:June 2026:CO
+ID,Idaho,June 2026,14.37,12.07,0.1437,eia_electricity_state:June 2026:ID
+MT,Montana,June 2026,15.14,14.81,0.1514,eia_electricity_state:June 2026:MT
+NV,Nevada,June 2026,13.11,12.26,0.1311,eia_electricity_state:June 2026:NV
+NM,New Mexico,June 2026,15.06,14.68,0.1506,eia_electricity_state:June 2026:NM
+UT,Utah,June 2026,13.37,13.1,0.1337,eia_electricity_state:June 2026:UT
+WY,Wyoming,June 2026,15.24,14.89,0.1524,eia_electricity_state:June 2026:WY
+CA,California,June 2026,34.74,33.59,0.3474,eia_electricity_state:June 2026:CA
+OR,Oregon,June 2026,16.32,15.8,0.1632,eia_electricity_state:June 2026:OR
+WA,Washington,June 2026,14.91,12.96,0.1491,eia_electricity_state:June 2026:WA
+AK,Alaska,June 2026,28.21,26.87,0.2821,eia_electricity_state:June 2026:AK
+HI,Hawaii,June 2026,52.72,40.96,0.5272,eia_electricity_state:June 2026:HI

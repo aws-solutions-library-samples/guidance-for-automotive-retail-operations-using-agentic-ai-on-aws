@@ -1,0 +1,181 @@
+[
+  {
+    "amount_usd": 7500,
+    "incentive_id": "US-FED-30D-NEW",
+    "market_id": "us",
+    "name": "New Clean Vehicle Credit (IRC 30D)",
+    "powertrains": [
+      "EV",
+      "PHEV",
+      "FCEV"
+    ],
+    "scope": "US",
+    "source_ref": "https://www.irs.gov/clean-vehicle-tax-credits; https://www.irs.gov/newsroom/faqs-for-modification-of-sections-25c-25d-25e-30c-30d-45l-45w-and-179d-under-public-law-119-21-139-stat-72-july-4-2025-commonly-known-as-the-one-big-beautiful-bill-obbb; https://afdc.energy.gov/laws/409",
+    "status": "expired",
+    "tier": "federal",
+    "valid_from": "2023-01-01",
+    "valid_to": "2025-09-30"
+  },
+  {
+    "amount_usd": 4000,
+    "incentive_id": "US-FED-25E-USED",
+    "market_id": "us",
+    "name": "Previously-Owned Clean Vehicle Credit (IRC 25E)",
+    "powertrains": [
+      "EV",
+      "PHEV",
+      "FCEV"
+    ],
+    "scope": "US",
+    "source_ref": "https://www.irs.gov/credits-deductions/used-clean-vehicle-credit",
+    "status": "expired",
+    "tier": "federal",
+    "valid_from": "2023-01-01",
+    "valid_to": "2025-09-30"
+  },
+  {
+    "amount_usd": 10000,
+    "incentive_id": "US-FED-LOAN-INTEREST",
+    "market_id": "us",
+    "name": "Qualified passenger vehicle loan interest deduction ('No Tax on Car Loan Interest')",
+    "powertrains": [
+      "ICE",
+      "HEV",
+      "PHEV",
+      "EV"
+    ],
+    "scope": "US",
+    "source_ref": "https://regulations.justia.com/regulations/fedreg/2026/09/08/2026-18219.html; https://www.kbb.com/car-advice/car-loan-interest-deduction/",
+    "status": "active",
+    "tier": "federal",
+    "valid_from": "2025-01-01",
+    "valid_to": "2028-12-31"
+  },
+  {
+    "amount_usd": 3500,
+    "incentive_id": "US-CO-EV-CREDIT",
+    "market_id": "us",
+    "name": "Colorado Innovative Motor Vehicle Credit",
+    "powertrains": [
+      "EV",
+      "PHEV"
+    ],
+    "scope": "CO",
+    "source_ref": "https://tax.colorado.gov/innovative-motor-vehicle-credit; https://afdc.energy.gov/laws/state",
+    "status": "active",
+    "tier": "state",
+    "valid_from": "2025-01-01",
+    "valid_to": "2026-12-31"
+  },
+  {
+    "amount_usd": 2000,
+    "incentive_id": "US-NY-DRIVE-CLEAN",
+    "market_id": "us",
+    "name": "New York Drive Clean Rebate",
+    "powertrains": [
+      "EV",
+      "PHEV",
+      "FCEV"
+    ],
+    "scope": "NY",
+    "source_ref": "https://www.nyserda.ny.gov/All-Programs/Drive-Clean-Rebate-For-Electric-Cars-Program",
+    "status": "active",
+    "tier": "state",
+    "valid_from": "2017-03-01",
+    "valid_to": null
+  },
+  {
+    "amount_usd": 3500,
+    "incentive_id": "US-MA-MOR-EV",
+    "market_id": "us",
+    "name": "Massachusetts MOR-EV",
+    "powertrains": [
+      "EV",
+      "PHEV",
+      "FCEV"
+    ],
+    "scope": "MA",
+    "source_ref": "https://mor-ev.org/",
+    "status": "active",
+    "tier": "state",
+    "valid_from": "2023-08-08",
+    "valid_to": null
+  },
+  {
+    "amount_usd": 4000,
+    "incentive_id": "US-IL-EV-REBATE",
+    "market_id": "us",
+    "name": "Illinois Electric Vehicle Rebate Program",
+    "powertrains": [
+      "EV"
+    ],
+    "scope": "IL",
+    "source_ref": "https://epa.illinois.gov/topics/ceja/electric-vehicle-rebates.html",
+    "status": "active",
+    "tier": "state",
+    "valid_from": "2022-07-01",
+    "valid_to": null
+  },
+  {
+    "amount_usd": 2000,
+    "incentive_id": "US-CA-CVRP",
+    "market_id": "us",
+    "name": "California Clean Vehicle Rebate Project (CVRP)",
+    "powertrains": [
+      "EV",
+      "PHEV",
+      "FCEV"
+    ],
+    "scope": "CA",
+    "source_ref": "https://cleanvehiclerebate.org/",
+    "status": "expired",
+    "tier": "state",
+    "valid_from": "2010-03-01",
+    "valid_to": "2023-11-08"
+  },
+  {
+    "amount_usd": 500,
+    "incentive_id": "US-UTIL-HOME-CHARGER",
+    "market_id": "us",
+    "name": "Utility Level 2 home charger rebate",
+    "powertrains": [
+      "EV",
+      "PHEV"
+    ],
+    "provenance": "generic template",
+    "scope": "US",
+    "source_ref": "https://afdc.energy.gov/laws/state",
+    "status": "active",
+    "tier": "utility",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "amount_usd": null,
+    "apr_special": {
+      "apr_by_term": {
+        "36": 0.9,
+        "48": 1.9,
+        "60": 2.9
+      },
+      "lender": "captive",
+      "min_tier": "Prime"
+    },
+    "incentive_id": "US-OEM-APR-SPECIAL",
+    "market_id": "us",
+    "name": "Meridian Motors captive-finance APR special",
+    "powertrains": [
+      "ICE",
+      "HEV",
+      "PHEV",
+      "EV"
+    ],
+    "provenance": "synthetic",
+    "scope": "US",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (incentive)",
+    "status": "active",
+    "tier": "oem",
+    "valid_from": "2026-09-01",
+    "valid_to": "2026-11-30"
+  }
+]

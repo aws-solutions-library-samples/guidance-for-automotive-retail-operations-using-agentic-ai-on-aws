@@ -1,0 +1,4149 @@
+[
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-J1",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-J1",
+    "next_touch_at": "2026-09-12T13:32:00Z",
+    "nurture_plan_id": "NP-US-00001",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-J2",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-J2",
+    "next_touch_at": "2026-09-11T14:31:00Z",
+    "nurture_plan_id": "NP-US-00002",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-J3",
+    "goal": "re_engage",
+    "journey_id": "J-US-J3",
+    "next_touch_at": "2026-09-11T00:38:00Z",
+    "nurture_plan_id": "NP-US-00003",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-J4",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-J4",
+    "next_touch_at": "2026-09-11T18:17:00Z",
+    "nurture_plan_id": "NP-US-00004",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-J5",
+    "goal": "re_engage",
+    "journey_id": "J-US-J5",
+    "next_touch_at": "2026-09-10T21:26:00Z",
+    "nurture_plan_id": "NP-US-00005",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-J6",
+    "goal": "present_offer",
+    "journey_id": "J-US-J6",
+    "next_touch_at": "2026-09-12T22:18:00Z",
+    "nurture_plan_id": "NP-US-00006",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-J8",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-J8",
+    "next_touch_at": "2026-09-11T04:52:00Z",
+    "nurture_plan_id": "NP-US-00007",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-J9",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-J9",
+    "next_touch_at": "2026-09-10T17:32:00Z",
+    "nurture_plan_id": "NP-US-00008",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00108",
+    "goal": "re_engage",
+    "journey_id": "J-US-00001",
+    "next_touch_at": "2026-09-11T12:05:00Z",
+    "nurture_plan_id": "NP-US-00009",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00450",
+    "goal": "re_engage",
+    "journey_id": "J-US-00002",
+    "next_touch_at": "2026-09-10T14:18:00Z",
+    "nurture_plan_id": "NP-US-00010",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00539",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00003",
+    "next_touch_at": "2026-09-12T12:17:00Z",
+    "nurture_plan_id": "NP-US-00011",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00297",
+    "goal": "present_offer",
+    "journey_id": "J-US-00004",
+    "next_touch_at": "2026-09-12T01:04:00Z",
+    "nurture_plan_id": "NP-US-00012",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00117",
+    "goal": "re_engage",
+    "journey_id": "J-US-00005",
+    "next_touch_at": "2026-09-11T08:16:00Z",
+    "nurture_plan_id": "NP-US-00013",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00586",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00006",
+    "next_touch_at": "2026-09-10T20:30:00Z",
+    "nurture_plan_id": "NP-US-00014",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00524",
+    "goal": "present_offer",
+    "journey_id": "J-US-00007",
+    "next_touch_at": "2026-09-12T22:47:00Z",
+    "nurture_plan_id": "NP-US-00015",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00267",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00008",
+    "next_touch_at": "2026-09-13T00:03:00Z",
+    "nurture_plan_id": "NP-US-00016",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00514",
+    "goal": "present_offer",
+    "journey_id": "J-US-00009",
+    "next_touch_at": "2026-09-12T19:45:00Z",
+    "nurture_plan_id": "NP-US-00017",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00482",
+    "goal": "re_engage",
+    "journey_id": "J-US-00010",
+    "next_touch_at": "2026-09-12T16:27:00Z",
+    "nurture_plan_id": "NP-US-00018",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00158",
+    "goal": "re_engage",
+    "journey_id": "J-US-00011",
+    "next_touch_at": "2026-09-10T15:11:00Z",
+    "nurture_plan_id": "NP-US-00019",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00175",
+    "goal": "re_engage",
+    "journey_id": "J-US-00012",
+    "next_touch_at": "2026-09-11T14:19:00Z",
+    "nurture_plan_id": "NP-US-00020",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00168",
+    "goal": "re_engage",
+    "journey_id": "J-US-00013",
+    "next_touch_at": "2026-09-11T04:07:00Z",
+    "nurture_plan_id": "NP-US-00021",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00462",
+    "goal": "present_offer",
+    "journey_id": "J-US-00014",
+    "next_touch_at": "2026-09-11T15:58:00Z",
+    "nurture_plan_id": "NP-US-00022",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00085",
+    "goal": "re_engage",
+    "journey_id": "J-US-00015",
+    "next_touch_at": "2026-09-12T13:01:00Z",
+    "nurture_plan_id": "NP-US-00023",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00448",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00016",
+    "next_touch_at": "2026-09-10T20:30:00Z",
+    "nurture_plan_id": "NP-US-00024",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00405",
+    "goal": "re_engage",
+    "journey_id": "J-US-00017",
+    "next_touch_at": "2026-09-11T03:24:00Z",
+    "nurture_plan_id": "NP-US-00025",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00315",
+    "goal": "present_offer",
+    "journey_id": "J-US-00018",
+    "next_touch_at": "2026-09-12T15:02:00Z",
+    "nurture_plan_id": "NP-US-00026",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00588",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00019",
+    "next_touch_at": "2026-09-10T11:26:00Z",
+    "nurture_plan_id": "NP-US-00027",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00554",
+    "goal": "present_offer",
+    "journey_id": "J-US-00020",
+    "next_touch_at": "2026-09-11T05:02:00Z",
+    "nurture_plan_id": "NP-US-00028",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00190",
+    "goal": "re_engage",
+    "journey_id": "J-US-00021",
+    "next_touch_at": "2026-09-12T22:06:00Z",
+    "nurture_plan_id": "NP-US-00029",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00408",
+    "goal": "present_offer",
+    "journey_id": "J-US-00022",
+    "next_touch_at": "2026-09-12T15:06:00Z",
+    "nurture_plan_id": "NP-US-00030",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00351",
+    "goal": "re_engage",
+    "journey_id": "J-US-00023",
+    "next_touch_at": "2026-09-13T02:18:00Z",
+    "nurture_plan_id": "NP-US-00031",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00362",
+    "goal": "re_engage",
+    "journey_id": "J-US-00024",
+    "next_touch_at": "2026-09-12T21:57:00Z",
+    "nurture_plan_id": "NP-US-00032",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00200",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00025",
+    "next_touch_at": "2026-09-12T21:32:00Z",
+    "nurture_plan_id": "NP-US-00033",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00582",
+    "goal": "re_engage",
+    "journey_id": "J-US-00026",
+    "next_touch_at": "2026-09-12T06:28:00Z",
+    "nurture_plan_id": "NP-US-00034",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00212",
+    "goal": "present_offer",
+    "journey_id": "J-US-00027",
+    "next_touch_at": "2026-09-10T09:57:00Z",
+    "nurture_plan_id": "NP-US-00035",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00510",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00028",
+    "next_touch_at": "2026-09-11T04:31:00Z",
+    "nurture_plan_id": "NP-US-00036",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00321",
+    "goal": "re_engage",
+    "journey_id": "J-US-00029",
+    "next_touch_at": "2026-09-12T09:20:00Z",
+    "nurture_plan_id": "NP-US-00037",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00507",
+    "goal": "re_engage",
+    "journey_id": "J-US-00030",
+    "next_touch_at": "2026-09-10T11:10:00Z",
+    "nurture_plan_id": "NP-US-00038",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00488",
+    "goal": "re_engage",
+    "journey_id": "J-US-00031",
+    "next_touch_at": "2026-09-12T18:08:00Z",
+    "nurture_plan_id": "NP-US-00039",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00147",
+    "goal": "present_offer",
+    "journey_id": "J-US-00032",
+    "next_touch_at": "2026-09-11T19:38:00Z",
+    "nurture_plan_id": "NP-US-00040",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00290",
+    "goal": "re_engage",
+    "journey_id": "J-US-00033",
+    "next_touch_at": "2026-09-13T02:47:00Z",
+    "nurture_plan_id": "NP-US-00041",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00533",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00034",
+    "next_touch_at": "2026-09-12T15:47:00Z",
+    "nurture_plan_id": "NP-US-00042",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00027",
+    "goal": "present_offer",
+    "journey_id": "J-US-00035",
+    "next_touch_at": "2026-09-11T11:16:00Z",
+    "nurture_plan_id": "NP-US-00043",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00028",
+    "goal": "re_engage",
+    "journey_id": "J-US-00036",
+    "next_touch_at": "2026-09-12T23:50:00Z",
+    "nurture_plan_id": "NP-US-00044",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00483",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00037",
+    "next_touch_at": "2026-09-13T02:07:00Z",
+    "nurture_plan_id": "NP-US-00045",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00516",
+    "goal": "present_offer",
+    "journey_id": "J-US-00038",
+    "next_touch_at": "2026-09-11T16:47:00Z",
+    "nurture_plan_id": "NP-US-00046",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00310",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00039",
+    "next_touch_at": "2026-09-12T15:15:00Z",
+    "nurture_plan_id": "NP-US-00047",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00577",
+    "goal": "re_engage",
+    "journey_id": "J-US-00040",
+    "next_touch_at": "2026-09-11T06:25:00Z",
+    "nurture_plan_id": "NP-US-00048",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00456",
+    "goal": "present_offer",
+    "journey_id": "J-US-00041",
+    "next_touch_at": "2026-09-10T10:08:00Z",
+    "nurture_plan_id": "NP-US-00049",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00270",
+    "goal": "present_offer",
+    "journey_id": "J-US-00042",
+    "next_touch_at": "2026-09-12T04:34:00Z",
+    "nurture_plan_id": "NP-US-00050",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00337",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00043",
+    "next_touch_at": "2026-09-10T14:34:00Z",
+    "nurture_plan_id": "NP-US-00051",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00241",
+    "goal": "re_engage",
+    "journey_id": "J-US-00044",
+    "next_touch_at": "2026-09-11T09:56:00Z",
+    "nurture_plan_id": "NP-US-00052",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00298",
+    "goal": "re_engage",
+    "journey_id": "J-US-00045",
+    "next_touch_at": "2026-09-11T19:01:00Z",
+    "nurture_plan_id": "NP-US-00053",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00289",
+    "goal": "present_offer",
+    "journey_id": "J-US-00046",
+    "next_touch_at": "2026-09-12T12:19:00Z",
+    "nurture_plan_id": "NP-US-00054",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00255",
+    "goal": "re_engage",
+    "journey_id": "J-US-00047",
+    "next_touch_at": "2026-09-12T18:09:00Z",
+    "nurture_plan_id": "NP-US-00055",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00155",
+    "goal": "re_engage",
+    "journey_id": "J-US-00048",
+    "next_touch_at": "2026-09-10T19:33:00Z",
+    "nurture_plan_id": "NP-US-00056",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00537",
+    "goal": "present_offer",
+    "journey_id": "J-US-00049",
+    "next_touch_at": "2026-09-11T01:10:00Z",
+    "nurture_plan_id": "NP-US-00057",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00228",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00050",
+    "next_touch_at": "2026-09-12T03:57:00Z",
+    "nurture_plan_id": "NP-US-00058",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00493",
+    "goal": "present_offer",
+    "journey_id": "J-US-00051",
+    "next_touch_at": "2026-09-13T03:32:00Z",
+    "nurture_plan_id": "NP-US-00059",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00309",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00052",
+    "next_touch_at": "2026-09-11T09:11:00Z",
+    "nurture_plan_id": "NP-US-00060",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00390",
+    "goal": "re_engage",
+    "journey_id": "J-US-00053",
+    "next_touch_at": "2026-09-11T11:33:00Z",
+    "nurture_plan_id": "NP-US-00061",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00273",
+    "goal": "present_offer",
+    "journey_id": "J-US-00054",
+    "next_touch_at": "2026-09-11T03:27:00Z",
+    "nurture_plan_id": "NP-US-00062",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00363",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00055",
+    "next_touch_at": "2026-09-10T12:12:00Z",
+    "nurture_plan_id": "NP-US-00063",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00564",
+    "goal": "re_engage",
+    "journey_id": "J-US-00056",
+    "next_touch_at": "2026-09-11T20:29:00Z",
+    "nurture_plan_id": "NP-US-00064",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00563",
+    "goal": "re_engage",
+    "journey_id": "J-US-00057",
+    "next_touch_at": "2026-09-10T15:18:00Z",
+    "nurture_plan_id": "NP-US-00065",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00499",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00058",
+    "next_touch_at": "2026-09-10T22:47:00Z",
+    "nurture_plan_id": "NP-US-00066",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00019",
+    "goal": "re_engage",
+    "journey_id": "J-US-00059",
+    "next_touch_at": "2026-09-10T14:28:00Z",
+    "nurture_plan_id": "NP-US-00067",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00102",
+    "goal": "present_offer",
+    "journey_id": "J-US-00060",
+    "next_touch_at": "2026-09-12T13:59:00Z",
+    "nurture_plan_id": "NP-US-00068",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00412",
+    "goal": "re_engage",
+    "journey_id": "J-US-00061",
+    "next_touch_at": "2026-09-11T22:09:00Z",
+    "nurture_plan_id": "NP-US-00069",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00011",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00062",
+    "next_touch_at": "2026-09-11T14:08:00Z",
+    "nurture_plan_id": "NP-US-00070",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00173",
+    "goal": "re_engage",
+    "journey_id": "J-US-00063",
+    "next_touch_at": "2026-09-11T10:40:00Z",
+    "nurture_plan_id": "NP-US-00071",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00545",
+    "goal": "present_offer",
+    "journey_id": "J-US-00064",
+    "next_touch_at": "2026-09-12T11:09:00Z",
+    "nurture_plan_id": "NP-US-00072",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00346",
+    "goal": "re_engage",
+    "journey_id": "J-US-00065",
+    "next_touch_at": "2026-09-12T07:49:00Z",
+    "nurture_plan_id": "NP-US-00073",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00378",
+    "goal": "re_engage",
+    "journey_id": "J-US-00066",
+    "next_touch_at": "2026-09-10T19:47:00Z",
+    "nurture_plan_id": "NP-US-00074",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00139",
+    "goal": "present_offer",
+    "journey_id": "J-US-00067",
+    "next_touch_at": "2026-09-11T19:04:00Z",
+    "nurture_plan_id": "NP-US-00075",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00471",
+    "goal": "re_engage",
+    "journey_id": "J-US-00068",
+    "next_touch_at": "2026-09-13T01:41:00Z",
+    "nurture_plan_id": "NP-US-00076",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00555",
+    "goal": "present_offer",
+    "journey_id": "J-US-00069",
+    "next_touch_at": "2026-09-12T00:39:00Z",
+    "nurture_plan_id": "NP-US-00077",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00159",
+    "goal": "present_offer",
+    "journey_id": "J-US-00070",
+    "next_touch_at": "2026-09-12T00:55:00Z",
+    "nurture_plan_id": "NP-US-00078",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00490",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00071",
+    "next_touch_at": "2026-09-11T16:21:00Z",
+    "nurture_plan_id": "NP-US-00079",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00087",
+    "goal": "re_engage",
+    "journey_id": "J-US-00072",
+    "next_touch_at": "2026-09-11T03:04:00Z",
+    "nurture_plan_id": "NP-US-00080",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00536",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00073",
+    "next_touch_at": "2026-09-10T15:58:00Z",
+    "nurture_plan_id": "NP-US-00081",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00262",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00074",
+    "next_touch_at": "2026-09-11T23:38:00Z",
+    "nurture_plan_id": "NP-US-00082",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00092",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00075",
+    "next_touch_at": "2026-09-12T09:40:00Z",
+    "nurture_plan_id": "NP-US-00083",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00364",
+    "goal": "present_offer",
+    "journey_id": "J-US-00076",
+    "next_touch_at": "2026-09-11T08:09:00Z",
+    "nurture_plan_id": "NP-US-00084",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00234",
+    "goal": "re_engage",
+    "journey_id": "J-US-00077",
+    "next_touch_at": "2026-09-11T10:53:00Z",
+    "nurture_plan_id": "NP-US-00085",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00021",
+    "goal": "re_engage",
+    "journey_id": "J-US-00078",
+    "next_touch_at": "2026-09-11T13:03:00Z",
+    "nurture_plan_id": "NP-US-00086",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00257",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00079",
+    "next_touch_at": "2026-09-10T18:06:00Z",
+    "nurture_plan_id": "NP-US-00087",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00230",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00080",
+    "next_touch_at": "2026-09-11T01:14:00Z",
+    "nurture_plan_id": "NP-US-00088",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00424",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00081",
+    "next_touch_at": "2026-09-13T02:07:00Z",
+    "nurture_plan_id": "NP-US-00089",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00380",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00082",
+    "next_touch_at": "2026-09-11T01:04:00Z",
+    "nurture_plan_id": "NP-US-00090",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00040",
+    "goal": "present_offer",
+    "journey_id": "J-US-00083",
+    "next_touch_at": "2026-09-11T14:12:00Z",
+    "nurture_plan_id": "NP-US-00091",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00522",
+    "goal": "re_engage",
+    "journey_id": "J-US-00084",
+    "next_touch_at": "2026-09-11T22:34:00Z",
+    "nurture_plan_id": "NP-US-00092",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00196",
+    "goal": "present_offer",
+    "journey_id": "J-US-00085",
+    "next_touch_at": "2026-09-11T13:06:00Z",
+    "nurture_plan_id": "NP-US-00093",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00014",
+    "goal": "re_engage",
+    "journey_id": "J-US-00086",
+    "next_touch_at": "2026-09-12T20:21:00Z",
+    "nurture_plan_id": "NP-US-00094",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00413",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00087",
+    "next_touch_at": "2026-09-11T03:56:00Z",
+    "nurture_plan_id": "NP-US-00095",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00400",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00088",
+    "next_touch_at": "2026-09-10T14:40:00Z",
+    "nurture_plan_id": "NP-US-00096",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00308",
+    "goal": "re_engage",
+    "journey_id": "J-US-00089",
+    "next_touch_at": "2026-09-11T06:03:00Z",
+    "nurture_plan_id": "NP-US-00097",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00277",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00090",
+    "next_touch_at": "2026-09-12T09:32:00Z",
+    "nurture_plan_id": "NP-US-00098",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00181",
+    "goal": "present_offer",
+    "journey_id": "J-US-00091",
+    "next_touch_at": "2026-09-10T13:37:00Z",
+    "nurture_plan_id": "NP-US-00099",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00587",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00092",
+    "next_touch_at": "2026-09-12T14:21:00Z",
+    "nurture_plan_id": "NP-US-00100",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00143",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00093",
+    "next_touch_at": "2026-09-12T03:41:00Z",
+    "nurture_plan_id": "NP-US-00101",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00464",
+    "goal": "present_offer",
+    "journey_id": "J-US-00094",
+    "next_touch_at": "2026-09-12T14:23:00Z",
+    "nurture_plan_id": "NP-US-00102",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00384",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00095",
+    "next_touch_at": "2026-09-11T19:56:00Z",
+    "nurture_plan_id": "NP-US-00103",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00133",
+    "goal": "present_offer",
+    "journey_id": "J-US-00096",
+    "next_touch_at": "2026-09-11T07:01:00Z",
+    "nurture_plan_id": "NP-US-00104",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00526",
+    "goal": "re_engage",
+    "journey_id": "J-US-00097",
+    "next_touch_at": "2026-09-11T22:19:00Z",
+    "nurture_plan_id": "NP-US-00105",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00431",
+    "goal": "present_offer",
+    "journey_id": "J-US-00098",
+    "next_touch_at": "2026-09-11T12:49:00Z",
+    "nurture_plan_id": "NP-US-00106",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00342",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00099",
+    "next_touch_at": "2026-09-12T08:53:00Z",
+    "nurture_plan_id": "NP-US-00107",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00449",
+    "goal": "re_engage",
+    "journey_id": "J-US-00100",
+    "next_touch_at": "2026-09-10T19:53:00Z",
+    "nurture_plan_id": "NP-US-00108",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00295",
+    "goal": "re_engage",
+    "journey_id": "J-US-00101",
+    "next_touch_at": "2026-09-13T00:44:00Z",
+    "nurture_plan_id": "NP-US-00109",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00429",
+    "goal": "present_offer",
+    "journey_id": "J-US-00102",
+    "next_touch_at": "2026-09-10T18:56:00Z",
+    "nurture_plan_id": "NP-US-00110",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00025",
+    "goal": "re_engage",
+    "journey_id": "J-US-00103",
+    "next_touch_at": "2026-09-11T16:50:00Z",
+    "nurture_plan_id": "NP-US-00111",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00207",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00104",
+    "next_touch_at": "2026-09-11T21:18:00Z",
+    "nurture_plan_id": "NP-US-00112",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00466",
+    "goal": "re_engage",
+    "journey_id": "J-US-00105",
+    "next_touch_at": "2026-09-11T18:55:00Z",
+    "nurture_plan_id": "NP-US-00113",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00409",
+    "goal": "present_offer",
+    "journey_id": "J-US-00106",
+    "next_touch_at": "2026-09-12T03:28:00Z",
+    "nurture_plan_id": "NP-US-00114",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00415",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00107",
+    "next_touch_at": "2026-09-10T13:12:00Z",
+    "nurture_plan_id": "NP-US-00115",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00012",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00108",
+    "next_touch_at": "2026-09-10T23:05:00Z",
+    "nurture_plan_id": "NP-US-00116",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00509",
+    "goal": "re_engage",
+    "journey_id": "J-US-00109",
+    "next_touch_at": "2026-09-11T04:58:00Z",
+    "nurture_plan_id": "NP-US-00117",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00185",
+    "goal": "present_offer",
+    "journey_id": "J-US-00110",
+    "next_touch_at": "2026-09-11T11:24:00Z",
+    "nurture_plan_id": "NP-US-00118",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00366",
+    "goal": "re_engage",
+    "journey_id": "J-US-00111",
+    "next_touch_at": "2026-09-11T19:17:00Z",
+    "nurture_plan_id": "NP-US-00119",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00099",
+    "goal": "present_offer",
+    "journey_id": "J-US-00112",
+    "next_touch_at": "2026-09-10T20:16:00Z",
+    "nurture_plan_id": "NP-US-00120",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00291",
+    "goal": "re_engage",
+    "journey_id": "J-US-00113",
+    "next_touch_at": "2026-09-11T15:10:00Z",
+    "nurture_plan_id": "NP-US-00121",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00223",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00114",
+    "next_touch_at": "2026-09-11T09:13:00Z",
+    "nurture_plan_id": "NP-US-00122",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00492",
+    "goal": "re_engage",
+    "journey_id": "J-US-00115",
+    "next_touch_at": "2026-09-10T11:32:00Z",
+    "nurture_plan_id": "NP-US-00123",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00204",
+    "goal": "re_engage",
+    "journey_id": "J-US-00116",
+    "next_touch_at": "2026-09-11T11:08:00Z",
+    "nurture_plan_id": "NP-US-00124",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00020",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00117",
+    "next_touch_at": "2026-09-10T20:41:00Z",
+    "nurture_plan_id": "NP-US-00125",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00033",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00118",
+    "next_touch_at": "2026-09-13T02:45:00Z",
+    "nurture_plan_id": "NP-US-00126",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00058",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00119",
+    "next_touch_at": "2026-09-11T07:12:00Z",
+    "nurture_plan_id": "NP-US-00127",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00050",
+    "goal": "present_offer",
+    "journey_id": "J-US-00120",
+    "next_touch_at": "2026-09-11T21:38:00Z",
+    "nurture_plan_id": "NP-US-00128",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00199",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00121",
+    "next_touch_at": "2026-09-11T13:41:00Z",
+    "nurture_plan_id": "NP-US-00129",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00420",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00122",
+    "next_touch_at": "2026-09-12T06:09:00Z",
+    "nurture_plan_id": "NP-US-00130",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00411",
+    "goal": "re_engage",
+    "journey_id": "J-US-00123",
+    "next_touch_at": "2026-09-11T22:01:00Z",
+    "nurture_plan_id": "NP-US-00131",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00144",
+    "goal": "re_engage",
+    "journey_id": "J-US-00124",
+    "next_touch_at": "2026-09-11T13:07:00Z",
+    "nurture_plan_id": "NP-US-00132",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00152",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00125",
+    "next_touch_at": "2026-09-11T14:37:00Z",
+    "nurture_plan_id": "NP-US-00133",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00566",
+    "goal": "present_offer",
+    "journey_id": "J-US-00126",
+    "next_touch_at": "2026-09-11T18:10:00Z",
+    "nurture_plan_id": "NP-US-00134",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00494",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00127",
+    "next_touch_at": "2026-09-12T12:22:00Z",
+    "nurture_plan_id": "NP-US-00135",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00502",
+    "goal": "present_offer",
+    "journey_id": "J-US-00128",
+    "next_touch_at": "2026-09-11T14:38:00Z",
+    "nurture_plan_id": "NP-US-00136",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00486",
+    "goal": "re_engage",
+    "journey_id": "J-US-00129",
+    "next_touch_at": "2026-09-13T02:57:00Z",
+    "nurture_plan_id": "NP-US-00137",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00557",
+    "goal": "present_offer",
+    "journey_id": "J-US-00130",
+    "next_touch_at": "2026-09-11T13:47:00Z",
+    "nurture_plan_id": "NP-US-00138",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00138",
+    "goal": "re_engage",
+    "journey_id": "J-US-00131",
+    "next_touch_at": "2026-09-12T09:19:00Z",
+    "nurture_plan_id": "NP-US-00139",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00437",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00132",
+    "next_touch_at": "2026-09-12T13:16:00Z",
+    "nurture_plan_id": "NP-US-00140",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00453",
+    "goal": "present_offer",
+    "journey_id": "J-US-00133",
+    "next_touch_at": "2026-09-10T15:42:00Z",
+    "nurture_plan_id": "NP-US-00141",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00293",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00134",
+    "next_touch_at": "2026-09-12T09:21:00Z",
+    "nurture_plan_id": "NP-US-00142",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00480",
+    "goal": "present_offer",
+    "journey_id": "J-US-00135",
+    "next_touch_at": "2026-09-10T18:17:00Z",
+    "nurture_plan_id": "NP-US-00143",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00132",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00136",
+    "next_touch_at": "2026-09-10T10:01:00Z",
+    "nurture_plan_id": "NP-US-00144",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00072",
+    "goal": "re_engage",
+    "journey_id": "J-US-00137",
+    "next_touch_at": "2026-09-10T21:29:00Z",
+    "nurture_plan_id": "NP-US-00145",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00485",
+    "goal": "present_offer",
+    "journey_id": "J-US-00138",
+    "next_touch_at": "2026-09-10T15:10:00Z",
+    "nurture_plan_id": "NP-US-00146",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00340",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00139",
+    "next_touch_at": "2026-09-12T05:18:00Z",
+    "nurture_plan_id": "NP-US-00147",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00343",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00140",
+    "next_touch_at": "2026-09-11T06:09:00Z",
+    "nurture_plan_id": "NP-US-00148",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00264",
+    "goal": "present_offer",
+    "journey_id": "J-US-00141",
+    "next_touch_at": "2026-09-12T16:48:00Z",
+    "nurture_plan_id": "NP-US-00149",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00561",
+    "goal": "present_offer",
+    "journey_id": "J-US-00142",
+    "next_touch_at": "2026-09-11T17:48:00Z",
+    "nurture_plan_id": "NP-US-00150",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00137",
+    "goal": "re_engage",
+    "journey_id": "J-US-00143",
+    "next_touch_at": "2026-09-10T12:14:00Z",
+    "nurture_plan_id": "NP-US-00151",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00261",
+    "goal": "present_offer",
+    "journey_id": "J-US-00144",
+    "next_touch_at": "2026-09-11T00:37:00Z",
+    "nurture_plan_id": "NP-US-00152",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00043",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00145",
+    "next_touch_at": "2026-09-12T18:56:00Z",
+    "nurture_plan_id": "NP-US-00153",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00479",
+    "goal": "present_offer",
+    "journey_id": "J-US-00146",
+    "next_touch_at": "2026-09-11T15:56:00Z",
+    "nurture_plan_id": "NP-US-00154",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00069",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00147",
+    "next_touch_at": "2026-09-11T09:10:00Z",
+    "nurture_plan_id": "NP-US-00155",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00520",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00148",
+    "next_touch_at": "2026-09-10T14:51:00Z",
+    "nurture_plan_id": "NP-US-00156",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00515",
+    "goal": "present_offer",
+    "journey_id": "J-US-00149",
+    "next_touch_at": "2026-09-11T09:01:00Z",
+    "nurture_plan_id": "NP-US-00157",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00060",
+    "goal": "re_engage",
+    "journey_id": "J-US-00150",
+    "next_touch_at": "2026-09-12T17:31:00Z",
+    "nurture_plan_id": "NP-US-00158",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00184",
+    "goal": "re_engage",
+    "journey_id": "J-US-00151",
+    "next_touch_at": "2026-09-11T05:13:00Z",
+    "nurture_plan_id": "NP-US-00159",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00227",
+    "goal": "present_offer",
+    "journey_id": "J-US-00152",
+    "next_touch_at": "2026-09-11T11:36:00Z",
+    "nurture_plan_id": "NP-US-00160",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00193",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00153",
+    "next_touch_at": "2026-09-12T22:27:00Z",
+    "nurture_plan_id": "NP-US-00161",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00275",
+    "goal": "present_offer",
+    "journey_id": "J-US-00154",
+    "next_touch_at": "2026-09-13T02:55:00Z",
+    "nurture_plan_id": "NP-US-00162",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00208",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00155",
+    "next_touch_at": "2026-09-11T14:13:00Z",
+    "nurture_plan_id": "NP-US-00163",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00122",
+    "goal": "present_offer",
+    "journey_id": "J-US-00156",
+    "next_touch_at": "2026-09-10T12:26:00Z",
+    "nurture_plan_id": "NP-US-00164",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00344",
+    "goal": "present_offer",
+    "journey_id": "J-US-00157",
+    "next_touch_at": "2026-09-13T01:51:00Z",
+    "nurture_plan_id": "NP-US-00165",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00410",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00158",
+    "next_touch_at": "2026-09-10T14:53:00Z",
+    "nurture_plan_id": "NP-US-00166",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00045",
+    "goal": "re_engage",
+    "journey_id": "J-US-00159",
+    "next_touch_at": "2026-09-11T08:46:00Z",
+    "nurture_plan_id": "NP-US-00167",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00140",
+    "goal": "present_offer",
+    "journey_id": "J-US-00160",
+    "next_touch_at": "2026-09-12T03:09:00Z",
+    "nurture_plan_id": "NP-US-00168",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00439",
+    "goal": "present_offer",
+    "journey_id": "J-US-00161",
+    "next_touch_at": "2026-09-10T20:26:00Z",
+    "nurture_plan_id": "NP-US-00169",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00434",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00162",
+    "next_touch_at": "2026-09-12T06:40:00Z",
+    "nurture_plan_id": "NP-US-00170",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00442",
+    "goal": "re_engage",
+    "journey_id": "J-US-00163",
+    "next_touch_at": "2026-09-11T20:05:00Z",
+    "nurture_plan_id": "NP-US-00171",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00476",
+    "goal": "re_engage",
+    "journey_id": "J-US-00164",
+    "next_touch_at": "2026-09-11T11:46:00Z",
+    "nurture_plan_id": "NP-US-00172",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00500",
+    "goal": "re_engage",
+    "journey_id": "J-US-00165",
+    "next_touch_at": "2026-09-12T07:07:00Z",
+    "nurture_plan_id": "NP-US-00173",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00578",
+    "goal": "present_offer",
+    "journey_id": "J-US-00166",
+    "next_touch_at": "2026-09-11T18:15:00Z",
+    "nurture_plan_id": "NP-US-00174",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00052",
+    "goal": "re_engage",
+    "journey_id": "J-US-00167",
+    "next_touch_at": "2026-09-12T09:25:00Z",
+    "nurture_plan_id": "NP-US-00175",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00541",
+    "goal": "present_offer",
+    "journey_id": "J-US-00168",
+    "next_touch_at": "2026-09-12T19:20:00Z",
+    "nurture_plan_id": "NP-US-00176",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00312",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00169",
+    "next_touch_at": "2026-09-10T19:03:00Z",
+    "nurture_plan_id": "NP-US-00177",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00461",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00170",
+    "next_touch_at": "2026-09-11T13:32:00Z",
+    "nurture_plan_id": "NP-US-00178",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00031",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00171",
+    "next_touch_at": "2026-09-10T22:18:00Z",
+    "nurture_plan_id": "NP-US-00179",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00007",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00172",
+    "next_touch_at": "2026-09-12T20:00:00Z",
+    "nurture_plan_id": "NP-US-00180",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00110",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00173",
+    "next_touch_at": "2026-09-12T06:13:00Z",
+    "nurture_plan_id": "NP-US-00181",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00549",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00174",
+    "next_touch_at": "2026-09-11T15:51:00Z",
+    "nurture_plan_id": "NP-US-00182",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00188",
+    "goal": "re_engage",
+    "journey_id": "J-US-00175",
+    "next_touch_at": "2026-09-10T17:30:00Z",
+    "nurture_plan_id": "NP-US-00183",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00126",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00176",
+    "next_touch_at": "2026-09-10T18:01:00Z",
+    "nurture_plan_id": "NP-US-00184",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00136",
+    "goal": "re_engage",
+    "journey_id": "J-US-00177",
+    "next_touch_at": "2026-09-12T18:34:00Z",
+    "nurture_plan_id": "NP-US-00185",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00383",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00178",
+    "next_touch_at": "2026-09-10T12:37:00Z",
+    "nurture_plan_id": "NP-US-00186",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00061",
+    "goal": "present_offer",
+    "journey_id": "J-US-00179",
+    "next_touch_at": "2026-09-12T22:52:00Z",
+    "nurture_plan_id": "NP-US-00187",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00178",
+    "goal": "present_offer",
+    "journey_id": "J-US-00180",
+    "next_touch_at": "2026-09-12T23:28:00Z",
+    "nurture_plan_id": "NP-US-00188",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00148",
+    "goal": "present_offer",
+    "journey_id": "J-US-00181",
+    "next_touch_at": "2026-09-12T17:00:00Z",
+    "nurture_plan_id": "NP-US-00189",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00469",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00182",
+    "next_touch_at": "2026-09-12T23:46:00Z",
+    "nurture_plan_id": "NP-US-00190",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00142",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00183",
+    "next_touch_at": "2026-09-13T01:20:00Z",
+    "nurture_plan_id": "NP-US-00191",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00116",
+    "goal": "re_engage",
+    "journey_id": "J-US-00184",
+    "next_touch_at": "2026-09-12T02:34:00Z",
+    "nurture_plan_id": "NP-US-00192",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00467",
+    "goal": "present_offer",
+    "journey_id": "J-US-00185",
+    "next_touch_at": "2026-09-12T05:18:00Z",
+    "nurture_plan_id": "NP-US-00193",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00094",
+    "goal": "present_offer",
+    "journey_id": "J-US-00186",
+    "next_touch_at": "2026-09-11T19:06:00Z",
+    "nurture_plan_id": "NP-US-00194",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00505",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00187",
+    "next_touch_at": "2026-09-12T04:02:00Z",
+    "nurture_plan_id": "NP-US-00195",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00388",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00188",
+    "next_touch_at": "2026-09-11T17:45:00Z",
+    "nurture_plan_id": "NP-US-00196",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00553",
+    "goal": "present_offer",
+    "journey_id": "J-US-00189",
+    "next_touch_at": "2026-09-11T02:04:00Z",
+    "nurture_plan_id": "NP-US-00197",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00317",
+    "goal": "re_engage",
+    "journey_id": "J-US-00190",
+    "next_touch_at": "2026-09-12T13:57:00Z",
+    "nurture_plan_id": "NP-US-00198",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00403",
+    "goal": "re_engage",
+    "journey_id": "J-US-00191",
+    "next_touch_at": "2026-09-13T03:07:00Z",
+    "nurture_plan_id": "NP-US-00199",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00529",
+    "goal": "present_offer",
+    "journey_id": "J-US-00192",
+    "next_touch_at": "2026-09-12T09:13:00Z",
+    "nurture_plan_id": "NP-US-00200",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00503",
+    "goal": "re_engage",
+    "journey_id": "J-US-00193",
+    "next_touch_at": "2026-09-10T13:53:00Z",
+    "nurture_plan_id": "NP-US-00201",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00221",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00194",
+    "next_touch_at": "2026-09-11T18:53:00Z",
+    "nurture_plan_id": "NP-US-00202",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00153",
+    "goal": "present_offer",
+    "journey_id": "J-US-00195",
+    "next_touch_at": "2026-09-11T04:54:00Z",
+    "nurture_plan_id": "NP-US-00203",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00248",
+    "goal": "present_offer",
+    "journey_id": "J-US-00196",
+    "next_touch_at": "2026-09-13T00:05:00Z",
+    "nurture_plan_id": "NP-US-00204",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00169",
+    "goal": "present_offer",
+    "journey_id": "J-US-00197",
+    "next_touch_at": "2026-09-11T03:03:00Z",
+    "nurture_plan_id": "NP-US-00205",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00511",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00198",
+    "next_touch_at": "2026-09-12T03:49:00Z",
+    "nurture_plan_id": "NP-US-00206",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00093",
+    "goal": "present_offer",
+    "journey_id": "J-US-00199",
+    "next_touch_at": "2026-09-12T11:44:00Z",
+    "nurture_plan_id": "NP-US-00207",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00272",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00200",
+    "next_touch_at": "2026-09-11T07:53:00Z",
+    "nurture_plan_id": "NP-US-00208",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00037",
+    "goal": "present_offer",
+    "journey_id": "J-US-00201",
+    "next_touch_at": "2026-09-12T04:14:00Z",
+    "nurture_plan_id": "NP-US-00209",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00477",
+    "goal": "re_engage",
+    "journey_id": "J-US-00202",
+    "next_touch_at": "2026-09-11T09:01:00Z",
+    "nurture_plan_id": "NP-US-00210",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00172",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00203",
+    "next_touch_at": "2026-09-11T17:41:00Z",
+    "nurture_plan_id": "NP-US-00211",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00195",
+    "goal": "present_offer",
+    "journey_id": "J-US-00204",
+    "next_touch_at": "2026-09-11T05:57:00Z",
+    "nurture_plan_id": "NP-US-00212",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00224",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00205",
+    "next_touch_at": "2026-09-11T16:26:00Z",
+    "nurture_plan_id": "NP-US-00213",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00048",
+    "goal": "present_offer",
+    "journey_id": "J-US-00206",
+    "next_touch_at": "2026-09-12T17:08:00Z",
+    "nurture_plan_id": "NP-US-00214",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00103",
+    "goal": "re_engage",
+    "journey_id": "J-US-00207",
+    "next_touch_at": "2026-09-12T01:58:00Z",
+    "nurture_plan_id": "NP-US-00215",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00404",
+    "goal": "present_offer",
+    "journey_id": "J-US-00208",
+    "next_touch_at": "2026-09-10T14:24:00Z",
+    "nurture_plan_id": "NP-US-00216",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00418",
+    "goal": "re_engage",
+    "journey_id": "J-US-00209",
+    "next_touch_at": "2026-09-12T21:22:00Z",
+    "nurture_plan_id": "NP-US-00217",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00164",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00210",
+    "next_touch_at": "2026-09-11T23:21:00Z",
+    "nurture_plan_id": "NP-US-00218",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00010",
+    "goal": "present_offer",
+    "journey_id": "J-US-00211",
+    "next_touch_at": "2026-09-12T23:08:00Z",
+    "nurture_plan_id": "NP-US-00219",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00425",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00212",
+    "next_touch_at": "2026-09-12T12:30:00Z",
+    "nurture_plan_id": "NP-US-00220",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00369",
+    "goal": "present_offer",
+    "journey_id": "J-US-00213",
+    "next_touch_at": "2026-09-10T18:54:00Z",
+    "nurture_plan_id": "NP-US-00221",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00095",
+    "goal": "re_engage",
+    "journey_id": "J-US-00214",
+    "next_touch_at": "2026-09-11T08:29:00Z",
+    "nurture_plan_id": "NP-US-00222",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00034",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00215",
+    "next_touch_at": "2026-09-12T15:29:00Z",
+    "nurture_plan_id": "NP-US-00223",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00585",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00216",
+    "next_touch_at": "2026-09-12T03:11:00Z",
+    "nurture_plan_id": "NP-US-00224",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00406",
+    "goal": "re_engage",
+    "journey_id": "J-US-00217",
+    "next_touch_at": "2026-09-11T08:43:00Z",
+    "nurture_plan_id": "NP-US-00225",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00271",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00218",
+    "next_touch_at": "2026-09-12T12:34:00Z",
+    "nurture_plan_id": "NP-US-00226",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00018",
+    "goal": "present_offer",
+    "journey_id": "J-US-00219",
+    "next_touch_at": "2026-09-11T22:06:00Z",
+    "nurture_plan_id": "NP-US-00227",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00203",
+    "goal": "re_engage",
+    "journey_id": "J-US-00220",
+    "next_touch_at": "2026-09-11T03:51:00Z",
+    "nurture_plan_id": "NP-US-00228",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00236",
+    "goal": "present_offer",
+    "journey_id": "J-US-00221",
+    "next_touch_at": "2026-09-10T11:52:00Z",
+    "nurture_plan_id": "NP-US-00229",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00417",
+    "goal": "re_engage",
+    "journey_id": "J-US-00222",
+    "next_touch_at": "2026-09-11T11:48:00Z",
+    "nurture_plan_id": "NP-US-00230",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00416",
+    "goal": "re_engage",
+    "journey_id": "J-US-00223",
+    "next_touch_at": "2026-09-10T23:50:00Z",
+    "nurture_plan_id": "NP-US-00231",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00407",
+    "goal": "present_offer",
+    "journey_id": "J-US-00224",
+    "next_touch_at": "2026-09-12T00:00:00Z",
+    "nurture_plan_id": "NP-US-00232",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00073",
+    "goal": "re_engage",
+    "journey_id": "J-US-00225",
+    "next_touch_at": "2026-09-12T21:51:00Z",
+    "nurture_plan_id": "NP-US-00233",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00569",
+    "goal": "re_engage",
+    "journey_id": "J-US-00226",
+    "next_touch_at": "2026-09-12T17:14:00Z",
+    "nurture_plan_id": "NP-US-00234",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00546",
+    "goal": "re_engage",
+    "journey_id": "J-US-00227",
+    "next_touch_at": "2026-09-11T02:38:00Z",
+    "nurture_plan_id": "NP-US-00235",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00280",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00228",
+    "next_touch_at": "2026-09-10T23:17:00Z",
+    "nurture_plan_id": "NP-US-00236",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00332",
+    "goal": "present_offer",
+    "journey_id": "J-US-00229",
+    "next_touch_at": "2026-09-10T23:25:00Z",
+    "nurture_plan_id": "NP-US-00237",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00335",
+    "goal": "present_offer",
+    "journey_id": "J-US-00230",
+    "next_touch_at": "2026-09-11T20:19:00Z",
+    "nurture_plan_id": "NP-US-00238",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00496",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00231",
+    "next_touch_at": "2026-09-12T13:15:00Z",
+    "nurture_plan_id": "NP-US-00239",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00590",
+    "goal": "present_offer",
+    "journey_id": "J-US-00232",
+    "next_touch_at": "2026-09-10T21:40:00Z",
+    "nurture_plan_id": "NP-US-00240",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00368",
+    "goal": "re_engage",
+    "journey_id": "J-US-00233",
+    "next_touch_at": "2026-09-12T14:03:00Z",
+    "nurture_plan_id": "NP-US-00241",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00057",
+    "goal": "present_offer",
+    "journey_id": "J-US-00234",
+    "next_touch_at": "2026-09-11T04:50:00Z",
+    "nurture_plan_id": "NP-US-00242",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00443",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00235",
+    "next_touch_at": "2026-09-11T12:49:00Z",
+    "nurture_plan_id": "NP-US-00243",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00550",
+    "goal": "present_offer",
+    "journey_id": "J-US-00236",
+    "next_touch_at": "2026-09-11T18:23:00Z",
+    "nurture_plan_id": "NP-US-00244",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00247",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00237",
+    "next_touch_at": "2026-09-12T17:55:00Z",
+    "nurture_plan_id": "NP-US-00245",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00166",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00238",
+    "next_touch_at": "2026-09-10T11:28:00Z",
+    "nurture_plan_id": "NP-US-00246",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00205",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00239",
+    "next_touch_at": "2026-09-11T02:42:00Z",
+    "nurture_plan_id": "NP-US-00247",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00350",
+    "goal": "present_offer",
+    "journey_id": "J-US-00240",
+    "next_touch_at": "2026-09-12T10:41:00Z",
+    "nurture_plan_id": "NP-US-00248",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00357",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00241",
+    "next_touch_at": "2026-09-11T00:02:00Z",
+    "nurture_plan_id": "NP-US-00249",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00360",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00242",
+    "next_touch_at": "2026-09-12T06:42:00Z",
+    "nurture_plan_id": "NP-US-00250",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00186",
+    "goal": "re_engage",
+    "journey_id": "J-US-00243",
+    "next_touch_at": "2026-09-12T14:57:00Z",
+    "nurture_plan_id": "NP-US-00251",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00391",
+    "goal": "re_engage",
+    "journey_id": "J-US-00244",
+    "next_touch_at": "2026-09-12T01:45:00Z",
+    "nurture_plan_id": "NP-US-00252",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00022",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00245",
+    "next_touch_at": "2026-09-10T18:10:00Z",
+    "nurture_plan_id": "NP-US-00253",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00160",
+    "goal": "present_offer",
+    "journey_id": "J-US-00246",
+    "next_touch_at": "2026-09-10T17:20:00Z",
+    "nurture_plan_id": "NP-US-00254",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00218",
+    "goal": "present_offer",
+    "journey_id": "J-US-00247",
+    "next_touch_at": "2026-09-10T12:15:00Z",
+    "nurture_plan_id": "NP-US-00255",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00521",
+    "goal": "present_offer",
+    "journey_id": "J-US-00248",
+    "next_touch_at": "2026-09-11T13:59:00Z",
+    "nurture_plan_id": "NP-US-00256",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00215",
+    "goal": "present_offer",
+    "journey_id": "J-US-00249",
+    "next_touch_at": "2026-09-13T02:12:00Z",
+    "nurture_plan_id": "NP-US-00257",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00386",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00250",
+    "next_touch_at": "2026-09-12T00:49:00Z",
+    "nurture_plan_id": "NP-US-00258",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00104",
+    "goal": "re_engage",
+    "journey_id": "J-US-00251",
+    "next_touch_at": "2026-09-12T09:59:00Z",
+    "nurture_plan_id": "NP-US-00259",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00157",
+    "goal": "re_engage",
+    "journey_id": "J-US-00252",
+    "next_touch_at": "2026-09-10T22:29:00Z",
+    "nurture_plan_id": "NP-US-00260",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00347",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00253",
+    "next_touch_at": "2026-09-12T06:15:00Z",
+    "nurture_plan_id": "NP-US-00261",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00419",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00254",
+    "next_touch_at": "2026-09-11T22:09:00Z",
+    "nurture_plan_id": "NP-US-00262",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00311",
+    "goal": "re_engage",
+    "journey_id": "J-US-00255",
+    "next_touch_at": "2026-09-10T19:03:00Z",
+    "nurture_plan_id": "NP-US-00263",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00191",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00256",
+    "next_touch_at": "2026-09-12T18:56:00Z",
+    "nurture_plan_id": "NP-US-00264",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00039",
+    "goal": "present_offer",
+    "journey_id": "J-US-00257",
+    "next_touch_at": "2026-09-11T04:32:00Z",
+    "nurture_plan_id": "NP-US-00265",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00118",
+    "goal": "present_offer",
+    "journey_id": "J-US-00258",
+    "next_touch_at": "2026-09-11T18:29:00Z",
+    "nurture_plan_id": "NP-US-00266",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00331",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00259",
+    "next_touch_at": "2026-09-10T12:55:00Z",
+    "nurture_plan_id": "NP-US-00267",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00154",
+    "goal": "re_engage",
+    "journey_id": "J-US-00260",
+    "next_touch_at": "2026-09-13T02:21:00Z",
+    "nurture_plan_id": "NP-US-00268",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00024",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00261",
+    "next_touch_at": "2026-09-11T00:33:00Z",
+    "nurture_plan_id": "NP-US-00269",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00222",
+    "goal": "re_engage",
+    "journey_id": "J-US-00262",
+    "next_touch_at": "2026-09-12T11:06:00Z",
+    "nurture_plan_id": "NP-US-00270",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00358",
+    "goal": "re_engage",
+    "journey_id": "J-US-00263",
+    "next_touch_at": "2026-09-11T14:39:00Z",
+    "nurture_plan_id": "NP-US-00271",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00229",
+    "goal": "present_offer",
+    "journey_id": "J-US-00264",
+    "next_touch_at": "2026-09-11T12:57:00Z",
+    "nurture_plan_id": "NP-US-00272",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00274",
+    "goal": "re_engage",
+    "journey_id": "J-US-00265",
+    "next_touch_at": "2026-09-12T12:42:00Z",
+    "nurture_plan_id": "NP-US-00273",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00075",
+    "goal": "present_offer",
+    "journey_id": "J-US-00266",
+    "next_touch_at": "2026-09-12T06:21:00Z",
+    "nurture_plan_id": "NP-US-00274",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00402",
+    "goal": "present_offer",
+    "journey_id": "J-US-00267",
+    "next_touch_at": "2026-09-12T02:13:00Z",
+    "nurture_plan_id": "NP-US-00275",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00194",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00268",
+    "next_touch_at": "2026-09-12T09:02:00Z",
+    "nurture_plan_id": "NP-US-00276",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00286",
+    "goal": "present_offer",
+    "journey_id": "J-US-00269",
+    "next_touch_at": "2026-09-12T08:27:00Z",
+    "nurture_plan_id": "NP-US-00277",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00219",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00270",
+    "next_touch_at": "2026-09-11T03:58:00Z",
+    "nurture_plan_id": "NP-US-00278",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00062",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00271",
+    "next_touch_at": "2026-09-12T13:23:00Z",
+    "nurture_plan_id": "NP-US-00279",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00197",
+    "goal": "re_engage",
+    "journey_id": "J-US-00272",
+    "next_touch_at": "2026-09-10T23:42:00Z",
+    "nurture_plan_id": "NP-US-00280",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00361",
+    "goal": "re_engage",
+    "journey_id": "J-US-00273",
+    "next_touch_at": "2026-09-11T18:24:00Z",
+    "nurture_plan_id": "NP-US-00281",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00231",
+    "goal": "re_engage",
+    "journey_id": "J-US-00274",
+    "next_touch_at": "2026-09-11T07:48:00Z",
+    "nurture_plan_id": "NP-US-00282",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00260",
+    "goal": "re_engage",
+    "journey_id": "J-US-00275",
+    "next_touch_at": "2026-09-13T02:20:00Z",
+    "nurture_plan_id": "NP-US-00283",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00455",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00276",
+    "next_touch_at": "2026-09-10T11:31:00Z",
+    "nurture_plan_id": "NP-US-00284",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00266",
+    "goal": "present_offer",
+    "journey_id": "J-US-00277",
+    "next_touch_at": "2026-09-10T22:06:00Z",
+    "nurture_plan_id": "NP-US-00285",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00232",
+    "goal": "present_offer",
+    "journey_id": "J-US-00278",
+    "next_touch_at": "2026-09-13T00:44:00Z",
+    "nurture_plan_id": "NP-US-00286",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00385",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00279",
+    "next_touch_at": "2026-09-10T16:00:00Z",
+    "nurture_plan_id": "NP-US-00287",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00141",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00280",
+    "next_touch_at": "2026-09-11T14:21:00Z",
+    "nurture_plan_id": "NP-US-00288",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00371",
+    "goal": "re_engage",
+    "journey_id": "J-US-00281",
+    "next_touch_at": "2026-09-11T12:04:00Z",
+    "nurture_plan_id": "NP-US-00289",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00573",
+    "goal": "present_offer",
+    "journey_id": "J-US-00282",
+    "next_touch_at": "2026-09-11T01:08:00Z",
+    "nurture_plan_id": "NP-US-00290",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00217",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00283",
+    "next_touch_at": "2026-09-11T04:49:00Z",
+    "nurture_plan_id": "NP-US-00291",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00101",
+    "goal": "re_engage",
+    "journey_id": "J-US-00284",
+    "next_touch_at": "2026-09-10T10:45:00Z",
+    "nurture_plan_id": "NP-US-00292",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00002",
+    "goal": "re_engage",
+    "journey_id": "J-US-00285",
+    "next_touch_at": "2026-09-13T03:30:00Z",
+    "nurture_plan_id": "NP-US-00293",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00009",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00286",
+    "next_touch_at": "2026-09-11T04:06:00Z",
+    "nurture_plan_id": "NP-US-00294",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00162",
+    "goal": "re_engage",
+    "journey_id": "J-US-00287",
+    "next_touch_at": "2026-09-11T08:57:00Z",
+    "nurture_plan_id": "NP-US-00295",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00089",
+    "goal": "present_offer",
+    "journey_id": "J-US-00288",
+    "next_touch_at": "2026-09-11T20:24:00Z",
+    "nurture_plan_id": "NP-US-00296",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00377",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00289",
+    "next_touch_at": "2026-09-12T03:33:00Z",
+    "nurture_plan_id": "NP-US-00297",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00523",
+    "goal": "present_offer",
+    "journey_id": "J-US-00290",
+    "next_touch_at": "2026-09-11T18:34:00Z",
+    "nurture_plan_id": "NP-US-00298",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00328",
+    "goal": "present_offer",
+    "journey_id": "J-US-00291",
+    "next_touch_at": "2026-09-11T15:40:00Z",
+    "nurture_plan_id": "NP-US-00299",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00097",
+    "goal": "re_engage",
+    "journey_id": "J-US-00292",
+    "next_touch_at": "2026-09-10T21:11:00Z",
+    "nurture_plan_id": "NP-US-00300",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00334",
+    "goal": "re_engage",
+    "journey_id": "J-US-00293",
+    "next_touch_at": "2026-09-11T20:06:00Z",
+    "nurture_plan_id": "NP-US-00301",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00067",
+    "goal": "re_engage",
+    "journey_id": "J-US-00294",
+    "next_touch_at": "2026-09-10T09:35:00Z",
+    "nurture_plan_id": "NP-US-00302",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00084",
+    "goal": "re_engage",
+    "journey_id": "J-US-00295",
+    "next_touch_at": "2026-09-11T14:35:00Z",
+    "nurture_plan_id": "NP-US-00303",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00210",
+    "goal": "re_engage",
+    "journey_id": "J-US-00296",
+    "next_touch_at": "2026-09-10T21:39:00Z",
+    "nurture_plan_id": "NP-US-00304",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00459",
+    "goal": "present_offer",
+    "journey_id": "J-US-00297",
+    "next_touch_at": "2026-09-11T03:15:00Z",
+    "nurture_plan_id": "NP-US-00305",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00005",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00298",
+    "next_touch_at": "2026-09-10T11:05:00Z",
+    "nurture_plan_id": "NP-US-00306",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00508",
+    "goal": "re_engage",
+    "journey_id": "J-US-00299",
+    "next_touch_at": "2026-09-11T10:44:00Z",
+    "nurture_plan_id": "NP-US-00307",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00167",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00300",
+    "next_touch_at": "2026-09-12T19:28:00Z",
+    "nurture_plan_id": "NP-US-00308",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00131",
+    "goal": "re_engage",
+    "journey_id": "J-US-00301",
+    "next_touch_at": "2026-09-12T23:36:00Z",
+    "nurture_plan_id": "NP-US-00309",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00303",
+    "goal": "re_engage",
+    "journey_id": "J-US-00302",
+    "next_touch_at": "2026-09-11T02:14:00Z",
+    "nurture_plan_id": "NP-US-00310",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00565",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00303",
+    "next_touch_at": "2026-09-13T01:02:00Z",
+    "nurture_plan_id": "NP-US-00311",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00182",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00304",
+    "next_touch_at": "2026-09-10T09:31:00Z",
+    "nurture_plan_id": "NP-US-00312",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00394",
+    "goal": "re_engage",
+    "journey_id": "J-US-00305",
+    "next_touch_at": "2026-09-12T22:53:00Z",
+    "nurture_plan_id": "NP-US-00313",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00430",
+    "goal": "book_test_drive",
+    "journey_id": "J-US-00306",
+    "next_touch_at": "2026-09-11T22:22:00Z",
+    "nurture_plan_id": "NP-US-00314",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00421",
+    "goal": "re_engage",
+    "journey_id": "J-US-00307",
+    "next_touch_at": "2026-09-11T10:00:00Z",
+    "nurture_plan_id": "NP-US-00315",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00329",
+    "goal": "re_engage",
+    "journey_id": "J-US-00308",
+    "next_touch_at": "2026-09-10T15:59:00Z",
+    "nurture_plan_id": "NP-US-00316",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00149",
+    "goal": "re_engage",
+    "journey_id": "J-US-00309",
+    "next_touch_at": "2026-09-10T13:52:00Z",
+    "nurture_plan_id": "NP-US-00317",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "every_3_days",
+    "customer_id": "C-US-00517",
+    "goal": "re_engage",
+    "journey_id": "J-US-00310",
+    "next_touch_at": "2026-09-12T07:51:00Z",
+    "nurture_plan_id": "NP-US-00318",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  },
+  {
+    "cadence": "weekly",
+    "customer_id": "C-US-00105",
+    "goal": "re_engage",
+    "journey_id": "J-US-00311",
+    "next_touch_at": "2026-09-10T18:39:00Z",
+    "nurture_plan_id": "NP-US-00319",
+    "source_ref": "synthetic:nurture_plan",
+    "stop_conditions": [
+      "opt_out",
+      "converted"
+    ]
+  }
+]

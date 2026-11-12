@@ -1,0 +1,54 @@
+{
+  "agent": "A2",
+  "runner": "A2.nba",
+  "uaef_llm": false,
+  "description": "A2 supervisor promotion: select_next_best_action keeps deterministic candidate generation + hard gates; offline the deterministic path must choose (chosen_by == deterministic) and the payload shape (chosen action, context bucket, source_ref) must hold. In agent mode (dev tables, Bedrock on) `expect_aws` lets chosen_by be 'bedrock' as well — the model may re-pick/order, the shape must hold.",
+  "cases": [
+    {
+      "id": "a2nba-deterministic",
+      "journey_id": "J-US-J2",
+      "expect": {
+        "equals": {
+          "chosen_by": "deterministic"
+        },
+        "fields_present": [
+          "chosen_action",
+          "context_hash"
+        ],
+        "min_citations": 1
+      },
+      "expect_aws": {
+        "equals": {},
+        "one_of": {
+          "chosen_by": [
+            "deterministic",
+            "bedrock"
+          ]
+        }
+      }
+    },
+    {
+      "id": "a2nba-shape",
+      "journey_id": "J-US-J1",
+      "expect": {
+        "equals": {
+          "chosen_by": "deterministic"
+        },
+        "fields_present": [
+          "chosen_action",
+          "context_hash",
+          "answer"
+        ]
+      },
+      "expect_aws": {
+        "equals": {},
+        "one_of": {
+          "chosen_by": [
+            "deterministic",
+            "bedrock"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+state,public_ports,private_ports,total_ports,source_ref
+Alaska,204,16,220,afdc_charging_ports:Alaska
+Alabama,1724,469,2193,afdc_charging_ports:Alabama
+Arkansas,1109,51,1160,afdc_charging_ports:Arkansas
+Arizona,4710,367,5077,afdc_charging_ports:Arizona
+California,66735,10617,77352,afdc_charging_ports:California
+Colorado,7789,887,8676,afdc_charging_ports:Colorado
+Connecticut,4934,513,5447,afdc_charging_ports:Connecticut
+District of Columbia,1091,284,1375,afdc_charging_ports:District of Columbia
+Delaware,734,39,773,afdc_charging_ports:Delaware
+Florida,14990,1461,16451,afdc_charging_ports:Florida
+Georgia,7553,1006,8559,afdc_charging_ports:Georgia
+Hawaii,1085,158,1243,afdc_charging_ports:Hawaii
+Iowa,1288,63,1351,afdc_charging_ports:Iowa
+Idaho,718,94,812,afdc_charging_ports:Idaho
+Illinois,6086,640,6726,afdc_charging_ports:Illinois
+Indiana,2169,374,2543,afdc_charging_ports:Indiana
+Kansas,1414,209,1623,afdc_charging_ports:Kansas
+Kentucky,1191,147,1338,afdc_charging_ports:Kentucky
+Louisiana,824,159,983,afdc_charging_ports:Louisiana
+Massachusetts,11703,1010,12713,afdc_charging_ports:Massachusetts
+Maryland,5567,620,6187,afdc_charging_ports:Maryland
+Maine,1597,95,1692,afdc_charging_ports:Maine
+Michigan,5643,479,6122,afdc_charging_ports:Michigan
+Minnesota,2694,157,2851,afdc_charging_ports:Minnesota
+Missouri,3301,140,3441,afdc_charging_ports:Missouri
+Mississippi,693,158,851,afdc_charging_ports:Mississippi
+Montana,477,5,482,afdc_charging_ports:Montana
+North Carolina,5795,478,6273,afdc_charging_ports:North Carolina
+North Dakota,279,6,285,afdc_charging_ports:North Dakota
+Nebraska,757,26,783,afdc_charging_ports:Nebraska
+New Hampshire,818,66,884,afdc_charging_ports:New Hampshire
+New Jersey,6608,771,7379,afdc_charging_ports:New Jersey
+New Mexico,1251,156,1407,afdc_charging_ports:New Mexico
+Nevada,2714,375,3089,afdc_charging_ports:Nevada
+New York,21686,1349,23035,afdc_charging_ports:New York
+Ohio,5283,516,5799,afdc_charging_ports:Ohio
+Oklahoma,1525,263,1788,afdc_charging_ports:Oklahoma
+Oregon,4279,299,4578,afdc_charging_ports:Oregon
+Pennsylvania,5796,337,6133,afdc_charging_ports:Pennsylvania
+Rhode Island,889,154,1043,afdc_charging_ports:Rhode Island
+South Carolina,2114,215,2329,afdc_charging_ports:South Carolina
+South Dakota,327,2,329,afdc_charging_ports:South Dakota
+Tennessee,3074,396,3470,afdc_charging_ports:Tennessee
+Texas,12564,1072,13636,afdc_charging_ports:Texas
+Utah,3181,207,3388,afdc_charging_ports:Utah
+Virginia,5478,1020,6498,afdc_charging_ports:Virginia
+Vermont,1343,99,1442,afdc_charging_ports:Vermont
+Washington,8909,917,9826,afdc_charging_ports:Washington
+Wisconsin,2309,123,2432,afdc_charging_ports:Wisconsin
+West Virginia,539,55,594,afdc_charging_ports:West Virginia
+Wyoming,329,20,349,afdc_charging_ports:Wyoming

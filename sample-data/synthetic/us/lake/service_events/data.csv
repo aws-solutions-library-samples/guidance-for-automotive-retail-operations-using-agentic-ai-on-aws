@@ -1,0 +1,509 @@
+actor,event_ts,event_type,evidence,payload,service_journey_id
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T04:16:45Z,ro.opened,synthetic,{},SJ-US-00001
+"{""type"": ""advisor""}",2026-09-10T05:12:26Z,ro.line_completed,synthetic,{},SJ-US-00001
+"{""type"": ""advisor""}",2026-09-10T09:06:08Z,service.stage_changed,synthetic,{},SJ-US-00001
+"{""type"": ""technician""}",2026-09-10T07:04:28Z,vehicle.ready,synthetic,{},SJ-US-00001
+"{""type"": ""technician""}",2026-09-10T07:13:11Z,ro.line_completed,synthetic,{},SJ-US-00001
+"{""type"": ""advisor""}",2026-09-10T15:43:14Z,estimate.presented,synthetic,{},SJ-US-00001
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T16:04:09Z,vehicle.ready,synthetic,{},SJ-US-00001
+"{""type"": ""advisor""}",2026-09-10T08:36:27Z,ro.opened,synthetic,{},SJ-US-00001
+"{""type"": ""advisor""}",2026-09-10T10:04:09Z,estimate.line_decided,synthetic,{},SJ-US-00001
+"{""type"": ""advisor""}",2026-09-10T20:18:38Z,vehicle.ready,synthetic,{},SJ-US-00001
+"{""type"": ""advisor""}",2026-09-11T03:00:12Z,ro.opened,synthetic,{},SJ-US-00001
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-11T07:41:13Z,estimate.presented,synthetic,{},SJ-US-00001
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-11T00:59:04Z,ro.opened,synthetic,{},SJ-US-00001
+"{""type"": ""technician""}",2026-09-11T15:34:39Z,estimate.line_decided,synthetic,{},SJ-US-00001
+"{""type"": ""advisor""}",2026-09-11T20:04:51Z,ro.line_completed,synthetic,{},SJ-US-00001
+"{""type"": ""technician""}",2026-09-11T08:44:28Z,parts.ordered,synthetic,{},SJ-US-00001
+"{""type"": ""technician""}",2026-09-10T14:01:57Z,estimate.line_decided,synthetic,{},SJ-US-00001
+"{""type"": ""advisor""}",2026-09-11T10:03:35Z,parts.ordered,synthetic,{},SJ-US-00001
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-12T09:17:53Z,parts.ordered,synthetic,{},SJ-US-00001
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-12T02:19:45Z,inspection.submitted,synthetic,{},SJ-US-00001
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-11T22:08:59Z,ro.line_completed,synthetic,{},SJ-US-00001
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-11T16:07:31Z,estimate.presented,synthetic,{},SJ-US-00001
+"{""type"": ""advisor""}",2026-09-10T17:40:09Z,inspection.submitted,synthetic,{},SJ-US-00001
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-12T12:44:13Z,parts.ordered,synthetic,{},SJ-US-00001
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T18:42:29Z,ro.line_completed,synthetic,{},SJ-US-00001
+"{""type"": ""advisor""}",2026-09-12T22:48:35Z,vehicle.ready,synthetic,{},SJ-US-00001
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-11T15:00:19Z,estimate.presented,synthetic,{},SJ-US-00001
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-13T06:12:32Z,ro.line_completed,synthetic,{},SJ-US-00001
+"{""type"": ""advisor""}",2026-09-12T22:25:39Z,ro.line_completed,synthetic,{},SJ-US-00001
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-11T02:41:54Z,inspection.submitted,synthetic,{},SJ-US-00001
+"{""type"": ""advisor""}",2026-09-11T08:07:50Z,vehicle.ready,synthetic,{},SJ-US-00001
+"{""type"": ""technician""}",2026-09-12T13:04:24Z,ro.line_completed,synthetic,{},SJ-US-00001
+"{""type"": ""technician""}",2026-09-12T14:20:24Z,estimate.presented,synthetic,{},SJ-US-00001
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-13T12:08:43Z,parts.ordered,synthetic,{},SJ-US-00001
+"{""type"": ""advisor""}",2026-09-12T09:31:46Z,inspection.submitted,synthetic,{},SJ-US-00001
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-08T19:17:39Z,ro.opened,synthetic,{},SJ-US-00002
+"{""type"": ""technician""}",2026-09-08T21:26:04Z,ro.opened,synthetic,{},SJ-US-00002
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-08T22:28:37Z,inspection.submitted,synthetic,{},SJ-US-00002
+"{""type"": ""advisor""}",2026-09-08T22:18:55Z,estimate.line_decided,synthetic,{},SJ-US-00002
+"{""type"": ""technician""}",2026-09-09T06:26:04Z,inspection.submitted,synthetic,{},SJ-US-00002
+"{""type"": ""advisor""}",2026-09-09T05:21:10Z,parts.ordered,synthetic,{},SJ-US-00002
+"{""type"": ""advisor""}",2026-09-09T01:15:18Z,ro.line_completed,synthetic,{},SJ-US-00002
+"{""type"": ""technician""}",2026-09-09T13:43:18Z,ro.opened,synthetic,{},SJ-US-00002
+"{""type"": ""advisor""}",2026-09-09T17:53:06Z,service.stage_changed,synthetic,{},SJ-US-00002
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T10:00:36Z,parts.ordered,synthetic,{},SJ-US-00002
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T06:34:45Z,ro.opened,synthetic,{},SJ-US-00002
+"{""type"": ""technician""}",2026-09-09T11:56:35Z,ro.opened,synthetic,{},SJ-US-00002
+"{""type"": ""technician""}",2026-09-09T11:13:36Z,inspection.submitted,synthetic,{},SJ-US-00002
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T04:31:18Z,estimate.line_decided,synthetic,{},SJ-US-00002
+"{""type"": ""technician""}",2026-09-10T08:20:58Z,parts.ordered,synthetic,{},SJ-US-00002
+"{""type"": ""technician""}",2026-09-09T22:42:46Z,parts.ordered,synthetic,{},SJ-US-00002
+"{""type"": ""technician""}",2026-09-09T10:51:35Z,estimate.line_decided,synthetic,{},SJ-US-00002
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T02:12:32Z,ro.line_completed,synthetic,{},SJ-US-00002
+"{""type"": ""advisor""}",2026-09-09T16:40:44Z,ro.line_completed,synthetic,{},SJ-US-00002
+"{""type"": ""technician""}",2026-09-09T19:39:19Z,parts.ordered,synthetic,{},SJ-US-00002
+"{""type"": ""technician""}",2026-09-11T01:32:41Z,vehicle.ready,synthetic,{},SJ-US-00002
+"{""type"": ""advisor""}",2026-09-11T00:58:59Z,estimate.presented,synthetic,{},SJ-US-00002
+"{""type"": ""technician""}",2026-09-10T06:11:54Z,parts.ordered,synthetic,{},SJ-US-00002
+"{""type"": ""technician""}",2026-09-10T19:45:51Z,vehicle.ready,synthetic,{},SJ-US-00002
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-11T02:18:36Z,vehicle.ready,synthetic,{},SJ-US-00002
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T16:20:13Z,estimate.presented,synthetic,{},SJ-US-00002
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-11T14:36:00Z,service.stage_changed,synthetic,{},SJ-US-00002
+"{""type"": ""advisor""}",2026-09-09T20:20:32Z,service.stage_changed,synthetic,{},SJ-US-00002
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-12T00:36:26Z,parts.ordered,synthetic,{},SJ-US-00002
+"{""type"": ""technician""}",2026-09-11T21:10:18Z,inspection.submitted,synthetic,{},SJ-US-00002
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T04:07:23Z,estimate.presented,synthetic,{},SJ-US-00003
+"{""type"": ""advisor""}",2026-09-10T06:58:44Z,ro.line_completed,synthetic,{},SJ-US-00003
+"{""type"": ""technician""}",2026-09-10T07:45:00Z,vehicle.ready,synthetic,{},SJ-US-00003
+"{""type"": ""advisor""}",2026-09-10T08:59:08Z,estimate.line_decided,synthetic,{},SJ-US-00003
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T15:03:57Z,parts.ordered,synthetic,{},SJ-US-00003
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T17:17:19Z,estimate.line_decided,synthetic,{},SJ-US-00003
+"{""type"": ""technician""}",2026-09-10T15:14:07Z,estimate.line_decided,synthetic,{},SJ-US-00003
+"{""type"": ""advisor""}",2026-09-10T12:44:48Z,ro.line_completed,synthetic,{},SJ-US-00003
+"{""type"": ""advisor""}",2026-09-10T11:15:47Z,estimate.presented,synthetic,{},SJ-US-00003
+"{""type"": ""technician""}",2026-09-11T05:45:53Z,ro.line_completed,synthetic,{},SJ-US-00003
+"{""type"": ""advisor""}",2026-09-10T20:53:38Z,inspection.submitted,synthetic,{},SJ-US-00003
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-11T11:21:27Z,vehicle.ready,synthetic,{},SJ-US-00003
+"{""type"": ""technician""}",2026-09-11T07:52:14Z,vehicle.ready,synthetic,{},SJ-US-00003
+"{""type"": ""advisor""}",2026-09-11T03:02:51Z,parts.ordered,synthetic,{},SJ-US-00003
+"{""type"": ""advisor""}",2026-09-11T15:37:19Z,vehicle.ready,synthetic,{},SJ-US-00003
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T20:36:35Z,estimate.presented,synthetic,{},SJ-US-00003
+"{""type"": ""technician""}",2026-09-11T21:23:52Z,vehicle.ready,synthetic,{},SJ-US-00003
+"{""type"": ""advisor""}",2026-09-11T00:55:16Z,parts.ordered,synthetic,{},SJ-US-00003
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-11T15:23:20Z,inspection.submitted,synthetic,{},SJ-US-00003
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-12T08:58:37Z,ro.opened,synthetic,{},SJ-US-00003
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-12T02:25:59Z,ro.opened,synthetic,{},SJ-US-00003
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T19:07:36Z,ro.opened,synthetic,{},SJ-US-00003
+"{""type"": ""advisor""}",2026-09-11T02:24:55Z,estimate.presented,synthetic,{},SJ-US-00003
+"{""type"": ""advisor""}",2026-09-11T23:18:21Z,parts.ordered,synthetic,{},SJ-US-00003
+"{""type"": ""technician""}",2026-09-12T15:33:31Z,estimate.line_decided,synthetic,{},SJ-US-00003
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-11T16:21:06Z,vehicle.ready,synthetic,{},SJ-US-00003
+"{""type"": ""advisor""}",2026-09-11T21:27:42Z,parts.ordered,synthetic,{},SJ-US-00003
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-12T19:54:41Z,estimate.line_decided,synthetic,{},SJ-US-00003
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-11T09:52:50Z,inspection.submitted,synthetic,{},SJ-US-00003
+"{""type"": ""advisor""}",2026-09-13T08:33:35Z,service.stage_changed,synthetic,{},SJ-US-00003
+"{""type"": ""advisor""}",2026-09-11T15:25:51Z,estimate.line_decided,synthetic,{},SJ-US-00003
+"{""type"": ""technician""}",2026-09-09T07:43:03Z,vehicle.ready,synthetic,{},SJ-US-00004
+"{""type"": ""advisor""}",2026-09-09T09:15:20Z,ro.line_completed,synthetic,{},SJ-US-00004
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T10:03:21Z,parts.ordered,synthetic,{},SJ-US-00004
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T16:14:13Z,parts.ordered,synthetic,{},SJ-US-00004
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T15:15:01Z,parts.ordered,synthetic,{},SJ-US-00004
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T17:37:20Z,ro.line_completed,synthetic,{},SJ-US-00004
+"{""type"": ""advisor""}",2026-09-09T13:21:27Z,ro.opened,synthetic,{},SJ-US-00004
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T11:34:12Z,vehicle.ready,synthetic,{},SJ-US-00004
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T22:28:15Z,vehicle.ready,synthetic,{},SJ-US-00004
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T06:37:53Z,estimate.presented,synthetic,{},SJ-US-00004
+"{""type"": ""technician""}",2026-09-09T22:06:26Z,estimate.presented,synthetic,{},SJ-US-00004
+"{""type"": ""advisor""}",2026-09-09T22:01:09Z,estimate.presented,synthetic,{},SJ-US-00004
+"{""type"": ""advisor""}",2026-09-10T11:00:13Z,ro.opened,synthetic,{},SJ-US-00004
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T07:19:03Z,ro.opened,synthetic,{},SJ-US-00004
+"{""type"": ""technician""}",2026-09-10T06:35:14Z,estimate.presented,synthetic,{},SJ-US-00004
+"{""type"": ""advisor""}",2026-09-11T02:54:44Z,service.stage_changed,synthetic,{},SJ-US-00004
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T15:46:06Z,ro.line_completed,synthetic,{},SJ-US-00004
+"{""type"": ""advisor""}",2026-09-10T11:41:52Z,service.stage_changed,synthetic,{},SJ-US-00004
+"{""type"": ""advisor""}",2026-09-11T07:33:57Z,vehicle.ready,synthetic,{},SJ-US-00004
+"{""type"": ""advisor""}",2026-09-10T14:04:21Z,ro.opened,synthetic,{},SJ-US-00004
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T00:41:49Z,service.stage_changed,synthetic,{},SJ-US-00004
+"{""type"": ""advisor""}",2026-09-09T20:31:29Z,estimate.line_decided,synthetic,{},SJ-US-00004
+"{""type"": ""advisor""}",2026-09-11T10:45:08Z,service.stage_changed,synthetic,{},SJ-US-00004
+"{""type"": ""technician""}",2026-09-10T03:53:04Z,inspection.submitted,synthetic,{},SJ-US-00005
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T06:44:57Z,estimate.presented,synthetic,{},SJ-US-00005
+"{""type"": ""advisor""}",2026-09-10T05:03:20Z,parts.ordered,synthetic,{},SJ-US-00005
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T09:28:22Z,service.stage_changed,synthetic,{},SJ-US-00005
+"{""type"": ""technician""}",2026-09-10T15:10:19Z,parts.ordered,synthetic,{},SJ-US-00005
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T13:39:27Z,estimate.line_decided,synthetic,{},SJ-US-00005
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T09:51:45Z,ro.line_completed,synthetic,{},SJ-US-00005
+"{""type"": ""technician""}",2026-09-10T18:27:52Z,inspection.submitted,synthetic,{},SJ-US-00005
+"{""type"": ""advisor""}",2026-09-10T19:52:37Z,service.stage_changed,synthetic,{},SJ-US-00005
+"{""type"": ""advisor""}",2026-09-11T05:51:16Z,ro.opened,synthetic,{},SJ-US-00005
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T14:08:38Z,estimate.presented,synthetic,{},SJ-US-00005
+"{""type"": ""technician""}",2026-09-11T10:58:27Z,service.stage_changed,synthetic,{},SJ-US-00005
+"{""type"": ""technician""}",2026-09-11T07:03:13Z,ro.line_completed,synthetic,{},SJ-US-00005
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T11:40:46Z,service.stage_changed,synthetic,{},SJ-US-00005
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-11T00:41:56Z,inspection.submitted,synthetic,{},SJ-US-00005
+"{""type"": ""advisor""}",2026-09-10T13:24:31Z,estimate.line_decided,synthetic,{},SJ-US-00005
+"{""type"": ""advisor""}",2026-09-11T19:43:06Z,estimate.line_decided,synthetic,{},SJ-US-00005
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-11T00:52:50Z,service.stage_changed,synthetic,{},SJ-US-00005
+"{""type"": ""advisor""}",2026-09-11T14:57:36Z,parts.ordered,synthetic,{},SJ-US-00005
+"{""type"": ""technician""}",2026-09-10T21:53:59Z,ro.opened,synthetic,{},SJ-US-00005
+"{""type"": ""advisor""}",2026-09-11T20:20:16Z,inspection.submitted,synthetic,{},SJ-US-00005
+"{""type"": ""advisor""}",2026-09-12T14:18:47Z,service.stage_changed,synthetic,{},SJ-US-00005
+"{""type"": ""technician""}",2026-09-11T11:58:43Z,estimate.presented,synthetic,{},SJ-US-00005
+"{""type"": ""technician""}",2026-09-10T00:19:36Z,estimate.line_decided,synthetic,{},SJ-US-00006
+"{""type"": ""advisor""}",2026-09-10T02:56:21Z,inspection.submitted,synthetic,{},SJ-US-00006
+"{""type"": ""advisor""}",2026-09-10T02:54:04Z,estimate.presented,synthetic,{},SJ-US-00006
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T04:16:45Z,estimate.presented,synthetic,{},SJ-US-00006
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T10:18:50Z,vehicle.ready,synthetic,{},SJ-US-00006
+"{""type"": ""technician""}",2026-09-10T08:15:07Z,service.stage_changed,synthetic,{},SJ-US-00006
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T17:26:03Z,vehicle.ready,synthetic,{},SJ-US-00006
+"{""type"": ""technician""}",2026-09-10T06:45:23Z,vehicle.ready,synthetic,{},SJ-US-00006
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T23:43:48Z,inspection.submitted,synthetic,{},SJ-US-00006
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T07:18:31Z,inspection.submitted,synthetic,{},SJ-US-00006
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T22:15:49Z,parts.ordered,synthetic,{},SJ-US-00006
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T19:28:30Z,estimate.line_decided,synthetic,{},SJ-US-00006
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T15:31:29Z,estimate.presented,synthetic,{},SJ-US-00006
+"{""type"": ""advisor""}",2026-09-11T05:28:16Z,vehicle.ready,synthetic,{},SJ-US-00006
+"{""type"": ""technician""}",2026-09-10T21:26:35Z,service.stage_changed,synthetic,{},SJ-US-00006
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T11:18:27Z,ro.line_completed,synthetic,{},SJ-US-00006
+"{""type"": ""advisor""}",2026-09-11T04:17:46Z,estimate.presented,synthetic,{},SJ-US-00006
+"{""type"": ""technician""}",2026-09-11T17:03:19Z,estimate.line_decided,synthetic,{},SJ-US-00006
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-11T01:01:30Z,ro.opened,synthetic,{},SJ-US-00006
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-11T23:21:26Z,ro.line_completed,synthetic,{},SJ-US-00006
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T12:18:03Z,vehicle.ready,synthetic,{},SJ-US-00006
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-11T17:41:50Z,estimate.line_decided,synthetic,{},SJ-US-00006
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-12T10:52:32Z,vehicle.ready,synthetic,{},SJ-US-00006
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T21:00:57Z,ro.line_completed,synthetic,{},SJ-US-00006
+"{""type"": ""technician""}",2026-09-12T20:59:01Z,service.stage_changed,synthetic,{},SJ-US-00006
+"{""type"": ""advisor""}",2026-09-09T16:21:20Z,inspection.submitted,synthetic,{},SJ-US-00007
+"{""type"": ""technician""}",2026-09-09T17:27:50Z,ro.line_completed,synthetic,{},SJ-US-00007
+"{""type"": ""advisor""}",2026-09-09T20:11:30Z,estimate.presented,synthetic,{},SJ-US-00007
+"{""type"": ""technician""}",2026-09-10T00:38:34Z,ro.line_completed,synthetic,{},SJ-US-00007
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T23:59:22Z,estimate.presented,synthetic,{},SJ-US-00007
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T06:10:04Z,inspection.submitted,synthetic,{},SJ-US-00007
+"{""type"": ""advisor""}",2026-09-09T22:49:39Z,inspection.submitted,synthetic,{},SJ-US-00007
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T22:22:18Z,estimate.line_decided,synthetic,{},SJ-US-00007
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T13:17:53Z,vehicle.ready,synthetic,{},SJ-US-00007
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T18:11:38Z,estimate.line_decided,synthetic,{},SJ-US-00007
+"{""type"": ""technician""}",2026-09-09T22:47:50Z,estimate.presented,synthetic,{},SJ-US-00007
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T13:14:04Z,parts.ordered,synthetic,{},SJ-US-00007
+"{""type"": ""technician""}",2026-09-10T01:00:14Z,vehicle.ready,synthetic,{},SJ-US-00007
+"{""type"": ""technician""}",2026-09-10T12:35:16Z,inspection.submitted,synthetic,{},SJ-US-00007
+"{""type"": ""technician""}",2026-09-10T06:54:30Z,service.stage_changed,synthetic,{},SJ-US-00007
+"{""type"": ""advisor""}",2026-09-10T22:33:56Z,estimate.line_decided,synthetic,{},SJ-US-00007
+"{""type"": ""technician""}",2026-09-10T09:10:50Z,ro.line_completed,synthetic,{},SJ-US-00007
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T16:58:13Z,service.stage_changed,synthetic,{},SJ-US-00007
+"{""type"": ""advisor""}",2026-09-10T09:27:17Z,estimate.line_decided,synthetic,{},SJ-US-00007
+"{""type"": ""technician""}",2026-09-10T02:54:43Z,vehicle.ready,synthetic,{},SJ-US-00007
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T18:36:51Z,inspection.submitted,synthetic,{},SJ-US-00007
+"{""type"": ""advisor""}",2026-09-11T00:01:07Z,service.stage_changed,synthetic,{},SJ-US-00007
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T05:06:42Z,inspection.submitted,synthetic,{},SJ-US-00007
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T09:14:42Z,estimate.presented,synthetic,{},SJ-US-00007
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T20:27:52Z,estimate.presented,synthetic,{},SJ-US-00007
+"{""type"": ""technician""}",2026-09-12T05:57:46Z,service.stage_changed,synthetic,{},SJ-US-00007
+"{""type"": ""technician""}",2026-09-12T12:56:03Z,estimate.line_decided,synthetic,{},SJ-US-00007
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-11T09:04:17Z,parts.ordered,synthetic,{},SJ-US-00007
+"{""type"": ""technician""}",2026-09-11T20:27:11Z,ro.line_completed,synthetic,{},SJ-US-00007
+"{""type"": ""technician""}",2026-09-10T09:21:55Z,ro.opened,synthetic,{},SJ-US-00007
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T19:41:13Z,ro.opened,synthetic,{},SJ-US-00007
+"{""type"": ""technician""}",2026-09-11T04:02:16Z,parts.ordered,synthetic,{},SJ-US-00007
+"{""type"": ""technician""}",2026-09-12T08:41:59Z,estimate.presented,synthetic,{},SJ-US-00007
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-13T02:35:03Z,service.stage_changed,synthetic,{},SJ-US-00007
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-13T10:20:06Z,vehicle.ready,synthetic,{},SJ-US-00007
+"{""type"": ""advisor""}",2026-09-11T09:52:16Z,service.stage_changed,synthetic,{},SJ-US-00007
+"{""type"": ""advisor""}",2026-09-12T21:50:15Z,ro.opened,synthetic,{},SJ-US-00007
+"{""type"": ""technician""}",2026-09-09T02:03:21Z,ro.line_completed,synthetic,{},SJ-US-00008
+"{""type"": ""technician""}",2026-09-09T03:11:15Z,inspection.submitted,synthetic,{},SJ-US-00008
+"{""type"": ""advisor""}",2026-09-09T04:10:00Z,service.stage_changed,synthetic,{},SJ-US-00008
+"{""type"": ""advisor""}",2026-09-09T05:07:29Z,ro.opened,synthetic,{},SJ-US-00008
+"{""type"": ""advisor""}",2026-09-09T08:15:58Z,parts.ordered,synthetic,{},SJ-US-00008
+"{""type"": ""technician""}",2026-09-09T15:46:26Z,ro.opened,synthetic,{},SJ-US-00008
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T13:32:18Z,vehicle.ready,synthetic,{},SJ-US-00008
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T14:16:27Z,service.stage_changed,synthetic,{},SJ-US-00008
+"{""type"": ""advisor""}",2026-09-09T06:56:54Z,inspection.submitted,synthetic,{},SJ-US-00008
+"{""type"": ""technician""}",2026-09-10T03:23:16Z,inspection.submitted,synthetic,{},SJ-US-00008
+"{""type"": ""advisor""}",2026-09-09T16:47:00Z,vehicle.ready,synthetic,{},SJ-US-00008
+"{""type"": ""advisor""}",2026-09-10T02:02:52Z,inspection.submitted,synthetic,{},SJ-US-00008
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T07:25:38Z,parts.ordered,synthetic,{},SJ-US-00008
+"{""type"": ""technician""}",2026-09-09T19:11:08Z,estimate.line_decided,synthetic,{},SJ-US-00008
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T15:13:51Z,ro.opened,synthetic,{},SJ-US-00008
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T08:15:42Z,service.stage_changed,synthetic,{},SJ-US-00008
+"{""type"": ""technician""}",2026-09-10T04:13:12Z,vehicle.ready,synthetic,{},SJ-US-00008
+"{""type"": ""technician""}",2026-09-09T18:48:24Z,estimate.line_decided,synthetic,{},SJ-US-00008
+"{""type"": ""technician""}",2026-09-09T22:37:59Z,vehicle.ready,synthetic,{},SJ-US-00008
+"{""type"": ""technician""}",2026-09-11T01:55:34Z,parts.ordered,synthetic,{},SJ-US-00008
+"{""type"": ""technician""}",2026-09-11T05:04:33Z,service.stage_changed,synthetic,{},SJ-US-00008
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T21:18:04Z,service.stage_changed,synthetic,{},SJ-US-00008
+"{""type"": ""advisor""}",2026-09-09T21:56:04Z,vehicle.ready,synthetic,{},SJ-US-00008
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T20:27:18Z,ro.line_completed,synthetic,{},SJ-US-00008
+"{""type"": ""technician""}",2026-09-11T05:42:31Z,estimate.presented,synthetic,{},SJ-US-00008
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T18:08:09Z,estimate.line_decided,synthetic,{},SJ-US-00008
+"{""type"": ""advisor""}",2026-09-12T00:23:05Z,inspection.submitted,synthetic,{},SJ-US-00008
+"{""type"": ""technician""}",2026-09-11T02:36:44Z,vehicle.ready,synthetic,{},SJ-US-00008
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-07-11T23:56:28Z,estimate.line_decided,synthetic,{},SJ-US-00009
+"{""type"": ""advisor""}",2026-07-12T00:43:45Z,vehicle.ready,synthetic,{},SJ-US-00009
+"{""type"": ""technician""}",2026-07-12T04:37:49Z,parts.ordered,synthetic,{},SJ-US-00009
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-07-12T02:32:44Z,ro.line_completed,synthetic,{},SJ-US-00009
+"{""type"": ""technician""}",2026-08-12T19:04:06Z,parts.ordered,synthetic,{},SJ-US-00010
+"{""type"": ""advisor""}",2026-08-12T20:12:53Z,parts.ordered,synthetic,{},SJ-US-00010
+"{""type"": ""technician""}",2026-08-12T22:41:09Z,service.stage_changed,synthetic,{},SJ-US-00010
+"{""type"": ""technician""}",2026-08-13T01:15:48Z,inspection.submitted,synthetic,{},SJ-US-00010
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-08-13T02:53:49Z,estimate.line_decided,synthetic,{},SJ-US-00010
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-08-12T22:24:08Z,service.stage_changed,synthetic,{},SJ-US-00010
+"{""type"": ""technician""}",2026-09-09T21:25:40Z,estimate.presented,synthetic,{},SJ-US-00011
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T22:13:43Z,vehicle.ready,synthetic,{},SJ-US-00011
+"{""type"": ""advisor""}",2026-09-10T00:03:02Z,inspection.submitted,synthetic,{},SJ-US-00011
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T04:42:29Z,vehicle.ready,synthetic,{},SJ-US-00011
+"{""type"": ""technician""}",2026-09-10T03:52:49Z,inspection.submitted,synthetic,{},SJ-US-00011
+"{""type"": ""technician""}",2026-09-10T07:04:41Z,estimate.line_decided,synthetic,{},SJ-US-00011
+"{""type"": ""technician""}",2026-09-10T14:48:15Z,estimate.presented,synthetic,{},SJ-US-00011
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T11:05:50Z,parts.ordered,synthetic,{},SJ-US-00011
+"{""type"": ""technician""}",2026-09-10T09:55:51Z,ro.opened,synthetic,{},SJ-US-00011
+"{""type"": ""advisor""}",2026-09-10T05:50:41Z,estimate.presented,synthetic,{},SJ-US-00011
+"{""type"": ""technician""}",2026-08-15T10:50:24Z,estimate.line_decided,synthetic,{},SJ-US-00012
+"{""type"": ""advisor""}",2026-08-15T11:31:09Z,ro.line_completed,synthetic,{},SJ-US-00012
+"{""type"": ""technician""}",2026-08-15T16:04:13Z,estimate.presented,synthetic,{},SJ-US-00012
+"{""type"": ""advisor""}",2026-08-15T15:52:28Z,ro.line_completed,synthetic,{},SJ-US-00012
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-08-15T13:18:12Z,ro.opened,synthetic,{},SJ-US-00012
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-07-17T15:22:04Z,service.stage_changed,synthetic,{},SJ-US-00013
+"{""type"": ""advisor""}",2026-07-17T17:44:22Z,ro.line_completed,synthetic,{},SJ-US-00013
+"{""type"": ""advisor""}",2026-07-17T18:21:53Z,inspection.submitted,synthetic,{},SJ-US-00013
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-07-17T21:38:58Z,inspection.submitted,synthetic,{},SJ-US-00013
+"{""type"": ""advisor""}",2026-07-17T22:15:35Z,estimate.line_decided,synthetic,{},SJ-US-00013
+"{""type"": ""advisor""}",2026-07-03T00:08:53Z,parts.ordered,synthetic,{},SJ-US-00014
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-07-03T01:14:53Z,ro.opened,synthetic,{},SJ-US-00014
+"{""type"": ""technician""}",2026-07-03T02:43:34Z,estimate.line_decided,synthetic,{},SJ-US-00014
+"{""type"": ""advisor""}",2026-09-08T20:00:35Z,inspection.submitted,synthetic,{},SJ-US-00015
+"{""type"": ""advisor""}",2026-09-08T22:40:02Z,estimate.line_decided,synthetic,{},SJ-US-00015
+"{""type"": ""advisor""}",2026-09-09T01:14:20Z,service.stage_changed,synthetic,{},SJ-US-00015
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T00:58:16Z,estimate.presented,synthetic,{},SJ-US-00015
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T02:00:35Z,ro.opened,synthetic,{},SJ-US-00015
+"{""type"": ""advisor""}",2026-09-09T02:28:28Z,service.stage_changed,synthetic,{},SJ-US-00015
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T02:52:51Z,ro.line_completed,synthetic,{},SJ-US-00015
+"{""type"": ""technician""}",2026-09-09T10:46:52Z,inspection.submitted,synthetic,{},SJ-US-00015
+"{""type"": ""advisor""}",2026-09-09T12:07:44Z,estimate.line_decided,synthetic,{},SJ-US-00015
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T15:31:31Z,ro.opened,synthetic,{},SJ-US-00015
+"{""type"": ""technician""}",2026-09-08T03:04:40Z,estimate.line_decided,synthetic,{},SJ-US-00016
+"{""type"": ""advisor""}",2026-09-08T05:14:48Z,ro.opened,synthetic,{},SJ-US-00016
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-08T06:56:40Z,service.stage_changed,synthetic,{},SJ-US-00016
+"{""type"": ""advisor""}",2026-09-08T08:31:29Z,vehicle.ready,synthetic,{},SJ-US-00016
+"{""type"": ""technician""}",2026-09-08T13:59:57Z,parts.ordered,synthetic,{},SJ-US-00016
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-08T14:50:48Z,estimate.line_decided,synthetic,{},SJ-US-00016
+"{""type"": ""technician""}",2026-09-08T23:16:49Z,estimate.line_decided,synthetic,{},SJ-US-00017
+"{""type"": ""advisor""}",2026-09-09T01:45:09Z,vehicle.ready,synthetic,{},SJ-US-00017
+"{""type"": ""advisor""}",2026-09-09T04:57:21Z,estimate.presented,synthetic,{},SJ-US-00017
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T05:49:55Z,vehicle.ready,synthetic,{},SJ-US-00017
+"{""type"": ""advisor""}",2026-09-09T07:22:26Z,estimate.line_decided,synthetic,{},SJ-US-00017
+"{""type"": ""technician""}",2026-09-09T23:53:30Z,estimate.line_decided,synthetic,{},SJ-US-00018
+"{""type"": ""technician""}",2026-09-10T02:01:33Z,vehicle.ready,synthetic,{},SJ-US-00018
+"{""type"": ""technician""}",2026-09-10T05:15:55Z,ro.line_completed,synthetic,{},SJ-US-00018
+"{""type"": ""advisor""}",2026-09-10T05:08:58Z,parts.ordered,synthetic,{},SJ-US-00018
+"{""type"": ""advisor""}",2026-09-10T10:48:24Z,parts.ordered,synthetic,{},SJ-US-00018
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T04:32:46Z,vehicle.ready,synthetic,{},SJ-US-00018
+"{""type"": ""advisor""}",2026-09-10T05:27:07Z,service.stage_changed,synthetic,{},SJ-US-00018
+"{""type"": ""advisor""}",2026-09-10T08:43:38Z,ro.opened,synthetic,{},SJ-US-00018
+"{""type"": ""technician""}",2026-09-10T05:32:55Z,inspection.submitted,synthetic,{},SJ-US-00018
+"{""type"": ""advisor""}",2026-09-10T22:54:14Z,parts.ordered,synthetic,{},SJ-US-00018
+"{""type"": ""advisor""}",2026-07-23T12:04:55Z,inspection.submitted,synthetic,{},SJ-US-00019
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-07-23T12:40:35Z,vehicle.ready,synthetic,{},SJ-US-00019
+"{""type"": ""technician""}",2026-07-23T15:26:37Z,estimate.presented,synthetic,{},SJ-US-00019
+"{""type"": ""advisor""}",2026-09-08T18:44:28Z,inspection.submitted,synthetic,{},SJ-US-00020
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-08T21:21:35Z,estimate.line_decided,synthetic,{},SJ-US-00020
+"{""type"": ""technician""}",2026-09-08T23:32:15Z,service.stage_changed,synthetic,{},SJ-US-00020
+"{""type"": ""technician""}",2026-09-09T03:28:53Z,service.stage_changed,synthetic,{},SJ-US-00020
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T02:32:23Z,parts.ordered,synthetic,{},SJ-US-00020
+"{""type"": ""technician""}",2026-09-09T09:11:36Z,estimate.presented,synthetic,{},SJ-US-00020
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T09:56:25Z,inspection.submitted,synthetic,{},SJ-US-00020
+"{""type"": ""technician""}",2026-09-09T10:51:04Z,ro.opened,synthetic,{},SJ-US-00020
+"{""type"": ""advisor""}",2026-09-09T15:47:46Z,service.stage_changed,synthetic,{},SJ-US-00020
+"{""type"": ""advisor""}",2026-08-01T05:18:30Z,estimate.line_decided,synthetic,{},SJ-US-00021
+"{""type"": ""technician""}",2026-08-01T06:32:47Z,estimate.presented,synthetic,{},SJ-US-00021
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-08-01T11:10:39Z,inspection.submitted,synthetic,{},SJ-US-00021
+"{""type"": ""technician""}",2026-09-09T04:36:45Z,vehicle.ready,synthetic,{},SJ-US-00022
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T06:06:05Z,inspection.submitted,synthetic,{},SJ-US-00022
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T07:11:11Z,ro.opened,synthetic,{},SJ-US-00022
+"{""type"": ""advisor""}",2026-09-09T13:17:16Z,inspection.submitted,synthetic,{},SJ-US-00022
+"{""type"": ""technician""}",2026-09-09T13:30:06Z,parts.ordered,synthetic,{},SJ-US-00022
+"{""type"": ""technician""}",2026-09-09T07:14:28Z,estimate.presented,synthetic,{},SJ-US-00022
+"{""type"": ""advisor""}",2026-07-16T22:46:38Z,ro.opened,synthetic,{},SJ-US-00023
+"{""type"": ""technician""}",2026-07-16T23:50:47Z,parts.ordered,synthetic,{},SJ-US-00023
+"{""type"": ""technician""}",2026-07-17T02:16:51Z,ro.line_completed,synthetic,{},SJ-US-00023
+"{""type"": ""advisor""}",2026-07-17T01:48:13Z,parts.ordered,synthetic,{},SJ-US-00023
+"{""type"": ""advisor""}",2026-07-17T01:17:23Z,estimate.presented,synthetic,{},SJ-US-00023
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-08T20:02:44Z,ro.line_completed,synthetic,{},SJ-US-00024
+"{""type"": ""advisor""}",2026-09-08T22:28:59Z,service.stage_changed,synthetic,{},SJ-US-00024
+"{""type"": ""advisor""}",2026-09-08T21:14:35Z,parts.ordered,synthetic,{},SJ-US-00024
+"{""type"": ""advisor""}",2026-09-08T22:10:36Z,ro.opened,synthetic,{},SJ-US-00024
+"{""type"": ""advisor""}",2026-09-09T03:17:15Z,parts.ordered,synthetic,{},SJ-US-00024
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T04:32:33Z,estimate.line_decided,synthetic,{},SJ-US-00024
+"{""type"": ""technician""}",2026-09-09T08:29:00Z,service.stage_changed,synthetic,{},SJ-US-00024
+"{""type"": ""technician""}",2026-09-09T14:12:33Z,inspection.submitted,synthetic,{},SJ-US-00024
+"{""type"": ""technician""}",2026-09-09T19:36:19Z,inspection.submitted,synthetic,{},SJ-US-00024
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T13:54:57Z,vehicle.ready,synthetic,{},SJ-US-00024
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T13:48:15Z,ro.line_completed,synthetic,{},SJ-US-00024
+"{""type"": ""advisor""}",2026-09-09T15:30:50Z,estimate.line_decided,synthetic,{},SJ-US-00025
+"{""type"": ""advisor""}",2026-09-09T17:13:19Z,service.stage_changed,synthetic,{},SJ-US-00025
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T18:16:16Z,service.stage_changed,synthetic,{},SJ-US-00025
+"{""type"": ""advisor""}",2026-09-09T19:06:20Z,parts.ordered,synthetic,{},SJ-US-00025
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T17:48:00Z,estimate.presented,synthetic,{},SJ-US-00025
+"{""type"": ""technician""}",2026-09-09T20:25:15Z,inspection.submitted,synthetic,{},SJ-US-00025
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T22:13:54Z,parts.ordered,synthetic,{},SJ-US-00025
+"{""type"": ""technician""}",2026-09-10T07:46:59Z,ro.line_completed,synthetic,{},SJ-US-00025
+"{""type"": ""technician""}",2026-09-10T09:38:24Z,estimate.presented,synthetic,{},SJ-US-00025
+"{""type"": ""advisor""}",2026-09-10T10:19:06Z,estimate.line_decided,synthetic,{},SJ-US-00025
+"{""type"": ""technician""}",2026-09-10T13:35:43Z,ro.line_completed,synthetic,{},SJ-US-00025
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T15:55:48Z,parts.ordered,synthetic,{},SJ-US-00025
+"{""type"": ""advisor""}",2026-09-10T03:27:31Z,estimate.line_decided,synthetic,{},SJ-US-00026
+"{""type"": ""advisor""}",2026-09-10T05:54:35Z,parts.ordered,synthetic,{},SJ-US-00026
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T06:34:19Z,estimate.line_decided,synthetic,{},SJ-US-00026
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T08:47:58Z,estimate.line_decided,synthetic,{},SJ-US-00026
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T11:28:58Z,estimate.line_decided,synthetic,{},SJ-US-00026
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T09:04:49Z,service.stage_changed,synthetic,{},SJ-US-00026
+"{""type"": ""technician""}",2026-09-10T10:44:24Z,parts.ordered,synthetic,{},SJ-US-00026
+"{""type"": ""advisor""}",2026-09-10T21:42:32Z,service.stage_changed,synthetic,{},SJ-US-00026
+"{""type"": ""advisor""}",2026-09-10T19:49:18Z,inspection.submitted,synthetic,{},SJ-US-00026
+"{""type"": ""advisor""}",2026-09-08T12:54:30Z,estimate.line_decided,synthetic,{},SJ-US-00027
+"{""type"": ""advisor""}",2026-09-08T14:36:32Z,ro.opened,synthetic,{},SJ-US-00027
+"{""type"": ""advisor""}",2026-09-08T16:06:13Z,vehicle.ready,synthetic,{},SJ-US-00027
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-08T21:21:09Z,parts.ordered,synthetic,{},SJ-US-00027
+"{""type"": ""technician""}",2026-09-08T15:34:51Z,parts.ordered,synthetic,{},SJ-US-00027
+"{""type"": ""technician""}",2026-09-09T01:19:58Z,inspection.submitted,synthetic,{},SJ-US-00028
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T02:02:49Z,vehicle.ready,synthetic,{},SJ-US-00028
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T02:30:15Z,vehicle.ready,synthetic,{},SJ-US-00028
+"{""type"": ""advisor""}",2026-09-09T09:33:16Z,estimate.line_decided,synthetic,{},SJ-US-00028
+"{""type"": ""advisor""}",2026-09-09T04:52:00Z,ro.line_completed,synthetic,{},SJ-US-00028
+"{""type"": ""advisor""}",2026-09-09T08:48:00Z,vehicle.ready,synthetic,{},SJ-US-00028
+"{""type"": ""advisor""}",2026-09-10T01:32:00Z,ro.line_completed,synthetic,{},SJ-US-00029
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T03:03:13Z,ro.line_completed,synthetic,{},SJ-US-00029
+"{""type"": ""advisor""}",2026-09-10T05:03:54Z,parts.ordered,synthetic,{},SJ-US-00029
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T07:03:58Z,parts.ordered,synthetic,{},SJ-US-00029
+"{""type"": ""technician""}",2026-09-10T06:45:27Z,ro.opened,synthetic,{},SJ-US-00029
+"{""type"": ""advisor""}",2026-09-10T14:49:54Z,parts.ordered,synthetic,{},SJ-US-00029
+"{""type"": ""advisor""}",2026-09-10T06:50:34Z,vehicle.ready,synthetic,{},SJ-US-00029
+"{""type"": ""technician""}",2026-09-10T09:52:46Z,estimate.line_decided,synthetic,{},SJ-US-00029
+"{""type"": ""technician""}",2026-09-10T23:55:00Z,estimate.presented,synthetic,{},SJ-US-00029
+"{""type"": ""advisor""}",2026-09-09T18:19:13Z,parts.ordered,synthetic,{},SJ-US-00030
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T20:32:03Z,estimate.presented,synthetic,{},SJ-US-00030
+"{""type"": ""technician""}",2026-09-09T22:01:26Z,vehicle.ready,synthetic,{},SJ-US-00030
+"{""type"": ""advisor""}",2026-09-10T01:08:12Z,ro.opened,synthetic,{},SJ-US-00030
+"{""type"": ""advisor""}",2026-09-10T03:15:40Z,estimate.presented,synthetic,{},SJ-US-00030
+"{""type"": ""technician""}",2026-09-09T23:50:46Z,inspection.submitted,synthetic,{},SJ-US-00030
+"{""type"": ""technician""}",2026-09-10T01:57:06Z,vehicle.ready,synthetic,{},SJ-US-00030
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T11:03:02Z,estimate.line_decided,synthetic,{},SJ-US-00030
+"{""type"": ""advisor""}",2026-09-10T02:26:36Z,vehicle.ready,synthetic,{},SJ-US-00031
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T03:05:55Z,inspection.submitted,synthetic,{},SJ-US-00031
+"{""type"": ""technician""}",2026-09-10T03:42:51Z,parts.ordered,synthetic,{},SJ-US-00031
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T07:49:46Z,estimate.presented,synthetic,{},SJ-US-00032
+"{""type"": ""advisor""}",2026-09-09T08:58:45Z,vehicle.ready,synthetic,{},SJ-US-00032
+"{""type"": ""advisor""}",2026-09-09T09:38:41Z,estimate.line_decided,synthetic,{},SJ-US-00032
+"{""type"": ""technician""}",2026-09-09T16:00:34Z,ro.line_completed,synthetic,{},SJ-US-00032
+"{""type"": ""advisor""}",2026-09-09T14:45:19Z,ro.line_completed,synthetic,{},SJ-US-00032
+"{""type"": ""advisor""}",2026-09-09T22:27:38Z,ro.line_completed,synthetic,{},SJ-US-00032
+"{""type"": ""technician""}",2026-09-09T11:31:55Z,estimate.line_decided,synthetic,{},SJ-US-00032
+"{""type"": ""advisor""}",2026-07-10T20:46:31Z,estimate.line_decided,synthetic,{},SJ-US-00033
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-07-10T23:23:46Z,ro.line_completed,synthetic,{},SJ-US-00033
+"{""type"": ""technician""}",2026-07-11T00:14:01Z,parts.ordered,synthetic,{},SJ-US-00033
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-07-10T22:32:24Z,vehicle.ready,synthetic,{},SJ-US-00033
+"{""type"": ""technician""}",2026-07-11T04:20:33Z,ro.opened,synthetic,{},SJ-US-00033
+"{""type"": ""advisor""}",2026-07-11T05:29:55Z,inspection.submitted,synthetic,{},SJ-US-00033
+"{""type"": ""advisor""}",2026-08-18T23:32:34Z,service.stage_changed,synthetic,{},SJ-US-00034
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-08-19T01:52:20Z,parts.ordered,synthetic,{},SJ-US-00034
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-08-19T04:13:37Z,service.stage_changed,synthetic,{},SJ-US-00034
+"{""type"": ""advisor""}",2026-08-19T05:21:08Z,ro.line_completed,synthetic,{},SJ-US-00034
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T23:17:26Z,estimate.line_decided,synthetic,{},SJ-US-00035
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T00:46:41Z,vehicle.ready,synthetic,{},SJ-US-00035
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T00:35:56Z,vehicle.ready,synthetic,{},SJ-US-00035
+"{""type"": ""technician""}",2026-09-10T01:20:44Z,inspection.submitted,synthetic,{},SJ-US-00035
+"{""type"": ""technician""}",2026-09-10T04:14:31Z,estimate.line_decided,synthetic,{},SJ-US-00035
+"{""type"": ""advisor""}",2026-06-24T11:08:48Z,estimate.presented,synthetic,{},SJ-US-00036
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-06-24T13:49:41Z,estimate.line_decided,synthetic,{},SJ-US-00036
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-06-24T12:30:30Z,parts.ordered,synthetic,{},SJ-US-00036
+"{""type"": ""technician""}",2026-06-24T20:03:19Z,parts.ordered,synthetic,{},SJ-US-00036
+"{""type"": ""advisor""}",2026-06-24T15:19:16Z,estimate.presented,synthetic,{},SJ-US-00036
+"{""type"": ""technician""}",2026-06-24T16:52:25Z,estimate.line_decided,synthetic,{},SJ-US-00036
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T22:19:27Z,parts.ordered,synthetic,{},SJ-US-00037
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T23:54:24Z,inspection.submitted,synthetic,{},SJ-US-00037
+"{""type"": ""technician""}",2026-09-10T01:29:33Z,estimate.presented,synthetic,{},SJ-US-00037
+"{""type"": ""advisor""}",2026-09-10T05:03:25Z,service.stage_changed,synthetic,{},SJ-US-00037
+"{""type"": ""technician""}",2026-09-10T02:55:20Z,estimate.line_decided,synthetic,{},SJ-US-00037
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T10:05:29Z,service.stage_changed,synthetic,{},SJ-US-00037
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T11:25:13Z,estimate.line_decided,synthetic,{},SJ-US-00037
+"{""type"": ""advisor""}",2026-09-10T17:30:18Z,inspection.submitted,synthetic,{},SJ-US-00037
+"{""type"": ""technician""}",2026-09-09T10:19:12Z,estimate.presented,synthetic,{},SJ-US-00038
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T11:40:45Z,service.stage_changed,synthetic,{},SJ-US-00038
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T11:28:48Z,service.stage_changed,synthetic,{},SJ-US-00038
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T14:34:02Z,estimate.line_decided,synthetic,{},SJ-US-00038
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T18:23:14Z,ro.line_completed,synthetic,{},SJ-US-00038
+"{""type"": ""advisor""}",2026-09-09T23:00:03Z,estimate.presented,synthetic,{},SJ-US-00038
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T13:59:23Z,vehicle.ready,synthetic,{},SJ-US-00038
+"{""type"": ""advisor""}",2026-09-09T21:01:59Z,ro.line_completed,synthetic,{},SJ-US-00038
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T15:11:23Z,vehicle.ready,synthetic,{},SJ-US-00038
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T23:04:36Z,ro.opened,synthetic,{},SJ-US-00038
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-08-02T23:43:20Z,service.stage_changed,synthetic,{},SJ-US-00039
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-08-03T02:06:51Z,ro.opened,synthetic,{},SJ-US-00039
+"{""type"": ""advisor""}",2026-08-03T04:34:30Z,parts.ordered,synthetic,{},SJ-US-00039
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T06:13:28Z,vehicle.ready,synthetic,{},SJ-US-00040
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T09:09:55Z,ro.opened,synthetic,{},SJ-US-00040
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T10:18:18Z,inspection.submitted,synthetic,{},SJ-US-00040
+"{""type"": ""advisor""}",2026-09-10T08:10:01Z,vehicle.ready,synthetic,{},SJ-US-00040
+"{""type"": ""advisor""}",2026-09-10T08:41:19Z,vehicle.ready,synthetic,{},SJ-US-00040
+"{""type"": ""technician""}",2026-09-10T15:41:25Z,ro.line_completed,synthetic,{},SJ-US-00040
+"{""type"": ""advisor""}",2026-09-10T11:30:24Z,service.stage_changed,synthetic,{},SJ-US-00040
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-07-27T06:03:15Z,estimate.presented,synthetic,{},SJ-US-00041
+"{""type"": ""advisor""}",2026-07-27T07:21:31Z,inspection.submitted,synthetic,{},SJ-US-00041
+"{""type"": ""advisor""}",2026-07-27T08:45:41Z,ro.line_completed,synthetic,{},SJ-US-00041
+"{""type"": ""advisor""}",2026-07-27T14:07:36Z,service.stage_changed,synthetic,{},SJ-US-00041
+"{""type"": ""advisor""}",2026-09-09T20:18:52Z,ro.opened,synthetic,{},SJ-US-00042
+"{""type"": ""technician""}",2026-09-09T21:23:35Z,service.stage_changed,synthetic,{},SJ-US-00042
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T01:42:05Z,inspection.submitted,synthetic,{},SJ-US-00042
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T04:21:49Z,ro.line_completed,synthetic,{},SJ-US-00042
+"{""type"": ""technician""}",2026-09-10T07:02:28Z,ro.opened,synthetic,{},SJ-US-00042
+"{""type"": ""technician""}",2026-09-10T11:17:15Z,ro.opened,synthetic,{},SJ-US-00042
+"{""type"": ""advisor""}",2026-09-10T01:57:50Z,ro.opened,synthetic,{},SJ-US-00042
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-04T17:10:29Z,inspection.submitted,synthetic,{},SJ-US-00043
+"{""type"": ""technician""}",2026-09-04T19:25:08Z,vehicle.ready,synthetic,{},SJ-US-00043
+"{""type"": ""technician""}",2026-09-04T22:27:22Z,parts.ordered,synthetic,{},SJ-US-00043
+"{""type"": ""advisor""}",2026-09-04T21:30:31Z,vehicle.ready,synthetic,{},SJ-US-00043
+"{""type"": ""advisor""}",2026-09-05T04:55:57Z,estimate.line_decided,synthetic,{},SJ-US-00043
+"{""type"": ""advisor""}",2026-09-04T20:23:45Z,inspection.submitted,synthetic,{},SJ-US-00043
+"{""type"": ""technician""}",2026-09-04T23:28:07Z,inspection.submitted,synthetic,{},SJ-US-00043
+"{""type"": ""technician""}",2026-09-05T13:08:23Z,inspection.submitted,synthetic,{},SJ-US-00043
+"{""type"": ""technician""}",2026-09-05T03:48:59Z,inspection.submitted,synthetic,{},SJ-US-00043
+"{""type"": ""technician""}",2026-09-05T10:04:37Z,inspection.submitted,synthetic,{},SJ-US-00043
+"{""type"": ""advisor""}",2026-09-09T20:37:39Z,estimate.line_decided,synthetic,{},SJ-US-00044
+"{""type"": ""advisor""}",2026-09-09T22:51:16Z,vehicle.ready,synthetic,{},SJ-US-00044
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T00:34:09Z,vehicle.ready,synthetic,{},SJ-US-00044
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T04:26:31Z,parts.ordered,synthetic,{},SJ-US-00044
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T08:09:46Z,ro.line_completed,synthetic,{},SJ-US-00044
+"{""type"": ""advisor""}",2026-09-10T05:08:39Z,service.stage_changed,synthetic,{},SJ-US-00044
+"{""type"": ""technician""}",2026-09-10T13:22:24Z,ro.opened,synthetic,{},SJ-US-00044
+"{""type"": ""technician""}",2026-09-10T01:51:04Z,vehicle.ready,synthetic,{},SJ-US-00044
+"{""type"": ""advisor""}",2026-09-10T12:24:24Z,service.stage_changed,synthetic,{},SJ-US-00044
+"{""type"": ""advisor""}",2026-09-10T16:51:02Z,parts.ordered,synthetic,{},SJ-US-00044
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-09T22:23:01Z,estimate.presented,synthetic,{},SJ-US-00045
+"{""type"": ""technician""}",2026-09-09T23:06:36Z,estimate.presented,synthetic,{},SJ-US-00045
+"{""type"": ""technician""}",2026-09-10T03:15:07Z,service.stage_changed,synthetic,{},SJ-US-00045
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T02:53:12Z,estimate.line_decided,synthetic,{},SJ-US-00045
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T08:26:15Z,vehicle.ready,synthetic,{},SJ-US-00045
+"{""type"": ""advisor""}",2026-09-08T04:31:02Z,service.stage_changed,synthetic,{},SJ-US-00046
+"{""type"": ""technician""}",2026-09-08T05:29:11Z,estimate.presented,synthetic,{},SJ-US-00046
+"{""type"": ""advisor""}",2026-09-08T05:57:48Z,ro.line_completed,synthetic,{},SJ-US-00046
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-08T07:49:28Z,inspection.submitted,synthetic,{},SJ-US-00046
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-08T16:23:53Z,estimate.presented,synthetic,{},SJ-US-00046
+"{""type"": ""technician""}",2026-09-08T12:42:39Z,inspection.submitted,synthetic,{},SJ-US-00046
+"{""type"": ""technician""}",2026-09-09T22:55:19Z,ro.opened,synthetic,{},SJ-US-00047
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-09-10T01:34:19Z,service.stage_changed,synthetic,{},SJ-US-00047
+"{""type"": ""technician""}",2026-09-10T03:46:21Z,vehicle.ready,synthetic,{},SJ-US-00047
+"{""type"": ""advisor""}",2026-09-10T01:50:54Z,ro.opened,synthetic,{},SJ-US-00047
+"{""type"": ""technician""}",2026-09-10T06:51:28Z,ro.opened,synthetic,{},SJ-US-00047
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-08-28T03:03:53Z,estimate.line_decided,synthetic,{},SJ-US-00048
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-08-28T04:02:02Z,service.stage_changed,synthetic,{},SJ-US-00048
+"{""type"": ""advisor""}",2026-08-28T08:37:54Z,service.stage_changed,synthetic,{},SJ-US-00048
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-08-28T08:52:14Z,ro.line_completed,synthetic,{},SJ-US-00048
+"{""type"": ""advisor""}",2026-08-28T11:11:01Z,parts.ordered,synthetic,{},SJ-US-00048
+"{""type"": ""technician""}",2026-06-27T22:31:57Z,ro.line_completed,synthetic,{},SJ-US-00049
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-06-27T23:14:36Z,service.stage_changed,synthetic,{},SJ-US-00049
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-06-27T23:41:17Z,vehicle.ready,synthetic,{},SJ-US-00049
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-06-28T07:14:41Z,parts.ordered,synthetic,{},SJ-US-00049
+"{""type"": ""technician""}",2026-08-16T20:54:11Z,vehicle.ready,synthetic,{},SJ-US-00050
+"{""type"": ""technician""}",2026-08-16T22:02:03Z,vehicle.ready,synthetic,{},SJ-US-00050
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-08-16T23:36:36Z,ro.line_completed,synthetic,{},SJ-US-00050
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-08-17T03:03:18Z,parts.ordered,synthetic,{},SJ-US-00050
+"{""type"": ""technician""}",2026-08-17T08:10:22Z,ro.line_completed,synthetic,{},SJ-US-00050
+"{""type"": ""technician""}",2026-08-17T00:20:57Z,inspection.submitted,synthetic,{},SJ-US-00050
+"{""type"": ""technician""}",2026-08-17T04:49:08Z,estimate.presented,synthetic,{},SJ-US-00050
+"{""agent"": ""A7"", ""type"": ""agent""}",2026-08-17T01:14:54Z,service.stage_changed,synthetic,{},SJ-US-00050
+"{""type"": ""advisor""}",2026-08-17T02:24:15Z,inspection.submitted,synthetic,{},SJ-US-00050
+"{""type"": ""technician""}",2026-08-17T22:25:14Z,estimate.line_decided,synthetic,{},SJ-US-00050
+"{""type"": ""technician""}",2026-08-17T17:37:25Z,ro.opened,synthetic,{},SJ-US-00050

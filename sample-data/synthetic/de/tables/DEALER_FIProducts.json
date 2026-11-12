@@ -1,0 +1,3982 @@
+[
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00002",
+    "fi_product_id": "FIP-DE-00001",
+    "name": "GAP protection",
+    "price": 1191,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00002",
+    "fi_product_id": "FIP-DE-00002",
+    "name": "Appearance protection",
+    "price": 2191,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00003",
+    "fi_product_id": "FIP-DE-00003",
+    "name": "Tire & wheel",
+    "price": 2020,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00005",
+    "fi_product_id": "FIP-DE-00004",
+    "name": "Prepaid maintenance",
+    "price": 1144,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00005",
+    "fi_product_id": "FIP-DE-00005",
+    "name": "GAP protection",
+    "price": 2175,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00006",
+    "fi_product_id": "FIP-DE-00006",
+    "name": "Appearance protection",
+    "price": 1579,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00006",
+    "fi_product_id": "FIP-DE-00007",
+    "name": "Tire & wheel",
+    "price": 1650,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00006",
+    "fi_product_id": "FIP-DE-00008",
+    "name": "Vehicle service contract",
+    "price": 2473,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00008",
+    "fi_product_id": "FIP-DE-00009",
+    "name": "Prepaid maintenance",
+    "price": 1024,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00009",
+    "fi_product_id": "FIP-DE-00010",
+    "name": "Tire & wheel",
+    "price": 2156,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00010",
+    "fi_product_id": "FIP-DE-00011",
+    "name": "Vehicle service contract",
+    "price": 1183,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00010",
+    "fi_product_id": "FIP-DE-00012",
+    "name": "Tire & wheel",
+    "price": 2029,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00010",
+    "fi_product_id": "FIP-DE-00013",
+    "name": "Prepaid maintenance",
+    "price": 419,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00011",
+    "fi_product_id": "FIP-DE-00014",
+    "name": "Vehicle service contract",
+    "price": 2298,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00011",
+    "fi_product_id": "FIP-DE-00015",
+    "name": "Prepaid maintenance",
+    "price": 2017,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00012",
+    "fi_product_id": "FIP-DE-00016",
+    "name": "GAP protection",
+    "price": 1161,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00012",
+    "fi_product_id": "FIP-DE-00017",
+    "name": "Tire & wheel",
+    "price": 1929,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00012",
+    "fi_product_id": "FIP-DE-00018",
+    "name": "Prepaid maintenance",
+    "price": 640,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00013",
+    "fi_product_id": "FIP-DE-00019",
+    "name": "GAP protection",
+    "price": 905,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00013",
+    "fi_product_id": "FIP-DE-00020",
+    "name": "Tire & wheel",
+    "price": 1395,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00013",
+    "fi_product_id": "FIP-DE-00021",
+    "name": "Prepaid maintenance",
+    "price": 521,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00015",
+    "fi_product_id": "FIP-DE-00022",
+    "name": "GAP protection",
+    "price": 2026,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00015",
+    "fi_product_id": "FIP-DE-00023",
+    "name": "Appearance protection",
+    "price": 536,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00016",
+    "fi_product_id": "FIP-DE-00024",
+    "name": "Appearance protection",
+    "price": 1021,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00016",
+    "fi_product_id": "FIP-DE-00025",
+    "name": "Tire & wheel",
+    "price": 1202,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00016",
+    "fi_product_id": "FIP-DE-00026",
+    "name": "Vehicle service contract",
+    "price": 1098,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00017",
+    "fi_product_id": "FIP-DE-00027",
+    "name": "Prepaid maintenance",
+    "price": 1850,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00017",
+    "fi_product_id": "FIP-DE-00028",
+    "name": "Vehicle service contract",
+    "price": 2228,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00017",
+    "fi_product_id": "FIP-DE-00029",
+    "name": "Tire & wheel",
+    "price": 696,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00018",
+    "fi_product_id": "FIP-DE-00030",
+    "name": "Prepaid maintenance",
+    "price": 585,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00018",
+    "fi_product_id": "FIP-DE-00031",
+    "name": "Tire & wheel",
+    "price": 1776,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00018",
+    "fi_product_id": "FIP-DE-00032",
+    "name": "Vehicle service contract",
+    "price": 2039,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00019",
+    "fi_product_id": "FIP-DE-00033",
+    "name": "Vehicle service contract",
+    "price": 1132,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00020",
+    "fi_product_id": "FIP-DE-00034",
+    "name": "Prepaid maintenance",
+    "price": 1631,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00021",
+    "fi_product_id": "FIP-DE-00035",
+    "name": "Vehicle service contract",
+    "price": 1007,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00021",
+    "fi_product_id": "FIP-DE-00036",
+    "name": "Tire & wheel",
+    "price": 1333,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00021",
+    "fi_product_id": "FIP-DE-00037",
+    "name": "GAP protection",
+    "price": 560,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00022",
+    "fi_product_id": "FIP-DE-00038",
+    "name": "Tire & wheel",
+    "price": 921,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00022",
+    "fi_product_id": "FIP-DE-00039",
+    "name": "Prepaid maintenance",
+    "price": 2283,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00023",
+    "fi_product_id": "FIP-DE-00040",
+    "name": "Vehicle service contract",
+    "price": 2343,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00023",
+    "fi_product_id": "FIP-DE-00041",
+    "name": "GAP protection",
+    "price": 2165,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00027",
+    "fi_product_id": "FIP-DE-00042",
+    "name": "Prepaid maintenance",
+    "price": 938,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00027",
+    "fi_product_id": "FIP-DE-00043",
+    "name": "Vehicle service contract",
+    "price": 1758,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00028",
+    "fi_product_id": "FIP-DE-00044",
+    "name": "Prepaid maintenance",
+    "price": 2208,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00029",
+    "fi_product_id": "FIP-DE-00045",
+    "name": "GAP protection",
+    "price": 468,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00029",
+    "fi_product_id": "FIP-DE-00046",
+    "name": "Appearance protection",
+    "price": 2458,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00030",
+    "fi_product_id": "FIP-DE-00047",
+    "name": "Tire & wheel",
+    "price": 782,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00031",
+    "fi_product_id": "FIP-DE-00048",
+    "name": "Appearance protection",
+    "price": 1826,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00032",
+    "fi_product_id": "FIP-DE-00049",
+    "name": "GAP protection",
+    "price": 1873,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00032",
+    "fi_product_id": "FIP-DE-00050",
+    "name": "Tire & wheel",
+    "price": 1529,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00032",
+    "fi_product_id": "FIP-DE-00051",
+    "name": "Vehicle service contract",
+    "price": 495,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00033",
+    "fi_product_id": "FIP-DE-00052",
+    "name": "Tire & wheel",
+    "price": 968,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00034",
+    "fi_product_id": "FIP-DE-00053",
+    "name": "Appearance protection",
+    "price": 929,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00035",
+    "fi_product_id": "FIP-DE-00054",
+    "name": "Prepaid maintenance",
+    "price": 473,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00035",
+    "fi_product_id": "FIP-DE-00055",
+    "name": "Appearance protection",
+    "price": 1253,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00035",
+    "fi_product_id": "FIP-DE-00056",
+    "name": "GAP protection",
+    "price": 1161,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00036",
+    "fi_product_id": "FIP-DE-00057",
+    "name": "GAP protection",
+    "price": 1674,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00036",
+    "fi_product_id": "FIP-DE-00058",
+    "name": "Prepaid maintenance",
+    "price": 937,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00038",
+    "fi_product_id": "FIP-DE-00059",
+    "name": "Vehicle service contract",
+    "price": 1919,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00038",
+    "fi_product_id": "FIP-DE-00060",
+    "name": "Prepaid maintenance",
+    "price": 2146,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00038",
+    "fi_product_id": "FIP-DE-00061",
+    "name": "Tire & wheel",
+    "price": 493,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00040",
+    "fi_product_id": "FIP-DE-00062",
+    "name": "Appearance protection",
+    "price": 1894,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00040",
+    "fi_product_id": "FIP-DE-00063",
+    "name": "GAP protection",
+    "price": 1342,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00040",
+    "fi_product_id": "FIP-DE-00064",
+    "name": "Tire & wheel",
+    "price": 1289,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00041",
+    "fi_product_id": "FIP-DE-00065",
+    "name": "Appearance protection",
+    "price": 814,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00041",
+    "fi_product_id": "FIP-DE-00066",
+    "name": "GAP protection",
+    "price": 2096,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00042",
+    "fi_product_id": "FIP-DE-00067",
+    "name": "Appearance protection",
+    "price": 1847,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00043",
+    "fi_product_id": "FIP-DE-00068",
+    "name": "Tire & wheel",
+    "price": 944,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00045",
+    "fi_product_id": "FIP-DE-00069",
+    "name": "Prepaid maintenance",
+    "price": 1375,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00045",
+    "fi_product_id": "FIP-DE-00070",
+    "name": "GAP protection",
+    "price": 1671,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00046",
+    "fi_product_id": "FIP-DE-00071",
+    "name": "GAP protection",
+    "price": 1083,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00046",
+    "fi_product_id": "FIP-DE-00072",
+    "name": "Prepaid maintenance",
+    "price": 1156,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00047",
+    "fi_product_id": "FIP-DE-00073",
+    "name": "Vehicle service contract",
+    "price": 570,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00048",
+    "fi_product_id": "FIP-DE-00074",
+    "name": "Prepaid maintenance",
+    "price": 1872,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00050",
+    "fi_product_id": "FIP-DE-00075",
+    "name": "GAP protection",
+    "price": 1761,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00050",
+    "fi_product_id": "FIP-DE-00076",
+    "name": "Vehicle service contract",
+    "price": 799,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00052",
+    "fi_product_id": "FIP-DE-00077",
+    "name": "Tire & wheel",
+    "price": 2302,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00052",
+    "fi_product_id": "FIP-DE-00078",
+    "name": "Vehicle service contract",
+    "price": 504,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00053",
+    "fi_product_id": "FIP-DE-00079",
+    "name": "Prepaid maintenance",
+    "price": 832,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00053",
+    "fi_product_id": "FIP-DE-00080",
+    "name": "GAP protection",
+    "price": 428,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00053",
+    "fi_product_id": "FIP-DE-00081",
+    "name": "Appearance protection",
+    "price": 2114,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00054",
+    "fi_product_id": "FIP-DE-00082",
+    "name": "Appearance protection",
+    "price": 2413,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00056",
+    "fi_product_id": "FIP-DE-00083",
+    "name": "Prepaid maintenance",
+    "price": 1607,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00056",
+    "fi_product_id": "FIP-DE-00084",
+    "name": "GAP protection",
+    "price": 719,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00058",
+    "fi_product_id": "FIP-DE-00085",
+    "name": "Appearance protection",
+    "price": 834,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00058",
+    "fi_product_id": "FIP-DE-00086",
+    "name": "Tire & wheel",
+    "price": 562,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00058",
+    "fi_product_id": "FIP-DE-00087",
+    "name": "Vehicle service contract",
+    "price": 479,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00059",
+    "fi_product_id": "FIP-DE-00088",
+    "name": "Vehicle service contract",
+    "price": 2356,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00060",
+    "fi_product_id": "FIP-DE-00089",
+    "name": "Prepaid maintenance",
+    "price": 2207,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00060",
+    "fi_product_id": "FIP-DE-00090",
+    "name": "Appearance protection",
+    "price": 1247,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00061",
+    "fi_product_id": "FIP-DE-00091",
+    "name": "GAP protection",
+    "price": 2028,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00061",
+    "fi_product_id": "FIP-DE-00092",
+    "name": "Tire & wheel",
+    "price": 823,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00061",
+    "fi_product_id": "FIP-DE-00093",
+    "name": "Appearance protection",
+    "price": 2416,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00062",
+    "fi_product_id": "FIP-DE-00094",
+    "name": "Vehicle service contract",
+    "price": 574,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00062",
+    "fi_product_id": "FIP-DE-00095",
+    "name": "Tire & wheel",
+    "price": 920,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00062",
+    "fi_product_id": "FIP-DE-00096",
+    "name": "GAP protection",
+    "price": 651,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00063",
+    "fi_product_id": "FIP-DE-00097",
+    "name": "Appearance protection",
+    "price": 1879,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00064",
+    "fi_product_id": "FIP-DE-00098",
+    "name": "Prepaid maintenance",
+    "price": 2037,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00064",
+    "fi_product_id": "FIP-DE-00099",
+    "name": "Vehicle service contract",
+    "price": 747,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00066",
+    "fi_product_id": "FIP-DE-00100",
+    "name": "Vehicle service contract",
+    "price": 608,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00066",
+    "fi_product_id": "FIP-DE-00101",
+    "name": "GAP protection",
+    "price": 1847,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00066",
+    "fi_product_id": "FIP-DE-00102",
+    "name": "Appearance protection",
+    "price": 1542,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00067",
+    "fi_product_id": "FIP-DE-00103",
+    "name": "Appearance protection",
+    "price": 1161,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00067",
+    "fi_product_id": "FIP-DE-00104",
+    "name": "Vehicle service contract",
+    "price": 1351,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00068",
+    "fi_product_id": "FIP-DE-00105",
+    "name": "Prepaid maintenance",
+    "price": 1247,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00068",
+    "fi_product_id": "FIP-DE-00106",
+    "name": "Appearance protection",
+    "price": 484,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00069",
+    "fi_product_id": "FIP-DE-00107",
+    "name": "Appearance protection",
+    "price": 1035,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00069",
+    "fi_product_id": "FIP-DE-00108",
+    "name": "Tire & wheel",
+    "price": 856,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00069",
+    "fi_product_id": "FIP-DE-00109",
+    "name": "GAP protection",
+    "price": 2300,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00070",
+    "fi_product_id": "FIP-DE-00110",
+    "name": "Prepaid maintenance",
+    "price": 1753,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00070",
+    "fi_product_id": "FIP-DE-00111",
+    "name": "Tire & wheel",
+    "price": 2096,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00071",
+    "fi_product_id": "FIP-DE-00112",
+    "name": "GAP protection",
+    "price": 2075,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00072",
+    "fi_product_id": "FIP-DE-00113",
+    "name": "Prepaid maintenance",
+    "price": 1632,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00073",
+    "fi_product_id": "FIP-DE-00114",
+    "name": "Prepaid maintenance",
+    "price": 1426,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00075",
+    "fi_product_id": "FIP-DE-00115",
+    "name": "Prepaid maintenance",
+    "price": 2019,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00075",
+    "fi_product_id": "FIP-DE-00116",
+    "name": "Tire & wheel",
+    "price": 1515,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00075",
+    "fi_product_id": "FIP-DE-00117",
+    "name": "Appearance protection",
+    "price": 2343,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00077",
+    "fi_product_id": "FIP-DE-00118",
+    "name": "Appearance protection",
+    "price": 777,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00078",
+    "fi_product_id": "FIP-DE-00119",
+    "name": "GAP protection",
+    "price": 1947,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00078",
+    "fi_product_id": "FIP-DE-00120",
+    "name": "Appearance protection",
+    "price": 654,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00080",
+    "fi_product_id": "FIP-DE-00121",
+    "name": "Appearance protection",
+    "price": 578,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00080",
+    "fi_product_id": "FIP-DE-00122",
+    "name": "Vehicle service contract",
+    "price": 1688,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00080",
+    "fi_product_id": "FIP-DE-00123",
+    "name": "Tire & wheel",
+    "price": 2060,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00081",
+    "fi_product_id": "FIP-DE-00124",
+    "name": "Tire & wheel",
+    "price": 1963,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00081",
+    "fi_product_id": "FIP-DE-00125",
+    "name": "Prepaid maintenance",
+    "price": 1036,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00082",
+    "fi_product_id": "FIP-DE-00126",
+    "name": "GAP protection",
+    "price": 1978,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00082",
+    "fi_product_id": "FIP-DE-00127",
+    "name": "Prepaid maintenance",
+    "price": 1973,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00084",
+    "fi_product_id": "FIP-DE-00128",
+    "name": "GAP protection",
+    "price": 1284,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00084",
+    "fi_product_id": "FIP-DE-00129",
+    "name": "Appearance protection",
+    "price": 1306,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00084",
+    "fi_product_id": "FIP-DE-00130",
+    "name": "Vehicle service contract",
+    "price": 1231,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00086",
+    "fi_product_id": "FIP-DE-00131",
+    "name": "Prepaid maintenance",
+    "price": 1669,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00088",
+    "fi_product_id": "FIP-DE-00132",
+    "name": "Tire & wheel",
+    "price": 2226,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00088",
+    "fi_product_id": "FIP-DE-00133",
+    "name": "Vehicle service contract",
+    "price": 1932,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00088",
+    "fi_product_id": "FIP-DE-00134",
+    "name": "GAP protection",
+    "price": 766,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00089",
+    "fi_product_id": "FIP-DE-00135",
+    "name": "GAP protection",
+    "price": 809,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00091",
+    "fi_product_id": "FIP-DE-00136",
+    "name": "Vehicle service contract",
+    "price": 1691,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00091",
+    "fi_product_id": "FIP-DE-00137",
+    "name": "Prepaid maintenance",
+    "price": 1515,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00092",
+    "fi_product_id": "FIP-DE-00138",
+    "name": "Tire & wheel",
+    "price": 1171,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00092",
+    "fi_product_id": "FIP-DE-00139",
+    "name": "GAP protection",
+    "price": 1753,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00092",
+    "fi_product_id": "FIP-DE-00140",
+    "name": "Vehicle service contract",
+    "price": 1738,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00094",
+    "fi_product_id": "FIP-DE-00141",
+    "name": "Appearance protection",
+    "price": 2228,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00095",
+    "fi_product_id": "FIP-DE-00142",
+    "name": "Tire & wheel",
+    "price": 541,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00095",
+    "fi_product_id": "FIP-DE-00143",
+    "name": "Prepaid maintenance",
+    "price": 2213,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00096",
+    "fi_product_id": "FIP-DE-00144",
+    "name": "Prepaid maintenance",
+    "price": 709,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00096",
+    "fi_product_id": "FIP-DE-00145",
+    "name": "GAP protection",
+    "price": 1590,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00096",
+    "fi_product_id": "FIP-DE-00146",
+    "name": "Vehicle service contract",
+    "price": 1867,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00097",
+    "fi_product_id": "FIP-DE-00147",
+    "name": "Prepaid maintenance",
+    "price": 1372,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00098",
+    "fi_product_id": "FIP-DE-00148",
+    "name": "Prepaid maintenance",
+    "price": 1727,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00098",
+    "fi_product_id": "FIP-DE-00149",
+    "name": "Vehicle service contract",
+    "price": 1993,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00100",
+    "fi_product_id": "FIP-DE-00150",
+    "name": "Prepaid maintenance",
+    "price": 1805,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00100",
+    "fi_product_id": "FIP-DE-00151",
+    "name": "GAP protection",
+    "price": 814,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00101",
+    "fi_product_id": "FIP-DE-00152",
+    "name": "Prepaid maintenance",
+    "price": 2329,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00102",
+    "fi_product_id": "FIP-DE-00153",
+    "name": "GAP protection",
+    "price": 553,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00103",
+    "fi_product_id": "FIP-DE-00154",
+    "name": "Prepaid maintenance",
+    "price": 2007,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00103",
+    "fi_product_id": "FIP-DE-00155",
+    "name": "GAP protection",
+    "price": 2333,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00103",
+    "fi_product_id": "FIP-DE-00156",
+    "name": "Appearance protection",
+    "price": 2363,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00104",
+    "fi_product_id": "FIP-DE-00157",
+    "name": "Prepaid maintenance",
+    "price": 2460,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00106",
+    "fi_product_id": "FIP-DE-00158",
+    "name": "Tire & wheel",
+    "price": 1788,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00108",
+    "fi_product_id": "FIP-DE-00159",
+    "name": "Prepaid maintenance",
+    "price": 1760,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00108",
+    "fi_product_id": "FIP-DE-00160",
+    "name": "Tire & wheel",
+    "price": 1398,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00108",
+    "fi_product_id": "FIP-DE-00161",
+    "name": "Vehicle service contract",
+    "price": 1665,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00109",
+    "fi_product_id": "FIP-DE-00162",
+    "name": "Vehicle service contract",
+    "price": 2047,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00110",
+    "fi_product_id": "FIP-DE-00163",
+    "name": "Tire & wheel",
+    "price": 961,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00110",
+    "fi_product_id": "FIP-DE-00164",
+    "name": "GAP protection",
+    "price": 2203,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00112",
+    "fi_product_id": "FIP-DE-00165",
+    "name": "Appearance protection",
+    "price": 1100,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00112",
+    "fi_product_id": "FIP-DE-00166",
+    "name": "GAP protection",
+    "price": 769,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00112",
+    "fi_product_id": "FIP-DE-00167",
+    "name": "Prepaid maintenance",
+    "price": 2417,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00113",
+    "fi_product_id": "FIP-DE-00168",
+    "name": "Prepaid maintenance",
+    "price": 1757,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00114",
+    "fi_product_id": "FIP-DE-00169",
+    "name": "Tire & wheel",
+    "price": 1735,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00114",
+    "fi_product_id": "FIP-DE-00170",
+    "name": "GAP protection",
+    "price": 2439,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00115",
+    "fi_product_id": "FIP-DE-00171",
+    "name": "Tire & wheel",
+    "price": 1458,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00115",
+    "fi_product_id": "FIP-DE-00172",
+    "name": "Vehicle service contract",
+    "price": 1839,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00116",
+    "fi_product_id": "FIP-DE-00173",
+    "name": "Tire & wheel",
+    "price": 524,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00117",
+    "fi_product_id": "FIP-DE-00174",
+    "name": "Appearance protection",
+    "price": 838,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00117",
+    "fi_product_id": "FIP-DE-00175",
+    "name": "Prepaid maintenance",
+    "price": 1924,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00118",
+    "fi_product_id": "FIP-DE-00176",
+    "name": "Prepaid maintenance",
+    "price": 836,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00118",
+    "fi_product_id": "FIP-DE-00177",
+    "name": "Appearance protection",
+    "price": 1055,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00118",
+    "fi_product_id": "FIP-DE-00178",
+    "name": "Tire & wheel",
+    "price": 2322,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00119",
+    "fi_product_id": "FIP-DE-00179",
+    "name": "Tire & wheel",
+    "price": 1108,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00119",
+    "fi_product_id": "FIP-DE-00180",
+    "name": "Prepaid maintenance",
+    "price": 741,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00119",
+    "fi_product_id": "FIP-DE-00181",
+    "name": "Vehicle service contract",
+    "price": 704,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00120",
+    "fi_product_id": "FIP-DE-00182",
+    "name": "Appearance protection",
+    "price": 1993,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00120",
+    "fi_product_id": "FIP-DE-00183",
+    "name": "Tire & wheel",
+    "price": 2395,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00120",
+    "fi_product_id": "FIP-DE-00184",
+    "name": "GAP protection",
+    "price": 1257,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00121",
+    "fi_product_id": "FIP-DE-00185",
+    "name": "Vehicle service contract",
+    "price": 2398,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00121",
+    "fi_product_id": "FIP-DE-00186",
+    "name": "Tire & wheel",
+    "price": 2336,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00122",
+    "fi_product_id": "FIP-DE-00187",
+    "name": "GAP protection",
+    "price": 1603,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00126",
+    "fi_product_id": "FIP-DE-00188",
+    "name": "Tire & wheel",
+    "price": 1790,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00127",
+    "fi_product_id": "FIP-DE-00189",
+    "name": "Vehicle service contract",
+    "price": 1038,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00128",
+    "fi_product_id": "FIP-DE-00190",
+    "name": "Vehicle service contract",
+    "price": 1942,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00129",
+    "fi_product_id": "FIP-DE-00191",
+    "name": "Prepaid maintenance",
+    "price": 935,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00129",
+    "fi_product_id": "FIP-DE-00192",
+    "name": "Vehicle service contract",
+    "price": 780,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00130",
+    "fi_product_id": "FIP-DE-00193",
+    "name": "Tire & wheel",
+    "price": 2152,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00130",
+    "fi_product_id": "FIP-DE-00194",
+    "name": "Prepaid maintenance",
+    "price": 1139,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00131",
+    "fi_product_id": "FIP-DE-00195",
+    "name": "GAP protection",
+    "price": 2057,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00132",
+    "fi_product_id": "FIP-DE-00196",
+    "name": "Vehicle service contract",
+    "price": 2407,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00132",
+    "fi_product_id": "FIP-DE-00197",
+    "name": "Prepaid maintenance",
+    "price": 1965,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00133",
+    "fi_product_id": "FIP-DE-00198",
+    "name": "GAP protection",
+    "price": 1382,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00135",
+    "fi_product_id": "FIP-DE-00199",
+    "name": "Vehicle service contract",
+    "price": 519,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00135",
+    "fi_product_id": "FIP-DE-00200",
+    "name": "Appearance protection",
+    "price": 2239,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00137",
+    "fi_product_id": "FIP-DE-00201",
+    "name": "Tire & wheel",
+    "price": 2387,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00137",
+    "fi_product_id": "FIP-DE-00202",
+    "name": "GAP protection",
+    "price": 2012,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00137",
+    "fi_product_id": "FIP-DE-00203",
+    "name": "Prepaid maintenance",
+    "price": 1312,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00138",
+    "fi_product_id": "FIP-DE-00204",
+    "name": "Appearance protection",
+    "price": 630,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00138",
+    "fi_product_id": "FIP-DE-00205",
+    "name": "Prepaid maintenance",
+    "price": 655,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00140",
+    "fi_product_id": "FIP-DE-00206",
+    "name": "Tire & wheel",
+    "price": 1023,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00140",
+    "fi_product_id": "FIP-DE-00207",
+    "name": "Appearance protection",
+    "price": 1951,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00142",
+    "fi_product_id": "FIP-DE-00208",
+    "name": "Vehicle service contract",
+    "price": 2380,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00142",
+    "fi_product_id": "FIP-DE-00209",
+    "name": "GAP protection",
+    "price": 1256,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00143",
+    "fi_product_id": "FIP-DE-00210",
+    "name": "Tire & wheel",
+    "price": 1032,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00143",
+    "fi_product_id": "FIP-DE-00211",
+    "name": "Vehicle service contract",
+    "price": 2468,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00144",
+    "fi_product_id": "FIP-DE-00212",
+    "name": "Prepaid maintenance",
+    "price": 1195,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00144",
+    "fi_product_id": "FIP-DE-00213",
+    "name": "Vehicle service contract",
+    "price": 2401,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00145",
+    "fi_product_id": "FIP-DE-00214",
+    "name": "GAP protection",
+    "price": 2467,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00146",
+    "fi_product_id": "FIP-DE-00215",
+    "name": "Tire & wheel",
+    "price": 2193,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00146",
+    "fi_product_id": "FIP-DE-00216",
+    "name": "Vehicle service contract",
+    "price": 1824,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00146",
+    "fi_product_id": "FIP-DE-00217",
+    "name": "GAP protection",
+    "price": 1393,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00147",
+    "fi_product_id": "FIP-DE-00218",
+    "name": "Appearance protection",
+    "price": 1936,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00149",
+    "fi_product_id": "FIP-DE-00219",
+    "name": "Vehicle service contract",
+    "price": 1850,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00150",
+    "fi_product_id": "FIP-DE-00220",
+    "name": "Tire & wheel",
+    "price": 1594,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00150",
+    "fi_product_id": "FIP-DE-00221",
+    "name": "Prepaid maintenance",
+    "price": 1616,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00150",
+    "fi_product_id": "FIP-DE-00222",
+    "name": "Vehicle service contract",
+    "price": 564,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00151",
+    "fi_product_id": "FIP-DE-00223",
+    "name": "Prepaid maintenance",
+    "price": 1987,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00151",
+    "fi_product_id": "FIP-DE-00224",
+    "name": "GAP protection",
+    "price": 797,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00151",
+    "fi_product_id": "FIP-DE-00225",
+    "name": "Vehicle service contract",
+    "price": 1432,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00152",
+    "fi_product_id": "FIP-DE-00226",
+    "name": "Prepaid maintenance",
+    "price": 687,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00152",
+    "fi_product_id": "FIP-DE-00227",
+    "name": "Appearance protection",
+    "price": 2136,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00152",
+    "fi_product_id": "FIP-DE-00228",
+    "name": "GAP protection",
+    "price": 949,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00153",
+    "fi_product_id": "FIP-DE-00229",
+    "name": "Vehicle service contract",
+    "price": 992,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00153",
+    "fi_product_id": "FIP-DE-00230",
+    "name": "GAP protection",
+    "price": 1091,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00153",
+    "fi_product_id": "FIP-DE-00231",
+    "name": "Tire & wheel",
+    "price": 1950,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00154",
+    "fi_product_id": "FIP-DE-00232",
+    "name": "Prepaid maintenance",
+    "price": 2006,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00154",
+    "fi_product_id": "FIP-DE-00233",
+    "name": "Tire & wheel",
+    "price": 942,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00154",
+    "fi_product_id": "FIP-DE-00234",
+    "name": "Appearance protection",
+    "price": 2276,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00155",
+    "fi_product_id": "FIP-DE-00235",
+    "name": "Vehicle service contract",
+    "price": 1266,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00155",
+    "fi_product_id": "FIP-DE-00236",
+    "name": "Appearance protection",
+    "price": 1529,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00156",
+    "fi_product_id": "FIP-DE-00237",
+    "name": "Prepaid maintenance",
+    "price": 2446,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00156",
+    "fi_product_id": "FIP-DE-00238",
+    "name": "Vehicle service contract",
+    "price": 805,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00157",
+    "fi_product_id": "FIP-DE-00239",
+    "name": "Prepaid maintenance",
+    "price": 593,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00157",
+    "fi_product_id": "FIP-DE-00240",
+    "name": "Appearance protection",
+    "price": 1635,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00157",
+    "fi_product_id": "FIP-DE-00241",
+    "name": "Vehicle service contract",
+    "price": 1815,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00159",
+    "fi_product_id": "FIP-DE-00242",
+    "name": "Prepaid maintenance",
+    "price": 988,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00159",
+    "fi_product_id": "FIP-DE-00243",
+    "name": "GAP protection",
+    "price": 1589,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00160",
+    "fi_product_id": "FIP-DE-00244",
+    "name": "Vehicle service contract",
+    "price": 2072,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00160",
+    "fi_product_id": "FIP-DE-00245",
+    "name": "Tire & wheel",
+    "price": 951,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00161",
+    "fi_product_id": "FIP-DE-00246",
+    "name": "Tire & wheel",
+    "price": 2340,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00161",
+    "fi_product_id": "FIP-DE-00247",
+    "name": "Vehicle service contract",
+    "price": 2478,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00162",
+    "fi_product_id": "FIP-DE-00248",
+    "name": "Vehicle service contract",
+    "price": 827,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00162",
+    "fi_product_id": "FIP-DE-00249",
+    "name": "GAP protection",
+    "price": 2028,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00163",
+    "fi_product_id": "FIP-DE-00250",
+    "name": "GAP protection",
+    "price": 859,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00163",
+    "fi_product_id": "FIP-DE-00251",
+    "name": "Vehicle service contract",
+    "price": 556,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00163",
+    "fi_product_id": "FIP-DE-00252",
+    "name": "Prepaid maintenance",
+    "price": 1788,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00164",
+    "fi_product_id": "FIP-DE-00253",
+    "name": "Tire & wheel",
+    "price": 1967,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00164",
+    "fi_product_id": "FIP-DE-00254",
+    "name": "Prepaid maintenance",
+    "price": 707,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00165",
+    "fi_product_id": "FIP-DE-00255",
+    "name": "Appearance protection",
+    "price": 2274,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00165",
+    "fi_product_id": "FIP-DE-00256",
+    "name": "Tire & wheel",
+    "price": 2368,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00165",
+    "fi_product_id": "FIP-DE-00257",
+    "name": "Prepaid maintenance",
+    "price": 1440,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00166",
+    "fi_product_id": "FIP-DE-00258",
+    "name": "Tire & wheel",
+    "price": 641,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00166",
+    "fi_product_id": "FIP-DE-00259",
+    "name": "Prepaid maintenance",
+    "price": 1288,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00166",
+    "fi_product_id": "FIP-DE-00260",
+    "name": "Appearance protection",
+    "price": 1274,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00167",
+    "fi_product_id": "FIP-DE-00261",
+    "name": "Appearance protection",
+    "price": 2023,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00167",
+    "fi_product_id": "FIP-DE-00262",
+    "name": "Prepaid maintenance",
+    "price": 561,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00168",
+    "fi_product_id": "FIP-DE-00263",
+    "name": "Tire & wheel",
+    "price": 727,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00169",
+    "fi_product_id": "FIP-DE-00264",
+    "name": "Appearance protection",
+    "price": 1400,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00169",
+    "fi_product_id": "FIP-DE-00265",
+    "name": "Tire & wheel",
+    "price": 2488,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00169",
+    "fi_product_id": "FIP-DE-00266",
+    "name": "Prepaid maintenance",
+    "price": 1917,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00170",
+    "fi_product_id": "FIP-DE-00267",
+    "name": "Vehicle service contract",
+    "price": 2195,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00170",
+    "fi_product_id": "FIP-DE-00268",
+    "name": "Prepaid maintenance",
+    "price": 1115,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00170",
+    "fi_product_id": "FIP-DE-00269",
+    "name": "Tire & wheel",
+    "price": 1328,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00171",
+    "fi_product_id": "FIP-DE-00270",
+    "name": "GAP protection",
+    "price": 1135,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00171",
+    "fi_product_id": "FIP-DE-00271",
+    "name": "Vehicle service contract",
+    "price": 1150,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00172",
+    "fi_product_id": "FIP-DE-00272",
+    "name": "Appearance protection",
+    "price": 874,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00173",
+    "fi_product_id": "FIP-DE-00273",
+    "name": "Vehicle service contract",
+    "price": 1669,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00173",
+    "fi_product_id": "FIP-DE-00274",
+    "name": "Tire & wheel",
+    "price": 1687,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00173",
+    "fi_product_id": "FIP-DE-00275",
+    "name": "GAP protection",
+    "price": 928,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00176",
+    "fi_product_id": "FIP-DE-00276",
+    "name": "Vehicle service contract",
+    "price": 871,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00178",
+    "fi_product_id": "FIP-DE-00277",
+    "name": "GAP protection",
+    "price": 1670,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00179",
+    "fi_product_id": "FIP-DE-00278",
+    "name": "Appearance protection",
+    "price": 2474,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00180",
+    "fi_product_id": "FIP-DE-00279",
+    "name": "Appearance protection",
+    "price": 2456,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00180",
+    "fi_product_id": "FIP-DE-00280",
+    "name": "Tire & wheel",
+    "price": 1435,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00180",
+    "fi_product_id": "FIP-DE-00281",
+    "name": "Vehicle service contract",
+    "price": 1448,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00181",
+    "fi_product_id": "FIP-DE-00282",
+    "name": "GAP protection",
+    "price": 1883,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00181",
+    "fi_product_id": "FIP-DE-00283",
+    "name": "Vehicle service contract",
+    "price": 1883,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00182",
+    "fi_product_id": "FIP-DE-00284",
+    "name": "GAP protection",
+    "price": 1084,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00182",
+    "fi_product_id": "FIP-DE-00285",
+    "name": "Tire & wheel",
+    "price": 905,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00184",
+    "fi_product_id": "FIP-DE-00286",
+    "name": "Prepaid maintenance",
+    "price": 2315,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00184",
+    "fi_product_id": "FIP-DE-00287",
+    "name": "Appearance protection",
+    "price": 2442,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00185",
+    "fi_product_id": "FIP-DE-00288",
+    "name": "GAP protection",
+    "price": 979,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00186",
+    "fi_product_id": "FIP-DE-00289",
+    "name": "GAP protection",
+    "price": 2444,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00187",
+    "fi_product_id": "FIP-DE-00290",
+    "name": "Appearance protection",
+    "price": 1839,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00187",
+    "fi_product_id": "FIP-DE-00291",
+    "name": "Vehicle service contract",
+    "price": 569,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00188",
+    "fi_product_id": "FIP-DE-00292",
+    "name": "Tire & wheel",
+    "price": 738,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00188",
+    "fi_product_id": "FIP-DE-00293",
+    "name": "Appearance protection",
+    "price": 1734,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00189",
+    "fi_product_id": "FIP-DE-00294",
+    "name": "Prepaid maintenance",
+    "price": 795,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00189",
+    "fi_product_id": "FIP-DE-00295",
+    "name": "GAP protection",
+    "price": 1267,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00190",
+    "fi_product_id": "FIP-DE-00296",
+    "name": "Vehicle service contract",
+    "price": 560,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00190",
+    "fi_product_id": "FIP-DE-00297",
+    "name": "Prepaid maintenance",
+    "price": 1464,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00191",
+    "fi_product_id": "FIP-DE-00298",
+    "name": "Tire & wheel",
+    "price": 1797,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00191",
+    "fi_product_id": "FIP-DE-00299",
+    "name": "Prepaid maintenance",
+    "price": 1461,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00191",
+    "fi_product_id": "FIP-DE-00300",
+    "name": "GAP protection",
+    "price": 1091,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00192",
+    "fi_product_id": "FIP-DE-00301",
+    "name": "Prepaid maintenance",
+    "price": 1070,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00193",
+    "fi_product_id": "FIP-DE-00302",
+    "name": "Appearance protection",
+    "price": 1396,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00194",
+    "fi_product_id": "FIP-DE-00303",
+    "name": "Tire & wheel",
+    "price": 1690,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00194",
+    "fi_product_id": "FIP-DE-00304",
+    "name": "Prepaid maintenance",
+    "price": 1994,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00194",
+    "fi_product_id": "FIP-DE-00305",
+    "name": "Appearance protection",
+    "price": 967,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00195",
+    "fi_product_id": "FIP-DE-00306",
+    "name": "GAP protection",
+    "price": 2321,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00195",
+    "fi_product_id": "FIP-DE-00307",
+    "name": "Appearance protection",
+    "price": 1588,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00195",
+    "fi_product_id": "FIP-DE-00308",
+    "name": "Tire & wheel",
+    "price": 1691,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00196",
+    "fi_product_id": "FIP-DE-00309",
+    "name": "Appearance protection",
+    "price": 566,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00196",
+    "fi_product_id": "FIP-DE-00310",
+    "name": "Tire & wheel",
+    "price": 1392,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00196",
+    "fi_product_id": "FIP-DE-00311",
+    "name": "GAP protection",
+    "price": 802,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00197",
+    "fi_product_id": "FIP-DE-00312",
+    "name": "Vehicle service contract",
+    "price": 1865,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00197",
+    "fi_product_id": "FIP-DE-00313",
+    "name": "Appearance protection",
+    "price": 1808,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00198",
+    "fi_product_id": "FIP-DE-00314",
+    "name": "GAP protection",
+    "price": 1250,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00198",
+    "fi_product_id": "FIP-DE-00315",
+    "name": "Appearance protection",
+    "price": 591,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00198",
+    "fi_product_id": "FIP-DE-00316",
+    "name": "Prepaid maintenance",
+    "price": 2465,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00199",
+    "fi_product_id": "FIP-DE-00317",
+    "name": "Tire & wheel",
+    "price": 818,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00199",
+    "fi_product_id": "FIP-DE-00318",
+    "name": "Vehicle service contract",
+    "price": 2360,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00202",
+    "fi_product_id": "FIP-DE-00319",
+    "name": "Vehicle service contract",
+    "price": 2257,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00202",
+    "fi_product_id": "FIP-DE-00320",
+    "name": "Appearance protection",
+    "price": 2090,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00205",
+    "fi_product_id": "FIP-DE-00321",
+    "name": "Prepaid maintenance",
+    "price": 452,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00205",
+    "fi_product_id": "FIP-DE-00322",
+    "name": "GAP protection",
+    "price": 1384,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00205",
+    "fi_product_id": "FIP-DE-00323",
+    "name": "Vehicle service contract",
+    "price": 1520,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00206",
+    "fi_product_id": "FIP-DE-00324",
+    "name": "Tire & wheel",
+    "price": 1217,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00206",
+    "fi_product_id": "FIP-DE-00325",
+    "name": "Prepaid maintenance",
+    "price": 2078,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00206",
+    "fi_product_id": "FIP-DE-00326",
+    "name": "GAP protection",
+    "price": 2258,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00207",
+    "fi_product_id": "FIP-DE-00327",
+    "name": "Appearance protection",
+    "price": 2320,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00207",
+    "fi_product_id": "FIP-DE-00328",
+    "name": "GAP protection",
+    "price": 2445,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00208",
+    "fi_product_id": "FIP-DE-00329",
+    "name": "Tire & wheel",
+    "price": 491,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00208",
+    "fi_product_id": "FIP-DE-00330",
+    "name": "Vehicle service contract",
+    "price": 1651,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00208",
+    "fi_product_id": "FIP-DE-00331",
+    "name": "GAP protection",
+    "price": 2399,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00209",
+    "fi_product_id": "FIP-DE-00332",
+    "name": "Vehicle service contract",
+    "price": 1966,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00210",
+    "fi_product_id": "FIP-DE-00333",
+    "name": "Vehicle service contract",
+    "price": 2490,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00210",
+    "fi_product_id": "FIP-DE-00334",
+    "name": "GAP protection",
+    "price": 2138,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00211",
+    "fi_product_id": "FIP-DE-00335",
+    "name": "Appearance protection",
+    "price": 1310,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00212",
+    "fi_product_id": "FIP-DE-00336",
+    "name": "Tire & wheel",
+    "price": 1760,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00212",
+    "fi_product_id": "FIP-DE-00337",
+    "name": "GAP protection",
+    "price": 2182,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00212",
+    "fi_product_id": "FIP-DE-00338",
+    "name": "Prepaid maintenance",
+    "price": 2254,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00213",
+    "fi_product_id": "FIP-DE-00339",
+    "name": "Appearance protection",
+    "price": 714,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00215",
+    "fi_product_id": "FIP-DE-00340",
+    "name": "Tire & wheel",
+    "price": 718,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00215",
+    "fi_product_id": "FIP-DE-00341",
+    "name": "Appearance protection",
+    "price": 2412,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00215",
+    "fi_product_id": "FIP-DE-00342",
+    "name": "GAP protection",
+    "price": 2040,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00216",
+    "fi_product_id": "FIP-DE-00343",
+    "name": "Vehicle service contract",
+    "price": 2307,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00218",
+    "fi_product_id": "FIP-DE-00344",
+    "name": "Appearance protection",
+    "price": 901,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00218",
+    "fi_product_id": "FIP-DE-00345",
+    "name": "GAP protection",
+    "price": 1239,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00219",
+    "fi_product_id": "FIP-DE-00346",
+    "name": "Appearance protection",
+    "price": 932,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00219",
+    "fi_product_id": "FIP-DE-00347",
+    "name": "Vehicle service contract",
+    "price": 2394,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00219",
+    "fi_product_id": "FIP-DE-00348",
+    "name": "GAP protection",
+    "price": 1161,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00220",
+    "fi_product_id": "FIP-DE-00349",
+    "name": "Vehicle service contract",
+    "price": 1572,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00220",
+    "fi_product_id": "FIP-DE-00350",
+    "name": "GAP protection",
+    "price": 1554,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00222",
+    "fi_product_id": "FIP-DE-00351",
+    "name": "Prepaid maintenance",
+    "price": 2365,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00222",
+    "fi_product_id": "FIP-DE-00352",
+    "name": "GAP protection",
+    "price": 472,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00223",
+    "fi_product_id": "FIP-DE-00353",
+    "name": "Appearance protection",
+    "price": 820,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00223",
+    "fi_product_id": "FIP-DE-00354",
+    "name": "Vehicle service contract",
+    "price": 1652,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00224",
+    "fi_product_id": "FIP-DE-00355",
+    "name": "Vehicle service contract",
+    "price": 728,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00224",
+    "fi_product_id": "FIP-DE-00356",
+    "name": "Tire & wheel",
+    "price": 1763,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00224",
+    "fi_product_id": "FIP-DE-00357",
+    "name": "Prepaid maintenance",
+    "price": 942,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00225",
+    "fi_product_id": "FIP-DE-00358",
+    "name": "Prepaid maintenance",
+    "price": 1484,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00225",
+    "fi_product_id": "FIP-DE-00359",
+    "name": "Tire & wheel",
+    "price": 2483,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00227",
+    "fi_product_id": "FIP-DE-00360",
+    "name": "GAP protection",
+    "price": 1218,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00227",
+    "fi_product_id": "FIP-DE-00361",
+    "name": "Prepaid maintenance",
+    "price": 1516,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00227",
+    "fi_product_id": "FIP-DE-00362",
+    "name": "Appearance protection",
+    "price": 1338,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00228",
+    "fi_product_id": "FIP-DE-00363",
+    "name": "Appearance protection",
+    "price": 1211,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00228",
+    "fi_product_id": "FIP-DE-00364",
+    "name": "GAP protection",
+    "price": 403,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00229",
+    "fi_product_id": "FIP-DE-00365",
+    "name": "Vehicle service contract",
+    "price": 2240,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00231",
+    "fi_product_id": "FIP-DE-00366",
+    "name": "GAP protection",
+    "price": 2050,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00231",
+    "fi_product_id": "FIP-DE-00367",
+    "name": "Appearance protection",
+    "price": 1888,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00231",
+    "fi_product_id": "FIP-DE-00368",
+    "name": "Tire & wheel",
+    "price": 588,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00232",
+    "fi_product_id": "FIP-DE-00369",
+    "name": "Appearance protection",
+    "price": 1828,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00232",
+    "fi_product_id": "FIP-DE-00370",
+    "name": "Tire & wheel",
+    "price": 899,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00232",
+    "fi_product_id": "FIP-DE-00371",
+    "name": "GAP protection",
+    "price": 1617,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00233",
+    "fi_product_id": "FIP-DE-00372",
+    "name": "Prepaid maintenance",
+    "price": 1806,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00234",
+    "fi_product_id": "FIP-DE-00373",
+    "name": "Prepaid maintenance",
+    "price": 405,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00236",
+    "fi_product_id": "FIP-DE-00374",
+    "name": "Appearance protection",
+    "price": 875,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00238",
+    "fi_product_id": "FIP-DE-00375",
+    "name": "Prepaid maintenance",
+    "price": 779,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00238",
+    "fi_product_id": "FIP-DE-00376",
+    "name": "Vehicle service contract",
+    "price": 932,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00238",
+    "fi_product_id": "FIP-DE-00377",
+    "name": "Appearance protection",
+    "price": 693,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00239",
+    "fi_product_id": "FIP-DE-00378",
+    "name": "GAP protection",
+    "price": 1663,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00240",
+    "fi_product_id": "FIP-DE-00379",
+    "name": "Vehicle service contract",
+    "price": 471,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00240",
+    "fi_product_id": "FIP-DE-00380",
+    "name": "Tire & wheel",
+    "price": 1441,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00240",
+    "fi_product_id": "FIP-DE-00381",
+    "name": "Prepaid maintenance",
+    "price": 506,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00245",
+    "fi_product_id": "FIP-DE-00382",
+    "name": "Appearance protection",
+    "price": 1985,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00246",
+    "fi_product_id": "FIP-DE-00383",
+    "name": "GAP protection",
+    "price": 2391,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00246",
+    "fi_product_id": "FIP-DE-00384",
+    "name": "Appearance protection",
+    "price": 1248,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00247",
+    "fi_product_id": "FIP-DE-00385",
+    "name": "Vehicle service contract",
+    "price": 1166,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00248",
+    "fi_product_id": "FIP-DE-00386",
+    "name": "Tire & wheel",
+    "price": 1456,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00248",
+    "fi_product_id": "FIP-DE-00387",
+    "name": "Appearance protection",
+    "price": 2188,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00248",
+    "fi_product_id": "FIP-DE-00388",
+    "name": "GAP protection",
+    "price": 1217,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00249",
+    "fi_product_id": "FIP-DE-00389",
+    "name": "Prepaid maintenance",
+    "price": 2068,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00250",
+    "fi_product_id": "FIP-DE-00390",
+    "name": "Prepaid maintenance",
+    "price": 1452,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00250",
+    "fi_product_id": "FIP-DE-00391",
+    "name": "Vehicle service contract",
+    "price": 1762,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "tire_wheel",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00251",
+    "fi_product_id": "FIP-DE-00392",
+    "name": "Tire & wheel",
+    "price": 715,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00251",
+    "fi_product_id": "FIP-DE-00393",
+    "name": "Appearance protection",
+    "price": 2233,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "gap",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00252",
+    "fi_product_id": "FIP-DE-00394",
+    "name": "GAP protection",
+    "price": 476,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00253",
+    "fi_product_id": "FIP-DE-00395",
+    "name": "Appearance protection",
+    "price": 1473,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "appearance",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00256",
+    "fi_product_id": "FIP-DE-00396",
+    "name": "Appearance protection",
+    "price": 2209,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": true,
+    "code": "maint",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00256",
+    "fi_product_id": "FIP-DE-00397",
+    "name": "Prepaid maintenance",
+    "price": 1851,
+    "source_ref": "synthetic:fi_product"
+  },
+  {
+    "accepted": false,
+    "code": "vsc",
+    "currency": "EUR",
+    "deal_id": "DL-DE-00258",
+    "fi_product_id": "FIP-DE-00398",
+    "name": "Vehicle service contract",
+    "price": 1943,
+    "source_ref": "synthetic:fi_product"
+  }
+]

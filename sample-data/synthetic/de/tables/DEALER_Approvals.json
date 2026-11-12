@@ -1,0 +1,100 @@
+[
+  {
+    "action": "district_action_plan",
+    "approval_id": "APR-DE-00001",
+    "approver_role": "oem_regional",
+    "market_id": "de",
+    "payload": {
+      "actions": [
+        "Add a Saturday service-to-sales clinic at two stores",
+        "Re-target lapsed service owners with equity offers"
+      ],
+      "district_id": "DIST-SW"
+    },
+    "reason": "District DIST-SW: service retention down 4 points quarter on quarter.",
+    "requested_at": "2026-09-08T06:12:44Z",
+    "requested_by": "A7",
+    "scope": {
+      "district_id": "DIST-SW",
+      "market_id": "de"
+    },
+    "source_ref": "synthetic:approval",
+    "status": "pending",
+    "type": "district_action_plan"
+  },
+  {
+    "action": "stage_parts",
+    "approval_id": "APR-DE-00002",
+    "approver_role": "dealer_service_manager",
+    "dealer_id": "D-201",
+    "market_id": "de",
+    "payload": {
+      "amount": 1840,
+      "cap": 1500,
+      "currency": "EUR",
+      "parts": [
+        "Front brake pad & rotor kit",
+        "Cabin air filter"
+      ]
+    },
+    "reason": "Stock for predicted brake and filter work this week; the order is over the parts cap.",
+    "requested_at": "2026-09-08T14:08:59Z",
+    "requested_by": "A7",
+    "scope": {
+      "dealer_id": "D-201",
+      "market_id": "de"
+    },
+    "source_ref": "synthetic:approval",
+    "status": "pending",
+    "type": "stage_parts"
+  },
+  {
+    "action": "stage_parts",
+    "approval_id": "APR-DE-00003",
+    "approver_role": "dealer_service_manager",
+    "dealer_id": "D-201",
+    "market_id": "de",
+    "payload": {
+      "amount": 1840,
+      "cap": 1500,
+      "currency": "EUR",
+      "parts": [
+        "Front brake pad & rotor kit",
+        "Cabin air filter"
+      ]
+    },
+    "reason": "Stock for predicted brake and filter work this week; the order is over the parts cap.",
+    "requested_at": "2026-09-07T21:05:55Z",
+    "requested_by": "A7",
+    "scope": {
+      "dealer_id": "D-201",
+      "market_id": "de"
+    },
+    "source_ref": "synthetic:approval",
+    "status": "pending",
+    "type": "stage_parts"
+  },
+  {
+    "action": "district_action_plan",
+    "approval_id": "APR-DE-00004",
+    "approver_role": "oem_regional",
+    "market_id": "de",
+    "payload": {
+      "actions": [
+        "Add a Saturday service-to-sales clinic at two stores",
+        "Re-target lapsed service owners with equity offers"
+      ],
+      "district_id": "DIST-SW"
+    },
+    "reason": "District DIST-SW: service retention down 4 points quarter on quarter.",
+    "requested_at": "2026-09-10T00:00:06Z",
+    "requested_by": "A5",
+    "scope": {
+      "district_id": "DIST-SW",
+      "market_id": "de"
+    },
+    "source_ref": "synthetic:approval",
+    "status": "pending",
+    "type": "district_action_plan"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "skill": "ev-incentive-eligibility",
+  "prompts": [
+    {
+      "id": "evi-01-7500",
+      "prompt": "Customer is buying a new EV SUV next week (October 2026), MSRP $47,900, US assembly, Colorado, financing $40k. She's asking about her $7,500 federal credit. What do I tell her?",
+      "rubric": "30D ended for acquisitions after 2025-09-30; do not quote $7,500. Mention car-loan interest deduction (2025–2028, US assembly, income phase-out) as an after-purchase tax effect, not a discount. Check Colorado program status. Utility by service address."
+    },
+    {
+      "id": "evi-02-lease",
+      "prompt": "Same customer wants to lease instead. Does the loan interest deduction still help her?",
+      "rubric": "No; leases do not qualify. Point to OEM lease cash from the captive instead."
+    },
+    {
+      "id": "evi-03-de-umweltbonus",
+      "prompt": "Kunde in Stuttgart fragt nach dem Umweltbonus für ein neues E-Auto, Zulassung im November 2026, Haushaltseinkommen 52.000 EUR. Was gilt?",
+      "rubric": "Umweltbonus ended 2023-12-17. E-Auto-Förderung 2026 is income-graduated, up to EUR 6,000, applications since 2026-05-19, retroactive to 2026-01-01; check tier. Kfz-Steuer exemption for 2026–2030 registrations is announced, model conservatively. THG-Quote as estimate."
+    },
+    {
+      "id": "evi-04-tco",
+      "prompt": "Give me a 5-year cost comparison for the EV crossover vs the ICE compact SUV for a Texas customer driving 15,000 miles a year.",
+      "rubric": "Use Texas regional fuel and electricity prices (not national), include only active incentives, separate announced items, state assumptions and sources; do not invent precise dollar totals without a tool."
+    },
+    {
+      "id": "evi-05-stacking",
+      "prompt": "Can the customer stack the state rebate with the utility charger rebate and the OEM cash?",
+      "rubric": "Read stacking rules on the records; OEM cash reduces capitalized cost; state rebate may be POS or post-purchase; utility rebate is post-install and conditional; exclusive programs are not stacked; conditions stated."
+    }
+  ]
+}

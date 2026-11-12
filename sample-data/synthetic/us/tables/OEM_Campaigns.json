@@ -1,0 +1,110 @@
+[
+  {
+    "audience": "service_due",
+    "budget": 18000,
+    "campaign_id": "CMP-US-00001",
+    "district_id": "DIST-07",
+    "end_at": "2026-11-08T09:00:00Z",
+    "incentive_ids": [
+      "US-IL-EV-REBATE",
+      "US-NY-DRIVE-CLEAN"
+    ],
+    "market_id": "us",
+    "model_id": "MER-TRAILHAND",
+    "name": "Q4 Trailhand conquest",
+    "objective": "conquest",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (campaign budget synthetic)",
+    "start_at": "2026-08-25T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "audience": "service_due",
+    "budget": 40000,
+    "campaign_id": "CMP-US-00002",
+    "district_id": "DIST-07",
+    "end_at": "2026-10-22T09:00:00Z",
+    "incentive_ids": [
+      "US-NY-DRIVE-CLEAN",
+      "US-MA-MOR-EV"
+    ],
+    "market_id": "us",
+    "model_id": "MER-VOLT-C",
+    "name": "Q4 Ion C EV test-drive",
+    "objective": "ev_adoption",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (campaign budget synthetic)",
+    "start_at": "2026-08-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "audience": "in_market_ev",
+    "budget": 18000,
+    "campaign_id": "CMP-US-00003",
+    "district_id": "DIST-07",
+    "end_at": "2026-10-26T09:00:00Z",
+    "incentive_ids": [
+      "US-MA-MOR-EV",
+      "US-IL-EV-REBATE"
+    ],
+    "market_id": "us",
+    "model_id": "MER-TRAILHAND",
+    "name": "Q4 Trailhand EV test-drive",
+    "objective": "ev_adoption",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (campaign budget synthetic)",
+    "start_at": "2026-08-21T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "audience": "conquest_competitive",
+    "budget": 28000,
+    "campaign_id": "CMP-US-00004",
+    "district_id": "DIST-07",
+    "end_at": "2026-10-27T09:00:00Z",
+    "incentive_ids": [
+      "US-IL-EV-REBATE",
+      "US-MA-MOR-EV"
+    ],
+    "market_id": "us",
+    "model_id": "MER-TRAILHAND",
+    "name": "Q4 Trailhand conquest (wave 2)",
+    "objective": "conquest",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (campaign budget synthetic)",
+    "start_at": "2026-09-03T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "audience": "lease_maturity",
+    "budget": 28000,
+    "campaign_id": "CMP-US-00005",
+    "district_id": "DIST-07",
+    "end_at": "2026-10-09T09:00:00Z",
+    "incentive_ids": [
+      "US-CO-EV-CREDIT",
+      "US-MA-MOR-EV"
+    ],
+    "market_id": "us",
+    "model_id": "MER-VOLT-M",
+    "name": "Q4 Ion M EV test-drive",
+    "objective": "ev_adoption",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (campaign budget synthetic)",
+    "start_at": "2026-08-24T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "audience": "lease_maturity",
+    "budget": 28000,
+    "campaign_id": "CMP-US-00006",
+    "district_id": "DIST-07",
+    "end_at": "2026-11-05T09:00:00Z",
+    "incentive_ids": [
+      "US-MA-MOR-EV",
+      "US-IL-EV-REBATE"
+    ],
+    "market_id": "us",
+    "model_id": "MER-ATLASX",
+    "name": "Q4 Atlas X loyalty",
+    "objective": "loyalty",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (campaign budget synthetic)",
+    "start_at": "2026-08-24T09:00:00Z",
+    "status": "active"
+  }
+]

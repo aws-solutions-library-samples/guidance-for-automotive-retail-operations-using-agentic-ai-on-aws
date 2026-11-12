@@ -1,0 +1,151 @@
+[
+  {
+    "amount_eur": 4500,
+    "incentive_id": "DE-FED-UMWELTBONUS",
+    "market_id": "de",
+    "name": "Umweltbonus (BAFA) - federal EV purchase premium",
+    "powertrains": [
+      "EV",
+      "PHEV",
+      "FCEV"
+    ],
+    "scope": "DE",
+    "source_ref": "https://www.bafa.de/DE/Energie/Energieeffizienz/Elektromobilitaet/elektromobilitaet_node.html; https://alternative-fuels-observatory.ec.europa.eu/transport-mode/road/germany/incentives-legislations",
+    "status": "expired",
+    "tier": "federal",
+    "valid_from": "2016-07-01",
+    "valid_to": "2023-12-17"
+  },
+  {
+    "amount_eur": 6000,
+    "incentive_id": "DE-FED-EAUTO-FOERDERUNG-2026",
+    "market_id": "de",
+    "name": "E-Auto-Förderung 2026 (sozial gestaffelte Kaufprämie, 'E-Auto-Booster')",
+    "powertrains": [
+      "EV",
+      "PHEV",
+      "REEV"
+    ],
+    "scope": "DE",
+    "source_ref": "https://www.bafa.de/SharedDocs/Downloads/DE/Energie/Energieeffizienz/E-Auto_Foerderung_2026/Richtline_E-Auto.html; https://alternative-fuels-observatory.ec.europa.eu/transport-mode/road/germany/incentives-legislations",
+    "status": "active",
+    "tier": "federal",
+    "valid_from": "2026-01-01",
+    "valid_to": "2029-12-31"
+  },
+  {
+    "amount_eur": null,
+    "incentive_id": "DE-TAX-KFZ-BEV-EXEMPT-2025",
+    "market_id": "de",
+    "name": "Kfz-Steuer exemption for BEVs first registered by 31.12.2025",
+    "powertrains": [
+      "EV",
+      "FCEV"
+    ],
+    "scope": "DE",
+    "source_ref": "https://alternative-fuels-observatory.ec.europa.eu/transport-mode/road/germany/incentives-legislations; https://www.bundesfinanzministerium.de/",
+    "status": "active",
+    "tier": "tax",
+    "valid_from": "2016-05-18",
+    "valid_to": "2030-12-31"
+  },
+  {
+    "amount_eur": null,
+    "incentive_id": "DE-TAX-KFZ-BEV-EXEMPT-2026-2030",
+    "market_id": "de",
+    "name": "Kfz-Steuer exemption for BEVs first registered 2026-2030 (extension to 2035)",
+    "powertrains": [
+      "EV",
+      "FCEV"
+    ],
+    "scope": "DE",
+    "source_ref": "https://alternative-fuels-observatory.ec.europa.eu/transport-mode/road/germany/incentives-legislations",
+    "status": "announced",
+    "tier": "tax",
+    "valid_from": "2026-01-01",
+    "valid_to": "2035-12-31"
+  },
+  {
+    "amount_eur": null,
+    "incentive_id": "DE-TAX-BIK-EV-025",
+    "market_id": "de",
+    "name": "Reduced company-car benefit-in-kind for BEVs (0.25% rule)",
+    "powertrains": [
+      "EV",
+      "FCEV"
+    ],
+    "scope": "DE",
+    "source_ref": "https://alternative-fuels-observatory.ec.europa.eu/transport-mode/road/germany/incentives-legislations",
+    "status": "active",
+    "tier": "tax",
+    "valid_from": "2020-01-01",
+    "valid_to": "2030-12-31"
+  },
+  {
+    "amount_eur": null,
+    "incentive_id": "DE-TAX-SONDER-AFA-BEV",
+    "market_id": "de",
+    "name": "Special depreciation for company BEVs (40% first year)",
+    "powertrains": [
+      "EV",
+      "FCEV"
+    ],
+    "scope": "DE",
+    "source_ref": "https://alternative-fuels-observatory.ec.europa.eu/transport-mode/road/germany/incentives-legislations",
+    "status": "active",
+    "tier": "tax",
+    "valid_from": "2025-07-01",
+    "valid_to": "2028-12-31"
+  },
+  {
+    "amount_eur": 100,
+    "incentive_id": "DE-THG-QUOTE",
+    "market_id": "de",
+    "name": "THG-Quote (GHG quota) payout for BEV owners",
+    "powertrains": [
+      "EV"
+    ],
+    "scope": "DE",
+    "source_ref": "https://www.umweltbundesamt.de/themen/verkehr/kraftstoffe/treibhausgasminderungs-quote",
+    "status": "active",
+    "tier": "federal",
+    "valid_from": "2022-01-01",
+    "valid_to": "2030-12-31"
+  },
+  {
+    "amount_eur": 300,
+    "incentive_id": "DE-REG-WALLBOX-GENERIC",
+    "market_id": "de",
+    "name": "Regional / municipal / utility wallbox grant",
+    "powertrains": [
+      "EV",
+      "PHEV"
+    ],
+    "provenance": "generic template",
+    "scope": "DE",
+    "source_ref": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/F%C3%B6rderprodukte/Ladestationen-f%C3%BCr-Elektroautos-Wohngeb%C3%A4ude-(440)/",
+    "status": "active",
+    "tier": "regional",
+    "valid_from": null,
+    "valid_to": null
+  },
+  {
+    "amount_eur": null,
+    "incentive_id": "DE-OEM-LEASING-SPECIAL",
+    "market_id": "de",
+    "name": "Nordwerk Automobile leasing / Umweltprämie special",
+    "powertrains": [
+      "ICE",
+      "HEV",
+      "PHEV",
+      "EV"
+    ],
+    "provenance": "synthetic",
+    "scope": "DE",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (incentive)",
+    "status": "active",
+    "tier": "oem",
+    "valid_from": "2026-09-01",
+    "valid_to": "2026-11-30"
+  }
+]

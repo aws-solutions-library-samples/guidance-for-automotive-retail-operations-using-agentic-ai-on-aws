@@ -1,0 +1,90 @@
+{
+  "agent": "A5",
+  "description": "Campaign Agent — the AgentCore recommendation step (the QuickSight / Quick Index surface is outside this harness). `A5.roi` reads build_campaign_roi: the ai_insight text is Bedrock in agent mode (fallback template offline) over the KPI facts, so every figure must be grounded. `A5.recommend_budget_shift` goes through the runtime tool dispatch with apply=false: a recommendation card is described, nothing is written, and the agent never executes a budget change itself. A dealer role may not call it (OEM_READ_ROLES).",
+  "claims": {
+    "user_id": "U-US-00044",
+    "role": "oem_dm",
+    "is_oem": true,
+    "market_id": "us",
+    "scope_node_id": "DIST-07",
+    "dealer_ids": []
+  },
+  "cases": [
+    {
+      "id": "a5-roi-insight",
+      "runner": "A5.roi",
+      "market": "us",
+      "expect": {
+        "refused": false,
+        "min_citations": 1,
+        "fields_present": [
+          "kpis"
+        ],
+        "one_of": {
+          "insight_by": [
+            "fallback"
+          ]
+        },
+        "forbidden_regex": [
+          "guarantee",
+          "will (definitely|certainly)"
+        ]
+      },
+      "expect_aws": {
+        "one_of": {
+          "insight_by": [
+            "bedrock",
+            "fallback"
+          ]
+        }
+      }
+    },
+    {
+      "id": "a5-shift-recommend",
+      "runner": "A5.recommend_budget_shift",
+      "args": {
+        "market": "us",
+        "apply": false
+      },
+      "expect": {
+        "refused": false,
+        "min_citations": 1,
+        "equals": {
+          "written": false,
+          "recommended": true
+        },
+        "fields_present": [
+          "recommendation_id",
+          "shift",
+          "autonomy_level"
+        ],
+        "forbidden_regex": [
+          "auto-?execut(ed|es)\\b(?! a)",
+          "has been (moved|shifted|executed)"
+        ]
+      },
+      "uaef_llm": false
+    },
+    {
+      "id": "a5-shift-dealer-forbidden",
+      "runner": "A5.recommend_budget_shift",
+      "args": {
+        "market": "us",
+        "apply": false
+      },
+      "claims": {
+        "user_id": "U-US-00002",
+        "role": "dealer_advisor",
+        "dealer_ids": [
+          "D-101"
+        ],
+        "is_oem": false,
+        "market_id": "us",
+        "scope_node_id": "D-101"
+      },
+      "expect": {
+        "forbidden": true
+      }
+    }
+  ]
+}

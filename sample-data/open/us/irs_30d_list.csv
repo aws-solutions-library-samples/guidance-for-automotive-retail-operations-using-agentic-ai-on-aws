@@ -1,0 +1,75 @@
+manufacturer,make,model,base_model,model_year,powertrain,credit_amount_usd,msrp_limit_usd,assembly_country,meets_assembly_rule,start_date,end_date,source_ref
+"Audi of America, LLC",Audi,Q5 TFSI e Quattro (PHEV),Q5,2023,Plug-in Hybrid,75000.0,800000.0,Mexico,Y,2023-01-01,,irs_30d_list:1:Audi:Q5 TFSI e Quattro (PHEV)
+"BMW of North America, LLC",BMW,330e,3 series,2021,Plug-in Hybrid,58360.0,550000.0,Germany and Mexico,C,2023-01-01,,irs_30d_list:2:BMW:330e
+"BMW of North America, LLC",BMW,330e,3 series,2022,Plug-in Hybrid,58360.0,550000.0,Germany and Mexico,C,2023-01-01,,irs_30d_list:3:BMW:330e
+"BMW of North America, LLC",BMW,330e,3 series,2023,Plug-in Hybrid,58360.0,550000.0,Germany and Mexico,C,2023-01-01,,irs_30d_list:4:BMW:330e
+"BMW of North America, LLC",BMW,X5 xDrive45e,X5,2021,Plug-in Hybrid,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:5:BMW:X5 xDrive45e
+"BMW of North America, LLC",BMW,X5 xDrive45e,X5,2022,Plug-in Hybrid,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:6:BMW:X5 xDrive45e
+"BMW of North America, LLC",BMW,X5 xDrive45e,X5,2023,Plug-in Hybrid,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:7:BMW:X5 xDrive45e
+"BMW of North America, LLC",BMW,X5 xDrive50e,X5 xDrive50e,2024,Plug-in Hybrid,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:78:BMW:X5 xDrive50e
+General Motors LLC,Cadillac,Lyriq,Lyriq,2022,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:24:Cadillac:Lyriq
+General Motors LLC,Cadillac,Lyriq,Lyriq,2023,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:25:Cadillac:Lyriq
+General Motors LLC,Cadillac,Lyriq,Lyriq,2024,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:74:Cadillac:Lyriq
+General Motors LLC,Chevrolet,Bolt EUV,Bolt EUV,2022,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:22:Chevrolet:Bolt EUV
+General Motors LLC,Chevrolet,Bolt EUV,Bolt EUV,2023,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:23:Chevrolet:Bolt EUV
+General Motors LLC,Chevrolet,Bolt EV,Bolt EV,2022,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:20:Chevrolet:Bolt EV
+General Motors LLC,Chevrolet,Bolt EV,Bolt EV,2023,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:21:Chevrolet:Bolt EV
+General Motors LLC,Chevrolet,Silverado EV,Silverado,2024,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:73:Chevrolet:Silverado EV
+Stellantis N.V.,Chrysler,Pacifica PHEV,Pacifica,2022,Plug-in Hybrid,75000.0,800000.0,Canada,Y,2023-01-01,,irs_30d_list:42:Chrysler:Pacifica PHEV
+Stellantis N.V.,Chrysler,Pacifica PHEV,Pacifica,2023,Plug-in Hybrid,75000.0,800000.0,Canada,Y,2023-01-01,,irs_30d_list:43:Chrysler:Pacifica PHEV
+Ford Motor Company,Ford,E-Transit,E-Transit,2022,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:10:Ford:E-Transit
+Ford Motor Company,Ford,E-Transit,E-Transit,2023,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:11:Ford:E-Transit
+Ford Motor Company,Ford,Escape Plug-In Hybrid,Escape,2022,Plug-in Hybrid,68430.0,800000.0,US,Y,2023-01-01,,irs_30d_list:8:Ford:Escape Plug-In Hybrid
+Ford Motor Company,Ford,Escape Plug-In Hybrid,Escape,2023,Plug-in Hybrid,68850.0,800000.0,US,Y,2023-01-01,,irs_30d_list:9:Ford:Escape Plug-In Hybrid
+Ford Motor Company,Ford,F-150 Lightning,F-150 Lightning,2022,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:12:Ford:F-150 Lightning
+Ford Motor Company,Ford,F-150 Lightning,F-150 Lightning,2023,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:13:Ford:F-150 Lightning
+Ford Motor Company,Ford,Mustang Mach-E,Mustang Mach-E,2022,EV,75000.0,800000.0,Mexico,Y,2023-01-01,,irs_30d_list:14:Ford:Mustang Mach-E
+Ford Motor Company,Ford,Mustang Mach-E,Mustang Mach-E,2023,EV,75000.0,800000.0,Mexico,Y,2023-01-01,,irs_30d_list:15:Ford:Mustang Mach-E
+Hyundai Motor America,Genesis,Electrified GV70,GV70,2023,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:75:Genesis:Electrified GV70
+Hyundai Motor America,Genesis,Electrified GV70,GV70,2024,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:76:Genesis:Electrified GV70
+Stellantis N.V.,Jeep,Grand Cherokee 4xe,Grand Cherokee,2022,Plug-in Hybrid,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:46:Jeep:Grand Cherokee 4xe
+Stellantis N.V.,Jeep,Grand Cherokee 4xe,Grand Cherokee,2023,Plug-in Hybrid,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:47:Jeep:Grand Cherokee 4xe
+Stellantis N.V.,Jeep,Wrangler 4xe,Wrangler,2022,Plug-in Hybrid,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:44:Jeep:Wrangler 4xe
+Stellantis N.V.,Jeep,Wrangler 4xe,Wrangler,2023,Plug-in Hybrid,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:45:Jeep:Wrangler 4xe
+Ford Motor Company,Lincoln,Aviator Grand Touring,Aviator,2022,Plug-in Hybrid,65340.0,800000.0,US,Y,2023-01-01,,irs_30d_list:16:Lincoln:Aviator Grand Touring
+Ford Motor Company,Lincoln,Aviator Grand Touring,Aviator,2023,Plug-in Hybrid,65340.0,800000.0,US,Y,2023-01-01,,irs_30d_list:17:Lincoln:Aviator Grand Touring
+Ford Motor Company,Lincoln,Corsair Grand Touring,Corsair,2022,Plug-in Hybrid,68430.0,800000.0,US,Y,2023-01-01,,irs_30d_list:18:Lincoln:Corsair Grand Touring
+Ford Motor Company,Lincoln,Corsair Grand Touring,Corsair,2023,Plug-in Hybrid,68850.0,800000.0,US,Y,2023-01-01,,irs_30d_list:19:Lincoln:Corsair Grand Touring
+Mercedes-Benz,Mercedes-Benz,EQE 350 SUV,EQE 350 SUV,2023,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:77:Mercedes-Benz:EQE 350 SUV
+Nissan North America,Nissan,Leaf S,Leaf,2021,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:26:Nissan:Leaf S
+Nissan North America,Nissan,Leaf S,Leaf,2022,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:27:Nissan:Leaf S
+Nissan North America,Nissan,Leaf S,Leaf,2023,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:28:Nissan:Leaf S
+Nissan North America,Nissan,Leaf S Plus,Leaf,2021,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:29:Nissan:Leaf S Plus
+Nissan North America,Nissan,Leaf S Plus,Leaf,2022,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:30:Nissan:Leaf S Plus
+Nissan North America,Nissan,Leaf SL Plus,Leaf,2021,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:31:Nissan:Leaf SL Plus
+Nissan North America,Nissan,Leaf SL Plus,Leaf,2022,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:32:Nissan:Leaf SL Plus
+Nissan North America,Nissan,Leaf SV,Leaf,2021,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:33:Nissan:Leaf SV
+Nissan North America,Nissan,Leaf SV,Leaf,2022,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:34:Nissan:Leaf SV
+Nissan North America,Nissan,Leaf SV Plus,Leaf,2021,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:35:Nissan:Leaf SV Plus
+Nissan North America,Nissan,Leaf SV Plus,Leaf,2022,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:36:Nissan:Leaf SV Plus
+Nissan North America,Nissan,Leaf SV Plus,Leaf,2023,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:37:Nissan:Leaf SV Plus
+"Rivian Automotive, LLC",Rivian,R1S,R1S,2022,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:38:Rivian:R1S
+"Rivian Automotive, LLC",Rivian,R1S,R1S,2023,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:39:Rivian:R1S
+"Rivian Automotive, LLC",Rivian,R1T,R1T,2022,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:40:Rivian:R1T
+"Rivian Automotive, LLC",Rivian,R1T,R1T,2023,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:41:Rivian:R1T
+Tesla Inc.,Tesla,Model 3 Long Range,Model 3,2022,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:50:Tesla:Model 3 Long Range
+Tesla Inc.,Tesla,Model 3 Long Range,Model 3,2023,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:51:Tesla:Model 3 Long Range
+Tesla Inc.,Tesla,Model 3 Performance,Model 3,2022,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:71:Tesla:Model 3 Performance
+Tesla Inc.,Tesla,Model 3 Performance,Model 3,2023,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:72:Tesla:Model 3 Performance
+Tesla Inc.,Tesla,Model 3 RWD,Model 3,2022,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:48:Tesla:Model 3 RWD
+Tesla Inc.,Tesla,Model 3 RWD,Model 3,2023,EV,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:49:Tesla:Model 3 RWD
+Tesla Inc.,Tesla,Model Y All-Wheel Drive,Model Y,2022,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:52:Tesla:Model Y All-Wheel Drive
+Tesla Inc.,Tesla,Model Y All-Wheel Drive,Model Y,2023,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:53:Tesla:Model Y All-Wheel Drive
+Tesla Inc.,Tesla,Model Y Long Range,Model Y,2022,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:54:Tesla:Model Y Long Range
+Tesla Inc.,Tesla,Model Y Long Range,Model Y,2023,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:55:Tesla:Model Y Long Range
+Tesla Inc.,Tesla,Model Y Performance,Model Y,2022,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:56:Tesla:Model Y Performance
+Tesla Inc.,Tesla,Model Y Performance,Model Y,2023,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:57:Tesla:Model Y Performance
+Volkswagen Group of America,Volkswagen,ID.4,ID.4,2023,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:62:Volkswagen:ID.4
+Volkswagen Group of America,Volkswagen,ID.4 AWD Pro,ID.4,2023,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:66:Volkswagen:ID.4 AWD Pro
+Volkswagen Group of America,Volkswagen,ID.4 AWD Pro S,ID.4,2023,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:67:Volkswagen:ID.4 AWD Pro S
+Volkswagen Group of America,Volkswagen,ID.4 Pro,ID.4,2023,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:63:Volkswagen:ID.4 Pro
+Volkswagen Group of America,Volkswagen,ID.4 Pro S,ID.4,2023,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:64:Volkswagen:ID.4 Pro S
+Volkswagen Group of America,Volkswagen,ID.4 S,ID.4,2023,EV,75000.0,800000.0,US,Y,2023-01-01,,irs_30d_list:65:Volkswagen:ID.4 S
+"Volvo Car North America, LLC",Volvo,S60 (PHEV),S60,2022,Plug-in Hybrid,54190.0,550000.0,US,Y,2023-01-01,,irs_30d_list:68:Volvo:S60 (PHEV)
+"Volvo Car North America, LLC",Volvo,S60 Extended Range,S60,2022,Plug-in Hybrid,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:69:Volvo:S60 Extended Range
+"Volvo Car North America, LLC",Volvo,S60 T8 Recharge (Extended Range),S60,2023,Plug-in Hybrid,75000.0,550000.0,US,Y,2023-01-01,,irs_30d_list:70:Volvo:S60 T8 Recharge (Extended Range)

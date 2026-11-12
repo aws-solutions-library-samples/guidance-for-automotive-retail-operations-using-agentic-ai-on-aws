@@ -1,0 +1,17 @@
+bundesland,stations,charge_points,fast_stations_ge_50kw,hpc_stations_ge_150kw,total_kw,source_ref
+Baden-Württemberg,18863,35202,3759,2673,1201189,bnetza_ladesaeulen:Baden-Württemberg
+Bayern,22838,39849,6089,4597,1782867,bnetza_ladesaeulen:Bayern
+Berlin,4953,7561,689,553,211420,bnetza_ladesaeulen:Berlin
+Brandenburg,3032,5004,1059,824,278455,bnetza_ladesaeulen:Brandenburg
+Bremen,884,1584,207,114,54011,bnetza_ladesaeulen:Bremen
+Hamburg,3314,5976,522,464,207980,bnetza_ladesaeulen:Hamburg
+Hessen,8952,16105,2594,2037,748370,bnetza_ladesaeulen:Hessen
+Mecklenburg-Vorpommern,1837,3222,721,595,198976,bnetza_ladesaeulen:Mecklenburg-Vorpommern
+Niedersachsen,11482,20783,3823,2815,1034557,bnetza_ladesaeulen:Niedersachsen
+Nordrhein-Westfalen,22500,41203,5704,4135,1692873,bnetza_ladesaeulen:Nordrhein-Westfalen
+Rheinland-Pfalz,4527,8021,1749,1331,452459,bnetza_ladesaeulen:Rheinland-Pfalz
+Saarland,796,1509,259,191,68391,bnetza_ladesaeulen:Saarland
+Sachsen,3821,7129,1254,897,320846,bnetza_ladesaeulen:Sachsen
+Sachsen-Anhalt,1978,3739,861,657,223823,bnetza_ladesaeulen:Sachsen-Anhalt
+Schleswig-Holstein,4349,8038,1263,956,369308,bnetza_ladesaeulen:Schleswig-Holstein
+Thüringen,2317,4211,953,743,241273,bnetza_ladesaeulen:Thüringen

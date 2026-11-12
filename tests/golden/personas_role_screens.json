@@ -1,0 +1,327 @@
+{
+ "display_names": {
+  "admin_dealer": "Dealer Admin",
+  "admin_tenant": "Tenant Admin",
+  "customer": "Customer",
+  "dealer_advisor": "Sales Advisor",
+  "dealer_bdc": "BDC Agent",
+  "dealer_delivery": "Delivery Coordinator",
+  "dealer_fni": "F&I Manager",
+  "dealer_inventory": "Inventory Manager",
+  "dealer_manager": "General Manager",
+  "dealer_parts": "Parts Specialist",
+  "dealer_service": "Service Advisor",
+  "dealer_service_manager": "Service Manager",
+  "dealer_technician": "Service Technician",
+  "oem_ci_planning": "OEM C&I Planner",
+  "oem_cx": "OEM CX Lead",
+  "oem_dm": "OEM District Manager",
+  "oem_finance": "OEM Finance Partner",
+  "oem_marketing": "OEM Marketing Lead",
+  "oem_regional": "OEM Regional Lead",
+  "oem_sales_ops": "OEM Sales Ops"
+ },
+ "personas": {
+  "admin_dealer": {
+   "home": "admin.home",
+   "screens": [
+    "admin.home",
+    "notifications"
+   ]
+  },
+  "admin_tenant": {
+   "home": "admin.home",
+   "screens": [
+    "admin.approvals",
+    "admin.home",
+    "approvals",
+    "notifications"
+   ]
+  },
+  "customer": {
+   "home": "customer.garage",
+   "screens": [
+    "customer.chat",
+    "customer.garage",
+    "customer.garage_service",
+    "customer.shop",
+    "notifications"
+   ]
+  },
+  "dealer_advisor": {
+   "home": "dealer.journeys",
+   "screens": [
+    "dealer.advisor",
+    "dealer.assistant",
+    "dealer.customer360",
+    "dealer.discovery",
+    "dealer.inventory_vin",
+    "dealer.journey",
+    "dealer.journeys",
+    "dealer.leads",
+    "dealer.service_lane",
+    "dealer.task",
+    "dealer.tasks",
+    "dealer.trade_in",
+    "notifications"
+   ]
+  },
+  "dealer_bdc": {
+   "home": "dealer.leads",
+   "screens": [
+    "dealer.advisor",
+    "dealer.assistant",
+    "dealer.customer360",
+    "dealer.journey",
+    "dealer.journeys",
+    "dealer.leads",
+    "dealer.task",
+    "dealer.tasks",
+    "notifications"
+   ]
+  },
+  "dealer_delivery": {
+   "home": "dealer.delivery",
+   "screens": [
+    "dealer.delivery",
+    "dealer.journey",
+    "dealer.journeys",
+    "dealer.task",
+    "dealer.tasks",
+    "notifications"
+   ]
+  },
+  "dealer_fni": {
+   "home": "dealer.fni",
+   "screens": [
+    "dealer.delivery",
+    "dealer.fni",
+    "dealer.fni_deal",
+    "dealer.journey",
+    "dealer.journeys",
+    "dealer.task",
+    "dealer.tasks",
+    "notifications"
+   ]
+  },
+  "dealer_inventory": {
+   "home": "dealer.inventory",
+   "screens": [
+    "dealer.cockpit",
+    "dealer.discovery",
+    "dealer.inventory",
+    "dealer.inventory_vin",
+    "dealer.task",
+    "dealer.tasks",
+    "dealer.trade_in",
+    "notifications"
+   ]
+  },
+  "dealer_manager": {
+   "home": "dealer.cockpit",
+   "screens": [
+    "approvals",
+    "dealer.advisor",
+    "dealer.assistant",
+    "dealer.campaigns",
+    "dealer.cockpit",
+    "dealer.customer360",
+    "dealer.delivery",
+    "dealer.discovery",
+    "dealer.fni",
+    "dealer.fni_deal",
+    "dealer.inventory",
+    "dealer.inventory_vin",
+    "dealer.journey",
+    "dealer.journeys",
+    "dealer.leads",
+    "dealer.service_lane",
+    "dealer.task",
+    "dealer.tasks",
+    "dealer.trade_in",
+    "notifications",
+    "service.board",
+    "service.book",
+    "service.checkin",
+    "service.cockpit",
+    "service.estimate",
+    "service.history",
+    "service.inspect",
+    "service.journey",
+    "service.my_ros",
+    "service.parts"
+   ]
+  },
+  "dealer_parts": {
+   "home": "service.parts",
+   "screens": [
+    "dealer.inventory",
+    "dealer.task",
+    "dealer.tasks",
+    "notifications",
+    "service.board",
+    "service.journey",
+    "service.parts"
+   ]
+  },
+  "dealer_service": {
+   "home": "service.board",
+   "screens": [
+    "dealer.assistant",
+    "dealer.service_lane",
+    "dealer.task",
+    "dealer.tasks",
+    "dealer.trade_in",
+    "notifications",
+    "service.board",
+    "service.book",
+    "service.checkin",
+    "service.estimate",
+    "service.history",
+    "service.journey"
+   ]
+  },
+  "dealer_service_manager": {
+   "home": "service.cockpit",
+   "screens": [
+    "approvals",
+    "dealer.cockpit",
+    "dealer.service_lane",
+    "dealer.task",
+    "dealer.tasks",
+    "notifications",
+    "service.board",
+    "service.book",
+    "service.checkin",
+    "service.cockpit",
+    "service.estimate",
+    "service.history",
+    "service.inspect",
+    "service.journey",
+    "service.my_ros",
+    "service.parts"
+   ]
+  },
+  "dealer_technician": {
+   "home": "service.my_ros",
+   "screens": [
+    "dealer.task",
+    "dealer.tasks",
+    "notifications",
+    "service.board",
+    "service.inspect",
+    "service.journey",
+    "service.my_ros"
+   ]
+  },
+  "oem_ci_planning": {
+   "home": "oem.accounts",
+   "screens": [
+    "approvals",
+    "notifications",
+    "oem.account",
+    "oem.accounts",
+    "oem.plan",
+    "oem.scenario"
+   ]
+  },
+  "oem_cx": {
+   "home": "marketing.journey_ops",
+   "screens": [
+    "marketing.campaign",
+    "marketing.campaigns",
+    "marketing.journey_ops",
+    "notifications"
+   ]
+  },
+  "oem_dm": {
+   "home": "oem.today",
+   "screens": [
+    "approvals",
+    "dealer.cockpit",
+    "dealer.journey",
+    "dealer.journeys",
+    "notifications",
+    "oem.account",
+    "oem.accounts",
+    "oem.alert",
+    "oem.alerts",
+    "oem.comms",
+    "oem.plan",
+    "oem.region",
+    "oem.reports",
+    "oem.scenario",
+    "oem.today"
+   ]
+  },
+  "oem_finance": {
+   "home": "marketing.campaigns",
+   "screens": [
+    "approvals",
+    "marketing.campaign",
+    "marketing.campaigns",
+    "notifications",
+    "oem.account",
+    "oem.accounts",
+    "oem.plan"
+   ]
+  },
+  "oem_marketing": {
+   "home": "marketing.campaigns",
+   "screens": [
+    "marketing.audiences",
+    "marketing.campaign",
+    "marketing.campaigns",
+    "marketing.journey_ops",
+    "notifications"
+   ]
+  },
+  "oem_regional": {
+   "home": "oem.region",
+   "screens": [
+    "approvals",
+    "dealer.cockpit",
+    "notifications",
+    "oem.account",
+    "oem.accounts",
+    "oem.alert",
+    "oem.alerts",
+    "oem.comms",
+    "oem.plan",
+    "oem.region",
+    "oem.reports",
+    "oem.scenario",
+    "oem.today"
+   ]
+  },
+  "oem_sales_ops": {
+   "home": "oem.comms",
+   "screens": [
+    "notifications",
+    "oem.comms",
+    "oem.reports"
+   ]
+  }
+ },
+ "staff_groups": [
+  "dealer_advisor",
+  "dealer_bdc",
+  "dealer_fni",
+  "dealer_service",
+  "dealer_technician",
+  "dealer_parts",
+  "dealer_service_manager",
+  "dealer_inventory",
+  "dealer_delivery",
+  "dealer_manager",
+  "oem_dm",
+  "oem_regional",
+  "oem_ci_planning",
+  "oem_sales_ops",
+  "oem_finance",
+  "oem_marketing",
+  "oem_cx",
+  "admin_tenant",
+  "admin_dealer"
+ ]
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "config_key": "notifications",
+    "effective_from": "2026-08-11T09:00:00Z",
+    "is_active": true,
+    "item_key": "notifications#de",
+    "market_id": "de",
+    "rules": [
+      {
+        "channels": [
+          "push",
+          "email"
+        ],
+        "event": "lead.received",
+        "quiet_hours_respect": false,
+        "roles": [
+          "dealer_bdc",
+          "dealer_advisor"
+        ]
+      },
+      {
+        "channels": [
+          "push"
+        ],
+        "event": "lead.sla_breach",
+        "quiet_hours_respect": false,
+        "roles": [
+          "dealer_manager"
+        ]
+      },
+      {
+        "channels": [
+          "push"
+        ],
+        "event": "estimate.presented",
+        "quiet_hours_respect": true,
+        "roles": [
+          "dealer_service"
+        ]
+      },
+      {
+        "channels": [
+          "push"
+        ],
+        "event": "parts.received",
+        "quiet_hours_respect": true,
+        "roles": [
+          "dealer_service"
+        ]
+      },
+      {
+        "channels": [
+          "push",
+          "email"
+        ],
+        "event": "vehicle.ready",
+        "quiet_hours_respect": true,
+        "roles": [
+          "dealer_service",
+          "dealer_advisor"
+        ]
+      },
+      {
+        "channels": [
+          "push",
+          "email"
+        ],
+        "event": "approval.requested",
+        "quiet_hours_respect": true,
+        "roles": [
+          "dealer_manager"
+        ]
+      },
+      {
+        "channels": [
+          "push"
+        ],
+        "event": "handoff.created",
+        "quiet_hours_respect": true,
+        "roles": [
+          "dealer_manager",
+          "dealer_advisor",
+          "dealer_bdc",
+          "dealer_fni",
+          "dealer_service"
+        ]
+      },
+      {
+        "channels": [
+          "email"
+        ],
+        "event": "guardrail.blocked",
+        "quiet_hours_respect": false,
+        "roles": [
+          "admin_tenant"
+        ]
+      }
+    ],
+    "source_ref": "spec:§2.6.6 notification rules",
+    "version": 1
+  }
+]

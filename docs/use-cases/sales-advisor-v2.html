@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahindra Sales Advisor - AI Copilot</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --secondary: #8b5cf6;
+            --accent: #ec4899;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --bg-dark: #0a0e1a;
+            --bg-card: rgba(255, 255, 255, 0.04);
+            --bg-card-hover: rgba(255, 255, 255, 0.07);
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --text-dim: #64748b;
+            --border: rgba(255, 255, 255, 0.08);
+            --border-active: rgba(99, 102, 241, 0.4);
+            --shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+            --radius: 12px;
+            --radius-sm: 8px;
+            --radius-lg: 16px;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-primary);
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Top Bar */
+        .top-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.75rem 1.5rem;
+            background: rgba(10, 14, 26, 0.95);
+            border-bottom: 1px solid var(--border);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+
+        .top-bar-left {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .logo {
+            font-size: 1.1rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .session-info {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .live-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--success);
+            animation: pulse-dot 2s infinite;
+        }
+
+        @keyframes pulse-dot {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.6); }
+            50% { box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); }
+        }
+
+        .session-info span {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .session-info strong {
+            color: var(--text-primary);
+        }
+
+        .top-bar-right {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .timer {
+            font-family: 'SF Mono', 'Fira Code', monospace;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--primary-light);
+            padding: 0.4rem 0.8rem;
+            background: rgba(99, 102, 241, 0.1);
+            border-radius: var(--radius-sm);
+            border: 1px solid rgba(99, 102, 241, 0.2);
+        }
+
+        .nav-tabs {
+            display: flex;
+            gap: 0.25rem;
+        }
+
+        .nav-tab {
+            padding: 0.4rem 0.8rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .nav-tab:hover { background: var(--bg-card-hover); color: var(--text-primary); }
+        .nav-tab.active { background: rgba(99, 102, 241, 0.15); color: var(--primary-light); }
+
+        /* Main Layout */
+        .main-layout {
+            flex: 1;
+            display: grid;
+            grid-template-columns: 320px 1fr 340px;
+            gap: 1px;
+            background: var(--border);
+            overflow: hidden;
+        }
+
+        .panel {
+            background: var(--bg-dark);
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .panel::-webkit-scrollbar { width: 4px; }
+        .panel::-webkit-scrollbar-track { background: transparent; }
+        .panel::-webkit-scrollbar-thumb { background: rgba(99, 102, 241, 0.3); border-radius: 4px; }
+
+        .panel-header {
+            padding: 1rem 1.25rem;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            background: var(--bg-dark);
+            z-index: 10;
+        }
+
+        .panel-header h2 {
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-secondary);
+        }
+
+        .panel-badge {
+            font-size: 0.7rem;
+            padding: 0.2rem 0.6rem;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+
+        .badge-live { background: rgba(16, 185, 129, 0.15); color: var(--success); }
+        .badge-ai { background: rgba(99, 102, 241, 0.15); color: var(--primary-light); }
+        .badge-active { background: rgba(245, 158, 11, 0.15); color: var(--warning); }
+
+        .panel-body {
+            padding: 1.25rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        /* Left Panel - Customer */
+        .customer-card {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 1rem;
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+        }
+
+        .avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1rem;
+            flex-shrink: 0;
+        }
+
+        .customer-name {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .customer-meta {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-top: 0.15rem;
+        }
+
+        .lead-score {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            padding: 0.15rem 0.5rem;
+            background: rgba(16, 185, 129, 0.15);
+            border-radius: 10px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--success);
+        }
+
+        .section-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-dim);
+            margin-top: 0.5rem;
+        }
+
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.85rem;
+        }
+
+        .info-row:last-child { border-bottom: none; }
+        .info-label { color: var(--text-secondary); }
+        .info-value { color: var(--text-primary); font-weight: 500; }
+
+        .activity-item {
+            display: flex;
+            gap: 0.75rem;
+            padding: 0.6rem 0.75rem;
+            background: var(--bg-card);
+            border-radius: var(--radius-sm);
+            border-left: 2px solid var(--primary);
+            font-size: 0.82rem;
+        }
+
+        .activity-time {
+            color: var(--text-dim);
+            font-size: 0.72rem;
+            white-space: nowrap;
+            min-width: 55px;
+        }
+
+        .activity-text { color: var(--text-primary); }
+
+        .tag-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+        }
+
+        .tag {
+            padding: 0.3rem 0.6rem;
+            background: rgba(99, 102, 241, 0.12);
+            border-radius: 6px;
+            font-size: 0.75rem;
+            color: var(--primary-light);
+            font-weight: 500;
+        }
+
+        .insight-box {
+            padding: 0.85rem;
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.08), rgba(139, 92, 246, 0.08));
+            border-radius: var(--radius-sm);
+            border-left: 3px solid var(--primary);
+            font-size: 0.82rem;
+            line-height: 1.5;
+            color: var(--text-primary);
+        }
+
+        .insight-label {
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--primary-light);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.3rem;
+        }
+
+        /* Center Panel - Recommendations */
+        .center-panel .panel-body {
+            gap: 1.25rem;
+        }
+
+        .rec-card {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+            overflow: hidden;
+            transition: border-color 0.2s;
+        }
+
+        .rec-card:hover { border-color: var(--border-active); }
+
+        .rec-card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.85rem 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .rec-card-title {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .rec-card-title .icon { font-size: 1.1rem; }
+
+        .confidence {
+            font-size: 0.72rem;
+            font-weight: 700;
+            color: var(--success);
+            padding: 0.2rem 0.5rem;
+            background: rgba(16, 185, 129, 0.12);
+            border-radius: 6px;
+        }
+
+        .rec-card-body { padding: 0.75rem 1rem; }
+
+        .vehicle-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem;
+            border-radius: var(--radius-sm);
+            transition: background 0.2s;
+            cursor: pointer;
+        }
+
+        .vehicle-item:hover { background: var(--bg-card-hover); }
+
+        .vehicle-rank {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .vehicle-info { flex: 1; min-width: 0; }
+        .vehicle-name { font-size: 0.85rem; font-weight: 600; }
+        .vehicle-specs { font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.15rem; }
+
+        .vehicle-tags {
+            display: flex;
+            gap: 0.3rem;
+            margin-top: 0.3rem;
+            flex-wrap: wrap;
+        }
+
+        .vtag {
+            font-size: 0.65rem;
+            padding: 0.15rem 0.4rem;
+            background: rgba(16, 185, 129, 0.12);
+            color: var(--success);
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .btn-present {
+            padding: 0.4rem 0.85rem;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border: none;
+            border-radius: 6px;
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.15s, opacity 0.15s;
+            white-space: nowrap;
+        }
+
+        .btn-present:hover { transform: translateY(-1px); }
+        .btn-present.used { background: var(--success); }
+
+        .talk-track {
+            padding: 0.7rem 0.85rem;
+            background: rgba(99, 102, 241, 0.06);
+            border-left: 2px solid var(--primary);
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            font-size: 0.82rem;
+            font-style: italic;
+            color: var(--text-primary);
+            line-height: 1.5;
+        }
+
+        .cross-sell-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.6rem 0.75rem;
+            border-radius: var(--radius-sm);
+            transition: background 0.2s;
+        }
+
+        .cross-sell-row:hover { background: var(--bg-card-hover); }
+
+        .cross-sell-info {
+            display: flex;
+            flex-direction: column;
+            gap: 0.1rem;
+        }
+
+        .cross-sell-name { font-size: 0.85rem; font-weight: 500; }
+        .cross-sell-detail { font-size: 0.75rem; color: var(--text-secondary); }
+
+        .probability-bar {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .prob-fill {
+            width: 40px;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .prob-fill-inner {
+            height: 100%;
+            background: var(--success);
+            border-radius: 2px;
+        }
+
+        .prob-text {
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: var(--success);
+        }
+
+        /* Right Panel - Assistance */
+        .objection-alert {
+            padding: 0.85rem;
+            background: rgba(239, 68, 68, 0.08);
+            border-radius: var(--radius-sm);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+        }
+
+        .objection-label {
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--danger);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.4rem;
+        }
+
+        .objection-quote {
+            font-size: 0.9rem;
+            font-style: italic;
+            color: var(--text-primary);
+        }
+
+        .ai-response-card {
+            padding: 1rem;
+            background: rgba(99, 102, 241, 0.06);
+            border-radius: var(--radius);
+            border: 1px solid rgba(99, 102, 241, 0.15);
+        }
+
+        .ai-response-label {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.6rem;
+        }
+
+        .ai-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--primary-light);
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+
+        .success-rate {
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: var(--success);
+        }
+
+        .ai-response-text {
+            font-size: 0.85rem;
+            line-height: 1.6;
+            color: var(--text-primary);
+            margin-bottom: 0.85rem;
+        }
+
+        .ai-response-text strong { color: var(--primary-light); }
+
+        .response-btns {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .btn-use {
+            padding: 0.45rem 1rem;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border: none;
+            border-radius: 6px;
+            color: white;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.15s;
+        }
+
+        .btn-use:hover { transform: translateY(-1px); }
+
+        .btn-alt {
+            padding: 0.45rem 1rem;
+            background: transparent;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+
+        .btn-alt:hover { border-color: var(--primary); color: var(--primary-light); }
+
+        .compete-card {
+            padding: 0.85rem;
+            background: var(--bg-card);
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border);
+        }
+
+        .compete-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.6rem;
+        }
+
+        .compete-name { font-size: 0.85rem; font-weight: 600; }
+
+        .win-badge {
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: var(--success);
+            padding: 0.15rem 0.5rem;
+            background: rgba(16, 185, 129, 0.12);
+            border-radius: 6px;
+        }
+
+        .compete-list {
+            list-style: none;
+            font-size: 0.8rem;
+        }
+
+        .compete-list li {
+            padding: 0.3rem 0;
+            padding-left: 1.2rem;
+            position: relative;
+            color: var(--text-primary);
+        }
+
+        .compete-list li::before {
+            content: '+';
+            position: absolute;
+            left: 0;
+            color: var(--success);
+            font-weight: 700;
+        }
+
+        .compete-list li.weaker { color: var(--text-secondary); }
+        .compete-list li.weaker::before {
+            content: '-';
+            color: var(--danger);
+        }
+
+        .stat-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.5rem;
+        }
+
+        .mini-stat {
+            padding: 0.6rem;
+            background: var(--bg-card);
+            border-radius: var(--radius-sm);
+            text-align: center;
+        }
+
+        .mini-stat-value {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .mini-stat-label {
+            font-size: 0.68rem;
+            color: var(--text-dim);
+            margin-top: 0.15rem;
+        }
+
+        .incentive-row {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            padding: 0.5rem 0.65rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.82rem;
+        }
+
+        .incentive-row.eligible {
+            background: rgba(16, 185, 129, 0.06);
+            border-left: 2px solid var(--success);
+        }
+
+        .incentive-row.ineligible {
+            opacity: 0.5;
+            border-left: 2px solid var(--border);
+        }
+
+        .incentive-check {
+            font-size: 0.85rem;
+        }
+
+        .incentive-info { flex: 1; }
+        .incentive-name { font-weight: 500; color: var(--text-primary); font-size: 0.8rem; }
+        .incentive-amount { font-size: 0.72rem; color: var(--text-secondary); }
+
+        /* Bottom Bar - Action Log */
+        .bottom-bar {
+            border-top: 1px solid var(--border);
+            background: rgba(10, 14, 26, 0.95);
+            padding: 0.6rem 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            overflow-x: auto;
+        }
+
+        .bottom-bar::-webkit-scrollbar { display: none; }
+
+        .log-label {
+            font-size: 0.72rem;
+            font-weight: 600;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            white-space: nowrap;
+        }
+
+        .log-items {
+            display: flex;
+            gap: 0.75rem;
+            flex: 1;
+        }
+
+        .log-item {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.35rem 0.7rem;
+            background: var(--bg-card);
+            border-radius: 6px;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            white-space: nowrap;
+            animation: slideIn 0.3s ease;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-10px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        .log-item .log-time {
+            font-family: monospace;
+            font-size: 0.68rem;
+            color: var(--text-dim);
+        }
+
+        .log-item .log-dot {
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: var(--success);
+        }
+
+        /* EV / ICE Comparison Table */
+        .powertrain-toggle {
+            display: flex;
+            gap: 0.3rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .pt-chip {
+            font-size: 0.65rem;
+            font-weight: 700;
+            padding: 0.15rem 0.5rem;
+            border-radius: 5px;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+
+        .pt-ev { background: rgba(16, 185, 129, 0.15); color: var(--success); }
+        .pt-ice { background: rgba(245, 158, 11, 0.15); color: var(--warning); }
+
+        .compare-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.8rem;
+        }
+
+        .compare-table th,
+        .compare-table td {
+            padding: 0.55rem 0.6rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .compare-table th {
+            font-size: 0.68rem;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            color: var(--text-dim);
+            font-weight: 700;
+        }
+
+        .compare-table td:first-child {
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .compare-table .col-ev {
+            color: var(--success);
+            font-weight: 600;
+        }
+
+        .compare-table .col-ice {
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+
+        .compare-table tr:last-child td { border-bottom: none; }
+
+        .compare-winner {
+            font-size: 0.6rem;
+            font-weight: 700;
+            padding: 0.05rem 0.3rem;
+            border-radius: 4px;
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--success);
+            margin-left: 0.3rem;
+            vertical-align: middle;
+        }
+
+        /* Why EV benefit cards */
+        .why-ev-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .benefit-item {
+            display: flex;
+            gap: 0.65rem;
+            padding: 0.65rem 0.75rem;
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.06), rgba(99, 102, 241, 0.05));
+            border-radius: var(--radius-sm);
+            border-left: 2px solid var(--success);
+        }
+
+        .benefit-icon {
+            font-size: 1.1rem;
+            flex-shrink: 0;
+            line-height: 1.3;
+        }
+
+        .benefit-title {
+            font-size: 0.83rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .benefit-detail {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-top: 0.15rem;
+            line-height: 1.45;
+        }
+
+        .benefit-detail strong { color: var(--success); }
+
+        .savings-banner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.75rem 0.9rem;
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.12), rgba(16, 185, 129, 0.03));
+            border-radius: var(--radius-sm);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+        }
+
+        .savings-banner .sb-label { font-size: 0.78rem; color: var(--text-secondary); }
+        .savings-banner .sb-value { font-size: 1.15rem; font-weight: 700; color: var(--success); }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .main-layout {
+                grid-template-columns: 280px 1fr 300px;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .main-layout {
+                grid-template-columns: 1fr;
+                overflow-y: auto;
+            }
+            .panel { overflow: visible; }
+            body { overflow: auto; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Bar -->
+    <header class="top-bar">
+        <div class="top-bar-left">
+            <span class="logo">Mahindra Sales AI</span>
+            <div class="session-info">
+                <span class="live-dot"></span>
+                <span>Live with <strong>Rohan Mehta</strong></span>
+            </div>
+        </div>
+        <div class="top-bar-right">
+            <nav class="nav-tabs">
+                <a href="index.html" class="nav-tab">Dashboard</a>
+                <a href="agents.html" class="nav-tab">Agents</a>
+                <a href="sales-advisor-v2.html" class="nav-tab active">Advisor</a>
+                <a href="prospecting-dashboard.html" class="nav-tab">Prospecting</a>
+            </nav>
+            <span class="timer" id="sessionTimer">12:34</span>
+        </div>
+    </header>
+
+    <!-- Main 3-Column Layout -->
+    <main class="main-layout">
+        <!-- Left Panel: Customer 360 -->
+        <aside class="panel">
+            <div class="panel-header">
+                <h2>Customer 360</h2>
+                <span class="panel-badge badge-live">Live</span>
+            </div>
+            <div class="panel-body">
+                <div class="customer-card">
+                    <div class="avatar">RM</div>
+                    <div>
+                        <div class="customer-name">Rohan Mehta</div>
+                        <div class="customer-meta">Budget: &#8377;18L-&#8377;28L <span class="lead-score">91</span></div>
+                    </div>
+                </div>
+
+                <div class="section-label">Contact</div>
+                <div class="info-row"><span class="info-label">Email</span><span class="info-value">rohan.mehta@email.com</span></div>
+                <div class="info-row"><span class="info-label">Phone</span><span class="info-value">+91 98220 45678</span></div>
+                <div class="info-row"><span class="info-label">Location</span><span class="info-value">Pune, MH</span></div>
+                <div class="info-row"><span class="info-label">Daily Drive</span><span class="info-value">~45 km/day</span></div>
+
+                <div class="section-label">Recent Activity</div>
+                <div class="activity-item">
+                    <span class="activity-time">2h ago</span>
+                    <span class="activity-text">Configured Mahindra BE 6 Pack Three (4x)</span>
+                </div>
+                <div class="activity-item">
+                    <span class="activity-time">1d ago</span>
+                    <span class="activity-text">Compared XEV 9e vs XUV700</span>
+                </div>
+                <div class="activity-item">
+                    <span class="activity-time">3d ago</span>
+                    <span class="activity-text">Read "EV Running Cost vs Petrol"</span>
+                </div>
+                <div class="activity-item">
+                    <span class="activity-time">1w ago</span>
+                    <span class="activity-text">Booked test drive slot</span>
+                </div>
+
+                <div class="section-label">Preferences</div>
+                <div class="tag-group">
+                    <span class="tag">SUV</span>
+                    <span class="tag">EV-Curious</span>
+                    <span class="tag">Long Range</span>
+                    <span class="tag">Tech</span>
+                    <span class="tag">5-Star Safety</span>
+                    <span class="tag">Low Running Cost</span>
+                </div>
+
+                <div class="insight-box">
+                    <div class="insight-label">AI Insight</div>
+                    First-time EV consideration with high intent. Attracted to low running cost and tech, but has range &amp; charging concerns. Compare BE 6 / XEV 9e against XUV700 on 5-year cost of ownership to convert.
+                </div>
+            </div>
+        </aside>
+
+        <!-- Center Panel: Recommendations -->
+        <section class="panel center-panel">
+            <div class="panel-header">
+                <h2>AI Recommendations</h2>
+                <span class="panel-badge badge-ai">AI Powered</span>
+            </div>
+            <div class="panel-body">
+                <!-- Vehicle Matches -->
+                <div class="rec-card">
+                    <div class="rec-card-header">
+                        <span class="rec-card-title"><span class="icon">&#128663;</span> Mahindra Matches &middot; EV &amp; ICE</span>
+                        <span class="confidence">96% confidence</span>
+                    </div>
+                    <div class="rec-card-body">
+                        <div class="powertrain-toggle" style="padding: 0 0.75rem 0.35rem;">
+                            <span class="pt-chip pt-ev">&#9889; Electric</span>
+                        </div>
+                        <div class="vehicle-item">
+                            <div class="vehicle-rank">1</div>
+                            <div class="vehicle-info">
+                                <div class="vehicle-name">Mahindra XEV 9e Pack Three</div>
+                                <div class="vehicle-specs">&#8377;30.50L | 79 kWh | 656 km range | 282 bhp</div>
+                                <div class="vehicle-tags">
+                                    <span class="vtag">Electric</span>
+                                    <span class="vtag">Best Range</span>
+                                    <span class="vtag">5-Star NCAP</span>
+                                </div>
+                            </div>
+                            <button class="btn-present" onclick="presentVehicle(this, 'Mahindra XEV 9e Pack Three')">Present</button>
+                        </div>
+                        <div class="vehicle-item">
+                            <div class="vehicle-rank">2</div>
+                            <div class="vehicle-info">
+                                <div class="vehicle-name">Mahindra BE 6 Pack Two</div>
+                                <div class="vehicle-specs">&#8377;23.50L | 79 kWh | 683 km range | 0-100 in 6.7s</div>
+                                <div class="vehicle-tags">
+                                    <span class="vtag">Electric</span>
+                                    <span class="vtag">In Budget</span>
+                                    <span class="vtag">Sporty RWD</span>
+                                </div>
+                            </div>
+                            <button class="btn-present" onclick="presentVehicle(this, 'Mahindra BE 6 Pack Two')">Present</button>
+                        </div>
+                        <div class="powertrain-toggle" style="padding: 0.5rem 0.75rem 0.35rem;">
+                            <span class="pt-chip pt-ice">&#9981; Petrol / Diesel</span>
+                        </div>
+                        <div class="vehicle-item">
+                            <div class="vehicle-rank">3</div>
+                            <div class="vehicle-info">
+                                <div class="vehicle-name">Mahindra XUV700 AX7 L</div>
+                                <div class="vehicle-specs">&#8377;24.99L | 2.0L Turbo / 2.2L Diesel | 13-15 kmpl | 7-seat</div>
+                                <div class="vehicle-tags">
+                                    <span class="vtag">ICE</span>
+                                    <span class="vtag">7-Seater</span>
+                                    <span class="vtag">ADAS</span>
+                                </div>
+                            </div>
+                            <button class="btn-present" onclick="presentVehicle(this, 'Mahindra XUV700 AX7 L')">Present</button>
+                        </div>
+                        <div class="vehicle-item">
+                            <div class="vehicle-rank">4</div>
+                            <div class="vehicle-info">
+                                <div class="vehicle-name">Mahindra Scorpio-N Z8 L</div>
+                                <div class="vehicle-specs">&#8377;24.54L | 2.2L Diesel 4x4 | 14-15 kmpl | Rugged</div>
+                                <div class="vehicle-tags">
+                                    <span class="vtag">ICE</span>
+                                    <span class="vtag">4XPLOR 4WD</span>
+                                    <span class="vtag">Towing</span>
+                                </div>
+                            </div>
+                            <button class="btn-present" onclick="presentVehicle(this, 'Mahindra Scorpio-N Z8 L')">Present</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EV vs ICE Comparison -->
+                <div class="rec-card">
+                    <div class="rec-card-header">
+                        <span class="rec-card-title"><span class="icon">&#9878;</span> EV vs ICE &middot; Side-by-Side</span>
+                        <span class="confidence">For Rohan's use</span>
+                    </div>
+                    <div class="rec-card-body">
+                        <table class="compare-table">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>XEV 9e (EV)</th>
+                                    <th>XUV700 (ICE)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Ex-showroom</td>
+                                    <td class="col-ice">&#8377;30.50L</td>
+                                    <td class="col-ice">&#8377;24.99L</td>
+                                </tr>
+                                <tr>
+                                    <td>Running cost / km</td>
+                                    <td class="col-ev">~&#8377;1.3 <span class="compare-winner">EV</span></td>
+                                    <td class="col-ice">~&#8377;7.5</td>
+                                </tr>
+                                <tr>
+                                    <td>Fuel / energy / yr*</td>
+                                    <td class="col-ev">~&#8377;21,000 <span class="compare-winner">EV</span></td>
+                                    <td class="col-ice">~&#8377;1,20,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Range / tank</td>
+                                    <td class="col-ev">656 km</td>
+                                    <td class="col-ice">~600 km</td>
+                                </tr>
+                                <tr>
+                                    <td>0-100 km/h</td>
+                                    <td class="col-ev">6.8s <span class="compare-winner">EV</span></td>
+                                    <td class="col-ice">9.5s</td>
+                                </tr>
+                                <tr>
+                                    <td>Annual maintenance</td>
+                                    <td class="col-ev">~&#8377;4,000 <span class="compare-winner">EV</span></td>
+                                    <td class="col-ice">~&#8377;18,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Road tax (MH)</td>
+                                    <td class="col-ev">Waived / low <span class="compare-winner">EV</span></td>
+                                    <td class="col-ice">Full</td>
+                                </tr>
+                                <tr>
+                                    <td>Refuel time</td>
+                                    <td class="col-ice">20 min (DC) / overnight</td>
+                                    <td class="col-ev">5 min <span class="compare-winner" style="background:rgba(245,158,11,0.15);color:var(--warning);">ICE</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div style="font-size:0.68rem;color:var(--text-dim);padding:0.5rem 0.6rem 0;">*Based on ~15,000 km/yr, &#8377;3.5/unit home charging vs petrol at &#8377;105/L.</div>
+                    </div>
+                </div>
+
+                <!-- Why Choose EV -->
+                <div class="rec-card">
+                    <div class="rec-card-header">
+                        <span class="rec-card-title"><span class="icon">&#9889;</span> Why Rohan Should Go Electric</span>
+                        <span class="confidence">Sales angle</span>
+                    </div>
+                    <div class="rec-card-body">
+                        <div class="savings-banner" style="margin-bottom:0.75rem;">
+                            <span class="sb-label">Est. 5-year running-cost saving vs XUV700</span>
+                            <span class="sb-value">~&#8377;5.5 Lakh</span>
+                        </div>
+                        <div class="why-ev-grid">
+                            <div class="benefit-item">
+                                <span class="benefit-icon">&#128176;</span>
+                                <div>
+                                    <div class="benefit-title">Massive fuel savings</div>
+                                    <div class="benefit-detail">At 45 km/day, home charging costs <strong>~&#8377;1.3/km</strong> vs ~&#8377;7.5/km on petrol - pays back the price gap in ~3 years.</div>
+                                </div>
+                            </div>
+                            <div class="benefit-item">
+                                <span class="benefit-icon">&#128295;</span>
+                                <div>
+                                    <div class="benefit-title">Low maintenance</div>
+                                    <div class="benefit-detail">No oil changes, fewer moving parts - <strong>~75% lower</strong> annual service cost, plus battery warranty coverage.</div>
+                                </div>
+                            </div>
+                            <div class="benefit-item">
+                                <span class="benefit-icon">&#127950;</span>
+                                <div>
+                                    <div class="benefit-title">Effortless performance</div>
+                                    <div class="benefit-detail">Instant torque, <strong>6.8s 0-100</strong>, single-pedal drive and near-silent cabin - a clear test-drive "wow" moment.</div>
+                                </div>
+                            </div>
+                            <div class="benefit-item">
+                                <span class="benefit-icon">&#127793;</span>
+                                <div>
+                                    <div class="benefit-title">Incentives &amp; tax breaks</div>
+                                    <div class="benefit-detail">Road-tax waiver, lower registration and green plates in Maharashtra - <strong>real on-road savings</strong> today.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Conversation Starters -->
+                <div class="rec-card">
+                    <div class="rec-card-header">
+                        <span class="rec-card-title"><span class="icon">&#128172;</span> Talk Tracks</span>
+                        <span class="confidence">Personalized</span>
+                    </div>
+                    <div class="rec-card-body" style="display: flex; flex-direction: column; gap: 0.6rem;">
+                        <div class="talk-track">"You've been configuring the BE 6. With your 45 km daily drive, an EV could cut your fuel bill by over 80% - shall I show you the numbers?"</div>
+                        <div class="talk-track">"Range anxiety is the top concern I hear. The XEV 9e does 656 km on a charge - that's nearly a week of your driving between plug-ins."</div>
+                        <div class="talk-track">"If you're not ready for electric, the XUV700 gives you 7 seats and ADAS. Let's compare both on total cost of ownership so you decide with full clarity."</div>
+                        <div class="talk-track">"Would you like to test drive the BE 6 today? That instant torque is something you have to feel to believe."</div>
+                    </div>
+                </div>
+
+                <!-- Cross-Sell -->
+                <div class="rec-card">
+                    <div class="rec-card-header">
+                        <span class="rec-card-title"><span class="icon">&#128176;</span> Cross-Sell Opportunities</span>
+                    </div>
+                    <div class="rec-card-body" style="display: flex; flex-direction: column; gap: 0.4rem;">
+                        <div class="cross-sell-row">
+                            <div class="cross-sell-info">
+                                <div class="cross-sell-name">7.2 kW Home AC Charger + Install</div>
+                                <div class="cross-sell-detail">&#8377;55,000</div>
+                            </div>
+                            <div class="probability-bar">
+                                <div class="prob-fill"><div class="prob-fill-inner" style="width: 84%"></div></div>
+                                <span class="prob-text">84%</span>
+                            </div>
+                        </div>
+                        <div class="cross-sell-row">
+                            <div class="cross-sell-info">
+                                <div class="cross-sell-name">Extended Battery Warranty (10yr)</div>
+                                <div class="cross-sell-detail">&#8377;42,000</div>
+                            </div>
+                            <div class="probability-bar">
+                                <div class="prob-fill"><div class="prob-fill-inner" style="width: 71%"></div></div>
+                                <span class="prob-text">71%</span>
+                            </div>
+                        </div>
+                        <div class="cross-sell-row">
+                            <div class="cross-sell-info">
+                                <div class="cross-sell-name">Mahindra Shield Service Plan</div>
+                                <div class="cross-sell-detail">&#8377;38,000</div>
+                            </div>
+                            <div class="probability-bar">
+                                <div class="prob-fill"><div class="prob-fill-inner" style="width: 58%"></div></div>
+                                <span class="prob-text">58%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Right Panel: Live Assistance -->
+        <aside class="panel">
+            <div class="panel-header">
+                <h2>Live Assistance</h2>
+                <span class="panel-badge badge-active">Active</span>
+            </div>
+            <div class="panel-body">
+                <!-- Current Objection -->
+                <div class="objection-alert">
+                    <div class="objection-label">Detected Objection</div>
+                    <div class="objection-quote">"I'm worried about charging and running out of range on longer trips"</div>
+                </div>
+
+                <!-- AI Response -->
+                <div class="ai-response-card">
+                    <div class="ai-response-label">
+                        <span class="ai-tag">AI Suggested Response</span>
+                        <span class="success-rate">89% success rate</span>
+                    </div>
+                    <div class="ai-response-text">
+                        <strong>Range-Confidence Approach:</strong> "That's the #1 question I get. The XEV 9e delivers <strong>656 km</strong> on a full charge - about a week of your driving. You'll charge overnight at home like a phone, and a DC fast charger adds <strong>~250 km in 20 minutes</strong> on highways. Plus you save roughly <strong>&#8377;1L/year</strong> on fuel."
+                    </div>
+                    <div class="response-btns">
+                        <button class="btn-use" onclick="useResponse(this)">Use This</button>
+                        <button class="btn-alt">Alternative</button>
+                    </div>
+                </div>
+
+                <div class="section-label">Competitive Intel</div>
+                <div class="compete-card">
+                    <div class="compete-header">
+                        <span class="compete-name">XEV 9e vs Tata Harrier EV</span>
+                        <span class="win-badge">Win: 61%</span>
+                    </div>
+                    <ul class="compete-list">
+                        <li>Longer range (656 km vs ~627 km)</li>
+                        <li class="weaker">Less power (282 bhp vs 390 bhp)</li>
+                        <li>Triple-screen INGLO cockpit</li>
+                        <li>Level 2+ ADAS suite</li>
+                    </ul>
+                </div>
+                <div class="compete-card" style="margin-top:0.6rem;">
+                    <div class="compete-header">
+                        <span class="compete-name">EV pick vs own XUV700</span>
+                        <span class="win-badge">TCO Win</span>
+                    </div>
+                    <ul class="compete-list">
+                        <li>~&#8377;5.5L saved over 5 years</li>
+                        <li>Instant torque, quieter cabin</li>
+                        <li>Road-tax waiver in MH</li>
+                        <li>Free home-charger install offer</li>
+                    </ul>
+                </div>
+
+                <div class="section-label">EV Value Snapshot</div>
+                <div class="stat-grid">
+                    <div class="mini-stat">
+                        <div class="mini-stat-value">&#8377;1.3</div>
+                        <div class="mini-stat-label">Cost / km</div>
+                    </div>
+                    <div class="mini-stat">
+                        <div class="mini-stat-value">656 km</div>
+                        <div class="mini-stat-label">Range</div>
+                    </div>
+                    <div class="mini-stat">
+                        <div class="mini-stat-value">20 min</div>
+                        <div class="mini-stat-label">20-80% DC</div>
+                    </div>
+                    <div class="mini-stat">
+                        <div class="mini-stat-value">2</div>
+                        <div class="mini-stat-label">In Stock</div>
+                    </div>
+                </div>
+
+                <div class="section-label">Eligible Incentives</div>
+                <div class="incentive-row eligible">
+                    <span class="incentive-check">&#10003;</span>
+                    <div class="incentive-info">
+                        <div class="incentive-name">MH EV Road-Tax Waiver</div>
+                        <div class="incentive-amount">Saves ~&#8377;2.5L on-road</div>
+                    </div>
+                </div>
+                <div class="incentive-row eligible">
+                    <span class="incentive-check">&#10003;</span>
+                    <div class="incentive-info">
+                        <div class="incentive-name">Complimentary Home Charger</div>
+                        <div class="incentive-amount">7.2 kW AC + install this month</div>
+                    </div>
+                </div>
+                <div class="incentive-row eligible">
+                    <span class="incentive-check">&#10003;</span>
+                    <div class="incentive-info">
+                        <div class="incentive-name">Corporate / Loyalty Bonus</div>
+                        <div class="incentive-amount">&#8377;25,000 exchange bonus</div>
+                    </div>
+                </div>
+                <div class="incentive-row ineligible">
+                    <span class="incentive-check">&#x25CB;</span>
+                    <div class="incentive-info">
+                        <div class="incentive-name">FAME Fleet Subsidy</div>
+                        <div class="incentive-amount">Personal buyer - Not eligible</div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Bottom Action Log -->
+    <footer class="bottom-bar">
+        <span class="log-label">AI Log</span>
+        <div class="log-items" id="logItems">
+            <div class="log-item"><span class="log-dot"></span><span class="log-time">12:34</span> Analyzed profile - EV-curious, high intent</div>
+            <div class="log-item"><span class="log-dot"></span><span class="log-time">12:34</span> Matched 2 EV + 2 ICE Mahindra models (96%)</div>
+            <div class="log-item"><span class="log-dot"></span><span class="log-time">12:34</span> Objection detected: range/charging</div>
+            <div class="log-item"><span class="log-dot"></span><span class="log-time">12:34</span> Built EV vs ICE 5-yr TCO comparison</div>
+            <div class="log-item"><span class="log-dot"></span><span class="log-time">12:33</span> Found EV incentives (~&#8377;2.75L)</div>
+        </div>
+    </footer>
+
+    <script>
+        let sessionSeconds = 754;
+        function updateTimer() {
+            sessionSeconds++;
+            const m = Math.floor(sessionSeconds / 60);
+            const s = sessionSeconds % 60;
+            document.getElementById('sessionTimer').textContent = `${m}:${s.toString().padStart(2, '0')}`;
+        }
+        setInterval(updateTimer, 1000);
+
+        function presentVehicle(btn, name) {
+            btn.textContent = 'Sent';
+            btn.classList.add('used');
+            addLog(`Presented ${name}`);
+            setTimeout(() => { btn.textContent = 'Present'; btn.classList.remove('used'); }, 3000);
+        }
+
+        function useResponse(btn) {
+            btn.textContent = 'Used';
+            btn.style.background = 'var(--success)';
+            addLog('Used AI objection response');
+            setTimeout(() => { btn.textContent = 'Use This'; btn.style.background = ''; }, 2500);
+        }
+
+        function addLog(msg) {
+            const container = document.getElementById('logItems');
+            const now = new Date();
+            const time = `${now.getHours()}:${now.getMinutes().toString().padStart(2, '0')}`;
+            const item = document.createElement('div');
+            item.className = 'log-item';
+            item.innerHTML = `<span class="log-dot"></span><span class="log-time">${time}</span> ${msg}`;
+            container.insertBefore(item, container.firstChild);
+            if (container.children.length > 8) container.removeChild(container.lastChild);
+        }
+
+        const autoLogs = [
+            'Customer engagement score: 94',
+            'Inventory check: 2 XEV 9e, 3 BE 6 units',
+            'Customer opened EV running-cost calc',
+            'Confidence updated to 97%',
+            'Nearby DC fast-chargers mapped: 12',
+            'Reminder: book BE 6 test drive'
+        ];
+        let logIdx = 0;
+        setInterval(() => {
+            addLog(autoLogs[logIdx % autoLogs.length]);
+            logIdx++;
+        }, 10000);
+    </script>
+</body>
+</html>

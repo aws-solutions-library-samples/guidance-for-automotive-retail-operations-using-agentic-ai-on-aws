@@ -1,0 +1,222 @@
+[
+  {
+    "amount": 184,
+    "currency": "USD",
+    "customer_id": "C-US-J1",
+    "declined_at": "2026-09-10T04:16:45Z",
+    "declined_id": "DW-US-00001",
+    "estimate_id": "EST-US-00001",
+    "item": "Alignment",
+    "service_journey_id": "SJ-US-00001",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 82,
+    "currency": "USD",
+    "customer_id": "C-US-J6",
+    "declined_at": "2026-09-10T08:00:00Z",
+    "declined_id": "DW-US-00002",
+    "estimate_id": "EST-US-00003",
+    "item": "Cabin filter",
+    "service_journey_id": "SJ-US-00003",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 229,
+    "currency": "USD",
+    "customer_id": "C-US-00004",
+    "declined_at": "2026-09-10T08:00:00Z",
+    "declined_id": "DW-US-00003",
+    "estimate_id": "EST-US-00006",
+    "item": "Coolant flush",
+    "service_journey_id": "SJ-US-00006",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 200,
+    "currency": "USD",
+    "customer_id": "C-US-00502",
+    "declined_at": "2026-08-12T19:04:06Z",
+    "declined_id": "DW-US-00004",
+    "estimate_id": "EST-US-00010",
+    "item": "Alignment",
+    "service_journey_id": "SJ-US-00010",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 381,
+    "currency": "USD",
+    "customer_id": "C-US-00241",
+    "declined_at": "2026-09-10T08:00:00Z",
+    "declined_id": "DW-US-00005",
+    "estimate_id": "EST-US-00011",
+    "item": "Rear brakes",
+    "service_journey_id": "SJ-US-00011",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 164,
+    "currency": "USD",
+    "customer_id": "C-US-00106",
+    "declined_at": "2026-08-18T10:50:24Z",
+    "declined_id": "DW-US-00006",
+    "estimate_id": "EST-US-00012",
+    "item": "Alignment",
+    "service_journey_id": "SJ-US-00012",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 177,
+    "currency": "USD",
+    "customer_id": "C-US-00338",
+    "declined_at": "2026-07-20T15:22:04Z",
+    "declined_id": "DW-US-00007",
+    "estimate_id": "EST-US-00013",
+    "item": "Coolant flush",
+    "service_journey_id": "SJ-US-00013",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 140,
+    "currency": "USD",
+    "customer_id": "C-US-00535",
+    "declined_at": "2026-09-08T23:16:49Z",
+    "declined_id": "DW-US-00008",
+    "estimate_id": "EST-US-00017",
+    "item": "Alignment",
+    "service_journey_id": "SJ-US-00017",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 98,
+    "currency": "USD",
+    "customer_id": "C-US-00125",
+    "declined_at": "2026-09-08T18:44:28Z",
+    "declined_id": "DW-US-00009",
+    "estimate_id": "EST-US-00020",
+    "item": "Cabin filter",
+    "service_journey_id": "SJ-US-00020",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 91,
+    "currency": "USD",
+    "customer_id": "C-US-00178",
+    "declined_at": "2026-09-10T08:00:00Z",
+    "declined_id": "DW-US-00010",
+    "estimate_id": "EST-US-00022",
+    "item": "Cabin filter",
+    "service_journey_id": "SJ-US-00022",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 211,
+    "currency": "USD",
+    "customer_id": "C-US-00142",
+    "declined_at": "2026-09-10T08:00:00Z",
+    "declined_id": "DW-US-00011",
+    "estimate_id": "EST-US-00027",
+    "item": "Alignment",
+    "service_journey_id": "SJ-US-00027",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 109,
+    "currency": "USD",
+    "customer_id": "C-US-00210",
+    "declined_at": "2026-09-09T01:19:58Z",
+    "declined_id": "DW-US-00012",
+    "estimate_id": "EST-US-00028",
+    "item": "Cabin filter",
+    "service_journey_id": "SJ-US-00028",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 172,
+    "currency": "USD",
+    "customer_id": "C-US-00314",
+    "declined_at": "2026-09-10T08:00:00Z",
+    "declined_id": "DW-US-00013",
+    "estimate_id": "EST-US-00030",
+    "item": "Coolant flush",
+    "service_journey_id": "SJ-US-00030",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 207,
+    "currency": "USD",
+    "customer_id": "C-US-00246",
+    "declined_at": "2026-09-10T08:00:00Z",
+    "declined_id": "DW-US-00014",
+    "estimate_id": "EST-US-00031",
+    "item": "Alignment",
+    "service_journey_id": "SJ-US-00031",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 63,
+    "currency": "USD",
+    "customer_id": "C-US-00262",
+    "declined_at": "2026-08-20T23:32:34Z",
+    "declined_id": "DW-US-00015",
+    "estimate_id": "EST-US-00034",
+    "item": "Cabin filter",
+    "service_journey_id": "SJ-US-00034",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 107,
+    "currency": "USD",
+    "customer_id": "C-US-00070",
+    "declined_at": "2026-09-10T08:00:00Z",
+    "declined_id": "DW-US-00016",
+    "estimate_id": "EST-US-00035",
+    "item": "Cabin filter",
+    "service_journey_id": "SJ-US-00035",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 144,
+    "currency": "USD",
+    "customer_id": "C-US-00033",
+    "declined_at": "2026-09-10T08:00:00Z",
+    "declined_id": "DW-US-00017",
+    "estimate_id": "EST-US-00037",
+    "item": "Alignment",
+    "service_journey_id": "SJ-US-00037",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 223,
+    "currency": "USD",
+    "customer_id": "C-US-00433",
+    "declined_at": "2026-09-05T17:10:29Z",
+    "declined_id": "DW-US-00018",
+    "estimate_id": "EST-US-00043",
+    "item": "Coolant flush",
+    "service_journey_id": "SJ-US-00043",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 193,
+    "currency": "USD",
+    "customer_id": "C-US-00199",
+    "declined_at": "2026-09-10T08:00:00Z",
+    "declined_id": "DW-US-00019",
+    "estimate_id": "EST-US-00044",
+    "item": "Coolant flush",
+    "service_journey_id": "SJ-US-00044",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 164,
+    "currency": "USD",
+    "customer_id": "C-US-00548",
+    "declined_at": "2026-08-30T03:03:53Z",
+    "declined_id": "DW-US-00020",
+    "estimate_id": "EST-US-00048",
+    "item": "Coolant flush",
+    "service_journey_id": "SJ-US-00048",
+    "source_ref": "synthetic:declined_work"
+  }
+]

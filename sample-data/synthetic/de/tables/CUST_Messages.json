@@ -1,0 +1,2442 @@
+[
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "email",
+    "customer_id": "C-DE-J1",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00001",
+    "sent_at": "2026-09-08T19:43:00Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "chat",
+    "customer_id": "C-DE-J4",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00002",
+    "sent_at": "2026-08-19T08:43:45Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "email",
+    "customer_id": "C-DE-J5",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00003",
+    "sent_at": "2026-08-16T10:24:13Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "chat",
+    "customer_id": "C-DE-J6",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00004",
+    "sent_at": "2026-08-29T02:33:09Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-J9",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00005",
+    "sent_at": "2026-08-21T20:26:46Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00001",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00006",
+    "sent_at": "2026-09-05T02:50:45Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "chat",
+    "customer_id": "C-DE-00002",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00007",
+    "sent_at": "2026-08-15T17:52:01Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "email",
+    "customer_id": "C-DE-00003",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00008",
+    "sent_at": "2026-08-27T21:04:03Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "sms",
+    "customer_id": "C-DE-00007",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00009",
+    "sent_at": "2026-08-12T19:59:59Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "email",
+    "customer_id": "C-DE-00010",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00010",
+    "sent_at": "2026-09-04T14:42:17Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00012",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00011",
+    "sent_at": "2026-08-23T07:06:46Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "chat",
+    "customer_id": "C-DE-00013",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00012",
+    "sent_at": "2026-08-22T17:31:55Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00014",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00013",
+    "sent_at": "2026-08-21T12:34:36Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "chat",
+    "customer_id": "C-DE-00015",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00014",
+    "sent_at": "2026-09-01T02:47:27Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "sms",
+    "customer_id": "C-DE-00016",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00015",
+    "sent_at": "2026-08-19T15:18:56Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "email",
+    "customer_id": "C-DE-00019",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00016",
+    "sent_at": "2026-09-01T23:28:27Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00021",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00017",
+    "sent_at": "2026-08-11T18:02:18Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00024",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00018",
+    "sent_at": "2026-08-21T11:56:09Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "sms",
+    "customer_id": "C-DE-00026",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00019",
+    "sent_at": "2026-08-16T18:55:41Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "chat",
+    "customer_id": "C-DE-00027",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00020",
+    "sent_at": "2026-09-02T20:13:45Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "email",
+    "customer_id": "C-DE-00029",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00021",
+    "sent_at": "2026-08-24T16:22:14Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "email",
+    "customer_id": "C-DE-00032",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00022",
+    "sent_at": "2026-08-18T21:30:57Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "chat",
+    "customer_id": "C-DE-00033",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00023",
+    "sent_at": "2026-08-28T09:02:14Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00035",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00024",
+    "sent_at": "2026-08-25T19:24:25Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00036",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00025",
+    "sent_at": "2026-09-06T23:22:52Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "sms",
+    "customer_id": "C-DE-00038",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00026",
+    "sent_at": "2026-08-28T23:41:20Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00044",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00027",
+    "sent_at": "2026-08-14T15:38:29Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00045",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00028",
+    "sent_at": "2026-08-15T03:49:31Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "chat",
+    "customer_id": "C-DE-00046",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00029",
+    "sent_at": "2026-09-07T18:32:52Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00047",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00030",
+    "sent_at": "2026-09-07T08:05:05Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00049",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00031",
+    "sent_at": "2026-09-01T14:41:08Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "email",
+    "customer_id": "C-DE-00050",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00032",
+    "sent_at": "2026-09-10T07:16:49Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00056",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00033",
+    "sent_at": "2026-08-14T12:48:29Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00057",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00034",
+    "sent_at": "2026-08-26T23:39:18Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "email",
+    "customer_id": "C-DE-00058",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00035",
+    "sent_at": "2026-09-08T10:44:02Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00060",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00036",
+    "sent_at": "2026-09-04T00:25:35Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00064",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00037",
+    "sent_at": "2026-09-02T03:07:27Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "chat",
+    "customer_id": "C-DE-00067",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00038",
+    "sent_at": "2026-08-27T13:52:42Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00068",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00039",
+    "sent_at": "2026-08-26T19:03:23Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "chat",
+    "customer_id": "C-DE-00075",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00040",
+    "sent_at": "2026-08-31T09:11:03Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00077",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00041",
+    "sent_at": "2026-08-25T06:23:22Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00081",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00042",
+    "sent_at": "2026-08-18T14:54:22Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "chat",
+    "customer_id": "C-DE-00082",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00043",
+    "sent_at": "2026-08-16T20:58:30Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "sms",
+    "customer_id": "C-DE-00086",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00044",
+    "sent_at": "2026-08-18T07:26:24Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00088",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00045",
+    "sent_at": "2026-08-13T18:29:08Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00091",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00046",
+    "sent_at": "2026-08-14T06:42:22Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "email",
+    "customer_id": "C-DE-00093",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00047",
+    "sent_at": "2026-09-06T23:47:48Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "chat",
+    "customer_id": "C-DE-00094",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00048",
+    "sent_at": "2026-08-13T20:19:07Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "chat",
+    "customer_id": "C-DE-00099",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00049",
+    "sent_at": "2026-08-27T09:29:28Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "sms",
+    "customer_id": "C-DE-00105",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00050",
+    "sent_at": "2026-08-19T13:04:51Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "sms",
+    "customer_id": "C-DE-00108",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00051",
+    "sent_at": "2026-09-06T12:43:04Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "sms",
+    "customer_id": "C-DE-00109",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00052",
+    "sent_at": "2026-08-29T03:20:07Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00112",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00053",
+    "sent_at": "2026-09-08T02:15:34Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "chat",
+    "customer_id": "C-DE-00113",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00054",
+    "sent_at": "2026-08-26T05:04:46Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "sms",
+    "customer_id": "C-DE-00114",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00055",
+    "sent_at": "2026-08-11T16:18:42Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "email",
+    "customer_id": "C-DE-00115",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00056",
+    "sent_at": "2026-09-01T23:46:16Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "sms",
+    "customer_id": "C-DE-00116",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00057",
+    "sent_at": "2026-09-06T00:31:04Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00119",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00058",
+    "sent_at": "2026-09-08T18:51:58Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00120",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00059",
+    "sent_at": "2026-08-18T11:42:49Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "chat",
+    "customer_id": "C-DE-00124",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00060",
+    "sent_at": "2026-08-22T22:59:05Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "email",
+    "customer_id": "C-DE-00125",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00061",
+    "sent_at": "2026-08-21T20:40:21Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "chat",
+    "customer_id": "C-DE-00127",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00062",
+    "sent_at": "2026-08-26T19:23:03Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "email",
+    "customer_id": "C-DE-00128",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00063",
+    "sent_at": "2026-08-31T21:58:03Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "chat",
+    "customer_id": "C-DE-00130",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00064",
+    "sent_at": "2026-09-05T01:46:16Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00131",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00065",
+    "sent_at": "2026-08-25T00:15:13Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "email",
+    "customer_id": "C-DE-00134",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00066",
+    "sent_at": "2026-09-08T07:44:43Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00135",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00067",
+    "sent_at": "2026-08-24T15:28:06Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "email",
+    "customer_id": "C-DE-00138",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00068",
+    "sent_at": "2026-08-13T13:39:01Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00139",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00069",
+    "sent_at": "2026-08-31T01:20:11Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "chat",
+    "customer_id": "C-DE-00140",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00070",
+    "sent_at": "2026-08-26T11:31:13Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "chat",
+    "customer_id": "C-DE-00141",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00071",
+    "sent_at": "2026-08-22T22:16:36Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "sms",
+    "customer_id": "C-DE-00142",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00072",
+    "sent_at": "2026-08-18T09:43:22Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00144",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00073",
+    "sent_at": "2026-09-08T00:33:19Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00146",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00074",
+    "sent_at": "2026-08-30T01:24:40Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "chat",
+    "customer_id": "C-DE-00148",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00075",
+    "sent_at": "2026-08-18T19:33:58Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "chat",
+    "customer_id": "C-DE-00149",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00076",
+    "sent_at": "2026-08-11T17:23:15Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00150",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00077",
+    "sent_at": "2026-09-01T01:16:57Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "sms",
+    "customer_id": "C-DE-00151",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00078",
+    "sent_at": "2026-08-23T11:37:57Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "email",
+    "customer_id": "C-DE-00152",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00079",
+    "sent_at": "2026-08-14T10:36:02Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00154",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00080",
+    "sent_at": "2026-09-10T06:57:43Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "sms",
+    "customer_id": "C-DE-00157",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00081",
+    "sent_at": "2026-08-24T11:15:12Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00161",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00082",
+    "sent_at": "2026-09-06T19:28:17Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "email",
+    "customer_id": "C-DE-00162",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00083",
+    "sent_at": "2026-08-21T13:40:45Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "email",
+    "customer_id": "C-DE-00163",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00084",
+    "sent_at": "2026-08-30T11:30:24Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00164",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00085",
+    "sent_at": "2026-09-06T00:55:50Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00167",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00086",
+    "sent_at": "2026-09-08T14:39:11Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00170",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00087",
+    "sent_at": "2026-09-04T04:42:13Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "email",
+    "customer_id": "C-DE-00172",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00088",
+    "sent_at": "2026-09-03T13:04:51Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "email",
+    "customer_id": "C-DE-00173",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00089",
+    "sent_at": "2026-09-09T18:23:42Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "email",
+    "customer_id": "C-DE-00175",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00090",
+    "sent_at": "2026-08-16T02:31:19Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00177",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00091",
+    "sent_at": "2026-08-23T22:50:13Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "sms",
+    "customer_id": "C-DE-00181",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00092",
+    "sent_at": "2026-08-28T17:13:23Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00182",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00093",
+    "sent_at": "2026-08-16T03:56:51Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "sms",
+    "customer_id": "C-DE-00187",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00094",
+    "sent_at": "2026-08-19T06:29:05Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00188",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00095",
+    "sent_at": "2026-09-02T06:15:00Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00189",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00096",
+    "sent_at": "2026-08-18T16:30:28Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00190",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00097",
+    "sent_at": "2026-08-22T13:55:15Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00192",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00098",
+    "sent_at": "2026-08-30T18:27:01Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00193",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00099",
+    "sent_at": "2026-09-07T00:58:31Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "chat",
+    "customer_id": "C-DE-00194",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00100",
+    "sent_at": "2026-08-24T09:10:55Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "sms",
+    "customer_id": "C-DE-00198",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00101",
+    "sent_at": "2026-09-05T02:32:25Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00200",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00102",
+    "sent_at": "2026-08-13T07:10:13Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00201",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00103",
+    "sent_at": "2026-09-03T03:03:29Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "email",
+    "customer_id": "C-DE-00202",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00104",
+    "sent_at": "2026-08-23T14:46:47Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00205",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00105",
+    "sent_at": "2026-09-02T00:16:54Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "sms",
+    "customer_id": "C-DE-00206",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00106",
+    "sent_at": "2026-08-18T14:39:58Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "sms",
+    "customer_id": "C-DE-00207",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00107",
+    "sent_at": "2026-08-30T18:52:03Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00209",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00108",
+    "sent_at": "2026-08-29T22:50:51Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "email",
+    "customer_id": "C-DE-00210",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00109",
+    "sent_at": "2026-09-07T20:23:12Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "email",
+    "customer_id": "C-DE-00211",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00110",
+    "sent_at": "2026-08-21T06:59:28Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "sms",
+    "customer_id": "C-DE-00212",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00111",
+    "sent_at": "2026-08-30T23:56:43Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "chat",
+    "customer_id": "C-DE-00213",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00112",
+    "sent_at": "2026-08-28T15:35:34Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00214",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00113",
+    "sent_at": "2026-08-31T05:34:47Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "sms",
+    "customer_id": "C-DE-00215",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00114",
+    "sent_at": "2026-09-05T12:01:58Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00217",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00115",
+    "sent_at": "2026-08-15T15:56:11Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "email",
+    "customer_id": "C-DE-00218",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00116",
+    "sent_at": "2026-08-23T09:46:48Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00223",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00117",
+    "sent_at": "2026-09-08T12:17:34Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "sms",
+    "customer_id": "C-DE-00224",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00118",
+    "sent_at": "2026-08-15T14:23:08Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00225",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00119",
+    "sent_at": "2026-09-01T16:59:06Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00226",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00120",
+    "sent_at": "2026-08-12T20:53:52Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "sms",
+    "customer_id": "C-DE-00229",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00121",
+    "sent_at": "2026-08-17T17:32:49Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "sms",
+    "customer_id": "C-DE-00231",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00122",
+    "sent_at": "2026-09-09T00:21:19Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "sms",
+    "customer_id": "C-DE-00232",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00123",
+    "sent_at": "2026-08-13T15:26:08Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00234",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00124",
+    "sent_at": "2026-08-27T17:17:51Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "chat",
+    "customer_id": "C-DE-00235",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00125",
+    "sent_at": "2026-08-30T15:50:07Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00237",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00126",
+    "sent_at": "2026-08-15T09:34:54Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "sms",
+    "customer_id": "C-DE-00238",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00127",
+    "sent_at": "2026-09-07T11:28:01Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "email",
+    "customer_id": "C-DE-00239",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00128",
+    "sent_at": "2026-08-12T12:00:41Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00241",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00129",
+    "sent_at": "2026-08-26T10:37:29Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00242",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00130",
+    "sent_at": "2026-09-09T18:48:12Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "sms",
+    "customer_id": "C-DE-00245",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00131",
+    "sent_at": "2026-09-03T00:28:48Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "email",
+    "customer_id": "C-DE-00246",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00132",
+    "sent_at": "2026-09-07T14:16:38Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00247",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00133",
+    "sent_at": "2026-08-13T07:42:34Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00252",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00134",
+    "sent_at": "2026-08-16T19:11:51Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00253",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00135",
+    "sent_at": "2026-08-12T16:33:40Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "email",
+    "customer_id": "C-DE-00255",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00136",
+    "sent_at": "2026-08-19T16:07:17Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "email",
+    "customer_id": "C-DE-00260",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00137",
+    "sent_at": "2026-08-14T04:45:57Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "sms",
+    "customer_id": "C-DE-00261",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00138",
+    "sent_at": "2026-08-26T02:47:43Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "email",
+    "customer_id": "C-DE-00262",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00139",
+    "sent_at": "2026-09-06T08:56:50Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "email",
+    "customer_id": "C-DE-00263",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00140",
+    "sent_at": "2026-08-31T19:00:56Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00264",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00141",
+    "sent_at": "2026-08-17T05:23:28Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "sms",
+    "customer_id": "C-DE-00266",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00142",
+    "sent_at": "2026-08-20T21:28:35Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00268",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00143",
+    "sent_at": "2026-09-06T10:01:00Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00269",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00144",
+    "sent_at": "2026-09-07T22:45:55Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "email",
+    "customer_id": "C-DE-00271",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00145",
+    "sent_at": "2026-08-22T11:26:27Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00273",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00146",
+    "sent_at": "2026-08-29T14:59:07Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "chat",
+    "customer_id": "C-DE-00275",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00147",
+    "sent_at": "2026-09-07T10:02:10Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "sms",
+    "customer_id": "C-DE-00276",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00148",
+    "sent_at": "2026-08-14T22:05:22Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00281",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00149",
+    "sent_at": "2026-09-05T14:33:17Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00285",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00150",
+    "sent_at": "2026-08-16T08:01:15Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00286",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00151",
+    "sent_at": "2026-09-05T22:02:20Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "sms",
+    "customer_id": "C-DE-00287",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00152",
+    "sent_at": "2026-08-24T05:59:47Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00291",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00153",
+    "sent_at": "2026-09-09T08:23:17Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00295",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00154",
+    "sent_at": "2026-09-06T19:34:05Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "chat",
+    "customer_id": "C-DE-00296",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00155",
+    "sent_at": "2026-08-12T04:02:22Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00298",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00156",
+    "sent_at": "2026-08-28T03:53:10Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "email",
+    "customer_id": "C-DE-00301",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00157",
+    "sent_at": "2026-08-22T21:51:06Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00306",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00158",
+    "sent_at": "2026-08-18T18:57:49Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00310",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00159",
+    "sent_at": "2026-08-11T14:17:09Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00311",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00160",
+    "sent_at": "2026-09-03T00:22:07Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00312",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00161",
+    "sent_at": "2026-08-20T15:54:55Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "email",
+    "customer_id": "C-DE-00313",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00162",
+    "sent_at": "2026-08-21T17:02:12Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "email",
+    "customer_id": "C-DE-00314",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00163",
+    "sent_at": "2026-08-26T20:03:26Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "chat",
+    "customer_id": "C-DE-00317",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00164",
+    "sent_at": "2026-08-26T04:41:10Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "email",
+    "customer_id": "C-DE-00322",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00165",
+    "sent_at": "2026-08-27T12:41:47Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "chat",
+    "customer_id": "C-DE-00324",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00166",
+    "sent_at": "2026-09-04T20:44:01Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00326",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00167",
+    "sent_at": "2026-09-01T19:24:58Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "sms",
+    "customer_id": "C-DE-00327",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00168",
+    "sent_at": "2026-08-27T22:22:08Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "chat",
+    "customer_id": "C-DE-00330",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00169",
+    "sent_at": "2026-08-21T12:43:24Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00331",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00170",
+    "sent_at": "2026-08-29T02:10:46Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00333",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00171",
+    "sent_at": "2026-09-09T20:29:37Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00335",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00172",
+    "sent_at": "2026-09-10T08:51:08Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00336",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00173",
+    "sent_at": "2026-08-14T02:34:24Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00337",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00174",
+    "sent_at": "2026-09-02T04:48:18Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "sms",
+    "customer_id": "C-DE-00338",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00175",
+    "sent_at": "2026-08-16T11:36:43Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "chat",
+    "customer_id": "C-DE-00339",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00176",
+    "sent_at": "2026-08-12T18:38:29Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00341",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00177",
+    "sent_at": "2026-08-23T01:15:21Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00343",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00178",
+    "sent_at": "2026-08-23T00:07:36Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00344",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00179",
+    "sent_at": "2026-08-26T20:54:39Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00345",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00180",
+    "sent_at": "2026-08-16T11:56:48Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00348",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00181",
+    "sent_at": "2026-08-12T10:36:08Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00352",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00182",
+    "sent_at": "2026-08-27T10:43:08Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "email",
+    "customer_id": "C-DE-00354",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00183",
+    "sent_at": "2026-08-24T10:47:40Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "email",
+    "customer_id": "C-DE-00355",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00184",
+    "sent_at": "2026-08-31T21:04:55Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "sms",
+    "customer_id": "C-DE-00357",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00185",
+    "sent_at": "2026-08-28T02:36:07Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00358",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00186",
+    "sent_at": "2026-09-06T15:50:09Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "chat",
+    "customer_id": "C-DE-00359",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00187",
+    "sent_at": "2026-08-17T23:41:12Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00360",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00188",
+    "sent_at": "2026-08-24T15:52:53Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "chat",
+    "customer_id": "C-DE-00361",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00189",
+    "sent_at": "2026-08-20T11:13:46Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00363",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00190",
+    "sent_at": "2026-09-02T07:16:12Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "email",
+    "customer_id": "C-DE-00364",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00191",
+    "sent_at": "2026-09-10T03:11:38Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "email",
+    "customer_id": "C-DE-00365",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00192",
+    "sent_at": "2026-09-01T01:01:59Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00368",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00193",
+    "sent_at": "2026-08-19T15:58:59Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "chat",
+    "customer_id": "C-DE-00371",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00194",
+    "sent_at": "2026-09-01T12:06:58Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00372",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00195",
+    "sent_at": "2026-08-29T12:55:51Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "chat",
+    "customer_id": "C-DE-00373",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00196",
+    "sent_at": "2026-08-22T00:44:12Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00374",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00197",
+    "sent_at": "2026-08-17T00:37:37Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00379",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00198",
+    "sent_at": "2026-08-26T20:22:52Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00380",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00199",
+    "sent_at": "2026-09-01T08:05:05Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "sms",
+    "customer_id": "C-DE-00383",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00200",
+    "sent_at": "2026-08-27T06:41:52Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "sms",
+    "customer_id": "C-DE-00384",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00201",
+    "sent_at": "2026-08-20T07:33:32Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00386",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00202",
+    "sent_at": "2026-08-23T01:57:24Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00387",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00203",
+    "sent_at": "2026-08-31T18:45:07Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00389",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00204",
+    "sent_at": "2026-08-21T07:33:41Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "chat",
+    "customer_id": "C-DE-00391",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00205",
+    "sent_at": "2026-08-19T00:31:13Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "sms",
+    "customer_id": "C-DE-00394",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00206",
+    "sent_at": "2026-08-15T07:02:36Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00397",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00207",
+    "sent_at": "2026-08-17T14:00:59Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00400",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00208",
+    "sent_at": "2026-09-05T03:22:10Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00401",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00209",
+    "sent_at": "2026-08-12T23:15:55Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "chat",
+    "customer_id": "C-DE-00402",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00210",
+    "sent_at": "2026-08-11T10:52:45Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "chat",
+    "customer_id": "C-DE-00403",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00211",
+    "sent_at": "2026-08-18T16:29:12Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00404",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00212",
+    "sent_at": "2026-08-26T03:33:28Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00406",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00213",
+    "sent_at": "2026-08-20T21:49:07Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "email",
+    "customer_id": "C-DE-00410",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00214",
+    "sent_at": "2026-08-29T10:59:57Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00411",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00215",
+    "sent_at": "2026-09-08T04:53:51Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "sms",
+    "customer_id": "C-DE-00413",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00216",
+    "sent_at": "2026-08-25T01:29:46Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "sms",
+    "customer_id": "C-DE-00415",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00217",
+    "sent_at": "2026-08-16T08:48:00Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "email",
+    "customer_id": "C-DE-00416",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00218",
+    "sent_at": "2026-09-07T07:23:44Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00417",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00219",
+    "sent_at": "2026-09-04T08:48:23Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "sms",
+    "customer_id": "C-DE-00420",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00220",
+    "sent_at": "2026-08-14T12:17:10Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00422",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00221",
+    "sent_at": "2026-08-25T02:30:37Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "sms",
+    "customer_id": "C-DE-00424",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00222",
+    "sent_at": "2026-08-22T05:29:43Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "chat",
+    "customer_id": "C-DE-00427",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00223",
+    "sent_at": "2026-08-28T21:40:12Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "chat",
+    "customer_id": "C-DE-00429",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00224",
+    "sent_at": "2026-08-19T04:59:57Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00430",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00225",
+    "sent_at": "2026-08-26T07:58:47Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00431",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00226",
+    "sent_at": "2026-08-18T01:48:58Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00432",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00227",
+    "sent_at": "2026-08-13T23:30:35Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00435",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00228",
+    "sent_at": "2026-08-20T17:40:16Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00436",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00229",
+    "sent_at": "2026-08-25T13:18:14Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00437",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00230",
+    "sent_at": "2026-08-15T14:17:42Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "chat",
+    "customer_id": "C-DE-00440",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00231",
+    "sent_at": "2026-09-01T07:10:18Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00443",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00232",
+    "sent_at": "2026-08-18T05:11:29Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "sms",
+    "customer_id": "C-DE-00444",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00233",
+    "sent_at": "2026-08-20T17:38:23Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "email",
+    "customer_id": "C-DE-00447",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00234",
+    "sent_at": "2026-08-12T04:40:56Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "email",
+    "customer_id": "C-DE-00450",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00235",
+    "sent_at": "2026-08-18T08:59:01Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00452",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00236",
+    "sent_at": "2026-08-23T23:02:20Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "email",
+    "customer_id": "C-DE-00453",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00237",
+    "sent_at": "2026-08-27T07:52:48Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00455",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00238",
+    "sent_at": "2026-08-19T17:22:37Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "email",
+    "customer_id": "C-DE-00458",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00239",
+    "sent_at": "2026-08-30T17:46:13Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "sms",
+    "customer_id": "C-DE-00459",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00240",
+    "sent_at": "2026-08-22T12:17:37Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00461",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00241",
+    "sent_at": "2026-09-03T21:39:57Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "sms",
+    "customer_id": "C-DE-00463",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00242",
+    "sent_at": "2026-08-11T21:33:35Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "sms",
+    "customer_id": "C-DE-00467",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00243",
+    "sent_at": "2026-08-31T02:15:54Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00468",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00244",
+    "sent_at": "2026-08-30T11:07:32Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "email",
+    "customer_id": "C-DE-00470",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00245",
+    "sent_at": "2026-09-08T00:53:34Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00471",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00246",
+    "sent_at": "2026-09-05T17:50:27Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "chat",
+    "customer_id": "C-DE-00472",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00247",
+    "sent_at": "2026-08-31T14:32:07Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "sms",
+    "customer_id": "C-DE-00473",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00248",
+    "sent_at": "2026-08-29T15:22:46Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "email",
+    "customer_id": "C-DE-00474",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00249",
+    "sent_at": "2026-08-12T02:07:33Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00475",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00250",
+    "sent_at": "2026-09-08T10:45:41Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "email",
+    "customer_id": "C-DE-00476",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00251",
+    "sent_at": "2026-08-15T08:30:37Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "email",
+    "customer_id": "C-DE-00478",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00252",
+    "sent_at": "2026-08-20T19:38:17Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "email",
+    "customer_id": "C-DE-00479",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00253",
+    "sent_at": "2026-08-20T14:38:23Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00482",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00254",
+    "sent_at": "2026-09-07T02:22:48Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "sms",
+    "customer_id": "C-DE-00483",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00255",
+    "sent_at": "2026-09-05T08:35:50Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00485",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00256",
+    "sent_at": "2026-08-17T07:43:26Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "sms",
+    "customer_id": "C-DE-00487",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00257",
+    "sent_at": "2026-09-08T11:10:57Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "sms",
+    "customer_id": "C-DE-00488",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00258",
+    "sent_at": "2026-08-28T03:32:13Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "chat",
+    "customer_id": "C-DE-00490",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00259",
+    "sent_at": "2026-08-25T11:14:06Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00494",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00260",
+    "sent_at": "2026-08-30T14:50:07Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00495",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00261",
+    "sent_at": "2026-08-21T14:20:20Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "sms",
+    "customer_id": "C-DE-00496",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00262",
+    "sent_at": "2026-09-01T07:56:24Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "email",
+    "customer_id": "C-DE-00504",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00263",
+    "sent_at": "2026-09-01T09:34:56Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00505",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00264",
+    "sent_at": "2026-08-11T11:07:21Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "sms",
+    "customer_id": "C-DE-00506",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00265",
+    "sent_at": "2026-09-03T13:20:05Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "chat",
+    "customer_id": "C-DE-00508",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00266",
+    "sent_at": "2026-08-26T13:28:38Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "email",
+    "customer_id": "C-DE-00510",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00267",
+    "sent_at": "2026-08-26T09:34:21Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "chat",
+    "customer_id": "C-DE-00513",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00268",
+    "sent_at": "2026-08-20T10:29:00Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00514",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00269",
+    "sent_at": "2026-09-02T18:01:59Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "sms",
+    "customer_id": "C-DE-00516",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00270",
+    "sent_at": "2026-08-16T03:23:15Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00518",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00271",
+    "sent_at": "2026-08-17T06:28:40Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00519",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00272",
+    "sent_at": "2026-08-28T06:47:05Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00521",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00273",
+    "sent_at": "2026-08-30T15:58:41Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00524",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00274",
+    "sent_at": "2026-09-02T14:32:31Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00526",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00275",
+    "sent_at": "2026-09-04T16:18:05Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "chat",
+    "customer_id": "C-DE-00527",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00276",
+    "sent_at": "2026-09-06T10:02:43Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00528",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00277",
+    "sent_at": "2026-08-27T20:22:49Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "email",
+    "customer_id": "C-DE-00530",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00278",
+    "sent_at": "2026-08-27T09:46:24Z"
+  },
+  {
+    "body": "Can I bring my current car in for an appraisal this weekend?",
+    "channel": "sms",
+    "customer_id": "C-DE-00531",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00279",
+    "sent_at": "2026-08-31T16:38:42Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00532",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00280",
+    "sent_at": "2026-08-30T03:25:36Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00544",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00281",
+    "sent_at": "2026-08-15T02:41:54Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00546",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00282",
+    "sent_at": "2026-08-18T14:23:21Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00547",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00283",
+    "sent_at": "2026-09-01T21:05:58Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00549",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00284",
+    "sent_at": "2026-08-16T14:26:53Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00551",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00285",
+    "sent_at": "2026-08-12T02:15:15Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00553",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00286",
+    "sent_at": "2026-08-15T06:40:44Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00554",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00287",
+    "sent_at": "2026-09-09T19:26:16Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "chat",
+    "customer_id": "C-DE-00556",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00288",
+    "sent_at": "2026-08-16T16:22:23Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "chat",
+    "customer_id": "C-DE-00557",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00289",
+    "sent_at": "2026-08-12T11:48:17Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00560",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00290",
+    "sent_at": "2026-08-30T00:52:37Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00561",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00291",
+    "sent_at": "2026-08-25T05:22:55Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00562",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00292",
+    "sent_at": "2026-08-19T18:55:50Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "chat",
+    "customer_id": "C-DE-00567",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00293",
+    "sent_at": "2026-08-29T20:15:34Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "email",
+    "customer_id": "C-DE-00571",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00294",
+    "sent_at": "2026-08-22T14:33:00Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "email",
+    "customer_id": "C-DE-00573",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00295",
+    "sent_at": "2026-08-13T02:57:42Z"
+  },
+  {
+    "body": "What would my monthly payment be on the build I saved?",
+    "channel": "sms",
+    "customer_id": "C-DE-00576",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00296",
+    "sent_at": "2026-08-19T23:04:01Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "chat",
+    "customer_id": "C-DE-00578",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00297",
+    "sent_at": "2026-08-14T11:46:16Z"
+  },
+  {
+    "body": "Is the one we looked at still available?",
+    "channel": "email",
+    "customer_id": "C-DE-00579",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00298",
+    "sent_at": "2026-08-26T23:07:17Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "chat",
+    "customer_id": "C-DE-00581",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00299",
+    "sent_at": "2026-08-22T19:41:36Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "sms",
+    "customer_id": "C-DE-00582",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00300",
+    "sent_at": "2026-08-17T11:06:49Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "sms",
+    "customer_id": "C-DE-00585",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00301",
+    "sent_at": "2026-09-07T19:17:38Z"
+  },
+  {
+    "body": "Rendered from a nurture template with customer facts.",
+    "channel": "email",
+    "customer_id": "C-DE-00587",
+    "direction": "outbound",
+    "message_id": "MSG-DE-00302",
+    "sent_at": "2026-09-03T03:39:01Z"
+  },
+  {
+    "body": "Could we move the test drive to Saturday morning?",
+    "channel": "email",
+    "customer_id": "C-DE-00589",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00303",
+    "sent_at": "2026-09-04T09:08:56Z"
+  },
+  {
+    "body": "How long does delivery usually take once I sign?",
+    "channel": "chat",
+    "customer_id": "C-DE-00590",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00304",
+    "sent_at": "2026-08-29T19:46:25Z"
+  },
+  {
+    "body": "Do I qualify for any of the incentives you mentioned?",
+    "channel": "email",
+    "customer_id": "C-DE-00591",
+    "direction": "inbound",
+    "message_id": "MSG-DE-00305",
+    "sent_at": "2026-08-14T02:54:12Z"
+  }
+]

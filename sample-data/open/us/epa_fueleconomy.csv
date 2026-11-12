@@ -1,0 +1,70 @@
+epa_class,powertrain,n_models,median_comb_mpg_or_mpge,median_ev_range_mi,median_kwh_per_100mi,median_annual_fuel_cost_usd,top_makes,source_ref
+Compact Cars,EV,103,90,276,37.6,850,"BMW, Porsche, Rolls-Royce, Mercedes-Benz, Audi",epa_fueleconomy:vehicles.csv:agg:2024plus
+Compact Cars,HEV,73,29,,,2650,"Mercedes-Benz, BMW, Toyota, Lexus, Audi",epa_fueleconomy:vehicles.csv:agg:2024plus
+Compact Cars,ICE,149,25,,,3100,"BMW, Cadillac, Toyota, Volkswagen, Genesis",epa_fueleconomy:vehicles.csv:agg:2024plus
+Compact Cars,PHEV,5,27,340,,2850,"BMW, Volvo, Mercedes-Benz",epa_fueleconomy:vehicles.csv:agg:2024plus
+Large Cars,EV,105,92,326,36.1,800,"BMW, Lucid, Dodge, Mercedes-Benz, Tesla",epa_fueleconomy:vehicles.csv:agg:2024plus
+Large Cars,HEV,45,23,,,3350,"Mercedes-Benz, BMW, Audi, Hyundai, Honda",epa_fueleconomy:vehicles.csv:agg:2024plus
+Large Cars,ICE,107,25,,,3100,"Rolls-Royce, Kia, Hyundai, Honda, Acura",epa_fueleconomy:vehicles.csv:agg:2024plus
+Large Cars,PHEV,5,23,470,,3350,"BMW, Porsche, Mercedes-Benz",epa_fueleconomy:vehicles.csv:agg:2024plus
+Midsize Cars,EV,72,103.0,277.0,32.8,750.0,"Tesla, Porsche, Hyundai, Mercedes-Benz, Polestar",epa_fueleconomy:vehicles.csv:agg:2024plus
+Midsize Cars,HEV,96,31.0,,,2100.0,"Toyota, Audi, BMW, Mercedes-Benz, Lexus",epa_fueleconomy:vehicles.csv:agg:2024plus
+Midsize Cars,ICE,174,26.0,,,2850.0,"Cadillac, Nissan, Hyundai, BMW, Honda",epa_fueleconomy:vehicles.csv:agg:2024plus
+Midsize Cars,PHEV,18,23.5,430.0,,3300.0,"BMW, Bentley, Toyota, Mercedes-Benz, Volvo",epa_fueleconomy:vehicles.csv:agg:2024plus
+Midsize Station Wagons,EV,6,87.0,283.0,39.0,875.0,Mercedes-Benz,epa_fueleconomy:vehicles.csv:agg:2024plus
+Midsize Station Wagons,HEV,17,25,,,3100,"Mercedes-Benz, Audi, Volvo, Honda",epa_fueleconomy:vehicles.csv:agg:2024plus
+Midsize Station Wagons,ICE,6,22.5,,,2775.0,"Rolls-Royce, Nissan, Honda",epa_fueleconomy:vehicles.csv:agg:2024plus
+Midsize Station Wagons,PHEV,4,13.0,270.0,,5950.0,"BMW, Mercedes-Benz",epa_fueleconomy:vehicles.csv:agg:2024plus
+Minicompact Cars,EV,6,113.0,145.0,29.9,675.0,Fiat,epa_fueleconomy:vehicles.csv:agg:2024plus
+Minicompact Cars,HEV,2,22.0,,,3500.0,Mercedes-Benz,epa_fueleconomy:vehicles.csv:agg:2024plus
+Minicompact Cars,ICE,112,20.0,,,3900.0,"Porsche, MINI, Mercedes-Benz, Aston Martin, Subaru",epa_fueleconomy:vehicles.csv:agg:2024plus
+Minicompact Cars,PHEV,4,19.0,440.0,,4100.0,"Bentley, Mercedes-Benz",epa_fueleconomy:vehicles.csv:agg:2024plus
+Minivan - 2WD,EV,1,83,234,40.8,900,Volkswagen,epa_fueleconomy:vehicles.csv:agg:2024plus
+Minivan - 2WD,HEV,6,34.5,,,1825.0,"Toyota, Kia",epa_fueleconomy:vehicles.csv:agg:2024plus
+Minivan - 2WD,ICE,14,22.0,,,2850.0,"Chrysler, Kia, Honda",epa_fueleconomy:vehicles.csv:agg:2024plus
+Minivan - 2WD,PHEV,3,30,520,,2100,Chrysler,epa_fueleconomy:vehicles.csv:agg:2024plus
+Minivan - 4WD,EV,1,80,231,42.0,950,Volkswagen,epa_fueleconomy:vehicles.csv:agg:2024plus
+Minivan - 4WD,HEV,3,35,,,1800,Toyota,epa_fueleconomy:vehicles.csv:agg:2024plus
+Minivan - 4WD,ICE,3,20,,,3100,Chrysler,epa_fueleconomy:vehicles.csv:agg:2024plus
+Small Pickup Trucks 2WD,HEV,3,38,,,1650,Ford,epa_fueleconomy:vehicles.csv:agg:2024plus
+Small Pickup Trucks 2WD,ICE,14,23.0,,,2700.0,"Toyota, Ford, Chevrolet, GMC",epa_fueleconomy:vehicles.csv:agg:2024plus
+Small Pickup Trucks 4WD,HEV,3,37,,,1700,Ford,epa_fueleconomy:vehicles.csv:agg:2024plus
+Small Pickup Trucks 4WD,ICE,32,21.0,,,2950.0,"Toyota, Ford, Chevrolet, GMC",epa_fueleconomy:vehicles.csv:agg:2024plus
+Small Sport Utility Vehicle 2WD,EV,101,112,291,30.1,700,"Hyundai, Kia, Chevrolet, Volvo, Volkswagen",epa_fueleconomy:vehicles.csv:agg:2024plus
+Small Sport Utility Vehicle 2WD,HEV,30,38.0,,,1700.0,"Kia, Mercedes-Benz, Hyundai, Honda, Ford",epa_fueleconomy:vehicles.csv:agg:2024plus
+Small Sport Utility Vehicle 2WD,ICE,154,27.0,,,2300.0,"Hyundai, Volkswagen, Kia, Chevrolet, Cadillac",epa_fueleconomy:vehicles.csv:agg:2024plus
+Small Sport Utility Vehicle 2WD,PHEV,4,44.0,515.0,,1425.0,"Ford, Kia",epa_fueleconomy:vehicles.csv:agg:2024plus
+Small Sport Utility Vehicle 4WD,EV,169,96,268,35.0,800,"Subaru, Genesis, Chevrolet, Ford, Hyundai",epa_fueleconomy:vehicles.csv:agg:2024plus
+Small Sport Utility Vehicle 4WD,HEV,112,28.0,,,2700.0,"Mercedes-Benz, Toyota, Hyundai, Lexus, Kia",epa_fueleconomy:vehicles.csv:agg:2024plus
+Small Sport Utility Vehicle 4WD,ICE,413,24,,,2750,"Ford, Hyundai, Jeep, Subaru, Kia",epa_fueleconomy:vehicles.csv:agg:2024plus
+Small Sport Utility Vehicle 4WD,PHEV,29,33,430,,2150,"Kia, Jeep, Hyundai, Lexus, Volvo",epa_fueleconomy:vehicles.csv:agg:2024plus
+Small Station Wagons,EV,13,98,272,34.4,750,"Nissan, Cadillac, Chevrolet",epa_fueleconomy:vehicles.csv:agg:2024plus
+Small Station Wagons,HEV,18,24.0,,,3250.0,"Mercedes-Benz, Volvo, Audi, Toyota",epa_fueleconomy:vehicles.csv:agg:2024plus
+Small Station Wagons,ICE,34,29.0,,,2150.0,"Honda, Subaru, Chevrolet, Buick, Kia",epa_fueleconomy:vehicles.csv:agg:2024plus
+Small Station Wagons,PHEV,3,20,340,,3900,"Mercedes-Benz, Volvo",epa_fueleconomy:vehicles.csv:agg:2024plus
+Special Purpose Vehicle 2WD,EV,1,85,176,39.6,900,Vinfast,epa_fueleconomy:vehicles.csv:agg:2024plus
+Special Purpose Vehicle 2WD,HEV,6,28.0,,,2750.0,Mercedes-Benz,epa_fueleconomy:vehicles.csv:agg:2024plus
+Special Purpose Vehicle 2WD,ICE,8,16.0,,,3900.0,"Chevrolet, GMC, Cadillac",epa_fueleconomy:vehicles.csv:agg:2024plus
+Special Purpose Vehicle 4WD,EV,6,74.0,271.5,45.6,1025.0,Vinfast,epa_fueleconomy:vehicles.csv:agg:2024plus
+Special Purpose Vehicle 4WD,ICE,8,15.0,,,4150.0,"Chevrolet, GMC, Cadillac",epa_fueleconomy:vehicles.csv:agg:2024plus
+Standard Pickup Trucks 2WD,EV,3,78,335,43.4,1000,Tesla,epa_fueleconomy:vehicles.csv:agg:2024plus
+Standard Pickup Trucks 2WD,HEV,14,22.0,,,2850.0,"Ram, Toyota, Ford",epa_fueleconomy:vehicles.csv:agg:2024plus
+Standard Pickup Trucks 2WD,ICE,69,20,,,3300,"Chevrolet, GMC, Ford, Toyota, Ram",epa_fueleconomy:vehicles.csv:agg:2024plus
+Standard Pickup Trucks 4WD,EV,121,75,325,45.2,1000,"Rivian, Chevrolet, GMC, Ford, Tesla",epa_fueleconomy:vehicles.csv:agg:2024plus
+Standard Pickup Trucks 4WD,HEV,28,20.0,,,3100.0,"Toyota, Ram, Ford",epa_fueleconomy:vehicles.csv:agg:2024plus
+Standard Pickup Trucks 4WD,ICE,193,17,,,3650,"Chevrolet, GMC, Ford, Ram, Nissan",epa_fueleconomy:vehicles.csv:agg:2024plus
+Standard Sport Utility Vehicle 2WD,EV,43,92,304,36.6,800,"Polestar, Audi, Kia, Cadillac, Acura",epa_fueleconomy:vehicles.csv:agg:2024plus
+Standard Sport Utility Vehicle 2WD,HEV,17,31,,,2000,"Toyota, Hyundai, BMW, Kia",epa_fueleconomy:vehicles.csv:agg:2024plus
+Standard Sport Utility Vehicle 2WD,ICE,122,21.0,,,3275.0,"Chevrolet, GMC, Jeep, Ford, Toyota",epa_fueleconomy:vehicles.csv:agg:2024plus
+Standard Sport Utility Vehicle 4WD,EV,276,83.0,303.0,40.8,900.0,"Rivian, Audi, BMW, Lucid, Mercedes-Benz",epa_fueleconomy:vehicles.csv:agg:2024plus
+Standard Sport Utility Vehicle 4WD,HEV,197,20,,,3900,"Land Rover, Mercedes-Benz, BMW, Toyota, Audi",epa_fueleconomy:vehicles.csv:agg:2024plus
+Standard Sport Utility Vehicle 4WD,ICE,278,19.0,,,4050.0,"Chevrolet, Jeep, GMC, Ford, Porsche",epa_fueleconomy:vehicles.csv:agg:2024plus
+Standard Sport Utility Vehicle 4WD,PHEV,35,22,440,,3500,"BMW, Porsche, Mazda, Jeep, Mitsubishi",epa_fueleconomy:vehicles.csv:agg:2024plus
+Subcompact Cars,EV,17,90,269,37.6,850,"BMW, Maserati, Audi, MINI",epa_fueleconomy:vehicles.csv:agg:2024plus
+Subcompact Cars,HEV,63,27,,,2850,"BMW, Mercedes-Benz, Audi, Lexus, Honda",epa_fueleconomy:vehicles.csv:agg:2024plus
+Subcompact Cars,ICE,153,21,,,3500,"BMW, Ford, MINI, Maserati, Lexus",epa_fueleconomy:vehicles.csv:agg:2024plus
+Subcompact Cars,PHEV,4,19.0,440.0,,4100.0,"Bentley, Mercedes-Benz",epa_fueleconomy:vehicles.csv:agg:2024plus
+Two Seaters,EV,4,52.0,189.0,64.9,1450.0,Bugatti Rimac,epa_fueleconomy:vehicles.csv:agg:2024plus
+Two Seaters,HEV,9,17,,,4550,"Chevrolet, Lamborghini, Mercedes-Benz, Ferrari",epa_fueleconomy:vehicles.csv:agg:2024plus
+Two Seaters,ICE,136,19.0,,,4100.0,"Porsche, Chevrolet, Nissan, Toyota, BMW",epa_fueleconomy:vehicles.csv:agg:2024plus
+Two Seaters,PHEV,13,18,330,,4300,"Ferrari, Mercedes-Benz, Aston Martin",epa_fueleconomy:vehicles.csv:agg:2024plus

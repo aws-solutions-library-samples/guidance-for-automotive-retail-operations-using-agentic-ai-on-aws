@@ -1,0 +1,25 @@
+[project]
+name = "retail-ops-synthetic-data"
+version = "0.1.0"
+description = "Deterministic synthetic-data generator for the Intelligent Sales & Service Orchestration shared data layer (owner-prefixed tables, S3 lake prefixes, Quick Index corpora)."
+requires-python = ">=3.12"
+# The generator CORE runs on the Python 3.12 standard library only (NFR3, infra-free
+# default path). Third-party backends stay in optional groups and are imported lazily.
+dependencies = []
+
+[project.optional-dependencies]
+# Test harness (NFR5). pytest is the only dev dependency the skeleton needs.
+dev = ["pytest>=8,<9"]
+# Optional backends, lazily imported and OFF the default path (NFR3):
+images = ["Pillow>=10,<12"]        # evidence_images.py placeholder backend
+aws = ["boto3>=1.34,<2"]           # opt-in Bedrock / AWS export targets
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# No line-coverage floor: per team.md (affirmed 2026-09-27) the validate.py invariants
+# checker is the PRIMARY BLOCKING acceptance gate for this deterministic generator;
+# branch coverage is an advisory health signal only.

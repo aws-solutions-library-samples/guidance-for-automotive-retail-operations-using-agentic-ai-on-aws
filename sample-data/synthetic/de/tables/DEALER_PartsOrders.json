@@ -1,0 +1,145 @@
+[
+  {
+    "description": "Oil filter",
+    "eta": "2026-09-17T09:00:00Z",
+    "part_id": "PRT-DE-00015",
+    "part_number": "P50886",
+    "parts_order_id": "PO-DE-00001",
+    "qty": 2,
+    "ro_id": "RO-DE-00007",
+    "source_ref": "synthetic:parts_order",
+    "status": "ordered"
+  },
+  {
+    "description": "Wiper blade pair",
+    "eta": "2026-09-15T09:00:00Z",
+    "part_id": "PRT-DE-00035",
+    "part_number": "P55333",
+    "parts_order_id": "PO-DE-00002",
+    "qty": 1,
+    "ro_id": "RO-DE-00021",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Charge-port seal kit",
+    "eta": "2026-09-17T09:00:00Z",
+    "part_id": "PRT-DE-00037",
+    "part_number": "P69085",
+    "parts_order_id": "PO-DE-00003",
+    "qty": 1,
+    "ro_id": "RO-DE-00023",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Cabin air filter",
+    "eta": "2026-09-11T09:00:00Z",
+    "part_id": "PRT-DE-00039",
+    "part_number": "P76092",
+    "parts_order_id": "PO-DE-00004",
+    "qty": 1,
+    "ro_id": "RO-DE-00024",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Brake fluid DOT 4",
+    "eta": "2026-09-11T09:00:00Z",
+    "part_id": "PRT-DE-00040",
+    "part_number": "P69606",
+    "parts_order_id": "PO-DE-00005",
+    "qty": 1,
+    "ro_id": "RO-DE-00025",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Cabin air filter",
+    "eta": "2026-09-16T09:00:00Z",
+    "part_id": "PRT-DE-00043",
+    "part_number": "P63966",
+    "parts_order_id": "PO-DE-00006",
+    "qty": 1,
+    "ro_id": "RO-DE-00028",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Brake fluid DOT 4",
+    "eta": "2026-09-12T09:00:00Z",
+    "part_id": "PRT-DE-00050",
+    "part_number": "P37048",
+    "parts_order_id": "PO-DE-00007",
+    "qty": 1,
+    "ro_id": "RO-DE-00031",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Wiper blade pair",
+    "eta": "2026-09-14T09:00:00Z",
+    "part_id": "PRT-DE-00051",
+    "part_number": "P89684",
+    "parts_order_id": "PO-DE-00008",
+    "qty": 1,
+    "ro_id": "RO-DE-00032",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Charge-port seal kit",
+    "eta": "2026-09-16T09:00:00Z",
+    "part_id": "PRT-DE-00058",
+    "part_number": "P76859",
+    "parts_order_id": "PO-DE-00009",
+    "qty": 1,
+    "ro_id": "RO-DE-00036",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Cabin air filter",
+    "eta": "2026-09-16T09:00:00Z",
+    "part_id": "PRT-DE-00064",
+    "part_number": "P74252",
+    "parts_order_id": "PO-DE-00010",
+    "qty": 1,
+    "ro_id": "RO-DE-00041",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "12V battery",
+    "eta": "2026-09-11T09:00:00Z",
+    "part_id": "PRT-DE-00072",
+    "part_number": "P87643",
+    "parts_order_id": "PO-DE-00011",
+    "qty": 1,
+    "ro_id": "RO-DE-00046",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Cabin air filter",
+    "eta": "2026-09-16T09:00:00Z",
+    "part_id": "PRT-DE-00079",
+    "part_number": "P37133",
+    "parts_order_id": "PO-DE-00012",
+    "qty": 1,
+    "ro_id": "RO-DE-00049",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  },
+  {
+    "description": "Wiper blade pair",
+    "eta": "2026-09-16T09:00:00Z",
+    "part_id": "PRT-DE-00080",
+    "part_number": "P97620",
+    "parts_order_id": "PO-DE-00013",
+    "qty": 1,
+    "ro_id": "RO-DE-00050",
+    "source_ref": "synthetic:parts_order",
+    "status": "received"
+  }
+]

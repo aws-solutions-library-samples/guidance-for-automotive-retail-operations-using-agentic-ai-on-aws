@@ -1,0 +1,30 @@
+{
+  "skill": "agentic-delivery-model-selection",
+  "prompts": [
+    {
+      "id": "adm-01-single-stack",
+      "prompt": "We want to build the whole dealer assistant, including the live-floor objection helper and the district manager's weekly package, as one Amazon Quick agent. Good plan?",
+      "rubric": "No: live floor needs sub-2 s streaming (R2, AgentCore path asking Quick for content); DM package fits Quick Flows (R3); compose via Gateway, one sign-in, one bus."
+    },
+    {
+      "id": "adm-02-customer-quick",
+      "prompt": "To save building a customer web app, can we put customers in front of the Quick agent for estimate approval?",
+      "rubric": "No (R6): customers need the brand surface; same agents behind the API; Quick is a staff tool."
+    },
+    {
+      "id": "adm-03-supervisors",
+      "prompt": "Should the purchase-journey agent also run the service repair order state machine so we have one supervisor?",
+      "rubric": "No: one supervisor per state machine; different owners, cadence, system of record; meet through events, not A2A between supervisors."
+    },
+    {
+      "id": "adm-04-autonomy",
+      "prompt": "The dealer principal wants a single 'AI autonomy: on/off' switch. Design it.",
+      "rubric": "Push back: per-action levels (observe/recommend/act_with_approval/act_and_notify), per dealer, versioned; hard rules above configuration; observation fortnight; outcome loop."
+    },
+    {
+      "id": "adm-05-dashboard",
+      "prompt": "The service cockpit should call the agent on page load to compute today's KPIs so they're always fresh.",
+      "rubric": "No (R5): agents pre-compute into read models on events; page load reads tables; QuickSight for trends."
+    }
+  ]
+}

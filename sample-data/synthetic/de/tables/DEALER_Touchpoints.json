@@ -1,0 +1,5528 @@
+[
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-J3",
+    "direction": "outbound",
+    "journey_id": "J-DE-J3",
+    "touchpoint_id": "TP-DE-00001",
+    "ts": "2026-08-18T04:30:59Z",
+    "user_id": "U-DE-00021"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-J3",
+    "direction": "outbound",
+    "journey_id": "J-DE-J3",
+    "touchpoint_id": "TP-DE-00002",
+    "ts": "2026-09-09T06:05:55Z",
+    "user_id": "U-DE-00021"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-J3",
+    "direction": "inbound",
+    "journey_id": "J-DE-J3",
+    "touchpoint_id": "TP-DE-00003",
+    "ts": "2026-08-05T23:22:51Z",
+    "user_id": "U-DE-00021"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-J3",
+    "direction": "inbound",
+    "journey_id": "J-DE-J3",
+    "touchpoint_id": "TP-DE-00004",
+    "ts": "2026-09-05T05:13:13Z",
+    "user_id": "U-DE-00021"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-J4",
+    "direction": "outbound",
+    "journey_id": "J-DE-J4",
+    "touchpoint_id": "TP-DE-00005",
+    "ts": "2026-09-06T16:02:44Z",
+    "user_id": "U-DE-00004"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-J4",
+    "direction": "inbound",
+    "journey_id": "J-DE-J4",
+    "touchpoint_id": "TP-DE-00006",
+    "ts": "2026-08-03T06:45:16Z",
+    "user_id": "U-DE-00004"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-J4",
+    "direction": "inbound",
+    "journey_id": "J-DE-J4",
+    "touchpoint_id": "TP-DE-00007",
+    "ts": "2026-08-07T16:56:59Z",
+    "user_id": "U-DE-00004"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-J4",
+    "direction": "inbound",
+    "journey_id": "J-DE-J4",
+    "touchpoint_id": "TP-DE-00008",
+    "ts": "2026-08-09T10:41:14Z",
+    "user_id": "U-DE-00004"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-J5",
+    "direction": "outbound",
+    "journey_id": "J-DE-J5",
+    "touchpoint_id": "TP-DE-00009",
+    "ts": "2026-09-04T03:30:37Z",
+    "user_id": "U-DE-00004"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-J5",
+    "direction": "outbound",
+    "journey_id": "J-DE-J5",
+    "touchpoint_id": "TP-DE-00010",
+    "ts": "2026-08-29T14:18:11Z",
+    "user_id": "U-DE-00004"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-J6",
+    "direction": "outbound",
+    "journey_id": "J-DE-J6",
+    "touchpoint_id": "TP-DE-00011",
+    "ts": "2026-09-03T21:56:28Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-J6",
+    "direction": "inbound",
+    "journey_id": "J-DE-J6",
+    "touchpoint_id": "TP-DE-00012",
+    "ts": "2026-08-24T09:16:11Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-J6",
+    "direction": "inbound",
+    "journey_id": "J-DE-J6",
+    "touchpoint_id": "TP-DE-00013",
+    "ts": "2026-08-25T17:32:11Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-J6",
+    "direction": "outbound",
+    "journey_id": "J-DE-J6",
+    "touchpoint_id": "TP-DE-00014",
+    "ts": "2026-09-06T13:48:06Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00432",
+    "direction": "outbound",
+    "journey_id": "J-DE-00042",
+    "touchpoint_id": "TP-DE-00015",
+    "ts": "2026-08-27T21:31:24Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00542",
+    "direction": "outbound",
+    "journey_id": "J-DE-00046",
+    "touchpoint_id": "TP-DE-00016",
+    "ts": "2026-08-25T23:05:35Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00542",
+    "direction": "inbound",
+    "journey_id": "J-DE-00046",
+    "touchpoint_id": "TP-DE-00017",
+    "ts": "2026-09-06T01:33:56Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00310",
+    "direction": "inbound",
+    "journey_id": "J-DE-00050",
+    "touchpoint_id": "TP-DE-00018",
+    "ts": "2026-08-03T04:31:59Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00310",
+    "direction": "inbound",
+    "journey_id": "J-DE-00050",
+    "touchpoint_id": "TP-DE-00019",
+    "ts": "2026-08-08T00:13:29Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00036",
+    "direction": "inbound",
+    "journey_id": "J-DE-00052",
+    "touchpoint_id": "TP-DE-00020",
+    "ts": "2026-09-07T09:32:01Z",
+    "user_id": "U-DE-00003"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00322",
+    "direction": "outbound",
+    "journey_id": "J-DE-00053",
+    "touchpoint_id": "TP-DE-00021",
+    "ts": "2026-09-04T01:14:44Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00322",
+    "direction": "inbound",
+    "journey_id": "J-DE-00053",
+    "touchpoint_id": "TP-DE-00022",
+    "ts": "2026-08-02T23:30:19Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00372",
+    "direction": "inbound",
+    "journey_id": "J-DE-00058",
+    "touchpoint_id": "TP-DE-00023",
+    "ts": "2026-08-11T20:11:34Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00372",
+    "direction": "inbound",
+    "journey_id": "J-DE-00058",
+    "touchpoint_id": "TP-DE-00024",
+    "ts": "2026-08-26T02:06:29Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00372",
+    "direction": "inbound",
+    "journey_id": "J-DE-00058",
+    "touchpoint_id": "TP-DE-00025",
+    "ts": "2026-09-08T16:57:44Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00372",
+    "direction": "inbound",
+    "journey_id": "J-DE-00058",
+    "touchpoint_id": "TP-DE-00026",
+    "ts": "2026-08-16T22:16:43Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00536",
+    "direction": "inbound",
+    "journey_id": "J-DE-00070",
+    "touchpoint_id": "TP-DE-00027",
+    "ts": "2026-08-14T19:35:39Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00536",
+    "direction": "inbound",
+    "journey_id": "J-DE-00070",
+    "touchpoint_id": "TP-DE-00028",
+    "ts": "2026-09-07T01:41:27Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00091",
+    "direction": "outbound",
+    "journey_id": "J-DE-00072",
+    "touchpoint_id": "TP-DE-00029",
+    "ts": "2026-08-12T10:36:32Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00091",
+    "direction": "inbound",
+    "journey_id": "J-DE-00072",
+    "touchpoint_id": "TP-DE-00030",
+    "ts": "2026-08-08T19:14:05Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00230",
+    "direction": "inbound",
+    "journey_id": "J-DE-00075",
+    "touchpoint_id": "TP-DE-00031",
+    "ts": "2026-09-09T16:51:31Z",
+    "user_id": "U-DE-00013"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00230",
+    "direction": "inbound",
+    "journey_id": "J-DE-00075",
+    "touchpoint_id": "TP-DE-00032",
+    "ts": "2026-08-16T07:13:00Z",
+    "user_id": "U-DE-00013"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00230",
+    "direction": "outbound",
+    "journey_id": "J-DE-00075",
+    "touchpoint_id": "TP-DE-00033",
+    "ts": "2026-08-20T05:04:22Z",
+    "user_id": "U-DE-00013"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00240",
+    "direction": "inbound",
+    "journey_id": "J-DE-00080",
+    "touchpoint_id": "TP-DE-00034",
+    "ts": "2026-08-05T12:59:07Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00240",
+    "direction": "outbound",
+    "journey_id": "J-DE-00080",
+    "touchpoint_id": "TP-DE-00035",
+    "ts": "2026-08-26T18:08:37Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00240",
+    "direction": "outbound",
+    "journey_id": "J-DE-00080",
+    "touchpoint_id": "TP-DE-00036",
+    "ts": "2026-08-29T01:33:42Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00240",
+    "direction": "inbound",
+    "journey_id": "J-DE-00080",
+    "touchpoint_id": "TP-DE-00037",
+    "ts": "2026-09-03T22:51:28Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00113",
+    "direction": "outbound",
+    "journey_id": "J-DE-00081",
+    "touchpoint_id": "TP-DE-00038",
+    "ts": "2026-09-06T09:13:41Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00427",
+    "direction": "outbound",
+    "journey_id": "J-DE-00083",
+    "touchpoint_id": "TP-DE-00039",
+    "ts": "2026-08-09T20:01:48Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00126",
+    "direction": "inbound",
+    "journey_id": "J-DE-00086",
+    "touchpoint_id": "TP-DE-00040",
+    "ts": "2026-08-09T19:21:01Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00553",
+    "direction": "outbound",
+    "journey_id": "J-DE-00089",
+    "touchpoint_id": "TP-DE-00041",
+    "ts": "2026-08-12T23:45:40Z",
+    "user_id": "U-DE-00003"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00553",
+    "direction": "inbound",
+    "journey_id": "J-DE-00089",
+    "touchpoint_id": "TP-DE-00042",
+    "ts": "2026-08-10T00:18:27Z",
+    "user_id": "U-DE-00003"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00553",
+    "direction": "outbound",
+    "journey_id": "J-DE-00089",
+    "touchpoint_id": "TP-DE-00043",
+    "ts": "2026-08-12T22:35:15Z",
+    "user_id": "U-DE-00003"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00266",
+    "direction": "inbound",
+    "journey_id": "J-DE-00091",
+    "touchpoint_id": "TP-DE-00044",
+    "ts": "2026-08-03T13:50:34Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00266",
+    "direction": "outbound",
+    "journey_id": "J-DE-00091",
+    "touchpoint_id": "TP-DE-00045",
+    "ts": "2026-08-10T07:27:21Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00551",
+    "direction": "inbound",
+    "journey_id": "J-DE-00094",
+    "touchpoint_id": "TP-DE-00046",
+    "ts": "2026-08-28T03:25:07Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00551",
+    "direction": "inbound",
+    "journey_id": "J-DE-00094",
+    "touchpoint_id": "TP-DE-00047",
+    "ts": "2026-08-19T11:09:42Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00237",
+    "direction": "inbound",
+    "journey_id": "J-DE-00101",
+    "touchpoint_id": "TP-DE-00048",
+    "ts": "2026-08-29T22:44:46Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00001",
+    "direction": "outbound",
+    "journey_id": "J-DE-00102",
+    "touchpoint_id": "TP-DE-00049",
+    "ts": "2026-09-08T16:55:51Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00001",
+    "direction": "inbound",
+    "journey_id": "J-DE-00102",
+    "touchpoint_id": "TP-DE-00050",
+    "ts": "2026-09-02T03:38:53Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00001",
+    "direction": "inbound",
+    "journey_id": "J-DE-00102",
+    "touchpoint_id": "TP-DE-00051",
+    "ts": "2026-09-01T00:08:51Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00268",
+    "direction": "inbound",
+    "journey_id": "J-DE-00103",
+    "touchpoint_id": "TP-DE-00052",
+    "ts": "2026-09-09T00:46:53Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00268",
+    "direction": "outbound",
+    "journey_id": "J-DE-00103",
+    "touchpoint_id": "TP-DE-00053",
+    "ts": "2026-08-30T22:54:09Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00268",
+    "direction": "inbound",
+    "journey_id": "J-DE-00103",
+    "touchpoint_id": "TP-DE-00054",
+    "ts": "2026-08-29T20:55:14Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00213",
+    "direction": "outbound",
+    "journey_id": "J-DE-00104",
+    "touchpoint_id": "TP-DE-00055",
+    "ts": "2026-09-07T17:15:41Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00213",
+    "direction": "inbound",
+    "journey_id": "J-DE-00104",
+    "touchpoint_id": "TP-DE-00056",
+    "ts": "2026-08-02T16:52:48Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00042",
+    "direction": "inbound",
+    "journey_id": "J-DE-00108",
+    "touchpoint_id": "TP-DE-00057",
+    "ts": "2026-08-05T12:04:56Z",
+    "user_id": "U-DE-00013"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00042",
+    "direction": "inbound",
+    "journey_id": "J-DE-00108",
+    "touchpoint_id": "TP-DE-00058",
+    "ts": "2026-09-04T08:49:09Z",
+    "user_id": "U-DE-00013"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00042",
+    "direction": "outbound",
+    "journey_id": "J-DE-00108",
+    "touchpoint_id": "TP-DE-00059",
+    "ts": "2026-09-04T06:10:23Z",
+    "user_id": "U-DE-00013"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00391",
+    "direction": "inbound",
+    "journey_id": "J-DE-00120",
+    "touchpoint_id": "TP-DE-00060",
+    "ts": "2026-08-08T17:05:05Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00224",
+    "direction": "inbound",
+    "journey_id": "J-DE-00123",
+    "touchpoint_id": "TP-DE-00061",
+    "ts": "2026-08-28T09:40:12Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00224",
+    "direction": "inbound",
+    "journey_id": "J-DE-00123",
+    "touchpoint_id": "TP-DE-00062",
+    "ts": "2026-08-07T10:13:16Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00224",
+    "direction": "inbound",
+    "journey_id": "J-DE-00123",
+    "touchpoint_id": "TP-DE-00063",
+    "ts": "2026-08-16T07:29:32Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00306",
+    "direction": "outbound",
+    "journey_id": "J-DE-00124",
+    "touchpoint_id": "TP-DE-00064",
+    "ts": "2026-08-10T12:09:16Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00306",
+    "direction": "inbound",
+    "journey_id": "J-DE-00124",
+    "touchpoint_id": "TP-DE-00065",
+    "ts": "2026-08-19T00:58:57Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00306",
+    "direction": "outbound",
+    "journey_id": "J-DE-00124",
+    "touchpoint_id": "TP-DE-00066",
+    "ts": "2026-08-24T00:02:41Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00306",
+    "direction": "outbound",
+    "journey_id": "J-DE-00124",
+    "touchpoint_id": "TP-DE-00067",
+    "ts": "2026-09-08T18:25:27Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00004",
+    "direction": "outbound",
+    "journey_id": "J-DE-00127",
+    "touchpoint_id": "TP-DE-00068",
+    "ts": "2026-09-05T01:22:39Z",
+    "user_id": "U-DE-00003"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00004",
+    "direction": "inbound",
+    "journey_id": "J-DE-00127",
+    "touchpoint_id": "TP-DE-00069",
+    "ts": "2026-08-11T08:22:31Z",
+    "user_id": "U-DE-00003"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00004",
+    "direction": "inbound",
+    "journey_id": "J-DE-00127",
+    "touchpoint_id": "TP-DE-00070",
+    "ts": "2026-08-17T10:49:47Z",
+    "user_id": "U-DE-00003"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00081",
+    "direction": "inbound",
+    "journey_id": "J-DE-00134",
+    "touchpoint_id": "TP-DE-00071",
+    "ts": "2026-09-04T16:22:55Z",
+    "user_id": "U-DE-00004"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00307",
+    "direction": "outbound",
+    "journey_id": "J-DE-00135",
+    "touchpoint_id": "TP-DE-00072",
+    "ts": "2026-09-05T02:19:56Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00307",
+    "direction": "inbound",
+    "journey_id": "J-DE-00135",
+    "touchpoint_id": "TP-DE-00073",
+    "ts": "2026-08-07T23:24:48Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00307",
+    "direction": "inbound",
+    "journey_id": "J-DE-00135",
+    "touchpoint_id": "TP-DE-00074",
+    "ts": "2026-08-17T01:24:31Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00302",
+    "direction": "inbound",
+    "journey_id": "J-DE-00137",
+    "touchpoint_id": "TP-DE-00075",
+    "ts": "2026-08-27T02:24:49Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00302",
+    "direction": "inbound",
+    "journey_id": "J-DE-00137",
+    "touchpoint_id": "TP-DE-00076",
+    "ts": "2026-09-08T01:02:38Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00302",
+    "direction": "outbound",
+    "journey_id": "J-DE-00137",
+    "touchpoint_id": "TP-DE-00077",
+    "ts": "2026-08-05T05:25:11Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00302",
+    "direction": "outbound",
+    "journey_id": "J-DE-00137",
+    "touchpoint_id": "TP-DE-00078",
+    "ts": "2026-09-09T09:36:14Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00162",
+    "direction": "inbound",
+    "journey_id": "J-DE-00138",
+    "touchpoint_id": "TP-DE-00079",
+    "ts": "2026-08-19T05:16:14Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00162",
+    "direction": "inbound",
+    "journey_id": "J-DE-00138",
+    "touchpoint_id": "TP-DE-00080",
+    "ts": "2026-08-13T00:48:39Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00571",
+    "direction": "outbound",
+    "journey_id": "J-DE-00141",
+    "touchpoint_id": "TP-DE-00081",
+    "ts": "2026-08-04T05:02:15Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00571",
+    "direction": "outbound",
+    "journey_id": "J-DE-00141",
+    "touchpoint_id": "TP-DE-00082",
+    "ts": "2026-08-24T21:20:52Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00571",
+    "direction": "inbound",
+    "journey_id": "J-DE-00141",
+    "touchpoint_id": "TP-DE-00083",
+    "ts": "2026-09-08T23:54:03Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00133",
+    "direction": "outbound",
+    "journey_id": "J-DE-00142",
+    "touchpoint_id": "TP-DE-00084",
+    "ts": "2026-08-01T18:01:37Z",
+    "user_id": "U-DE-00011"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00133",
+    "direction": "outbound",
+    "journey_id": "J-DE-00142",
+    "touchpoint_id": "TP-DE-00085",
+    "ts": "2026-08-17T17:10:57Z",
+    "user_id": "U-DE-00011"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00024",
+    "direction": "inbound",
+    "journey_id": "J-DE-00150",
+    "touchpoint_id": "TP-DE-00086",
+    "ts": "2026-09-04T03:14:44Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00024",
+    "direction": "inbound",
+    "journey_id": "J-DE-00150",
+    "touchpoint_id": "TP-DE-00087",
+    "ts": "2026-08-18T20:27:37Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00024",
+    "direction": "outbound",
+    "journey_id": "J-DE-00150",
+    "touchpoint_id": "TP-DE-00088",
+    "ts": "2026-08-21T11:43:35Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00051",
+    "direction": "outbound",
+    "journey_id": "J-DE-00160",
+    "touchpoint_id": "TP-DE-00089",
+    "ts": "2026-09-09T16:25:13Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00051",
+    "direction": "inbound",
+    "journey_id": "J-DE-00160",
+    "touchpoint_id": "TP-DE-00090",
+    "ts": "2026-08-17T17:20:14Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00051",
+    "direction": "inbound",
+    "journey_id": "J-DE-00160",
+    "touchpoint_id": "TP-DE-00091",
+    "ts": "2026-08-16T08:20:39Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00289",
+    "direction": "inbound",
+    "journey_id": "J-DE-00170",
+    "touchpoint_id": "TP-DE-00092",
+    "ts": "2026-09-05T16:15:13Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00389",
+    "direction": "inbound",
+    "journey_id": "J-DE-00171",
+    "touchpoint_id": "TP-DE-00093",
+    "ts": "2026-08-31T02:08:25Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00389",
+    "direction": "outbound",
+    "journey_id": "J-DE-00171",
+    "touchpoint_id": "TP-DE-00094",
+    "ts": "2026-08-29T11:18:47Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00389",
+    "direction": "outbound",
+    "journey_id": "J-DE-00171",
+    "touchpoint_id": "TP-DE-00095",
+    "ts": "2026-08-23T00:07:24Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00521",
+    "direction": "inbound",
+    "journey_id": "J-DE-00172",
+    "touchpoint_id": "TP-DE-00096",
+    "ts": "2026-08-01T14:00:35Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00521",
+    "direction": "outbound",
+    "journey_id": "J-DE-00172",
+    "touchpoint_id": "TP-DE-00097",
+    "ts": "2026-08-18T03:34:50Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00423",
+    "direction": "inbound",
+    "journey_id": "J-DE-00173",
+    "touchpoint_id": "TP-DE-00098",
+    "ts": "2026-08-03T18:10:25Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00423",
+    "direction": "inbound",
+    "journey_id": "J-DE-00173",
+    "touchpoint_id": "TP-DE-00099",
+    "ts": "2026-08-26T05:03:03Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00423",
+    "direction": "outbound",
+    "journey_id": "J-DE-00173",
+    "touchpoint_id": "TP-DE-00100",
+    "ts": "2026-09-04T16:05:48Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00423",
+    "direction": "outbound",
+    "journey_id": "J-DE-00173",
+    "touchpoint_id": "TP-DE-00101",
+    "ts": "2026-08-27T02:29:52Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00127",
+    "direction": "inbound",
+    "journey_id": "J-DE-00175",
+    "touchpoint_id": "TP-DE-00102",
+    "ts": "2026-08-07T15:03:44Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00127",
+    "direction": "inbound",
+    "journey_id": "J-DE-00175",
+    "touchpoint_id": "TP-DE-00103",
+    "ts": "2026-09-03T15:21:11Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00127",
+    "direction": "outbound",
+    "journey_id": "J-DE-00175",
+    "touchpoint_id": "TP-DE-00104",
+    "ts": "2026-08-21T17:18:22Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00127",
+    "direction": "outbound",
+    "journey_id": "J-DE-00175",
+    "touchpoint_id": "TP-DE-00105",
+    "ts": "2026-09-06T01:44:35Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00426",
+    "direction": "inbound",
+    "journey_id": "J-DE-00178",
+    "touchpoint_id": "TP-DE-00106",
+    "ts": "2026-08-30T02:26:39Z",
+    "user_id": "U-DE-00003"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00426",
+    "direction": "outbound",
+    "journey_id": "J-DE-00178",
+    "touchpoint_id": "TP-DE-00107",
+    "ts": "2026-08-08T17:16:22Z",
+    "user_id": "U-DE-00003"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00426",
+    "direction": "inbound",
+    "journey_id": "J-DE-00178",
+    "touchpoint_id": "TP-DE-00108",
+    "ts": "2026-09-01T01:45:16Z",
+    "user_id": "U-DE-00003"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00548",
+    "direction": "inbound",
+    "journey_id": "J-DE-00184",
+    "touchpoint_id": "TP-DE-00109",
+    "ts": "2026-09-04T09:57:53Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00503",
+    "direction": "inbound",
+    "journey_id": "J-DE-00196",
+    "touchpoint_id": "TP-DE-00110",
+    "ts": "2026-08-27T02:41:04Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00503",
+    "direction": "inbound",
+    "journey_id": "J-DE-00196",
+    "touchpoint_id": "TP-DE-00111",
+    "ts": "2026-09-10T08:35:21Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00154",
+    "direction": "outbound",
+    "journey_id": "J-DE-00198",
+    "touchpoint_id": "TP-DE-00112",
+    "ts": "2026-08-12T15:07:04Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00154",
+    "direction": "inbound",
+    "journey_id": "J-DE-00198",
+    "touchpoint_id": "TP-DE-00113",
+    "ts": "2026-08-05T18:14:39Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00154",
+    "direction": "inbound",
+    "journey_id": "J-DE-00198",
+    "touchpoint_id": "TP-DE-00114",
+    "ts": "2026-09-07T19:24:15Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00154",
+    "direction": "outbound",
+    "journey_id": "J-DE-00198",
+    "touchpoint_id": "TP-DE-00115",
+    "ts": "2026-08-18T21:51:43Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00097",
+    "direction": "inbound",
+    "journey_id": "J-DE-00217",
+    "touchpoint_id": "TP-DE-00116",
+    "ts": "2026-08-21T01:13:11Z",
+    "user_id": "U-DE-00012"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00097",
+    "direction": "outbound",
+    "journey_id": "J-DE-00217",
+    "touchpoint_id": "TP-DE-00117",
+    "ts": "2026-08-29T23:30:20Z",
+    "user_id": "U-DE-00012"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00097",
+    "direction": "inbound",
+    "journey_id": "J-DE-00217",
+    "touchpoint_id": "TP-DE-00118",
+    "ts": "2026-08-26T04:13:02Z",
+    "user_id": "U-DE-00012"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00578",
+    "direction": "outbound",
+    "journey_id": "J-DE-00218",
+    "touchpoint_id": "TP-DE-00119",
+    "ts": "2026-08-30T12:42:19Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00578",
+    "direction": "inbound",
+    "journey_id": "J-DE-00218",
+    "touchpoint_id": "TP-DE-00120",
+    "ts": "2026-09-10T03:49:32Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00160",
+    "direction": "inbound",
+    "journey_id": "J-DE-00219",
+    "touchpoint_id": "TP-DE-00121",
+    "ts": "2026-08-24T18:25:36Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00160",
+    "direction": "inbound",
+    "journey_id": "J-DE-00219",
+    "touchpoint_id": "TP-DE-00122",
+    "ts": "2026-08-01T21:29:32Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00160",
+    "direction": "outbound",
+    "journey_id": "J-DE-00219",
+    "touchpoint_id": "TP-DE-00123",
+    "ts": "2026-08-08T12:56:46Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00392",
+    "direction": "outbound",
+    "journey_id": "J-DE-00221",
+    "touchpoint_id": "TP-DE-00124",
+    "ts": "2026-08-15T12:48:38Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00392",
+    "direction": "inbound",
+    "journey_id": "J-DE-00221",
+    "touchpoint_id": "TP-DE-00125",
+    "ts": "2026-08-30T16:42:18Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00031",
+    "direction": "outbound",
+    "journey_id": "J-DE-00222",
+    "touchpoint_id": "TP-DE-00126",
+    "ts": "2026-09-05T07:25:41Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00031",
+    "direction": "outbound",
+    "journey_id": "J-DE-00222",
+    "touchpoint_id": "TP-DE-00127",
+    "ts": "2026-09-09T10:33:27Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00031",
+    "direction": "inbound",
+    "journey_id": "J-DE-00222",
+    "touchpoint_id": "TP-DE-00128",
+    "ts": "2026-08-27T02:37:42Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00187",
+    "direction": "inbound",
+    "journey_id": "J-DE-00224",
+    "touchpoint_id": "TP-DE-00129",
+    "ts": "2026-08-04T01:12:24Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00187",
+    "direction": "outbound",
+    "journey_id": "J-DE-00224",
+    "touchpoint_id": "TP-DE-00130",
+    "ts": "2026-08-10T01:35:36Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00187",
+    "direction": "outbound",
+    "journey_id": "J-DE-00224",
+    "touchpoint_id": "TP-DE-00131",
+    "ts": "2026-08-18T21:34:53Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00276",
+    "direction": "outbound",
+    "journey_id": "J-DE-00228",
+    "touchpoint_id": "TP-DE-00132",
+    "ts": "2026-09-06T15:22:28Z",
+    "user_id": "U-DE-00012"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00276",
+    "direction": "inbound",
+    "journey_id": "J-DE-00228",
+    "touchpoint_id": "TP-DE-00133",
+    "ts": "2026-08-29T07:13:14Z",
+    "user_id": "U-DE-00012"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00276",
+    "direction": "outbound",
+    "journey_id": "J-DE-00228",
+    "touchpoint_id": "TP-DE-00134",
+    "ts": "2026-08-18T20:00:06Z",
+    "user_id": "U-DE-00012"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00276",
+    "direction": "inbound",
+    "journey_id": "J-DE-00228",
+    "touchpoint_id": "TP-DE-00135",
+    "ts": "2026-08-06T07:30:27Z",
+    "user_id": "U-DE-00012"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00223",
+    "direction": "inbound",
+    "journey_id": "J-DE-00230",
+    "touchpoint_id": "TP-DE-00136",
+    "ts": "2026-09-01T16:45:35Z",
+    "user_id": "U-DE-00011"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00223",
+    "direction": "outbound",
+    "journey_id": "J-DE-00230",
+    "touchpoint_id": "TP-DE-00137",
+    "ts": "2026-08-27T20:39:27Z",
+    "user_id": "U-DE-00011"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00215",
+    "direction": "inbound",
+    "journey_id": "J-DE-00242",
+    "touchpoint_id": "TP-DE-00138",
+    "ts": "2026-08-19T18:08:17Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00215",
+    "direction": "inbound",
+    "journey_id": "J-DE-00242",
+    "touchpoint_id": "TP-DE-00139",
+    "ts": "2026-08-22T07:37:53Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00215",
+    "direction": "outbound",
+    "journey_id": "J-DE-00242",
+    "touchpoint_id": "TP-DE-00140",
+    "ts": "2026-08-07T11:41:05Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00215",
+    "direction": "outbound",
+    "journey_id": "J-DE-00242",
+    "touchpoint_id": "TP-DE-00141",
+    "ts": "2026-08-23T11:38:48Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00566",
+    "direction": "outbound",
+    "journey_id": "J-DE-00243",
+    "touchpoint_id": "TP-DE-00142",
+    "ts": "2026-08-11T15:34:28Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00566",
+    "direction": "outbound",
+    "journey_id": "J-DE-00243",
+    "touchpoint_id": "TP-DE-00143",
+    "ts": "2026-08-15T09:14:44Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00566",
+    "direction": "outbound",
+    "journey_id": "J-DE-00243",
+    "touchpoint_id": "TP-DE-00144",
+    "ts": "2026-09-10T01:23:35Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00016",
+    "direction": "outbound",
+    "journey_id": "J-DE-00249",
+    "touchpoint_id": "TP-DE-00145",
+    "ts": "2026-08-29T03:50:30Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00016",
+    "direction": "outbound",
+    "journey_id": "J-DE-00249",
+    "touchpoint_id": "TP-DE-00146",
+    "ts": "2026-09-09T07:22:58Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00016",
+    "direction": "inbound",
+    "journey_id": "J-DE-00249",
+    "touchpoint_id": "TP-DE-00147",
+    "ts": "2026-09-09T12:40:52Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00016",
+    "direction": "inbound",
+    "journey_id": "J-DE-00249",
+    "touchpoint_id": "TP-DE-00148",
+    "ts": "2026-09-01T09:05:26Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00398",
+    "direction": "inbound",
+    "journey_id": "J-DE-00252",
+    "touchpoint_id": "TP-DE-00149",
+    "ts": "2026-08-22T03:33:50Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00398",
+    "direction": "inbound",
+    "journey_id": "J-DE-00252",
+    "touchpoint_id": "TP-DE-00150",
+    "ts": "2026-08-06T01:35:12Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00398",
+    "direction": "outbound",
+    "journey_id": "J-DE-00252",
+    "touchpoint_id": "TP-DE-00151",
+    "ts": "2026-08-18T07:29:35Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00574",
+    "direction": "outbound",
+    "journey_id": "J-DE-00253",
+    "touchpoint_id": "TP-DE-00152",
+    "ts": "2026-08-30T13:39:21Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00397",
+    "direction": "outbound",
+    "journey_id": "J-DE-00256",
+    "touchpoint_id": "TP-DE-00153",
+    "ts": "2026-09-07T16:19:25Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00428",
+    "direction": "inbound",
+    "journey_id": "J-DE-00261",
+    "touchpoint_id": "TP-DE-00154",
+    "ts": "2026-08-15T23:51:06Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00403",
+    "direction": "outbound",
+    "journey_id": "J-DE-00268",
+    "touchpoint_id": "TP-DE-00155",
+    "ts": "2026-09-05T20:57:29Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00435",
+    "direction": "inbound",
+    "journey_id": "J-DE-00269",
+    "touchpoint_id": "TP-DE-00156",
+    "ts": "2026-09-02T15:29:02Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00363",
+    "direction": "outbound",
+    "journey_id": "J-DE-00270",
+    "touchpoint_id": "TP-DE-00157",
+    "ts": "2026-08-15T23:25:43Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00468",
+    "direction": "outbound",
+    "journey_id": "J-DE-00272",
+    "touchpoint_id": "TP-DE-00158",
+    "ts": "2026-08-23T22:25:45Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00468",
+    "direction": "outbound",
+    "journey_id": "J-DE-00272",
+    "touchpoint_id": "TP-DE-00159",
+    "ts": "2026-08-10T07:29:46Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00259",
+    "direction": "inbound",
+    "journey_id": "J-DE-00273",
+    "touchpoint_id": "TP-DE-00160",
+    "ts": "2026-08-09T19:17:04Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00259",
+    "direction": "inbound",
+    "journey_id": "J-DE-00273",
+    "touchpoint_id": "TP-DE-00161",
+    "ts": "2026-08-08T13:17:15Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00390",
+    "direction": "inbound",
+    "journey_id": "J-DE-00274",
+    "touchpoint_id": "TP-DE-00162",
+    "ts": "2026-08-14T03:06:04Z",
+    "user_id": "U-DE-00013"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00084",
+    "direction": "inbound",
+    "journey_id": "J-DE-00276",
+    "touchpoint_id": "TP-DE-00163",
+    "ts": "2026-08-07T03:02:09Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00084",
+    "direction": "inbound",
+    "journey_id": "J-DE-00276",
+    "touchpoint_id": "TP-DE-00164",
+    "ts": "2026-08-04T22:27:20Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00541",
+    "direction": "outbound",
+    "journey_id": "J-DE-00278",
+    "touchpoint_id": "TP-DE-00165",
+    "ts": "2026-09-01T18:29:11Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00541",
+    "direction": "outbound",
+    "journey_id": "J-DE-00278",
+    "touchpoint_id": "TP-DE-00166",
+    "ts": "2026-09-03T03:22:27Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00192",
+    "direction": "outbound",
+    "journey_id": "J-DE-00279",
+    "touchpoint_id": "TP-DE-00167",
+    "ts": "2026-08-13T10:47:24Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00192",
+    "direction": "inbound",
+    "journey_id": "J-DE-00279",
+    "touchpoint_id": "TP-DE-00168",
+    "ts": "2026-08-08T04:18:16Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00185",
+    "direction": "inbound",
+    "journey_id": "J-DE-00281",
+    "touchpoint_id": "TP-DE-00169",
+    "ts": "2026-08-31T12:02:09Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00185",
+    "direction": "outbound",
+    "journey_id": "J-DE-00281",
+    "touchpoint_id": "TP-DE-00170",
+    "ts": "2026-09-04T07:08:18Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00308",
+    "direction": "outbound",
+    "journey_id": "J-DE-00285",
+    "touchpoint_id": "TP-DE-00171",
+    "ts": "2026-08-27T14:27:19Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00308",
+    "direction": "inbound",
+    "journey_id": "J-DE-00285",
+    "touchpoint_id": "TP-DE-00172",
+    "ts": "2026-08-04T13:06:53Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00308",
+    "direction": "outbound",
+    "journey_id": "J-DE-00285",
+    "touchpoint_id": "TP-DE-00173",
+    "ts": "2026-09-09T15:09:39Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00211",
+    "direction": "outbound",
+    "journey_id": "J-DE-00289",
+    "touchpoint_id": "TP-DE-00174",
+    "ts": "2026-09-04T05:03:23Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00211",
+    "direction": "inbound",
+    "journey_id": "J-DE-00289",
+    "touchpoint_id": "TP-DE-00175",
+    "ts": "2026-08-11T21:37:18Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00211",
+    "direction": "inbound",
+    "journey_id": "J-DE-00289",
+    "touchpoint_id": "TP-DE-00176",
+    "ts": "2026-08-18T20:06:17Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00030",
+    "direction": "inbound",
+    "journey_id": "J-DE-00290",
+    "touchpoint_id": "TP-DE-00177",
+    "ts": "2026-09-02T13:00:02Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00030",
+    "direction": "inbound",
+    "journey_id": "J-DE-00290",
+    "touchpoint_id": "TP-DE-00178",
+    "ts": "2026-08-22T14:03:41Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00030",
+    "direction": "inbound",
+    "journey_id": "J-DE-00290",
+    "touchpoint_id": "TP-DE-00179",
+    "ts": "2026-09-09T23:55:10Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00344",
+    "direction": "outbound",
+    "journey_id": "J-DE-00297",
+    "touchpoint_id": "TP-DE-00180",
+    "ts": "2026-09-07T10:23:49Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00344",
+    "direction": "outbound",
+    "journey_id": "J-DE-00297",
+    "touchpoint_id": "TP-DE-00181",
+    "ts": "2026-08-29T15:31:56Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00344",
+    "direction": "inbound",
+    "journey_id": "J-DE-00297",
+    "touchpoint_id": "TP-DE-00182",
+    "ts": "2026-08-01T23:03:18Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00344",
+    "direction": "outbound",
+    "journey_id": "J-DE-00297",
+    "touchpoint_id": "TP-DE-00183",
+    "ts": "2026-08-11T08:29:46Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00174",
+    "direction": "inbound",
+    "journey_id": "J-DE-00301",
+    "touchpoint_id": "TP-DE-00184",
+    "ts": "2026-08-19T01:21:50Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00301",
+    "direction": "inbound",
+    "journey_id": "J-DE-00302",
+    "touchpoint_id": "TP-DE-00185",
+    "ts": "2026-08-12T10:45:24Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00301",
+    "direction": "inbound",
+    "journey_id": "J-DE-00302",
+    "touchpoint_id": "TP-DE-00186",
+    "ts": "2026-09-03T04:20:04Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00003",
+    "direction": "inbound",
+    "journey_id": "J-DE-00311",
+    "touchpoint_id": "TP-DE-00187",
+    "ts": "2026-08-28T05:24:23Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00346",
+    "direction": "inbound",
+    "journey_id": "J-DE-00312",
+    "touchpoint_id": "TP-DE-00188",
+    "ts": "2026-08-01T16:25:50Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00346",
+    "direction": "outbound",
+    "journey_id": "J-DE-00312",
+    "touchpoint_id": "TP-DE-00189",
+    "ts": "2026-09-03T16:13:35Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00346",
+    "direction": "outbound",
+    "journey_id": "J-DE-00312",
+    "touchpoint_id": "TP-DE-00190",
+    "ts": "2026-08-05T01:31:12Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00361",
+    "direction": "inbound",
+    "journey_id": "J-DE-00313",
+    "touchpoint_id": "TP-DE-00191",
+    "ts": "2026-09-05T23:11:41Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00204",
+    "direction": "outbound",
+    "journey_id": "J-DE-00314",
+    "touchpoint_id": "TP-DE-00192",
+    "ts": "2026-08-12T10:59:38Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00204",
+    "direction": "inbound",
+    "journey_id": "J-DE-00314",
+    "touchpoint_id": "TP-DE-00193",
+    "ts": "2026-08-28T21:56:08Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00439",
+    "direction": "outbound",
+    "journey_id": "J-DE-00315",
+    "touchpoint_id": "TP-DE-00194",
+    "ts": "2026-08-28T11:28:54Z",
+    "user_id": "U-DE-00003"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00439",
+    "direction": "outbound",
+    "journey_id": "J-DE-00315",
+    "touchpoint_id": "TP-DE-00195",
+    "ts": "2026-08-12T06:08:54Z",
+    "user_id": "U-DE-00003"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00439",
+    "direction": "inbound",
+    "journey_id": "J-DE-00315",
+    "touchpoint_id": "TP-DE-00196",
+    "ts": "2026-08-06T18:39:17Z",
+    "user_id": "U-DE-00003"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00439",
+    "direction": "outbound",
+    "journey_id": "J-DE-00315",
+    "touchpoint_id": "TP-DE-00197",
+    "ts": "2026-08-25T12:38:27Z",
+    "user_id": "U-DE-00003"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00526",
+    "direction": "outbound",
+    "journey_id": "J-DE-00316",
+    "touchpoint_id": "TP-DE-00198",
+    "ts": "2026-08-11T09:06:22Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00526",
+    "direction": "inbound",
+    "journey_id": "J-DE-00316",
+    "touchpoint_id": "TP-DE-00199",
+    "ts": "2026-08-08T12:13:28Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00526",
+    "direction": "outbound",
+    "journey_id": "J-DE-00316",
+    "touchpoint_id": "TP-DE-00200",
+    "ts": "2026-09-05T22:20:38Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00502",
+    "direction": "inbound",
+    "journey_id": "J-DE-00317",
+    "touchpoint_id": "TP-DE-00201",
+    "ts": "2026-08-10T15:42:32Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00502",
+    "direction": "outbound",
+    "journey_id": "J-DE-00317",
+    "touchpoint_id": "TP-DE-00202",
+    "ts": "2026-09-03T20:07:22Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00582",
+    "direction": "outbound",
+    "journey_id": "J-DE-00318",
+    "touchpoint_id": "TP-DE-00203",
+    "ts": "2026-08-15T02:44:18Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00194",
+    "direction": "inbound",
+    "journey_id": "J-DE-00319",
+    "touchpoint_id": "TP-DE-00204",
+    "ts": "2026-08-07T23:58:02Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00194",
+    "direction": "inbound",
+    "journey_id": "J-DE-00319",
+    "touchpoint_id": "TP-DE-00205",
+    "ts": "2026-08-19T05:28:56Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00194",
+    "direction": "outbound",
+    "journey_id": "J-DE-00319",
+    "touchpoint_id": "TP-DE-00206",
+    "ts": "2026-09-07T06:45:37Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00194",
+    "direction": "outbound",
+    "journey_id": "J-DE-00319",
+    "touchpoint_id": "TP-DE-00207",
+    "ts": "2026-08-31T12:20:26Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00313",
+    "direction": "outbound",
+    "journey_id": "J-DE-00320",
+    "touchpoint_id": "TP-DE-00208",
+    "ts": "2026-08-07T18:34:56Z",
+    "user_id": "U-DE-00021"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00022",
+    "direction": "inbound",
+    "journey_id": "J-DE-00321",
+    "touchpoint_id": "TP-DE-00209",
+    "ts": "2026-08-02T17:59:53Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00022",
+    "direction": "inbound",
+    "journey_id": "J-DE-00321",
+    "touchpoint_id": "TP-DE-00210",
+    "ts": "2026-08-29T02:09:55Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00528",
+    "direction": "inbound",
+    "journey_id": "J-DE-00322",
+    "touchpoint_id": "TP-DE-00211",
+    "ts": "2026-08-07T02:12:26Z",
+    "user_id": "U-DE-00012"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00528",
+    "direction": "inbound",
+    "journey_id": "J-DE-00322",
+    "touchpoint_id": "TP-DE-00212",
+    "ts": "2026-08-26T10:02:40Z",
+    "user_id": "U-DE-00012"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00528",
+    "direction": "inbound",
+    "journey_id": "J-DE-00322",
+    "touchpoint_id": "TP-DE-00213",
+    "ts": "2026-08-16T14:46:41Z",
+    "user_id": "U-DE-00012"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00528",
+    "direction": "inbound",
+    "journey_id": "J-DE-00322",
+    "touchpoint_id": "TP-DE-00214",
+    "ts": "2026-08-10T22:01:01Z",
+    "user_id": "U-DE-00012"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00492",
+    "direction": "inbound",
+    "journey_id": "J-DE-00323",
+    "touchpoint_id": "TP-DE-00215",
+    "ts": "2026-08-27T11:56:43Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00239",
+    "direction": "inbound",
+    "journey_id": "J-DE-00324",
+    "touchpoint_id": "TP-DE-00216",
+    "ts": "2026-09-01T17:46:18Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00472",
+    "direction": "inbound",
+    "journey_id": "J-DE-00325",
+    "touchpoint_id": "TP-DE-00217",
+    "ts": "2026-08-29T19:59:53Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00472",
+    "direction": "inbound",
+    "journey_id": "J-DE-00325",
+    "touchpoint_id": "TP-DE-00218",
+    "ts": "2026-09-04T23:07:37Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00320",
+    "direction": "outbound",
+    "journey_id": "J-DE-00326",
+    "touchpoint_id": "TP-DE-00219",
+    "ts": "2026-08-02T03:19:58Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00320",
+    "direction": "outbound",
+    "journey_id": "J-DE-00326",
+    "touchpoint_id": "TP-DE-00220",
+    "ts": "2026-08-24T04:41:53Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00320",
+    "direction": "outbound",
+    "journey_id": "J-DE-00326",
+    "touchpoint_id": "TP-DE-00221",
+    "ts": "2026-09-08T22:19:03Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00501",
+    "direction": "inbound",
+    "journey_id": "J-DE-00327",
+    "touchpoint_id": "TP-DE-00222",
+    "ts": "2026-09-03T07:45:12Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00501",
+    "direction": "outbound",
+    "journey_id": "J-DE-00327",
+    "touchpoint_id": "TP-DE-00223",
+    "ts": "2026-08-10T12:53:25Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00377",
+    "direction": "inbound",
+    "journey_id": "J-DE-00328",
+    "touchpoint_id": "TP-DE-00224",
+    "ts": "2026-08-21T04:34:24Z",
+    "user_id": "U-DE-00012"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00429",
+    "direction": "outbound",
+    "journey_id": "J-DE-00329",
+    "touchpoint_id": "TP-DE-00225",
+    "ts": "2026-08-15T11:54:25Z",
+    "user_id": "U-DE-00021"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00429",
+    "direction": "inbound",
+    "journey_id": "J-DE-00329",
+    "touchpoint_id": "TP-DE-00226",
+    "ts": "2026-08-13T21:46:41Z",
+    "user_id": "U-DE-00021"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00429",
+    "direction": "inbound",
+    "journey_id": "J-DE-00329",
+    "touchpoint_id": "TP-DE-00227",
+    "ts": "2026-09-06T15:01:25Z",
+    "user_id": "U-DE-00021"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00429",
+    "direction": "inbound",
+    "journey_id": "J-DE-00329",
+    "touchpoint_id": "TP-DE-00228",
+    "ts": "2026-08-15T08:32:57Z",
+    "user_id": "U-DE-00021"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00065",
+    "direction": "outbound",
+    "journey_id": "J-DE-00330",
+    "touchpoint_id": "TP-DE-00229",
+    "ts": "2026-08-20T05:24:10Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00065",
+    "direction": "inbound",
+    "journey_id": "J-DE-00330",
+    "touchpoint_id": "TP-DE-00230",
+    "ts": "2026-08-14T16:20:36Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00065",
+    "direction": "inbound",
+    "journey_id": "J-DE-00330",
+    "touchpoint_id": "TP-DE-00231",
+    "ts": "2026-08-25T08:10:48Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00065",
+    "direction": "outbound",
+    "journey_id": "J-DE-00330",
+    "touchpoint_id": "TP-DE-00232",
+    "ts": "2026-09-03T20:13:17Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00474",
+    "direction": "inbound",
+    "journey_id": "J-DE-00331",
+    "touchpoint_id": "TP-DE-00233",
+    "ts": "2026-09-05T04:29:11Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00474",
+    "direction": "inbound",
+    "journey_id": "J-DE-00331",
+    "touchpoint_id": "TP-DE-00234",
+    "ts": "2026-08-05T00:55:03Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00474",
+    "direction": "inbound",
+    "journey_id": "J-DE-00331",
+    "touchpoint_id": "TP-DE-00235",
+    "ts": "2026-09-10T02:43:04Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00474",
+    "direction": "inbound",
+    "journey_id": "J-DE-00331",
+    "touchpoint_id": "TP-DE-00236",
+    "ts": "2026-09-08T07:50:56Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00270",
+    "direction": "inbound",
+    "journey_id": "J-DE-00332",
+    "touchpoint_id": "TP-DE-00237",
+    "ts": "2026-08-30T11:54:29Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00270",
+    "direction": "outbound",
+    "journey_id": "J-DE-00332",
+    "touchpoint_id": "TP-DE-00238",
+    "ts": "2026-08-14T00:20:50Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00263",
+    "direction": "outbound",
+    "journey_id": "J-DE-00333",
+    "touchpoint_id": "TP-DE-00239",
+    "ts": "2026-09-03T04:56:35Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00263",
+    "direction": "inbound",
+    "journey_id": "J-DE-00333",
+    "touchpoint_id": "TP-DE-00240",
+    "ts": "2026-08-09T19:35:40Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00263",
+    "direction": "outbound",
+    "journey_id": "J-DE-00333",
+    "touchpoint_id": "TP-DE-00241",
+    "ts": "2026-08-26T11:16:52Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00263",
+    "direction": "inbound",
+    "journey_id": "J-DE-00333",
+    "touchpoint_id": "TP-DE-00242",
+    "ts": "2026-08-07T10:24:08Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00317",
+    "direction": "outbound",
+    "journey_id": "J-DE-00334",
+    "touchpoint_id": "TP-DE-00243",
+    "ts": "2026-08-04T12:40:50Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00317",
+    "direction": "inbound",
+    "journey_id": "J-DE-00334",
+    "touchpoint_id": "TP-DE-00244",
+    "ts": "2026-09-03T06:13:20Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00317",
+    "direction": "outbound",
+    "journey_id": "J-DE-00334",
+    "touchpoint_id": "TP-DE-00245",
+    "ts": "2026-08-14T22:34:33Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00261",
+    "direction": "inbound",
+    "journey_id": "J-DE-00335",
+    "touchpoint_id": "TP-DE-00246",
+    "ts": "2026-08-18T07:22:36Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00062",
+    "direction": "inbound",
+    "journey_id": "J-DE-00336",
+    "touchpoint_id": "TP-DE-00247",
+    "ts": "2026-09-07T07:55:12Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00062",
+    "direction": "inbound",
+    "journey_id": "J-DE-00336",
+    "touchpoint_id": "TP-DE-00248",
+    "ts": "2026-08-07T22:09:24Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00062",
+    "direction": "inbound",
+    "journey_id": "J-DE-00336",
+    "touchpoint_id": "TP-DE-00249",
+    "ts": "2026-08-18T16:14:16Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00062",
+    "direction": "inbound",
+    "journey_id": "J-DE-00336",
+    "touchpoint_id": "TP-DE-00250",
+    "ts": "2026-08-24T03:34:52Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00032",
+    "direction": "inbound",
+    "journey_id": "J-DE-00337",
+    "touchpoint_id": "TP-DE-00251",
+    "ts": "2026-09-03T18:26:26Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00032",
+    "direction": "outbound",
+    "journey_id": "J-DE-00337",
+    "touchpoint_id": "TP-DE-00252",
+    "ts": "2026-09-02T06:14:48Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00032",
+    "direction": "inbound",
+    "journey_id": "J-DE-00337",
+    "touchpoint_id": "TP-DE-00253",
+    "ts": "2026-08-05T01:36:37Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00547",
+    "direction": "outbound",
+    "journey_id": "J-DE-00338",
+    "touchpoint_id": "TP-DE-00254",
+    "ts": "2026-08-29T05:53:20Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00547",
+    "direction": "inbound",
+    "journey_id": "J-DE-00338",
+    "touchpoint_id": "TP-DE-00255",
+    "ts": "2026-08-19T17:09:50Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00547",
+    "direction": "inbound",
+    "journey_id": "J-DE-00338",
+    "touchpoint_id": "TP-DE-00256",
+    "ts": "2026-08-01T20:52:02Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00547",
+    "direction": "inbound",
+    "journey_id": "J-DE-00338",
+    "touchpoint_id": "TP-DE-00257",
+    "ts": "2026-08-21T06:43:43Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00209",
+    "direction": "outbound",
+    "journey_id": "J-DE-00339",
+    "touchpoint_id": "TP-DE-00258",
+    "ts": "2026-08-05T20:59:47Z",
+    "user_id": "U-DE-00021"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00209",
+    "direction": "outbound",
+    "journey_id": "J-DE-00339",
+    "touchpoint_id": "TP-DE-00259",
+    "ts": "2026-08-24T08:03:21Z",
+    "user_id": "U-DE-00021"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00353",
+    "direction": "inbound",
+    "journey_id": "J-DE-00340",
+    "touchpoint_id": "TP-DE-00260",
+    "ts": "2026-09-03T02:38:29Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00353",
+    "direction": "inbound",
+    "journey_id": "J-DE-00340",
+    "touchpoint_id": "TP-DE-00261",
+    "ts": "2026-08-26T15:12:17Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00117",
+    "direction": "inbound",
+    "journey_id": "J-DE-00341",
+    "touchpoint_id": "TP-DE-00262",
+    "ts": "2026-08-05T17:30:14Z",
+    "user_id": "U-DE-00012"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00117",
+    "direction": "outbound",
+    "journey_id": "J-DE-00341",
+    "touchpoint_id": "TP-DE-00263",
+    "ts": "2026-08-21T02:11:24Z",
+    "user_id": "U-DE-00012"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00117",
+    "direction": "outbound",
+    "journey_id": "J-DE-00341",
+    "touchpoint_id": "TP-DE-00264",
+    "ts": "2026-08-17T20:46:10Z",
+    "user_id": "U-DE-00012"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00491",
+    "direction": "inbound",
+    "journey_id": "J-DE-00342",
+    "touchpoint_id": "TP-DE-00265",
+    "ts": "2026-08-28T06:22:36Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00491",
+    "direction": "outbound",
+    "journey_id": "J-DE-00342",
+    "touchpoint_id": "TP-DE-00266",
+    "ts": "2026-08-17T00:48:25Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00035",
+    "direction": "outbound",
+    "journey_id": "J-DE-00343",
+    "touchpoint_id": "TP-DE-00267",
+    "ts": "2026-08-01T17:58:48Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00387",
+    "direction": "inbound",
+    "journey_id": "J-DE-00344",
+    "touchpoint_id": "TP-DE-00268",
+    "ts": "2026-08-30T18:46:27Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00025",
+    "direction": "inbound",
+    "journey_id": "J-DE-00345",
+    "touchpoint_id": "TP-DE-00269",
+    "ts": "2026-09-07T14:04:02Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00205",
+    "direction": "inbound",
+    "journey_id": "J-DE-00346",
+    "touchpoint_id": "TP-DE-00270",
+    "ts": "2026-08-17T07:05:20Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00205",
+    "direction": "inbound",
+    "journey_id": "J-DE-00346",
+    "touchpoint_id": "TP-DE-00271",
+    "ts": "2026-08-13T00:33:40Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00205",
+    "direction": "outbound",
+    "journey_id": "J-DE-00346",
+    "touchpoint_id": "TP-DE-00272",
+    "ts": "2026-08-21T22:17:06Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00262",
+    "direction": "outbound",
+    "journey_id": "J-DE-00347",
+    "touchpoint_id": "TP-DE-00273",
+    "ts": "2026-08-23T23:12:28Z",
+    "user_id": "U-DE-00021"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00262",
+    "direction": "outbound",
+    "journey_id": "J-DE-00347",
+    "touchpoint_id": "TP-DE-00274",
+    "ts": "2026-09-06T06:18:03Z",
+    "user_id": "U-DE-00021"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00262",
+    "direction": "inbound",
+    "journey_id": "J-DE-00347",
+    "touchpoint_id": "TP-DE-00275",
+    "ts": "2026-08-16T15:18:15Z",
+    "user_id": "U-DE-00021"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00334",
+    "direction": "outbound",
+    "journey_id": "J-DE-00348",
+    "touchpoint_id": "TP-DE-00276",
+    "ts": "2026-08-31T21:25:16Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00334",
+    "direction": "inbound",
+    "journey_id": "J-DE-00348",
+    "touchpoint_id": "TP-DE-00277",
+    "ts": "2026-08-02T22:37:45Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00335",
+    "direction": "inbound",
+    "journey_id": "J-DE-00349",
+    "touchpoint_id": "TP-DE-00278",
+    "ts": "2026-08-14T01:19:53Z",
+    "user_id": "U-DE-00003"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00096",
+    "direction": "outbound",
+    "journey_id": "J-DE-00350",
+    "touchpoint_id": "TP-DE-00279",
+    "ts": "2026-08-17T10:51:26Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00096",
+    "direction": "outbound",
+    "journey_id": "J-DE-00350",
+    "touchpoint_id": "TP-DE-00280",
+    "ts": "2026-08-05T06:56:05Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00096",
+    "direction": "inbound",
+    "journey_id": "J-DE-00350",
+    "touchpoint_id": "TP-DE-00281",
+    "ts": "2026-08-02T18:42:38Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00546",
+    "direction": "outbound",
+    "journey_id": "J-DE-00351",
+    "touchpoint_id": "TP-DE-00282",
+    "ts": "2026-09-06T17:13:38Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00546",
+    "direction": "outbound",
+    "journey_id": "J-DE-00351",
+    "touchpoint_id": "TP-DE-00283",
+    "ts": "2026-08-01T15:52:21Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00546",
+    "direction": "inbound",
+    "journey_id": "J-DE-00351",
+    "touchpoint_id": "TP-DE-00284",
+    "ts": "2026-08-15T16:35:40Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00546",
+    "direction": "inbound",
+    "journey_id": "J-DE-00351",
+    "touchpoint_id": "TP-DE-00285",
+    "ts": "2026-09-06T12:27:09Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00038",
+    "direction": "inbound",
+    "journey_id": "J-DE-00352",
+    "touchpoint_id": "TP-DE-00286",
+    "ts": "2026-08-10T08:03:26Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00038",
+    "direction": "outbound",
+    "journey_id": "J-DE-00352",
+    "touchpoint_id": "TP-DE-00287",
+    "ts": "2026-08-04T23:00:19Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00092",
+    "direction": "outbound",
+    "journey_id": "J-DE-00353",
+    "touchpoint_id": "TP-DE-00288",
+    "ts": "2026-08-14T01:15:18Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00412",
+    "direction": "outbound",
+    "journey_id": "J-DE-00354",
+    "touchpoint_id": "TP-DE-00289",
+    "ts": "2026-08-05T04:07:05Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00412",
+    "direction": "outbound",
+    "journey_id": "J-DE-00354",
+    "touchpoint_id": "TP-DE-00290",
+    "ts": "2026-09-10T00:51:57Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00348",
+    "direction": "inbound",
+    "journey_id": "J-DE-00355",
+    "touchpoint_id": "TP-DE-00291",
+    "ts": "2026-08-13T05:59:09Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00300",
+    "direction": "outbound",
+    "journey_id": "J-DE-00356",
+    "touchpoint_id": "TP-DE-00292",
+    "ts": "2026-08-30T15:56:02Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00300",
+    "direction": "outbound",
+    "journey_id": "J-DE-00356",
+    "touchpoint_id": "TP-DE-00293",
+    "ts": "2026-08-02T15:55:23Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00433",
+    "direction": "outbound",
+    "journey_id": "J-DE-00357",
+    "touchpoint_id": "TP-DE-00294",
+    "ts": "2026-08-18T02:11:12Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00085",
+    "direction": "inbound",
+    "journey_id": "J-DE-00358",
+    "touchpoint_id": "TP-DE-00295",
+    "ts": "2026-08-28T08:11:21Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00085",
+    "direction": "outbound",
+    "journey_id": "J-DE-00358",
+    "touchpoint_id": "TP-DE-00296",
+    "ts": "2026-08-04T14:32:13Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00085",
+    "direction": "outbound",
+    "journey_id": "J-DE-00358",
+    "touchpoint_id": "TP-DE-00297",
+    "ts": "2026-09-04T20:33:37Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00019",
+    "direction": "inbound",
+    "journey_id": "J-DE-00359",
+    "touchpoint_id": "TP-DE-00298",
+    "ts": "2026-08-23T14:36:20Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00019",
+    "direction": "inbound",
+    "journey_id": "J-DE-00359",
+    "touchpoint_id": "TP-DE-00299",
+    "ts": "2026-08-05T16:49:47Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00019",
+    "direction": "inbound",
+    "journey_id": "J-DE-00359",
+    "touchpoint_id": "TP-DE-00300",
+    "ts": "2026-08-19T00:47:17Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00319",
+    "direction": "inbound",
+    "journey_id": "J-DE-00360",
+    "touchpoint_id": "TP-DE-00301",
+    "ts": "2026-08-30T06:41:55Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00319",
+    "direction": "outbound",
+    "journey_id": "J-DE-00360",
+    "touchpoint_id": "TP-DE-00302",
+    "ts": "2026-09-08T02:30:26Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00319",
+    "direction": "outbound",
+    "journey_id": "J-DE-00360",
+    "touchpoint_id": "TP-DE-00303",
+    "ts": "2026-08-27T18:45:36Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00252",
+    "direction": "outbound",
+    "journey_id": "J-DE-00361",
+    "touchpoint_id": "TP-DE-00304",
+    "ts": "2026-08-14T19:00:40Z",
+    "user_id": "U-DE-00003"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00252",
+    "direction": "inbound",
+    "journey_id": "J-DE-00361",
+    "touchpoint_id": "TP-DE-00305",
+    "ts": "2026-09-06T12:19:21Z",
+    "user_id": "U-DE-00003"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00252",
+    "direction": "inbound",
+    "journey_id": "J-DE-00361",
+    "touchpoint_id": "TP-DE-00306",
+    "ts": "2026-09-03T13:45:45Z",
+    "user_id": "U-DE-00003"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00275",
+    "direction": "inbound",
+    "journey_id": "J-DE-00362",
+    "touchpoint_id": "TP-DE-00307",
+    "ts": "2026-08-27T15:16:27Z",
+    "user_id": "U-DE-00013"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00275",
+    "direction": "outbound",
+    "journey_id": "J-DE-00362",
+    "touchpoint_id": "TP-DE-00308",
+    "ts": "2026-08-04T15:49:05Z",
+    "user_id": "U-DE-00013"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00275",
+    "direction": "outbound",
+    "journey_id": "J-DE-00362",
+    "touchpoint_id": "TP-DE-00309",
+    "ts": "2026-08-28T16:56:01Z",
+    "user_id": "U-DE-00013"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00061",
+    "direction": "inbound",
+    "journey_id": "J-DE-00363",
+    "touchpoint_id": "TP-DE-00310",
+    "ts": "2026-08-11T12:28:59Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00061",
+    "direction": "outbound",
+    "journey_id": "J-DE-00363",
+    "touchpoint_id": "TP-DE-00311",
+    "ts": "2026-08-16T02:44:19Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00529",
+    "direction": "inbound",
+    "journey_id": "J-DE-00364",
+    "touchpoint_id": "TP-DE-00312",
+    "ts": "2026-08-23T01:43:45Z",
+    "user_id": "U-DE-00011"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00529",
+    "direction": "inbound",
+    "journey_id": "J-DE-00364",
+    "touchpoint_id": "TP-DE-00313",
+    "ts": "2026-08-26T04:16:17Z",
+    "user_id": "U-DE-00011"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00529",
+    "direction": "outbound",
+    "journey_id": "J-DE-00364",
+    "touchpoint_id": "TP-DE-00314",
+    "ts": "2026-08-03T23:56:30Z",
+    "user_id": "U-DE-00011"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00368",
+    "direction": "inbound",
+    "journey_id": "J-DE-00365",
+    "touchpoint_id": "TP-DE-00315",
+    "ts": "2026-08-08T21:13:48Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00368",
+    "direction": "inbound",
+    "journey_id": "J-DE-00365",
+    "touchpoint_id": "TP-DE-00316",
+    "ts": "2026-08-31T19:44:36Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00368",
+    "direction": "inbound",
+    "journey_id": "J-DE-00365",
+    "touchpoint_id": "TP-DE-00317",
+    "ts": "2026-08-19T15:08:16Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00156",
+    "direction": "inbound",
+    "journey_id": "J-DE-00366",
+    "touchpoint_id": "TP-DE-00318",
+    "ts": "2026-08-13T16:53:44Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00156",
+    "direction": "inbound",
+    "journey_id": "J-DE-00366",
+    "touchpoint_id": "TP-DE-00319",
+    "ts": "2026-09-07T13:40:50Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00375",
+    "direction": "inbound",
+    "journey_id": "J-DE-00367",
+    "touchpoint_id": "TP-DE-00320",
+    "ts": "2026-08-18T05:21:37Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00375",
+    "direction": "inbound",
+    "journey_id": "J-DE-00367",
+    "touchpoint_id": "TP-DE-00321",
+    "ts": "2026-08-29T16:21:59Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00070",
+    "direction": "inbound",
+    "journey_id": "J-DE-00368",
+    "touchpoint_id": "TP-DE-00322",
+    "ts": "2026-09-08T23:55:27Z",
+    "user_id": "U-DE-00013"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00070",
+    "direction": "outbound",
+    "journey_id": "J-DE-00368",
+    "touchpoint_id": "TP-DE-00323",
+    "ts": "2026-08-26T11:14:50Z",
+    "user_id": "U-DE-00013"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00070",
+    "direction": "inbound",
+    "journey_id": "J-DE-00368",
+    "touchpoint_id": "TP-DE-00324",
+    "ts": "2026-08-10T01:55:54Z",
+    "user_id": "U-DE-00013"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00407",
+    "direction": "outbound",
+    "journey_id": "J-DE-00369",
+    "touchpoint_id": "TP-DE-00325",
+    "ts": "2026-08-14T19:22:36Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00484",
+    "direction": "inbound",
+    "journey_id": "J-DE-00370",
+    "touchpoint_id": "TP-DE-00326",
+    "ts": "2026-09-04T14:24:54Z",
+    "user_id": "U-DE-00011"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00430",
+    "direction": "inbound",
+    "journey_id": "J-DE-00371",
+    "touchpoint_id": "TP-DE-00327",
+    "ts": "2026-09-07T06:01:36Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00430",
+    "direction": "outbound",
+    "journey_id": "J-DE-00371",
+    "touchpoint_id": "TP-DE-00328",
+    "ts": "2026-09-04T03:07:54Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00430",
+    "direction": "outbound",
+    "journey_id": "J-DE-00371",
+    "touchpoint_id": "TP-DE-00329",
+    "ts": "2026-08-25T02:11:55Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00461",
+    "direction": "inbound",
+    "journey_id": "J-DE-00372",
+    "touchpoint_id": "TP-DE-00330",
+    "ts": "2026-08-23T16:23:22Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00461",
+    "direction": "inbound",
+    "journey_id": "J-DE-00372",
+    "touchpoint_id": "TP-DE-00331",
+    "ts": "2026-08-13T20:55:27Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00105",
+    "direction": "outbound",
+    "journey_id": "J-DE-00373",
+    "touchpoint_id": "TP-DE-00332",
+    "ts": "2026-08-19T19:24:23Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00299",
+    "direction": "inbound",
+    "journey_id": "J-DE-00374",
+    "touchpoint_id": "TP-DE-00333",
+    "ts": "2026-08-23T15:23:59Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00299",
+    "direction": "inbound",
+    "journey_id": "J-DE-00374",
+    "touchpoint_id": "TP-DE-00334",
+    "ts": "2026-08-01T13:06:20Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00078",
+    "direction": "inbound",
+    "journey_id": "J-DE-00375",
+    "touchpoint_id": "TP-DE-00335",
+    "ts": "2026-09-08T17:39:36Z",
+    "user_id": "U-DE-00003"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00514",
+    "direction": "inbound",
+    "journey_id": "J-DE-00376",
+    "touchpoint_id": "TP-DE-00336",
+    "ts": "2026-09-07T14:26:22Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00514",
+    "direction": "outbound",
+    "journey_id": "J-DE-00376",
+    "touchpoint_id": "TP-DE-00337",
+    "ts": "2026-09-02T11:43:51Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00514",
+    "direction": "outbound",
+    "journey_id": "J-DE-00376",
+    "touchpoint_id": "TP-DE-00338",
+    "ts": "2026-08-28T20:29:38Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00514",
+    "direction": "inbound",
+    "journey_id": "J-DE-00376",
+    "touchpoint_id": "TP-DE-00339",
+    "ts": "2026-09-09T17:29:31Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00153",
+    "direction": "outbound",
+    "journey_id": "J-DE-00377",
+    "touchpoint_id": "TP-DE-00340",
+    "ts": "2026-08-04T05:32:24Z",
+    "user_id": "U-DE-00012"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00153",
+    "direction": "outbound",
+    "journey_id": "J-DE-00377",
+    "touchpoint_id": "TP-DE-00341",
+    "ts": "2026-08-27T07:58:28Z",
+    "user_id": "U-DE-00012"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00153",
+    "direction": "inbound",
+    "journey_id": "J-DE-00377",
+    "touchpoint_id": "TP-DE-00342",
+    "ts": "2026-08-07T09:09:14Z",
+    "user_id": "U-DE-00012"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00153",
+    "direction": "outbound",
+    "journey_id": "J-DE-00377",
+    "touchpoint_id": "TP-DE-00343",
+    "ts": "2026-09-05T10:19:11Z",
+    "user_id": "U-DE-00012"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00066",
+    "direction": "outbound",
+    "journey_id": "J-DE-00378",
+    "touchpoint_id": "TP-DE-00344",
+    "ts": "2026-08-12T11:27:31Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00066",
+    "direction": "inbound",
+    "journey_id": "J-DE-00378",
+    "touchpoint_id": "TP-DE-00345",
+    "ts": "2026-08-22T06:53:36Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00066",
+    "direction": "inbound",
+    "journey_id": "J-DE-00378",
+    "touchpoint_id": "TP-DE-00346",
+    "ts": "2026-08-16T11:38:57Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00066",
+    "direction": "inbound",
+    "journey_id": "J-DE-00378",
+    "touchpoint_id": "TP-DE-00347",
+    "ts": "2026-08-08T07:37:43Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00278",
+    "direction": "inbound",
+    "journey_id": "J-DE-00379",
+    "touchpoint_id": "TP-DE-00348",
+    "ts": "2026-08-07T14:10:52Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00278",
+    "direction": "inbound",
+    "journey_id": "J-DE-00379",
+    "touchpoint_id": "TP-DE-00349",
+    "ts": "2026-08-06T03:26:58Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00095",
+    "direction": "outbound",
+    "journey_id": "J-DE-00380",
+    "touchpoint_id": "TP-DE-00350",
+    "ts": "2026-08-02T17:21:40Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00095",
+    "direction": "outbound",
+    "journey_id": "J-DE-00380",
+    "touchpoint_id": "TP-DE-00351",
+    "ts": "2026-09-05T04:08:24Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00095",
+    "direction": "outbound",
+    "journey_id": "J-DE-00380",
+    "touchpoint_id": "TP-DE-00352",
+    "ts": "2026-08-27T13:26:54Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00095",
+    "direction": "inbound",
+    "journey_id": "J-DE-00380",
+    "touchpoint_id": "TP-DE-00353",
+    "ts": "2026-09-09T02:38:07Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00053",
+    "direction": "inbound",
+    "journey_id": "J-DE-00381",
+    "touchpoint_id": "TP-DE-00354",
+    "ts": "2026-08-03T04:12:43Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00060",
+    "direction": "outbound",
+    "journey_id": "J-DE-00382",
+    "touchpoint_id": "TP-DE-00355",
+    "ts": "2026-08-08T06:15:23Z",
+    "user_id": "U-DE-00011"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00060",
+    "direction": "outbound",
+    "journey_id": "J-DE-00382",
+    "touchpoint_id": "TP-DE-00356",
+    "ts": "2026-08-02T02:37:07Z",
+    "user_id": "U-DE-00011"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00303",
+    "direction": "outbound",
+    "journey_id": "J-DE-00383",
+    "touchpoint_id": "TP-DE-00357",
+    "ts": "2026-08-02T07:06:09Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00303",
+    "direction": "outbound",
+    "journey_id": "J-DE-00383",
+    "touchpoint_id": "TP-DE-00358",
+    "ts": "2026-08-24T13:54:10Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00008",
+    "direction": "inbound",
+    "journey_id": "J-DE-00384",
+    "touchpoint_id": "TP-DE-00359",
+    "ts": "2026-08-06T07:06:03Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00010",
+    "direction": "inbound",
+    "journey_id": "J-DE-00385",
+    "touchpoint_id": "TP-DE-00360",
+    "ts": "2026-08-14T19:48:12Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00010",
+    "direction": "inbound",
+    "journey_id": "J-DE-00385",
+    "touchpoint_id": "TP-DE-00361",
+    "ts": "2026-08-15T15:37:26Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00371",
+    "direction": "inbound",
+    "journey_id": "J-DE-00386",
+    "touchpoint_id": "TP-DE-00362",
+    "ts": "2026-09-03T22:11:42Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00371",
+    "direction": "inbound",
+    "journey_id": "J-DE-00386",
+    "touchpoint_id": "TP-DE-00363",
+    "ts": "2026-08-18T13:56:31Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00371",
+    "direction": "outbound",
+    "journey_id": "J-DE-00386",
+    "touchpoint_id": "TP-DE-00364",
+    "ts": "2026-08-02T02:22:25Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00123",
+    "direction": "outbound",
+    "journey_id": "J-DE-00387",
+    "touchpoint_id": "TP-DE-00365",
+    "ts": "2026-08-27T11:04:23Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00321",
+    "direction": "outbound",
+    "journey_id": "J-DE-00388",
+    "touchpoint_id": "TP-DE-00366",
+    "ts": "2026-09-05T13:30:05Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00329",
+    "direction": "inbound",
+    "journey_id": "J-DE-00389",
+    "touchpoint_id": "TP-DE-00367",
+    "ts": "2026-08-27T17:56:08Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00588",
+    "direction": "inbound",
+    "journey_id": "J-DE-00390",
+    "touchpoint_id": "TP-DE-00368",
+    "ts": "2026-08-08T10:35:47Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00049",
+    "direction": "outbound",
+    "journey_id": "J-DE-00391",
+    "touchpoint_id": "TP-DE-00369",
+    "ts": "2026-09-07T23:28:12Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00049",
+    "direction": "inbound",
+    "journey_id": "J-DE-00391",
+    "touchpoint_id": "TP-DE-00370",
+    "ts": "2026-08-27T01:24:40Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00049",
+    "direction": "inbound",
+    "journey_id": "J-DE-00391",
+    "touchpoint_id": "TP-DE-00371",
+    "ts": "2026-08-30T21:14:42Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00282",
+    "direction": "outbound",
+    "journey_id": "J-DE-00392",
+    "touchpoint_id": "TP-DE-00372",
+    "ts": "2026-08-03T13:19:38Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00247",
+    "direction": "outbound",
+    "journey_id": "J-DE-00393",
+    "touchpoint_id": "TP-DE-00373",
+    "ts": "2026-08-26T06:00:29Z",
+    "user_id": "U-DE-00021"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00247",
+    "direction": "outbound",
+    "journey_id": "J-DE-00393",
+    "touchpoint_id": "TP-DE-00374",
+    "ts": "2026-09-04T08:52:05Z",
+    "user_id": "U-DE-00021"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00247",
+    "direction": "outbound",
+    "journey_id": "J-DE-00393",
+    "touchpoint_id": "TP-DE-00375",
+    "ts": "2026-08-09T17:27:11Z",
+    "user_id": "U-DE-00021"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00167",
+    "direction": "outbound",
+    "journey_id": "J-DE-00394",
+    "touchpoint_id": "TP-DE-00376",
+    "ts": "2026-08-24T03:18:23Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00167",
+    "direction": "inbound",
+    "journey_id": "J-DE-00394",
+    "touchpoint_id": "TP-DE-00377",
+    "ts": "2026-08-20T02:27:22Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00167",
+    "direction": "outbound",
+    "journey_id": "J-DE-00394",
+    "touchpoint_id": "TP-DE-00378",
+    "ts": "2026-08-20T01:50:28Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00041",
+    "direction": "outbound",
+    "journey_id": "J-DE-00395",
+    "touchpoint_id": "TP-DE-00379",
+    "ts": "2026-09-06T16:44:00Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00041",
+    "direction": "inbound",
+    "journey_id": "J-DE-00395",
+    "touchpoint_id": "TP-DE-00380",
+    "ts": "2026-08-04T18:36:47Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00041",
+    "direction": "outbound",
+    "journey_id": "J-DE-00395",
+    "touchpoint_id": "TP-DE-00381",
+    "ts": "2026-08-22T22:10:00Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00041",
+    "direction": "outbound",
+    "journey_id": "J-DE-00395",
+    "touchpoint_id": "TP-DE-00382",
+    "ts": "2026-09-01T05:18:21Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00576",
+    "direction": "outbound",
+    "journey_id": "J-DE-00396",
+    "touchpoint_id": "TP-DE-00383",
+    "ts": "2026-08-11T09:11:00Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00576",
+    "direction": "outbound",
+    "journey_id": "J-DE-00396",
+    "touchpoint_id": "TP-DE-00384",
+    "ts": "2026-08-31T13:54:27Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00177",
+    "direction": "inbound",
+    "journey_id": "J-DE-00397",
+    "touchpoint_id": "TP-DE-00385",
+    "ts": "2026-08-01T23:32:58Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00072",
+    "direction": "inbound",
+    "journey_id": "J-DE-00398",
+    "touchpoint_id": "TP-DE-00386",
+    "ts": "2026-09-07T04:52:54Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00072",
+    "direction": "inbound",
+    "journey_id": "J-DE-00398",
+    "touchpoint_id": "TP-DE-00387",
+    "ts": "2026-09-09T07:23:05Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00072",
+    "direction": "outbound",
+    "journey_id": "J-DE-00398",
+    "touchpoint_id": "TP-DE-00388",
+    "ts": "2026-08-26T15:18:05Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00523",
+    "direction": "inbound",
+    "journey_id": "J-DE-00399",
+    "touchpoint_id": "TP-DE-00389",
+    "ts": "2026-08-12T20:23:01Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00523",
+    "direction": "outbound",
+    "journey_id": "J-DE-00399",
+    "touchpoint_id": "TP-DE-00390",
+    "ts": "2026-08-29T14:56:15Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00523",
+    "direction": "inbound",
+    "journey_id": "J-DE-00399",
+    "touchpoint_id": "TP-DE-00391",
+    "ts": "2026-08-07T23:27:53Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00360",
+    "direction": "inbound",
+    "journey_id": "J-DE-00400",
+    "touchpoint_id": "TP-DE-00392",
+    "ts": "2026-08-08T12:03:49Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00360",
+    "direction": "outbound",
+    "journey_id": "J-DE-00400",
+    "touchpoint_id": "TP-DE-00393",
+    "ts": "2026-08-11T10:15:38Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00360",
+    "direction": "outbound",
+    "journey_id": "J-DE-00400",
+    "touchpoint_id": "TP-DE-00394",
+    "ts": "2026-09-07T01:28:02Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00495",
+    "direction": "outbound",
+    "journey_id": "J-DE-00401",
+    "touchpoint_id": "TP-DE-00395",
+    "ts": "2026-08-31T01:19:45Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00495",
+    "direction": "outbound",
+    "journey_id": "J-DE-00401",
+    "touchpoint_id": "TP-DE-00396",
+    "ts": "2026-08-02T16:22:05Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00495",
+    "direction": "outbound",
+    "journey_id": "J-DE-00401",
+    "touchpoint_id": "TP-DE-00397",
+    "ts": "2026-09-05T22:54:48Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00495",
+    "direction": "outbound",
+    "journey_id": "J-DE-00401",
+    "touchpoint_id": "TP-DE-00398",
+    "ts": "2026-08-23T00:27:36Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00579",
+    "direction": "inbound",
+    "journey_id": "J-DE-00402",
+    "touchpoint_id": "TP-DE-00399",
+    "ts": "2026-08-13T12:05:31Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00171",
+    "direction": "inbound",
+    "journey_id": "J-DE-00403",
+    "touchpoint_id": "TP-DE-00400",
+    "ts": "2026-08-20T07:26:15Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00171",
+    "direction": "inbound",
+    "journey_id": "J-DE-00403",
+    "touchpoint_id": "TP-DE-00401",
+    "ts": "2026-08-08T00:25:43Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00171",
+    "direction": "outbound",
+    "journey_id": "J-DE-00403",
+    "touchpoint_id": "TP-DE-00402",
+    "ts": "2026-09-02T00:26:43Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00013",
+    "direction": "outbound",
+    "journey_id": "J-DE-00404",
+    "touchpoint_id": "TP-DE-00403",
+    "ts": "2026-09-01T02:18:01Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00013",
+    "direction": "inbound",
+    "journey_id": "J-DE-00404",
+    "touchpoint_id": "TP-DE-00404",
+    "ts": "2026-08-29T19:07:30Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00564",
+    "direction": "inbound",
+    "journey_id": "J-DE-00405",
+    "touchpoint_id": "TP-DE-00405",
+    "ts": "2026-08-15T17:53:41Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00165",
+    "direction": "outbound",
+    "journey_id": "J-DE-00406",
+    "touchpoint_id": "TP-DE-00406",
+    "ts": "2026-08-03T06:15:39Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00448",
+    "direction": "outbound",
+    "journey_id": "J-DE-00407",
+    "touchpoint_id": "TP-DE-00407",
+    "ts": "2026-08-09T06:23:16Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00267",
+    "direction": "outbound",
+    "journey_id": "J-DE-00408",
+    "touchpoint_id": "TP-DE-00408",
+    "ts": "2026-08-07T06:53:32Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00267",
+    "direction": "outbound",
+    "journey_id": "J-DE-00408",
+    "touchpoint_id": "TP-DE-00409",
+    "ts": "2026-08-14T12:10:28Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00272",
+    "direction": "inbound",
+    "journey_id": "J-DE-00409",
+    "touchpoint_id": "TP-DE-00410",
+    "ts": "2026-08-27T08:11:14Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00272",
+    "direction": "outbound",
+    "journey_id": "J-DE-00409",
+    "touchpoint_id": "TP-DE-00411",
+    "ts": "2026-08-29T06:16:51Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00434",
+    "direction": "outbound",
+    "journey_id": "J-DE-00410",
+    "touchpoint_id": "TP-DE-00412",
+    "ts": "2026-08-04T14:22:05Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00325",
+    "direction": "outbound",
+    "journey_id": "J-DE-00411",
+    "touchpoint_id": "TP-DE-00413",
+    "ts": "2026-09-06T03:54:28Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00325",
+    "direction": "outbound",
+    "journey_id": "J-DE-00411",
+    "touchpoint_id": "TP-DE-00414",
+    "ts": "2026-08-02T01:19:16Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00341",
+    "direction": "inbound",
+    "journey_id": "J-DE-00412",
+    "touchpoint_id": "TP-DE-00415",
+    "ts": "2026-09-05T02:01:42Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00341",
+    "direction": "outbound",
+    "journey_id": "J-DE-00412",
+    "touchpoint_id": "TP-DE-00416",
+    "ts": "2026-09-03T17:43:34Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00296",
+    "direction": "outbound",
+    "journey_id": "J-DE-00413",
+    "touchpoint_id": "TP-DE-00417",
+    "ts": "2026-08-17T15:22:45Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00296",
+    "direction": "outbound",
+    "journey_id": "J-DE-00413",
+    "touchpoint_id": "TP-DE-00418",
+    "ts": "2026-08-27T08:44:32Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00296",
+    "direction": "inbound",
+    "journey_id": "J-DE-00413",
+    "touchpoint_id": "TP-DE-00419",
+    "ts": "2026-08-12T17:49:45Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00296",
+    "direction": "inbound",
+    "journey_id": "J-DE-00413",
+    "touchpoint_id": "TP-DE-00420",
+    "ts": "2026-08-14T17:50:22Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00009",
+    "direction": "inbound",
+    "journey_id": "J-DE-00414",
+    "touchpoint_id": "TP-DE-00421",
+    "ts": "2026-08-24T03:18:03Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00457",
+    "direction": "inbound",
+    "journey_id": "J-DE-00415",
+    "touchpoint_id": "TP-DE-00422",
+    "ts": "2026-08-08T06:05:01Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00457",
+    "direction": "inbound",
+    "journey_id": "J-DE-00415",
+    "touchpoint_id": "TP-DE-00423",
+    "ts": "2026-08-26T23:43:25Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00457",
+    "direction": "inbound",
+    "journey_id": "J-DE-00415",
+    "touchpoint_id": "TP-DE-00424",
+    "ts": "2026-08-22T22:23:05Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00457",
+    "direction": "inbound",
+    "journey_id": "J-DE-00415",
+    "touchpoint_id": "TP-DE-00425",
+    "ts": "2026-08-03T16:05:14Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00359",
+    "direction": "outbound",
+    "journey_id": "J-DE-00416",
+    "touchpoint_id": "TP-DE-00426",
+    "ts": "2026-08-08T15:34:37Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00119",
+    "direction": "outbound",
+    "journey_id": "J-DE-00417",
+    "touchpoint_id": "TP-DE-00427",
+    "ts": "2026-08-08T01:50:33Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00119",
+    "direction": "outbound",
+    "journey_id": "J-DE-00417",
+    "touchpoint_id": "TP-DE-00428",
+    "ts": "2026-08-27T11:28:08Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00138",
+    "direction": "outbound",
+    "journey_id": "J-DE-00418",
+    "touchpoint_id": "TP-DE-00429",
+    "ts": "2026-08-20T22:20:01Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00138",
+    "direction": "outbound",
+    "journey_id": "J-DE-00418",
+    "touchpoint_id": "TP-DE-00430",
+    "ts": "2026-08-06T17:35:39Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00388",
+    "direction": "outbound",
+    "journey_id": "J-DE-00419",
+    "touchpoint_id": "TP-DE-00431",
+    "ts": "2026-08-24T08:33:30Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00170",
+    "direction": "inbound",
+    "journey_id": "J-DE-00420",
+    "touchpoint_id": "TP-DE-00432",
+    "ts": "2026-08-24T04:06:06Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00195",
+    "direction": "outbound",
+    "journey_id": "J-DE-00421",
+    "touchpoint_id": "TP-DE-00433",
+    "ts": "2026-09-06T07:11:38Z",
+    "user_id": "U-DE-00013"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00195",
+    "direction": "outbound",
+    "journey_id": "J-DE-00421",
+    "touchpoint_id": "TP-DE-00434",
+    "ts": "2026-08-23T21:04:12Z",
+    "user_id": "U-DE-00013"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00195",
+    "direction": "outbound",
+    "journey_id": "J-DE-00421",
+    "touchpoint_id": "TP-DE-00435",
+    "ts": "2026-08-05T14:16:23Z",
+    "user_id": "U-DE-00013"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00047",
+    "direction": "inbound",
+    "journey_id": "J-DE-00422",
+    "touchpoint_id": "TP-DE-00436",
+    "ts": "2026-08-27T13:43:07Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00047",
+    "direction": "outbound",
+    "journey_id": "J-DE-00422",
+    "touchpoint_id": "TP-DE-00437",
+    "ts": "2026-09-03T13:21:13Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00047",
+    "direction": "outbound",
+    "journey_id": "J-DE-00422",
+    "touchpoint_id": "TP-DE-00438",
+    "ts": "2026-08-28T07:13:57Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00047",
+    "direction": "inbound",
+    "journey_id": "J-DE-00422",
+    "touchpoint_id": "TP-DE-00439",
+    "ts": "2026-09-08T08:32:16Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00082",
+    "direction": "outbound",
+    "journey_id": "J-DE-00423",
+    "touchpoint_id": "TP-DE-00440",
+    "ts": "2026-08-07T20:39:31Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00082",
+    "direction": "inbound",
+    "journey_id": "J-DE-00423",
+    "touchpoint_id": "TP-DE-00441",
+    "ts": "2026-09-03T12:28:39Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00082",
+    "direction": "outbound",
+    "journey_id": "J-DE-00423",
+    "touchpoint_id": "TP-DE-00442",
+    "ts": "2026-08-03T21:06:42Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00082",
+    "direction": "outbound",
+    "journey_id": "J-DE-00423",
+    "touchpoint_id": "TP-DE-00443",
+    "ts": "2026-08-17T10:15:32Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00028",
+    "direction": "outbound",
+    "journey_id": "J-DE-00424",
+    "touchpoint_id": "TP-DE-00444",
+    "ts": "2026-09-01T13:04:52Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00464",
+    "direction": "outbound",
+    "journey_id": "J-DE-00425",
+    "touchpoint_id": "TP-DE-00445",
+    "ts": "2026-08-15T08:32:47Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00464",
+    "direction": "inbound",
+    "journey_id": "J-DE-00425",
+    "touchpoint_id": "TP-DE-00446",
+    "ts": "2026-09-02T09:44:12Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00464",
+    "direction": "outbound",
+    "journey_id": "J-DE-00425",
+    "touchpoint_id": "TP-DE-00447",
+    "ts": "2026-08-12T00:00:17Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00464",
+    "direction": "inbound",
+    "journey_id": "J-DE-00425",
+    "touchpoint_id": "TP-DE-00448",
+    "ts": "2026-08-06T15:29:05Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00056",
+    "direction": "outbound",
+    "journey_id": "J-DE-00426",
+    "touchpoint_id": "TP-DE-00449",
+    "ts": "2026-09-01T09:21:10Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00056",
+    "direction": "outbound",
+    "journey_id": "J-DE-00426",
+    "touchpoint_id": "TP-DE-00450",
+    "ts": "2026-09-04T15:01:10Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00056",
+    "direction": "inbound",
+    "journey_id": "J-DE-00426",
+    "touchpoint_id": "TP-DE-00451",
+    "ts": "2026-09-01T01:36:39Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00508",
+    "direction": "outbound",
+    "journey_id": "J-DE-00427",
+    "touchpoint_id": "TP-DE-00452",
+    "ts": "2026-08-02T07:17:22Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00040",
+    "direction": "outbound",
+    "journey_id": "J-DE-00428",
+    "touchpoint_id": "TP-DE-00453",
+    "ts": "2026-08-19T08:49:07Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00330",
+    "direction": "inbound",
+    "journey_id": "J-DE-00429",
+    "touchpoint_id": "TP-DE-00454",
+    "ts": "2026-09-08T05:47:20Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00330",
+    "direction": "outbound",
+    "journey_id": "J-DE-00429",
+    "touchpoint_id": "TP-DE-00455",
+    "ts": "2026-08-15T17:30:10Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00330",
+    "direction": "outbound",
+    "journey_id": "J-DE-00429",
+    "touchpoint_id": "TP-DE-00456",
+    "ts": "2026-09-03T13:25:56Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00281",
+    "direction": "outbound",
+    "journey_id": "J-DE-00430",
+    "touchpoint_id": "TP-DE-00457",
+    "ts": "2026-08-05T01:26:02Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00281",
+    "direction": "outbound",
+    "journey_id": "J-DE-00430",
+    "touchpoint_id": "TP-DE-00458",
+    "ts": "2026-08-22T04:41:21Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00281",
+    "direction": "inbound",
+    "journey_id": "J-DE-00430",
+    "touchpoint_id": "TP-DE-00459",
+    "ts": "2026-08-03T22:41:58Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00463",
+    "direction": "inbound",
+    "journey_id": "J-DE-00431",
+    "touchpoint_id": "TP-DE-00460",
+    "ts": "2026-08-05T12:37:40Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00463",
+    "direction": "outbound",
+    "journey_id": "J-DE-00431",
+    "touchpoint_id": "TP-DE-00461",
+    "ts": "2026-08-20T05:52:57Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00463",
+    "direction": "inbound",
+    "journey_id": "J-DE-00431",
+    "touchpoint_id": "TP-DE-00462",
+    "ts": "2026-08-12T03:17:51Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00483",
+    "direction": "outbound",
+    "journey_id": "J-DE-00432",
+    "touchpoint_id": "TP-DE-00463",
+    "ts": "2026-08-09T05:08:26Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00483",
+    "direction": "inbound",
+    "journey_id": "J-DE-00432",
+    "touchpoint_id": "TP-DE-00464",
+    "ts": "2026-08-12T09:44:29Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00440",
+    "direction": "inbound",
+    "journey_id": "J-DE-00433",
+    "touchpoint_id": "TP-DE-00465",
+    "ts": "2026-09-01T05:32:03Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00556",
+    "direction": "inbound",
+    "journey_id": "J-DE-00434",
+    "touchpoint_id": "TP-DE-00466",
+    "ts": "2026-09-01T15:04:24Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00556",
+    "direction": "outbound",
+    "journey_id": "J-DE-00434",
+    "touchpoint_id": "TP-DE-00467",
+    "ts": "2026-08-29T20:58:13Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00556",
+    "direction": "inbound",
+    "journey_id": "J-DE-00434",
+    "touchpoint_id": "TP-DE-00468",
+    "ts": "2026-08-12T12:07:55Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00556",
+    "direction": "outbound",
+    "journey_id": "J-DE-00434",
+    "touchpoint_id": "TP-DE-00469",
+    "ts": "2026-09-04T15:25:46Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00420",
+    "direction": "inbound",
+    "journey_id": "J-DE-00435",
+    "touchpoint_id": "TP-DE-00470",
+    "ts": "2026-08-19T02:54:43Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00393",
+    "direction": "inbound",
+    "journey_id": "J-DE-00436",
+    "touchpoint_id": "TP-DE-00471",
+    "ts": "2026-08-20T01:07:21Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00393",
+    "direction": "outbound",
+    "journey_id": "J-DE-00436",
+    "touchpoint_id": "TP-DE-00472",
+    "ts": "2026-08-08T21:36:44Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00575",
+    "direction": "inbound",
+    "journey_id": "J-DE-00437",
+    "touchpoint_id": "TP-DE-00473",
+    "ts": "2026-08-27T04:59:28Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00419",
+    "direction": "inbound",
+    "journey_id": "J-DE-00438",
+    "touchpoint_id": "TP-DE-00474",
+    "ts": "2026-09-08T17:45:59Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00419",
+    "direction": "outbound",
+    "journey_id": "J-DE-00438",
+    "touchpoint_id": "TP-DE-00475",
+    "ts": "2026-08-23T10:11:22Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00419",
+    "direction": "outbound",
+    "journey_id": "J-DE-00438",
+    "touchpoint_id": "TP-DE-00476",
+    "ts": "2026-09-08T08:16:03Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00294",
+    "direction": "inbound",
+    "journey_id": "J-DE-00439",
+    "touchpoint_id": "TP-DE-00477",
+    "ts": "2026-09-03T09:07:50Z",
+    "user_id": "U-DE-00021"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00294",
+    "direction": "outbound",
+    "journey_id": "J-DE-00439",
+    "touchpoint_id": "TP-DE-00478",
+    "ts": "2026-08-30T19:28:17Z",
+    "user_id": "U-DE-00021"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00436",
+    "direction": "outbound",
+    "journey_id": "J-DE-00440",
+    "touchpoint_id": "TP-DE-00479",
+    "ts": "2026-08-09T12:04:06Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00436",
+    "direction": "outbound",
+    "journey_id": "J-DE-00440",
+    "touchpoint_id": "TP-DE-00480",
+    "ts": "2026-08-22T09:45:43Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00436",
+    "direction": "outbound",
+    "journey_id": "J-DE-00440",
+    "touchpoint_id": "TP-DE-00481",
+    "ts": "2026-08-09T16:28:54Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00386",
+    "direction": "inbound",
+    "journey_id": "J-DE-00441",
+    "touchpoint_id": "TP-DE-00482",
+    "ts": "2026-08-26T00:07:26Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00386",
+    "direction": "inbound",
+    "journey_id": "J-DE-00441",
+    "touchpoint_id": "TP-DE-00483",
+    "ts": "2026-09-03T05:35:14Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00386",
+    "direction": "inbound",
+    "journey_id": "J-DE-00441",
+    "touchpoint_id": "TP-DE-00484",
+    "ts": "2026-08-30T19:25:50Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00196",
+    "direction": "inbound",
+    "journey_id": "J-DE-00442",
+    "touchpoint_id": "TP-DE-00485",
+    "ts": "2026-08-08T13:29:53Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00196",
+    "direction": "inbound",
+    "journey_id": "J-DE-00442",
+    "touchpoint_id": "TP-DE-00486",
+    "ts": "2026-08-24T04:37:41Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00196",
+    "direction": "outbound",
+    "journey_id": "J-DE-00442",
+    "touchpoint_id": "TP-DE-00487",
+    "ts": "2026-08-05T01:04:10Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00196",
+    "direction": "outbound",
+    "journey_id": "J-DE-00442",
+    "touchpoint_id": "TP-DE-00488",
+    "ts": "2026-09-06T11:04:46Z",
+    "user_id": "U-DE-00020"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00128",
+    "direction": "inbound",
+    "journey_id": "J-DE-00443",
+    "touchpoint_id": "TP-DE-00489",
+    "ts": "2026-08-11T12:03:18Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00128",
+    "direction": "outbound",
+    "journey_id": "J-DE-00443",
+    "touchpoint_id": "TP-DE-00490",
+    "ts": "2026-08-18T10:18:25Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00128",
+    "direction": "outbound",
+    "journey_id": "J-DE-00443",
+    "touchpoint_id": "TP-DE-00491",
+    "ts": "2026-09-02T10:16:53Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00569",
+    "direction": "outbound",
+    "journey_id": "J-DE-00444",
+    "touchpoint_id": "TP-DE-00492",
+    "ts": "2026-08-10T12:20:48Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00569",
+    "direction": "outbound",
+    "journey_id": "J-DE-00444",
+    "touchpoint_id": "TP-DE-00493",
+    "ts": "2026-09-06T20:59:26Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00569",
+    "direction": "inbound",
+    "journey_id": "J-DE-00444",
+    "touchpoint_id": "TP-DE-00494",
+    "ts": "2026-08-23T10:43:55Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00015",
+    "direction": "outbound",
+    "journey_id": "J-DE-00445",
+    "touchpoint_id": "TP-DE-00495",
+    "ts": "2026-08-01T15:56:41Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00015",
+    "direction": "outbound",
+    "journey_id": "J-DE-00445",
+    "touchpoint_id": "TP-DE-00496",
+    "ts": "2026-08-19T19:15:06Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00015",
+    "direction": "outbound",
+    "journey_id": "J-DE-00445",
+    "touchpoint_id": "TP-DE-00497",
+    "ts": "2026-08-30T10:48:02Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00015",
+    "direction": "outbound",
+    "journey_id": "J-DE-00445",
+    "touchpoint_id": "TP-DE-00498",
+    "ts": "2026-08-15T05:59:53Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00099",
+    "direction": "inbound",
+    "journey_id": "J-DE-00446",
+    "touchpoint_id": "TP-DE-00499",
+    "ts": "2026-08-21T19:54:45Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00131",
+    "direction": "inbound",
+    "journey_id": "J-DE-00447",
+    "touchpoint_id": "TP-DE-00500",
+    "ts": "2026-08-24T15:05:11Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00336",
+    "direction": "inbound",
+    "journey_id": "J-DE-00448",
+    "touchpoint_id": "TP-DE-00501",
+    "ts": "2026-08-22T00:35:58Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00336",
+    "direction": "inbound",
+    "journey_id": "J-DE-00448",
+    "touchpoint_id": "TP-DE-00502",
+    "ts": "2026-09-08T21:12:32Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00400",
+    "direction": "outbound",
+    "journey_id": "J-DE-00449",
+    "touchpoint_id": "TP-DE-00503",
+    "ts": "2026-09-07T19:13:09Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00400",
+    "direction": "outbound",
+    "journey_id": "J-DE-00449",
+    "touchpoint_id": "TP-DE-00504",
+    "ts": "2026-08-26T19:24:22Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00400",
+    "direction": "inbound",
+    "journey_id": "J-DE-00449",
+    "touchpoint_id": "TP-DE-00505",
+    "ts": "2026-08-02T15:31:09Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00046",
+    "direction": "outbound",
+    "journey_id": "J-DE-00450",
+    "touchpoint_id": "TP-DE-00506",
+    "ts": "2026-08-16T17:49:10Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00046",
+    "direction": "outbound",
+    "journey_id": "J-DE-00450",
+    "touchpoint_id": "TP-DE-00507",
+    "ts": "2026-09-08T11:48:34Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00046",
+    "direction": "outbound",
+    "journey_id": "J-DE-00450",
+    "touchpoint_id": "TP-DE-00508",
+    "ts": "2026-08-15T22:06:07Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00046",
+    "direction": "outbound",
+    "journey_id": "J-DE-00450",
+    "touchpoint_id": "TP-DE-00509",
+    "ts": "2026-08-10T00:55:46Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00007",
+    "direction": "inbound",
+    "journey_id": "J-DE-00451",
+    "touchpoint_id": "TP-DE-00510",
+    "ts": "2026-08-29T22:01:38Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00007",
+    "direction": "outbound",
+    "journey_id": "J-DE-00451",
+    "touchpoint_id": "TP-DE-00511",
+    "ts": "2026-08-18T02:43:23Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00497",
+    "direction": "outbound",
+    "journey_id": "J-DE-00452",
+    "touchpoint_id": "TP-DE-00512",
+    "ts": "2026-08-08T03:01:15Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00497",
+    "direction": "inbound",
+    "journey_id": "J-DE-00452",
+    "touchpoint_id": "TP-DE-00513",
+    "ts": "2026-08-12T02:46:00Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00497",
+    "direction": "outbound",
+    "journey_id": "J-DE-00452",
+    "touchpoint_id": "TP-DE-00514",
+    "ts": "2026-08-22T10:45:13Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00145",
+    "direction": "outbound",
+    "journey_id": "J-DE-00453",
+    "touchpoint_id": "TP-DE-00515",
+    "ts": "2026-08-31T09:55:47Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00145",
+    "direction": "inbound",
+    "journey_id": "J-DE-00453",
+    "touchpoint_id": "TP-DE-00516",
+    "ts": "2026-08-07T02:06:36Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00145",
+    "direction": "inbound",
+    "journey_id": "J-DE-00453",
+    "touchpoint_id": "TP-DE-00517",
+    "ts": "2026-08-27T05:46:21Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00431",
+    "direction": "inbound",
+    "journey_id": "J-DE-00454",
+    "touchpoint_id": "TP-DE-00518",
+    "ts": "2026-08-07T07:20:34Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00431",
+    "direction": "outbound",
+    "journey_id": "J-DE-00454",
+    "touchpoint_id": "TP-DE-00519",
+    "ts": "2026-08-19T17:03:27Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00431",
+    "direction": "outbound",
+    "journey_id": "J-DE-00454",
+    "touchpoint_id": "TP-DE-00520",
+    "ts": "2026-08-04T18:08:35Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00356",
+    "direction": "outbound",
+    "journey_id": "J-DE-00455",
+    "touchpoint_id": "TP-DE-00521",
+    "ts": "2026-09-10T00:22:06Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00356",
+    "direction": "outbound",
+    "journey_id": "J-DE-00455",
+    "touchpoint_id": "TP-DE-00522",
+    "ts": "2026-08-18T17:12:26Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00356",
+    "direction": "inbound",
+    "journey_id": "J-DE-00455",
+    "touchpoint_id": "TP-DE-00523",
+    "ts": "2026-08-18T20:48:58Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00109",
+    "direction": "inbound",
+    "journey_id": "J-DE-00456",
+    "touchpoint_id": "TP-DE-00524",
+    "ts": "2026-08-22T22:35:35Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00189",
+    "direction": "inbound",
+    "journey_id": "J-DE-00457",
+    "touchpoint_id": "TP-DE-00525",
+    "ts": "2026-09-04T11:34:37Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00189",
+    "direction": "inbound",
+    "journey_id": "J-DE-00457",
+    "touchpoint_id": "TP-DE-00526",
+    "ts": "2026-08-21T10:13:07Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00189",
+    "direction": "inbound",
+    "journey_id": "J-DE-00457",
+    "touchpoint_id": "TP-DE-00527",
+    "ts": "2026-08-26T14:03:45Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00189",
+    "direction": "outbound",
+    "journey_id": "J-DE-00457",
+    "touchpoint_id": "TP-DE-00528",
+    "ts": "2026-09-09T01:14:32Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00150",
+    "direction": "inbound",
+    "journey_id": "J-DE-00458",
+    "touchpoint_id": "TP-DE-00529",
+    "ts": "2026-08-19T10:20:54Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00150",
+    "direction": "inbound",
+    "journey_id": "J-DE-00458",
+    "touchpoint_id": "TP-DE-00530",
+    "ts": "2026-08-09T19:36:24Z",
+    "user_id": "U-DE-00002"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00475",
+    "direction": "inbound",
+    "journey_id": "J-DE-00459",
+    "touchpoint_id": "TP-DE-00531",
+    "ts": "2026-08-13T05:55:10Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00475",
+    "direction": "inbound",
+    "journey_id": "J-DE-00459",
+    "touchpoint_id": "TP-DE-00532",
+    "ts": "2026-08-13T22:29:52Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00071",
+    "direction": "outbound",
+    "journey_id": "J-DE-00460",
+    "touchpoint_id": "TP-DE-00533",
+    "ts": "2026-09-08T11:32:47Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00071",
+    "direction": "inbound",
+    "journey_id": "J-DE-00460",
+    "touchpoint_id": "TP-DE-00534",
+    "ts": "2026-08-20T06:40:03Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00315",
+    "direction": "inbound",
+    "journey_id": "J-DE-00461",
+    "touchpoint_id": "TP-DE-00535",
+    "ts": "2026-08-11T17:26:04Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00524",
+    "direction": "outbound",
+    "journey_id": "J-DE-00462",
+    "touchpoint_id": "TP-DE-00536",
+    "ts": "2026-09-02T12:23:15Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00524",
+    "direction": "outbound",
+    "journey_id": "J-DE-00462",
+    "touchpoint_id": "TP-DE-00537",
+    "ts": "2026-08-20T14:05:06Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00524",
+    "direction": "inbound",
+    "journey_id": "J-DE-00462",
+    "touchpoint_id": "TP-DE-00538",
+    "ts": "2026-08-09T01:57:29Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00524",
+    "direction": "inbound",
+    "journey_id": "J-DE-00462",
+    "touchpoint_id": "TP-DE-00539",
+    "ts": "2026-08-02T18:58:06Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00284",
+    "direction": "inbound",
+    "journey_id": "J-DE-00463",
+    "touchpoint_id": "TP-DE-00540",
+    "ts": "2026-08-15T00:17:06Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00284",
+    "direction": "inbound",
+    "journey_id": "J-DE-00463",
+    "touchpoint_id": "TP-DE-00541",
+    "ts": "2026-08-29T08:53:04Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00152",
+    "direction": "outbound",
+    "journey_id": "J-DE-00464",
+    "touchpoint_id": "TP-DE-00542",
+    "ts": "2026-08-22T04:29:21Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00152",
+    "direction": "inbound",
+    "journey_id": "J-DE-00464",
+    "touchpoint_id": "TP-DE-00543",
+    "ts": "2026-08-12T19:14:44Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00152",
+    "direction": "outbound",
+    "journey_id": "J-DE-00464",
+    "touchpoint_id": "TP-DE-00544",
+    "ts": "2026-08-06T15:53:33Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00069",
+    "direction": "inbound",
+    "journey_id": "J-DE-00465",
+    "touchpoint_id": "TP-DE-00545",
+    "ts": "2026-09-06T11:12:44Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00069",
+    "direction": "inbound",
+    "journey_id": "J-DE-00465",
+    "touchpoint_id": "TP-DE-00546",
+    "ts": "2026-08-21T06:13:18Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00401",
+    "direction": "inbound",
+    "journey_id": "J-DE-00466",
+    "touchpoint_id": "TP-DE-00547",
+    "ts": "2026-09-09T07:29:35Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00401",
+    "direction": "inbound",
+    "journey_id": "J-DE-00466",
+    "touchpoint_id": "TP-DE-00548",
+    "ts": "2026-08-04T18:01:02Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00401",
+    "direction": "inbound",
+    "journey_id": "J-DE-00466",
+    "touchpoint_id": "TP-DE-00549",
+    "ts": "2026-09-07T21:43:23Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00021",
+    "direction": "inbound",
+    "journey_id": "J-DE-00467",
+    "touchpoint_id": "TP-DE-00550",
+    "ts": "2026-09-07T01:38:00Z",
+    "user_id": "U-DE-00004"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00021",
+    "direction": "inbound",
+    "journey_id": "J-DE-00467",
+    "touchpoint_id": "TP-DE-00551",
+    "ts": "2026-08-31T04:20:38Z",
+    "user_id": "U-DE-00004"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00021",
+    "direction": "outbound",
+    "journey_id": "J-DE-00467",
+    "touchpoint_id": "TP-DE-00552",
+    "ts": "2026-09-06T07:30:16Z",
+    "user_id": "U-DE-00004"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00518",
+    "direction": "inbound",
+    "journey_id": "J-DE-00468",
+    "touchpoint_id": "TP-DE-00553",
+    "ts": "2026-08-25T15:18:26Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00518",
+    "direction": "outbound",
+    "journey_id": "J-DE-00468",
+    "touchpoint_id": "TP-DE-00554",
+    "ts": "2026-09-05T20:00:09Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00518",
+    "direction": "inbound",
+    "journey_id": "J-DE-00468",
+    "touchpoint_id": "TP-DE-00555",
+    "ts": "2026-09-06T09:02:29Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00518",
+    "direction": "outbound",
+    "journey_id": "J-DE-00468",
+    "touchpoint_id": "TP-DE-00556",
+    "ts": "2026-08-29T12:47:33Z",
+    "user_id": "U-DE-00031"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00532",
+    "direction": "outbound",
+    "journey_id": "J-DE-00469",
+    "touchpoint_id": "TP-DE-00557",
+    "ts": "2026-09-07T02:54:42Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00532",
+    "direction": "outbound",
+    "journey_id": "J-DE-00469",
+    "touchpoint_id": "TP-DE-00558",
+    "ts": "2026-08-09T12:14:11Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00532",
+    "direction": "inbound",
+    "journey_id": "J-DE-00469",
+    "touchpoint_id": "TP-DE-00559",
+    "ts": "2026-08-19T01:52:56Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00544",
+    "direction": "outbound",
+    "journey_id": "J-DE-00470",
+    "touchpoint_id": "TP-DE-00560",
+    "ts": "2026-08-11T05:41:48Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00544",
+    "direction": "outbound",
+    "journey_id": "J-DE-00470",
+    "touchpoint_id": "TP-DE-00561",
+    "ts": "2026-08-21T07:57:10Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00544",
+    "direction": "outbound",
+    "journey_id": "J-DE-00470",
+    "touchpoint_id": "TP-DE-00562",
+    "ts": "2026-08-27T14:16:45Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00544",
+    "direction": "inbound",
+    "journey_id": "J-DE-00470",
+    "touchpoint_id": "TP-DE-00563",
+    "ts": "2026-08-23T07:23:11Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00460",
+    "direction": "inbound",
+    "journey_id": "J-DE-00471",
+    "touchpoint_id": "TP-DE-00564",
+    "ts": "2026-08-24T17:52:17Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00460",
+    "direction": "inbound",
+    "journey_id": "J-DE-00471",
+    "touchpoint_id": "TP-DE-00565",
+    "ts": "2026-08-10T11:01:18Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00460",
+    "direction": "inbound",
+    "journey_id": "J-DE-00471",
+    "touchpoint_id": "TP-DE-00566",
+    "ts": "2026-08-21T23:40:32Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00460",
+    "direction": "inbound",
+    "journey_id": "J-DE-00471",
+    "touchpoint_id": "TP-DE-00567",
+    "ts": "2026-08-01T11:33:41Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00212",
+    "direction": "outbound",
+    "journey_id": "J-DE-00472",
+    "touchpoint_id": "TP-DE-00568",
+    "ts": "2026-08-15T16:28:17Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00212",
+    "direction": "outbound",
+    "journey_id": "J-DE-00472",
+    "touchpoint_id": "TP-DE-00569",
+    "ts": "2026-09-08T05:01:40Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00212",
+    "direction": "inbound",
+    "journey_id": "J-DE-00472",
+    "touchpoint_id": "TP-DE-00570",
+    "ts": "2026-08-10T10:07:49Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00079",
+    "direction": "inbound",
+    "journey_id": "J-DE-00473",
+    "touchpoint_id": "TP-DE-00571",
+    "ts": "2026-08-28T22:49:57Z",
+    "user_id": "U-DE-00012"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00295",
+    "direction": "outbound",
+    "journey_id": "J-DE-00474",
+    "touchpoint_id": "TP-DE-00572",
+    "ts": "2026-08-07T05:52:27Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00295",
+    "direction": "inbound",
+    "journey_id": "J-DE-00474",
+    "touchpoint_id": "TP-DE-00573",
+    "ts": "2026-08-18T14:50:18Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00337",
+    "direction": "outbound",
+    "journey_id": "J-DE-00475",
+    "touchpoint_id": "TP-DE-00574",
+    "ts": "2026-08-13T23:03:38Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00337",
+    "direction": "inbound",
+    "journey_id": "J-DE-00475",
+    "touchpoint_id": "TP-DE-00575",
+    "ts": "2026-09-10T00:20:09Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00562",
+    "direction": "outbound",
+    "journey_id": "J-DE-00476",
+    "touchpoint_id": "TP-DE-00576",
+    "ts": "2026-08-03T15:20:50Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00562",
+    "direction": "inbound",
+    "journey_id": "J-DE-00476",
+    "touchpoint_id": "TP-DE-00577",
+    "ts": "2026-08-30T12:01:16Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00562",
+    "direction": "inbound",
+    "journey_id": "J-DE-00476",
+    "touchpoint_id": "TP-DE-00578",
+    "ts": "2026-09-07T04:00:36Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00562",
+    "direction": "outbound",
+    "journey_id": "J-DE-00476",
+    "touchpoint_id": "TP-DE-00579",
+    "ts": "2026-09-08T02:11:32Z",
+    "user_id": "U-DE-00022"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00500",
+    "direction": "outbound",
+    "journey_id": "J-DE-00477",
+    "touchpoint_id": "TP-DE-00580",
+    "ts": "2026-08-26T06:55:00Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00404",
+    "direction": "outbound",
+    "journey_id": "J-DE-00478",
+    "touchpoint_id": "TP-DE-00581",
+    "ts": "2026-08-19T01:01:27Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00404",
+    "direction": "inbound",
+    "journey_id": "J-DE-00478",
+    "touchpoint_id": "TP-DE-00582",
+    "ts": "2026-08-26T03:15:12Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00404",
+    "direction": "outbound",
+    "journey_id": "J-DE-00478",
+    "touchpoint_id": "TP-DE-00583",
+    "ts": "2026-08-20T03:28:41Z",
+    "user_id": "U-DE-00041"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00352",
+    "direction": "outbound",
+    "journey_id": "J-DE-00479",
+    "touchpoint_id": "TP-DE-00584",
+    "ts": "2026-08-31T10:01:23Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00581",
+    "direction": "outbound",
+    "journey_id": "J-DE-00480",
+    "touchpoint_id": "TP-DE-00585",
+    "ts": "2026-09-09T04:50:39Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00581",
+    "direction": "inbound",
+    "journey_id": "J-DE-00480",
+    "touchpoint_id": "TP-DE-00586",
+    "ts": "2026-08-02T12:51:43Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00581",
+    "direction": "outbound",
+    "journey_id": "J-DE-00480",
+    "touchpoint_id": "TP-DE-00587",
+    "ts": "2026-08-28T09:54:09Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00581",
+    "direction": "outbound",
+    "journey_id": "J-DE-00480",
+    "touchpoint_id": "TP-DE-00588",
+    "ts": "2026-09-07T19:57:02Z",
+    "user_id": "U-DE-00039"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00287",
+    "direction": "inbound",
+    "journey_id": "J-DE-00481",
+    "touchpoint_id": "TP-DE-00589",
+    "ts": "2026-08-16T00:38:31Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00287",
+    "direction": "inbound",
+    "journey_id": "J-DE-00481",
+    "touchpoint_id": "TP-DE-00590",
+    "ts": "2026-09-05T12:32:15Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00086",
+    "direction": "outbound",
+    "journey_id": "J-DE-00482",
+    "touchpoint_id": "TP-DE-00591",
+    "ts": "2026-08-05T07:22:56Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00086",
+    "direction": "outbound",
+    "journey_id": "J-DE-00482",
+    "touchpoint_id": "TP-DE-00592",
+    "ts": "2026-08-06T04:44:47Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00086",
+    "direction": "inbound",
+    "journey_id": "J-DE-00482",
+    "touchpoint_id": "TP-DE-00593",
+    "ts": "2026-08-12T06:37:49Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00379",
+    "direction": "outbound",
+    "journey_id": "J-DE-00483",
+    "touchpoint_id": "TP-DE-00594",
+    "ts": "2026-09-01T04:45:54Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00379",
+    "direction": "outbound",
+    "journey_id": "J-DE-00483",
+    "touchpoint_id": "TP-DE-00595",
+    "ts": "2026-08-18T15:17:18Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00333",
+    "direction": "outbound",
+    "journey_id": "J-DE-00484",
+    "touchpoint_id": "TP-DE-00596",
+    "ts": "2026-08-17T02:47:48Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00333",
+    "direction": "inbound",
+    "journey_id": "J-DE-00484",
+    "touchpoint_id": "TP-DE-00597",
+    "ts": "2026-08-14T04:56:10Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00033",
+    "direction": "outbound",
+    "journey_id": "J-DE-00485",
+    "touchpoint_id": "TP-DE-00598",
+    "ts": "2026-08-09T02:44:22Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00033",
+    "direction": "inbound",
+    "journey_id": "J-DE-00485",
+    "touchpoint_id": "TP-DE-00599",
+    "ts": "2026-08-21T13:20:27Z",
+    "user_id": "U-DE-00035"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00293",
+    "direction": "outbound",
+    "journey_id": "J-DE-00486",
+    "touchpoint_id": "TP-DE-00600",
+    "ts": "2026-08-27T23:50:31Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00293",
+    "direction": "inbound",
+    "journey_id": "J-DE-00486",
+    "touchpoint_id": "TP-DE-00601",
+    "ts": "2026-08-09T00:31:01Z",
+    "user_id": "U-DE-00029"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00002",
+    "direction": "inbound",
+    "journey_id": "J-DE-00487",
+    "touchpoint_id": "TP-DE-00602",
+    "ts": "2026-08-21T04:27:55Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00002",
+    "direction": "inbound",
+    "journey_id": "J-DE-00487",
+    "touchpoint_id": "TP-DE-00603",
+    "ts": "2026-08-09T12:34:05Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00002",
+    "direction": "outbound",
+    "journey_id": "J-DE-00487",
+    "touchpoint_id": "TP-DE-00604",
+    "ts": "2026-08-01T12:38:55Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00002",
+    "direction": "outbound",
+    "journey_id": "J-DE-00487",
+    "touchpoint_id": "TP-DE-00605",
+    "ts": "2026-08-10T14:38:53Z",
+    "user_id": "U-DE-00043"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00164",
+    "direction": "outbound",
+    "journey_id": "J-DE-00488",
+    "touchpoint_id": "TP-DE-00606",
+    "ts": "2026-08-02T07:46:34Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00164",
+    "direction": "inbound",
+    "journey_id": "J-DE-00488",
+    "touchpoint_id": "TP-DE-00607",
+    "ts": "2026-08-24T00:39:24Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "chat",
+    "customer_id": "C-DE-00164",
+    "direction": "inbound",
+    "journey_id": "J-DE-00488",
+    "touchpoint_id": "TP-DE-00608",
+    "ts": "2026-08-03T10:25:37Z",
+    "user_id": "U-DE-00037"
+  },
+  {
+    "channel": "sms",
+    "customer_id": "C-DE-00443",
+    "direction": "inbound",
+    "journey_id": "J-DE-00489",
+    "touchpoint_id": "TP-DE-00609",
+    "ts": "2026-09-03T11:05:45Z",
+    "user_id": "U-DE-00013"
+  },
+  {
+    "channel": "email",
+    "customer_id": "C-DE-00549",
+    "direction": "outbound",
+    "journey_id": "J-DE-00490",
+    "touchpoint_id": "TP-DE-00610",
+    "ts": "2026-08-17T10:51:52Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00549",
+    "direction": "outbound",
+    "journey_id": "J-DE-00490",
+    "touchpoint_id": "TP-DE-00611",
+    "ts": "2026-08-18T11:58:59Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "phone",
+    "customer_id": "C-DE-00549",
+    "direction": "inbound",
+    "journey_id": "J-DE-00490",
+    "touchpoint_id": "TP-DE-00612",
+    "ts": "2026-08-20T19:34:45Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00549",
+    "direction": "outbound",
+    "journey_id": "J-DE-00490",
+    "touchpoint_id": "TP-DE-00613",
+    "ts": "2026-08-03T22:20:15Z",
+    "user_id": "U-DE-00033"
+  },
+  {
+    "channel": "in_person",
+    "customer_id": "C-DE-00075",
+    "direction": "outbound",
+    "journey_id": "J-DE-00491",
+    "touchpoint_id": "TP-DE-00614",
+    "ts": "2026-09-09T08:16:31Z",
+    "user_id": "U-DE-00029"
+  }
+]

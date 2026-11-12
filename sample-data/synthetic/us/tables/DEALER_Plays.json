@@ -1,0 +1,54 @@
+[
+  {
+    "market_id": "us",
+    "name": "Re-engage stalled journey",
+    "play_id": "PLAY-STALLED-US",
+    "source_ref": "curated:plays",
+    "steps": [
+      "identify",
+      "compose",
+      "send",
+      "measure"
+    ],
+    "trigger": "idle_days>7"
+  },
+  {
+    "market_id": "us",
+    "name": "Equity upgrade outreach",
+    "play_id": "PLAY-EQUITY-US",
+    "source_ref": "curated:plays",
+    "steps": [
+      "identify",
+      "compose",
+      "send",
+      "measure"
+    ],
+    "trigger": "positive_equity"
+  },
+  {
+    "market_id": "us",
+    "name": "Service-lane upsell",
+    "play_id": "PLAY-SERVICE-UPSELL-US",
+    "source_ref": "curated:plays",
+    "steps": [
+      "identify",
+      "compose",
+      "send",
+      "measure"
+    ],
+    "trigger": "declined_work"
+  },
+  {
+    "market_id": "us",
+    "name": "Conquest nurture",
+    "play_id": "PLAY-CONQUEST-US",
+    "source_ref": "curated:plays",
+    "steps": [
+      "identify",
+      "compose",
+      "send",
+      "measure"
+    ],
+    "trigger": "campaign_lead"
+  }
+]

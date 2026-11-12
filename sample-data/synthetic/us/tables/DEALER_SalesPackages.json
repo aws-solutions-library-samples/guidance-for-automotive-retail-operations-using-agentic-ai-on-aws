@@ -1,0 +1,82 @@
+[
+  {
+    "customer_id": "C-US-J1",
+    "generated_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-US-J1",
+    "next_best_action": "present_finance",
+    "package_id": "SP-US-00001",
+    "summary": "EV-curious family; thin signals → lifestyle intake; range objection; expired vs active incentives"
+  },
+  {
+    "customer_id": "C-US-J2",
+    "generated_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-US-J2",
+    "next_best_action": "present_finance",
+    "package_id": "SP-US-00002",
+    "summary": "Configured then stalled 9 days; compared a competitor → intent shift → SMS nudge + dealer task"
+  },
+  {
+    "customer_id": "C-US-J3",
+    "generated_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-US-J3",
+    "next_best_action": "follow_up",
+    "package_id": "SP-US-00003",
+    "summary": "Negative-equity trade; payment-delta framing; F&I scenarios roll equity; GAP attach; deal exception approval"
+  },
+  {
+    "customer_id": "C-US-J4",
+    "generated_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-US-J4",
+    "next_best_action": "value_trade",
+    "package_id": "SP-US-00004",
+    "summary": "Ready to sign; payment objection live; competitive intel vs Spark X; push to DMS; docs to My Garage; 3-step handoff"
+  },
+  {
+    "customer_id": "C-US-J5",
+    "generated_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-US-J5",
+    "next_best_action": "follow_up",
+    "package_id": "SP-US-00005",
+    "summary": "Delivery week; prep checklist; charger install pending; delivered → OWN → survey"
+  },
+  {
+    "customer_id": "C-US-J6",
+    "generated_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-US-J6",
+    "next_best_action": "value_trade",
+    "package_id": "SP-US-00006",
+    "summary": "EV owner with positive equity and lease-end in 5 months, in today's service lane with no open sales journey; Service Lane flag → warm handoff → new journey"
+  },
+  {
+    "customer_id": "C-US-J7",
+    "generated_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-US-J7",
+    "next_best_action": "present_finance",
+    "package_id": "SP-US-00007",
+    "summary": "Asks about credit approval → handoff_to_human; opts out of SMS → channel paused"
+  },
+  {
+    "customer_id": "C-US-J8",
+    "generated_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-US-J8",
+    "next_best_action": "schedule_test_drive",
+    "package_id": "SP-US-00008",
+    "summary": "Fleet buyer linked to A6 account; program pricing; BiK / Section 179 talk track"
+  },
+  {
+    "customer_id": "C-US-J9",
+    "generated_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-US-J9",
+    "next_best_action": "follow_up",
+    "package_id": "SP-US-00009",
+    "summary": "Conquest campaign click; owns competitor; A1 similar-items; A5 attribution"
+  },
+  {
+    "customer_id": "C-US-00108",
+    "generated_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-US-00001",
+    "next_best_action": "value_trade",
+    "package_id": "SP-US-00010",
+    "summary": "Precomputed A2 aggregation"
+  }
+]

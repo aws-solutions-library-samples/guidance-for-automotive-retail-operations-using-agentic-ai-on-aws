@@ -1,0 +1,178 @@
+[
+  {
+    "amount": 620,
+    "currency": "EUR",
+    "customer_id": "C-DE-J6",
+    "declined_at": "2026-09-10T08:00:00Z",
+    "declined_id": "DW-DE-00001",
+    "estimate_id": "EST-DE-00003",
+    "item": "Rear brakes",
+    "service_journey_id": "SJ-DE-00003",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 214,
+    "currency": "EUR",
+    "customer_id": "C-DE-00010",
+    "declined_at": "2026-09-10T03:07:24Z",
+    "declined_id": "DW-DE-00002",
+    "estimate_id": "EST-DE-00007",
+    "item": "Alignment",
+    "service_journey_id": "SJ-DE-00007",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 66,
+    "currency": "EUR",
+    "customer_id": "C-DE-00339",
+    "declined_at": "2026-09-09T11:07:07Z",
+    "declined_id": "DW-DE-00003",
+    "estimate_id": "EST-DE-00009",
+    "item": "Cabin filter",
+    "service_journey_id": "SJ-DE-00009",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 140,
+    "currency": "EUR",
+    "customer_id": "C-DE-00330",
+    "declined_at": "2026-07-18T09:25:53Z",
+    "declined_id": "DW-DE-00004",
+    "estimate_id": "EST-DE-00010",
+    "item": "Alignment",
+    "service_journey_id": "SJ-DE-00010",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 137,
+    "currency": "EUR",
+    "customer_id": "C-DE-00176",
+    "declined_at": "2026-09-08T01:40:04Z",
+    "declined_id": "DW-DE-00005",
+    "estimate_id": "EST-DE-00018",
+    "item": "Alignment",
+    "service_journey_id": "SJ-DE-00018",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 488,
+    "currency": "EUR",
+    "customer_id": "C-DE-00278",
+    "declined_at": "2026-09-09T21:57:00Z",
+    "declined_id": "DW-DE-00006",
+    "estimate_id": "EST-DE-00019",
+    "item": "Rear brakes",
+    "service_journey_id": "SJ-DE-00019",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 89,
+    "currency": "EUR",
+    "customer_id": "C-DE-00144",
+    "declined_at": "2026-07-03T12:54:20Z",
+    "declined_id": "DW-DE-00007",
+    "estimate_id": "EST-DE-00021",
+    "item": "Cabin filter",
+    "service_journey_id": "SJ-DE-00021",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 198,
+    "currency": "EUR",
+    "customer_id": "C-DE-00420",
+    "declined_at": "2026-09-09T21:01:16Z",
+    "declined_id": "DW-DE-00008",
+    "estimate_id": "EST-DE-00025",
+    "item": "Coolant flush",
+    "service_journey_id": "SJ-DE-00025",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 216,
+    "currency": "EUR",
+    "customer_id": "C-DE-00341",
+    "declined_at": "2026-09-10T08:00:00Z",
+    "declined_id": "DW-DE-00009",
+    "estimate_id": "EST-DE-00026",
+    "item": "Coolant flush",
+    "service_journey_id": "SJ-DE-00026",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 224,
+    "currency": "EUR",
+    "customer_id": "C-DE-00397",
+    "declined_at": "2026-09-10T08:00:00Z",
+    "declined_id": "DW-DE-00010",
+    "estimate_id": "EST-DE-00029",
+    "item": "Coolant flush",
+    "service_journey_id": "SJ-DE-00029",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 55,
+    "currency": "EUR",
+    "customer_id": "C-DE-00519",
+    "declined_at": "2026-09-10T08:00:00Z",
+    "declined_id": "DW-DE-00011",
+    "estimate_id": "EST-DE-00031",
+    "item": "Cabin filter",
+    "service_journey_id": "SJ-DE-00031",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 63,
+    "currency": "EUR",
+    "customer_id": "C-DE-00499",
+    "declined_at": "2026-09-08T00:54:57Z",
+    "declined_id": "DW-DE-00012",
+    "estimate_id": "EST-DE-00035",
+    "item": "Cabin filter",
+    "service_journey_id": "SJ-DE-00035",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 237,
+    "currency": "EUR",
+    "customer_id": "C-DE-00415",
+    "declined_at": "2026-09-10T08:00:00Z",
+    "declined_id": "DW-DE-00013",
+    "estimate_id": "EST-DE-00039",
+    "item": "Coolant flush",
+    "service_journey_id": "SJ-DE-00039",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 130,
+    "currency": "EUR",
+    "customer_id": "C-DE-00585",
+    "declined_at": "2026-09-07T00:35:50Z",
+    "declined_id": "DW-DE-00014",
+    "estimate_id": "EST-DE-00041",
+    "item": "Alignment",
+    "service_journey_id": "SJ-DE-00041",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 550,
+    "currency": "EUR",
+    "customer_id": "C-DE-00308",
+    "declined_at": "2026-09-06T06:19:56Z",
+    "declined_id": "DW-DE-00015",
+    "estimate_id": "EST-DE-00045",
+    "item": "Rear brakes",
+    "service_journey_id": "SJ-DE-00045",
+    "source_ref": "synthetic:declined_work"
+  },
+  {
+    "amount": 160,
+    "currency": "EUR",
+    "customer_id": "C-DE-00074",
+    "declined_at": "2026-09-06T10:39:42Z",
+    "declined_id": "DW-DE-00016",
+    "estimate_id": "EST-DE-00049",
+    "item": "Coolant flush",
+    "service_journey_id": "SJ-DE-00049",
+    "source_ref": "synthetic:declined_work"
+  }
+]

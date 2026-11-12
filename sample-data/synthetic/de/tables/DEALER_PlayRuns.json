@@ -1,0 +1,114 @@
+[
+  {
+    "journey_id": "J-DE-00213",
+    "play_id": "PLAY-STALLED-DE",
+    "play_run_id": "PR-DE-00001",
+    "started_at": "2026-08-28T14:22:05Z",
+    "status": "stopped"
+  },
+  {
+    "journey_id": "J-DE-00247",
+    "play_id": "PLAY-STALLED-DE",
+    "play_run_id": "PR-DE-00002",
+    "started_at": "2026-09-08T13:50:16Z",
+    "status": "completed"
+  },
+  {
+    "journey_id": "J-DE-00280",
+    "play_id": "PLAY-EQUITY-DE",
+    "play_run_id": "PR-DE-00003",
+    "started_at": "2026-09-01T20:25:23Z",
+    "status": "completed"
+  },
+  {
+    "journey_id": "J-DE-00053",
+    "play_id": "PLAY-EQUITY-DE",
+    "play_run_id": "PR-DE-00004",
+    "started_at": "2026-09-03T07:23:28Z",
+    "status": "stopped"
+  },
+  {
+    "journey_id": "J-DE-00259",
+    "play_id": "PLAY-EQUITY-DE",
+    "play_run_id": "PR-DE-00005",
+    "started_at": "2026-08-21T13:00:03Z",
+    "status": "completed"
+  },
+  {
+    "journey_id": "J-DE-00206",
+    "play_id": "PLAY-EQUITY-DE",
+    "play_run_id": "PR-DE-00006",
+    "started_at": "2026-08-23T02:49:04Z",
+    "status": "running"
+  },
+  {
+    "journey_id": "J-DE-00019",
+    "play_id": "PLAY-EQUITY-DE",
+    "play_run_id": "PR-DE-00007",
+    "started_at": "2026-08-30T16:44:07Z",
+    "status": "completed"
+  },
+  {
+    "journey_id": "J-DE-00180",
+    "play_id": "PLAY-SERVICE-UPSELL-DE",
+    "play_run_id": "PR-DE-00008",
+    "started_at": "2026-08-22T07:29:03Z",
+    "status": "stopped"
+  },
+  {
+    "journey_id": "J-DE-00191",
+    "play_id": "PLAY-SERVICE-UPSELL-DE",
+    "play_run_id": "PR-DE-00009",
+    "started_at": "2026-08-25T14:31:04Z",
+    "status": "completed"
+  },
+  {
+    "journey_id": "J-DE-00272",
+    "play_id": "PLAY-SERVICE-UPSELL-DE",
+    "play_run_id": "PR-DE-00010",
+    "started_at": "2026-08-27T21:59:48Z",
+    "status": "completed"
+  },
+  {
+    "journey_id": "J-DE-00129",
+    "play_id": "PLAY-CONQUEST-DE",
+    "play_run_id": "PR-DE-00011",
+    "started_at": "2026-08-26T00:01:50Z",
+    "status": "completed"
+  },
+  {
+    "journey_id": "J-DE-00209",
+    "play_id": "PLAY-CONQUEST-DE",
+    "play_run_id": "PR-DE-00012",
+    "started_at": "2026-09-09T06:43:08Z",
+    "status": "running"
+  },
+  {
+    "journey_id": "J-DE-00093",
+    "play_id": "PLAY-CONQUEST-DE",
+    "play_run_id": "PR-DE-00013",
+    "started_at": "2026-08-21T11:50:37Z",
+    "status": "running"
+  },
+  {
+    "journey_id": "J-DE-00086",
+    "play_id": "PLAY-CONQUEST-DE",
+    "play_run_id": "PR-DE-00014",
+    "started_at": "2026-09-06T01:02:27Z",
+    "status": "running"
+  },
+  {
+    "journey_id": "J-DE-00135",
+    "play_id": "PLAY-CONQUEST-DE",
+    "play_run_id": "PR-DE-00015",
+    "started_at": "2026-08-30T17:56:37Z",
+    "status": "running"
+  },
+  {
+    "journey_id": "J-DE-00074",
+    "play_id": "PLAY-CONQUEST-DE",
+    "play_run_id": "PR-DE-00016",
+    "started_at": "2026-08-30T22:43:38Z",
+    "status": "running"
+  }
+]

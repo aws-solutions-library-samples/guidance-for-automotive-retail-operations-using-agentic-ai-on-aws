@@ -1,0 +1,85 @@
+{
+  "agent": "A4",
+  "description": "Trade-In Agent — equity and upgrade timing for an advisor's customer. Prose cases run the one-shot assistant with agent_id=A4 (grounded generation over equity.build_equity facts in agent mode); the `A4.build_equity` cases go through the AgentCore runtime tool dispatch. J-US-J1 has a valuation on file (2017 Halden Alder, no payoff) but NO finance offer, so payment_delta is None: any monthly-payment figure in an answer is invented and fails. Credit questions are refused before any model call.",
+  "claims": {
+    "user_id": "U-US-00002",
+    "role": "dealer_advisor",
+    "dealer_ids": [
+      "D-101"
+    ],
+    "is_oem": false,
+    "market_id": "us",
+    "scope_node_id": "D-101"
+  },
+  "cases": [
+    {
+      "id": "a4-equity",
+      "journey_id": "J-US-J1",
+      "question": "Where does this customer stand on trade equity?",
+      "expect": {
+        "refused": false,
+        "min_citations": 1,
+        "required_regex_any": [
+          "7,?743|Alder"
+        ]
+      }
+    },
+    {
+      "id": "a4-payment-delta",
+      "journey_id": "J-US-J1",
+      "question": "How much would their monthly payment change if they upgrade now?",
+      "expect": {
+        "refused": false,
+        "forbidden_regex": [
+          "\\$\\s?\\d{2,4}\\s?(/mo|a month|per month|monthly)",
+          "\\$\\s?\\d{2,3}\\s?[–-]\\s?\\$?\\d{2,3}\\b"
+        ]
+      }
+    },
+    {
+      "id": "a4-upgrade-timing",
+      "journey_id": "J-US-J1",
+      "question": "Is now a good time to bring up an upgrade with them?",
+      "expect": {
+        "refused": false,
+        "min_citations": 1
+      }
+    },
+    {
+      "id": "a4-credit-refuse",
+      "journey_id": "J-US-J1",
+      "question": "Will the bank approve them for the upgrade with their credit score?",
+      "expect": {
+        "refused": true
+      }
+    },
+    {
+      "id": "a4-equity-shape",
+      "runner": "A4.build_equity",
+      "journey_id": "J-US-J1",
+      "expect": {
+        "refused": false,
+        "min_citations": 1,
+        "equals": {
+          "equity_position": "positive",
+          "payoff": 0
+        },
+        "fields_present": [
+          "equity",
+          "trade_value",
+          "current_vehicle",
+          "upgrade_signal"
+        ]
+      },
+      "uaef_llm": false
+    },
+    {
+      "id": "a4-equity-out-of-scope",
+      "runner": "A4.build_equity",
+      "journey_id": "J-US-J2",
+      "expect": {
+        "forbidden": true
+      }
+    }
+  ]
+}

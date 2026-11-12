@@ -1,0 +1,1338 @@
+[
+  {
+    "assigned_user_id": "U-DE-00004",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-J1",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00001",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00013",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-J2",
+    "status": "done",
+    "task_id": "TSK-DE-00002",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00004",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-J4",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00003",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00004",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-J5",
+    "status": "done",
+    "task_id": "TSK-DE-00004",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00029",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-J9",
+    "status": "open",
+    "task_id": "TSK-DE-00005",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00001",
+    "status": "done",
+    "task_id": "TSK-DE-00006",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00035",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00006",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00007",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00043",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00007",
+    "status": "done",
+    "task_id": "TSK-DE-00008",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00008",
+    "status": "open",
+    "task_id": "TSK-DE-00009",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00029",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00011",
+    "status": "open",
+    "task_id": "TSK-DE-00010",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00041",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00014",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00011",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00037",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00015",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00012",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00041",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00017",
+    "status": "open",
+    "task_id": "TSK-DE-00013",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00035",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00019",
+    "status": "done",
+    "task_id": "TSK-DE-00014",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00020",
+    "status": "open",
+    "task_id": "TSK-DE-00015",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00037",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00022",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00016",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00004",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00023",
+    "status": "done",
+    "task_id": "TSK-DE-00017",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00035",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00024",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00018",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00020",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00026",
+    "status": "open",
+    "task_id": "TSK-DE-00019",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00020",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00027",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00020",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00037",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00028",
+    "status": "open",
+    "task_id": "TSK-DE-00021",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00035",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00034",
+    "status": "open",
+    "task_id": "TSK-DE-00022",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00037",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00036",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00023",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00041",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00037",
+    "status": "open",
+    "task_id": "TSK-DE-00024",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00033",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00038",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00025",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00033",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00040",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00026",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00039",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00041",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00027",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00042",
+    "status": "done",
+    "task_id": "TSK-DE-00028",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00039",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00043",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00029",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00046",
+    "status": "done",
+    "task_id": "TSK-DE-00030",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00037",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00050",
+    "status": "done",
+    "task_id": "TSK-DE-00031",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00029",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00051",
+    "status": "open",
+    "task_id": "TSK-DE-00032",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00003",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00052",
+    "status": "done",
+    "task_id": "TSK-DE-00033",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00039",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00054",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00034",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00041",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00055",
+    "status": "open",
+    "task_id": "TSK-DE-00035",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00020",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00058",
+    "status": "open",
+    "task_id": "TSK-DE-00036",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00013",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00059",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00037",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00037",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00060",
+    "status": "open",
+    "task_id": "TSK-DE-00038",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00061",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00039",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00022",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00062",
+    "status": "done",
+    "task_id": "TSK-DE-00040",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00043",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00066",
+    "status": "done",
+    "task_id": "TSK-DE-00041",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00035",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00069",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00042",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00070",
+    "status": "done",
+    "task_id": "TSK-DE-00043",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00029",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00072",
+    "status": "open",
+    "task_id": "TSK-DE-00044",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00041",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00074",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00045",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00043",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00076",
+    "status": "done",
+    "task_id": "TSK-DE-00046",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00002",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00080",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00047",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00041",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00085",
+    "status": "open",
+    "task_id": "TSK-DE-00048",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00033",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00086",
+    "status": "done",
+    "task_id": "TSK-DE-00049",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00037",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00088",
+    "status": "open",
+    "task_id": "TSK-DE-00050",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00012",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00092",
+    "status": "done",
+    "task_id": "TSK-DE-00051",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00021",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00093",
+    "status": "done",
+    "task_id": "TSK-DE-00052",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00039",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00094",
+    "status": "done",
+    "task_id": "TSK-DE-00053",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00043",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00095",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00054",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00043",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00098",
+    "status": "open",
+    "task_id": "TSK-DE-00055",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00101",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00056",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00037",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00102",
+    "status": "open",
+    "task_id": "TSK-DE-00057",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00039",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00104",
+    "status": "done",
+    "task_id": "TSK-DE-00058",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00035",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00107",
+    "status": "done",
+    "task_id": "TSK-DE-00059",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00039",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00114",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00060",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00039",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00116",
+    "status": "done",
+    "task_id": "TSK-DE-00061",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00120",
+    "status": "open",
+    "task_id": "TSK-DE-00062",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00037",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00122",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00063",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00033",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00123",
+    "status": "open",
+    "task_id": "TSK-DE-00064",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00004",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00125",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00065",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00035",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00126",
+    "status": "open",
+    "task_id": "TSK-DE-00066",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00129",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00067",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00011",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00131",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00068",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00039",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00133",
+    "status": "done",
+    "task_id": "TSK-DE-00069",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00136",
+    "status": "open",
+    "task_id": "TSK-DE-00070",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00033",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00141",
+    "status": "done",
+    "task_id": "TSK-DE-00071",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00011",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00142",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00072",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00037",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00144",
+    "status": "done",
+    "task_id": "TSK-DE-00073",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00035",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00145",
+    "status": "done",
+    "task_id": "TSK-DE-00074",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00037",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00146",
+    "status": "done",
+    "task_id": "TSK-DE-00075",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00033",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00149",
+    "status": "open",
+    "task_id": "TSK-DE-00076",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00035",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00151",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00077",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00035",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00153",
+    "status": "done",
+    "task_id": "TSK-DE-00078",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00041",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00154",
+    "status": "open",
+    "task_id": "TSK-DE-00079",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00033",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00156",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00080",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00157",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00081",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00041",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00159",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00082",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00033",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00160",
+    "status": "done",
+    "task_id": "TSK-DE-00083",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00003",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00163",
+    "status": "done",
+    "task_id": "TSK-DE-00084",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00165",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00085",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00039",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00166",
+    "status": "done",
+    "task_id": "TSK-DE-00086",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00035",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00169",
+    "status": "open",
+    "task_id": "TSK-DE-00087",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00029",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00170",
+    "status": "done",
+    "task_id": "TSK-DE-00088",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00033",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00171",
+    "status": "open",
+    "task_id": "TSK-DE-00089",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00020",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00172",
+    "status": "open",
+    "task_id": "TSK-DE-00090",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00175",
+    "status": "done",
+    "task_id": "TSK-DE-00091",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00013",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00177",
+    "status": "open",
+    "task_id": "TSK-DE-00092",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00037",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00181",
+    "status": "open",
+    "task_id": "TSK-DE-00093",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00041",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00182",
+    "status": "open",
+    "task_id": "TSK-DE-00094",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00037",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00184",
+    "status": "done",
+    "task_id": "TSK-DE-00095",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00043",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00185",
+    "status": "open",
+    "task_id": "TSK-DE-00096",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00043",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00186",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00097",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00021",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00187",
+    "status": "done",
+    "task_id": "TSK-DE-00098",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00035",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00188",
+    "status": "done",
+    "task_id": "TSK-DE-00099",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00029",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00189",
+    "status": "open",
+    "task_id": "TSK-DE-00100",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00190",
+    "status": "open",
+    "task_id": "TSK-DE-00101",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00043",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00192",
+    "status": "done",
+    "task_id": "TSK-DE-00102",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00002",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00193",
+    "status": "done",
+    "task_id": "TSK-DE-00103",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00041",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00194",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00104",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00011",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00195",
+    "status": "done",
+    "task_id": "TSK-DE-00105",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00033",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00197",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00106",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00029",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00200",
+    "status": "open",
+    "task_id": "TSK-DE-00107",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00043",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00201",
+    "status": "done",
+    "task_id": "TSK-DE-00108",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00004",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00203",
+    "status": "open",
+    "task_id": "TSK-DE-00109",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00021",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00204",
+    "status": "open",
+    "task_id": "TSK-DE-00110",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00029",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00205",
+    "status": "done",
+    "task_id": "TSK-DE-00111",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00013",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00210",
+    "status": "done",
+    "task_id": "TSK-DE-00112",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00033",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00213",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00113",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00041",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00214",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00114",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00037",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00215",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00115",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00012",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00217",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00116",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00033",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00219",
+    "status": "open",
+    "task_id": "TSK-DE-00117",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00041",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00220",
+    "status": "open",
+    "task_id": "TSK-DE-00118",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00035",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00222",
+    "status": "done",
+    "task_id": "TSK-DE-00119",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00021",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00223",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00120",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00039",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00225",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00121",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00022",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00226",
+    "status": "open",
+    "task_id": "TSK-DE-00122",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00043",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00227",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00123",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00029",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00233",
+    "status": "done",
+    "task_id": "TSK-DE-00124",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00002",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00234",
+    "status": "done",
+    "task_id": "TSK-DE-00125",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00235",
+    "status": "open",
+    "task_id": "TSK-DE-00126",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00236",
+    "status": "open",
+    "task_id": "TSK-DE-00127",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00035",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00237",
+    "status": "open",
+    "task_id": "TSK-DE-00128",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00043",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00238",
+    "status": "open",
+    "task_id": "TSK-DE-00129",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00039",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00239",
+    "status": "open",
+    "task_id": "TSK-DE-00130",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00039",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00243",
+    "status": "done",
+    "task_id": "TSK-DE-00131",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00035",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00244",
+    "status": "done",
+    "task_id": "TSK-DE-00132",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00020",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00245",
+    "status": "done",
+    "task_id": "TSK-DE-00133",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00039",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00246",
+    "status": "open",
+    "task_id": "TSK-DE-00134",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00037",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00247",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00135",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00037",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00251",
+    "status": "open",
+    "task_id": "TSK-DE-00136",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00033",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00254",
+    "status": "done",
+    "task_id": "TSK-DE-00137",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00029",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00255",
+    "status": "done",
+    "task_id": "TSK-DE-00138",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00033",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00256",
+    "status": "open",
+    "task_id": "TSK-DE-00139",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00002",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00257",
+    "status": "open",
+    "task_id": "TSK-DE-00140",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00039",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00258",
+    "status": "done",
+    "task_id": "TSK-DE-00141",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00033",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00259",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00142",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00004",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00262",
+    "status": "done",
+    "task_id": "TSK-DE-00143",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00033",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00263",
+    "status": "done",
+    "task_id": "TSK-DE-00144",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00043",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00264",
+    "status": "open",
+    "task_id": "TSK-DE-00145",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00012",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00266",
+    "status": "open",
+    "task_id": "TSK-DE-00146",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00043",
+    "due_at": "2026-09-11T09:00:00Z",
+    "journey_id": "J-DE-00268",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00147",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00033",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00269",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00148",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00029",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00270",
+    "status": "done",
+    "task_id": "TSK-DE-00149",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00037",
+    "due_at": "2026-09-14T09:00:00Z",
+    "journey_id": "J-DE-00273",
+    "status": "open",
+    "task_id": "TSK-DE-00150",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00020",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00275",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00151",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00279",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00152",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00002",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00281",
+    "status": "open",
+    "task_id": "TSK-DE-00153",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00039",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00283",
+    "status": "open",
+    "task_id": "TSK-DE-00154",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00022",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00284",
+    "status": "done",
+    "task_id": "TSK-DE-00155",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00041",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00287",
+    "status": "open",
+    "task_id": "TSK-DE-00156",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00037",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00288",
+    "status": "open",
+    "task_id": "TSK-DE-00157",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00039",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00290",
+    "status": "open",
+    "task_id": "TSK-DE-00158",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00039",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00296",
+    "status": "open",
+    "task_id": "TSK-DE-00159",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00043",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00297",
+    "status": "done",
+    "task_id": "TSK-DE-00160",
+    "title": "Confirm test drive"
+  },
+  {
+    "assigned_user_id": "U-DE-00033",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00299",
+    "status": "done",
+    "task_id": "TSK-DE-00161",
+    "title": "Follow up on finance"
+  },
+  {
+    "assigned_user_id": "U-DE-00041",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00303",
+    "status": "done",
+    "task_id": "TSK-DE-00162",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00039",
+    "due_at": "2026-09-15T09:00:00Z",
+    "journey_id": "J-DE-00305",
+    "status": "open",
+    "task_id": "TSK-DE-00163",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00039",
+    "due_at": "2026-09-10T09:00:00Z",
+    "journey_id": "J-DE-00306",
+    "status": "open",
+    "task_id": "TSK-DE-00164",
+    "title": "Send trade offer"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00307",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00165",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-12T09:00:00Z",
+    "journey_id": "J-DE-00310",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00166",
+    "title": "Answer question"
+  },
+  {
+    "assigned_user_id": "U-DE-00031",
+    "due_at": "2026-09-13T09:00:00Z",
+    "journey_id": "J-DE-00311",
+    "status": "in_progress",
+    "task_id": "TSK-DE-00167",
+    "title": "Confirm test drive"
+  }
+]

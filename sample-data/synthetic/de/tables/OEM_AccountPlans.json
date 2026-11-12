@@ -1,0 +1,617 @@
+[
+  {
+    "allocations": [
+      {
+        "amount": 13000,
+        "program": "co-op marketing",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (co-op allocation)"
+      }
+    ],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-201",
+    "district_id": "DIST-SW",
+    "effective_from": "2026-07-27T09:00:00Z",
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "lead_sla_minutes",
+        "source_ref": "spec:§3.1 lead SLA 30min",
+        "target": 30
+      },
+      {
+        "kpi": "csi",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (district CSI target)",
+        "target": 0.9
+      }
+    ],
+    "plan_id": "AP-DE-00998",
+    "publish_action": "a6.publish_account_plan",
+    "publish_level": "act_with_approval",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12",
+    "status": "published",
+    "version": 1
+  },
+  {
+    "allocations": [
+      {
+        "amount": 13000,
+        "program": "co-op marketing",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (co-op allocation)"
+      }
+    ],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-201",
+    "district_id": "DIST-SW",
+    "effective_from": "2026-09-03T09:00:00Z",
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "lead_sla_minutes",
+        "source_ref": "spec:§3.1 lead SLA 30min",
+        "target": 30
+      },
+      {
+        "kpi": "csi",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (district CSI target)",
+        "target": 0.9
+      }
+    ],
+    "plan_id": "AP-DE-00999",
+    "publish_action": "a6.publish_account_plan",
+    "publish_level": "act_with_approval",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12",
+    "status": "published",
+    "version": 2
+  },
+  {
+    "allocations": [
+      {
+        "amount": 13000,
+        "program": "co-op marketing",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (co-op allocation)"
+      }
+    ],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-202",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "lead_sla_minutes",
+        "source_ref": "spec:§3.1 lead SLA 30min",
+        "target": 30
+      },
+      {
+        "kpi": "csi",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (district CSI target)",
+        "target": 0.9
+      }
+    ],
+    "plan_id": "AP-DE-01000",
+    "publish_action": "a6.publish_account_plan",
+    "publish_level": "act_with_approval",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12",
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "allocations": [
+      {
+        "amount": 13000,
+        "program": "co-op marketing",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (co-op allocation)"
+      }
+    ],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-203",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "lead_sla_minutes",
+        "source_ref": "spec:§3.1 lead SLA 30min",
+        "target": 30
+      },
+      {
+        "kpi": "csi",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (district CSI target)",
+        "target": 0.9
+      }
+    ],
+    "plan_id": "AP-DE-01001",
+    "publish_action": "a6.publish_account_plan",
+    "publish_level": "act_with_approval",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12",
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "allocations": [
+      {
+        "amount": 13000,
+        "program": "co-op marketing",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (co-op allocation)"
+      }
+    ],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-204",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "lead_sla_minutes",
+        "source_ref": "spec:§3.1 lead SLA 30min",
+        "target": 30
+      },
+      {
+        "kpi": "csi",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (district CSI target)",
+        "target": 0.9
+      }
+    ],
+    "plan_id": "AP-DE-01002",
+    "publish_action": "a6.publish_account_plan",
+    "publish_level": "act_with_approval",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12",
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "allocations": [
+      {
+        "amount": 13000,
+        "program": "co-op marketing",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (co-op allocation)"
+      }
+    ],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-205",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "lead_sla_minutes",
+        "source_ref": "spec:§3.1 lead SLA 30min",
+        "target": 30
+      },
+      {
+        "kpi": "csi",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (district CSI target)",
+        "target": 0.9
+      }
+    ],
+    "plan_id": "AP-DE-01003",
+    "publish_action": "a6.publish_account_plan",
+    "publish_level": "act_with_approval",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12",
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "allocations": [
+      {
+        "amount": 13000,
+        "program": "co-op marketing",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (co-op allocation)"
+      }
+    ],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-206",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "lead_sla_minutes",
+        "source_ref": "spec:§3.1 lead SLA 30min",
+        "target": 30
+      },
+      {
+        "kpi": "csi",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (district CSI target)",
+        "target": 0.9
+      }
+    ],
+    "plan_id": "AP-DE-01004",
+    "publish_action": "a6.publish_account_plan",
+    "publish_level": "act_with_approval",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12",
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "allocations": [
+      {
+        "amount": 13000,
+        "program": "co-op marketing",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (co-op allocation)"
+      }
+    ],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-207",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "lead_sla_minutes",
+        "source_ref": "spec:§3.1 lead SLA 30min",
+        "target": 30
+      },
+      {
+        "kpi": "csi",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (district CSI target)",
+        "target": 0.9
+      }
+    ],
+    "plan_id": "AP-DE-01005",
+    "publish_action": "a6.publish_account_plan",
+    "publish_level": "act_with_approval",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12",
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "allocations": [
+      {
+        "amount": 13000,
+        "program": "co-op marketing",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (co-op allocation)"
+      }
+    ],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-208",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "lead_sla_minutes",
+        "source_ref": "spec:§3.1 lead SLA 30min",
+        "target": 30
+      },
+      {
+        "kpi": "csi",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (district CSI target)",
+        "target": 0.9
+      }
+    ],
+    "plan_id": "AP-DE-01006",
+    "publish_action": "a6.publish_account_plan",
+    "publish_level": "act_with_approval",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12",
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "allocations": [
+      {
+        "amount": 13000,
+        "program": "co-op marketing",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (co-op allocation)"
+      }
+    ],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-209",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "lead_sla_minutes",
+        "source_ref": "spec:§3.1 lead SLA 30min",
+        "target": 30
+      },
+      {
+        "kpi": "csi",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (district CSI target)",
+        "target": 0.9
+      }
+    ],
+    "plan_id": "AP-DE-01007",
+    "publish_action": "a6.publish_account_plan",
+    "publish_level": "act_with_approval",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12",
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "allocations": [
+      {
+        "amount": 13000,
+        "program": "co-op marketing",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (co-op allocation)"
+      }
+    ],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-210",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "lead_sla_minutes",
+        "source_ref": "spec:§3.1 lead SLA 30min",
+        "target": 30
+      },
+      {
+        "kpi": "csi",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (district CSI target)",
+        "target": 0.9
+      }
+    ],
+    "plan_id": "AP-DE-01008",
+    "publish_action": "a6.publish_account_plan",
+    "publish_level": "act_with_approval",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12",
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "allocations": [
+      {
+        "amount": 13000,
+        "program": "co-op marketing",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (co-op allocation)"
+      }
+    ],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-211",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "lead_sla_minutes",
+        "source_ref": "spec:§3.1 lead SLA 30min",
+        "target": 30
+      },
+      {
+        "kpi": "csi",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (district CSI target)",
+        "target": 0.9
+      }
+    ],
+    "plan_id": "AP-DE-01009",
+    "publish_action": "a6.publish_account_plan",
+    "publish_level": "act_with_approval",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12",
+    "status": "draft",
+    "version": 1
+  },
+  {
+    "allocations": [],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-201",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "meeting",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+        "target": "quarterly business review"
+      }
+    ],
+    "plan_id": "BRIEF-DE-00001",
+    "publish_action": "a6.build_meeting_package",
+    "publish_level": "recommend",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+    "status": "brief",
+    "version": 1
+  },
+  {
+    "allocations": [],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-202",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "meeting",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+        "target": "quarterly business review"
+      }
+    ],
+    "plan_id": "BRIEF-DE-00002",
+    "publish_action": "a6.build_meeting_package",
+    "publish_level": "recommend",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+    "status": "brief",
+    "version": 1
+  },
+  {
+    "allocations": [],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-203",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "meeting",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+        "target": "quarterly business review"
+      }
+    ],
+    "plan_id": "BRIEF-DE-00003",
+    "publish_action": "a6.build_meeting_package",
+    "publish_level": "recommend",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+    "status": "brief",
+    "version": 1
+  },
+  {
+    "allocations": [],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-204",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "meeting",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+        "target": "quarterly business review"
+      }
+    ],
+    "plan_id": "BRIEF-DE-00004",
+    "publish_action": "a6.build_meeting_package",
+    "publish_level": "recommend",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+    "status": "brief",
+    "version": 1
+  },
+  {
+    "allocations": [],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-205",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "meeting",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+        "target": "quarterly business review"
+      }
+    ],
+    "plan_id": "BRIEF-DE-00005",
+    "publish_action": "a6.build_meeting_package",
+    "publish_level": "recommend",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+    "status": "brief",
+    "version": 1
+  },
+  {
+    "allocations": [],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-206",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "meeting",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+        "target": "quarterly business review"
+      }
+    ],
+    "plan_id": "BRIEF-DE-00006",
+    "publish_action": "a6.build_meeting_package",
+    "publish_level": "recommend",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+    "status": "brief",
+    "version": 1
+  },
+  {
+    "allocations": [],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-207",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "meeting",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+        "target": "quarterly business review"
+      }
+    ],
+    "plan_id": "BRIEF-DE-00007",
+    "publish_action": "a6.build_meeting_package",
+    "publish_level": "recommend",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+    "status": "brief",
+    "version": 1
+  },
+  {
+    "allocations": [],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-208",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "meeting",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+        "target": "quarterly business review"
+      }
+    ],
+    "plan_id": "BRIEF-DE-00008",
+    "publish_action": "a6.build_meeting_package",
+    "publish_level": "recommend",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+    "status": "brief",
+    "version": 1
+  },
+  {
+    "allocations": [],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-209",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "meeting",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+        "target": "quarterly business review"
+      }
+    ],
+    "plan_id": "BRIEF-DE-00009",
+    "publish_action": "a6.build_meeting_package",
+    "publish_level": "recommend",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+    "status": "brief",
+    "version": 1
+  },
+  {
+    "allocations": [],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-210",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "meeting",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+        "target": "quarterly business review"
+      }
+    ],
+    "plan_id": "BRIEF-DE-00010",
+    "publish_action": "a6.build_meeting_package",
+    "publish_level": "recommend",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+    "status": "brief",
+    "version": 1
+  },
+  {
+    "allocations": [],
+    "author_user_id": "U-DE-00044",
+    "dealer_id": "D-211",
+    "district_id": "DIST-SW",
+    "effective_from": null,
+    "market_id": "de",
+    "objectives": [
+      {
+        "kpi": "meeting",
+        "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+        "target": "quarterly business review"
+      }
+    ],
+    "plan_id": "BRIEF-DE-00011",
+    "publish_action": "a6.build_meeting_package",
+    "publish_level": "recommend",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (meeting brief)",
+    "status": "brief",
+    "version": 1
+  }
+]

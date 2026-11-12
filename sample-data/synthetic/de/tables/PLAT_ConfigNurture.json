@@ -1,0 +1,800 @@
+[
+  {
+    "cadence_caps": {
+      "per_channel_week": {
+        "chat": 3,
+        "email": 2,
+        "sms": 1
+      },
+      "per_day": 1,
+      "per_week": 3,
+      "source_ref": "curated:nurture_cadence_caps (industry 1/day 3/week)"
+    },
+    "config_key": "nurture",
+    "effective_from": "2026-08-11T09:00:00Z",
+    "is_active": true,
+    "item_key": "nurture#de",
+    "market_id": "de",
+    "source_ref": "plan:§3.9 nurture templates",
+    "templates": [
+      {
+        "body": "Hallo {first_name}, willkommen, {first_name} – finden wir ihren {brand}. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "welcome",
+        "stage_or_trigger": "DISCOVER",
+        "subject": "Willkommen, {first_name} – finden wir Ihren {brand}",
+        "template_id": "T-DE-DISCOVER-email"
+      },
+      {
+        "body": "Hallo {first_name}, willkommen, {first_name} – finden wir ihren {brand}. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "welcome",
+        "stage_or_trigger": "DISCOVER",
+        "subject": null,
+        "template_id": "T-DE-DISCOVER-sms"
+      },
+      {
+        "body": "Hallo {first_name}, willkommen, {first_name} – finden wir ihren {brand}. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "welcome",
+        "stage_or_trigger": "DISCOVER",
+        "subject": null,
+        "template_id": "T-DE-DISCOVER-chat"
+      },
+      {
+        "body": "Hallo {first_name}, ihre gespeicherte {model}-konfiguration wartet. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "build_saved",
+        "stage_or_trigger": "CONFIGURE",
+        "subject": "Ihre gespeicherte {model}-Konfiguration wartet",
+        "template_id": "T-DE-CONFIGURE-email"
+      },
+      {
+        "body": "Hallo {first_name}, ihre gespeicherte {model}-konfiguration wartet. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "build_saved",
+        "stage_or_trigger": "CONFIGURE",
+        "subject": null,
+        "template_id": "T-DE-CONFIGURE-sms"
+      },
+      {
+        "body": "Hallo {first_name}, ihre gespeicherte {model}-konfiguration wartet. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "build_saved",
+        "stage_or_trigger": "CONFIGURE",
+        "subject": null,
+        "template_id": "T-DE-CONFIGURE-chat"
+      },
+      {
+        "body": "Hallo {first_name}, eine kurze vorqualifizierung klärt ihre monatsrate. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "prequal",
+        "stage_or_trigger": "QUALIFY",
+        "subject": "Eine kurze Vorqualifizierung klärt Ihre Monatsrate",
+        "template_id": "T-DE-QUALIFY-email"
+      },
+      {
+        "body": "Hallo {first_name}, eine kurze vorqualifizierung klärt ihre monatsrate. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "prequal",
+        "stage_or_trigger": "QUALIFY",
+        "subject": null,
+        "template_id": "T-DE-QUALIFY-sms"
+      },
+      {
+        "body": "Hallo {first_name}, eine kurze vorqualifizierung klärt ihre monatsrate. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "prequal",
+        "stage_or_trigger": "QUALIFY",
+        "subject": null,
+        "template_id": "T-DE-QUALIFY-chat"
+      },
+      {
+        "body": "Hallo {first_name}, ihr finanzierungsangebot für den {model} ist fertig. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "offer_ready",
+        "stage_or_trigger": "FINANCE",
+        "subject": "Ihr Finanzierungsangebot für den {model} ist fertig",
+        "template_id": "T-DE-FINANCE-email"
+      },
+      {
+        "body": "Hallo {first_name}, ihr finanzierungsangebot für den {model} ist fertig. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "offer_ready",
+        "stage_or_trigger": "FINANCE",
+        "subject": null,
+        "template_id": "T-DE-FINANCE-sms"
+      },
+      {
+        "body": "Hallo {first_name}, ihr finanzierungsangebot für den {model} ist fertig. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "offer_ready",
+        "stage_or_trigger": "FINANCE",
+        "subject": null,
+        "template_id": "T-DE-FINANCE-chat"
+      },
+      {
+        "body": "Hallo {first_name}, so viel ist ihr {trade_make} {trade_model} heute wert. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "trade_value",
+        "stage_or_trigger": "TRADE_IN",
+        "subject": "So viel ist Ihr {trade_make} {trade_model} heute wert",
+        "template_id": "T-DE-TRADE_IN-email"
+      },
+      {
+        "body": "Hallo {first_name}, so viel ist ihr {trade_make} {trade_model} heute wert. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "trade_value",
+        "stage_or_trigger": "TRADE_IN",
+        "subject": null,
+        "template_id": "T-DE-TRADE_IN-sms"
+      },
+      {
+        "body": "Hallo {first_name}, so viel ist ihr {trade_make} {trade_model} heute wert. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "trade_value",
+        "stage_or_trigger": "TRADE_IN",
+        "subject": null,
+        "template_id": "T-DE-TRADE_IN-chat"
+      },
+      {
+        "body": "Hallo {first_name}, ihre vertragsübersicht für den {model}. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "deal_summary",
+        "stage_or_trigger": "AGREE",
+        "subject": "Ihre Vertragsübersicht für den {model}",
+        "template_id": "T-DE-AGREE-email"
+      },
+      {
+        "body": "Hallo {first_name}, ihre vertragsübersicht für den {model}. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "deal_summary",
+        "stage_or_trigger": "AGREE",
+        "subject": null,
+        "template_id": "T-DE-AGREE-sms"
+      },
+      {
+        "body": "Hallo {first_name}, ihre vertragsübersicht für den {model}. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "deal_summary",
+        "stage_or_trigger": "AGREE",
+        "subject": null,
+        "template_id": "T-DE-AGREE-chat"
+      },
+      {
+        "body": "Hallo {first_name}, ihr {model} wird für die übergabe am {delivery_date} vorbereitet. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "delivery_prep",
+        "stage_or_trigger": "DELIVER",
+        "subject": "Ihr {model} wird für die Übergabe am {delivery_date} vorbereitet",
+        "template_id": "T-DE-DELIVER-email"
+      },
+      {
+        "body": "Hallo {first_name}, ihr {model} wird für die übergabe am {delivery_date} vorbereitet. Ihr Berater {advisor_name} bei {dealer_name} hilft ger",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "delivery_prep",
+        "stage_or_trigger": "DELIVER",
+        "subject": null,
+        "template_id": "T-DE-DELIVER-sms"
+      },
+      {
+        "body": "Hallo {first_name}, ihr {model} wird für die übergabe am {delivery_date} vorbereitet. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "delivery_prep",
+        "stage_or_trigger": "DELIVER",
+        "subject": null,
+        "template_id": "T-DE-DELIVER-chat"
+      },
+      {
+        "body": "Hallo {first_name}, willkommen als {brand}-fahrer, {first_name}. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "welcome_owner",
+        "stage_or_trigger": "OWN",
+        "subject": "Willkommen als {brand}-Fahrer, {first_name}",
+        "template_id": "T-DE-OWN-email"
+      },
+      {
+        "body": "Hallo {first_name}, willkommen als {brand}-fahrer, {first_name}. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "welcome_owner",
+        "stage_or_trigger": "OWN",
+        "subject": null,
+        "template_id": "T-DE-OWN-sms"
+      },
+      {
+        "body": "Hallo {first_name}, willkommen als {brand}-fahrer, {first_name}. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "welcome_owner",
+        "stage_or_trigger": "OWN",
+        "subject": null,
+        "template_id": "T-DE-OWN-chat"
+      },
+      {
+        "body": "Hallo {first_name}, ihr {model} ist zum service fällig. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "email",
+        "family": "service",
+        "intent": "due_service",
+        "stage_or_trigger": "due_service",
+        "subject": "Ihr {model} ist zum Service fällig",
+        "template_id": "T-DE-SVC-due_service-email"
+      },
+      {
+        "body": "Hallo {first_name}, ihr {model} ist zum service fällig. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "due_service",
+        "stage_or_trigger": "due_service",
+        "subject": null,
+        "template_id": "T-DE-SVC-due_service-sms"
+      },
+      {
+        "body": "Hallo {first_name}, zur empfohlenen arbeit ({item}) vom letzten monat. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "email",
+        "family": "service",
+        "intent": "declined_reminder_30d",
+        "stage_or_trigger": "declined_reminder_30d",
+        "subject": "Zur empfohlenen Arbeit ({item}) vom letzten Monat",
+        "template_id": "T-DE-SVC-declined_reminder_30d-email"
+      },
+      {
+        "body": "Hallo {first_name}, zur empfohlenen arbeit ({item}) vom letzten monat. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "declined_reminder_30d",
+        "stage_or_trigger": "declined_reminder_30d",
+        "subject": null,
+        "template_id": "T-DE-SVC-declined_reminder_30d-sms"
+      },
+      {
+        "body": "Hallo {first_name}, eine freundliche erinnerung zu {item}. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "email",
+        "family": "service",
+        "intent": "declined_reminder_60d",
+        "stage_or_trigger": "declined_reminder_60d",
+        "subject": "Eine freundliche Erinnerung zu {item}",
+        "template_id": "T-DE-SVC-declined_reminder_60d-email"
+      },
+      {
+        "body": "Hallo {first_name}, eine freundliche erinnerung zu {item}. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "declined_reminder_60d",
+        "stage_or_trigger": "declined_reminder_60d",
+        "subject": null,
+        "template_id": "T-DE-SVC-declined_reminder_60d-sms"
+      },
+      {
+        "body": "Hallo {first_name}, noch zeit, sich um {item} zu kümmern. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "email",
+        "family": "service",
+        "intent": "declined_reminder_90d",
+        "stage_or_trigger": "declined_reminder_90d",
+        "subject": "Noch Zeit, sich um {item} zu kümmern",
+        "template_id": "T-DE-SVC-declined_reminder_90d-email"
+      },
+      {
+        "body": "Hallo {first_name}, noch zeit, sich um {item} zu kümmern. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "declined_reminder_90d",
+        "stage_or_trigger": "declined_reminder_90d",
+        "subject": null,
+        "template_id": "T-DE-SVC-declined_reminder_90d-sms"
+      },
+      {
+        "body": "Hallo {first_name}, ihr kostenvoranschlag ist bereit. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "email",
+        "family": "service",
+        "intent": "estimate_presented",
+        "stage_or_trigger": "estimate_presented",
+        "subject": "Ihr Kostenvoranschlag ist bereit",
+        "template_id": "T-DE-SVC-estimate_presented-email"
+      },
+      {
+        "body": "Hallo {first_name}, ihr kostenvoranschlag ist bereit. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "estimate_presented",
+        "stage_or_trigger": "estimate_presented",
+        "subject": null,
+        "template_id": "T-DE-SVC-estimate_presented-sms"
+      },
+      {
+        "body": "Hallo {first_name}, ihr {model} ist abholbereit. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "email",
+        "family": "service",
+        "intent": "vehicle_ready",
+        "stage_or_trigger": "vehicle_ready",
+        "subject": "Ihr {model} ist abholbereit",
+        "template_id": "T-DE-SVC-vehicle_ready-email"
+      },
+      {
+        "body": "Hallo {first_name}, ihr {model} ist abholbereit. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "vehicle_ready",
+        "stage_or_trigger": "vehicle_ready",
+        "subject": null,
+        "template_id": "T-DE-SVC-vehicle_ready-sms"
+      },
+      {
+        "body": "Hallo {first_name}, aktualisierte fertigstellung ihres {model}. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "email",
+        "family": "service",
+        "intent": "promise_moved",
+        "stage_or_trigger": "promise_moved",
+        "subject": "Aktualisierte Fertigstellung Ihres {model}",
+        "template_id": "T-DE-SVC-promise_moved-email"
+      },
+      {
+        "body": "Hallo {first_name}, aktualisierte fertigstellung ihres {model}. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "promise_moved",
+        "stage_or_trigger": "promise_moved",
+        "subject": null,
+        "template_id": "T-DE-SVC-promise_moved-sms"
+      },
+      {
+        "body": "Hallo {first_name}, wie zufrieden waren sie, {first_name}?. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "email",
+        "family": "service",
+        "intent": "csi_survey",
+        "stage_or_trigger": "csi_survey",
+        "subject": "Wie zufrieden waren Sie, {first_name}?",
+        "template_id": "T-DE-SVC-csi_survey-email"
+      },
+      {
+        "body": "Hallo {first_name}, wie zufrieden waren sie, {first_name}?. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "csi_survey",
+        "stage_or_trigger": "csi_survey",
+        "subject": null,
+        "template_id": "T-DE-SVC-csi_survey-sms"
+      },
+      {
+        "body": "Hallo {first_name}, wichtig: rückruf für ihren {model}. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "email",
+        "family": "service",
+        "intent": "recall",
+        "stage_or_trigger": "recall",
+        "subject": "Wichtig: Rückruf für Ihren {model}",
+        "template_id": "T-DE-SVC-recall-email"
+      },
+      {
+        "body": "Hallo {first_name}, wichtig: rückruf für ihren {model}. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "recall",
+        "stage_or_trigger": "recall",
+        "subject": null,
+        "template_id": "T-DE-SVC-recall-sms"
+      }
+    ],
+    "version": 1
+  },
+  {
+    "cadence_caps": {
+      "per_channel_week": {
+        "chat": 3,
+        "email": 2,
+        "sms": 1
+      },
+      "per_day": 1,
+      "per_week": 3,
+      "source_ref": "curated:nurture_cadence_caps (industry 1/day 3/week)"
+    },
+    "config_key": "nurture",
+    "effective_from": null,
+    "is_active": false,
+    "item_key": "nurture#de",
+    "market_id": "de",
+    "source_ref": "plan:§3.9 nurture templates",
+    "templates": [
+      {
+        "body": "Hallo {first_name}, willkommen, {first_name} – finden wir ihren {brand}. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "welcome",
+        "stage_or_trigger": "DISCOVER",
+        "subject": "Willkommen, {first_name} – finden wir Ihren {brand}",
+        "template_id": "T-DE-DISCOVER-email"
+      },
+      {
+        "body": "Hallo {first_name}, willkommen, {first_name} – finden wir ihren {brand}. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "welcome",
+        "stage_or_trigger": "DISCOVER",
+        "subject": null,
+        "template_id": "T-DE-DISCOVER-sms"
+      },
+      {
+        "body": "Hallo {first_name}, willkommen, {first_name} – finden wir ihren {brand}. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "welcome",
+        "stage_or_trigger": "DISCOVER",
+        "subject": null,
+        "template_id": "T-DE-DISCOVER-chat"
+      },
+      {
+        "body": "Hallo {first_name}, ihre gespeicherte {model}-konfiguration wartet. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "build_saved",
+        "stage_or_trigger": "CONFIGURE",
+        "subject": "Ihre gespeicherte {model}-Konfiguration wartet",
+        "template_id": "T-DE-CONFIGURE-email"
+      },
+      {
+        "body": "Hallo {first_name}, ihre gespeicherte {model}-konfiguration wartet. Ihr Berater {advisor_name} bei {dealer_name} hilft gern. (Entwurf v2)",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "build_saved",
+        "stage_or_trigger": "CONFIGURE",
+        "subject": null,
+        "template_id": "T-DE-CONFIGURE-sms"
+      },
+      {
+        "body": "Hallo {first_name}, ihre gespeicherte {model}-konfiguration wartet. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "build_saved",
+        "stage_or_trigger": "CONFIGURE",
+        "subject": null,
+        "template_id": "T-DE-CONFIGURE-chat"
+      },
+      {
+        "body": "Hallo {first_name}, eine kurze vorqualifizierung klärt ihre monatsrate. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "prequal",
+        "stage_or_trigger": "QUALIFY",
+        "subject": "Eine kurze Vorqualifizierung klärt Ihre Monatsrate",
+        "template_id": "T-DE-QUALIFY-email"
+      },
+      {
+        "body": "Hallo {first_name}, eine kurze vorqualifizierung klärt ihre monatsrate. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "prequal",
+        "stage_or_trigger": "QUALIFY",
+        "subject": null,
+        "template_id": "T-DE-QUALIFY-sms"
+      },
+      {
+        "body": "Hallo {first_name}, eine kurze vorqualifizierung klärt ihre monatsrate. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "prequal",
+        "stage_or_trigger": "QUALIFY",
+        "subject": null,
+        "template_id": "T-DE-QUALIFY-chat"
+      },
+      {
+        "body": "Hallo {first_name}, ihr finanzierungsangebot für den {model} ist fertig. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "offer_ready",
+        "stage_or_trigger": "FINANCE",
+        "subject": "Ihr Finanzierungsangebot für den {model} ist fertig",
+        "template_id": "T-DE-FINANCE-email"
+      },
+      {
+        "body": "Hallo {first_name}, ihr finanzierungsangebot für den {model} ist fertig. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "offer_ready",
+        "stage_or_trigger": "FINANCE",
+        "subject": null,
+        "template_id": "T-DE-FINANCE-sms"
+      },
+      {
+        "body": "Hallo {first_name}, ihr finanzierungsangebot für den {model} ist fertig. Ihr Berater {advisor_name} bei {dealer_name} hilft gern. (Entwurf v2)",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "offer_ready",
+        "stage_or_trigger": "FINANCE",
+        "subject": null,
+        "template_id": "T-DE-FINANCE-chat"
+      },
+      {
+        "body": "Hallo {first_name}, so viel ist ihr {trade_make} {trade_model} heute wert. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "trade_value",
+        "stage_or_trigger": "TRADE_IN",
+        "subject": "So viel ist Ihr {trade_make} {trade_model} heute wert",
+        "template_id": "T-DE-TRADE_IN-email"
+      },
+      {
+        "body": "Hallo {first_name}, so viel ist ihr {trade_make} {trade_model} heute wert. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "trade_value",
+        "stage_or_trigger": "TRADE_IN",
+        "subject": null,
+        "template_id": "T-DE-TRADE_IN-sms"
+      },
+      {
+        "body": "Hallo {first_name}, so viel ist ihr {trade_make} {trade_model} heute wert. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "trade_value",
+        "stage_or_trigger": "TRADE_IN",
+        "subject": null,
+        "template_id": "T-DE-TRADE_IN-chat"
+      },
+      {
+        "body": "Hallo {first_name}, ihre vertragsübersicht für den {model}. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "deal_summary",
+        "stage_or_trigger": "AGREE",
+        "subject": "Ihre Vertragsübersicht für den {model}",
+        "template_id": "T-DE-AGREE-email"
+      },
+      {
+        "body": "Hallo {first_name}, ihre vertragsübersicht für den {model}. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "deal_summary",
+        "stage_or_trigger": "AGREE",
+        "subject": null,
+        "template_id": "T-DE-AGREE-sms"
+      },
+      {
+        "body": "Hallo {first_name}, ihre vertragsübersicht für den {model}. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "deal_summary",
+        "stage_or_trigger": "AGREE",
+        "subject": null,
+        "template_id": "T-DE-AGREE-chat"
+      },
+      {
+        "body": "Hallo {first_name}, ihr {model} wird für die übergabe am {delivery_date} vorbereitet. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "delivery_prep",
+        "stage_or_trigger": "DELIVER",
+        "subject": "Ihr {model} wird für die Übergabe am {delivery_date} vorbereitet",
+        "template_id": "T-DE-DELIVER-email"
+      },
+      {
+        "body": "Hallo {first_name}, ihr {model} wird für die übergabe am {delivery_date} vorbereitet. Ihr Berater {advisor_name} bei {dealer_name} hilft ger",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "delivery_prep",
+        "stage_or_trigger": "DELIVER",
+        "subject": null,
+        "template_id": "T-DE-DELIVER-sms"
+      },
+      {
+        "body": "Hallo {first_name}, ihr {model} wird für die übergabe am {delivery_date} vorbereitet. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "delivery_prep",
+        "stage_or_trigger": "DELIVER",
+        "subject": null,
+        "template_id": "T-DE-DELIVER-chat"
+      },
+      {
+        "body": "Hallo {first_name}, willkommen als {brand}-fahrer, {first_name}. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "welcome_owner",
+        "stage_or_trigger": "OWN",
+        "subject": "Willkommen als {brand}-Fahrer, {first_name}",
+        "template_id": "T-DE-OWN-email"
+      },
+      {
+        "body": "Hallo {first_name}, willkommen als {brand}-fahrer, {first_name}. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "welcome_owner",
+        "stage_or_trigger": "OWN",
+        "subject": null,
+        "template_id": "T-DE-OWN-sms"
+      },
+      {
+        "body": "Hallo {first_name}, willkommen als {brand}-fahrer, {first_name}. Ihr Berater {advisor_name} bei {dealer_name} hilft gern.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "welcome_owner",
+        "stage_or_trigger": "OWN",
+        "subject": null,
+        "template_id": "T-DE-OWN-chat"
+      },
+      {
+        "body": "Hallo {first_name}, ihr {model} ist zum service fällig. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "email",
+        "family": "service",
+        "intent": "due_service",
+        "stage_or_trigger": "due_service",
+        "subject": "Ihr {model} ist zum Service fällig",
+        "template_id": "T-DE-SVC-due_service-email"
+      },
+      {
+        "body": "Hallo {first_name}, ihr {model} ist zum service fällig. Antworten Sie oder rufen Sie {dealer_name} an. (Entwurf v2)",
+        "channel": "sms",
+        "family": "service",
+        "intent": "due_service",
+        "stage_or_trigger": "due_service",
+        "subject": null,
+        "template_id": "T-DE-SVC-due_service-sms"
+      },
+      {
+        "body": "Hallo {first_name}, zur empfohlenen arbeit ({item}) vom letzten monat. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "email",
+        "family": "service",
+        "intent": "declined_reminder_30d",
+        "stage_or_trigger": "declined_reminder_30d",
+        "subject": "Zur empfohlenen Arbeit ({item}) vom letzten Monat",
+        "template_id": "T-DE-SVC-declined_reminder_30d-email"
+      },
+      {
+        "body": "Hallo {first_name}, zur empfohlenen arbeit ({item}) vom letzten monat. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "declined_reminder_30d",
+        "stage_or_trigger": "declined_reminder_30d",
+        "subject": null,
+        "template_id": "T-DE-SVC-declined_reminder_30d-sms"
+      },
+      {
+        "body": "Hallo {first_name}, eine freundliche erinnerung zu {item}. Antworten Sie oder rufen Sie {dealer_name} an. (Entwurf v2)",
+        "channel": "email",
+        "family": "service",
+        "intent": "declined_reminder_60d",
+        "stage_or_trigger": "declined_reminder_60d",
+        "subject": "Eine freundliche Erinnerung zu {item}",
+        "template_id": "T-DE-SVC-declined_reminder_60d-email"
+      },
+      {
+        "body": "Hallo {first_name}, eine freundliche erinnerung zu {item}. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "declined_reminder_60d",
+        "stage_or_trigger": "declined_reminder_60d",
+        "subject": null,
+        "template_id": "T-DE-SVC-declined_reminder_60d-sms"
+      },
+      {
+        "body": "Hallo {first_name}, noch zeit, sich um {item} zu kümmern. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "email",
+        "family": "service",
+        "intent": "declined_reminder_90d",
+        "stage_or_trigger": "declined_reminder_90d",
+        "subject": "Noch Zeit, sich um {item} zu kümmern",
+        "template_id": "T-DE-SVC-declined_reminder_90d-email"
+      },
+      {
+        "body": "Hallo {first_name}, noch zeit, sich um {item} zu kümmern. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "declined_reminder_90d",
+        "stage_or_trigger": "declined_reminder_90d",
+        "subject": null,
+        "template_id": "T-DE-SVC-declined_reminder_90d-sms"
+      },
+      {
+        "body": "Hallo {first_name}, ihr kostenvoranschlag ist bereit. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "email",
+        "family": "service",
+        "intent": "estimate_presented",
+        "stage_or_trigger": "estimate_presented",
+        "subject": "Ihr Kostenvoranschlag ist bereit",
+        "template_id": "T-DE-SVC-estimate_presented-email"
+      },
+      {
+        "body": "Hallo {first_name}, ihr kostenvoranschlag ist bereit. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "estimate_presented",
+        "stage_or_trigger": "estimate_presented",
+        "subject": null,
+        "template_id": "T-DE-SVC-estimate_presented-sms"
+      },
+      {
+        "body": "Hallo {first_name}, ihr {model} ist abholbereit. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "email",
+        "family": "service",
+        "intent": "vehicle_ready",
+        "stage_or_trigger": "vehicle_ready",
+        "subject": "Ihr {model} ist abholbereit",
+        "template_id": "T-DE-SVC-vehicle_ready-email"
+      },
+      {
+        "body": "Hallo {first_name}, ihr {model} ist abholbereit. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "vehicle_ready",
+        "stage_or_trigger": "vehicle_ready",
+        "subject": null,
+        "template_id": "T-DE-SVC-vehicle_ready-sms"
+      },
+      {
+        "body": "Hallo {first_name}, aktualisierte fertigstellung ihres {model}. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "email",
+        "family": "service",
+        "intent": "promise_moved",
+        "stage_or_trigger": "promise_moved",
+        "subject": "Aktualisierte Fertigstellung Ihres {model}",
+        "template_id": "T-DE-SVC-promise_moved-email"
+      },
+      {
+        "body": "Hallo {first_name}, aktualisierte fertigstellung ihres {model}. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "promise_moved",
+        "stage_or_trigger": "promise_moved",
+        "subject": null,
+        "template_id": "T-DE-SVC-promise_moved-sms"
+      },
+      {
+        "body": "Hallo {first_name}, wie zufrieden waren sie, {first_name}?. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "email",
+        "family": "service",
+        "intent": "csi_survey",
+        "stage_or_trigger": "csi_survey",
+        "subject": "Wie zufrieden waren Sie, {first_name}?",
+        "template_id": "T-DE-SVC-csi_survey-email"
+      },
+      {
+        "body": "Hallo {first_name}, wie zufrieden waren sie, {first_name}?. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "csi_survey",
+        "stage_or_trigger": "csi_survey",
+        "subject": null,
+        "template_id": "T-DE-SVC-csi_survey-sms"
+      },
+      {
+        "body": "Hallo {first_name}, wichtig: rückruf für ihren {model}. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "email",
+        "family": "service",
+        "intent": "recall",
+        "stage_or_trigger": "recall",
+        "subject": "Wichtig: Rückruf für Ihren {model}",
+        "template_id": "T-DE-SVC-recall-email"
+      },
+      {
+        "body": "Hallo {first_name}, wichtig: rückruf für ihren {model}. Antworten Sie oder rufen Sie {dealer_name} an.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "recall",
+        "stage_or_trigger": "recall",
+        "subject": null,
+        "template_id": "T-DE-SVC-recall-sms"
+      }
+    ],
+    "version": 2
+  }
+]

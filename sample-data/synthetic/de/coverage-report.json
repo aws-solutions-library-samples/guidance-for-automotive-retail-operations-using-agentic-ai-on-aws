@@ -1,0 +1,15 @@
+{
+  "failure_count": 0,
+  "invariant_groups_run": 14,
+  "market": "de",
+  "passed": true,
+  "row_count": 26170,
+  "storylines": {
+    "district_present": true,
+    "purchase_present": 9,
+    "purchase_total": 9,
+    "service_present": 8,
+    "service_total": 8
+  },
+  "table_count": 68
+}

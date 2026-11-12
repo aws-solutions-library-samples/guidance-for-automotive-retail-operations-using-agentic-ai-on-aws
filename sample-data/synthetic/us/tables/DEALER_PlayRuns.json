@@ -1,0 +1,93 @@
+[
+  {
+    "journey_id": "J-US-00147",
+    "play_id": "PLAY-STALLED-US",
+    "play_run_id": "PR-US-00001",
+    "started_at": "2026-09-03T01:11:01Z",
+    "status": "completed"
+  },
+  {
+    "journey_id": "J-US-00232",
+    "play_id": "PLAY-STALLED-US",
+    "play_run_id": "PR-US-00002",
+    "started_at": "2026-09-06T08:03:20Z",
+    "status": "completed"
+  },
+  {
+    "journey_id": "J-US-00251",
+    "play_id": "PLAY-STALLED-US",
+    "play_run_id": "PR-US-00003",
+    "started_at": "2026-09-02T08:45:16Z",
+    "status": "stopped"
+  },
+  {
+    "journey_id": "J-US-00020",
+    "play_id": "PLAY-STALLED-US",
+    "play_run_id": "PR-US-00004",
+    "started_at": "2026-08-25T03:00:12Z",
+    "status": "completed"
+  },
+  {
+    "journey_id": "J-US-00114",
+    "play_id": "PLAY-EQUITY-US",
+    "play_run_id": "PR-US-00005",
+    "started_at": "2026-08-30T21:15:18Z",
+    "status": "running"
+  },
+  {
+    "journey_id": "J-US-00110",
+    "play_id": "PLAY-EQUITY-US",
+    "play_run_id": "PR-US-00006",
+    "started_at": "2026-09-06T23:25:52Z",
+    "status": "stopped"
+  },
+  {
+    "journey_id": "J-US-00077",
+    "play_id": "PLAY-EQUITY-US",
+    "play_run_id": "PR-US-00007",
+    "started_at": "2026-08-27T14:09:12Z",
+    "status": "running"
+  },
+  {
+    "journey_id": "J-US-00041",
+    "play_id": "PLAY-EQUITY-US",
+    "play_run_id": "PR-US-00008",
+    "started_at": "2026-08-31T00:37:21Z",
+    "status": "running"
+  },
+  {
+    "journey_id": "J-US-00015",
+    "play_id": "PLAY-SERVICE-UPSELL-US",
+    "play_run_id": "PR-US-00009",
+    "started_at": "2026-08-31T06:38:48Z",
+    "status": "completed"
+  },
+  {
+    "journey_id": "J-US-00216",
+    "play_id": "PLAY-SERVICE-UPSELL-US",
+    "play_run_id": "PR-US-00010",
+    "started_at": "2026-09-08T10:19:44Z",
+    "status": "completed"
+  },
+  {
+    "journey_id": "J-US-00034",
+    "play_id": "PLAY-SERVICE-UPSELL-US",
+    "play_run_id": "PR-US-00011",
+    "started_at": "2026-08-29T12:12:45Z",
+    "status": "completed"
+  },
+  {
+    "journey_id": "J-US-00076",
+    "play_id": "PLAY-CONQUEST-US",
+    "play_run_id": "PR-US-00012",
+    "started_at": "2026-08-25T08:46:46Z",
+    "status": "running"
+  },
+  {
+    "journey_id": "J-US-00240",
+    "play_id": "PLAY-CONQUEST-US",
+    "play_run_id": "PR-US-00013",
+    "started_at": "2026-08-28T02:04:32Z",
+    "status": "stopped"
+  }
+]

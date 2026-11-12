@@ -1,0 +1,1258 @@
+{
+ "cognito_setup.CLIENT_NAME": "retail-ops-dev-staff-web",
+ "cognito_setup.CONFIG_PATH": "cognito-config.json",
+ "cognito_setup.HOSTED_UI_CLIENT_NAME": "retail-ops-dev-staff-hostedui",
+ "cognito_setup.POOL_NAME": "retail-ops-dev-staff",
+ "deploy_agentcore.CONFIG_PATH": "agentcore-config.json",
+ "deploy_agentcore.ENV": "dev",
+ "deploy_agentcore.ENV_PREFIX": "retail-ops-dev-",
+ "deploy_agentcore.EVENT_BUS": "app-bus-dev",
+ "deploy_agentcore.EXEC_ROLE": "AmazonBedrockAgentCore-retail-ops-exec",
+ "deploy_agentcore.GUARDRAIL_CONFIG": "guardrail-config.json",
+ "deploy_agentcore.KB_CONFIG": "knowledge-base-config.json",
+ "deploy_agentcore.LEGACY_CODE_KEY": "agent/retail-ops-agent.zip",
+ "deploy_agentcore.LEGACY_NAME": "retail_ops_agent",
+ "deploy_agentcore.POLICY_NAME": "retail-ops-agentcore-exec",
+ "deploy_agentcore.RUNTIME_PATTERN": "retail_ops_dev_*",
+ "deploy_agentcore.bucket": "bedrock-agentcore-retail-ops-123456789012",
+ "deploy_agentcore.code_keys": [
+  "agent/retail_ops_dev_a1_discovery.zip",
+  "agent/retail_ops_dev_a2_journey.zip",
+  "agent/retail_ops_dev_a3_sales.zip",
+  "agent/retail_ops_dev_a4_trade_in.zip",
+  "agent/retail_ops_dev_a5_campaign.zip",
+  "agent/retail_ops_dev_a7_service.zip"
+ ],
+ "deploy_agentcore.exec_policy": {
+  "Statement": [
+   {
+    "Action": [
+     "logs:DescribeLogStreams",
+     "logs:CreateLogGroup",
+     "logs:CreateLogStream",
+     "logs:PutLogEvents",
+     "logs:PutResourcePolicy",
+     "logs:DescribeLogGroups"
+    ],
+    "Effect": "Allow",
+    "Resource": [
+     "arn:aws:logs:us-east-1:123456789012:log-group:/aws/bedrock-agentcore/runtimes/*",
+     "arn:aws:logs:us-east-1:123456789012:log-group:*"
+    ]
+   },
+   {
+    "Action": [
+     "xray:PutTraceSegments",
+     "xray:PutTelemetryRecords",
+     "xray:GetSamplingRules",
+     "xray:GetSamplingTargets"
+    ],
+    "Effect": "Allow",
+    "Resource": "*"
+   },
+   {
+    "Action": "cloudwatch:PutMetricData",
+    "Condition": {
+     "StringEquals": {
+      "cloudwatch:namespace": "bedrock-agentcore"
+     }
+    },
+    "Effect": "Allow",
+    "Resource": "*"
+   },
+   {
+    "Action": [
+     "bedrock-agentcore:GetWorkloadAccessToken",
+     "bedrock-agentcore:GetWorkloadAccessTokenForJWT",
+     "bedrock-agentcore:GetWorkloadAccessTokenForUserId"
+    ],
+    "Effect": "Allow",
+    "Resource": [
+     "arn:aws:bedrock-agentcore:us-east-1:123456789012:workload-identity-directory/default",
+     "arn:aws:bedrock-agentcore:us-east-1:123456789012:workload-identity-directory/default/workload-identity/retail_ops_dev_a1_discovery-*",
+     "arn:aws:bedrock-agentcore:us-east-1:123456789012:workload-identity-directory/default/workload-identity/retail_ops_dev_a2_journey-*",
+     "arn:aws:bedrock-agentcore:us-east-1:123456789012:workload-identity-directory/default/workload-identity/retail_ops_dev_a3_sales-*",
+     "arn:aws:bedrock-agentcore:us-east-1:123456789012:workload-identity-directory/default/workload-identity/retail_ops_dev_a4_trade_in-*",
+     "arn:aws:bedrock-agentcore:us-east-1:123456789012:workload-identity-directory/default/workload-identity/retail_ops_dev_a5_campaign-*",
+     "arn:aws:bedrock-agentcore:us-east-1:123456789012:workload-identity-directory/default/workload-identity/retail_ops_dev_a7_service-*",
+     "arn:aws:bedrock-agentcore:us-east-1:123456789012:workload-identity-directory/default/workload-identity/retail_ops_agent-*"
+    ],
+    "Sid": "GetAgentAccessToken"
+   },
+   {
+    "Action": [
+     "bedrock:InvokeModel",
+     "bedrock:InvokeModelWithResponseStream",
+     "bedrock:ApplyGuardrail",
+     "bedrock:Retrieve"
+    ],
+    "Effect": "Allow",
+    "Resource": [
+     "arn:aws:bedrock:*::foundation-model/anthropic.claude-*",
+     "arn:aws:bedrock:*:123456789012:inference-profile/*",
+     "arn:aws:bedrock:*:123456789012:guardrail-profile/*",
+     "arn:aws:bedrock:us-east-1:123456789012:guardrail/*",
+     "arn:aws:bedrock:us-east-1:123456789012:knowledge-base/*"
+    ],
+    "Sid": "BedrockModelInvocation"
+   },
+   {
+    "Action": [
+     "dynamodb:GetItem",
+     "dynamodb:BatchGetItem",
+     "dynamodb:Query",
+     "dynamodb:Scan",
+     "dynamodb:PutItem",
+     "dynamodb:UpdateItem"
+    ],
+    "Effect": "Allow",
+    "Resource": [
+     "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-*",
+     "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-*/index/*"
+    ],
+    "Sid": "RetailOpsDynamo"
+   },
+   {
+    "Action": [
+     "s3:GetObject"
+    ],
+    "Effect": "Allow",
+    "Resource": [
+     "arn:aws:s3:::bedrock-agentcore-retail-ops-123456789012/*"
+    ],
+    "Sid": "RetailOpsCode"
+   },
+   {
+    "Action": [
+     "events:PutEvents"
+    ],
+    "Effect": "Allow",
+    "Resource": [
+     "arn:aws:events:us-east-1:123456789012:event-bus/app-bus-dev"
+    ],
+    "Sid": "RetailOpsEvents"
+   },
+   {
+    "Action": [
+     "ses:SendEmail",
+     "ses:SendRawEmail",
+     "sns:Publish"
+    ],
+    "Effect": "Allow",
+    "Resource": "*",
+    "Sid": "Outreach"
+   },
+   {
+    "Action": [
+     "bedrock-agentcore:InvokeAgentRuntime"
+    ],
+    "Effect": "Allow",
+    "Resource": [
+     "arn:aws:bedrock-agentcore:us-east-1:123456789012:runtime/retail_ops_dev_*"
+    ],
+    "Sid": "AgentRuntime"
+   }
+  ],
+  "Version": "2012-10-17"
+ },
+ "deploy_alarms.FUNCTIONS": [
+  "retail-ops-dev-journeys-authorizer",
+  "retail-ops-dev-journeys-service",
+  "retail-ops-dev-equity-monitor",
+  "retail-ops-dev-nurture-tick",
+  "retail-ops-dev-stall-sweep",
+  "retail-ops-dev-rescore-profiles",
+  "retail-ops-dev-service-lane-monitor",
+  "retail-ops-dev-shop-load",
+  "retail-ops-dev-service-followup-tick",
+  "retail-ops-dev-predictive-scan",
+  "retail-ops-dev-nightly-attribution",
+  "retail-ops-dev-district-cycle",
+  "retail-ops-dev-store-digest",
+  "retail-ops-dev-autonomy-promotion",
+  "retail-ops-dev-event-subscriber",
+  "retail-ops-dev-approvals-submit",
+  "retail-ops-dev-gateway-oem"
+ ],
+ "deploy_alarms.UNKNOWN_NAMESPACE": "RetailOps/Jobs",
+ "deploy_alarms.alarms": [
+  "retail-ops-dev-journeys-authorizer-errors",
+  "retail-ops-dev-journeys-authorizer-throttles",
+  "retail-ops-dev-journeys-service-errors",
+  "retail-ops-dev-journeys-service-throttles",
+  "retail-ops-dev-equity-monitor-errors",
+  "retail-ops-dev-equity-monitor-throttles",
+  "retail-ops-dev-nurture-tick-errors",
+  "retail-ops-dev-nurture-tick-throttles",
+  "retail-ops-dev-stall-sweep-errors",
+  "retail-ops-dev-stall-sweep-throttles",
+  "retail-ops-dev-rescore-profiles-errors",
+  "retail-ops-dev-rescore-profiles-throttles",
+  "retail-ops-dev-service-lane-monitor-errors",
+  "retail-ops-dev-service-lane-monitor-throttles",
+  "retail-ops-dev-shop-load-errors",
+  "retail-ops-dev-shop-load-throttles",
+  "retail-ops-dev-service-followup-tick-errors",
+  "retail-ops-dev-service-followup-tick-throttles",
+  "retail-ops-dev-predictive-scan-errors",
+  "retail-ops-dev-predictive-scan-throttles",
+  "retail-ops-dev-nightly-attribution-errors",
+  "retail-ops-dev-nightly-attribution-throttles",
+  "retail-ops-dev-district-cycle-errors",
+  "retail-ops-dev-district-cycle-throttles",
+  "retail-ops-dev-store-digest-errors",
+  "retail-ops-dev-store-digest-throttles",
+  "retail-ops-dev-autonomy-promotion-errors",
+  "retail-ops-dev-autonomy-promotion-throttles",
+  "retail-ops-dev-event-subscriber-errors",
+  "retail-ops-dev-event-subscriber-throttles",
+  "retail-ops-dev-approvals-submit-errors",
+  "retail-ops-dev-approvals-submit-throttles",
+  "retail-ops-dev-gateway-oem-errors",
+  "retail-ops-dev-gateway-oem-throttles"
+ ],
+ "deploy_alarms.runtime_unknown": [
+  [
+   "retail-ops-dev-rescore-profiles-runtime-unknown",
+   "retail-ops-dev-rescore-profiles-runtime-job-unknown",
+   "/aws/lambda/retail-ops-dev-rescore-profiles"
+  ],
+  [
+   "retail-ops-dev-nurture-tick-runtime-unknown",
+   "retail-ops-dev-nurture-tick-runtime-job-unknown",
+   "/aws/lambda/retail-ops-dev-nurture-tick"
+  ],
+  [
+   "retail-ops-dev-stall-sweep-runtime-unknown",
+   "retail-ops-dev-stall-sweep-runtime-job-unknown",
+   "/aws/lambda/retail-ops-dev-stall-sweep"
+  ],
+  [
+   "retail-ops-dev-equity-monitor-runtime-unknown",
+   "retail-ops-dev-equity-monitor-runtime-job-unknown",
+   "/aws/lambda/retail-ops-dev-equity-monitor"
+  ],
+  [
+   "retail-ops-dev-nightly-attribution-runtime-unknown",
+   "retail-ops-dev-nightly-attribution-runtime-job-unknown",
+   "/aws/lambda/retail-ops-dev-nightly-attribution"
+  ],
+  [
+   "retail-ops-dev-shop-load-runtime-unknown",
+   "retail-ops-dev-shop-load-runtime-job-unknown",
+   "/aws/lambda/retail-ops-dev-shop-load"
+  ],
+  [
+   "retail-ops-dev-service-followup-tick-runtime-unknown",
+   "retail-ops-dev-service-followup-tick-runtime-job-unknown",
+   "/aws/lambda/retail-ops-dev-service-followup-tick"
+  ],
+  [
+   "retail-ops-dev-service-lane-monitor-runtime-unknown",
+   "retail-ops-dev-service-lane-monitor-runtime-job-unknown",
+   "/aws/lambda/retail-ops-dev-service-lane-monitor"
+  ],
+  [
+   "retail-ops-dev-predictive-scan-runtime-unknown",
+   "retail-ops-dev-predictive-scan-runtime-job-unknown",
+   "/aws/lambda/retail-ops-dev-predictive-scan"
+  ]
+ ],
+ "deploy_approvals.JOURNEYS_FN": "retail-ops-dev-journeys-service",
+ "deploy_approvals.SFN_ROLE": "retail-ops-dev-approvals-sfn-role",
+ "deploy_approvals.STATE_MACHINE": "retail-ops-dev-plan-approval",
+ "deploy_approvals.SUBMIT_FN": "retail-ops-dev-approvals-submit",
+ "deploy_console.CALLER_REF": "retail-ops-dev-console",
+ "deploy_console.CONFIG_PATH": "console-config.json",
+ "deploy_console.DIST_COMMENT": "Retail Ops operator console (dev)",
+ "deploy_console.OAC_NAME": "retail-ops-dev-console-oac",
+ "deploy_console.REWRITE_FN": "retail-ops-dev-console-rewrite",
+ "deploy_console.STREAM_OAC_NAME": "retail-ops-dev-stream-oac",
+ "deploy_console.bucket": "retail-ops-dev-console-123456789012",
+ "deploy_events.BUS_NAME": "app-bus-dev",
+ "deploy_events.DLQ_NAME": "retail-ops-dev-event-subscriber-dlq",
+ "deploy_events.RULE_NAME": "retail-ops-dev-vehicle-delivered",
+ "deploy_events.SUB_FN": "retail-ops-dev-event-subscriber",
+ "deploy_gateway.CONFIG_PATH": "gateway-config.json",
+ "deploy_gateway.GW_LAMBDA": "retail-ops-dev-gateway-oem",
+ "deploy_gateway.GW_LAMBDA_ROLE": "retail-ops-dev-gateway-lambda-role",
+ "deploy_gateway.GW_NAME": "retail-ops-dev-crosspersona",
+ "deploy_gateway.GW_ROLE": "retail-ops-dev-gateway-role",
+ "deploy_gateway_quick.CONFIG_PATH": "gateway-quick-config.json",
+ "deploy_gateway_quick.GW_NAME": "retail-ops-dev-crosspersona-quick",
+ "deploy_gateway_quick.QUICK_MCP_SECRET": "retail-ops-dev-quick-mcp-oauth",
+ "deploy_guardrails.CONFIG_PATH": "guardrail-config.json",
+ "deploy_guardrails.DIGEST_CONFIG_PATH": "guardrail-digest-config.json",
+ "deploy_guardrails.DIGEST_NAME": "retail-ops-dev-guardrail-digest",
+ "deploy_guardrails.NAME": "retail-ops-dev-guardrail",
+ "deploy_knowledge_base.CONFIG_PATH": "knowledge-base-config.json",
+ "deploy_knowledge_base.INDEX": "retail-ops-quick-index",
+ "deploy_knowledge_base.KB_NAME": "retail-ops-dev-quick-index",
+ "deploy_knowledge_base.ROLE": "retail-ops-dev-kb-role",
+ "deploy_knowledge_base.lake_bucket": "retail-ops-dev-event-lake-123456789012",
+ "deploy_knowledge_base.vector_bucket": "retail-ops-dev-kb-vectors-123456789012",
+ "deploy_l4.AGENTCORE_CONFIG": "agentcore-config.json",
+ "deploy_l4.API_NAME": "retail-ops-dev-journeys-api",
+ "deploy_l4.AUTH_FN": "retail-ops-dev-journeys-authorizer",
+ "deploy_l4.CONSOLE_CONFIG": "console-config.json",
+ "deploy_l4.ENV_PREFIX": "retail-ops-dev-",
+ "deploy_l4.ROLE_NAME": "retail-ops-dev-journeys-role",
+ "deploy_l4.STAGE": "dev",
+ "deploy_l4.SVC_FN": "retail-ops-dev-journeys-service",
+ "deploy_l4.jwt_layer": "retail-ops-dev-jwt",
+ "deploy_l6.JOBS": [
+  [
+   "equity-monitor",
+   "retail-ops-dev-equity-monitor",
+   "retail-ops-dev-equity-monitor-nightly",
+   "cron(0 6 * * ? *)",
+   "Nightly A4 trade-equity monitor (agentic).",
+   true
+  ],
+  [
+   "nurture-tick",
+   "retail-ops-dev-nurture-tick",
+   "retail-ops-dev-nurture-tick",
+   "rate(6 hours)",
+   "A2 automated nurture cadence sweep (agentic).",
+   true
+  ],
+  [
+   "stall-sweep",
+   "retail-ops-dev-stall-sweep",
+   "retail-ops-dev-stall-sweep",
+   "cron(30 5 * * ? *)",
+   "A2 stalled-journey sweep -> journey.stalled (agentic).",
+   true
+  ],
+  [
+   "rescore-profiles",
+   "retail-ops-dev-rescore-profiles",
+   "retail-ops-dev-rescore-profiles",
+   "cron(45 5 * * ? *)",
+   "A1 proactive re-rank -> discovery.match_found (agentic).",
+   true
+  ],
+  [
+   "service-lane-monitor",
+   "retail-ops-dev-service-lane-monitor",
+   "retail-ops-dev-service-lane-monitor",
+   "cron(0 7 * * ? *)",
+   "A7 service-lane repurchase/upgrade monitor (agentic).",
+   true
+  ],
+  [
+   "shop-load",
+   "retail-ops-dev-shop-load",
+   "retail-ops-dev-shop-load",
+   "cron(0 10 * * ? *)",
+   "A7 05:00 morning shop-load \u2014 dispatch/stage-parts/reforecast (agentic).",
+   true
+  ],
+  [
+   "service-followup-tick",
+   "retail-ops-dev-service-followup-tick",
+   "retail-ops-dev-service-followup-tick",
+   "rate(1 hour)",
+   "A7 hourly declined-work reminders + due-service cards (agentic).",
+   true
+  ],
+  [
+   "predictive-scan",
+   "retail-ops-dev-predictive-scan",
+   "retail-ops-dev-predictive-scan",
+   "cron(15 6 * * ? *)",
+   "A7 nightly predictive part watch -> Lead Desk leads + offers (agentic).",
+   true
+  ],
+  [
+   "nightly-attribution",
+   "retail-ops-dev-nightly-attribution",
+   "retail-ops-dev-nightly-attribution",
+   "cron(0 8 * * ? *)",
+   "A5 nightly ROI attribution -> budget-shift approval drafts (agentic).",
+   true
+  ],
+  [
+   "district-cycle",
+   "retail-ops-dev-district-cycle",
+   "retail-ops-dev-district-cycle",
+   "cron(0 5 ? * MON *)",
+   "A6 weekly district cycle \u2014 composites, alerts, draft plans (agentic).",
+   true
+  ],
+  [
+   "store-digest",
+   "retail-ops-dev-store-digest",
+   "retail-ops-dev-store-digest",
+   "cron(30 6 * * ? *)",
+   "A5/A7 nightly cockpit insights written with Amazon Bedrock (agentic).",
+   true
+  ],
+  [
+   "autonomy-promotion",
+   "retail-ops-dev-autonomy-promotion",
+   "retail-ops-dev-autonomy-promotion",
+   "cron(0 6 ? * MON *)",
+   "Weekly autonomy ladder loop \u2014 outcome stats -> level proposals.",
+   false
+  ]
+ ],
+ "deploy_l6.SCHED_ROLE": "retail-ops-dev-scheduler-role",
+ "deploy_l6.env_prefix": "retail-ops-dev-",
+ "deploy_l6.schedules": [
+  [
+   "retail-ops-dev-equity-monitor-nightly",
+   "cron(0 6 * * ? *)",
+   [
+    "us",
+    "de"
+   ]
+  ],
+  [
+   "retail-ops-dev-nurture-tick",
+   "rate(6 hours)",
+   [
+    "us",
+    "de"
+   ]
+  ],
+  [
+   "retail-ops-dev-stall-sweep",
+   "cron(30 5 * * ? *)",
+   [
+    "us",
+    "de"
+   ]
+  ],
+  [
+   "retail-ops-dev-rescore-profiles",
+   "cron(45 5 * * ? *)",
+   [
+    "us",
+    "de"
+   ]
+  ],
+  [
+   "retail-ops-dev-service-lane-monitor",
+   "cron(0 7 * * ? *)",
+   [
+    "us",
+    "de"
+   ]
+  ],
+  [
+   "retail-ops-dev-shop-load",
+   "cron(0 10 * * ? *)",
+   [
+    "us"
+   ]
+  ],
+  [
+   "retail-ops-dev-shop-load-de",
+   "cron(0 3 * * ? *)",
+   [
+    "de"
+   ]
+  ],
+  [
+   "retail-ops-dev-service-followup-tick",
+   "rate(1 hour)",
+   [
+    "us",
+    "de"
+   ]
+  ],
+  [
+   "retail-ops-dev-predictive-scan",
+   "cron(15 6 * * ? *)",
+   [
+    "us",
+    "de"
+   ]
+  ],
+  [
+   "retail-ops-dev-nightly-attribution",
+   "cron(0 8 * * ? *)",
+   [
+    "us",
+    "de"
+   ]
+  ],
+  [
+   "retail-ops-dev-district-cycle",
+   "cron(0 5 ? * MON *)",
+   [
+    "us",
+    "de"
+   ]
+  ],
+  [
+   "retail-ops-dev-store-digest",
+   "cron(30 6 * * ? *)",
+   [
+    "us",
+    "de"
+   ]
+  ],
+  [
+   "retail-ops-dev-autonomy-promotion",
+   "cron(0 6 ? * MON *)",
+   [
+    "us",
+    "de"
+   ]
+  ]
+ ],
+ "deploy_lake.BUS": "app-bus-dev",
+ "deploy_lake.CONFIG_PATH": "lake-config.json",
+ "deploy_lake.DATABASE": "retail_ops_dev_lake",
+ "deploy_lake.ENV_PREFIX": "retail-ops-dev-",
+ "deploy_lake.EVENTS_ROLE": "retail-ops-dev-events-firehose-role",
+ "deploy_lake.FIREHOSE_ROLE": "retail-ops-dev-firehose-role",
+ "deploy_lake.RULE": "retail-ops-dev-event-lake-rule",
+ "deploy_lake.STREAM": "retail-ops-dev-event-lake",
+ "deploy_lake.WORKGROUP": "retail-ops-dev-lake",
+ "deploy_lake.bucket": "retail-ops-dev-event-lake-123456789012",
+ "deploy_lake_analytics.DATABASE": "retail_ops_dev_lake",
+ "deploy_lake_analytics.LAKE_CONFIG": "lake-config.json",
+ "deploy_lake_analytics.WORKGROUP": "retail-ops-dev-lake",
+ "deploy_lake_rollups.DATABASE": "retail_ops_dev_lake",
+ "deploy_lake_rollups.ENV_PREFIX": "retail-ops-dev-",
+ "deploy_lake_rollups.LAKE_CONFIG": "lake-config.json",
+ "deploy_lake_rollups.WORKGROUP": "retail-ops-dev-lake",
+ "deploy_memory.API_NAME": "retail_ops_dev_agent_memory",
+ "deploy_memory.CONFIG_PATH": "memory-config.json",
+ "deploy_memory.NAME": "retail-ops-dev-agent-memory",
+ "deploy_memory.TABLE": "retail-ops-dev-PLAT_AgentMemory",
+ "deploy_quick.CONFIG_PATH": "quick-config.json",
+ "deploy_quick_content.CONFIG_PATH": "quick-content-config.json",
+ "deploy_quick_content.STEM": "retail-ops",
+ "deploy_quick_datasets.DATABASE": "retail_ops_dev_lake",
+ "deploy_quick_datasets.DATA_SOURCE_ID": "retail-ops-lake",
+ "deploy_quick_datasets.LAKE_CONFIG": "lake-config.json",
+ "deploy_quick_datasets.QUICK_CONFIG": "quick-config.json",
+ "deploy_quick_datasets.QUICK_ROLE_POLICY": "retail-ops-lake-and-data-read",
+ "deploy_quick_datasets.WORKGROUP": "retail-ops-dev-lake",
+ "deploy_quick_datasets.lake_bucket": "retail-ops-dev-event-lake-123456789012",
+ "deploy_quick_datasets.role_policy": {
+  "Statement": [
+   {
+    "Action": [
+     "s3:GetObject",
+     "s3:ListBucket",
+     "s3:GetBucketLocation"
+    ],
+    "Effect": "Allow",
+    "Resource": [
+     "arn:aws:s3:::retail-ops-dev-event-lake-123456789012",
+     "arn:aws:s3:::retail-ops-dev-event-lake-123456789012/*"
+    ],
+    "Sid": "LakeRead"
+   },
+   {
+    "Action": [
+     "s3:PutObject",
+     "s3:AbortMultipartUpload",
+     "s3:ListMultipartUploadParts"
+    ],
+    "Effect": "Allow",
+    "Resource": "arn:aws:s3:::retail-ops-dev-event-lake-123456789012/athena-results/*",
+    "Sid": "AthenaResultsWrite"
+   },
+   {
+    "Action": [
+     "athena:StartQueryExecution",
+     "athena:GetQueryExecution",
+     "athena:GetQueryResults",
+     "athena:StopQueryExecution",
+     "athena:GetWorkGroup"
+    ],
+    "Effect": "Allow",
+    "Resource": "arn:aws:athena:us-east-1:123456789012:workgroup/retail-ops-dev-lake",
+    "Sid": "AthenaWorkgroup"
+   },
+   {
+    "Action": [
+     "glue:GetDatabase",
+     "glue:GetDatabases",
+     "glue:GetTable",
+     "glue:GetTables",
+     "glue:GetPartition",
+     "glue:GetPartitions"
+    ],
+    "Effect": "Allow",
+    "Resource": [
+     "arn:aws:glue:us-east-1:123456789012:catalog",
+     "arn:aws:glue:us-east-1:123456789012:database/retail_ops_dev_lake",
+     "arn:aws:glue:us-east-1:123456789012:table/retail_ops_dev_lake/*"
+    ],
+    "Sid": "GlueCatalog"
+   },
+   {
+    "Action": [
+     "dynamodb:DescribeTable",
+     "dynamodb:GetItem",
+     "dynamodb:Query",
+     "dynamodb:Scan"
+    ],
+    "Effect": "Allow",
+    "Resource": "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-*",
+    "Sid": "DynamoRead"
+   }
+  ],
+  "Version": "2012-10-17"
+ },
+ "deploy_quick_groups.ENV_PREFIX": "retail-ops-dev-",
+ "deploy_quick_index.LAKE_CONFIG": "lake-config.json",
+ "deploy_streaming.CONFIG_PATH": "streaming-config.json",
+ "deploy_streaming.ENV_PREFIX": "retail-ops-dev-",
+ "deploy_streaming.STREAM_FN": "retail-ops-dev-floor-stream",
+ "deploy_waf.ACL_NAME": "retail-ops-dev-console-waf",
+ "deploy_waf.CONFIG_PATH": "waf-config.json",
+ "deploy_waf.CONSOLE_CONFIG": "console-config.json",
+ "deploy_waf.IPSET_NAME": "retail-ops-dev-console-allow",
+ "iam_roles.ENV_PREFIX": "retail-ops-dev-",
+ "iam_roles.LEGACY_SHARED_ROLE": "retail-ops-dev-journeys-role",
+ "iam_roles.ROLE_APPROVALS": "retail-ops-dev-approvals-role",
+ "iam_roles.ROLE_AUTHORIZER": "retail-ops-dev-authorizer-role",
+ "iam_roles.ROLE_SERVICE": "retail-ops-dev-service-role",
+ "iam_roles.ROLE_STREAM": "retail-ops-dev-stream-role",
+ "iam_roles.ROLE_SUBSCRIBER": "retail-ops-dev-subscriber-role",
+ "iam_roles.ROLE_WORKER": "retail-ops-dev-worker-role",
+ "iam_roles.WORKER_FUNCTIONS": [
+  "retail-ops-dev-equity-monitor",
+  "retail-ops-dev-nurture-tick",
+  "retail-ops-dev-stall-sweep",
+  "retail-ops-dev-rescore-profiles",
+  "retail-ops-dev-service-lane-monitor",
+  "retail-ops-dev-shop-load",
+  "retail-ops-dev-service-followup-tick",
+  "retail-ops-dev-predictive-scan",
+  "retail-ops-dev-nightly-attribution",
+  "retail-ops-dev-district-cycle",
+  "retail-ops-dev-store-digest",
+  "retail-ops-dev-autonomy-promotion"
+ ],
+ "iam_roles.policy[retail-ops-dev-approvals-role]": [
+  "retail-ops-dev-approvals-inline",
+  {
+   "Statement": [
+    {
+     "Action": [
+      "logs:CreateLogGroup",
+      "logs:CreateLogStream",
+      "logs:PutLogEvents"
+     ],
+     "Effect": "Allow",
+     "Resource": "arn:aws:logs:us-east-1:123456789012:log-group:/aws/lambda/retail-ops-dev-approvals-submit:*"
+    },
+    {
+     "Action": [
+      "dynamodb:GetItem",
+      "dynamodb:BatchGetItem",
+      "dynamodb:Query",
+      "dynamodb:Scan"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-CUST_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-CUST_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-DEALER_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-DEALER_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_*/index/*"
+     ],
+     "Sid": "DynamoRead"
+    },
+    {
+     "Action": [
+      "dynamodb:PutItem",
+      "dynamodb:UpdateItem"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_AccountPlans",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_AccountPlans/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_Accounts",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_Accounts/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_AgentTraces",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_AgentTraces/index/*"
+     ],
+     "Sid": "DynamoWrite"
+    }
+   ],
+   "Version": "2012-10-17"
+  }
+ ],
+ "iam_roles.policy[retail-ops-dev-authorizer-role]": [
+  "retail-ops-dev-authorizer-inline",
+  {
+   "Statement": [
+    {
+     "Action": [
+      "logs:CreateLogGroup",
+      "logs:CreateLogStream",
+      "logs:PutLogEvents"
+     ],
+     "Effect": "Allow",
+     "Resource": "arn:aws:logs:us-east-1:123456789012:log-group:/aws/lambda/retail-ops-dev-journeys-authorizer:*"
+    },
+    {
+     "Action": [
+      "dynamodb:GetItem",
+      "dynamodb:BatchGetItem",
+      "dynamodb:Query",
+      "dynamodb:Scan"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_Users",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_Users/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_OrgHierarchy",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_OrgHierarchy/index/*"
+     ],
+     "Sid": "DynamoRead"
+    }
+   ],
+   "Version": "2012-10-17"
+  }
+ ],
+ "iam_roles.policy[retail-ops-dev-demo-reset-role]": [
+  "retail-ops-dev-demo-reset-inline",
+  {
+   "Statement": [
+    {
+     "Action": [
+      "logs:CreateLogGroup",
+      "logs:CreateLogStream",
+      "logs:PutLogEvents"
+     ],
+     "Effect": "Allow",
+     "Resource": "arn:aws:logs:us-east-1:123456789012:log-group:/aws/lambda/retail-ops-dev-demo-reset:*"
+    },
+    {
+     "Action": [
+      "dynamodb:DescribeTable",
+      "dynamodb:Scan",
+      "dynamodb:Query",
+      "dynamodb:GetItem",
+      "dynamodb:PutItem",
+      "dynamodb:UpdateItem",
+      "dynamodb:DeleteItem",
+      "dynamodb:BatchWriteItem",
+      "dynamodb:CreateBackup"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-CUST_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-CUST_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-DEALER_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-DEALER_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_*/index/*"
+     ],
+     "Sid": "DynamoReset"
+    }
+   ],
+   "Version": "2012-10-17"
+  }
+ ],
+ "iam_roles.policy[retail-ops-dev-service-role]": [
+  "retail-ops-dev-service-inline",
+  {
+   "Statement": [
+    {
+     "Action": [
+      "logs:CreateLogGroup",
+      "logs:CreateLogStream",
+      "logs:PutLogEvents"
+     ],
+     "Effect": "Allow",
+     "Resource": "arn:aws:logs:us-east-1:123456789012:log-group:/aws/lambda/retail-ops-dev-journeys-service:*"
+    },
+    {
+     "Action": [
+      "dynamodb:GetItem",
+      "dynamodb:BatchGetItem",
+      "dynamodb:Query",
+      "dynamodb:Scan"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-CUST_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-CUST_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-DEALER_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-DEALER_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_*/index/*"
+     ],
+     "Sid": "DynamoRead"
+    },
+    {
+     "Action": [
+      "dynamodb:PutItem",
+      "dynamodb:UpdateItem"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-CUST_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-CUST_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-DEALER_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-DEALER_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_*/index/*"
+     ],
+     "Sid": "DynamoWrite"
+    },
+    {
+     "Action": [
+      "bedrock:InvokeModel",
+      "bedrock:InvokeModelWithResponseStream"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:bedrock:*::foundation-model/anthropic.claude-*",
+      "arn:aws:bedrock:*:123456789012:inference-profile/us.anthropic.claude-*"
+     ],
+     "Sid": "Bedrock"
+    },
+    {
+     "Action": [
+      "bedrock:ApplyGuardrail"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:bedrock:us-east-1:123456789012:guardrail/*",
+      "arn:aws:bedrock:*:123456789012:guardrail-profile/*"
+     ],
+     "Sid": "Guardrail"
+    },
+    {
+     "Action": [
+      "bedrock:Retrieve"
+     ],
+     "Effect": "Allow",
+     "Resource": "arn:aws:bedrock:us-east-1:123456789012:knowledge-base/*",
+     "Sid": "KnowledgeBase"
+    },
+    {
+     "Action": [
+      "bedrock-agentcore:InvokeAgentRuntime"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:bedrock-agentcore:us-east-1:123456789012:runtime/*"
+     ],
+     "Sid": "AgentRuntime"
+    },
+    {
+     "Action": [
+      "bedrock-agentcore:StartCodeInterpreterSession",
+      "bedrock-agentcore:InvokeCodeInterpreter",
+      "bedrock-agentcore:StopCodeInterpreterSession"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:bedrock-agentcore:us-east-1:aws:code-interpreter/*",
+      "arn:aws:bedrock-agentcore:us-east-1:123456789012:code-interpreter/*",
+      "arn:aws:bedrock-agentcore:us-east-1:123456789012:code-interpreter-session/*"
+     ],
+     "Sid": "CodeInterpreter"
+    },
+    {
+     "Action": [
+      "events:PutEvents"
+     ],
+     "Effect": "Allow",
+     "Resource": "arn:aws:events:us-east-1:123456789012:event-bus/app-bus-dev",
+     "Sid": "PutEvents"
+    },
+    {
+     "Action": [
+      "states:StartExecution"
+     ],
+     "Effect": "Allow",
+     "Resource": "arn:aws:states:us-east-1:123456789012:stateMachine:retail-ops-dev-plan-approval",
+     "Sid": "StartApproval"
+    },
+    {
+     "Action": [
+      "states:SendTaskSuccess",
+      "states:SendTaskFailure",
+      "states:SendTaskHeartbeat"
+     ],
+     "Effect": "Allow",
+     "Resource": "*",
+     "Sid": "ApprovalCallback"
+    },
+    {
+     "Action": [
+      "ses:SendEmail",
+      "ses:SendRawEmail",
+      "sns:Publish"
+     ],
+     "Effect": "Allow",
+     "Resource": "*",
+     "Sid": "Outreach"
+    },
+    {
+     "Action": [
+      "quicksight:ListFlows",
+      "quicksight:SearchFlows",
+      "quicksight:ListDashboards",
+      "quicksight:DescribeDashboard",
+      "quicksight:GenerateEmbedUrlForRegisteredUser",
+      "quicksight:ListUsers",
+      "quicksight:DescribeDefaultQBusinessApplication",
+      "quicksight:DescribeUser",
+      "quicksight:RegisterUser",
+      "quicksight:CreateGroupMembership"
+     ],
+     "Effect": "Allow",
+     "Resource": "*",
+     "Sid": "AmazonQuick"
+    },
+    {
+     "Action": [
+      "personalize:GetPersonalizedRanking"
+     ],
+     "Effect": "Allow",
+     "Resource": "*",
+     "Sid": "PlatformReads"
+    },
+    {
+     "Action": [
+      "lambda:InvokeFunction"
+     ],
+     "Effect": "Allow",
+     "Resource": "arn:aws:lambda:us-east-1:123456789012:function:retail-ops-dev-demo-reset",
+     "Sid": "StartDemoReset"
+    }
+   ],
+   "Version": "2012-10-17"
+  }
+ ],
+ "iam_roles.policy[retail-ops-dev-stream-role]": [
+  "retail-ops-dev-stream-inline",
+  {
+   "Statement": [
+    {
+     "Action": [
+      "logs:CreateLogGroup",
+      "logs:CreateLogStream",
+      "logs:PutLogEvents"
+     ],
+     "Effect": "Allow",
+     "Resource": "arn:aws:logs:us-east-1:123456789012:log-group:/aws/lambda/retail-ops-dev-floor-stream:*"
+    },
+    {
+     "Action": [
+      "dynamodb:GetItem",
+      "dynamodb:BatchGetItem",
+      "dynamodb:Query",
+      "dynamodb:Scan"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-CUST_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-CUST_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-DEALER_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-DEALER_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_*/index/*"
+     ],
+     "Sid": "DynamoRead"
+    },
+    {
+     "Action": [
+      "dynamodb:PutItem",
+      "dynamodb:UpdateItem"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_AgentMemory",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_AgentMemory/index/*"
+     ],
+     "Sid": "DynamoWrite"
+    },
+    {
+     "Action": [
+      "bedrock:InvokeModel",
+      "bedrock:InvokeModelWithResponseStream"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:bedrock:*::foundation-model/anthropic.claude-*",
+      "arn:aws:bedrock:*:123456789012:inference-profile/us.anthropic.claude-*"
+     ],
+     "Sid": "Bedrock"
+    },
+    {
+     "Action": [
+      "bedrock:ApplyGuardrail"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:bedrock:us-east-1:123456789012:guardrail/*",
+      "arn:aws:bedrock:*:123456789012:guardrail-profile/*"
+     ],
+     "Sid": "Guardrail"
+    }
+   ],
+   "Version": "2012-10-17"
+  }
+ ],
+ "iam_roles.policy[retail-ops-dev-subscriber-role]": [
+  "retail-ops-dev-subscriber-inline",
+  {
+   "Statement": [
+    {
+     "Action": [
+      "logs:CreateLogGroup",
+      "logs:CreateLogStream",
+      "logs:PutLogEvents"
+     ],
+     "Effect": "Allow",
+     "Resource": "arn:aws:logs:us-east-1:123456789012:log-group:/aws/lambda/retail-ops-dev-event-subscriber:*"
+    },
+    {
+     "Action": [
+      "dynamodb:GetItem",
+      "dynamodb:BatchGetItem",
+      "dynamodb:Query",
+      "dynamodb:Scan"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-CUST_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-CUST_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-DEALER_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-DEALER_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_*/index/*"
+     ],
+     "Sid": "DynamoRead"
+    },
+    {
+     "Action": [
+      "dynamodb:PutItem",
+      "dynamodb:UpdateItem"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-CUST_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-CUST_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-DEALER_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-DEALER_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_*/index/*"
+     ],
+     "Sid": "DynamoWrite"
+    },
+    {
+     "Action": [
+      "bedrock:InvokeModel",
+      "bedrock:InvokeModelWithResponseStream"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:bedrock:*::foundation-model/anthropic.claude-*",
+      "arn:aws:bedrock:*:123456789012:inference-profile/us.anthropic.claude-*"
+     ],
+     "Sid": "Bedrock"
+    },
+    {
+     "Action": [
+      "bedrock:ApplyGuardrail"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:bedrock:us-east-1:123456789012:guardrail/*",
+      "arn:aws:bedrock:*:123456789012:guardrail-profile/*"
+     ],
+     "Sid": "Guardrail"
+    },
+    {
+     "Action": [
+      "bedrock:Retrieve"
+     ],
+     "Effect": "Allow",
+     "Resource": "arn:aws:bedrock:us-east-1:123456789012:knowledge-base/*",
+     "Sid": "KnowledgeBase"
+    },
+    {
+     "Action": [
+      "events:PutEvents"
+     ],
+     "Effect": "Allow",
+     "Resource": "arn:aws:events:us-east-1:123456789012:event-bus/app-bus-dev",
+     "Sid": "PutEvents"
+    }
+   ],
+   "Version": "2012-10-17"
+  }
+ ],
+ "iam_roles.policy[retail-ops-dev-worker-role]": [
+  "retail-ops-dev-worker-inline",
+  {
+   "Statement": [
+    {
+     "Action": [
+      "logs:CreateLogGroup",
+      "logs:CreateLogStream",
+      "logs:PutLogEvents"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:logs:us-east-1:123456789012:log-group:/aws/lambda/retail-ops-dev-equity-monitor:*",
+      "arn:aws:logs:us-east-1:123456789012:log-group:/aws/lambda/retail-ops-dev-nurture-tick:*",
+      "arn:aws:logs:us-east-1:123456789012:log-group:/aws/lambda/retail-ops-dev-stall-sweep:*",
+      "arn:aws:logs:us-east-1:123456789012:log-group:/aws/lambda/retail-ops-dev-rescore-profiles:*",
+      "arn:aws:logs:us-east-1:123456789012:log-group:/aws/lambda/retail-ops-dev-service-lane-monitor:*",
+      "arn:aws:logs:us-east-1:123456789012:log-group:/aws/lambda/retail-ops-dev-shop-load:*",
+      "arn:aws:logs:us-east-1:123456789012:log-group:/aws/lambda/retail-ops-dev-service-followup-tick:*",
+      "arn:aws:logs:us-east-1:123456789012:log-group:/aws/lambda/retail-ops-dev-predictive-scan:*",
+      "arn:aws:logs:us-east-1:123456789012:log-group:/aws/lambda/retail-ops-dev-nightly-attribution:*",
+      "arn:aws:logs:us-east-1:123456789012:log-group:/aws/lambda/retail-ops-dev-district-cycle:*",
+      "arn:aws:logs:us-east-1:123456789012:log-group:/aws/lambda/retail-ops-dev-store-digest:*",
+      "arn:aws:logs:us-east-1:123456789012:log-group:/aws/lambda/retail-ops-dev-autonomy-promotion:*"
+     ]
+    },
+    {
+     "Action": [
+      "dynamodb:GetItem",
+      "dynamodb:BatchGetItem",
+      "dynamodb:Query",
+      "dynamodb:Scan"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-CUST_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-CUST_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-DEALER_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-DEALER_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_*/index/*"
+     ],
+     "Sid": "DynamoRead"
+    },
+    {
+     "Action": [
+      "dynamodb:PutItem",
+      "dynamodb:UpdateItem"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-CUST_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-CUST_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-DEALER_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-DEALER_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-OEM_*/index/*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_*",
+      "arn:aws:dynamodb:us-east-1:123456789012:table/retail-ops-dev-PLAT_*/index/*"
+     ],
+     "Sid": "DynamoWrite"
+    },
+    {
+     "Action": [
+      "bedrock:InvokeModel",
+      "bedrock:InvokeModelWithResponseStream"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:bedrock:*::foundation-model/anthropic.claude-*",
+      "arn:aws:bedrock:*:123456789012:inference-profile/us.anthropic.claude-*"
+     ],
+     "Sid": "Bedrock"
+    },
+    {
+     "Action": [
+      "bedrock:ApplyGuardrail"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:bedrock:us-east-1:123456789012:guardrail/*",
+      "arn:aws:bedrock:*:123456789012:guardrail-profile/*"
+     ],
+     "Sid": "Guardrail"
+    },
+    {
+     "Action": [
+      "bedrock:Retrieve"
+     ],
+     "Effect": "Allow",
+     "Resource": "arn:aws:bedrock:us-east-1:123456789012:knowledge-base/*",
+     "Sid": "KnowledgeBase"
+    },
+    {
+     "Action": [
+      "events:PutEvents"
+     ],
+     "Effect": "Allow",
+     "Resource": "arn:aws:events:us-east-1:123456789012:event-bus/app-bus-dev",
+     "Sid": "PutEvents"
+    },
+    {
+     "Action": [
+      "ses:SendEmail",
+      "ses:SendRawEmail",
+      "sns:Publish"
+     ],
+     "Effect": "Allow",
+     "Resource": "*",
+     "Sid": "Outreach"
+    },
+    {
+     "Action": [
+      "bedrock-agentcore:InvokeAgentRuntime"
+     ],
+     "Effect": "Allow",
+     "Resource": [
+      "arn:aws:bedrock-agentcore:us-east-1:123456789012:runtime/retail_ops_dev_*"
+     ],
+     "Sid": "AgentRuntime"
+    }
+   ],
+   "Version": "2012-10-17"
+  }
+ ],
+ "publish_jwt_layer.LAYER_NAME": "retail-ops-dev-jwt",
+ "registry.runtime_names": [
+  "retail_ops_dev_a1_discovery",
+  "retail_ops_dev_a2_journey",
+  "retail_ops_dev_a3_sales",
+  "retail_ops_dev_a4_trade_in",
+  "retail_ops_dev_a5_campaign",
+  "retail_ops_dev_a7_service"
+ ],
+ "services.bus.BUS_NAME": "app-bus-dev",
+ "services.ddb.DEFAULT_ENV_PREFIX": "retail-ops-dev-",
+ "services.gateway.ENV_PREFIX": "retail-ops-dev-",
+ "teardown.runtime_names_for": [
+  "retail_ops_agent",
+  "retail_ops_dev_a1_discovery",
+  "retail_ops_dev_a2_journey",
+  "retail_ops_dev_a3_sales",
+  "retail_ops_dev_a4_trade_in",
+  "retail_ops_dev_a5_campaign",
+  "retail_ops_dev_a7_service"
+ ]
+}

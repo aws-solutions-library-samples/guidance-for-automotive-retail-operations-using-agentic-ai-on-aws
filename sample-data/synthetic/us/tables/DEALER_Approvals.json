@@ -1,0 +1,54 @@
+[
+  {
+    "action": "district_action_plan",
+    "approval_id": "APR-US-00001",
+    "approver_role": "oem_regional",
+    "market_id": "us",
+    "payload": {
+      "actions": [
+        "Add a Saturday service-to-sales clinic at two stores",
+        "Re-target lapsed service owners with equity offers"
+      ],
+      "district_id": "DIST-07"
+    },
+    "reason": "District DIST-07: service retention down 4 points quarter on quarter.",
+    "requested_at": "2026-09-10T08:04:37Z",
+    "requested_by": "A7",
+    "scope": {
+      "district_id": "DIST-07",
+      "market_id": "us"
+    },
+    "source_ref": "synthetic:approval",
+    "status": "pending",
+    "type": "district_action_plan"
+  },
+  {
+    "action": "budget_shift",
+    "approval_id": "APR-US-00002",
+    "approver_role": "oem_finance",
+    "decided_at": "2026-09-07T20:01:44Z",
+    "decided_by": "U-US-00048",
+    "decision": "approve",
+    "market_id": "us",
+    "payload": {
+      "amount": 15000,
+      "currency": "USD",
+      "from": {
+        "name": "Conquest display"
+      },
+      "to": {
+        "name": "Service-to-sales retention"
+      }
+    },
+    "reason": "Weekly reallocation from the lowest-ROI campaign to the highest.",
+    "requested_at": "2026-09-07T16:01:44Z",
+    "requested_by": "A5",
+    "scope": {
+      "market_id": "us",
+      "node": "OEM"
+    },
+    "source_ref": "synthetic:approval",
+    "status": "approved",
+    "type": "budget_shift"
+  }
+]

@@ -1,0 +1,723 @@
+{
+  "captured_from": "app/console/src/lib/agents.ts @ 9cab45d",
+  "roles": {
+    "dealer_advisor": {
+      "title": "Your floor agents",
+      "automations": [
+        {
+          "id": "a3.recommendations",
+          "agent": "A3",
+          "name": "Vehicle matcher",
+          "trigger": "auto",
+          "when": "on journey open & every signal",
+          "does": "Re-ranks vehicle / trim / package matches with VIN availability, price build and talk tracks for the customer in front of you.",
+          "traceMatch": [
+            "recommend",
+            "rank_vehicles",
+            "advisor"
+          ]
+        },
+        {
+          "id": "a3.objection_coach",
+          "agent": "A3",
+          "name": "Objection coach",
+          "trigger": "auto",
+          "when": "live transcript, ~3s",
+          "does": "Listens to the floor conversation, classifies objections and drafts a suggested response with its success rate.",
+          "traceMatch": [
+            "objection",
+            "classify_utterance"
+          ]
+        },
+        {
+          "id": "a2.next_best_action",
+          "agent": "A2",
+          "name": "Next best action",
+          "trigger": "auto",
+          "when": "on every stage change",
+          "does": "Keeps the one-click next step current — book test drive, send finance link, schedule follow-up — from the journey state machine.",
+          "traceMatch": [
+            "next_best_action",
+            "choose_action"
+          ]
+        },
+        {
+          "id": "a4.equity_watch",
+          "agent": "A4",
+          "name": "Trade equity watch",
+          "trigger": "auto",
+          "when": "on service & payoff events",
+          "does": "Recomputes the customer's trade equity and payment delta and flags upgrade timing on the journey.",
+          "traceMatch": [
+            "equity",
+            "valuation"
+          ]
+        },
+        {
+          "id": "a2.followup_drafter",
+          "agent": "A2",
+          "name": "Follow-up drafter",
+          "trigger": "manual",
+          "when": "after a visit or call",
+          "does": "Drafts the personalized follow-up message for this journey and sends it through the customer's preferred channel.",
+          "traceMatch": [
+            "followup",
+            "nurture",
+            "send_message"
+          ]
+        }
+      ]
+    },
+    "dealer_bdc": {
+      "title": "Lead desk agents",
+      "automations": [
+        {
+          "id": "a3.first_response",
+          "agent": "A3",
+          "name": "First-response drafter",
+          "trigger": "auto",
+          "when": "on every new lead",
+          "does": "Drafts a cited first response (incentive bulletins, inventory, CRM history) for each inbound lead inside its SLA.",
+          "traceMatch": [
+            "first_response",
+            "draft_reply"
+          ]
+        },
+        {
+          "id": "a2.call_list",
+          "agent": "A2",
+          "name": "Shift call list",
+          "trigger": "scheduled",
+          "when": "each shift start",
+          "does": "Publishes the prioritized call list for the shift to Tasks, ordered by SLA and close probability.",
+          "traceMatch": [
+            "shift_list",
+            "publish"
+          ]
+        },
+        {
+          "id": "a2.appointment_booker",
+          "agent": "A2",
+          "name": "Appointment booker",
+          "trigger": "manual",
+          "when": "one click per lead",
+          "does": "Books the test-drive or visit appointment and sends the confirmation through the outreach channel.",
+          "traceMatch": [
+            "appointment",
+            "book"
+          ]
+        },
+        {
+          "id": "a7.predictive_watch",
+          "agent": "A7",
+          "name": "Predictive part watch",
+          "trigger": "scheduled",
+          "when": "nightly telematics scan",
+          "does": "Watches mileage, wear curves and service history to predict part failures — raising a Lead Desk lead and a customer offer before the part fails.",
+          "traceMatch": [
+            "predictive"
+          ]
+        },
+        {
+          "id": "a2.lead_router",
+          "agent": "A2",
+          "name": "Lead router",
+          "trigger": "manual",
+          "when": "on assign",
+          "does": "Hands the lead to a floor advisor as an explicit ownership handoff with a Task for the receiver.",
+          "traceMatch": [
+            "handoff",
+            "assign"
+          ]
+        }
+      ]
+    },
+    "dealer_fni": {
+      "title": "F&I desk agents",
+      "automations": [
+        {
+          "id": "a3.deal_structurer",
+          "agent": "A3",
+          "name": "Deal structurer",
+          "trigger": "manual",
+          "when": "per deal",
+          "does": "Builds term / rate / payment scenarios across lender offers from the worksheet (structure_deal, auditable math).",
+          "traceMatch": [
+            "structure_deal",
+            "scenario"
+          ]
+        },
+        {
+          "id": "a3.menu_attach",
+          "agent": "A3",
+          "name": "Menu attach recommender",
+          "trigger": "auto",
+          "when": "on worksheet load",
+          "does": "Scores GAP / VSC / tire & wheel / prepaid maintenance / charger attach likelihood for this customer and vehicle.",
+          "traceMatch": [
+            "attach",
+            "menu"
+          ]
+        },
+        {
+          "id": "a3.lender_chaser",
+          "agent": "A3",
+          "name": "Lender decision chaser",
+          "trigger": "auto",
+          "when": "while a decision is pending",
+          "does": "Tracks pending lender decisions and nudges or escalates when a decision stalls past its expected turnaround.",
+          "traceMatch": [
+            "lender",
+            "decision"
+          ]
+        },
+        {
+          "id": "a3.compliance_sentry",
+          "agent": "A3",
+          "name": "Compliance sentry",
+          "trigger": "auto",
+          "when": "on every deal change",
+          "does": "Checks TILA / Reg Z disclosures, state doc-fee caps and adverse-action requirements before the deal can advance.",
+          "traceMatch": [
+            "compliance",
+            "disclosure"
+          ]
+        }
+      ]
+    },
+    "dealer_service": {
+      "title": "Service lane agents",
+      "automations": [
+        {
+          "id": "a7.morning_dispatch",
+          "agent": "A7",
+          "name": "Morning dispatch",
+          "trigger": "scheduled",
+          "when": "daily, before open",
+          "does": "Dispatches today's ROs to technicians, stages parts and writes the tech briefs before the lane opens.",
+          "traceMatch": [
+            "dispatch",
+            "staging",
+            "brief"
+          ]
+        },
+        {
+          "id": "a7.estimate_builder",
+          "agent": "A7",
+          "name": "Estimate builder",
+          "trigger": "auto",
+          "when": "on inspection submit",
+          "does": "Turns inspection findings into a sourced estimate — procedures, labor times, parts and coverage — with source_ref on every number.",
+          "traceMatch": [
+            "build_estimate",
+            "estimate"
+          ]
+        },
+        {
+          "id": "a7.approval_chaser",
+          "agent": "A7",
+          "name": "Approval chaser",
+          "trigger": "auto",
+          "when": "estimate idle >20 min",
+          "does": "Re-presents pending estimates and reminds the customer (or you) when a decision stalls.",
+          "traceMatch": [
+            "re-present",
+            "remind"
+          ]
+        },
+        {
+          "id": "a7.promise_forecaster",
+          "agent": "A7",
+          "name": "Promise re-forecaster",
+          "trigger": "auto",
+          "when": "on parts & line events",
+          "does": "Re-forecasts promised times from parts ETAs and line status and flags at-risk ROs on the board.",
+          "traceMatch": [
+            "forecast",
+            "promise"
+          ]
+        },
+        {
+          "id": "a7.declined_followup",
+          "agent": "A7",
+          "name": "Declined-work follow-up",
+          "trigger": "scheduled",
+          "when": "30 / 60 / 90 days",
+          "does": "Follows up declined work on its cadence with a one-tap booking link for the customer.",
+          "traceMatch": [
+            "declined",
+            "followup"
+          ]
+        },
+        {
+          "id": "a7.predictive_watch",
+          "agent": "A7",
+          "name": "Predictive part watch",
+          "trigger": "scheduled",
+          "when": "nightly telematics scan",
+          "does": "Watches mileage, wear curves and service history to predict part failures — raising a Lead Desk lead and a customer offer before the part fails.",
+          "traceMatch": [
+            "predictive"
+          ]
+        },
+        {
+          "id": "a7.repurchase_handoff",
+          "agent": "A7",
+          "name": "Repurchase handoff",
+          "trigger": "auto",
+          "when": "on equity-positive signals",
+          "does": "Spots equity-positive vehicles in the lane and hands them to sales as a DISCOVER journey (source=service_lane).",
+          "traceMatch": [
+            "handoff_to_sales",
+            "equity"
+          ]
+        }
+      ]
+    },
+    "dealer_technician": {
+      "title": "Bay agents",
+      "automations": [
+        {
+          "id": "a7.dtc_diagnoser",
+          "agent": "A7",
+          "name": "DTC diagnoser",
+          "trigger": "manual",
+          "when": "on DTC entry",
+          "does": "Looks up the code's description, likely causes and cited TSBs from the indexed repair knowledge.",
+          "traceMatch": [
+            "lookup_dtc",
+            "dtc"
+          ]
+        },
+        {
+          "id": "a7.line_drafter",
+          "agent": "A7",
+          "name": "Draft-line builder",
+          "trigger": "manual",
+          "when": "per confirmed cause",
+          "does": "Pulls the repair procedure, labor time and parts for the selected cause into a draft estimate line.",
+          "traceMatch": [
+            "procedure",
+            "labor",
+            "parts"
+          ]
+        },
+        {
+          "id": "a7.evidence_checker",
+          "agent": "A7",
+          "name": "Evidence checker",
+          "trigger": "auto",
+          "when": "on MPI submit",
+          "does": "Blocks yellow / red MPI items from submission until photo, video or voice evidence is attached.",
+          "traceMatch": [
+            "inspection",
+            "evidence"
+          ]
+        }
+      ]
+    },
+    "dealer_parts": {
+      "title": "Parts agents",
+      "automations": [
+        {
+          "id": "a7.eta_tracker",
+          "agent": "A7",
+          "name": "Parts ETA tracker",
+          "trigger": "auto",
+          "when": "continuous",
+          "does": "Tracks every open order's ETA against the RO's promised time and flags the ones that put promises at risk.",
+          "traceMatch": [
+            "track_parts",
+            "eta"
+          ]
+        },
+        {
+          "id": "a7.supersession",
+          "agent": "A7",
+          "name": "Supersession finder",
+          "trigger": "auto",
+          "when": "on back-order",
+          "does": "Finds superseding part numbers for back-ordered parts so the RO can keep moving.",
+          "traceMatch": [
+            "supersession"
+          ]
+        },
+        {
+          "id": "a7.repair_resumer",
+          "agent": "A7",
+          "name": "Repair resumer",
+          "trigger": "auto",
+          "when": "on parts received",
+          "does": "Releases the held RO back into REPAIR and notifies the advisor the moment parts arrive.",
+          "traceMatch": [
+            "parts.received",
+            "resume"
+          ]
+        }
+      ]
+    },
+    "dealer_service_manager": {
+      "title": "Fixed-ops agents",
+      "automations": [
+        {
+          "id": "a7.cockpit_insight",
+          "agent": "A7",
+          "name": "Cockpit insight",
+          "trigger": "scheduled",
+          "when": "daily",
+          "does": "Writes the sourced [AI INSIGHT] on the Service Cockpit from the same fixed-ops read models you see.",
+          "traceMatch": [
+            "insight"
+          ]
+        },
+        {
+          "id": "a7.goodwill_triage",
+          "agent": "A7",
+          "name": "Goodwill triage",
+          "trigger": "auto",
+          "when": "on goodwill requests",
+          "does": "Packages goodwill requests with history, coverage and margin context into your Approvals queue.",
+          "traceMatch": [
+            "goodwill"
+          ]
+        },
+        {
+          "id": "a7.threshold_whatif",
+          "agent": "A7",
+          "name": "Threshold what-if",
+          "trigger": "manual",
+          "when": "on slider change",
+          "does": "Recomputes repair-vs-replace and labor-rate what-ifs over current lane data (Code Interpreter, auditable).",
+          "traceMatch": [
+            "what_if",
+            "threshold"
+          ]
+        }
+      ]
+    },
+    "dealer_inventory": {
+      "title": "Inventory & trade agents",
+      "automations": [
+        {
+          "id": "a1.demand_scorer",
+          "agent": "A1",
+          "name": "Demand scorer",
+          "trigger": "scheduled",
+          "when": "nightly",
+          "does": "Re-scores every VIN against active journey shortlists so aging stock and hot models surface in the grid.",
+          "traceMatch": [
+            "demand",
+            "score"
+          ]
+        },
+        {
+          "id": "a4.disposition",
+          "agent": "A4",
+          "name": "Disposition recommender",
+          "trigger": "auto",
+          "when": "on each accepted trade",
+          "does": "Recommends keep-for-CPO vs wholesale vs auction with reasoning from comps, age and demand.",
+          "traceMatch": [
+            "disposition"
+          ]
+        },
+        {
+          "id": "a4.acquisition_scout",
+          "agent": "A4",
+          "name": "Acquisition scout",
+          "trigger": "auto",
+          "when": "on service lane events",
+          "does": "Spots equity-positive, high-demand vehicles in the service drive as used-inventory acquisition targets.",
+          "traceMatch": [
+            "acquisition",
+            "equity"
+          ]
+        }
+      ]
+    },
+    "dealer_delivery": {
+      "title": "Delivery agents",
+      "automations": [
+        {
+          "id": "a2.delivery_notifier",
+          "agent": "A2",
+          "name": "Reschedule notifier",
+          "trigger": "auto",
+          "when": "on reschedule",
+          "does": "Notifies the customer of delivery changes through their preferred channel and updates appointments.",
+          "traceMatch": [
+            "reschedule",
+            "notify"
+          ]
+        },
+        {
+          "id": "a2.delivery_day",
+          "agent": "A2",
+          "name": "Delivery-day messenger",
+          "trigger": "scheduled",
+          "when": "morning of delivery",
+          "does": "Sends the delivery-day message with checklist, documents status and arrival details.",
+          "traceMatch": [
+            "delivery_day",
+            "send_message"
+          ]
+        },
+        {
+          "id": "a2.survey_sender",
+          "agent": "A2",
+          "name": "Post-delivery survey",
+          "trigger": "auto",
+          "when": "on mark delivered",
+          "does": "Moves the journey DELIVER → OWN and sends the post-delivery survey automatically.",
+          "traceMatch": [
+            "survey",
+            "mark_delivered"
+          ]
+        }
+      ]
+    },
+    "dealer_manager": {
+      "title": "Store agents",
+      "automations": [
+        {
+          "id": "a5.store_digest",
+          "agent": "A5",
+          "name": "Store insight digest",
+          "trigger": "scheduled",
+          "when": "nightly",
+          "does": "Writes the per-tab [AI INSIGHT] cards on the Store Cockpit from the store's own read models.",
+          "traceMatch": [
+            "insight",
+            "digest"
+          ]
+        },
+        {
+          "id": "a2.stalled_nudger",
+          "agent": "A2",
+          "name": "Stalled-journey nudger",
+          "trigger": "scheduled",
+          "when": "daily",
+          "does": "Finds journeys stalled past their stage SLA and nudges the owning advisor with a Task.",
+          "traceMatch": [
+            "stalled",
+            "nudge"
+          ]
+        },
+        {
+          "id": "a7.fixed_ops_watch",
+          "agent": "A7",
+          "name": "Fixed-ops watch",
+          "trigger": "auto",
+          "when": "continuous",
+          "does": "Flags promised-time risk, parts holds and estimate-approval delays into the Service tab and Alerts.",
+          "traceMatch": [
+            "attention",
+            "promise"
+          ]
+        }
+      ]
+    },
+    "oem_dm": null,
+    "oem_regional": null,
+    "oem_ci_planning": null,
+    "oem_sales_ops": null,
+    "oem_finance": null,
+    "oem_marketing": {
+      "title": "Campaign agents (AgentCore step — dashboards stay in Quick)",
+      "automations": [
+        {
+          "id": "a5.budget_shifts",
+          "agent": "A5",
+          "name": "Budget-shift drafter",
+          "trigger": "scheduled",
+          "when": "nightly",
+          "does": "Attributes spend to delivered vehicles and drafts budget-shift recommendations into the finance Approvals queue.",
+          "traceMatch": [
+            "budget",
+            "recommend"
+          ]
+        },
+        {
+          "id": "a5.audience_refresh",
+          "agent": "A5",
+          "name": "Audience refresher",
+          "trigger": "scheduled",
+          "when": "nightly",
+          "does": "Refreshes Personalize segments from the latest journey events and stages ad-platform exports.",
+          "traceMatch": [
+            "audience",
+            "segment"
+          ]
+        }
+      ]
+    },
+    "oem_cx": {
+      "title": "Journey policy agents",
+      "automations": [
+        {
+          "id": "a2.nurture_executor",
+          "agent": "A2",
+          "name": "Nurture executor",
+          "trigger": "auto",
+          "when": "continuous",
+          "does": "Executes your published nurture policy — cadence caps, quiet hours, stop conditions — across every journey without redeploy.",
+          "traceMatch": [
+            "nurture",
+            "policy"
+          ]
+        },
+        {
+          "id": "a2.preview_simulator",
+          "agent": "A2",
+          "name": "Policy previewer",
+          "trigger": "manual",
+          "when": "before publish",
+          "does": "Renders a draft policy or template against a seeded customer so you see exactly what the Journey Agent would send.",
+          "traceMatch": [
+            "preview"
+          ]
+        },
+        {
+          "id": "a2.consent_guard",
+          "agent": "A2",
+          "name": "Consent guard",
+          "trigger": "auto",
+          "when": "on every send",
+          "does": "Enforces per-state consent rules and customer quiet hours on every outbound touch.",
+          "traceMatch": [
+            "consent"
+          ]
+        }
+      ]
+    },
+    "admin_tenant": null,
+    "admin_dealer": null,
+    "customer": {
+      "title": "Working for you behind the scenes",
+      "automations": [
+        {
+          "id": "a1.build_rescorer",
+          "agent": "A1",
+          "name": "Build re-scorer",
+          "trigger": "auto",
+          "when": "when inventory or incentives change",
+          "does": "Re-scores your saved builds whenever inventory or incentives change, so prices and matches stay current.",
+          "traceMatch": [
+            "rescore",
+            "build"
+          ]
+        },
+        {
+          "id": "a2.journey_guide",
+          "agent": "A2",
+          "name": "Journey guide",
+          "trigger": "auto",
+          "when": "continuous",
+          "does": "Keeps your next steps current and passes you to a person at the dealership whenever you ask.",
+          "traceMatch": [
+            "next_best_action",
+            "nurture"
+          ]
+        },
+        {
+          "id": "a7.service_concierge",
+          "agent": "A7",
+          "name": "Service concierge",
+          "trigger": "auto",
+          "when": "during service visits",
+          "does": "Tracks your repair live, explains each finding in plain language, and keeps your promised time honest.",
+          "traceMatch": [
+            "explain",
+            "estimate",
+            "notify"
+          ]
+        }
+      ]
+    },
+    "platform_admin": null,
+    "": null,
+    "not_a_role": null
+  },
+  "nullRole": null,
+  "undefinedRole": null,
+  "AGENT_CHAT": {
+    "A1": {
+      "path": "/assistant/chat",
+      "persona": "a vehicle discovery specialist",
+      "placeholder": "Ask about matches, trims, availability…",
+      "prompts": [
+        "What should I show this customer?",
+        "Which trims fit the budget?",
+        "What is in stock nearby?"
+      ]
+    },
+    "A2": {
+      "path": "/assistant/chat",
+      "persona": "a purchase journey supervisor",
+      "placeholder": "Ask about the journey, next step, outreach…",
+      "prompts": [
+        "What is the next best action?",
+        "Why is this journey stalled?",
+        "Draft a follow-up"
+      ]
+    },
+    "A3": {
+      "path": "/assistant/chat",
+      "persona": "a dealership sales advisor",
+      "placeholder": "Ask about the customer, deal, objections…",
+      "prompts": [
+        "How do I handle a price objection?",
+        "What incentives stack this month?",
+        "Summarise this customer"
+      ]
+    },
+    "A4": {
+      "path": "/assistant/chat",
+      "persona": "a trade-in and upgrade specialist",
+      "placeholder": "Ask about trade value, equity, upgrade timing…",
+      "prompts": [
+        "Is this customer equity-positive?",
+        "What is the payment delta to upgrade?",
+        "Keep or wholesale?"
+      ]
+    },
+    "A5": {
+      "path": "/marketing/ask",
+      "persona": "an OEM marketing analytics assistant",
+      "placeholder": "Ask about ROI, channels, audiences…",
+      "prompts": [
+        "Which channel returns the most deliveries?",
+        "Where is the funnel leaking?",
+        "What should I shift?"
+      ]
+    },
+    "A7": {
+      "path": "/knowledge/retrieve",
+      "synthesize": true,
+      "persona": "a service advisor's assistant",
+      "placeholder": "Ask about a DTC, procedure, TSB, part…",
+      "prompts": [
+        "P0300 misfire causes",
+        "Front brake pad procedure",
+        "HV battery inspection steps"
+      ]
+    }
+  },
+  "AGENT_LABEL": {
+    "A1": "Discovery Agent",
+    "A2": "Journey Agent",
+    "A3": "Sales Agent",
+    "A4": "Trade-In Agent",
+    "A5": "Campaign Agent",
+    "A6": "Field Sales Agent",
+    "A7": "Service Agent"
+  },
+  "AGENT_NAMES": {
+    "A1": "Vehicle Discovery",
+    "A2": "Purchase Journey Supervisor",
+    "A3": "Sales Advisor Agent",
+    "A4": "Trade-In & Upgrade Advisor",
+    "A5": "Campaign ROI Optimizer",
+    "A7": "Service Operations Supervisor"
+  }
+}

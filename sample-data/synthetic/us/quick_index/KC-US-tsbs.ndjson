@@ -1,0 +1,7 @@
+{"body": "TSB for P0300: Random/multiple cylinder misfire (system P).", "collection_id": "KC-US-tsbs", "doc_id": "DOC-US-00265", "kind": "tsbs", "market_id": "us", "source_ref": "entity:P0300", "title": "TSB — P0300"}
+{"body": "TSB for P0420: Catalyst efficiency below threshold (system P).", "collection_id": "KC-US-tsbs", "doc_id": "DOC-US-00266", "kind": "tsbs", "market_id": "us", "source_ref": "entity:P0420", "title": "TSB — P0420"}
+{"body": "TSB for P0455: EVAP large leak (system P).", "collection_id": "KC-US-tsbs", "doc_id": "DOC-US-00267", "kind": "tsbs", "market_id": "us", "source_ref": "entity:P0455", "title": "TSB — P0455"}
+{"body": "TSB for B1318: Battery voltage low (system B).", "collection_id": "KC-US-tsbs", "doc_id": "DOC-US-00268", "kind": "tsbs", "market_id": "us", "source_ref": "entity:B1318", "title": "TSB — B1318"}
+{"body": "TSB for P0A80: Replace hybrid battery pack (system P).", "collection_id": "KC-US-tsbs", "doc_id": "DOC-US-00269", "kind": "tsbs", "market_id": "us", "source_ref": "entity:P0A80", "title": "TSB — P0A80"}
+{"body": "TSB for C1234: Wheel speed sensor fault (system C).", "collection_id": "KC-US-tsbs", "doc_id": "DOC-US-00270", "kind": "tsbs", "market_id": "us", "source_ref": "entity:C1234", "title": "TSB — C1234"}
+{"body": "TSB for U0100: Lost comms with ECM (system U).", "collection_id": "KC-US-tsbs", "doc_id": "DOC-US-00271", "kind": "tsbs", "market_id": "us", "source_ref": "entity:U0100", "title": "TSB — U0100"}

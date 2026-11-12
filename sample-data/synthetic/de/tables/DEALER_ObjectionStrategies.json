@@ -1,0 +1,121 @@
+[
+  {
+    "example_phrasing": "Verstehe ich. Schauen wir, was in der Zahl steckt: mit den Prämien, die Sie bekommen, und der Inzahlungnahme zählt die Monatsrate — ich zeige Ihnen zwei Varianten.",
+    "market_id": "de",
+    "objection_type": "price_too_high",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-DE-price_too_high"
+  },
+  {
+    "example_phrasing": "Verstanden. Die Rate hängt von Laufzeit, Zins und Anzahlung ab — ich rechne 48 und 60 Monate nebeneinander, dann sehen Sie, wo sie landet.",
+    "market_id": "de",
+    "objection_type": "payment_too_high",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-DE-payment_too_high"
+  },
+  {
+    "example_phrasing": "Die häufigste Frage. Gehen wir von Ihrem Alltag aus: bei Ihren Tageskilometern reicht eine Ladung deutlich über eine Woche, und ich zeige Ihnen die Schnelllader auf Ihren Strecken.",
+    "market_id": "de",
+    "objection_type": "range_anxiety",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-DE-range_anxiety"
+  },
+  {
+    "example_phrasing": "Berechtigter Punkt. Die meisten laden nachts an einer Wallbox — dafür gibt es Förderung — und ich zeige Ihnen jetzt die öffentlichen Ladepunkte bei Wohnort und Arbeit.",
+    "market_id": "de",
+    "objection_type": "charging_access",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-DE-charging_access"
+  },
+  {
+    "example_phrasing": "Good question. Residuals on this model have held up better than the segment, and the battery warranty transfers to the next owner, which is what keeps resale strong — I can pull the current used values for you.",
+    "market_id": "de",
+    "objection_type": "resale_value",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-DE-resale_value"
+  },
+  {
+    "example_phrasing": "There are a lot of them, so let me simplify: here's which ones apply to you today, which depend on how you finance, and which have expired. We'll only build the deal on the ones that are live.",
+    "market_id": "de",
+    "objection_type": "incentive_confusion",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-DE-incentive_confusion"
+  },
+  {
+    "example_phrasing": "Rates have moved, so that's a real concern. The captive-finance special on this model is the lever here — let me check what term it applies to and what a shorter loan does to the total interest.",
+    "market_id": "de",
+    "objection_type": "interest_rate",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-DE-interest_rate"
+  },
+  {
+    "example_phrasing": "Ich verstehe — Ihr Auto ist Ihnen mehr wert als eine Zahl. Die Bewertung stützt sich auf aktuelle Vergleichsangebote; ich gehe sie mit Ihnen durch und zeige, wie der Restwert in die Finanzierung einfließt.",
+    "market_id": "de",
+    "objection_type": "trade_value_low",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-DE-trade_value_low"
+  },
+  {
+    "example_phrasing": "Kein Druck. Ich halte Konfiguration und Prämienstand für Sie fest und melde mich, sobald sich etwas am Preis ändert.",
+    "market_id": "de",
+    "objection_type": "timing_not_ready",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-DE-timing_not_ready"
+  },
+  {
+    "example_phrasing": "Ein gutes Auto. Statt Datenblätter zu vergleichen, vergleichen wir, was Ihnen wichtig ist — Kofferraum, Ladeleistung und Fünfjahreskosten — und Sie entscheiden.",
+    "market_id": "de",
+    "objection_type": "competitor_better",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-DE-competitor_better"
+  },
+  {
+    "example_phrasing": "That's fair; it's a big purchase. This model carries an 8-year battery warranty and I can show you the warranty-claim rate and owner survey scores, not just our brochure.",
+    "market_id": "de",
+    "objection_type": "trust_reliability",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-DE-trust_reliability"
+  },
+  {
+    "example_phrasing": "Let me check that against the trims — it may be available one level up or as an accessory. If it isn't, I'd rather tell you now than have you find out after delivery.",
+    "market_id": "de",
+    "objection_type": "feature_missing",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-DE-feature_missing"
+  },
+  {
+    "example_phrasing": "Pricing did move with the tariff changes. The in-stock units were built before the increase, so today's price on this VIN is the earlier one — that's the honest reason to decide on this car rather than wait.",
+    "market_id": "de",
+    "objection_type": "tariff_price_increase",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-DE-tariff_price_increase"
+  },
+  {
+    "example_phrasing": "Mehr als erwartet, ich weiß. Ich trenne Sicherheitspunkte von dem, was warten kann, und zeige Ihnen den Kostenvoranschlag Zeile für Zeile.",
+    "market_id": "de",
+    "objection_type": "repair_cost",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-DE-repair_cost"
+  },
+  {
+    "example_phrasing": "Teilweise ja. Die Bremsen würde ich heute machen; den Rest setze ich mit dem heutigen Preis auf eine 60-Tage-Erinnerung.",
+    "market_id": "de",
+    "objection_type": "can_it_wait",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-DE-can_it_wait"
+  },
+  {
+    "example_phrasing": "Absolutely — take the inspection photos and measurements with you. If another shop quotes it, bring it back and I'll match the scope line for line.",
+    "market_id": "de",
+    "objection_type": "second_opinion",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-DE-second_opinion"
+  },
+  {
+    "example_phrasing": "Let me check the coverage rule rather than guess. Here's the warranty term and the in-service date on your VIN; if it's covered, it's covered, and I'll show you the rule we applied.",
+    "market_id": "de",
+    "objection_type": "warranty_dispute",
+    "source_ref": "curated:objection_strategies",
+    "strategy_id": "OBJ-DE-warranty_dispute"
+  }
+]

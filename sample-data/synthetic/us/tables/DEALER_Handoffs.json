@@ -1,0 +1,1432 @@
+[
+  {
+    "accepted_at": "2026-08-25T20:15:16Z",
+    "created_at": "2026-08-25T19:15:16Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00001",
+    "journey_id": "J-US-J1",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00002"
+  },
+  {
+    "accepted_at": "2026-08-17T16:11:16Z",
+    "created_at": "2026-08-17T15:11:16Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00002",
+    "journey_id": "J-US-J2",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00011"
+  },
+  {
+    "accepted_at": "2026-08-03T12:31:03Z",
+    "created_at": "2026-08-03T11:31:03Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00003",
+    "journey_id": "J-US-J3",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00021"
+  },
+  {
+    "accepted_at": "2026-07-15T14:10:28Z",
+    "created_at": "2026-07-15T13:10:28Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00004",
+    "journey_id": "J-US-J4",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00004"
+  },
+  {
+    "accepted_at": "2026-08-06T00:39:14Z",
+    "created_at": "2026-08-06T00:19:14Z",
+    "from_user": "U-US-00004",
+    "handoff_id": "HO-US-00005",
+    "journey_id": "J-US-J4",
+    "note": "advisor → F&I",
+    "stage": "AGREE",
+    "to_user": "U-US-00006"
+  },
+  {
+    "accepted_at": "2026-07-05T11:03:19Z",
+    "created_at": "2026-07-05T10:03:19Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00006",
+    "journey_id": "J-US-J5",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00004"
+  },
+  {
+    "accepted_at": "2024-01-17T22:08:26Z",
+    "created_at": "2024-01-17T21:08:26Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00007",
+    "journey_id": "J-US-J6",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00002"
+  },
+  {
+    "accepted_at": "2026-07-22T14:51:17Z",
+    "created_at": "2026-07-22T13:51:17Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00008",
+    "journey_id": "J-US-00008",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-07-01T06:33:30Z",
+    "created_at": "2026-07-01T05:33:30Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00009",
+    "journey_id": "J-US-00011",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00003"
+  },
+  {
+    "accepted_at": "2026-06-30T03:14:47Z",
+    "created_at": "2026-06-30T02:14:47Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00010",
+    "journey_id": "J-US-00012",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00012"
+  },
+  {
+    "accepted_at": "2026-06-18T11:48:54Z",
+    "created_at": "2026-06-18T10:48:54Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00011",
+    "journey_id": "J-US-00018",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00022"
+  },
+  {
+    "accepted_at": "2026-07-05T03:02:50Z",
+    "created_at": "2026-07-05T02:02:50Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00012",
+    "journey_id": "J-US-00023",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00002"
+  },
+  {
+    "accepted_at": "2026-07-15T06:54:57Z",
+    "created_at": "2026-07-15T05:54:57Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00013",
+    "journey_id": "J-US-00024",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00020"
+  },
+  {
+    "accepted_at": "2026-07-08T00:31:03Z",
+    "created_at": "2026-07-07T23:31:03Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00014",
+    "journey_id": "J-US-00028",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00011"
+  },
+  {
+    "accepted_at": "2026-07-04T00:30:42Z",
+    "created_at": "2026-07-03T23:30:42Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00015",
+    "journey_id": "J-US-00029",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00021"
+  },
+  {
+    "accepted_at": "2026-07-06T02:38:57Z",
+    "created_at": "2026-07-06T01:38:57Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00016",
+    "journey_id": "J-US-00035",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00020"
+  },
+  {
+    "accepted_at": "2026-07-18T06:39:03Z",
+    "created_at": "2026-07-18T05:39:03Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00017",
+    "journey_id": "J-US-00036",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00021"
+  },
+  {
+    "accepted_at": "2026-06-19T03:04:48Z",
+    "created_at": "2026-06-19T02:04:48Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00018",
+    "journey_id": "J-US-00040",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00022"
+  },
+  {
+    "accepted_at": "2026-08-19T16:57:16Z",
+    "created_at": "2026-08-19T15:57:16Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00019",
+    "journey_id": "J-US-00044",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-08-30T22:33:04Z",
+    "created_at": "2026-08-30T21:33:04Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00020",
+    "journey_id": "J-US-00045",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00021"
+  },
+  {
+    "accepted_at": "2026-08-23T22:58:06Z",
+    "created_at": "2026-08-23T21:58:06Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00021",
+    "journey_id": "J-US-00052",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-09-05T17:45:04Z",
+    "created_at": "2026-09-05T16:45:04Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00022",
+    "journey_id": "J-US-00056",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00020"
+  },
+  {
+    "accepted_at": "2026-08-15T14:10:06Z",
+    "created_at": "2026-08-15T13:10:06Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00023",
+    "journey_id": "J-US-00063",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-09-03T09:25:12Z",
+    "created_at": "2026-09-03T08:25:12Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00024",
+    "journey_id": "J-US-00066",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-08-12T23:59:05Z",
+    "created_at": "2026-08-12T22:59:05Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00025",
+    "journey_id": "J-US-00079",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00004"
+  },
+  {
+    "accepted_at": "2026-08-26T18:32:37Z",
+    "created_at": "2026-08-26T17:32:37Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00026",
+    "journey_id": "J-US-00080",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00011"
+  },
+  {
+    "accepted_at": "2026-08-08T16:24:51Z",
+    "created_at": "2026-08-08T15:24:51Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00027",
+    "journey_id": "J-US-00088",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-09-06T06:09:33Z",
+    "created_at": "2026-09-06T05:09:33Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00028",
+    "journey_id": "J-US-00090",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00002"
+  },
+  {
+    "accepted_at": "2026-09-01T08:45:31Z",
+    "created_at": "2026-09-01T07:45:31Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00029",
+    "journey_id": "J-US-00095",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00022"
+  },
+  {
+    "accepted_at": "2026-09-09T21:27:55Z",
+    "created_at": "2026-09-09T20:27:55Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00030",
+    "journey_id": "J-US-00100",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00011"
+  },
+  {
+    "accepted_at": "2026-08-21T02:30:59Z",
+    "created_at": "2026-08-21T01:30:59Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00031",
+    "journey_id": "J-US-00102",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-08-22T18:50:05Z",
+    "created_at": "2026-08-22T17:50:05Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00032",
+    "journey_id": "J-US-00104",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00002"
+  },
+  {
+    "accepted_at": "2026-07-19T00:26:29Z",
+    "created_at": "2026-07-18T23:26:29Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00033",
+    "journey_id": "J-US-00105",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00012"
+  },
+  {
+    "accepted_at": "2026-08-25T01:33:59Z",
+    "created_at": "2026-08-25T00:33:59Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00034",
+    "journey_id": "J-US-00108",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00002"
+  },
+  {
+    "accepted_at": "2026-09-03T05:49:08Z",
+    "created_at": "2026-09-03T04:49:08Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00035",
+    "journey_id": "J-US-00109",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00011"
+  },
+  {
+    "accepted_at": "2026-08-20T12:53:16Z",
+    "created_at": "2026-08-20T11:53:16Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00036",
+    "journey_id": "J-US-00111",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00012"
+  },
+  {
+    "accepted_at": "2026-08-25T05:01:51Z",
+    "created_at": "2026-08-25T04:01:51Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00037",
+    "journey_id": "J-US-00115",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00020"
+  },
+  {
+    "accepted_at": "2026-08-28T13:40:54Z",
+    "created_at": "2026-08-28T12:40:54Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00038",
+    "journey_id": "J-US-00116",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00020"
+  },
+  {
+    "accepted_at": "2026-08-26T00:24:44Z",
+    "created_at": "2026-08-25T23:24:44Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00039",
+    "journey_id": "J-US-00117",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00002"
+  },
+  {
+    "accepted_at": "2026-08-03T16:16:59Z",
+    "created_at": "2026-08-03T15:16:59Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00040",
+    "journey_id": "J-US-00120",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00002"
+  },
+  {
+    "accepted_at": "2026-09-08T14:26:25Z",
+    "created_at": "2026-09-08T13:26:25Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00041",
+    "journey_id": "J-US-00127",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00012"
+  },
+  {
+    "accepted_at": "2026-08-28T20:22:42Z",
+    "created_at": "2026-08-28T19:22:42Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00042",
+    "journey_id": "J-US-00143",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00003"
+  },
+  {
+    "accepted_at": "2026-08-05T02:30:23Z",
+    "created_at": "2026-08-05T01:30:23Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00043",
+    "journey_id": "J-US-00145",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00021"
+  },
+  {
+    "accepted_at": "2026-08-21T05:29:56Z",
+    "created_at": "2026-08-21T04:29:56Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00044",
+    "journey_id": "J-US-00152",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-09-09T00:00:43Z",
+    "created_at": "2026-09-08T23:00:43Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00045",
+    "journey_id": "J-US-00159",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00003"
+  },
+  {
+    "accepted_at": "2026-08-25T14:42:08Z",
+    "created_at": "2026-08-25T13:42:08Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00046",
+    "journey_id": "J-US-00164",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00002"
+  },
+  {
+    "accepted_at": "2026-08-30T08:06:44Z",
+    "created_at": "2026-08-30T07:06:44Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00047",
+    "journey_id": "J-US-00165",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00020"
+  },
+  {
+    "accepted_at": "2026-08-30T00:33:00Z",
+    "created_at": "2026-08-29T23:33:00Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00048",
+    "journey_id": "J-US-00169",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-07-31T07:46:38Z",
+    "created_at": "2026-07-31T06:46:38Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00049",
+    "journey_id": "J-US-00172",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00004"
+  },
+  {
+    "accepted_at": "2026-08-09T02:19:26Z",
+    "created_at": "2026-08-09T01:19:26Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00050",
+    "journey_id": "J-US-00174",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00022"
+  },
+  {
+    "accepted_at": "2026-08-25T13:43:20Z",
+    "created_at": "2026-08-25T12:43:20Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00051",
+    "journey_id": "J-US-00175",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-08-08T21:31:00Z",
+    "created_at": "2026-08-08T20:31:00Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00052",
+    "journey_id": "J-US-00178",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00012"
+  },
+  {
+    "accepted_at": "2026-08-21T12:15:05Z",
+    "created_at": "2026-08-21T11:15:05Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00053",
+    "journey_id": "J-US-00180",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00020"
+  },
+  {
+    "accepted_at": "2026-07-31T02:39:21Z",
+    "created_at": "2026-07-31T01:39:21Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00054",
+    "journey_id": "J-US-00184",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-08-05T03:16:41Z",
+    "created_at": "2026-08-05T02:16:41Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00055",
+    "journey_id": "J-US-00189",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00020"
+  },
+  {
+    "accepted_at": "2026-08-15T21:22:04Z",
+    "created_at": "2026-08-15T20:22:04Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00056",
+    "journey_id": "J-US-00191",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00003"
+  },
+  {
+    "accepted_at": "2026-08-28T23:57:51Z",
+    "created_at": "2026-08-28T22:57:51Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00057",
+    "journey_id": "J-US-00193",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00012"
+  },
+  {
+    "accepted_at": "2026-09-10T06:25:18Z",
+    "created_at": "2026-09-10T05:25:18Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00058",
+    "journey_id": "J-US-00198",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00012"
+  },
+  {
+    "accepted_at": "2026-09-06T04:48:49Z",
+    "created_at": "2026-09-06T03:48:49Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00059",
+    "journey_id": "J-US-00202",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-09-08T07:13:13Z",
+    "created_at": "2026-09-08T06:13:13Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00060",
+    "journey_id": "J-US-00204",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00022"
+  },
+  {
+    "accepted_at": "2026-08-18T03:30:11Z",
+    "created_at": "2026-08-18T02:30:11Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00061",
+    "journey_id": "J-US-00207",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00021"
+  },
+  {
+    "accepted_at": "2026-08-25T11:38:54Z",
+    "created_at": "2026-08-25T10:38:54Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00062",
+    "journey_id": "J-US-00211",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00002"
+  },
+  {
+    "accepted_at": "2026-08-22T08:42:48Z",
+    "created_at": "2026-08-22T07:42:48Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00063",
+    "journey_id": "J-US-00216",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00020"
+  },
+  {
+    "accepted_at": "2026-08-28T14:06:10Z",
+    "created_at": "2026-08-28T13:06:10Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00064",
+    "journey_id": "J-US-00220",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00022"
+  },
+  {
+    "accepted_at": "2026-08-28T14:28:57Z",
+    "created_at": "2026-08-28T13:28:57Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00065",
+    "journey_id": "J-US-00222",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00003"
+  },
+  {
+    "accepted_at": "2026-08-22T08:43:37Z",
+    "created_at": "2026-08-22T07:43:37Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00066",
+    "journey_id": "J-US-00223",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00022"
+  },
+  {
+    "accepted_at": "2026-08-24T09:08:00Z",
+    "created_at": "2026-08-24T08:08:00Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00067",
+    "journey_id": "J-US-00224",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-08-12T16:47:34Z",
+    "created_at": "2026-08-12T15:47:34Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00068",
+    "journey_id": "J-US-00225",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00020"
+  },
+  {
+    "accepted_at": "2026-08-23T22:17:26Z",
+    "created_at": "2026-08-23T21:17:26Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00069",
+    "journey_id": "J-US-00226",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00011"
+  },
+  {
+    "accepted_at": "2026-08-31T13:12:42Z",
+    "created_at": "2026-08-31T12:12:42Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00070",
+    "journey_id": "J-US-00232",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00020"
+  },
+  {
+    "accepted_at": "2026-08-26T23:45:35Z",
+    "created_at": "2026-08-26T22:45:35Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00071",
+    "journey_id": "J-US-00234",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00002"
+  },
+  {
+    "accepted_at": "2026-08-08T16:25:00Z",
+    "created_at": "2026-08-08T15:25:00Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00072",
+    "journey_id": "J-US-00237",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00020"
+  },
+  {
+    "accepted_at": "2026-09-09T16:35:07Z",
+    "created_at": "2026-09-09T15:35:07Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00073",
+    "journey_id": "J-US-00238",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00012"
+  },
+  {
+    "accepted_at": "2026-08-19T18:03:24Z",
+    "created_at": "2026-08-19T17:03:24Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00074",
+    "journey_id": "J-US-00246",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00020"
+  },
+  {
+    "accepted_at": "2026-08-09T12:17:25Z",
+    "created_at": "2026-08-09T11:17:25Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00075",
+    "journey_id": "J-US-00248",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00003"
+  },
+  {
+    "accepted_at": "2026-08-04T16:46:04Z",
+    "created_at": "2026-08-04T15:46:04Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00076",
+    "journey_id": "J-US-00255",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00011"
+  },
+  {
+    "accepted_at": "2026-09-06T17:23:52Z",
+    "created_at": "2026-09-06T16:23:52Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00077",
+    "journey_id": "J-US-00256",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00012"
+  },
+  {
+    "accepted_at": "2026-08-10T17:27:46Z",
+    "created_at": "2026-08-10T16:27:46Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00078",
+    "journey_id": "J-US-00259",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00003"
+  },
+  {
+    "accepted_at": "2026-08-30T12:44:11Z",
+    "created_at": "2026-08-30T11:44:11Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00079",
+    "journey_id": "J-US-00260",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00011"
+  },
+  {
+    "accepted_at": "2026-09-06T22:17:41Z",
+    "created_at": "2026-09-06T21:17:41Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00080",
+    "journey_id": "J-US-00262",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00003"
+  },
+  {
+    "accepted_at": "2026-08-14T15:41:14Z",
+    "created_at": "2026-08-14T14:41:14Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00081",
+    "journey_id": "J-US-00264",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-08-30T13:11:36Z",
+    "created_at": "2026-08-30T12:11:36Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00082",
+    "journey_id": "J-US-00272",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00012"
+  },
+  {
+    "accepted_at": "2026-08-10T05:07:36Z",
+    "created_at": "2026-08-10T04:07:36Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00083",
+    "journey_id": "J-US-00273",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00020"
+  },
+  {
+    "accepted_at": "2026-08-30T03:38:23Z",
+    "created_at": "2026-08-30T02:38:23Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00084",
+    "journey_id": "J-US-00278",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00021"
+  },
+  {
+    "accepted_at": "2026-09-07T03:23:34Z",
+    "created_at": "2026-09-07T02:23:34Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00085",
+    "journey_id": "J-US-00280",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00003"
+  },
+  {
+    "accepted_at": "2026-09-01T10:14:54Z",
+    "created_at": "2026-09-01T09:14:54Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00086",
+    "journey_id": "J-US-00282",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00011"
+  },
+  {
+    "accepted_at": "2026-08-25T08:52:25Z",
+    "created_at": "2026-08-25T07:52:25Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00087",
+    "journey_id": "J-US-00285",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00020"
+  },
+  {
+    "accepted_at": "2026-09-02T05:42:35Z",
+    "created_at": "2026-09-02T04:42:35Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00088",
+    "journey_id": "J-US-00291",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00004"
+  },
+  {
+    "accepted_at": "2026-08-03T19:59:54Z",
+    "created_at": "2026-08-03T18:59:54Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00089",
+    "journey_id": "J-US-00295",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-08-19T04:21:26Z",
+    "created_at": "2026-08-19T03:21:26Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00090",
+    "journey_id": "J-US-00297",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00003"
+  },
+  {
+    "accepted_at": "2026-08-02T15:13:31Z",
+    "created_at": "2026-08-02T14:13:31Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00091",
+    "journey_id": "J-US-00299",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-08-12T07:13:59Z",
+    "created_at": "2026-08-12T06:13:59Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00092",
+    "journey_id": "J-US-00301",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00022"
+  },
+  {
+    "accepted_at": "2026-07-24T03:21:52Z",
+    "created_at": "2026-07-24T02:21:52Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00093",
+    "journey_id": "J-US-00302",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00003"
+  },
+  {
+    "accepted_at": "2026-08-06T08:13:30Z",
+    "created_at": "2026-08-06T07:13:30Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00094",
+    "journey_id": "J-US-00305",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00022"
+  },
+  {
+    "accepted_at": "2026-08-10T04:48:29Z",
+    "created_at": "2026-08-10T03:48:29Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00095",
+    "journey_id": "J-US-00310",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00002"
+  },
+  {
+    "accepted_at": "2025-09-29T08:57:40Z",
+    "created_at": "2025-09-29T07:57:40Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00096",
+    "journey_id": "J-US-00314",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-01-01T13:31:17Z",
+    "created_at": "2026-01-01T12:31:17Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00097",
+    "journey_id": "J-US-00315",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00003"
+  },
+  {
+    "accepted_at": "2025-12-17T23:56:54Z",
+    "created_at": "2025-12-17T22:56:54Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00098",
+    "journey_id": "J-US-00320",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00012"
+  },
+  {
+    "accepted_at": "2025-12-23T06:43:18Z",
+    "created_at": "2025-12-23T05:43:18Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00099",
+    "journey_id": "J-US-00323",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-02-18T05:45:49Z",
+    "created_at": "2026-02-18T04:45:49Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00100",
+    "journey_id": "J-US-00326",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00020"
+  },
+  {
+    "accepted_at": "2025-12-06T11:30:36Z",
+    "created_at": "2025-12-06T10:30:36Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00101",
+    "journey_id": "J-US-00330",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00002"
+  },
+  {
+    "accepted_at": "2026-05-17T00:59:47Z",
+    "created_at": "2026-05-16T23:59:47Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00102",
+    "journey_id": "J-US-00336",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00012"
+  },
+  {
+    "accepted_at": "2025-08-31T21:22:22Z",
+    "created_at": "2025-08-31T20:22:22Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00103",
+    "journey_id": "J-US-00337",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00011"
+  },
+  {
+    "accepted_at": "2026-05-27T00:38:54Z",
+    "created_at": "2026-05-26T23:38:54Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00104",
+    "journey_id": "J-US-00339",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00011"
+  },
+  {
+    "accepted_at": "2025-12-23T19:33:33Z",
+    "created_at": "2025-12-23T18:33:33Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00105",
+    "journey_id": "J-US-00344",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00002"
+  },
+  {
+    "accepted_at": "2025-10-07T02:44:50Z",
+    "created_at": "2025-10-07T01:44:50Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00106",
+    "journey_id": "J-US-00348",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00011"
+  },
+  {
+    "accepted_at": "2025-12-01T03:49:15Z",
+    "created_at": "2025-12-01T02:49:15Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00107",
+    "journey_id": "J-US-00350",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-07-06T08:25:03Z",
+    "created_at": "2026-07-06T07:25:03Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00108",
+    "journey_id": "J-US-00351",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00021"
+  },
+  {
+    "accepted_at": "2026-06-26T08:32:18Z",
+    "created_at": "2026-06-26T07:32:18Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00109",
+    "journey_id": "J-US-00360",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2025-08-22T13:28:59Z",
+    "created_at": "2025-08-22T12:28:59Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00110",
+    "journey_id": "J-US-00362",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00021"
+  },
+  {
+    "accepted_at": "2026-02-08T09:43:50Z",
+    "created_at": "2026-02-08T08:43:50Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00111",
+    "journey_id": "J-US-00364",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-01-21T07:40:13Z",
+    "created_at": "2026-01-21T06:40:13Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00112",
+    "journey_id": "J-US-00372",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00002"
+  },
+  {
+    "accepted_at": "2025-11-23T22:46:18Z",
+    "created_at": "2025-11-23T21:46:18Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00113",
+    "journey_id": "J-US-00375",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00020"
+  },
+  {
+    "accepted_at": "2025-10-21T20:31:53Z",
+    "created_at": "2025-10-21T19:31:53Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00114",
+    "journey_id": "J-US-00380",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00021"
+  },
+  {
+    "accepted_at": "2025-11-23T19:27:55Z",
+    "created_at": "2025-11-23T18:27:55Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00115",
+    "journey_id": "J-US-00383",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00022"
+  },
+  {
+    "accepted_at": "2026-07-06T11:38:12Z",
+    "created_at": "2026-07-06T10:38:12Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00116",
+    "journey_id": "J-US-00392",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00004"
+  },
+  {
+    "accepted_at": "2026-05-24T07:20:09Z",
+    "created_at": "2026-05-24T06:20:09Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00117",
+    "journey_id": "J-US-00401",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00003"
+  },
+  {
+    "accepted_at": "2025-10-23T06:52:27Z",
+    "created_at": "2025-10-23T05:52:27Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00118",
+    "journey_id": "J-US-00402",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00020"
+  },
+  {
+    "accepted_at": "2025-10-02T23:59:12Z",
+    "created_at": "2025-10-02T22:59:12Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00119",
+    "journey_id": "J-US-00405",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00022"
+  },
+  {
+    "accepted_at": "2026-04-18T12:22:09Z",
+    "created_at": "2026-04-18T11:22:09Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00120",
+    "journey_id": "J-US-00407",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00021"
+  },
+  {
+    "accepted_at": "2025-08-07T09:03:53Z",
+    "created_at": "2025-08-07T08:03:53Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00121",
+    "journey_id": "J-US-00408",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00002"
+  },
+  {
+    "accepted_at": "2026-01-09T21:26:21Z",
+    "created_at": "2026-01-09T20:26:21Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00122",
+    "journey_id": "J-US-00411",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00011"
+  },
+  {
+    "accepted_at": "2025-08-14T13:58:41Z",
+    "created_at": "2025-08-14T12:58:41Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00123",
+    "journey_id": "J-US-00412",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00020"
+  },
+  {
+    "accepted_at": "2026-05-12T15:58:44Z",
+    "created_at": "2026-05-12T14:58:44Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00124",
+    "journey_id": "J-US-00415",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00012"
+  },
+  {
+    "accepted_at": "2025-12-20T15:15:10Z",
+    "created_at": "2025-12-20T14:15:10Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00125",
+    "journey_id": "J-US-00416",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00020"
+  },
+  {
+    "accepted_at": "2026-06-13T12:28:29Z",
+    "created_at": "2026-06-13T11:28:29Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00126",
+    "journey_id": "J-US-00420",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00004"
+  },
+  {
+    "accepted_at": "2025-08-29T00:47:27Z",
+    "created_at": "2025-08-28T23:47:27Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00127",
+    "journey_id": "J-US-00426",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00022"
+  },
+  {
+    "accepted_at": "2026-07-06T15:08:11Z",
+    "created_at": "2026-07-06T14:08:11Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00128",
+    "journey_id": "J-US-00427",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-06-24T01:44:45Z",
+    "created_at": "2026-06-24T00:44:45Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00129",
+    "journey_id": "J-US-00438",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-03-16T04:50:10Z",
+    "created_at": "2026-03-16T03:50:10Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00130",
+    "journey_id": "J-US-00440",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00021"
+  },
+  {
+    "accepted_at": "2025-12-05T01:30:05Z",
+    "created_at": "2025-12-05T00:30:05Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00131",
+    "journey_id": "J-US-00448",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2026-01-04T23:31:00Z",
+    "created_at": "2026-01-04T22:31:00Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00132",
+    "journey_id": "J-US-00454",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00022"
+  },
+  {
+    "accepted_at": "2025-11-04T07:30:27Z",
+    "created_at": "2025-11-04T06:30:27Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00133",
+    "journey_id": "J-US-00455",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00013"
+  },
+  {
+    "accepted_at": "2025-09-11T14:48:20Z",
+    "created_at": "2025-09-11T13:48:20Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00134",
+    "journey_id": "J-US-00457",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00002"
+  },
+  {
+    "accepted_at": "2026-02-07T18:38:23Z",
+    "created_at": "2026-02-07T17:38:23Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00135",
+    "journey_id": "J-US-00462",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00004"
+  },
+  {
+    "accepted_at": "2026-04-05T03:06:58Z",
+    "created_at": "2026-04-05T02:06:58Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00136",
+    "journey_id": "J-US-00466",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00021"
+  },
+  {
+    "accepted_at": "2026-03-05T16:58:00Z",
+    "created_at": "2026-03-05T15:58:00Z",
+    "from_user": "U-US-00005",
+    "handoff_id": "HO-US-00137",
+    "journey_id": "J-US-00469",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00002"
+  },
+  {
+    "accepted_at": "2026-01-18T00:43:43Z",
+    "created_at": "2026-01-17T23:43:43Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00138",
+    "journey_id": "J-US-00471",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00011"
+  },
+  {
+    "accepted_at": "2025-10-11T18:07:09Z",
+    "created_at": "2025-10-11T17:07:09Z",
+    "from_user": "U-US-00023",
+    "handoff_id": "HO-US-00139",
+    "journey_id": "J-US-00474",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00021"
+  },
+  {
+    "accepted_at": "2025-10-12T22:48:40Z",
+    "created_at": "2025-10-12T21:48:40Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00140",
+    "journey_id": "J-US-00480",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00011"
+  },
+  {
+    "accepted_at": "2026-03-01T14:38:42Z",
+    "created_at": "2026-03-01T13:38:42Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00141",
+    "journey_id": "J-US-00483",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00012"
+  },
+  {
+    "accepted_at": "2025-11-29T04:22:53Z",
+    "created_at": "2025-11-29T03:22:53Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00142",
+    "journey_id": "J-US-00488",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00012"
+  },
+  {
+    "accepted_at": "2026-01-17T07:04:03Z",
+    "created_at": "2026-01-17T06:04:03Z",
+    "from_user": "U-US-00014",
+    "handoff_id": "HO-US-00143",
+    "journey_id": "J-US-00489",
+    "note": "BDC → advisor",
+    "stage": "DISCOVER",
+    "to_user": "U-US-00011"
+  }
+]

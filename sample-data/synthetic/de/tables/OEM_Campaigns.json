@@ -1,0 +1,110 @@
+[
+  {
+    "audience": "service_due",
+    "budget": 36000,
+    "campaign_id": "CMP-DE-00001",
+    "district_id": "DIST-SW",
+    "end_at": "2026-11-06T09:00:00Z",
+    "incentive_ids": [
+      "DE-TAX-BIK-EV-025",
+      "DE-TAX-SONDER-AFA-BEV"
+    ],
+    "market_id": "de",
+    "model_id": "NW-STRATOS",
+    "name": "Q4 Stratos EV test-drive",
+    "objective": "ev_adoption",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (campaign budget synthetic)",
+    "start_at": "2026-08-13T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "audience": "in_market_ev",
+    "budget": 36000,
+    "campaign_id": "CMP-DE-00002",
+    "district_id": "DIST-SW",
+    "end_at": "2026-10-05T09:00:00Z",
+    "incentive_ids": [
+      "DE-FED-EAUTO-FOERDERUNG-2026",
+      "DE-OEM-LEASING-SPECIAL"
+    ],
+    "market_id": "de",
+    "model_id": "NW-STRATOS",
+    "name": "Q4 Stratos loyalty",
+    "objective": "loyalty",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (campaign budget synthetic)",
+    "start_at": "2026-09-04T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "audience": "lease_maturity",
+    "budget": 16000,
+    "campaign_id": "CMP-DE-00003",
+    "district_id": "DIST-SW",
+    "end_at": "2026-11-06T09:00:00Z",
+    "incentive_ids": [
+      "DE-REG-WALLBOX-GENERIC",
+      "DE-TAX-SONDER-AFA-BEV"
+    ],
+    "market_id": "de",
+    "model_id": "NW-HAVEL",
+    "name": "Q4 Havel owner retention",
+    "objective": "service_retention",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (campaign budget synthetic)",
+    "start_at": "2026-09-01T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "audience": "conquest_competitive",
+    "budget": 16000,
+    "campaign_id": "CMP-DE-00004",
+    "district_id": "DIST-SW",
+    "end_at": "2026-11-02T09:00:00Z",
+    "incentive_ids": [
+      "DE-OEM-LEASING-SPECIAL",
+      "DE-REG-WALLBOX-GENERIC"
+    ],
+    "market_id": "de",
+    "model_id": "NW-VELA",
+    "name": "Q4 Vela EV test-drive",
+    "objective": "ev_adoption",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (campaign budget synthetic)",
+    "start_at": "2026-08-29T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "audience": "in_market_ev",
+    "budget": 36000,
+    "campaign_id": "CMP-DE-00005",
+    "district_id": "DIST-SW",
+    "end_at": "2026-10-09T09:00:00Z",
+    "incentive_ids": [
+      "DE-REG-WALLBOX-GENERIC",
+      "DE-TAX-SONDER-AFA-BEV"
+    ],
+    "market_id": "de",
+    "model_id": "NW-KORA",
+    "name": "Q4 Kora conquest",
+    "objective": "conquest",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (campaign budget synthetic)",
+    "start_at": "2026-08-23T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "audience": "in_market_ev",
+    "budget": 16000,
+    "campaign_id": "CMP-DE-00006",
+    "district_id": "DIST-SW",
+    "end_at": "2026-10-04T09:00:00Z",
+    "incentive_ids": [
+      "DE-TAX-KFZ-BEV-EXEMPT-2025",
+      "DE-REG-WALLBOX-GENERIC"
+    ],
+    "market_id": "de",
+    "model_id": "NW-KORA",
+    "name": "Q4 Kora loyalty",
+    "objective": "loyalty",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (campaign budget synthetic)",
+    "start_at": "2026-08-27T09:00:00Z",
+    "status": "active"
+  }
+]

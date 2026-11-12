@@ -1,0 +1,173 @@
+[
+  {
+    "annual_distance_default": 14000,
+    "brand": {
+      "captive_finance": "Nordwerk Bank",
+      "colors": {
+        "accent": "#13A89E",
+        "primary": "#0B2545"
+      },
+      "name": "Nordwerk Automobile",
+      "short": "Nordwerk",
+      "tagline": "Technik, die bleibt"
+    },
+    "company_car": {
+      "bik_monthly_pct_bev_gt_100k": 0.5,
+      "bik_monthly_pct_bev_le_100k": 0.25,
+      "bik_monthly_pct_ice": 1.0,
+      "bik_monthly_pct_phev_qualifying": 0.5,
+      "phev_qualifying_rule": ">= 80 km electric range or <= 50 g CO2/km (from 2025)",
+      "valid_to": "2030-12-31"
+    },
+    "country": "DE",
+    "credit_tiers": [
+      {
+        "apr": 3.49,
+        "score_min": 97,
+        "tier": "Sehr gut"
+      },
+      {
+        "apr": 4.99,
+        "score_min": 93,
+        "tier": "Gut"
+      },
+      {
+        "apr": 6.99,
+        "score_min": 90,
+        "tier": "Befriedigend"
+      },
+      {
+        "apr": 9.49,
+        "score_min": 80,
+        "tier": "Ausreichend"
+      }
+    ],
+    "currency": "EUR",
+    "currency_symbol": "€",
+    "distance_unit": "km",
+    "efficiency_unit_ev": "kWh/100km",
+    "efficiency_unit_ice": "l/100km",
+    "energy_price_default": 0.3869,
+    "finance_products": [
+      {
+        "code": "LEASING",
+        "name": "Privatleasing",
+        "note": "Kilometer- or Restwertleasing; typical 10,000-20,000 km/yr",
+        "terms_months": [
+          24,
+          36,
+          48
+        ]
+      },
+      {
+        "code": "BALLOON",
+        "name": "Ballonfinanzierung / Drei-Wege-Finanzierung",
+        "note": "Low monthly rate, final balloon payment; return / keep / refinance",
+        "terms_months": [
+          36,
+          48
+        ]
+      },
+      {
+        "code": "RETAIL",
+        "name": "Klassische Ratenfinanzierung",
+        "terms_months": [
+          36,
+          48,
+          60,
+          72,
+          84
+        ]
+      }
+    ],
+    "fuel_price_default": 2.331,
+    "fuel_unit": "l",
+    "incentive_tiers": [
+      "federal",
+      "tax",
+      "regional",
+      "utility",
+      "oem"
+    ],
+    "kfz_steuer": {
+      "bev": {
+        "first_registration_2026_2030": "Announced: exempt 10 years until at the latest 2035-12-31 (coalition agreement, not yet enacted at curation date); conservative assumption: 50% of weight-based rate",
+        "first_registration_until_2025_12_31": "Exempt for 10 years, at the latest until 2030-12-31; then 50% of weight-based rate",
+        "reduction_after_exemption_pct": 50,
+        "weight_based_rate_after_exemption": [
+          {
+            "eur_per_200kg": 5.625,
+            "up_to_kg": 2000
+          },
+          {
+            "eur_per_200kg": 6.01,
+            "up_to_kg": 3000
+          },
+          {
+            "eur_per_200kg": 6.39,
+            "up_to_kg": 3500
+          }
+        ]
+      },
+      "co2_component_from_2021": {
+        "bands_eur_per_g_km": [
+          {
+            "eur_per_g": 2.0,
+            "from_g_km": 96,
+            "to_g_km": 115
+          },
+          {
+            "eur_per_g": 2.2,
+            "from_g_km": 116,
+            "to_g_km": 135
+          },
+          {
+            "eur_per_g": 2.5,
+            "from_g_km": 136,
+            "to_g_km": 155
+          },
+          {
+            "eur_per_g": 2.9,
+            "from_g_km": 156,
+            "to_g_km": 175
+          },
+          {
+            "eur_per_g": 3.4,
+            "from_g_km": 176,
+            "to_g_km": 195
+          },
+          {
+            "eur_per_g": 4.0,
+            "from_g_km": 196,
+            "to_g_km": null
+          }
+        ],
+        "free_allowance_g_km": 95,
+        "low_emission_bonus": "Vehicles <= 95 g/km first registered 2020-06-12 to 2024-12-31 receive EUR 30/yr reduction for 5 years"
+      },
+      "description": "Annual motor vehicle tax (Kraftfahrzeugsteuer) for passenger cars first registered from 2021-01-01: displacement component + CO2 component (WLTP).",
+      "displacement_component": {
+        "diesel_eur_per_100cc": 9.5,
+        "petrol_eur_per_100cc": 2.0
+      },
+      "phev": "No exemption; taxed on displacement + CO2 like ICE (low WLTP CO2 keeps the CO2 component small)"
+    },
+    "list_price_includes_tax": true,
+    "locale": "de-DE",
+    "market_id": "de",
+    "phone_format": "+49 xxx xxxxxxx",
+    "region_dimension": "bundesland",
+    "regulatory_disclosures": [
+      "PAngV Effektivzins",
+      "Verbraucherkreditrichtlinie Widerrufsrecht"
+    ],
+    "source_refs": [
+      "ec_oil_bulletin:Germany",
+      "eurostat_nrg_pc_204:DE",
+      "curated:de/tax_rules.json"
+    ],
+    "tax_model": "vat_included_kfz_steuer",
+    "timezone_default": "Europe/Berlin",
+    "vat_pct": 19.0
+  }
+]

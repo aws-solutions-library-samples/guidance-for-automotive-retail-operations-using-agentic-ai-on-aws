@@ -1,0 +1,55 @@
+{
+  "agent": "A7",
+  "runner": "A7.morning",
+  "uaef_llm": false,
+  "description": "A7 supervisor promotion: the shop-load morning cards stay deterministic; the model may only ORDER them in aws mode. Offline the payload must report decision_engine == deterministic and keep the card shape (dry run, nothing written). In agent mode (dev tables, Bedrock on) `expect_aws` lets decision_engine be 'bedrock' as well — the model may re-pick/order, the shape must hold.",
+  "cases": [
+    {
+      "id": "a7mw-deterministic",
+      "market": "us",
+      "expect": {
+        "equals": {
+          "decision_engine": "deterministic",
+          "sample_shape_ok": true
+        },
+        "fields_present": [
+          "scanned"
+        ]
+      },
+      "expect_aws": {
+        "equals": {
+          "sample_shape_ok": true
+        },
+        "one_of": {
+          "decision_engine": [
+            "deterministic",
+            "bedrock"
+          ]
+        }
+      }
+    },
+    {
+      "id": "a7mw-limited",
+      "market": "us",
+      "limit": 3,
+      "expect": {
+        "equals": {
+          "decision_engine": "deterministic"
+        },
+        "fields_present": [
+          "scanned",
+          "answer"
+        ]
+      },
+      "expect_aws": {
+        "equals": {},
+        "one_of": {
+          "decision_engine": [
+            "deterministic",
+            "bedrock"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "agent": "A7",
+  "description": "Customer-safe finding explanations (connectors.explain_finding): grounded in an inspection item or DTC, no scare language, always sourced; ungrounded refs are refused, never invented.",
+  "cases": [
+    {"id": "a7-inspection", "finding_ref": "INS-US-00001",
+     "expect": {"explained": true, "min_citations": 1, "forbidden_regex": ["death trap", "catastrophic", "will fail", "unsafe to drive", "could kill"]}},
+    {"id": "a7-dtc", "finding_ref": "P0420",
+     "expect": {"explained": true, "min_citations": 1, "forbidden_regex": ["death trap", "catastrophic", "will fail", "unsafe to drive"]}},
+    {"id": "a7-unknown", "finding_ref": "NOPE-123",
+     "expect": {"explained": false}}
+  ]
+}

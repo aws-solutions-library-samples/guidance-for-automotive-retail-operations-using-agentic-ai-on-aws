@@ -1,0 +1,30 @@
+{
+  "skill": "trade-equity-and-upgrade-timing",
+  "prompts": [
+    {
+      "id": "teq-01-lease",
+      "prompt": "Owner of a 2021 mid-size SUV, 61,000 miles today, lease ends in 5 months, 45,000-mile allowance, residual $19,900, 5 payments of $470 left, $350 purchase option. Market value about $23,400. Is there equity and should we talk upgrade?",
+      "rubric": "Lease equity = value − (residual + remaining payments + option) ≈ +$800 at mid, range shown; project excess mileage (~18,500 over) and quantify charge; lease-end and mileage triggers fire; present return/buy/trade; handoff with evidence, no direct pitch."
+    },
+    {
+      "id": "teq-02-negative",
+      "prompt": "Customer owes $27,800 on a car worth about $21,000 and wants a $38,000 EV. Just roll it in, right?",
+      "rubric": "Show negative equity (~−$6,800, ~−32%) as a number with options; check lender LTV headroom; bigger down payment, different target, or wait; do not conceal in the payment."
+    },
+    {
+      "id": "teq-03-stale",
+      "prompt": "I have a valuation from three weeks ago and a payoff letter from last month. Good enough to present equity?",
+      "rubric": "No: refresh valuation if past expiry and payoff if > 10 days; cite sources."
+    },
+    {
+      "id": "teq-04-trim",
+      "prompt": "Book value for a 2020 pickup, base trim, is $24,000. Customer's VIN decodes to the premium 4x4 trim. Use $24,000?",
+      "rubric": "No; value the actual trim and options; trim error is the largest valuation mistake."
+    },
+    {
+      "id": "teq-05-acquisition",
+      "prompt": "A clean 2021 hybrid sedan is in the service lane. Should we make an offer to buy it for used inventory?",
+      "rubric": "Only if days supply for that model is below target and the offer leaves margin after recon; default is a recommendation to the used-car manager, not an automatic offer."
+    }
+  ]
+}

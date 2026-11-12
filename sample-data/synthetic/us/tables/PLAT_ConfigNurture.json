@@ -1,0 +1,800 @@
+[
+  {
+    "cadence_caps": {
+      "per_channel_week": {
+        "chat": 3,
+        "email": 2,
+        "sms": 1
+      },
+      "per_day": 1,
+      "per_week": 3,
+      "source_ref": "curated:nurture_cadence_caps (industry 1/day 3/week)"
+    },
+    "config_key": "nurture",
+    "effective_from": "2026-08-11T09:00:00Z",
+    "is_active": true,
+    "item_key": "nurture#us",
+    "market_id": "us",
+    "source_ref": "plan:§3.9 nurture templates",
+    "templates": [
+      {
+        "body": "Hi {first_name}, welcome, {first_name} — let's find your {brand}. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "welcome",
+        "stage_or_trigger": "DISCOVER",
+        "subject": "Welcome, {first_name} — let's find your {brand}",
+        "template_id": "T-US-DISCOVER-email"
+      },
+      {
+        "body": "Hi {first_name}, welcome, {first_name} — let's find your {brand}. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "welcome",
+        "stage_or_trigger": "DISCOVER",
+        "subject": null,
+        "template_id": "T-US-DISCOVER-sms"
+      },
+      {
+        "body": "Hi {first_name}, welcome, {first_name} — let's find your {brand}. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "welcome",
+        "stage_or_trigger": "DISCOVER",
+        "subject": null,
+        "template_id": "T-US-DISCOVER-chat"
+      },
+      {
+        "body": "Hi {first_name}, your saved {model} build is ready to revisit. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "build_saved",
+        "stage_or_trigger": "CONFIGURE",
+        "subject": "Your saved {model} build is ready to revisit",
+        "template_id": "T-US-CONFIGURE-email"
+      },
+      {
+        "body": "Hi {first_name}, your saved {model} build is ready to revisit. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "build_saved",
+        "stage_or_trigger": "CONFIGURE",
+        "subject": null,
+        "template_id": "T-US-CONFIGURE-sms"
+      },
+      {
+        "body": "Hi {first_name}, your saved {model} build is ready to revisit. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "build_saved",
+        "stage_or_trigger": "CONFIGURE",
+        "subject": null,
+        "template_id": "T-US-CONFIGURE-chat"
+      },
+      {
+        "body": "Hi {first_name}, a quick pre-qualification could clarify your monthly. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "prequal",
+        "stage_or_trigger": "QUALIFY",
+        "subject": "A quick pre-qualification could clarify your monthly",
+        "template_id": "T-US-QUALIFY-email"
+      },
+      {
+        "body": "Hi {first_name}, a quick pre-qualification could clarify your monthly. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "prequal",
+        "stage_or_trigger": "QUALIFY",
+        "subject": null,
+        "template_id": "T-US-QUALIFY-sms"
+      },
+      {
+        "body": "Hi {first_name}, a quick pre-qualification could clarify your monthly. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "prequal",
+        "stage_or_trigger": "QUALIFY",
+        "subject": null,
+        "template_id": "T-US-QUALIFY-chat"
+      },
+      {
+        "body": "Hi {first_name}, your {model} finance offer is ready. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "offer_ready",
+        "stage_or_trigger": "FINANCE",
+        "subject": "Your {model} finance offer is ready",
+        "template_id": "T-US-FINANCE-email"
+      },
+      {
+        "body": "Hi {first_name}, your {model} finance offer is ready. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "offer_ready",
+        "stage_or_trigger": "FINANCE",
+        "subject": null,
+        "template_id": "T-US-FINANCE-sms"
+      },
+      {
+        "body": "Hi {first_name}, your {model} finance offer is ready. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "offer_ready",
+        "stage_or_trigger": "FINANCE",
+        "subject": null,
+        "template_id": "T-US-FINANCE-chat"
+      },
+      {
+        "body": "Hi {first_name}, here's what your {trade_make} {trade_model} is worth today. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "trade_value",
+        "stage_or_trigger": "TRADE_IN",
+        "subject": "Here's what your {trade_make} {trade_model} is worth today",
+        "template_id": "T-US-TRADE_IN-email"
+      },
+      {
+        "body": "Hi {first_name}, here's what your {trade_make} {trade_model} is worth today. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "trade_value",
+        "stage_or_trigger": "TRADE_IN",
+        "subject": null,
+        "template_id": "T-US-TRADE_IN-sms"
+      },
+      {
+        "body": "Hi {first_name}, here's what your {trade_make} {trade_model} is worth today. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "trade_value",
+        "stage_or_trigger": "TRADE_IN",
+        "subject": null,
+        "template_id": "T-US-TRADE_IN-chat"
+      },
+      {
+        "body": "Hi {first_name}, your {model} deal summary and next steps. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "deal_summary",
+        "stage_or_trigger": "AGREE",
+        "subject": "Your {model} deal summary and next steps",
+        "template_id": "T-US-AGREE-email"
+      },
+      {
+        "body": "Hi {first_name}, your {model} deal summary and next steps. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "deal_summary",
+        "stage_or_trigger": "AGREE",
+        "subject": null,
+        "template_id": "T-US-AGREE-sms"
+      },
+      {
+        "body": "Hi {first_name}, your {model} deal summary and next steps. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "deal_summary",
+        "stage_or_trigger": "AGREE",
+        "subject": null,
+        "template_id": "T-US-AGREE-chat"
+      },
+      {
+        "body": "Hi {first_name}, getting your {model} ready for delivery on {delivery_date}. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "delivery_prep",
+        "stage_or_trigger": "DELIVER",
+        "subject": "Getting your {model} ready for delivery on {delivery_date}",
+        "template_id": "T-US-DELIVER-email"
+      },
+      {
+        "body": "Hi {first_name}, getting your {model} ready for delivery on {delivery_date}. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "delivery_prep",
+        "stage_or_trigger": "DELIVER",
+        "subject": null,
+        "template_id": "T-US-DELIVER-sms"
+      },
+      {
+        "body": "Hi {first_name}, getting your {model} ready for delivery on {delivery_date}. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "delivery_prep",
+        "stage_or_trigger": "DELIVER",
+        "subject": null,
+        "template_id": "T-US-DELIVER-chat"
+      },
+      {
+        "body": "Hi {first_name}, welcome to ownership, {first_name}. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "welcome_owner",
+        "stage_or_trigger": "OWN",
+        "subject": "Welcome to ownership, {first_name}",
+        "template_id": "T-US-OWN-email"
+      },
+      {
+        "body": "Hi {first_name}, welcome to ownership, {first_name}. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "welcome_owner",
+        "stage_or_trigger": "OWN",
+        "subject": null,
+        "template_id": "T-US-OWN-sms"
+      },
+      {
+        "body": "Hi {first_name}, welcome to ownership, {first_name}. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "welcome_owner",
+        "stage_or_trigger": "OWN",
+        "subject": null,
+        "template_id": "T-US-OWN-chat"
+      },
+      {
+        "body": "Hi {first_name}, your {model} is due for service. Reply or call {dealer_name} to schedule.",
+        "channel": "email",
+        "family": "service",
+        "intent": "due_service",
+        "stage_or_trigger": "due_service",
+        "subject": "Your {model} is due for service",
+        "template_id": "T-US-SVC-due_service-email"
+      },
+      {
+        "body": "Hi {first_name}, your {model} is due for service. Reply or call {dealer_name} to schedule.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "due_service",
+        "stage_or_trigger": "due_service",
+        "subject": null,
+        "template_id": "T-US-SVC-due_service-sms"
+      },
+      {
+        "body": "Hi {first_name}, about the {item} we recommended last month. Reply or call {dealer_name} to schedule.",
+        "channel": "email",
+        "family": "service",
+        "intent": "declined_reminder_30d",
+        "stage_or_trigger": "declined_reminder_30d",
+        "subject": "About the {item} we recommended last month",
+        "template_id": "T-US-SVC-declined_reminder_30d-email"
+      },
+      {
+        "body": "Hi {first_name}, about the {item} we recommended last month. Reply or call {dealer_name} to schedule.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "declined_reminder_30d",
+        "stage_or_trigger": "declined_reminder_30d",
+        "subject": null,
+        "template_id": "T-US-SVC-declined_reminder_30d-sms"
+      },
+      {
+        "body": "Hi {first_name}, a friendly reminder on {item}. Reply or call {dealer_name} to schedule.",
+        "channel": "email",
+        "family": "service",
+        "intent": "declined_reminder_60d",
+        "stage_or_trigger": "declined_reminder_60d",
+        "subject": "A friendly reminder on {item}",
+        "template_id": "T-US-SVC-declined_reminder_60d-email"
+      },
+      {
+        "body": "Hi {first_name}, a friendly reminder on {item}. Reply or call {dealer_name} to schedule.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "declined_reminder_60d",
+        "stage_or_trigger": "declined_reminder_60d",
+        "subject": null,
+        "template_id": "T-US-SVC-declined_reminder_60d-sms"
+      },
+      {
+        "body": "Hi {first_name}, still time to take care of {item}. Reply or call {dealer_name} to schedule.",
+        "channel": "email",
+        "family": "service",
+        "intent": "declined_reminder_90d",
+        "stage_or_trigger": "declined_reminder_90d",
+        "subject": "Still time to take care of {item}",
+        "template_id": "T-US-SVC-declined_reminder_90d-email"
+      },
+      {
+        "body": "Hi {first_name}, still time to take care of {item}. Reply or call {dealer_name} to schedule.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "declined_reminder_90d",
+        "stage_or_trigger": "declined_reminder_90d",
+        "subject": null,
+        "template_id": "T-US-SVC-declined_reminder_90d-sms"
+      },
+      {
+        "body": "Hi {first_name}, your service estimate is ready to review. Reply or call {dealer_name} to schedule.",
+        "channel": "email",
+        "family": "service",
+        "intent": "estimate_presented",
+        "stage_or_trigger": "estimate_presented",
+        "subject": "Your service estimate is ready to review",
+        "template_id": "T-US-SVC-estimate_presented-email"
+      },
+      {
+        "body": "Hi {first_name}, your service estimate is ready to review. Reply or call {dealer_name} to schedule.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "estimate_presented",
+        "stage_or_trigger": "estimate_presented",
+        "subject": null,
+        "template_id": "T-US-SVC-estimate_presented-sms"
+      },
+      {
+        "body": "Hi {first_name}, your {model} is ready for pickup. Reply or call {dealer_name} to schedule.",
+        "channel": "email",
+        "family": "service",
+        "intent": "vehicle_ready",
+        "stage_or_trigger": "vehicle_ready",
+        "subject": "Your {model} is ready for pickup",
+        "template_id": "T-US-SVC-vehicle_ready-email"
+      },
+      {
+        "body": "Hi {first_name}, your {model} is ready for pickup. Reply or call {dealer_name} to schedule.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "vehicle_ready",
+        "stage_or_trigger": "vehicle_ready",
+        "subject": null,
+        "template_id": "T-US-SVC-vehicle_ready-sms"
+      },
+      {
+        "body": "Hi {first_name}, an update on your {model}'s ready time. Reply or call {dealer_name} to schedule.",
+        "channel": "email",
+        "family": "service",
+        "intent": "promise_moved",
+        "stage_or_trigger": "promise_moved",
+        "subject": "An update on your {model}'s ready time",
+        "template_id": "T-US-SVC-promise_moved-email"
+      },
+      {
+        "body": "Hi {first_name}, an update on your {model}'s ready time. Reply or call {dealer_name} to schedule.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "promise_moved",
+        "stage_or_trigger": "promise_moved",
+        "subject": null,
+        "template_id": "T-US-SVC-promise_moved-sms"
+      },
+      {
+        "body": "Hi {first_name}, how did we do, {first_name}?. Reply or call {dealer_name} to schedule.",
+        "channel": "email",
+        "family": "service",
+        "intent": "csi_survey",
+        "stage_or_trigger": "csi_survey",
+        "subject": "How did we do, {first_name}?",
+        "template_id": "T-US-SVC-csi_survey-email"
+      },
+      {
+        "body": "Hi {first_name}, how did we do, {first_name}?. Reply or call {dealer_name} to schedule.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "csi_survey",
+        "stage_or_trigger": "csi_survey",
+        "subject": null,
+        "template_id": "T-US-SVC-csi_survey-sms"
+      },
+      {
+        "body": "Hi {first_name}, important: a safety recall applies to your {model}. Reply or call {dealer_name} to schedule.",
+        "channel": "email",
+        "family": "service",
+        "intent": "recall",
+        "stage_or_trigger": "recall",
+        "subject": "Important: a safety recall applies to your {model}",
+        "template_id": "T-US-SVC-recall-email"
+      },
+      {
+        "body": "Hi {first_name}, important: a safety recall applies to your {model}. Reply or call {dealer_name} to schedule.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "recall",
+        "stage_or_trigger": "recall",
+        "subject": null,
+        "template_id": "T-US-SVC-recall-sms"
+      }
+    ],
+    "version": 1
+  },
+  {
+    "cadence_caps": {
+      "per_channel_week": {
+        "chat": 3,
+        "email": 2,
+        "sms": 1
+      },
+      "per_day": 1,
+      "per_week": 3,
+      "source_ref": "curated:nurture_cadence_caps (industry 1/day 3/week)"
+    },
+    "config_key": "nurture",
+    "effective_from": null,
+    "is_active": false,
+    "item_key": "nurture#us",
+    "market_id": "us",
+    "source_ref": "plan:§3.9 nurture templates",
+    "templates": [
+      {
+        "body": "Hi {first_name}, welcome, {first_name} — let's find your {brand}. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "welcome",
+        "stage_or_trigger": "DISCOVER",
+        "subject": "Welcome, {first_name} — let's find your {brand}",
+        "template_id": "T-US-DISCOVER-email"
+      },
+      {
+        "body": "Hi {first_name}, welcome, {first_name} — let's find your {brand}. Your advisor {advisor_name} at {dealer_name} is here to help. (draft v2)",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "welcome",
+        "stage_or_trigger": "DISCOVER",
+        "subject": null,
+        "template_id": "T-US-DISCOVER-sms"
+      },
+      {
+        "body": "Hi {first_name}, welcome, {first_name} — let's find your {brand}. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "welcome",
+        "stage_or_trigger": "DISCOVER",
+        "subject": null,
+        "template_id": "T-US-DISCOVER-chat"
+      },
+      {
+        "body": "Hi {first_name}, your saved {model} build is ready to revisit. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "build_saved",
+        "stage_or_trigger": "CONFIGURE",
+        "subject": "Your saved {model} build is ready to revisit",
+        "template_id": "T-US-CONFIGURE-email"
+      },
+      {
+        "body": "Hi {first_name}, your saved {model} build is ready to revisit. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "build_saved",
+        "stage_or_trigger": "CONFIGURE",
+        "subject": null,
+        "template_id": "T-US-CONFIGURE-sms"
+      },
+      {
+        "body": "Hi {first_name}, your saved {model} build is ready to revisit. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "build_saved",
+        "stage_or_trigger": "CONFIGURE",
+        "subject": null,
+        "template_id": "T-US-CONFIGURE-chat"
+      },
+      {
+        "body": "Hi {first_name}, a quick pre-qualification could clarify your monthly. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "prequal",
+        "stage_or_trigger": "QUALIFY",
+        "subject": "A quick pre-qualification could clarify your monthly",
+        "template_id": "T-US-QUALIFY-email"
+      },
+      {
+        "body": "Hi {first_name}, a quick pre-qualification could clarify your monthly. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "prequal",
+        "stage_or_trigger": "QUALIFY",
+        "subject": null,
+        "template_id": "T-US-QUALIFY-sms"
+      },
+      {
+        "body": "Hi {first_name}, a quick pre-qualification could clarify your monthly. Your advisor {advisor_name} at {dealer_name} is here to help. (draft v2)",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "prequal",
+        "stage_or_trigger": "QUALIFY",
+        "subject": null,
+        "template_id": "T-US-QUALIFY-chat"
+      },
+      {
+        "body": "Hi {first_name}, your {model} finance offer is ready. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "offer_ready",
+        "stage_or_trigger": "FINANCE",
+        "subject": "Your {model} finance offer is ready",
+        "template_id": "T-US-FINANCE-email"
+      },
+      {
+        "body": "Hi {first_name}, your {model} finance offer is ready. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "offer_ready",
+        "stage_or_trigger": "FINANCE",
+        "subject": null,
+        "template_id": "T-US-FINANCE-sms"
+      },
+      {
+        "body": "Hi {first_name}, your {model} finance offer is ready. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "offer_ready",
+        "stage_or_trigger": "FINANCE",
+        "subject": null,
+        "template_id": "T-US-FINANCE-chat"
+      },
+      {
+        "body": "Hi {first_name}, here's what your {trade_make} {trade_model} is worth today. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "trade_value",
+        "stage_or_trigger": "TRADE_IN",
+        "subject": "Here's what your {trade_make} {trade_model} is worth today",
+        "template_id": "T-US-TRADE_IN-email"
+      },
+      {
+        "body": "Hi {first_name}, here's what your {trade_make} {trade_model} is worth today. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "trade_value",
+        "stage_or_trigger": "TRADE_IN",
+        "subject": null,
+        "template_id": "T-US-TRADE_IN-sms"
+      },
+      {
+        "body": "Hi {first_name}, here's what your {trade_make} {trade_model} is worth today. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "trade_value",
+        "stage_or_trigger": "TRADE_IN",
+        "subject": null,
+        "template_id": "T-US-TRADE_IN-chat"
+      },
+      {
+        "body": "Hi {first_name}, your {model} deal summary and next steps. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "deal_summary",
+        "stage_or_trigger": "AGREE",
+        "subject": "Your {model} deal summary and next steps",
+        "template_id": "T-US-AGREE-email"
+      },
+      {
+        "body": "Hi {first_name}, your {model} deal summary and next steps. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "deal_summary",
+        "stage_or_trigger": "AGREE",
+        "subject": null,
+        "template_id": "T-US-AGREE-sms"
+      },
+      {
+        "body": "Hi {first_name}, your {model} deal summary and next steps. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "deal_summary",
+        "stage_or_trigger": "AGREE",
+        "subject": null,
+        "template_id": "T-US-AGREE-chat"
+      },
+      {
+        "body": "Hi {first_name}, getting your {model} ready for delivery on {delivery_date}. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "delivery_prep",
+        "stage_or_trigger": "DELIVER",
+        "subject": "Getting your {model} ready for delivery on {delivery_date}",
+        "template_id": "T-US-DELIVER-email"
+      },
+      {
+        "body": "Hi {first_name}, getting your {model} ready for delivery on {delivery_date}. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "delivery_prep",
+        "stage_or_trigger": "DELIVER",
+        "subject": null,
+        "template_id": "T-US-DELIVER-sms"
+      },
+      {
+        "body": "Hi {first_name}, getting your {model} ready for delivery on {delivery_date}. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "delivery_prep",
+        "stage_or_trigger": "DELIVER",
+        "subject": null,
+        "template_id": "T-US-DELIVER-chat"
+      },
+      {
+        "body": "Hi {first_name}, welcome to ownership, {first_name}. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "email",
+        "family": "sales",
+        "intent": "welcome_owner",
+        "stage_or_trigger": "OWN",
+        "subject": "Welcome to ownership, {first_name}",
+        "template_id": "T-US-OWN-email"
+      },
+      {
+        "body": "Hi {first_name}, welcome to ownership, {first_name}. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "sms",
+        "family": "sales",
+        "intent": "welcome_owner",
+        "stage_or_trigger": "OWN",
+        "subject": null,
+        "template_id": "T-US-OWN-sms"
+      },
+      {
+        "body": "Hi {first_name}, welcome to ownership, {first_name}. Your advisor {advisor_name} at {dealer_name} is here to help.",
+        "channel": "chat",
+        "family": "sales",
+        "intent": "welcome_owner",
+        "stage_or_trigger": "OWN",
+        "subject": null,
+        "template_id": "T-US-OWN-chat"
+      },
+      {
+        "body": "Hi {first_name}, your {model} is due for service. Reply or call {dealer_name} to schedule.",
+        "channel": "email",
+        "family": "service",
+        "intent": "due_service",
+        "stage_or_trigger": "due_service",
+        "subject": "Your {model} is due for service",
+        "template_id": "T-US-SVC-due_service-email"
+      },
+      {
+        "body": "Hi {first_name}, your {model} is due for service. Reply or call {dealer_name} to schedule. (draft v2)",
+        "channel": "sms",
+        "family": "service",
+        "intent": "due_service",
+        "stage_or_trigger": "due_service",
+        "subject": null,
+        "template_id": "T-US-SVC-due_service-sms"
+      },
+      {
+        "body": "Hi {first_name}, about the {item} we recommended last month. Reply or call {dealer_name} to schedule.",
+        "channel": "email",
+        "family": "service",
+        "intent": "declined_reminder_30d",
+        "stage_or_trigger": "declined_reminder_30d",
+        "subject": "About the {item} we recommended last month",
+        "template_id": "T-US-SVC-declined_reminder_30d-email"
+      },
+      {
+        "body": "Hi {first_name}, about the {item} we recommended last month. Reply or call {dealer_name} to schedule.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "declined_reminder_30d",
+        "stage_or_trigger": "declined_reminder_30d",
+        "subject": null,
+        "template_id": "T-US-SVC-declined_reminder_30d-sms"
+      },
+      {
+        "body": "Hi {first_name}, a friendly reminder on {item}. Reply or call {dealer_name} to schedule.",
+        "channel": "email",
+        "family": "service",
+        "intent": "declined_reminder_60d",
+        "stage_or_trigger": "declined_reminder_60d",
+        "subject": "A friendly reminder on {item}",
+        "template_id": "T-US-SVC-declined_reminder_60d-email"
+      },
+      {
+        "body": "Hi {first_name}, a friendly reminder on {item}. Reply or call {dealer_name} to schedule.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "declined_reminder_60d",
+        "stage_or_trigger": "declined_reminder_60d",
+        "subject": null,
+        "template_id": "T-US-SVC-declined_reminder_60d-sms"
+      },
+      {
+        "body": "Hi {first_name}, still time to take care of {item}. Reply or call {dealer_name} to schedule.",
+        "channel": "email",
+        "family": "service",
+        "intent": "declined_reminder_90d",
+        "stage_or_trigger": "declined_reminder_90d",
+        "subject": "Still time to take care of {item}",
+        "template_id": "T-US-SVC-declined_reminder_90d-email"
+      },
+      {
+        "body": "Hi {first_name}, still time to take care of {item}. Reply or call {dealer_name} to schedule.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "declined_reminder_90d",
+        "stage_or_trigger": "declined_reminder_90d",
+        "subject": null,
+        "template_id": "T-US-SVC-declined_reminder_90d-sms"
+      },
+      {
+        "body": "Hi {first_name}, your service estimate is ready to review. Reply or call {dealer_name} to schedule.",
+        "channel": "email",
+        "family": "service",
+        "intent": "estimate_presented",
+        "stage_or_trigger": "estimate_presented",
+        "subject": "Your service estimate is ready to review",
+        "template_id": "T-US-SVC-estimate_presented-email"
+      },
+      {
+        "body": "Hi {first_name}, your service estimate is ready to review. Reply or call {dealer_name} to schedule.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "estimate_presented",
+        "stage_or_trigger": "estimate_presented",
+        "subject": null,
+        "template_id": "T-US-SVC-estimate_presented-sms"
+      },
+      {
+        "body": "Hi {first_name}, your {model} is ready for pickup. Reply or call {dealer_name} to schedule.",
+        "channel": "email",
+        "family": "service",
+        "intent": "vehicle_ready",
+        "stage_or_trigger": "vehicle_ready",
+        "subject": "Your {model} is ready for pickup",
+        "template_id": "T-US-SVC-vehicle_ready-email"
+      },
+      {
+        "body": "Hi {first_name}, your {model} is ready for pickup. Reply or call {dealer_name} to schedule.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "vehicle_ready",
+        "stage_or_trigger": "vehicle_ready",
+        "subject": null,
+        "template_id": "T-US-SVC-vehicle_ready-sms"
+      },
+      {
+        "body": "Hi {first_name}, an update on your {model}'s ready time. Reply or call {dealer_name} to schedule. (draft v2)",
+        "channel": "email",
+        "family": "service",
+        "intent": "promise_moved",
+        "stage_or_trigger": "promise_moved",
+        "subject": "An update on your {model}'s ready time",
+        "template_id": "T-US-SVC-promise_moved-email"
+      },
+      {
+        "body": "Hi {first_name}, an update on your {model}'s ready time. Reply or call {dealer_name} to schedule.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "promise_moved",
+        "stage_or_trigger": "promise_moved",
+        "subject": null,
+        "template_id": "T-US-SVC-promise_moved-sms"
+      },
+      {
+        "body": "Hi {first_name}, how did we do, {first_name}?. Reply or call {dealer_name} to schedule.",
+        "channel": "email",
+        "family": "service",
+        "intent": "csi_survey",
+        "stage_or_trigger": "csi_survey",
+        "subject": "How did we do, {first_name}?",
+        "template_id": "T-US-SVC-csi_survey-email"
+      },
+      {
+        "body": "Hi {first_name}, how did we do, {first_name}?. Reply or call {dealer_name} to schedule.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "csi_survey",
+        "stage_or_trigger": "csi_survey",
+        "subject": null,
+        "template_id": "T-US-SVC-csi_survey-sms"
+      },
+      {
+        "body": "Hi {first_name}, important: a safety recall applies to your {model}. Reply or call {dealer_name} to schedule.",
+        "channel": "email",
+        "family": "service",
+        "intent": "recall",
+        "stage_or_trigger": "recall",
+        "subject": "Important: a safety recall applies to your {model}",
+        "template_id": "T-US-SVC-recall-email"
+      },
+      {
+        "body": "Hi {first_name}, important: a safety recall applies to your {model}. Reply or call {dealer_name} to schedule.",
+        "channel": "sms",
+        "family": "service",
+        "intent": "recall",
+        "stage_or_trigger": "recall",
+        "subject": null,
+        "template_id": "T-US-SVC-recall-sms"
+      }
+    ],
+    "version": 2
+  }
+]

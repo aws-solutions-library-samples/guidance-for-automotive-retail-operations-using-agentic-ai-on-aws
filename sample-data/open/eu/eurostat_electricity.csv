@@ -1,0 +1,11 @@
+geo,period,eur_per_kwh,band,taxes,source_ref
+AT,2025-S2,0.3272,"DC (2,500-5,000 kWh)",all taxes and levies included,eurostat_nrg_pc_204:AT:2025-S2
+BE,2025-S2,0.3499,"DC (2,500-5,000 kWh)",all taxes and levies included,eurostat_nrg_pc_204:BE:2025-S2
+DE,2025-S2,0.3869,"DC (2,500-5,000 kWh)",all taxes and levies included,eurostat_nrg_pc_204:DE:2025-S2
+ES,2025-S2,0.2669,"DC (2,500-5,000 kWh)",all taxes and levies included,eurostat_nrg_pc_204:ES:2025-S2
+EU27_2020,2025-S2,0.2896,"DC (2,500-5,000 kWh)",all taxes and levies included,eurostat_nrg_pc_204:EU27_2020:2025-S2
+FR,2025-S2,0.2561,"DC (2,500-5,000 kWh)",all taxes and levies included,eurostat_nrg_pc_204:FR:2025-S2
+IT,2025-S2,0.2966,"DC (2,500-5,000 kWh)",all taxes and levies included,eurostat_nrg_pc_204:IT:2025-S2
+NL,2025-S2,0.2558,"DC (2,500-5,000 kWh)",all taxes and levies included,eurostat_nrg_pc_204:NL:2025-S2
+PL,2025-S2,0.2709,"DC (2,500-5,000 kWh)",all taxes and levies included,eurostat_nrg_pc_204:PL:2025-S2
+SE,2025-S2,0.2711,"DC (2,500-5,000 kWh)",all taxes and levies included,eurostat_nrg_pc_204:SE:2025-S2

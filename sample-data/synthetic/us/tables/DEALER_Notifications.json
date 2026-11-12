@@ -1,0 +1,994 @@
+[
+  {
+    "created_at": "2026-09-07T10:52:44Z",
+    "event": "task.due",
+    "journey_id": "J-US-J2",
+    "notification_id": "NTF-US-00001",
+    "read": true,
+    "user_id": "U-US-00011"
+  },
+  {
+    "created_at": "2026-09-05T02:26:18Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-J5",
+    "notification_id": "NTF-US-00002",
+    "read": false,
+    "user_id": "U-US-00004"
+  },
+  {
+    "created_at": "2026-08-27T08:35:48Z",
+    "event": "task.due",
+    "journey_id": "J-US-J6",
+    "notification_id": "NTF-US-00003",
+    "read": true,
+    "user_id": "U-US-00002"
+  },
+  {
+    "created_at": "2026-09-06T04:13:54Z",
+    "event": "task.due",
+    "journey_id": "J-US-00002",
+    "notification_id": "NTF-US-00004",
+    "read": true,
+    "user_id": "U-US-00039"
+  },
+  {
+    "created_at": "2026-09-10T01:32:57Z",
+    "event": "task.due",
+    "journey_id": "J-US-00007",
+    "notification_id": "NTF-US-00005",
+    "read": false,
+    "user_id": "U-US-00043"
+  },
+  {
+    "created_at": "2026-09-05T07:03:56Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00008",
+    "notification_id": "NTF-US-00006",
+    "read": true,
+    "user_id": "U-US-00013"
+  },
+  {
+    "created_at": "2026-08-30T07:49:46Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00010",
+    "notification_id": "NTF-US-00007",
+    "read": true,
+    "user_id": "U-US-00037"
+  },
+  {
+    "created_at": "2026-09-05T06:04:32Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00012",
+    "notification_id": "NTF-US-00008",
+    "read": false,
+    "user_id": "U-US-00012"
+  },
+  {
+    "created_at": "2026-09-07T05:01:20Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00013",
+    "notification_id": "NTF-US-00009",
+    "read": true,
+    "user_id": "U-US-00035"
+  },
+  {
+    "created_at": "2026-09-05T03:20:49Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00014",
+    "notification_id": "NTF-US-00010",
+    "read": false,
+    "user_id": "U-US-00035"
+  },
+  {
+    "created_at": "2026-08-26T16:30:15Z",
+    "event": "task.due",
+    "journey_id": "J-US-00021",
+    "notification_id": "NTF-US-00011",
+    "read": true,
+    "user_id": "U-US-00041"
+  },
+  {
+    "created_at": "2026-09-04T06:34:28Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00022",
+    "notification_id": "NTF-US-00012",
+    "read": true,
+    "user_id": "U-US-00039"
+  },
+  {
+    "created_at": "2026-09-03T06:23:52Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00023",
+    "notification_id": "NTF-US-00013",
+    "read": false,
+    "user_id": "U-US-00002"
+  },
+  {
+    "created_at": "2026-08-30T18:54:41Z",
+    "event": "task.due",
+    "journey_id": "J-US-00024",
+    "notification_id": "NTF-US-00014",
+    "read": false,
+    "user_id": "U-US-00020"
+  },
+  {
+    "created_at": "2026-08-27T16:07:00Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00028",
+    "notification_id": "NTF-US-00015",
+    "read": true,
+    "user_id": "U-US-00011"
+  },
+  {
+    "created_at": "2026-09-03T22:32:37Z",
+    "event": "task.due",
+    "journey_id": "J-US-00031",
+    "notification_id": "NTF-US-00016",
+    "read": true,
+    "user_id": "U-US-00037"
+  },
+  {
+    "created_at": "2026-09-04T21:26:08Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00033",
+    "notification_id": "NTF-US-00017",
+    "read": true,
+    "user_id": "U-US-00033"
+  },
+  {
+    "created_at": "2026-09-08T12:15:08Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00038",
+    "notification_id": "NTF-US-00018",
+    "read": false,
+    "user_id": "U-US-00041"
+  },
+  {
+    "created_at": "2026-08-28T05:34:43Z",
+    "event": "task.due",
+    "journey_id": "J-US-00049",
+    "notification_id": "NTF-US-00019",
+    "read": true,
+    "user_id": "U-US-00043"
+  },
+  {
+    "created_at": "2026-09-07T20:56:39Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00051",
+    "notification_id": "NTF-US-00020",
+    "read": false,
+    "user_id": "U-US-00041"
+  },
+  {
+    "created_at": "2026-09-09T06:12:39Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00055",
+    "notification_id": "NTF-US-00021",
+    "read": true,
+    "user_id": "U-US-00031"
+  },
+  {
+    "created_at": "2026-08-27T02:11:56Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00056",
+    "notification_id": "NTF-US-00022",
+    "read": true,
+    "user_id": "U-US-00020"
+  },
+  {
+    "created_at": "2026-09-03T04:40:23Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00057",
+    "notification_id": "NTF-US-00023",
+    "read": true,
+    "user_id": "U-US-00041"
+  },
+  {
+    "created_at": "2026-08-29T20:49:55Z",
+    "event": "task.due",
+    "journey_id": "J-US-00058",
+    "notification_id": "NTF-US-00024",
+    "read": true,
+    "user_id": "U-US-00029"
+  },
+  {
+    "created_at": "2026-09-05T23:25:00Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00062",
+    "notification_id": "NTF-US-00025",
+    "read": true,
+    "user_id": "U-US-00033"
+  },
+  {
+    "created_at": "2026-09-05T08:07:16Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00063",
+    "notification_id": "NTF-US-00026",
+    "read": true,
+    "user_id": "U-US-00013"
+  },
+  {
+    "created_at": "2026-09-05T06:37:28Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00064",
+    "notification_id": "NTF-US-00027",
+    "read": false,
+    "user_id": "U-US-00037"
+  },
+  {
+    "created_at": "2026-09-10T01:05:29Z",
+    "event": "task.due",
+    "journey_id": "J-US-00066",
+    "notification_id": "NTF-US-00028",
+    "read": true,
+    "user_id": "U-US-00013"
+  },
+  {
+    "created_at": "2026-08-29T15:17:24Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00069",
+    "notification_id": "NTF-US-00029",
+    "read": true,
+    "user_id": "U-US-00037"
+  },
+  {
+    "created_at": "2026-08-26T15:06:06Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00070",
+    "notification_id": "NTF-US-00030",
+    "read": false,
+    "user_id": "U-US-00037"
+  },
+  {
+    "created_at": "2026-09-05T18:52:40Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00072",
+    "notification_id": "NTF-US-00031",
+    "read": false,
+    "user_id": "U-US-00033"
+  },
+  {
+    "created_at": "2026-09-04T20:55:18Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00073",
+    "notification_id": "NTF-US-00032",
+    "read": false,
+    "user_id": "U-US-00035"
+  },
+  {
+    "created_at": "2026-09-04T19:33:30Z",
+    "event": "task.due",
+    "journey_id": "J-US-00076",
+    "notification_id": "NTF-US-00033",
+    "read": true,
+    "user_id": "U-US-00043"
+  },
+  {
+    "created_at": "2026-09-07T01:25:58Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00088",
+    "notification_id": "NTF-US-00034",
+    "read": true,
+    "user_id": "U-US-00013"
+  },
+  {
+    "created_at": "2026-08-28T07:05:43Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00090",
+    "notification_id": "NTF-US-00035",
+    "read": false,
+    "user_id": "U-US-00002"
+  },
+  {
+    "created_at": "2026-09-05T07:57:37Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00091",
+    "notification_id": "NTF-US-00036",
+    "read": false,
+    "user_id": "U-US-00031"
+  },
+  {
+    "created_at": "2026-09-10T08:27:15Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00092",
+    "notification_id": "NTF-US-00037",
+    "read": false,
+    "user_id": "U-US-00031"
+  },
+  {
+    "created_at": "2026-08-28T08:18:57Z",
+    "event": "task.due",
+    "journey_id": "J-US-00096",
+    "notification_id": "NTF-US-00038",
+    "read": true,
+    "user_id": "U-US-00035"
+  },
+  {
+    "created_at": "2026-08-27T23:33:41Z",
+    "event": "task.due",
+    "journey_id": "J-US-00097",
+    "notification_id": "NTF-US-00039",
+    "read": true,
+    "user_id": "U-US-00033"
+  },
+  {
+    "created_at": "2026-08-27T12:09:00Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00100",
+    "notification_id": "NTF-US-00040",
+    "read": true,
+    "user_id": "U-US-00011"
+  },
+  {
+    "created_at": "2026-09-07T04:37:29Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00103",
+    "notification_id": "NTF-US-00041",
+    "read": false,
+    "user_id": "U-US-00029"
+  },
+  {
+    "created_at": "2026-08-30T05:47:15Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00104",
+    "notification_id": "NTF-US-00042",
+    "read": false,
+    "user_id": "U-US-00002"
+  },
+  {
+    "created_at": "2026-08-31T07:31:47Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00105",
+    "notification_id": "NTF-US-00043",
+    "read": true,
+    "user_id": "U-US-00012"
+  },
+  {
+    "created_at": "2026-09-08T03:20:21Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00106",
+    "notification_id": "NTF-US-00044",
+    "read": true,
+    "user_id": "U-US-00039"
+  },
+  {
+    "created_at": "2026-08-30T10:19:48Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00107",
+    "notification_id": "NTF-US-00045",
+    "read": true,
+    "user_id": "U-US-00031"
+  },
+  {
+    "created_at": "2026-08-26T11:14:39Z",
+    "event": "task.due",
+    "journey_id": "J-US-00109",
+    "notification_id": "NTF-US-00046",
+    "read": false,
+    "user_id": "U-US-00011"
+  },
+  {
+    "created_at": "2026-08-27T17:30:42Z",
+    "event": "task.due",
+    "journey_id": "J-US-00110",
+    "notification_id": "NTF-US-00047",
+    "read": true,
+    "user_id": "U-US-00033"
+  },
+  {
+    "created_at": "2026-09-04T22:19:59Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00111",
+    "notification_id": "NTF-US-00048",
+    "read": true,
+    "user_id": "U-US-00012"
+  },
+  {
+    "created_at": "2026-08-27T11:55:25Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00114",
+    "notification_id": "NTF-US-00049",
+    "read": true,
+    "user_id": "U-US-00039"
+  },
+  {
+    "created_at": "2026-09-05T07:49:24Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00117",
+    "notification_id": "NTF-US-00050",
+    "read": false,
+    "user_id": "U-US-00002"
+  },
+  {
+    "created_at": "2026-09-06T14:15:35Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00118",
+    "notification_id": "NTF-US-00051",
+    "read": true,
+    "user_id": "U-US-00033"
+  },
+  {
+    "created_at": "2026-08-27T06:25:54Z",
+    "event": "task.due",
+    "journey_id": "J-US-00126",
+    "notification_id": "NTF-US-00052",
+    "read": false,
+    "user_id": "U-US-00041"
+  },
+  {
+    "created_at": "2026-09-06T06:28:03Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00130",
+    "notification_id": "NTF-US-00053",
+    "read": true,
+    "user_id": "U-US-00041"
+  },
+  {
+    "created_at": "2026-09-03T00:56:42Z",
+    "event": "task.due",
+    "journey_id": "J-US-00131",
+    "notification_id": "NTF-US-00054",
+    "read": true,
+    "user_id": "U-US-00035"
+  },
+  {
+    "created_at": "2026-08-28T02:15:04Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00132",
+    "notification_id": "NTF-US-00055",
+    "read": true,
+    "user_id": "U-US-00029"
+  },
+  {
+    "created_at": "2026-08-30T00:01:32Z",
+    "event": "task.due",
+    "journey_id": "J-US-00136",
+    "notification_id": "NTF-US-00056",
+    "read": false,
+    "user_id": "U-US-00041"
+  },
+  {
+    "created_at": "2026-08-31T09:13:55Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00137",
+    "notification_id": "NTF-US-00057",
+    "read": true,
+    "user_id": "U-US-00037"
+  },
+  {
+    "created_at": "2026-09-04T01:02:31Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00138",
+    "notification_id": "NTF-US-00058",
+    "read": false,
+    "user_id": "U-US-00039"
+  },
+  {
+    "created_at": "2026-08-28T16:35:43Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00143",
+    "notification_id": "NTF-US-00059",
+    "read": true,
+    "user_id": "U-US-00003"
+  },
+  {
+    "created_at": "2026-09-06T04:31:16Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00144",
+    "notification_id": "NTF-US-00060",
+    "read": false,
+    "user_id": "U-US-00043"
+  },
+  {
+    "created_at": "2026-08-27T13:20:31Z",
+    "event": "task.due",
+    "journey_id": "J-US-00145",
+    "notification_id": "NTF-US-00061",
+    "read": false,
+    "user_id": "U-US-00021"
+  },
+  {
+    "created_at": "2026-09-02T01:53:13Z",
+    "event": "task.due",
+    "journey_id": "J-US-00147",
+    "notification_id": "NTF-US-00062",
+    "read": false,
+    "user_id": "U-US-00041"
+  },
+  {
+    "created_at": "2026-09-07T16:58:13Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00148",
+    "notification_id": "NTF-US-00063",
+    "read": false,
+    "user_id": "U-US-00035"
+  },
+  {
+    "created_at": "2026-08-31T02:19:25Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00149",
+    "notification_id": "NTF-US-00064",
+    "read": true,
+    "user_id": "U-US-00029"
+  },
+  {
+    "created_at": "2026-08-29T18:20:43Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00162",
+    "notification_id": "NTF-US-00065",
+    "read": false,
+    "user_id": "U-US-00041"
+  },
+  {
+    "created_at": "2026-09-04T02:38:03Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00164",
+    "notification_id": "NTF-US-00066",
+    "read": true,
+    "user_id": "U-US-00002"
+  },
+  {
+    "created_at": "2026-09-06T01:00:07Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00165",
+    "notification_id": "NTF-US-00067",
+    "read": false,
+    "user_id": "U-US-00020"
+  },
+  {
+    "created_at": "2026-08-28T06:32:18Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00169",
+    "notification_id": "NTF-US-00068",
+    "read": false,
+    "user_id": "U-US-00013"
+  },
+  {
+    "created_at": "2026-08-28T12:59:20Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00175",
+    "notification_id": "NTF-US-00069",
+    "read": true,
+    "user_id": "U-US-00013"
+  },
+  {
+    "created_at": "2026-09-07T23:07:55Z",
+    "event": "task.due",
+    "journey_id": "J-US-00178",
+    "notification_id": "NTF-US-00070",
+    "read": true,
+    "user_id": "U-US-00012"
+  },
+  {
+    "created_at": "2026-08-28T05:22:52Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00181",
+    "notification_id": "NTF-US-00071",
+    "read": false,
+    "user_id": "U-US-00037"
+  },
+  {
+    "created_at": "2026-09-08T10:32:18Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00183",
+    "notification_id": "NTF-US-00072",
+    "read": false,
+    "user_id": "U-US-00037"
+  },
+  {
+    "created_at": "2026-08-30T14:22:30Z",
+    "event": "task.due",
+    "journey_id": "J-US-00184",
+    "notification_id": "NTF-US-00073",
+    "read": false,
+    "user_id": "U-US-00013"
+  },
+  {
+    "created_at": "2026-09-03T11:38:40Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00185",
+    "notification_id": "NTF-US-00074",
+    "read": false,
+    "user_id": "U-US-00041"
+  },
+  {
+    "created_at": "2026-08-27T07:00:51Z",
+    "event": "task.due",
+    "journey_id": "J-US-00189",
+    "notification_id": "NTF-US-00075",
+    "read": true,
+    "user_id": "U-US-00020"
+  },
+  {
+    "created_at": "2026-09-03T14:39:03Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00195",
+    "notification_id": "NTF-US-00076",
+    "read": false,
+    "user_id": "U-US-00035"
+  },
+  {
+    "created_at": "2026-08-29T14:58:31Z",
+    "event": "task.due",
+    "journey_id": "J-US-00198",
+    "notification_id": "NTF-US-00077",
+    "read": false,
+    "user_id": "U-US-00012"
+  },
+  {
+    "created_at": "2026-09-04T19:57:30Z",
+    "event": "task.due",
+    "journey_id": "J-US-00200",
+    "notification_id": "NTF-US-00078",
+    "read": false,
+    "user_id": "U-US-00039"
+  },
+  {
+    "created_at": "2026-09-09T11:00:27Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00210",
+    "notification_id": "NTF-US-00079",
+    "read": false,
+    "user_id": "U-US-00037"
+  },
+  {
+    "created_at": "2026-09-07T14:25:32Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00211",
+    "notification_id": "NTF-US-00080",
+    "read": false,
+    "user_id": "U-US-00002"
+  },
+  {
+    "created_at": "2026-08-27T12:23:07Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00216",
+    "notification_id": "NTF-US-00081",
+    "read": true,
+    "user_id": "U-US-00020"
+  },
+  {
+    "created_at": "2026-08-29T14:03:41Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00219",
+    "notification_id": "NTF-US-00082",
+    "read": false,
+    "user_id": "U-US-00035"
+  },
+  {
+    "created_at": "2026-09-02T07:50:37Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00221",
+    "notification_id": "NTF-US-00083",
+    "read": false,
+    "user_id": "U-US-00035"
+  },
+  {
+    "created_at": "2026-09-07T01:45:30Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00227",
+    "notification_id": "NTF-US-00084",
+    "read": true,
+    "user_id": "U-US-00035"
+  },
+  {
+    "created_at": "2026-08-27T07:06:34Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00228",
+    "notification_id": "NTF-US-00085",
+    "read": false,
+    "user_id": "U-US-00039"
+  },
+  {
+    "created_at": "2026-08-28T19:16:10Z",
+    "event": "task.due",
+    "journey_id": "J-US-00229",
+    "notification_id": "NTF-US-00086",
+    "read": true,
+    "user_id": "U-US-00033"
+  },
+  {
+    "created_at": "2026-09-07T07:39:15Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00230",
+    "notification_id": "NTF-US-00087",
+    "read": true,
+    "user_id": "U-US-00033"
+  },
+  {
+    "created_at": "2026-08-28T23:57:19Z",
+    "event": "task.due",
+    "journey_id": "J-US-00233",
+    "notification_id": "NTF-US-00088",
+    "read": false,
+    "user_id": "U-US-00031"
+  },
+  {
+    "created_at": "2026-09-09T17:23:15Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00234",
+    "notification_id": "NTF-US-00089",
+    "read": true,
+    "user_id": "U-US-00002"
+  },
+  {
+    "created_at": "2026-08-28T21:37:40Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00235",
+    "notification_id": "NTF-US-00090",
+    "read": false,
+    "user_id": "U-US-00043"
+  },
+  {
+    "created_at": "2026-09-02T06:43:58Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00241",
+    "notification_id": "NTF-US-00091",
+    "read": false,
+    "user_id": "U-US-00035"
+  },
+  {
+    "created_at": "2026-09-02T11:01:43Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00243",
+    "notification_id": "NTF-US-00092",
+    "read": true,
+    "user_id": "U-US-00043"
+  },
+  {
+    "created_at": "2026-08-30T06:12:05Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00244",
+    "notification_id": "NTF-US-00093",
+    "read": false,
+    "user_id": "U-US-00041"
+  },
+  {
+    "created_at": "2026-08-26T09:25:59Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00247",
+    "notification_id": "NTF-US-00094",
+    "read": true,
+    "user_id": "U-US-00029"
+  },
+  {
+    "created_at": "2026-08-27T01:56:11Z",
+    "event": "task.due",
+    "journey_id": "J-US-00250",
+    "notification_id": "NTF-US-00095",
+    "read": true,
+    "user_id": "U-US-00039"
+  },
+  {
+    "created_at": "2026-09-06T13:10:21Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00251",
+    "notification_id": "NTF-US-00096",
+    "read": false,
+    "user_id": "U-US-00035"
+  },
+  {
+    "created_at": "2026-09-04T13:20:50Z",
+    "event": "task.due",
+    "journey_id": "J-US-00253",
+    "notification_id": "NTF-US-00097",
+    "read": true,
+    "user_id": "U-US-00039"
+  },
+  {
+    "created_at": "2026-09-07T11:25:12Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00254",
+    "notification_id": "NTF-US-00098",
+    "read": true,
+    "user_id": "U-US-00037"
+  },
+  {
+    "created_at": "2026-08-30T03:41:40Z",
+    "event": "task.due",
+    "journey_id": "J-US-00261",
+    "notification_id": "NTF-US-00099",
+    "read": false,
+    "user_id": "U-US-00035"
+  },
+  {
+    "created_at": "2026-08-29T08:14:17Z",
+    "event": "task.due",
+    "journey_id": "J-US-00264",
+    "notification_id": "NTF-US-00100",
+    "read": true,
+    "user_id": "U-US-00013"
+  },
+  {
+    "created_at": "2026-08-31T06:04:24Z",
+    "event": "task.due",
+    "journey_id": "J-US-00265",
+    "notification_id": "NTF-US-00101",
+    "read": false,
+    "user_id": "U-US-00041"
+  },
+  {
+    "created_at": "2026-09-01T00:28:52Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00266",
+    "notification_id": "NTF-US-00102",
+    "read": true,
+    "user_id": "U-US-00039"
+  },
+  {
+    "created_at": "2026-09-09T18:51:10Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00267",
+    "notification_id": "NTF-US-00103",
+    "read": false,
+    "user_id": "U-US-00037"
+  },
+  {
+    "created_at": "2026-08-31T14:21:43Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00269",
+    "notification_id": "NTF-US-00104",
+    "read": false,
+    "user_id": "U-US-00037"
+  },
+  {
+    "created_at": "2026-09-10T03:35:54Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00271",
+    "notification_id": "NTF-US-00105",
+    "read": false,
+    "user_id": "U-US-00033"
+  },
+  {
+    "created_at": "2026-09-03T22:05:55Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00273",
+    "notification_id": "NTF-US-00106",
+    "read": true,
+    "user_id": "U-US-00020"
+  },
+  {
+    "created_at": "2026-08-26T19:29:56Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00275",
+    "notification_id": "NTF-US-00107",
+    "read": false,
+    "user_id": "U-US-00029"
+  },
+  {
+    "created_at": "2026-08-29T18:14:53Z",
+    "event": "task.due",
+    "journey_id": "J-US-00276",
+    "notification_id": "NTF-US-00108",
+    "read": false,
+    "user_id": "U-US-00043"
+  },
+  {
+    "created_at": "2026-08-29T14:22:12Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00277",
+    "notification_id": "NTF-US-00109",
+    "read": true,
+    "user_id": "U-US-00041"
+  },
+  {
+    "created_at": "2026-09-08T19:14:50Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00282",
+    "notification_id": "NTF-US-00110",
+    "read": true,
+    "user_id": "U-US-00011"
+  },
+  {
+    "created_at": "2026-09-05T23:06:02Z",
+    "event": "task.due",
+    "journey_id": "J-US-00283",
+    "notification_id": "NTF-US-00111",
+    "read": true,
+    "user_id": "U-US-00037"
+  },
+  {
+    "created_at": "2026-09-08T13:05:16Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00285",
+    "notification_id": "NTF-US-00112",
+    "read": true,
+    "user_id": "U-US-00020"
+  },
+  {
+    "created_at": "2026-08-29T06:08:28Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00286",
+    "notification_id": "NTF-US-00113",
+    "read": true,
+    "user_id": "U-US-00037"
+  },
+  {
+    "created_at": "2026-09-06T02:39:30Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00290",
+    "notification_id": "NTF-US-00114",
+    "read": false,
+    "user_id": "U-US-00043"
+  },
+  {
+    "created_at": "2026-09-03T01:45:49Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00291",
+    "notification_id": "NTF-US-00115",
+    "read": true,
+    "user_id": "U-US-00004"
+  },
+  {
+    "created_at": "2026-09-01T16:33:40Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00294",
+    "notification_id": "NTF-US-00116",
+    "read": true,
+    "user_id": "U-US-00029"
+  },
+  {
+    "created_at": "2026-09-01T01:16:02Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00295",
+    "notification_id": "NTF-US-00117",
+    "read": false,
+    "user_id": "U-US-00013"
+  },
+  {
+    "created_at": "2026-09-08T07:09:41Z",
+    "event": "lead.received",
+    "journey_id": "J-US-00296",
+    "notification_id": "NTF-US-00118",
+    "read": false,
+    "user_id": "U-US-00029"
+  },
+  {
+    "created_at": "2026-08-26T11:24:52Z",
+    "event": "task.due",
+    "journey_id": "J-US-00297",
+    "notification_id": "NTF-US-00119",
+    "read": true,
+    "user_id": "U-US-00003"
+  },
+  {
+    "created_at": "2026-09-07T06:41:29Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00298",
+    "notification_id": "NTF-US-00120",
+    "read": false,
+    "user_id": "U-US-00037"
+  },
+  {
+    "created_at": "2026-08-28T03:58:56Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00301",
+    "notification_id": "NTF-US-00121",
+    "read": true,
+    "user_id": "U-US-00022"
+  },
+  {
+    "created_at": "2026-08-31T11:09:24Z",
+    "event": "handoff.created",
+    "journey_id": "J-US-00306",
+    "notification_id": "NTF-US-00122",
+    "read": true,
+    "user_id": "U-US-00037"
+  },
+  {
+    "created_at": "2026-08-27T04:30:05Z",
+    "event": "task.due",
+    "journey_id": "J-US-00308",
+    "notification_id": "NTF-US-00123",
+    "read": false,
+    "user_id": "U-US-00033"
+  },
+  {
+    "created_at": "2026-08-27T12:22:14Z",
+    "event": "task.due",
+    "journey_id": "J-US-00311",
+    "notification_id": "NTF-US-00124",
+    "read": true,
+    "user_id": "U-US-00037"
+  }
+]

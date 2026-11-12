@@ -1,0 +1,791 @@
+{
+  "_meta": {
+    "description": "Synthetic brand lineups for both seed markets and how each fictional model maps onto real open-data anchors. The seed generator reads this file to pick MSRP / list-price anchors, efficiency, range, and competitor sets from the derived snapshots (us/epa_fueleconomy.csv, us/epa_models_2023plus.csv, de/eea_co2_de.csv, de/kba_fz10.csv, eu/eea_co2_eu.csv, de/ev_range_anchors.json). Brand, model and competitor make/model names are all fictional. The real vehicles each competitor stands in for are kept ONLY in the anchor_make / anchor_model / anchor_source_url fields and the eea_anchor_models keys; they exist solely to look up public open-data rows (EPA, EEA, KBA) and for price provenance, and are never written to generated output.",
+    "curated_on": "2026-09-10",
+    "price_anchor_rule": "MSRP / UVP anchor = median of the listed competitors' base-trim public prices at curation, rounded to nearest 500; trims priced at +8% / +18% / +30% over base. Competitor prices are NOT in the open datasets; the seed generator carries them in this file with source_url and verify=true.",
+    "spec_anchor_rule": "US efficiency/range from EPA class x powertrain medians (us/epa_fueleconomy.csv); DE consumption/CO2/power/mass from EEA make-model rows of the listed competitors (de/eea_co2_de.csv); DE BEV range from de/ev_range_anchors.json.",
+    "anchor_key_note": "eea_anchor_models use the dataset spellings (KBA/EEA): 'IONIQ5', 'IONIQ6', 'ID.4' (KBA row is 'ID.4, ID.5'). Matching is case-insensitive substring on the model column."
+  },
+  "brands": {
+    "us": {
+      "brand": "Meridian Motors",
+      "tagline": "Built for every road ahead",
+      "captive_finance": "Meridian Financial Services",
+      "colors": {
+        "primary": "#1F3A5F",
+        "accent": "#E07A1F"
+      },
+      "models": [
+        {
+          "model_id": "MER-CROSSTRAIL",
+          "name": "Meridian Crosstrail",
+          "body": "Compact SUV",
+          "powertrains": [
+            "ICE",
+            "HEV"
+          ],
+          "epa_class": "Small Sport Utility Vehicle 4WD",
+          "competitors": [
+            {
+              "make": "Kestrel",
+              "model": "Trek 4",
+              "anchor_make": "Toyota",
+              "anchor_model": "RAV4",
+              "base_msrp_usd": 29250,
+              "anchor_source_url": "https://www.toyota.com/rav4/",
+              "verify": true
+            },
+            {
+              "make": "Halden",
+              "model": "Alder",
+              "anchor_make": "Honda",
+              "anchor_model": "CR-V",
+              "base_msrp_usd": 30100,
+              "anchor_source_url": "https://automobiles.honda.com/cr-v",
+              "verify": true
+            },
+            {
+              "make": "Solari",
+              "model": "Dune",
+              "anchor_make": "Hyundai",
+              "anchor_model": "Tucson",
+              "base_msrp_usd": 28700,
+              "anchor_source_url": "https://www.hyundaiusa.com/us/en/vehicles/tucson",
+              "verify": true
+            },
+            {
+              "make": "Larkspur",
+              "model": "Fenland",
+              "anchor_make": "Ford",
+              "anchor_model": "Escape",
+              "base_msrp_usd": 29500,
+              "anchor_source_url": "https://www.ford.com/suvs/escape/",
+              "verify": true
+            }
+          ],
+          "msrp_anchor_usd": 29500,
+          "trims": [
+            "S",
+            "SE",
+            "Limited",
+            "Summit"
+          ]
+        },
+        {
+          "model_id": "MER-RIDGELINE",
+          "name": "Meridian Ridgemark",
+          "body": "Mid-size SUV",
+          "powertrains": [
+            "ICE",
+            "HEV"
+          ],
+          "epa_class": "Standard Sport Utility Vehicle 4WD",
+          "competitors": [
+            {
+              "make": "Kestrel",
+              "model": "Highmark",
+              "anchor_make": "Toyota",
+              "anchor_model": "Highlander",
+              "base_msrp_usd": 39500,
+              "anchor_source_url": "https://www.toyota.com/highlander/",
+              "verify": true
+            },
+            {
+              "make": "Halden",
+              "model": "Summit 3R",
+              "anchor_make": "Honda",
+              "anchor_model": "Pilot",
+              "base_msrp_usd": 40200,
+              "anchor_source_url": "https://automobiles.honda.com/pilot",
+              "verify": true
+            },
+            {
+              "make": "Verdant",
+              "model": "Ascent 8",
+              "anchor_make": "Kia",
+              "anchor_model": "Telluride",
+              "base_msrp_usd": 36400,
+              "anchor_source_url": "https://www.kia.com/us/en/telluride",
+              "verify": true
+            },
+            {
+              "make": "Larkspur",
+              "model": "Trailmark",
+              "anchor_make": "Ford",
+              "anchor_model": "Explorer",
+              "base_msrp_usd": 39800,
+              "anchor_source_url": "https://www.ford.com/suvs/explorer/",
+              "verify": true
+            }
+          ],
+          "msrp_anchor_usd": 39500,
+          "trims": [
+            "S",
+            "SE",
+            "Limited",
+            "Summit"
+          ]
+        },
+        {
+          "model_id": "MER-ATLASX",
+          "name": "Meridian Atlas X",
+          "body": "3-row SUV",
+          "powertrains": [
+            "ICE"
+          ],
+          "epa_class": "Standard Sport Utility Vehicle 4WD",
+          "competitors": [
+            {
+              "make": "Brightwater",
+              "model": "Harbor",
+              "anchor_make": "Chevrolet",
+              "anchor_model": "Traverse",
+              "base_msrp_usd": 41000,
+              "anchor_source_url": "https://www.chevrolet.com/suvs/traverse",
+              "verify": true
+            },
+            {
+              "make": "Solari",
+              "model": "Ridgeway",
+              "anchor_make": "Hyundai",
+              "anchor_model": "Palisade",
+              "base_msrp_usd": 38000,
+              "anchor_source_url": "https://www.hyundaiusa.com/us/en/vehicles/palisade",
+              "verify": true
+            },
+            {
+              "make": "Kitano",
+              "model": "Wayfinder",
+              "anchor_make": "Nissan",
+              "anchor_model": "Pathfinder",
+              "base_msrp_usd": 36400,
+              "anchor_source_url": "https://www.nissanusa.com/vehicles/crossovers-suvs/pathfinder.html",
+              "verify": true
+            }
+          ],
+          "msrp_anchor_usd": 38000,
+          "trims": [
+            "SE",
+            "Limited",
+            "Summit"
+          ]
+        },
+        {
+          "model_id": "MER-TRAILHAND",
+          "name": "Meridian Trailhand",
+          "body": "Mid-size pickup",
+          "powertrains": [
+            "ICE",
+            "HEV"
+          ],
+          "epa_class": "Small Pickup Trucks 4WD",
+          "competitors": [
+            {
+              "make": "Kestrel",
+              "model": "Canyon Pick",
+              "anchor_make": "Toyota",
+              "anchor_model": "Tacoma",
+              "base_msrp_usd": 31600,
+              "anchor_source_url": "https://www.toyota.com/tacoma/",
+              "verify": true
+            },
+            {
+              "make": "Larkspur",
+              "model": "Scout Pick",
+              "anchor_make": "Ford",
+              "anchor_model": "Ranger",
+              "base_msrp_usd": 33400,
+              "anchor_source_url": "https://www.ford.com/trucks/ranger/",
+              "verify": true
+            },
+            {
+              "make": "Brightwater",
+              "model": "Mesa Truck",
+              "anchor_make": "Chevrolet",
+              "anchor_model": "Colorado",
+              "base_msrp_usd": 31900,
+              "anchor_source_url": "https://www.chevrolet.com/trucks/colorado",
+              "verify": true
+            }
+          ],
+          "msrp_anchor_usd": 32000,
+          "trims": [
+            "Work",
+            "SE",
+            "Trail",
+            "Summit"
+          ]
+        },
+        {
+          "model_id": "MER-VOLT-C",
+          "name": "Meridian Ion C",
+          "body": "Compact EV crossover",
+          "powertrains": [
+            "EV"
+          ],
+          "epa_class": "Small Sport Utility Vehicle 2WD",
+          "competitors": [
+            {
+              "make": "Brightwater",
+              "model": "Tide EV",
+              "anchor_make": "Chevrolet",
+              "anchor_model": "Equinox EV",
+              "base_msrp_usd": 34000,
+              "anchor_source_url": "https://www.chevrolet.com/electric/equinox-ev",
+              "verify": true
+            },
+            {
+              "make": "Solari",
+              "model": "Cove Electric",
+              "anchor_make": "Hyundai",
+              "anchor_model": "Kona Electric",
+              "base_msrp_usd": 33000,
+              "anchor_source_url": "https://www.hyundaiusa.com/us/en/vehicles/kona-electric",
+              "verify": true
+            },
+            {
+              "make": "Rheinmark",
+              "model": "Eco 4",
+              "anchor_make": "Volkswagen",
+              "anchor_model": "ID.4",
+              "base_msrp_usd": 40000,
+              "anchor_source_url": "https://www.vw.com/en/models/id-4.html",
+              "verify": true
+            }
+          ],
+          "msrp_anchor_usd": 34000,
+          "trims": [
+            "Ion C Standard",
+            "Ion C Extended",
+            "Ion C Extended AWD"
+          ],
+          "us_final_assembly": true
+        },
+        {
+          "model_id": "MER-VOLT-M",
+          "name": "Meridian Ion M",
+          "body": "Mid-size EV SUV",
+          "powertrains": [
+            "EV"
+          ],
+          "epa_class": "Standard Sport Utility Vehicle 4WD",
+          "competitors": [
+            {
+              "make": "Ampera",
+              "model": "Spark X",
+              "anchor_make": "Tesla",
+              "anchor_model": "Model Y",
+              "base_msrp_usd": 44990,
+              "anchor_source_url": "https://www.tesla.com/modely",
+              "verify": true
+            },
+            {
+              "make": "Larkspur",
+              "model": "Stallion E",
+              "anchor_make": "Ford",
+              "anchor_model": "Mustang Mach-E",
+              "base_msrp_usd": 38000,
+              "anchor_source_url": "https://www.ford.com/suvs/mach-e/",
+              "verify": true
+            },
+            {
+              "make": "Solari",
+              "model": "Lumen 5",
+              "anchor_make": "Hyundai",
+              "anchor_model": "IONIQ 5",
+              "base_msrp_usd": 42600,
+              "anchor_source_url": "https://www.hyundaiusa.com/us/en/vehicles/ioniq-5",
+              "verify": true
+            },
+            {
+              "make": "Verdant",
+              "model": "Pulse 6",
+              "anchor_make": "Kia",
+              "anchor_model": "EV6",
+              "base_msrp_usd": 42900,
+              "anchor_source_url": "https://www.kia.com/us/en/ev6",
+              "verify": true
+            }
+          ],
+          "msrp_anchor_usd": 43000,
+          "trims": [
+            "Ion M Standard",
+            "Ion M Extended",
+            "Ion M Extended AWD",
+            "Ion M Performance"
+          ],
+          "us_final_assembly": true
+        },
+        {
+          "model_id": "MER-VOLT-S",
+          "name": "Meridian Ion S",
+          "body": "EV sedan",
+          "powertrains": [
+            "EV"
+          ],
+          "epa_class": "Midsize Cars",
+          "competitors": [
+            {
+              "make": "Ampera",
+              "model": "Spark S",
+              "anchor_make": "Tesla",
+              "anchor_model": "Model 3",
+              "base_msrp_usd": 42490,
+              "anchor_source_url": "https://www.tesla.com/model3",
+              "verify": true
+            },
+            {
+              "make": "Solari",
+              "model": "Lumen 6",
+              "anchor_make": "Hyundai",
+              "anchor_model": "IONIQ 6",
+              "base_msrp_usd": 37900,
+              "anchor_source_url": "https://www.hyundaiusa.com/us/en/vehicles/ioniq-6",
+              "verify": true
+            },
+            {
+              "make": "Brandt",
+              "model": "Arc E4",
+              "anchor_make": "BMW",
+              "anchor_model": "i4",
+              "base_msrp_usd": 52200,
+              "anchor_source_url": "https://www.bmwusa.com/vehicles/all-electric/i4.html",
+              "verify": true
+            }
+          ],
+          "msrp_anchor_usd": 42500,
+          "trims": [
+            "Ion S Standard",
+            "Ion S Extended",
+            "Ion S Performance"
+          ],
+          "us_final_assembly": false
+        }
+      ]
+    },
+    "de": {
+      "brand": "Nordwerk Automobile",
+      "tagline": "Technik, die bleibt",
+      "captive_finance": "Nordwerk Bank",
+      "colors": {
+        "primary": "#0B2545",
+        "accent": "#13A89E"
+      },
+      "models": [
+        {
+          "model_id": "NW-KORA",
+          "name": "Nordwerk Kora",
+          "body": "Kompakt-SUV",
+          "powertrains": [
+            "ICE",
+            "HEV"
+          ],
+          "kba_segment": "SUVs",
+          "competitors": [
+            {
+              "make": "Rheinmark",
+              "model": "Tamar",
+              "anchor_make": "Volkswagen",
+              "anchor_model": "T-Roc",
+              "base_uvp_eur": 27700,
+              "anchor_source_url": "https://www.volkswagen.de/de/modelle/t-roc.html",
+              "verify": true
+            },
+            {
+              "make": "Vltava",
+              "model": "Karst",
+              "anchor_make": "Skoda",
+              "anchor_model": "Karoq",
+              "base_uvp_eur": 30500,
+              "anchor_source_url": "https://www.skoda-auto.de/modelle/karoq",
+              "verify": true
+            },
+            {
+              "make": "Solari",
+              "model": "Dune",
+              "anchor_make": "Hyundai",
+              "anchor_model": "Tucson",
+              "base_uvp_eur": 33000,
+              "anchor_source_url": "https://www.hyundai.de/modelle/tucson/",
+              "verify": true
+            },
+            {
+              "make": "Kestrel",
+              "model": "Kite",
+              "anchor_make": "Toyota",
+              "anchor_model": "C-HR",
+              "base_uvp_eur": 34000,
+              "anchor_source_url": "https://www.toyota.de/neuwagen/c-hr",
+              "verify": true
+            }
+          ],
+          "eea_anchor_models": [
+            "T-ROC",
+            "KAROQ",
+            "TUCSON",
+            "C-HR"
+          ],
+          "uvp_anchor_eur": 31500,
+          "trims": [
+            "Pure",
+            "Style",
+            "R-Line",
+            "Edition"
+          ]
+        },
+        {
+          "model_id": "NW-HAVEL",
+          "name": "Nordwerk Havel",
+          "body": "Mittelklasse-SUV",
+          "powertrains": [
+            "ICE",
+            "HEV",
+            "PHEV"
+          ],
+          "kba_segment": "SUVs",
+          "competitors": [
+            {
+              "make": "Rheinmark",
+              "model": "Tarn",
+              "anchor_make": "Volkswagen",
+              "anchor_model": "Tiguan",
+              "base_uvp_eur": 36600,
+              "anchor_source_url": "https://www.volkswagen.de/de/modelle/tiguan.html",
+              "verify": true
+            },
+            {
+              "make": "Vltava",
+              "model": "Korvo",
+              "anchor_make": "Skoda",
+              "anchor_model": "Kodiaq",
+              "base_uvp_eur": 42000,
+              "anchor_source_url": "https://www.skoda-auto.de/modelle/kodiaq",
+              "verify": true
+            },
+            {
+              "make": "Verdant",
+              "model": "Sprint X",
+              "anchor_make": "Kia",
+              "anchor_model": "Sportage",
+              "base_uvp_eur": 33500,
+              "anchor_source_url": "https://www.kia.com/de/modelle/sportage/",
+              "verify": true
+            },
+            {
+              "make": "Brandt",
+              "model": "Terra S",
+              "anchor_make": "BMW",
+              "anchor_model": "X1",
+              "base_uvp_eur": 43000,
+              "anchor_source_url": "https://www.bmw.de/de/neufahrzeuge/x/x1/",
+              "verify": true
+            }
+          ],
+          "eea_anchor_models": [
+            "TIGUAN",
+            "KODIAQ",
+            "SPORTAGE",
+            "X1"
+          ],
+          "uvp_anchor_eur": 39500,
+          "trims": [
+            "Pure",
+            "Style",
+            "R-Line",
+            "Edition"
+          ]
+        },
+        {
+          "model_id": "NW-ELBE",
+          "name": "Nordwerk Elbe Kombi",
+          "body": "Kombi (estate)",
+          "powertrains": [
+            "ICE",
+            "PHEV"
+          ],
+          "kba_segment": "Mittelklasse",
+          "competitors": [
+            {
+              "make": "Rheinmark",
+              "model": "Linden Wagon",
+              "anchor_make": "Volkswagen",
+              "anchor_model": "Passat Variant",
+              "base_uvp_eur": 41000,
+              "anchor_source_url": "https://www.volkswagen.de/de/modelle/passat.html",
+              "verify": true
+            },
+            {
+              "make": "Vltava",
+              "model": "Grand Combi",
+              "anchor_make": "Skoda",
+              "anchor_model": "Superb Combi",
+              "base_uvp_eur": 38500,
+              "anchor_source_url": "https://www.skoda-auto.de/modelle/superb-combi",
+              "verify": true
+            },
+            {
+              "make": "Brandt",
+              "model": "Kombi T3",
+              "anchor_make": "BMW",
+              "anchor_model": "3er Touring",
+              "base_uvp_eur": 50000,
+              "anchor_source_url": "https://www.bmw.de/de/neufahrzeuge/3er/touring/",
+              "verify": true
+            }
+          ],
+          "eea_anchor_models": [
+            "PASSAT",
+            "SUPERB",
+            "3ER"
+          ],
+          "uvp_anchor_eur": 41000,
+          "trims": [
+            "Style",
+            "Business",
+            "R-Line"
+          ]
+        },
+        {
+          "model_id": "NW-SPREE",
+          "name": "Nordwerk Spree",
+          "body": "Kompaktwagen",
+          "powertrains": [
+            "ICE",
+            "HEV"
+          ],
+          "kba_segment": "Kompaktklasse",
+          "competitors": [
+            {
+              "make": "Rheinmark",
+              "model": "Linden",
+              "anchor_make": "Volkswagen",
+              "anchor_model": "Golf",
+              "base_uvp_eur": 28000,
+              "anchor_source_url": "https://www.volkswagen.de/de/modelle/golf.html",
+              "verify": true
+            },
+            {
+              "make": "Vltava",
+              "model": "Ottavo",
+              "anchor_make": "Skoda",
+              "anchor_model": "Octavia",
+              "base_uvp_eur": 28500,
+              "anchor_source_url": "https://www.skoda-auto.de/modelle/octavia",
+              "verify": true
+            },
+            {
+              "make": "Lindau",
+              "model": "Lyra",
+              "anchor_make": "Opel",
+              "anchor_model": "Astra",
+              "base_uvp_eur": 27500,
+              "anchor_source_url": "https://www.opel.de/fahrzeuge/astra/",
+              "verify": true
+            },
+            {
+              "make": "Kestrel",
+              "model": "Corvane",
+              "anchor_make": "Toyota",
+              "anchor_model": "Corolla",
+              "base_uvp_eur": 30000,
+              "anchor_source_url": "https://www.toyota.de/neuwagen/corolla",
+              "verify": true
+            }
+          ],
+          "eea_anchor_models": [
+            "GOLF",
+            "OCTAVIA",
+            "ASTRA",
+            "COROLLA"
+          ],
+          "uvp_anchor_eur": 28000,
+          "trims": [
+            "Pure",
+            "Style",
+            "R-Line"
+          ]
+        },
+        {
+          "model_id": "NW-VELA",
+          "name": "Nordwerk Vela",
+          "body": "EV Kompakt-Crossover",
+          "powertrains": [
+            "EV"
+          ],
+          "kba_segment": "Kompaktklasse",
+          "competitors": [
+            {
+              "make": "Rheinmark",
+              "model": "Eco 3",
+              "anchor_make": "Volkswagen",
+              "anchor_model": "ID.3",
+              "base_uvp_eur": 33300,
+              "anchor_source_url": "https://www.volkswagen.de/de/modelle/id3.html",
+              "verify": true
+            },
+            {
+              "make": "Cordero",
+              "model": "Vento",
+              "anchor_make": "Cupra",
+              "anchor_model": "Born",
+              "base_uvp_eur": 37000,
+              "anchor_source_url": "https://www.cupraofficial.de/modelle/born",
+              "verify": true
+            },
+            {
+              "make": "Aurel",
+              "model": "Petit E",
+              "anchor_make": "Renault",
+              "anchor_model": "5 E-Tech",
+              "base_uvp_eur": 27900,
+              "anchor_source_url": "https://www.renault.de/elektroautos/renault-5-e-tech.html",
+              "verify": true
+            },
+            {
+              "make": "Lyrien",
+              "model": "E-Pico",
+              "anchor_make": "Peugeot",
+              "anchor_model": "E-208",
+              "base_uvp_eur": 35000,
+              "anchor_source_url": "https://www.peugeot.de/modelle/alle-modelle/e-208.html",
+              "verify": true
+            }
+          ],
+          "eea_anchor_models": [
+            "ID.3",
+            "BORN",
+            "5",
+            "208"
+          ],
+          "range_anchor_segment": "ev_compact_crossover",
+          "uvp_anchor_eur": 34000,
+          "trims": [
+            "Vela 55",
+            "Vela 77",
+            "Vela 77 GTX"
+          ]
+        },
+        {
+          "model_id": "NW-AURIN",
+          "name": "Nordwerk Aurin",
+          "body": "EV Mittelklasse-SUV",
+          "powertrains": [
+            "EV"
+          ],
+          "kba_segment": "SUVs",
+          "competitors": [
+            {
+              "make": "Rheinmark",
+              "model": "Eco 4",
+              "anchor_make": "Volkswagen",
+              "anchor_model": "ID.4",
+              "base_uvp_eur": 40300,
+              "anchor_source_url": "https://www.volkswagen.de/de/modelle/id4.html",
+              "verify": true
+            },
+            {
+              "make": "Vltava",
+              "model": "Elva",
+              "anchor_make": "Skoda",
+              "anchor_model": "Enyaq",
+              "base_uvp_eur": 44400,
+              "anchor_source_url": "https://www.skoda-auto.de/modelle/enyaq",
+              "verify": true
+            },
+            {
+              "make": "Ampera",
+              "model": "Spark X",
+              "anchor_make": "Tesla",
+              "anchor_model": "Model Y",
+              "base_uvp_eur": 44990,
+              "anchor_source_url": "https://www.tesla.com/de_de/modely",
+              "verify": true
+            },
+            {
+              "make": "Solari",
+              "model": "Lumen 5",
+              "anchor_make": "Hyundai",
+              "anchor_model": "IONIQ 5",
+              "base_uvp_eur": 43900,
+              "anchor_source_url": "https://www.hyundai.de/modelle/ioniq5/",
+              "verify": true
+            }
+          ],
+          "eea_anchor_models": [
+            "ID.4",
+            "ENYAQ",
+            "MODEL Y",
+            "IONIQ5"
+          ],
+          "range_anchor_segment": "ev_midsize_suv",
+          "uvp_anchor_eur": 44000,
+          "trims": [
+            "Aurin 77",
+            "Aurin 77 4x4",
+            "Aurin 77 GTX"
+          ]
+        },
+        {
+          "model_id": "NW-STRATOS",
+          "name": "Nordwerk Stratos",
+          "body": "EV Limousine",
+          "powertrains": [
+            "EV"
+          ],
+          "kba_segment": "Mittelklasse",
+          "competitors": [
+            {
+              "make": "Rheinmark",
+              "model": "Eco 7",
+              "anchor_make": "Volkswagen",
+              "anchor_model": "ID.7",
+              "base_uvp_eur": 54000,
+              "anchor_source_url": "https://www.volkswagen.de/de/modelle/id7.html",
+              "verify": true
+            },
+            {
+              "make": "Ampera",
+              "model": "Spark S",
+              "anchor_make": "Tesla",
+              "anchor_model": "Model 3",
+              "base_uvp_eur": 39990,
+              "anchor_source_url": "https://www.tesla.com/de_de/model3",
+              "verify": true
+            },
+            {
+              "make": "Brandt",
+              "model": "Arc E4",
+              "anchor_make": "BMW",
+              "anchor_model": "i4",
+              "base_uvp_eur": 57500,
+              "anchor_source_url": "https://www.bmw.de/de/neufahrzeuge/4er/i4/",
+              "verify": true
+            },
+            {
+              "make": "Solari",
+              "model": "Lumen 6",
+              "anchor_make": "Hyundai",
+              "anchor_model": "IONIQ 6",
+              "base_uvp_eur": 44900,
+              "anchor_source_url": "https://www.hyundai.de/modelle/ioniq6/",
+              "verify": true
+            }
+          ],
+          "eea_anchor_models": [
+            "ID.7",
+            "MODEL 3",
+            "I4",
+            "IONIQ6"
+          ],
+          "range_anchor_segment": "ev_sedan",
+          "uvp_anchor_eur": 49500,
+          "trims": [
+            "Stratos 77",
+            "Stratos 86 Pro",
+            "Stratos 86 GTX"
+          ]
+        }
+      ]
+    }
+  }
+}

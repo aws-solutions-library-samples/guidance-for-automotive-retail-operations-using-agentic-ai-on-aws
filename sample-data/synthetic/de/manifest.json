@@ -1,0 +1,683 @@
+{
+  "artifacts": [
+    {
+      "format": "csv",
+      "kind": "lake",
+      "path": "lake/agent_traces/data.csv",
+      "prefix": "agent_traces",
+      "rows": 2119,
+      "sha256": "505cf3cabfaef5e2682bc7ce02cde8a09c79ec44687f6b39501ca8e0a1b32e6d"
+    },
+    {
+      "format": "ndjson",
+      "kind": "lake",
+      "path": "lake/agent_traces/data.ndjson",
+      "prefix": "agent_traces",
+      "rows": 2119,
+      "sha256": "fdb216e618dafcc58e2447f31fd16653f929cd4028c63cf880012dc10a6af9f0"
+    },
+    {
+      "format": "csv",
+      "kind": "lake",
+      "path": "lake/journey_events/data.csv",
+      "prefix": "journey_events",
+      "rows": 7821,
+      "sha256": "beb53256f45e3169eb960f09884a8e711ae1d09953a2f2fd3be99c7a74224845"
+    },
+    {
+      "format": "ndjson",
+      "kind": "lake",
+      "path": "lake/journey_events/data.ndjson",
+      "prefix": "journey_events",
+      "rows": 7821,
+      "sha256": "c627d1cf9f3f9bcd4b43d9e2f6ecf84b32116da73d7ddf449d9acf3bfe9e3b2a"
+    },
+    {
+      "format": "csv",
+      "kind": "lake",
+      "path": "lake/journeys/data.csv",
+      "prefix": "journeys",
+      "rows": 520,
+      "sha256": "3674fc54ea6541840b20ba78b6ba9d0dbd1cd496b5f4eee62501f8ad6e72e95e"
+    },
+    {
+      "format": "ndjson",
+      "kind": "lake",
+      "path": "lake/journeys/data.ndjson",
+      "prefix": "journeys",
+      "rows": 520,
+      "sha256": "9c9bc7e77c1f05d039e09607b5ffd75982092c918e94842974391b1795249d2e"
+    },
+    {
+      "format": "csv",
+      "kind": "lake",
+      "path": "lake/outcomes/data.csv",
+      "prefix": "outcomes",
+      "rows": 430,
+      "sha256": "f288645920a1d2247a495f392d28bd5c2db7a3edd2ea40bc46bff5b418a6aa2f"
+    },
+    {
+      "format": "ndjson",
+      "kind": "lake",
+      "path": "lake/outcomes/data.ndjson",
+      "prefix": "outcomes",
+      "rows": 430,
+      "sha256": "9482b88dd9cc3f034d02cc933680223c13ed7e95a21d4a7cafdaab7d8de134d1"
+    },
+    {
+      "format": "csv",
+      "kind": "lake",
+      "path": "lake/recommendations/data.csv",
+      "prefix": "recommendations",
+      "rows": 320,
+      "sha256": "9926b664df753da4c833f026d58968bcd09295825ebe06890b3a6a8af7fb3038"
+    },
+    {
+      "format": "ndjson",
+      "kind": "lake",
+      "path": "lake/recommendations/data.ndjson",
+      "prefix": "recommendations",
+      "rows": 320,
+      "sha256": "7459510e6a9b0d8f32cc3fe0aec7188a4b9f3de41d0ba8ac1ac8c64c87668ec1"
+    },
+    {
+      "format": "csv",
+      "kind": "lake",
+      "path": "lake/service/data.csv",
+      "prefix": "service",
+      "rows": 60,
+      "sha256": "70ac7fc6cb44edb23a87c442764ed1de745b74e7a324bb95601236f4dbf0011b"
+    },
+    {
+      "format": "ndjson",
+      "kind": "lake",
+      "path": "lake/service/data.ndjson",
+      "prefix": "service",
+      "rows": 60,
+      "sha256": "fa96dd73f87f25d6ac89727227872c8d1b768192264ec9f8d98e85abaed9e5ee"
+    },
+    {
+      "format": "csv",
+      "kind": "lake",
+      "path": "lake/service_events/data.csv",
+      "prefix": "service_events",
+      "rows": 524,
+      "sha256": "725ff68669109cb02706fe4d4e3519985a99d645c3530ed2d84c209d95041250"
+    },
+    {
+      "format": "ndjson",
+      "kind": "lake",
+      "path": "lake/service_events/data.ndjson",
+      "prefix": "service_events",
+      "rows": 524,
+      "sha256": "e75976f0cb0b1cebb151fdd6eb5f1daacc312b523d52aac75cb92ab3048fdbfd"
+    },
+    {
+      "format": "csv",
+      "kind": "lake",
+      "path": "lake/touchpoints/data.csv",
+      "prefix": "touchpoints",
+      "rows": 614,
+      "sha256": "7c0781b2c81eb06e95ff5f98acb61da2aa9284eeb2f7824c28bcef71c3dd0073"
+    },
+    {
+      "format": "ndjson",
+      "kind": "lake",
+      "path": "lake/touchpoints/data.ndjson",
+      "prefix": "touchpoints",
+      "rows": 614,
+      "sha256": "ae7ddeabb4c2559ce883c7414c28aaa9b12a232a4ad054be9843156a5f558b7c"
+    },
+    {
+      "collection_id": "KC-DE-bulletins",
+      "docs": 12,
+      "kind": "quick_index_corpus",
+      "path": "quick_index/KC-DE-bulletins.ndjson",
+      "sha256": "f54be362043e6e0041125d8bdfe50268c236cf1acebd9076c0d351b62d422829"
+    },
+    {
+      "collection_id": "KC-DE-crm_notes",
+      "docs": 120,
+      "kind": "quick_index_corpus",
+      "path": "quick_index/KC-DE-crm_notes.ndjson",
+      "sha256": "cdc8c6ead26ec5f1460bc1b37fec4f7661c9977f30c3fa2d0b1f534f190548b3"
+    },
+    {
+      "collection_id": "KC-DE-objection_strategies",
+      "docs": 17,
+      "kind": "quick_index_corpus",
+      "path": "quick_index/KC-DE-objection_strategies.ndjson",
+      "sha256": "589ea1ce6b40649d70bf29346f5c678e854ab2c3611751f5d71b9cefd053497e"
+    },
+    {
+      "collection_id": "KC-DE-prior_plans",
+      "docs": 12,
+      "kind": "quick_index_corpus",
+      "path": "quick_index/KC-DE-prior_plans.ndjson",
+      "sha256": "540cabf4a480ff678f74cc8e83d4dadfed761aa1a95833f4950442ced32d57fb"
+    },
+    {
+      "collection_id": "KC-DE-product_guides",
+      "docs": 7,
+      "kind": "quick_index_corpus",
+      "path": "quick_index/KC-DE-product_guides.ndjson",
+      "sha256": "578925344e3c10a30dc55414269ee45e027ee2b022fe101b9d16ced4cc02c886"
+    },
+    {
+      "collection_id": "KC-DE-repair_procedures",
+      "docs": 13,
+      "kind": "quick_index_corpus",
+      "path": "quick_index/KC-DE-repair_procedures.ndjson",
+      "sha256": "b20f9402582a2667a289efcb4e2de46c5fcbfdea4e7f56ee7ca9637047bcf57c"
+    },
+    {
+      "collection_id": "KC-DE-templates",
+      "docs": 42,
+      "kind": "quick_index_corpus",
+      "path": "quick_index/KC-DE-templates.ndjson",
+      "sha256": "d0640bd19ca7b74f7587e8c61c2dc1b75b7a1e82c5b49830e305b81e06cf7986"
+    },
+    {
+      "collection_id": "KC-DE-transcripts",
+      "docs": 40,
+      "kind": "quick_index_corpus",
+      "path": "quick_index/KC-DE-transcripts.ndjson",
+      "sha256": "f910184d7564c211a9dcd32d4ef18c421d572d4b301e672d09233c8163e5c78d"
+    },
+    {
+      "collection_id": "KC-DE-tsbs",
+      "docs": 7,
+      "kind": "quick_index_corpus",
+      "path": "quick_index/KC-DE-tsbs.ndjson",
+      "sha256": "10e71f0e50dd27453e6e3248ff3d8bd326032c2f815759bbbfbfce6948221211"
+    },
+    {
+      "collections": 9,
+      "kind": "quick_index_catalog",
+      "path": "quick_index/collections.json",
+      "sha256": "20a04afec9e75cda673298b6034f9785b5e88addde5b71f91bd7f67be7307dc7"
+    },
+    {
+      "kind": "table",
+      "name": "CUST_Consent",
+      "path": "tables/CUST_Consent.json",
+      "rows": 620,
+      "sha256": "2455b3af837cb1d02a2f91ef0b4023133145f16b99ddc46f0aeb4d6f00aded75"
+    },
+    {
+      "kind": "table",
+      "name": "CUST_Documents",
+      "path": "tables/CUST_Documents.json",
+      "rows": 165,
+      "sha256": "bc2ace4a5322f6cf3bbb796abb69a0a94d4ad02ea4751304d0f561edbd54db8c"
+    },
+    {
+      "kind": "table",
+      "name": "CUST_Messages",
+      "path": "tables/CUST_Messages.json",
+      "rows": 305,
+      "sha256": "1277fc02b16e55049f578060fc6d13765c69ee748902ee24e97e3e439c765b21"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Appointments",
+      "path": "tables/DEALER_Appointments.json",
+      "rows": 997,
+      "sha256": "57585528cc40270e7ff0bd86a52bcc4c6cea06c64a7a432e5f29d84a7c2932e1"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Approvals",
+      "path": "tables/DEALER_Approvals.json",
+      "rows": 4,
+      "sha256": "90d66d34dc9048332ba48db7c445edcedee2801727ef69b3699ce95e0d74ce48"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Coverage",
+      "path": "tables/DEALER_Coverage.json",
+      "rows": 3,
+      "sha256": "1ccb191577ddd69cd38e127a33f2a9dd96c5c7fc29c48beab11fa434a20ce695"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Customers",
+      "path": "tables/DEALER_Customers.json",
+      "rows": 620,
+      "sha256": "6ff2e220c0351467a32cff0a7e92e986f59d6438501ea6a431732e35deeb31e2"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_DTCReference",
+      "path": "tables/DEALER_DTCReference.json",
+      "rows": 7,
+      "sha256": "6058edf31318113f7bd5a633047c0bb9f603c32386266b50cc5d5b55b1c6970b"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Deals",
+      "path": "tables/DEALER_Deals.json",
+      "rows": 258,
+      "sha256": "4103106e1c4b3bcb2bf837ca15e33cc1e213ad41248ed8d7e2a3d817d8116b02"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_DeclinedWork",
+      "path": "tables/DEALER_DeclinedWork.json",
+      "rows": 16,
+      "sha256": "3b5c17e86bfffa36500bc58dda8635f2c329d1ec8ed0b11e68772c459ae12155"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Deliveries",
+      "path": "tables/DEALER_Deliveries.json",
+      "rows": 194,
+      "sha256": "3d27db711f78cba7adfa0680ad1f6b192d68299c8874d02d3d7d0c8f7b53e286"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_FIProducts",
+      "path": "tables/DEALER_FIProducts.json",
+      "rows": 398,
+      "sha256": "765c37ca6ac662d720622d86f233d0330d39547a5c6a9f2aeb3cd6b25b98f64f"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_FinanceOffers",
+      "path": "tables/DEALER_FinanceOffers.json",
+      "rows": 258,
+      "sha256": "23f74600090cf646711b5717645f91494dea764adbf9ebcda6acd7fa1a27a46c"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Handoffs",
+      "path": "tables/DEALER_Handoffs.json",
+      "rows": 120,
+      "sha256": "b7f5a4c6ebdd08a6ae74945225d9fe3bcdee2b1406077d003fb7882c7f41bada"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_InspectionTemplates",
+      "path": "tables/DEALER_InspectionTemplates.json",
+      "rows": 3,
+      "sha256": "5e95de751bbfc3b8018b9f7cc031b868abbcb3b2b0f5c3a7483e890afacc3106"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Inspections",
+      "path": "tables/DEALER_Inspections.json",
+      "rows": 336,
+      "sha256": "d5ca6ca71d10e2b62eca60bf7d6d7c19ad42725e6998a90fc75ba72341acd08b"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Inventory",
+      "path": "tables/DEALER_Inventory.json",
+      "rows": 1100,
+      "sha256": "1bc1eb1e16b79dd05e397bf5456b28a3d3d55f1dacb01f35ad7426b2afc472bd"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_JourneyEvents",
+      "path": "tables/DEALER_JourneyEvents.json",
+      "rows": 7821,
+      "sha256": "a1e84fced55931fe4b31097690f6be2c7087c67951c7cd87f9618d4cd0b46d6b"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Journeys",
+      "path": "tables/DEALER_Journeys.json",
+      "rows": 520,
+      "sha256": "ba22a28077c59a3886356238d056e113ab81b38af638759fb8648774d91b1bd4"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_LaborOps",
+      "path": "tables/DEALER_LaborOps.json",
+      "rows": 13,
+      "sha256": "0f513d9f671e362be3857924941a6f5513fdd43b01046aaa6ac9519d79379ecc"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_LeadSLA",
+      "path": "tables/DEALER_LeadSLA.json",
+      "rows": 250,
+      "sha256": "47b549c035de226e495a7ef2e12821cb93a7ab00dac40e7a11543788d4fd9ec1"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Leads",
+      "path": "tables/DEALER_Leads.json",
+      "rows": 250,
+      "sha256": "0382901d40a37880087046d257aeef3adc947bb0d6f34c1925daf36621fa06a2"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Notifications",
+      "path": "tables/DEALER_Notifications.json",
+      "rows": 125,
+      "sha256": "72f03bba6867983af215bbfeba722249e8c3c21af30078a39d7b7836969c65d7"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_NurturePlans",
+      "path": "tables/DEALER_NurturePlans.json",
+      "rows": 319,
+      "sha256": "c7aa0d49fe448b1dd72985df3dba6e05a608cc7ea8f84a41f667aa326d41cf86"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_ObjectionStrategies",
+      "path": "tables/DEALER_ObjectionStrategies.json",
+      "rows": 17,
+      "sha256": "58e1ae461cdc916cbfe469e3f24d1234aa55a656a83baded7d52e1f1c758df77"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Outcomes",
+      "path": "tables/DEALER_Outcomes.json",
+      "rows": 430,
+      "sha256": "03c9dbfc70ce9381eeef1117502f50fd910cbb88f228744b774c088fc7e32c16"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Parts",
+      "path": "tables/DEALER_Parts.json",
+      "rows": 81,
+      "sha256": "abb650e4f431f26bbc244f4ec6f39feae20373f7e16cfd6a04040d9a7d97b618"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_PartsOrders",
+      "path": "tables/DEALER_PartsOrders.json",
+      "rows": 13,
+      "sha256": "64ee598e864c77d8cf51ffcb2d5f4421dbcea8b6ceb27675d91d4e377f5f23da"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_PlayRuns",
+      "path": "tables/DEALER_PlayRuns.json",
+      "rows": 16,
+      "sha256": "df198f259461575b845f0c99d0b7a6575b32497692205d742140c8ace819fdf5"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Plays",
+      "path": "tables/DEALER_Plays.json",
+      "rows": 4,
+      "sha256": "1cadd23b4a6a0949ac095d066981986fb1c945ac39278a398e95e5ac03c7a3d9"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Recommendations",
+      "path": "tables/DEALER_Recommendations.json",
+      "rows": 320,
+      "sha256": "434fe7e0fc84d0e285009fe472d49551424a4036bf733d395bf7ed02dda59934"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_RepairOrders",
+      "path": "tables/DEALER_RepairOrders.json",
+      "rows": 50,
+      "sha256": "c0d39d2c69ef2a55c8db768aa638823c04e2983b432d7c9a8a0e0f65d33c6a53"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_SalesPackages",
+      "path": "tables/DEALER_SalesPackages.json",
+      "rows": 10,
+      "sha256": "1276d155be75a08845211ee4ef6546c54237b5590e26e3548a49611a03c830c7"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_ServiceEstimates",
+      "path": "tables/DEALER_ServiceEstimates.json",
+      "rows": 50,
+      "sha256": "22c987f8095343710ec197f594d9763f41234dcf8d26a37bf3b56f8dceb20b0f"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_ServiceJourneyEvents",
+      "path": "tables/DEALER_ServiceJourneyEvents.json",
+      "rows": 524,
+      "sha256": "ba7eb31336844379050c26294135a3d29a8992120e8810570297235a7349a71f"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_ServiceJourneys",
+      "path": "tables/DEALER_ServiceJourneys.json",
+      "rows": 60,
+      "sha256": "cf109ff567cc0df33e50e543996b0f0ac5eb92b25fd888118042a18dc63bc313"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Signals",
+      "path": "tables/DEALER_Signals.json",
+      "rows": 3028,
+      "sha256": "378dd4d8d079dface50c8b81bbcbc4647de30911115a819029243a32f1324771"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Tasks",
+      "path": "tables/DEALER_Tasks.json",
+      "rows": 167,
+      "sha256": "4d6049a45363578a0e5faccfcbf17c753f03822beebcbd01263d6d1cc1a68b21"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Touchpoints",
+      "path": "tables/DEALER_Touchpoints.json",
+      "rows": 614,
+      "sha256": "a918f177a7e20a6516092621f9e7b5539c66e26de120993d9f9a0dd0bc034cad"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_TradeDispositions",
+      "path": "tables/DEALER_TradeDispositions.json",
+      "rows": 117,
+      "sha256": "588640a4b4a5b001ff55d416d1725c48ea9117fa6466efcc0d3ce31881fc6db6"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Valuations",
+      "path": "tables/DEALER_Valuations.json",
+      "rows": 332,
+      "sha256": "ae94dca2835af579d70e5bf6a415978313d79101bf84ab99734802108d9aaa57"
+    },
+    {
+      "kind": "table",
+      "name": "DEALER_Vehicles",
+      "path": "tables/DEALER_Vehicles.json",
+      "rows": 434,
+      "sha256": "90ca50005de87b4e7b7e73c49004e87880d5ada3b02a393658ab16306f31b5af"
+    },
+    {
+      "kind": "table",
+      "name": "OEM_AccountPlans",
+      "path": "tables/OEM_AccountPlans.json",
+      "rows": 23,
+      "sha256": "b0f8d099f5a410baff1e130b0e33abf045648230a6176d46b8651d7baf9d9bcd"
+    },
+    {
+      "kind": "table",
+      "name": "OEM_Accounts",
+      "path": "tables/OEM_Accounts.json",
+      "rows": 17,
+      "sha256": "0bef486829fff7496053b809e3b89fd6e2e5bc58cf5d16412c65353d6a89f8d1"
+    },
+    {
+      "kind": "table",
+      "name": "OEM_Alerts",
+      "path": "tables/OEM_Alerts.json",
+      "rows": 78,
+      "sha256": "fcab29c1e4e458fa86bb646d5a2f3e6b053e5bfc41ca4833132cfde3ebe5dda7"
+    },
+    {
+      "kind": "table",
+      "name": "OEM_CIPrograms",
+      "path": "tables/OEM_CIPrograms.json",
+      "rows": 7,
+      "sha256": "9c2da3da0749f121a7aec582dc7afff04c20a594209937630a67fd95d1d1cad3"
+    },
+    {
+      "kind": "table",
+      "name": "OEM_Campaigns",
+      "path": "tables/OEM_Campaigns.json",
+      "rows": 6,
+      "sha256": "6858ba8e2d8d638d4265e66f41d4f72b9cd8fce4ce8699d7fa53a1b19e3b0947"
+    },
+    {
+      "kind": "table",
+      "name": "OEM_Catalog",
+      "path": "tables/OEM_Catalog.json",
+      "rows": 44,
+      "sha256": "ab2ee24cbb654b1096216aa8fa825e6b06cd0bf10537a6ad97f87167e530d260"
+    },
+    {
+      "kind": "table",
+      "name": "OEM_CatalogModels",
+      "path": "tables/OEM_CatalogModels.json",
+      "rows": 7,
+      "sha256": "7d05fe6278aec30a47dee6b0ff9ff2f6fc1b43a4627a23e4eef6c90d2f2838dd"
+    },
+    {
+      "kind": "table",
+      "name": "OEM_Comms",
+      "path": "tables/OEM_Comms.json",
+      "rows": 12,
+      "sha256": "e99645fe7ffcecf2b5357d6ccc547c4b39e53ba8af563aae6f501230f6620b4e"
+    },
+    {
+      "kind": "table",
+      "name": "OEM_Compliance",
+      "path": "tables/OEM_Compliance.json",
+      "rows": 88,
+      "sha256": "93ff61a96ea3f7b0b08fe009c46590c9eeb06c2da20ab3860184c17b4edd3064"
+    },
+    {
+      "kind": "table",
+      "name": "OEM_ContactReports",
+      "path": "tables/OEM_ContactReports.json",
+      "rows": 45,
+      "sha256": "cd5d0b94a68b07b968803c737d94e5cae702c1518566ef36c114e7eb5fd731b8"
+    },
+    {
+      "kind": "table",
+      "name": "OEM_GuardrailEvents",
+      "path": "tables/OEM_GuardrailEvents.json",
+      "rows": 30,
+      "sha256": "69340a74906192d4d2d4693e14e6f8a61260769d173ff618f649b2c1a11901fb"
+    },
+    {
+      "kind": "table",
+      "name": "OEM_Incentives",
+      "path": "tables/OEM_Incentives.json",
+      "rows": 9,
+      "sha256": "f21dbbdbdf00c0a4a11e1e42ca80d2f2269f568d8be244a79ffcf12e464f7b26"
+    },
+    {
+      "kind": "table",
+      "name": "OEM_Markets",
+      "path": "tables/OEM_Markets.json",
+      "rows": 1,
+      "sha256": "eb5ac5e5a020bd2fb2e05a5b21d728aad2209b15be4a2f988408f0d45e87c8ed"
+    },
+    {
+      "kind": "table",
+      "name": "OEM_StateRules",
+      "path": "tables/OEM_StateRules.json",
+      "rows": 16,
+      "sha256": "7dc22788677f0e22962c2ce30ae72a4b6205de093043bd7b7cc81fe39ae2c0ae"
+    },
+    {
+      "kind": "table",
+      "name": "PLAT_AgentTraces",
+      "path": "tables/PLAT_AgentTraces.json",
+      "rows": 2119,
+      "sha256": "4fb37d3e9294b90d11f7a2519dbe2b19d0d15bf70e6ac265a697b782551b8578"
+    },
+    {
+      "kind": "table",
+      "name": "PLAT_Config",
+      "path": "tables/PLAT_Config.json",
+      "rows": 1,
+      "sha256": "e794eef528bb1ddb7481b67a0e481bb4e6186f5b6477ce03fea1a6b65a601649"
+    },
+    {
+      "kind": "table",
+      "name": "PLAT_ConfigAutonomy",
+      "path": "tables/PLAT_ConfigAutonomy.json",
+      "rows": 141,
+      "sha256": "e2bbeeb6a69add3411e643b379487ef90fb39faf29294734006dc951479d9c28"
+    },
+    {
+      "kind": "table",
+      "name": "PLAT_ConfigGuardrails",
+      "path": "tables/PLAT_ConfigGuardrails.json",
+      "rows": 1,
+      "sha256": "1f1a79ddcb53006df1386e5700370e701fef9437179a655d188580bd921b1220"
+    },
+    {
+      "kind": "table",
+      "name": "PLAT_ConfigNotifications",
+      "path": "tables/PLAT_ConfigNotifications.json",
+      "rows": 1,
+      "sha256": "30dd2673454ca31455f7a91078bbd1aafffa04078169d022214c38d99de40429"
+    },
+    {
+      "kind": "table",
+      "name": "PLAT_ConfigNurture",
+      "path": "tables/PLAT_ConfigNurture.json",
+      "rows": 2,
+      "sha256": "26ee651c591329fc6fcbeace87afb9a8ddf5a66747ca147df8b37c103b258409"
+    },
+    {
+      "kind": "table",
+      "name": "PLAT_ConfigSuggestions",
+      "path": "tables/PLAT_ConfigSuggestions.json",
+      "rows": 1,
+      "sha256": "083fcb5a155918c34bffd899bcf748f00bb25b2b06ec27257562fef31239e2fa"
+    },
+    {
+      "kind": "table",
+      "name": "PLAT_Configurations",
+      "path": "tables/PLAT_Configurations.json",
+      "rows": 405,
+      "sha256": "5bfdcb5b3174a86dafdfdf7b22448367dc1877a24b67dcee19124b1e42dca50f"
+    },
+    {
+      "kind": "table",
+      "name": "PLAT_EntityMap",
+      "path": "tables/PLAT_EntityMap.json",
+      "rows": 1788,
+      "sha256": "d59e8b03eca41581e442fe0f4d4b87058c901ebfa91281ac9671df3cbfd7fc14"
+    },
+    {
+      "kind": "table",
+      "name": "PLAT_KnowledgeCollections",
+      "path": "tables/PLAT_KnowledgeCollections.json",
+      "rows": 270,
+      "sha256": "5f0b4929f4c285e27c4508cc94a4ecfa3a6a7729a866c0702232921dac44b640"
+    },
+    {
+      "kind": "table",
+      "name": "PLAT_OrgHierarchy",
+      "path": "tables/PLAT_OrgHierarchy.json",
+      "rows": 17,
+      "sha256": "0edc70215bfd744836915591189c428556e5e40fbf7a2bc31a48d4df3abc628c"
+    },
+    {
+      "kind": "table",
+      "name": "PLAT_Users",
+      "path": "tables/PLAT_Users.json",
+      "rows": 72,
+      "sha256": "2f6b1939f8dee5fd440e95d40a7715f04d522baafa590bf1b6cfe4d24a9c59fe"
+    }
+  ],
+  "generated_at": "2026-09-10T09:00:00Z",
+  "market": "de",
+  "run_id": "de-42",
+  "schema_version": 2,
+  "seed": "42",
+  "seed_now": "2026-09-10T09:00:00Z"
+}

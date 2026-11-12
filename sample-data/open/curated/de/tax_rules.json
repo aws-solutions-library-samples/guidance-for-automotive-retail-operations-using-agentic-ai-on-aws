@@ -1,0 +1,83 @@
+{
+  "_meta": {
+    "market": "de",
+    "description": "German vehicle taxation and pricing rules for the Retail Ops pilot seed (OEM_Markets.tax_model + OEM_StateRules for the 16 Bundeslaender). Rules are national; the Bundesland table carries regional attributes used for dealer placement, EV readiness, and regional incentive lookup. Verify against BMF / KraftStG before demo.",
+    "curated_on": "2026-09-10",
+    "sources": [
+      "https://www.gesetze-im-internet.de/kraftstg/",
+      "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Steuerarten/Kraftfahrzeugsteuer/kraftfahrzeugsteuer.html",
+      "https://alternative-fuels-observatory.ec.europa.eu/transport-mode/road/germany/incentives-legislations"
+    ]
+  },
+  "pricing": {
+    "vat_pct": 19.0,
+    "list_price_includes_vat": true,
+    "registration_fee_eur_typical": 30,
+    "plates_eur_typical": 30,
+    "dealer_transfer_fee_eur_typical": 990,
+    "note": "German list prices (UVP) are quoted gross incl. 19% VAT. 'Ueberfuehrungskosten' (transfer) and 'Zulassung' (registration) are typical add-ons shown separately."
+  },
+  "kfz_steuer": {
+    "description": "Annual motor vehicle tax (Kraftfahrzeugsteuer) for passenger cars first registered from 2021-01-01: displacement component + CO2 component (WLTP).",
+    "displacement_component": {
+      "petrol_eur_per_100cc": 2.00,
+      "diesel_eur_per_100cc": 9.50
+    },
+    "co2_component_from_2021": {
+      "free_allowance_g_km": 95,
+      "bands_eur_per_g_km": [
+        {"from_g_km": 96, "to_g_km": 115, "eur_per_g": 2.00},
+        {"from_g_km": 116, "to_g_km": 135, "eur_per_g": 2.20},
+        {"from_g_km": 136, "to_g_km": 155, "eur_per_g": 2.50},
+        {"from_g_km": 156, "to_g_km": 175, "eur_per_g": 2.90},
+        {"from_g_km": 176, "to_g_km": 195, "eur_per_g": 3.40},
+        {"from_g_km": 196, "to_g_km": null, "eur_per_g": 4.00}
+      ],
+      "low_emission_bonus": "Vehicles <= 95 g/km first registered 2020-06-12 to 2024-12-31 receive EUR 30/yr reduction for 5 years"
+    },
+    "bev": {
+      "first_registration_until_2025_12_31": "Exempt for 10 years, at the latest until 2030-12-31; then 50% of weight-based rate",
+      "first_registration_2026_2030": "Announced: exempt 10 years until at the latest 2035-12-31 (coalition agreement, not yet enacted at curation date); conservative assumption: 50% of weight-based rate",
+      "weight_based_rate_after_exemption": [
+        {"up_to_kg": 2000, "eur_per_200kg": 5.625},
+        {"up_to_kg": 3000, "eur_per_200kg": 6.01},
+        {"up_to_kg": 3500, "eur_per_200kg": 6.39}
+      ],
+      "reduction_after_exemption_pct": 50
+    },
+    "phev": "No exemption; taxed on displacement + CO2 like ICE (low WLTP CO2 keeps the CO2 component small)"
+  },
+  "company_car": {
+    "bik_monthly_pct_ice": 1.0,
+    "bik_monthly_pct_bev_le_100k": 0.25,
+    "bik_monthly_pct_bev_gt_100k": 0.5,
+    "bik_monthly_pct_phev_qualifying": 0.5,
+    "phev_qualifying_rule": ">= 80 km electric range or <= 50 g CO2/km (from 2025)",
+    "valid_to": "2030-12-31"
+  },
+  "fuel_taxes_note": "Energy tax + VAT are included in the EC Weekly Oil Bulletin 'with taxes' prices used for TCO (eu/ec_oil_bulletin.csv, country=Germany). CO2 price (BEHG) is embedded in pump prices.",
+  "finance_products": [
+    {"code": "LEASING", "name": "Privatleasing", "terms_months": [24, 36, 48], "note": "Kilometer- or Restwertleasing; typical 10,000-20,000 km/yr"},
+    {"code": "BALLOON", "name": "Ballonfinanzierung / Drei-Wege-Finanzierung", "terms_months": [36, 48], "note": "Low monthly rate, final balloon payment; return / keep / refinance"},
+    {"code": "RETAIL", "name": "Klassische Ratenfinanzierung", "terms_months": [36, 48, 60, 72, 84]}
+  ],
+  "bundeslaender": [
+    {"code": "BW", "name": "Baden-Württemberg", "capital": "Stuttgart", "population_m": 11.3, "kba_region_keyword": "Baden-Württemberg"},
+    {"code": "BY", "name": "Bayern", "capital": "München", "population_m": 13.4, "kba_region_keyword": "Bayern"},
+    {"code": "BE", "name": "Berlin", "capital": "Berlin", "population_m": 3.8, "kba_region_keyword": "Berlin"},
+    {"code": "BB", "name": "Brandenburg", "capital": "Potsdam", "population_m": 2.6, "kba_region_keyword": "Brandenburg"},
+    {"code": "HB", "name": "Bremen", "capital": "Bremen", "population_m": 0.7, "kba_region_keyword": "Bremen"},
+    {"code": "HH", "name": "Hamburg", "capital": "Hamburg", "population_m": 1.9, "kba_region_keyword": "Hamburg"},
+    {"code": "HE", "name": "Hessen", "capital": "Wiesbaden", "population_m": 6.4, "kba_region_keyword": "Hessen"},
+    {"code": "MV", "name": "Mecklenburg-Vorpommern", "capital": "Schwerin", "population_m": 1.6, "kba_region_keyword": "Mecklenburg-Vorpommern"},
+    {"code": "NI", "name": "Niedersachsen", "capital": "Hannover", "population_m": 8.1, "kba_region_keyword": "Niedersachsen"},
+    {"code": "NW", "name": "Nordrhein-Westfalen", "capital": "Düsseldorf", "population_m": 18.1, "kba_region_keyword": "Nordrhein-Westfalen"},
+    {"code": "RP", "name": "Rheinland-Pfalz", "capital": "Mainz", "population_m": 4.2, "kba_region_keyword": "Rheinland-Pfalz"},
+    {"code": "SL", "name": "Saarland", "capital": "Saarbrücken", "population_m": 1.0, "kba_region_keyword": "Saarland"},
+    {"code": "SN", "name": "Sachsen", "capital": "Dresden", "population_m": 4.1, "kba_region_keyword": "Sachsen"},
+    {"code": "ST", "name": "Sachsen-Anhalt", "capital": "Magdeburg", "population_m": 2.2, "kba_region_keyword": "Sachsen-Anhalt"},
+    {"code": "SH", "name": "Schleswig-Holstein", "capital": "Kiel", "population_m": 2.9, "kba_region_keyword": "Schleswig-Holstein"},
+    {"code": "TH", "name": "Thüringen", "capital": "Erfurt", "population_m": 2.1, "kba_region_keyword": "Thüringen"}
+  ],
+  "verify": true
+}

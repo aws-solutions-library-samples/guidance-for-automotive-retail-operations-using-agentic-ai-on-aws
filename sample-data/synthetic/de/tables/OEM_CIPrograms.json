@@ -1,0 +1,93 @@
+[
+  {
+    "condition": "csi_decline_lead_sla",
+    "dealer_id": "D-201",
+    "district_id": "DIST-SW",
+    "goal": "Restore <30-min lead response and reverse CSI decline",
+    "market_id": "de",
+    "name": "Lead-response SLA recovery",
+    "owner_user_id": "U-DE-00046",
+    "program_id": "CIP-DE-00001",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (CI program)",
+    "started_at": "2026-08-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "condition": "high_days_supply_ev_aging",
+    "dealer_id": "D-202",
+    "district_id": "DIST-SW",
+    "goal": "Reduce EV days-supply and aged units",
+    "market_id": "de",
+    "name": "EV aged-inventory turn",
+    "owner_user_id": "U-DE-00046",
+    "program_id": "CIP-DE-00002",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (CI program)",
+    "started_at": "2026-06-13T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "condition": "volume_down_conquest_pressure",
+    "dealer_id": "D-203",
+    "district_id": "DIST-SW",
+    "goal": "Recover sales volume under conquest pressure",
+    "market_id": "de",
+    "name": "Conquest volume recovery",
+    "owner_user_id": "U-DE-00046",
+    "program_id": "CIP-DE-00003",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (CI program)",
+    "started_at": "2026-07-12T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "condition": null,
+    "dealer_id": null,
+    "district_id": "DIST-SW",
+    "goal": "District initiative: conquest playbook rollout",
+    "market_id": "de",
+    "name": "Conquest playbook rollout",
+    "owner_user_id": "U-DE-00046",
+    "program_id": "CIP-DE-00004",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (district CI program)",
+    "started_at": "2026-06-11T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "condition": null,
+    "dealer_id": null,
+    "district_id": "DIST-SW",
+    "goal": "District initiative: ev service readiness",
+    "market_id": "de",
+    "name": "EV service readiness",
+    "owner_user_id": "U-DE-00046",
+    "program_id": "CIP-DE-00005",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (district CI program)",
+    "started_at": "2026-07-13T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "condition": null,
+    "dealer_id": null,
+    "district_id": "DIST-SW",
+    "goal": "District initiative: digital retail adoption",
+    "market_id": "de",
+    "name": "Digital retail adoption",
+    "owner_user_id": "U-DE-00046",
+    "program_id": "CIP-DE-00006",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (district CI program)",
+    "started_at": "2026-05-21T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "condition": null,
+    "dealer_id": null,
+    "district_id": "DIST-SW",
+    "goal": "District initiative: csi coaching cohort",
+    "market_id": "de",
+    "name": "CSI coaching cohort",
+    "owner_user_id": "U-DE-00046",
+    "program_id": "CIP-DE-00007",
+    "source_ref": "spec:§3.5 OEM field sales; plan:§3.12 (district CI program)",
+    "started_at": "2026-06-02T09:00:00Z",
+    "status": "active"
+  }
+]

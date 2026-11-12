@@ -1,0 +1,1055 @@
+[
+  {
+    "acquired_at": "2026-07-23T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-J1",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00001",
+    "recon_cost": 1717,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-19T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00004",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00002",
+    "recon_cost": 1124,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-24T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00005",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00003",
+    "recon_cost": 1671,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-01T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00029",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00004",
+    "recon_cost": 512,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-29T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00032",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00005",
+    "recon_cost": 635,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-13T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00034",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00006",
+    "recon_cost": 1576,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-02T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00037",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00007",
+    "recon_cost": 1355,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-07T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00040",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00008",
+    "recon_cost": 2123,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-05T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00052",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00009",
+    "recon_cost": 1580,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-11T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00057",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00010",
+    "recon_cost": 625,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-15T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00058",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00011",
+    "recon_cost": 685,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-20T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00059",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00012",
+    "recon_cost": 950,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-14T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00077",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00013",
+    "recon_cost": 930,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-03T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00079",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00014",
+    "recon_cost": 1650,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-24T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00080",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00015",
+    "recon_cost": 1459,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-14T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00082",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00016",
+    "recon_cost": 305,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-03T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00084",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00017",
+    "recon_cost": 2047,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-14T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00085",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00018",
+    "recon_cost": 2102,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-21T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00088",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00019",
+    "recon_cost": 1978,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-09T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00093",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00020",
+    "recon_cost": 1829,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-16T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00095",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00021",
+    "recon_cost": 580,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-12T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00098",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00022",
+    "recon_cost": 916,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-02T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00104",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00023",
+    "recon_cost": 1241,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-31T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00105",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00024",
+    "recon_cost": 346,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-29T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00106",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00025",
+    "recon_cost": 2438,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-20T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00114",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00026",
+    "recon_cost": 1990,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-31T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00116",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00027",
+    "recon_cost": 831,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-18T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00133",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00028",
+    "recon_cost": 2399,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-23T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00134",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00029",
+    "recon_cost": 962,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-03T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00141",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00030",
+    "recon_cost": 2458,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-25T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00149",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00031",
+    "recon_cost": 1777,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-07T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00161",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00032",
+    "recon_cost": 2432,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-04T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00174",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00033",
+    "recon_cost": 584,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-18T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00176",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00034",
+    "recon_cost": 446,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-28T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00180",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00035",
+    "recon_cost": 1818,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-03T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00182",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00036",
+    "recon_cost": 321,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-12T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00184",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00037",
+    "recon_cost": 1413,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-05T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00186",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00038",
+    "recon_cost": 1236,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-16T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00198",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00039",
+    "recon_cost": 2030,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-04T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00211",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00040",
+    "recon_cost": 341,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-23T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00218",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00041",
+    "recon_cost": 2006,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-01T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00221",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00042",
+    "recon_cost": 1158,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-27T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00222",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00043",
+    "recon_cost": 515,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-02T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00225",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00044",
+    "recon_cost": 1082,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-08T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00231",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00045",
+    "recon_cost": 795,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-30T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00232",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00046",
+    "recon_cost": 1051,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-23T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00238",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00047",
+    "recon_cost": 1843,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-05T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00241",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00048",
+    "recon_cost": 1099,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-03T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00260",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00049",
+    "recon_cost": 1658,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-31T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00263",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00050",
+    "recon_cost": 809,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-04T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00265",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00051",
+    "recon_cost": 376,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-03T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00268",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00052",
+    "recon_cost": 1943,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-08T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00269",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00053",
+    "recon_cost": 1347,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-05T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00272",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00054",
+    "recon_cost": 785,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-03T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00283",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00055",
+    "recon_cost": 215,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-31T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00285",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00056",
+    "recon_cost": 1275,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-09T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00287",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00057",
+    "recon_cost": 1869,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-07T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00292",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00058",
+    "recon_cost": 1889,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-20T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00305",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00059",
+    "recon_cost": 852,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-31T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00306",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00060",
+    "recon_cost": 220,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-22T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00314",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00061",
+    "recon_cost": 1371,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-01T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00318",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00062",
+    "recon_cost": 974,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-07T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00330",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00063",
+    "recon_cost": 464,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-28T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00332",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00064",
+    "recon_cost": 1750,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-22T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00334",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00065",
+    "recon_cost": 1616,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-13T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00343",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00066",
+    "recon_cost": 1379,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-13T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00355",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00067",
+    "recon_cost": 1361,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-06T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00358",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00068",
+    "recon_cost": 1846,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-16T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00359",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00069",
+    "recon_cost": 2043,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-23T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00363",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00070",
+    "recon_cost": 1534,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-30T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00365",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00071",
+    "recon_cost": 1812,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-16T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00377",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00072",
+    "recon_cost": 688,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-28T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00389",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00073",
+    "recon_cost": 2446,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-10T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00390",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00074",
+    "recon_cost": 2450,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-15T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00391",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00075",
+    "recon_cost": 416,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-19T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00393",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00076",
+    "recon_cost": 1025,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-13T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00395",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00077",
+    "recon_cost": 1233,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-16T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00401",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00078",
+    "recon_cost": 1252,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-13T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00402",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00079",
+    "recon_cost": 1442,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-06T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00404",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00080",
+    "recon_cost": 469,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-19T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00411",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00081",
+    "recon_cost": 1468,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-07T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00415",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00082",
+    "recon_cost": 2277,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-20T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00417",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00083",
+    "recon_cost": 2168,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-19T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00419",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00084",
+    "recon_cost": 654,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-20T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00429",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00085",
+    "recon_cost": 2043,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-04T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00438",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00086",
+    "recon_cost": 866,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-07T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00440",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00087",
+    "recon_cost": 2171,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-09T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00445",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00088",
+    "recon_cost": 2051,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-15T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00449",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00089",
+    "recon_cost": 679,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-04T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00453",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00090",
+    "recon_cost": 1176,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-06T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00458",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00091",
+    "recon_cost": 1176,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-10T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00461",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00092",
+    "recon_cost": 2146,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-26T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00462",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00093",
+    "recon_cost": 591,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-17T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00463",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00094",
+    "recon_cost": 423,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-21T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00467",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00095",
+    "recon_cost": 782,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-04T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00473",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00096",
+    "recon_cost": 1245,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-29T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00480",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00097",
+    "recon_cost": 1563,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-18T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00485",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00098",
+    "recon_cost": 492,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-24T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00491",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00099",
+    "recon_cost": 1381,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-18T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00503",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00100",
+    "recon_cost": 1462,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-06T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00504",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00101",
+    "recon_cost": 962,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-03T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00508",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00102",
+    "recon_cost": 1511,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-16T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00509",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00103",
+    "recon_cost": 2047,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-18T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00510",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00104",
+    "recon_cost": 1006,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-26T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00512",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00105",
+    "recon_cost": 1923,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-17T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00514",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00106",
+    "recon_cost": 998,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-31T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00517",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00107",
+    "recon_cost": 1299,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-30T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00527",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00108",
+    "recon_cost": 306,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-07-29T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00550",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00109",
+    "recon_cost": 1355,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-29T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00552",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00110",
+    "recon_cost": 1814,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-06T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00560",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00111",
+    "recon_cost": 2436,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-10T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00566",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00112",
+    "recon_cost": 2069,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-21T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00570",
+    "disposition": "wholesale",
+    "disposition_id": "TD-DE-00113",
+    "recon_cost": 1862,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-15T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00580",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00114",
+    "recon_cost": 2341,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-10T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00584",
+    "disposition": "auction",
+    "disposition_id": "TD-DE-00115",
+    "recon_cost": 911,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-08-16T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00585",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00116",
+    "recon_cost": 2033,
+    "source_ref": "synthetic:trade_disposition"
+  },
+  {
+    "acquired_at": "2026-09-03T09:00:00Z",
+    "currency": "EUR",
+    "customer_id": "C-DE-00588",
+    "disposition": "retail",
+    "disposition_id": "TD-DE-00117",
+    "recon_cost": 1337,
+    "source_ref": "synthetic:trade_disposition"
+  }
+]

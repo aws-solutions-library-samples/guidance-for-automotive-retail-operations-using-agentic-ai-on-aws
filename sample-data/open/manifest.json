@@ -1,0 +1,421 @@
+{
+  "sources": {
+    "epa_fueleconomy": {
+      "market": "us",
+      "name": "EPA / DOE fueleconomy.gov vehicle database",
+      "publisher": "U.S. EPA & DOE",
+      "license": "U.S. Government work, public domain",
+      "fields_used": "year, make, model, VClass, atvType, comb08, range, combE, co2TailpipeGpm, fuelCost08",
+      "notes": "Segment anchors (median MPG/MPGe, EV range, fuel cost) per EPA class x powertrain; 2023+ model list for competitor sets.",
+      "urls": {
+        "vehicles.csv.zip": "https://www.fueleconomy.gov/feg/epadata/vehicles.csv.zip"
+      },
+      "status": {
+        "fetched_at": "2026-09-11T01:39:48+00:00",
+        "files": {
+          "vehicles.csv.zip": {
+            "url": "https://www.fueleconomy.gov/feg/epadata/vehicles.csv.zip",
+            "bytes": 2200846,
+            "sha256": "c4979b13eeb97933a4d5e3ea6a3914639e5d7536b254af580b3661fb62d6d668",
+            "seconds": 11.9,
+            "ok": true
+          }
+        },
+        "derived": {
+          "ok": true,
+          "path": "sample-data/open/us/epa_fueleconomy.csv",
+          "rows": 69,
+          "bytes": 8148
+        }
+      }
+    },
+    "afdc_ev_registrations": {
+      "market": "us",
+      "name": "AFDC Electric Vehicle Registrations by State",
+      "publisher": "U.S. DOE Alternative Fuels Data Center",
+      "license": "U.S. Government work, public domain (data derived from Experian; counts rounded)",
+      "fields_used": "State, EV registration count (latest year)",
+      "notes": "Used as the US 'market registrations' proxy for EV share by state (PMA proxy for A6 and EV-readiness view).",
+      "urls": {
+        "ev_registration_counts_by_state.xlsx": "https://afdc.energy.gov/files/u/data/data_source/10962/10962-ev-registration-counts-by-state_9-06-24.xlsx"
+      },
+      "status": {
+        "fetched_at": "2026-09-11T01:40:01+00:00",
+        "files": {
+          "ev_registration_counts_by_state.xlsx": {
+            "url": "https://afdc.energy.gov/files/u/data/data_source/10962/10962-ev-registration-counts-by-state_9-06-24.xlsx",
+            "bytes": 30283,
+            "sha256": "12518e7893202ecd43a3f1b89b0357085f6d4c7fa4d52addb1882572291d85b6",
+            "seconds": 0.8,
+            "ok": true
+          }
+        },
+        "derived": {
+          "ok": true,
+          "path": "sample-data/open/us/afdc_ev_registrations.csv",
+          "rows": 51,
+          "bytes": 5658
+        }
+      }
+    },
+    "afdc_vehicle_registration": {
+      "market": "us",
+      "name": "AFDC Vehicle Registration Counts by State (all fuel types)",
+      "publisher": "U.S. DOE Alternative Fuels Data Center",
+      "license": "U.S. Government work, public domain",
+      "fields_used": "State x fuel type (EV, PHEV, HEV, Gasoline, Diesel, ...) registration counts",
+      "notes": "Total light-duty fleet by state; basis for state market size and powertrain mix in RDR proxies.",
+      "urls": {
+        "vehicle_registration.html": "https://afdc.energy.gov/vehicle-registration"
+      },
+      "status": {
+        "fetched_at": "2026-09-11T01:40:02+00:00",
+        "files": {
+          "vehicle_registration.html": {
+            "url": "https://afdc.energy.gov/vehicle-registration",
+            "bytes": 65833,
+            "sha256": "1da75d3188381f80882c2197dfafe46787409153f70189d8e0e5aa038a4b3a38",
+            "seconds": 0.4,
+            "ok": true
+          }
+        },
+        "derived": {
+          "ok": true,
+          "path": "sample-data/open/us/afdc_vehicle_registration.csv",
+          "rows": 51,
+          "bytes": 6935
+        }
+      }
+    },
+    "eia_gasoline_weekly": {
+      "market": "us",
+      "name": "EIA Weekly Retail Gasoline and Diesel Prices",
+      "publisher": "U.S. Energy Information Administration",
+      "license": "U.S. Government work, public domain",
+      "fields_used": "Latest weekly regular/premium/diesel price, U.S. and PADD regions",
+      "notes": "Default fuel_price for US TCO (MarketConfig.fuel_price_default) and regional overrides.",
+      "urls": {
+        "PET_PRI_GND_DCUS_NUS_W.xls": "https://www.eia.gov/dnav/pet/xls/PET_PRI_GND_DCUS_NUS_W.xls"
+      },
+      "status": {
+        "fetched_at": "2026-09-11T01:40:02+00:00",
+        "files": {
+          "PET_PRI_GND_DCUS_NUS_W.xls": {
+            "url": "https://www.eia.gov/dnav/pet/xls/PET_PRI_GND_DCUS_NUS_W.xls",
+            "bytes": 497152,
+            "sha256": "ab526e95418d7ecda7eea15f6ef43e04105a8636db7cabfd134247f9d26ee925",
+            "seconds": 0.5,
+            "ok": true
+          }
+        },
+        "derived": {
+          "ok": true,
+          "path": "sample-data/open/us/eia_gasoline_weekly.csv",
+          "rows": 14,
+          "bytes": 2995
+        }
+      }
+    },
+    "eia_electricity_state": {
+      "market": "us",
+      "name": "EIA Electric Power Monthly Table 5.6.A - Average Price of Electricity to Ultimate Customers by End-Use Sector, by State",
+      "publisher": "U.S. Energy Information Administration",
+      "license": "U.S. Government work, public domain",
+      "fields_used": "State, residential price latest month and same month prior year (cents/kWh)",
+      "notes": "Per-state energy_price for EV TCO (OEM_StateRules.energy_price). Replaces the legacy avgprice_annual.xlsx, which stops at 2020.",
+      "urls": {
+        "epm_table_5_6_a.html": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a"
+      },
+      "status": {
+        "fetched_at": "2026-09-11T02:01:22+00:00",
+        "files": {
+          "epm_table_5_6_a.html": {
+            "url": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
+            "bytes": 105423,
+            "sha256": "7b81ca7090859b0842111200d1bc0d6eca94d93d7f9a03f9b8a6aac536bce531",
+            "seconds": 0.2,
+            "ok": true
+          }
+        },
+        "derived": {
+          "ok": true,
+          "path": "sample-data/open/us/eia_electricity_state.csv",
+          "rows": 51,
+          "bytes": 4062
+        }
+      }
+    },
+    "irs_30d_list": {
+      "market": "us",
+      "name": "Federal Clean Vehicle Credit (IRC 30D) eligible vehicles, fueleconomy.gov tax data service",
+      "publisher": "U.S. DOE / IRS via fueleconomy.gov REST (ws/rest/tax/incentives-2023-and-after)",
+      "license": "U.S. Government work, public domain",
+      "fields_used": "irsMake, irsModel, atvType, creditAmount, MSRPLimit, assemblyCountry, startDate/endDate",
+      "notes": "Historical eligibility list. IMPORTANT: 30D was terminated for vehicles acquired after 2025-09-30; seed models it as an expired incentive with valid_to. Verify current status before demo.",
+      "urls": {
+        "incentives_2023_and_after.json": "https://www.fueleconomy.gov/ws/rest/tax/incentives-2023-and-after"
+      },
+      "status": {
+        "fetched_at": "2026-09-11T01:49:49+00:00",
+        "files": {
+          "incentives_2023_and_after.json": {
+            "url": "https://www.fueleconomy.gov/ws/rest/tax/incentives-2023-and-after",
+            "bytes": 33395,
+            "sha256": "01bf9e32f9fa63c0ef5b0376e51a3ae2b32586cdf30d11fccaaeb33d56546344",
+            "seconds": 0.8,
+            "ok": true
+          }
+        },
+        "derived": {
+          "ok": true,
+          "path": "sample-data/open/us/irs_30d_list.csv",
+          "rows": 74,
+          "bytes": 9942
+        }
+      }
+    },
+    "census_gazetteer_places": {
+      "market": "us",
+      "name": "Census 2023 Gazetteer Files - Places (national)",
+      "publisher": "U.S. Census Bureau",
+      "license": "U.S. Government work, public domain",
+      "fields_used": "USPS state, place name, lat/lon, land area",
+      "notes": "Largest incorporated places per state as synthetic dealer / customer locations (metro placement).",
+      "urls": {
+        "2023_Gaz_place_national.zip": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_place_national.zip"
+      },
+      "status": {
+        "fetched_at": "2026-09-11T01:40:05+00:00",
+        "files": {
+          "2023_Gaz_place_national.zip": {
+            "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_place_national.zip",
+            "bytes": 1220953,
+            "sha256": "3c8b23c0dcdb15c0ebd16fee7373e032466e6b585650aa219bc1bee5ac8bd58f",
+            "seconds": 0.4,
+            "ok": true
+          }
+        },
+        "derived": {
+          "ok": true,
+          "path": "sample-data/open/us/census_gazetteer_places.csv",
+          "rows": 597,
+          "bytes": 50159
+        }
+      }
+    },
+    "kba_fz10": {
+      "market": "de",
+      "name": "KBA FZ 10 - Neuzulassungen von Personenkraftwagen nach Marken und Modellreihen (monatlich)",
+      "publisher": "Kraftfahrt-Bundesamt (KBA)",
+      "license": "Datenlizenz Deutschland - Namensnennung - Version 2.0 (dl-de/by-2-0); attribution: Kraftfahrt-Bundesamt",
+      "fields_used": "Marke, Modellreihe, Monat, Jan-Dez YTD, Anteil %, splits by Diesel / Hybrid / Plug-in / Elektro",
+      "notes": "German registrations by brand and model with powertrain splits; RDR and PMA proxy for the de market and A6.",
+      "urls": {
+        "fz10_latest.xlsx": "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2025_12.xlsx?__blob=publicationFile"
+      },
+      "status": {
+        "fetched_at": "2026-09-11T01:49:50+00:00",
+        "files": {
+          "fz10_latest.xlsx": {
+            "url": "https://www.kba.de/SharedDocs/Downloads/DE/Statistik/Fahrzeuge/FZ10/fz10_2025_12.xlsx?__blob=publicationFile",
+            "bytes": 188133,
+            "sha256": "bef283aeadf29bf3ef632117f5b26e731c948e98cdd0fb428879932960455aba",
+            "seconds": 1.6,
+            "ok": true
+          }
+        },
+        "derived": {
+          "ok": true,
+          "path": "sample-data/open/de/kba_fz10.csv",
+          "rows": 484,
+          "bytes": 83053
+        }
+      }
+    },
+    "eea_co2_de": {
+      "market": "de",
+      "name": "EEA Monitoring of CO2 emissions from passenger cars (Reg. (EU) 2019/631) - Germany aggregate by make/model/fuel",
+      "publisher": "European Environment Agency (Discodata SQL API)",
+      "license": "EEA standard re-use policy (free re-use with attribution), Directive 2003/98/EC",
+      "fields_used": "Mk, Cn, Ft, Year, count, avg Ewltp (WLTP CO2 g/km), Z (Wh/km), Fc (l/100km), Ep (kW), M (kg), Ec (cm3)",
+      "notes": "Per-registration records aggregated server-side to make/model/fuel for the latest final year in the 'latest' table (2022 at retrieval; provisional 2023/2024 are separate EEA releases). Used for spec anchors (consumption, CO2, power, mass); current volumes come from KBA. BEV electric range is not in the public per-vehicle table; range anchors use manufacturer WLTP figures curated in de/curated_ev_range.json.",
+      "urls": {
+        "co2cars_agg.json": "sql:SELECT Mk, Cn, Ft, Year, COUNT(*) AS n, AVG([Ewltp (g/km)]) AS co2_wltp_g_km, AVG([Erwltp (g/km)]) AS co2_reduction_g_km, AVG([Z (Wh/km)]) AS wh_per_km, AVG(Fc) AS fuel_l_100km, AVG([Ep (KW)]) AS power_kw, AVG([M (kg)]) AS mass_kg, AVG([Ec (cm3)]) AS displ_cm3 FROM [CO2Emission].[latest].[co2cars] WHERE MS='DE' AND  Ct='M1' AND Year = (SELECT MAX(Year) FROM [CO2Emission].[latest].[co2cars]) GROUP BY Mk, Cn, Ft, Year ORDER BY n DESC"
+      },
+      "status": {
+        "fetched_at": "2026-09-11T01:40:08+00:00",
+        "files": {
+          "co2cars_agg.json": {
+            "url": "sql:SELECT Mk, Cn, Ft, Year, COUNT(*) AS n, AVG([Ewltp (g/km)]) AS co2_wltp_g_km, AVG([Erwltp (g/km)]) AS co2_reduction_g_km, AVG([Z (Wh/km)]) AS wh_per_km, AVG(Fc) AS fuel_l_100km, AVG([Ep (KW)]) AS power_kw, AVG([M (kg)]) AS mass_kg, AVG([Ec (cm3)]) AS displ_cm3 FROM [CO2Emission].[latest].[co2cars] WHERE MS='DE' AND  Ct='M1' AND Year = (SELECT MAX(Year) FROM [CO2Emission].[latest].[co2cars]) GROUP BY Mk, Cn, Ft, Year ORDER BY n DESC",
+            "bytes": 486427,
+            "sha256": "7031241194233c1cfd4c24a8a1293a0eddac3d6cee5ef2ee63bd4cb3255ec12b",
+            "seconds": 4.2,
+            "rows": 2125,
+            "ok": true
+          }
+        },
+        "derived": {
+          "ok": true,
+          "path": "sample-data/open/de/eea_co2_de.csv",
+          "rows": 2034,
+          "bytes": 210701
+        }
+      }
+    },
+    "eea_co2_eu": {
+      "market": "eu",
+      "name": "EEA Monitoring of CO2 emissions from passenger cars - EU-wide aggregate by make/model/fuel",
+      "publisher": "European Environment Agency (Discodata SQL API)",
+      "license": "EEA standard re-use policy (free re-use with attribution)",
+      "fields_used": "as eea_co2_de, all member states",
+      "notes": "EU-wide segment competitors and volumes for the Europe market pack.",
+      "urls": {
+        "co2cars_agg.json": "sql:SELECT Mk, Cn, Ft, Year, COUNT(*) AS n, AVG([Ewltp (g/km)]) AS co2_wltp_g_km, AVG([Erwltp (g/km)]) AS co2_reduction_g_km, AVG([Z (Wh/km)]) AS wh_per_km, AVG(Fc) AS fuel_l_100km, AVG([Ep (KW)]) AS power_kw, AVG([M (kg)]) AS mass_kg, AVG([Ec (cm3)]) AS displ_cm3 FROM [CO2Emission].[latest].[co2cars] WHERE  Ct='M1' AND Year = (SELECT MAX(Year) FROM [CO2Emission].[latest].[co2cars]) GROUP BY Mk, Cn, Ft, Year ORDER BY n DESC"
+      },
+      "status": {
+        "fetched_at": "2026-09-11T01:40:12+00:00",
+        "files": {
+          "co2cars_agg.json": {
+            "url": "sql:SELECT Mk, Cn, Ft, Year, COUNT(*) AS n, AVG([Ewltp (g/km)]) AS co2_wltp_g_km, AVG([Erwltp (g/km)]) AS co2_reduction_g_km, AVG([Z (Wh/km)]) AS wh_per_km, AVG(Fc) AS fuel_l_100km, AVG([Ep (KW)]) AS power_kw, AVG([M (kg)]) AS mass_kg, AVG([Ec (cm3)]) AS displ_cm3 FROM [CO2Emission].[latest].[co2cars] WHERE  Ct='M1' AND Year = (SELECT MAX(Year) FROM [CO2Emission].[latest].[co2cars]) GROUP BY Mk, Cn, Ft, Year ORDER BY n DESC",
+            "bytes": 2639062,
+            "sha256": "c57b720b006f5bc09ae17a3ab3be0d6aa2045a5439253a0cdec30d5d82054e5b",
+            "seconds": 19.2,
+            "rows": 11204,
+            "ok": true
+          }
+        },
+        "derived": {
+          "ok": true,
+          "path": "sample-data/open/eu/eea_co2_eu.csv",
+          "rows": 2500,
+          "bytes": 293500
+        }
+      }
+    },
+    "bnetza_ladesaeulen": {
+      "market": "de",
+      "name": "Bundesnetzagentur Ladesaeulenregister (public charging infrastructure register)",
+      "publisher": "Bundesnetzagentur",
+      "license": "Datenlizenz Deutschland - Namensnennung - Version 2.0 (dl-de/by-2-0)",
+      "fields_used": "Bundesland, Anzahl Ladepunkte, Nennleistung Ladeeinrichtung [kW]",
+      "notes": "Charging stations, charge points, fast/HPC counts per Bundesland for EV readiness and TCO charging-availability messaging. URL is dated; update on refresh.",
+      "urls": {
+        "Ladesaeulenregister.csv": "https://data.bundesnetzagentur.de/Bundesnetzagentur/DE/Fachthemen/ElektrizitaetundGas/E-Mobilitaet/Ladesaeulenregister_BNetzA_2026-09-01.csv"
+      },
+      "status": {
+        "fetched_at": "2026-09-11T01:40:31+00:00",
+        "files": {
+          "Ladesaeulenregister.csv": {
+            "url": "https://data.bundesnetzagentur.de/Bundesnetzagentur/DE/Fachthemen/ElektrizitaetundGas/E-Mobilitaet/Ladesaeulenregister_BNetzA_2026-09-01.csv",
+            "bytes": 55559083,
+            "sha256": "cdd8e38f1fa7e8512bd97caa8cf77e9f875436be1f8fe3fe1f2bd9789a504c5b",
+            "seconds": 345.8,
+            "ok": true
+          }
+        },
+        "derived": {
+          "ok": true,
+          "path": "sample-data/open/de/bnetza_ladesaeulen.csv",
+          "rows": 16,
+          "bytes": 1247
+        }
+      }
+    },
+    "eurostat_electricity": {
+      "market": "eu",
+      "name": "Eurostat nrg_pc_204 - Electricity prices for household consumers (band DC, all taxes)",
+      "publisher": "Eurostat",
+      "license": "Eurostat free re-use policy (CC BY 4.0 equivalent, attribution required)",
+      "fields_used": "geo, time (semester), EUR/kWh incl. taxes, band DC",
+      "notes": "energy_price_default for the de market and per-country overrides.",
+      "urls": {
+        "nrg_pc_204.json": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_pc_204?format=JSON&lang=EN&siec=E7000&nrg_cons=KWH2500-4999&unit=KWH&tax=I_TAX&currency=EUR&geo=DE&geo=FR&geo=IT&geo=ES&geo=NL&geo=AT&geo=BE&geo=PL&geo=SE&geo=EU27_2020"
+      },
+      "status": {
+        "fetched_at": "2026-09-11T01:49:52+00:00",
+        "files": {
+          "nrg_pc_204.json": {
+            "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_pc_204?format=JSON&lang=EN&siec=E7000&nrg_cons=KWH2500-4999&unit=KWH&tax=I_TAX&currency=EUR&geo=DE&geo=FR&geo=IT&geo=ES&geo=NL&geo=AT&geo=BE&geo=PL&geo=SE&geo=EU27_2020",
+            "bytes": 9444,
+            "sha256": "725b15301bf377ead613c1aa08c0bc612bdf92d3b930cdfd06fdeda49bdfe7e8",
+            "seconds": 2.0,
+            "ok": true
+          }
+        },
+        "derived": {
+          "ok": true,
+          "path": "sample-data/open/eu/eurostat_electricity.csv",
+          "rows": 10,
+          "bytes": 1090
+        }
+      }
+    },
+    "ec_oil_bulletin": {
+      "market": "eu",
+      "name": "European Commission Weekly Oil Bulletin - EU price history + latest weekly prices per member state",
+      "publisher": "European Commission, DG ENER",
+      "license": "EU re-use policy (Decision 2011/833/EU), attribution required",
+      "fields_used": "Country, date, Euro-super 95 and automotive gas oil (diesel) prices with taxes",
+      "notes": "fuel_price_default for the de market TCO; per-country overrides.",
+      "urls": {
+        "Oil_Bulletin_Prices_History.xlsx": "https://energy.ec.europa.eu/document/download/906e60ca-8b6a-44e7-8589-652854d2fd3f_en?filename=Weekly_Oil_Bulletin_Prices_History_maticni_4web.xlsx",
+        "Weekly_prices_with_taxes.xlsx": "https://energy.ec.europa.eu/document/download/264c2d0f-f161-4ea3-a777-78faae59bea0_en?filename=Weekly%20Oil%20Bulletin%20Weekly%20prices%20with%20Taxes%20-%202024-02-19.xlsx"
+      },
+      "status": {
+        "fetched_at": "2026-09-11T01:51:23+00:00",
+        "files": {
+          "Oil_Bulletin_Prices_History.xlsx": {
+            "url": "https://energy.ec.europa.eu/document/download/906e60ca-8b6a-44e7-8589-652854d2fd3f_en?filename=Weekly_Oil_Bulletin_Prices_History_maticni_4web.xlsx",
+            "bytes": 4463595,
+            "sha256": "679d08e64a72c59b35b924cfbe2e88292f7a36dd2fc9c8e365746bd899e4c206",
+            "seconds": 0.3,
+            "ok": true
+          },
+          "Weekly_prices_with_taxes.xlsx": {
+            "url": "https://energy.ec.europa.eu/document/download/264c2d0f-f161-4ea3-a777-78faae59bea0_en?filename=Weekly%20Oil%20Bulletin%20Weekly%20prices%20with%20Taxes%20-%202024-02-19.xlsx",
+            "bytes": 14180,
+            "sha256": "9c9a06ef73391af6d062df4879ed7f767036dcbfa1bff6bd9a70fb139152b5b8",
+            "seconds": 0.7,
+            "ok": true
+          }
+        },
+        "derived": {
+          "ok": true,
+          "path": "sample-data/open/eu/ec_oil_bulletin.csv",
+          "rows": 30,
+          "bytes": 5046
+        }
+      }
+    },
+    "afdc_charging_ports": {
+      "market": "us",
+      "name": "AFDC Electric Vehicle Charging Ports by State",
+      "publisher": "U.S. DOE Alternative Fuels Data Center (Station Locator)",
+      "license": "U.S. Government work, public domain",
+      "fields_used": "State, public ports, private ports, total ports",
+      "notes": "Charging infrastructure per state for EV readiness and TCO messaging. Replaces the NREL Station Locator API, which is not reachable from the build network (developer.nrel.gov DNS blocked); the widget is a snapshot of the same data.",
+      "urls": {
+        "ev_charging_ports_by_state.html": "https://afdc.energy.gov/data/widgets/10366"
+      },
+      "status": {
+        "fetched_at": "2026-09-11T01:59:32+00:00",
+        "files": {
+          "ev_charging_ports_by_state.html": {
+            "url": "https://afdc.energy.gov/data/widgets/10366",
+            "bytes": 14474,
+            "sha256": "04590f4666075e92c2dcbf420d3e446aa2456cadd87820f70f616cc15742168b",
+            "seconds": 0.8,
+            "ok": true
+          }
+        },
+        "derived": {
+          "ok": true,
+          "path": "sample-data/open/us/afdc_charging_ports.csv",
+          "rows": 51,
+          "bytes": 2804
+        }
+      }
+    }
+  },
+  "generated_at": "2026-09-11T02:01:24+00:00"
+}

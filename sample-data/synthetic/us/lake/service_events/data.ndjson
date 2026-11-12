@@ -1,0 +1,508 @@
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T04:16:45Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T05:12:26Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T09:06:08Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T07:04:28Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T07:13:11Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T15:43:14Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T16:04:09Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T08:36:27Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T10:04:09Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T20:18:38Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T03:00:12Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-11T07:41:13Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-11T00:59:04Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-11T15:34:39Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T20:04:51Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-11T08:44:28Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T14:01:57Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T10:03:35Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-12T09:17:53Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-12T02:19:45Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-11T22:08:59Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-11T16:07:31Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T17:40:09Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-12T12:44:13Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T18:42:29Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-12T22:48:35Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-11T15:00:19Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-13T06:12:32Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-12T22:25:39Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-11T02:41:54Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T08:07:50Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-12T13:04:24Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-12T14:20:24Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-13T12:08:43Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-12T09:31:46Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00001"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-08T19:17:39Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-08T21:26:04Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-08T22:28:37Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-08T22:18:55Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T06:26:04Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T05:21:10Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T01:15:18Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T13:43:18Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T17:53:06Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T10:00:36Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T06:34:45Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T11:56:35Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T11:13:36Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T04:31:18Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T08:20:58Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T22:42:46Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T10:51:35Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T02:12:32Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T16:40:44Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T19:39:19Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-11T01:32:41Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T00:58:59Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T06:11:54Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T19:45:51Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-11T02:18:36Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T16:20:13Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-11T14:36:00Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T20:20:32Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-12T00:36:26Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-11T21:10:18Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00002"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T04:07:23Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T06:58:44Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T07:45:00Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T08:59:08Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T15:03:57Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T17:17:19Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T15:14:07Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T12:44:48Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T11:15:47Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-11T05:45:53Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T20:53:38Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-11T11:21:27Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-11T07:52:14Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T03:02:51Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T15:37:19Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T20:36:35Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-11T21:23:52Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T00:55:16Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-11T15:23:20Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-12T08:58:37Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-12T02:25:59Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T19:07:36Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T02:24:55Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T23:18:21Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-12T15:33:31Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-11T16:21:06Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T21:27:42Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-12T19:54:41Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-11T09:52:50Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-13T08:33:35Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T15:25:51Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00003"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T07:43:03Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T09:15:20Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T10:03:21Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T16:14:13Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T15:15:01Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T17:37:20Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T13:21:27Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T11:34:12Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T22:28:15Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T06:37:53Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T22:06:26Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T22:01:09Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T11:00:13Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T07:19:03Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T06:35:14Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T02:54:44Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T15:46:06Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T11:41:52Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T07:33:57Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T14:04:21Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T00:41:49Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T20:31:29Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T10:45:08Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00004"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T03:53:04Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T06:44:57Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T05:03:20Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T09:28:22Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T15:10:19Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T13:39:27Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T09:51:45Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T18:27:52Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T19:52:37Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T05:51:16Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T14:08:38Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-11T10:58:27Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-11T07:03:13Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T11:40:46Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-11T00:41:56Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T13:24:31Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T19:43:06Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-11T00:52:50Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T14:57:36Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T21:53:59Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T20:20:16Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-12T14:18:47Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-11T11:58:43Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00005"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T00:19:36Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T02:56:21Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T02:54:04Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T04:16:45Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T10:18:50Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T08:15:07Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T17:26:03Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T06:45:23Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T23:43:48Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T07:18:31Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T22:15:49Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T19:28:30Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T15:31:29Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T05:28:16Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T21:26:35Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T11:18:27Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T04:17:46Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-11T17:03:19Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-11T01:01:30Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-11T23:21:26Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T12:18:03Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-11T17:41:50Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-12T10:52:32Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T21:00:57Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-12T20:59:01Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00006"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T16:21:20Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T17:27:50Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T20:11:30Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T00:38:34Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T23:59:22Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T06:10:04Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T22:49:39Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T22:22:18Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T13:17:53Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T18:11:38Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T22:47:50Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T13:14:04Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T01:00:14Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T12:35:16Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T06:54:30Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T22:33:56Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T09:10:50Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T16:58:13Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T09:27:17Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T02:54:43Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T18:36:51Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T00:01:07Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T05:06:42Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T09:14:42Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T20:27:52Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-12T05:57:46Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-12T12:56:03Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-11T09:04:17Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-11T20:27:11Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T09:21:55Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T19:41:13Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-11T04:02:16Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-12T08:41:59Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-13T02:35:03Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-13T10:20:06Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-11T09:52:16Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-12T21:50:15Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00007"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T02:03:21Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T03:11:15Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T04:10:00Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T05:07:29Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T08:15:58Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T15:46:26Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T13:32:18Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T14:16:27Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T06:56:54Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T03:23:16Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T16:47:00Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T02:02:52Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T07:25:38Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T19:11:08Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T15:13:51Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T08:15:42Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T04:13:12Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T18:48:24Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T22:37:59Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-11T01:55:34Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-11T05:04:33Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T21:18:04Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T21:56:04Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T20:27:18Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-11T05:42:31Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T18:08:09Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-12T00:23:05Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-11T02:36:44Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00008"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-07-11T23:56:28Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00009"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-07-12T00:43:45Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00009"}
+{"actor": {"type": "technician"}, "event_ts": "2026-07-12T04:37:49Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00009"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-07-12T02:32:44Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00009"}
+{"actor": {"type": "technician"}, "event_ts": "2026-08-12T19:04:06Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00010"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-08-12T20:12:53Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00010"}
+{"actor": {"type": "technician"}, "event_ts": "2026-08-12T22:41:09Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00010"}
+{"actor": {"type": "technician"}, "event_ts": "2026-08-13T01:15:48Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00010"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-08-13T02:53:49Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00010"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-08-12T22:24:08Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00010"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T21:25:40Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00011"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T22:13:43Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00011"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T00:03:02Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00011"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T04:42:29Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00011"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T03:52:49Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00011"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T07:04:41Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00011"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T14:48:15Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00011"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T11:05:50Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00011"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T09:55:51Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00011"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T05:50:41Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00011"}
+{"actor": {"type": "technician"}, "event_ts": "2026-08-15T10:50:24Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00012"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-08-15T11:31:09Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00012"}
+{"actor": {"type": "technician"}, "event_ts": "2026-08-15T16:04:13Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00012"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-08-15T15:52:28Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00012"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-08-15T13:18:12Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00012"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-07-17T15:22:04Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00013"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-07-17T17:44:22Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00013"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-07-17T18:21:53Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00013"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-07-17T21:38:58Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00013"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-07-17T22:15:35Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00013"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-07-03T00:08:53Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00014"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-07-03T01:14:53Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00014"}
+{"actor": {"type": "technician"}, "event_ts": "2026-07-03T02:43:34Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00014"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-08T20:00:35Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00015"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-08T22:40:02Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00015"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T01:14:20Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00015"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T00:58:16Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00015"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T02:00:35Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00015"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T02:28:28Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00015"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T02:52:51Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00015"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T10:46:52Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00015"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T12:07:44Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00015"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T15:31:31Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00015"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-08T03:04:40Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00016"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-08T05:14:48Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00016"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-08T06:56:40Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00016"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-08T08:31:29Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00016"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-08T13:59:57Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00016"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-08T14:50:48Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00016"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-08T23:16:49Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00017"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T01:45:09Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00017"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T04:57:21Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00017"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T05:49:55Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00017"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T07:22:26Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00017"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T23:53:30Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00018"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T02:01:33Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00018"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T05:15:55Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00018"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T05:08:58Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00018"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T10:48:24Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00018"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T04:32:46Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00018"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T05:27:07Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00018"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T08:43:38Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00018"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T05:32:55Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00018"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T22:54:14Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00018"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-07-23T12:04:55Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00019"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-07-23T12:40:35Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00019"}
+{"actor": {"type": "technician"}, "event_ts": "2026-07-23T15:26:37Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00019"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-08T18:44:28Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00020"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-08T21:21:35Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00020"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-08T23:32:15Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00020"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T03:28:53Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00020"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T02:32:23Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00020"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T09:11:36Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00020"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T09:56:25Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00020"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T10:51:04Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00020"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T15:47:46Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00020"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-08-01T05:18:30Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00021"}
+{"actor": {"type": "technician"}, "event_ts": "2026-08-01T06:32:47Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00021"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-08-01T11:10:39Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00021"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T04:36:45Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00022"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T06:06:05Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00022"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T07:11:11Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00022"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T13:17:16Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00022"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T13:30:06Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00022"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T07:14:28Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00022"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-07-16T22:46:38Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00023"}
+{"actor": {"type": "technician"}, "event_ts": "2026-07-16T23:50:47Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00023"}
+{"actor": {"type": "technician"}, "event_ts": "2026-07-17T02:16:51Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00023"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-07-17T01:48:13Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00023"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-07-17T01:17:23Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00023"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-08T20:02:44Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00024"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-08T22:28:59Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00024"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-08T21:14:35Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00024"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-08T22:10:36Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00024"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T03:17:15Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00024"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T04:32:33Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00024"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T08:29:00Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00024"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T14:12:33Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00024"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T19:36:19Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00024"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T13:54:57Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00024"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T13:48:15Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00024"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T15:30:50Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00025"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T17:13:19Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00025"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T18:16:16Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00025"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T19:06:20Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00025"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T17:48:00Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00025"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T20:25:15Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00025"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T22:13:54Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00025"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T07:46:59Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00025"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T09:38:24Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00025"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T10:19:06Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00025"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T13:35:43Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00025"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T15:55:48Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00025"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T03:27:31Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00026"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T05:54:35Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00026"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T06:34:19Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00026"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T08:47:58Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00026"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T11:28:58Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00026"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T09:04:49Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00026"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T10:44:24Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00026"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T21:42:32Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00026"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T19:49:18Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00026"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-08T12:54:30Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00027"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-08T14:36:32Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00027"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-08T16:06:13Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00027"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-08T21:21:09Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00027"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-08T15:34:51Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00027"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T01:19:58Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00028"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T02:02:49Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00028"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T02:30:15Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00028"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T09:33:16Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00028"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T04:52:00Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00028"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T08:48:00Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00028"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T01:32:00Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00029"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T03:03:13Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00029"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T05:03:54Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00029"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T07:03:58Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00029"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T06:45:27Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00029"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T14:49:54Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00029"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T06:50:34Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00029"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T09:52:46Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00029"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T23:55:00Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00029"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T18:19:13Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00030"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T20:32:03Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00030"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T22:01:26Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00030"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T01:08:12Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00030"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T03:15:40Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00030"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T23:50:46Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00030"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T01:57:06Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00030"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T11:03:02Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00030"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T02:26:36Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00031"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T03:05:55Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00031"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T03:42:51Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00031"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T07:49:46Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00032"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T08:58:45Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00032"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T09:38:41Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00032"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T16:00:34Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00032"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T14:45:19Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00032"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T22:27:38Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00032"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T11:31:55Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00032"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-07-10T20:46:31Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00033"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-07-10T23:23:46Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00033"}
+{"actor": {"type": "technician"}, "event_ts": "2026-07-11T00:14:01Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00033"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-07-10T22:32:24Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00033"}
+{"actor": {"type": "technician"}, "event_ts": "2026-07-11T04:20:33Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00033"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-07-11T05:29:55Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00033"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-08-18T23:32:34Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00034"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-08-19T01:52:20Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00034"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-08-19T04:13:37Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00034"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-08-19T05:21:08Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00034"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T23:17:26Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00035"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T00:46:41Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00035"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T00:35:56Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00035"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T01:20:44Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00035"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T04:14:31Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00035"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-06-24T11:08:48Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00036"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-06-24T13:49:41Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00036"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-06-24T12:30:30Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00036"}
+{"actor": {"type": "technician"}, "event_ts": "2026-06-24T20:03:19Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00036"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-06-24T15:19:16Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00036"}
+{"actor": {"type": "technician"}, "event_ts": "2026-06-24T16:52:25Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00036"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T22:19:27Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00037"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T23:54:24Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00037"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T01:29:33Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00037"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T05:03:25Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00037"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T02:55:20Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00037"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T10:05:29Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00037"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T11:25:13Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00037"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T17:30:18Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00037"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T10:19:12Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00038"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T11:40:45Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00038"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T11:28:48Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00038"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T14:34:02Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00038"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T18:23:14Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00038"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T23:00:03Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00038"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T13:59:23Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00038"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T21:01:59Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00038"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T15:11:23Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00038"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T23:04:36Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00038"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-08-02T23:43:20Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00039"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-08-03T02:06:51Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00039"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-08-03T04:34:30Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00039"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T06:13:28Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00040"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T09:09:55Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00040"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T10:18:18Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00040"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T08:10:01Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00040"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T08:41:19Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00040"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T15:41:25Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00040"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T11:30:24Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00040"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-07-27T06:03:15Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00041"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-07-27T07:21:31Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00041"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-07-27T08:45:41Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00041"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-07-27T14:07:36Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00041"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T20:18:52Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00042"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T21:23:35Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00042"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T01:42:05Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00042"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T04:21:49Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00042"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T07:02:28Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00042"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T11:17:15Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00042"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T01:57:50Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00042"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-04T17:10:29Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00043"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-04T19:25:08Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00043"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-04T22:27:22Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00043"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-04T21:30:31Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00043"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-05T04:55:57Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00043"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-04T20:23:45Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00043"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-04T23:28:07Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00043"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-05T13:08:23Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00043"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-05T03:48:59Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00043"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-05T10:04:37Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00043"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T20:37:39Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00044"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-09T22:51:16Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00044"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T00:34:09Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00044"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T04:26:31Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00044"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T08:09:46Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00044"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T05:08:39Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00044"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T13:22:24Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00044"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T01:51:04Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00044"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T12:24:24Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00044"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T16:51:02Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00044"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-09T22:23:01Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00045"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T23:06:36Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00045"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T03:15:07Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00045"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T02:53:12Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00045"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T08:26:15Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00045"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-08T04:31:02Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00046"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-08T05:29:11Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00046"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-08T05:57:48Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00046"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-08T07:49:28Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00046"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-08T16:23:53Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00046"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-08T12:42:39Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00046"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-09T22:55:19Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00047"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-09-10T01:34:19Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00047"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T03:46:21Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00047"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-09-10T01:50:54Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00047"}
+{"actor": {"type": "technician"}, "event_ts": "2026-09-10T06:51:28Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00047"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-08-28T03:03:53Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00048"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-08-28T04:02:02Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00048"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-08-28T08:37:54Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00048"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-08-28T08:52:14Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00048"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-08-28T11:11:01Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00048"}
+{"actor": {"type": "technician"}, "event_ts": "2026-06-27T22:31:57Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00049"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-06-27T23:14:36Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00049"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-06-27T23:41:17Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00049"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-06-28T07:14:41Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00049"}
+{"actor": {"type": "technician"}, "event_ts": "2026-08-16T20:54:11Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00050"}
+{"actor": {"type": "technician"}, "event_ts": "2026-08-16T22:02:03Z", "event_type": "vehicle.ready", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00050"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-08-16T23:36:36Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00050"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-08-17T03:03:18Z", "event_type": "parts.ordered", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00050"}
+{"actor": {"type": "technician"}, "event_ts": "2026-08-17T08:10:22Z", "event_type": "ro.line_completed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00050"}
+{"actor": {"type": "technician"}, "event_ts": "2026-08-17T00:20:57Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00050"}
+{"actor": {"type": "technician"}, "event_ts": "2026-08-17T04:49:08Z", "event_type": "estimate.presented", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00050"}
+{"actor": {"agent": "A7", "type": "agent"}, "event_ts": "2026-08-17T01:14:54Z", "event_type": "service.stage_changed", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00050"}
+{"actor": {"type": "advisor"}, "event_ts": "2026-08-17T02:24:15Z", "event_type": "inspection.submitted", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00050"}
+{"actor": {"type": "technician"}, "event_ts": "2026-08-17T22:25:14Z", "event_type": "estimate.line_decided", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00050"}
+{"actor": {"type": "technician"}, "event_ts": "2026-08-17T17:37:25Z", "event_type": "ro.opened", "evidence": "synthetic", "payload": {}, "service_journey_id": "SJ-US-00050"}
