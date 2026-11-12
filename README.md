@@ -4,12 +4,11 @@ A deployable reference implementation for connected automotive retail sales, ser
 
 The repository contains application source, synthetic demonstration data, automated deployment tooling, evaluation assets, architecture decisions, and operator guidance. Presentation source and exported decks are intentionally maintained outside the published code repository.
 
-**Use case walkthrough:** [`docs/use-case-walkthrough.html`](docs/use-case-walkthrough.html)
+**Use case walkthrough:** [`docs/use-case-walkthrough.md`](docs/use-case-walkthrough.md)
 puts the business use case and the architecture on one page: two short
 interactive stories (one buyer's journey from lead to service, and the OEM's
 eight AWS Quick Flows) next to the architecture diagrams that implement them,
-the seven agents, and what a deployment creates and costs. GitHub shows HTML
-files as source, so open it locally after cloning, or from GitHub Pages.
+the seven agents, and what a deployment creates and costs.
 
 ## Table of Contents
 
@@ -187,7 +186,7 @@ a stack deployed before 2026-10-19 still carries it until it is removed with
 
 | Goal | Document or command |
 |---|---|
-| See the business use case and the architecture on one page | [`docs/use-case-walkthrough.html`](docs/use-case-walkthrough.html) (open in a browser) |
+| See the business use case and the architecture on one page | [`docs/use-case-walkthrough.md`](docs/use-case-walkthrough.md) |
 | Read the documentation for external audiences (customers, partners, evaluators) | [`docs/external/README.md`](docs/external/README.md) |
 | Understand the deployed implementation | [`docs/as-built/README.md`](docs/as-built/README.md) |
 | Review requirements and target behavior | [`docs/specs/intelligent-sales-service-orchestration.md`](docs/specs/intelligent-sales-service-orchestration.md) |
