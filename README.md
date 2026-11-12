@@ -102,8 +102,7 @@ account quiet, disable the writer jobs and run them on demand (see
 [`docs/external/04-deployment.md`](docs/external/04-deployment.md#operating)).
 
 The full estimate, with every assumption and unit price as an editable input, is
-in [`docs/cost/cost-estimate.xlsx`](docs/cost/cost-estimate.xlsx) (PDF:
-[`docs/cost/cost-estimate.pdf`](docs/cost/cost-estimate.pdf)).
+in [`docs/cost/cost-estimate.xlsx`](docs/cost/cost-estimate.xlsx).
 
 _We recommend creating a [Budget](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html)
 through [AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/)
