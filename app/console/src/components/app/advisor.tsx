@@ -1,6 +1,6 @@
 "use client";
 
-// Advisor reference components (sales-advisor-v2.html). Also reused by the
+// Advisor reference components (the dealer-floor UI mockup). Also reused by the
 // Service Desk operating screens per spec §5.20: rec-card → finding / estimate
 // line, incentive-row → coverage row, compare-table → good-better-best, etc.
 

@@ -403,8 +403,8 @@ def estimate_trade_in_value(
     AgentCore Code Interpreter (Req 4.5, 6.5).
 
     Args:
-        make: Vehicle make (e.g. 'Toyota').
-        model: Vehicle model (e.g. 'Camry').
+        make: Vehicle make (e.g. 'Kestrel').
+        model: Vehicle model (e.g. 'Crescent').
         year: Model year.
         mileage: Current mileage.
         condition: 'Excellent', 'Good', 'Fair', or 'Poor'.

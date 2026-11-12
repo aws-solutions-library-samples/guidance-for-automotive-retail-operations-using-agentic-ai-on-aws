@@ -1,7 +1,7 @@
-"""Amazon Quick — plug-and-play A6/A5 integration (spec retail-ops-quick-project.md).
+"""AWS Quick — plug-and-play A6/A5 integration (spec retail-ops-quick-project.md).
 
-CORRECTION: Amazon Quick IS the `quicksight` service (Quick evolved from
-QuickSight; "Amazon Quick Sight" is a feature within Quick, and QuickSight APIs
+CORRECTION: AWS Quick IS the `quicksight` service (Quick evolved from
+QuickSight; "AWS Quick Sight" is a feature within Quick, and QuickSight APIs
 continue to work). The prior Amazon Q Business (`qapps`) build targeted the
 DEPRECATED product and is removed.
 
@@ -14,7 +14,7 @@ Feature-flagged provider over the `quicksight` client:
       call, no behavior change (safe to ship dark).
   ENABLE_QUICK=true            -> QuickClient: real quicksight calls.
 
-Quick Flows / dashboards / connectors live in Amazon Quick on their own lifecycle
+Quick Flows / dashboards / connectors live in AWS Quick on their own lifecycle
 (spec §7): deploy_quick_content.py creates them where the API allows, the rest is
 built in the Quick console; this provider consumes them. quick-config.json
 (written by deploy_quick.py) supplies the embed user + discovered resources.
@@ -30,7 +30,7 @@ from typing import Any
 
 from ..common import envname
 
-# Amazon Quick groups (namespace `default`). They exist to SHARE the
+# AWS Quick groups (namespace `default`). They exist to SHARE the
 # console-authored content — space, topic, knowledge bases, connector, A6 agent,
 # Flows, A5 dashboard. Quick content is not row-scoped (no row-level security,
 # spec §13 2026-10-21), so a member sees every row of what is shared with their
@@ -98,13 +98,13 @@ class QuickProvider:
 
 
 class DisabledQuick(QuickProvider):
-    """Default: Amazon Quick not enabled. No quicksight API call."""
+    """Default: AWS Quick not enabled. No quicksight API call."""
 
     def _off(self, op: str) -> dict[str, Any]:
         return {"enabled": False, "op": op,
-                "note": "Amazon Quick is not enabled (set ENABLE_QUICK=true). Amazon Quick "
+                "note": "AWS Quick is not enabled (set ENABLE_QUICK=true). AWS Quick "
                         "is the quicksight service; Flows/dashboards are authored in the "
-                        "Amazon Quick console and discovered by deploy_quick.py.",
+                        "AWS Quick console and discovered by deploy_quick.py.",
                 "source_ref": "platform.DisabledQuick"}
 
     def list_flows(self) -> dict[str, Any]:
@@ -118,7 +118,7 @@ class DisabledQuick(QuickProvider):
 
 
 class QuickClient(QuickProvider):
-    """Real Amazon Quick over the quicksight client."""
+    """Real AWS Quick over the quicksight client."""
 
     def _qs(self):
         import boto3
@@ -133,8 +133,8 @@ class QuickClient(QuickProvider):
             flows = self._qs().list_flows(AwsAccountId=acct).get("FlowSummaryList", [])
             return {"enabled": True, "count": len(flows),
                     "flows": [{"flow_id": f.get("FlowId"), "name": f.get("Name")} for f in flows],
-                    "note": None if flows else "No Quick Flows authored yet (build them in the Amazon Quick console).",
-                    "source_ref": "quicksight ListFlows (Amazon Quick)"}
+                    "note": None if flows else "No Quick Flows authored yet (build them in the AWS Quick console).",
+                    "source_ref": "quicksight ListFlows (AWS Quick)"}
         except Exception as e:
             return {"enabled": True, "error": f"{type(e).__name__}: {e}", "source_ref": "platform.QuickClient"}
 
@@ -144,7 +144,7 @@ class QuickClient(QuickProvider):
             dbs = self._qs().list_dashboards(AwsAccountId=acct).get("DashboardSummaryList", [])
             return {"enabled": True, "count": len(dbs),
                     "dashboards": [{"dashboard_id": d.get("DashboardId"), "name": d.get("Name")} for d in dbs],
-                    "source_ref": "quicksight ListDashboards (Amazon Quick Sight)"}
+                    "source_ref": "quicksight ListDashboards (AWS Quick Sight)"}
         except Exception as e:
             return {"enabled": True, "error": f"{type(e).__name__}: {e}", "source_ref": "platform.QuickClient"}
 

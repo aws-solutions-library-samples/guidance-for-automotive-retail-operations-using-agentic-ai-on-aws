@@ -8,10 +8,10 @@
 # dev) picks the environment, the name the stack was deployed with.
 #
 # Covers: schedules, alarms, CloudFront distribution + function + OACs, WAF,
-# Amazon Quick content (the eight `Retail Ops …` Flows, chat agent, space,
+# AWS Quick content (the eight `Retail Ops …` Flows, chat agent, space,
 # dashboard + analysis, topic, knowledge bases + their S3 source, custom-SQL
 # datasets, and the console-built MCP connector `Retail Ops OEM Read Gateway`;
-# dependents first), Amazon Quick datasets / data source / groups / service-role
+# dependents first), AWS Quick datasets / data source / groups / service-role
 # policy, AgentCore gateways / runtime / memory / workload identities, Bedrock
 # knowledge base + S3 Vectors + guardrail, REST API, Step Functions, Lambdas +
 # layers, EventBridge rules (+ the app-bus-<env> bus once empty), SQS, Firehose,
@@ -36,7 +36,7 @@
 #   deploy/destroy.sh --env g4f2a91 --confirm --account <id> --include-data   # delete all of it
 #   deploy/destroy.sh --confirm --account <id>                      # keep tables + lake
 #   deploy/destroy.sh --confirm --account <id> --only quick,alarms  # selected stages
-#   deploy/destroy.sh --only quick_content,quick                    # Amazon Quick only (dry run)
+#   deploy/destroy.sh --only quick_content,quick                    # AWS Quick only (dry run)
 #   deploy/destroy.sh --stem <old-stem> --confirm --account <id>    # a stack under an earlier stem
 #
 # A CloudFront distribution is disabled first and deleted once it has finished

@@ -4,15 +4,15 @@ description: >
   Reasoning skill for choosing the right AWS delivery model per agentic use case and persona, and for
   composing several models into one coherent system, based on the automotive retail and service reference
   architecture. Use when deciding between a custom agent on Amazon Bedrock AgentCore, an AgentCore
-  real-time streaming path, an Amazon Quick agent / Flows / Index / Research, Quick or QuickSight analytics,
+  real-time streaming path, an AWS Quick agent / Flows / Index / Research, Quick or QuickSight analytics,
   deterministic read models, brand customer web, or an outreach provider; when designing autonomy levels
   and hard rules for proactive agents; or when reviewing a proposal that puts every use case on one stack.
-  Triggers include "AgentCore vs Quick", "Amazon Quick agent", "Quick Flows", "Quick Index", "Quick Research",
+  Triggers include "AgentCore vs Quick", "AWS Quick agent", "Quick Flows", "Quick Index", "Quick Research",
   "Strands agent", "AgentCore Gateway", "AgentCore Memory", "Code Interpreter", "supervisor agent",
   "multi-agent", "delivery model", "which stack", "autonomy level", "human in the loop", "act with approval",
   "hard rules", "guardrails", "event-driven agent", "scheduled agent", "proactive agent", "outcome loop",
   "recommendation logging", "persona-based architecture".
-usage: Invoke when selecting or reviewing the technology stack for an agentic use case, composing AgentCore and Amazon Quick into one solution, or designing autonomy and control for proactive agents.
+usage: Invoke when selecting or reviewing the technology stack for an agentic use case, composing AgentCore and AWS Quick into one solution, or designing autonomy and control for proactive agents.
 version: 1.0.0
 tags: [skill, category:reasoning, aws-architecture, agentic, automotive]
 ---
@@ -35,9 +35,9 @@ R1  Stateful, long-running orchestration over a journey (owns a state machine), 
 R2  Sub-2-second streaming on a live conversation
                                              → AgentCore real-time path, even inside a Quick-hosted use case; it asks Quick for content
 R3  Document-style generation and cited Q&A over enterprise content for a knowledge worker who lives in chat and documents
-                                             → Amazon Quick: agent + Flows + Index (+ Research for external synthesis)
+                                             → AWS Quick: agent + Flows + Index (+ Research for external synthesis)
 R4  Analytics, dashboards, natural-language questions on a lake
-                                             → Amazon Quick / QuickSight; AgentCore only for the traceable, approvable recommendation step
+                                             → AWS Quick / QuickSight; AgentCore only for the traceable, approvable recommendation step
 R5  Deterministic boards, queues, worksheets, approvals
                                              → Next.js + Lambda read models; agents pre-compute into the tables the screen reads
 R6  Customer self-service on brand web or mobile
@@ -174,4 +174,4 @@ Use case: "Help the service advisor sell more recommended work." Decomposed into
 
 - Intelligent Sales & Service Orchestration requirements spec v1.3 §2.2.1 (use-case classification), §2.2.2 (delivery-model selection R1–R7 and composition rules), §4.10 (agentic operating model), §11 criteria 31–37
 - `docs/specs/retail-ops-architecture.md` §2, §3, §13 (agentic operating model diagram)
-- Amazon Bedrock AgentCore, Amazon Quick, Strands Agents SDK documentation for current service capabilities
+- Amazon Bedrock AgentCore, AWS Quick, Strands Agents SDK documentation for current service capabilities

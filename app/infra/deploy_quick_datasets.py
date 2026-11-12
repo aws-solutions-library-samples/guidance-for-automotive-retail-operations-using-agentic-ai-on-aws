@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Make the Retail Ops event lake available to Amazon Quick (QuickSight) as datasets.
+"""Make the Retail Ops event lake available to AWS Quick (QuickSight) as datasets.
 
 The Quick-native dashboards/analyses are console-authored (spec
 retail-ops-quick-project.md), but they need something to bind to: an Athena data
@@ -117,7 +117,7 @@ def _lake_bucket(account: str) -> str:
 
 
 def quick_role_policy(account: str, bucket: str) -> dict:
-    """The inline grant Amazon Quick's service role needs to query the lake through
+    """The inline grant AWS Quick's service role needs to query the lake through
     Athena: read the lake, write Athena results, use the workgroup and the Glue
     catalog, and read the solution's DynamoDB tables."""
     b = f"arn:aws:s3:::{bucket}"
@@ -155,7 +155,7 @@ def ensure_quick_role_policy(iam, account: str, apply: bool) -> bool:
     roles = [r["RoleName"] for page in iam.get_paginator("list_roles").paginate(PathPrefix="/service-role/")
              for r in page["Roles"] if r["RoleName"].startswith(QUICK_SERVICE_ROLE_PREFIX)]
     if not roles:
-        print(f"  WARN: no {QUICK_SERVICE_ROLE_PREFIX}* role; is Amazon Quick subscribed in this account?")
+        print(f"  WARN: no {QUICK_SERVICE_ROLE_PREFIX}* role; is AWS Quick subscribed in this account?")
         return False
     changed = False
     for role in roles:
@@ -431,7 +431,7 @@ def delete() -> None:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Provision Amazon Quick datasets over the Retail Ops lake")
+    ap = argparse.ArgumentParser(description="Provision AWS Quick datasets over the Retail Ops lake")
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--status", action="store_true")
     ap.add_argument("--delete", action="store_true")
@@ -441,7 +441,7 @@ def main() -> None:
     if args.delete:
         delete(); return
     mode = "APPLY" if args.apply else "DRY-RUN"
-    print(f"[{mode}] provision Amazon Quick datasets over {DATABASE}")
+    print(f"[{mode}] provision AWS Quick datasets over {DATABASE}")
     run(args.apply)
     print(f"[{mode}] done.")
 

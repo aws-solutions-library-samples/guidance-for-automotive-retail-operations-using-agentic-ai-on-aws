@@ -159,7 +159,7 @@ function ArtifactPanel({ accountId, type, title, latest, canSubmit, canDecide, o
   );
 }
 
-/** "District Sales vs Target" — a text summary (the Amazon Quick dashboard embeds on the Quick tab). */
+/** "District Sales vs Target" — a text summary (the AWS Quick dashboard embeds on the Quick tab). */
 function SalesVsTargetChart({ summary }: { summary: any }) {
   const sales = summary?.sales_health_index;
   return (
@@ -180,7 +180,7 @@ function SalesVsTargetChart({ summary }: { summary: any }) {
           </span>
         </div>
       </div>
-      <p className="dim text-xs mt-2">The embedded Amazon Quick &quot;District Sales vs Target&quot; dashboard renders here when Quick is enabled.</p>
+      <p className="dim text-xs mt-2">The embedded AWS Quick &quot;District Sales vs Target&quot; dashboard renders here when Quick is enabled.</p>
     </Card>
   );
 }

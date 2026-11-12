@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""CUSTOM_JWT AgentCore Gateway for Amazon Quick (Retail Ops Quick Build checklist §3).
+"""CUSTOM_JWT AgentCore Gateway for AWS Quick (Retail Ops Quick Build checklist §3).
 
 The AWS_IAM gateway (`retail-ops-<env>-crosspersona`, deploy_gateway.py) serves the
-console/runtime cross-persona path. Amazon Quick's MCP connector, by contrast,
+console/runtime cross-persona path. AWS Quick's MCP connector, by contrast,
 authenticates with an **OAuth client-credentials token** from Cognito, so it
 needs a gateway whose inbound authorizer is **CUSTOM_JWT** validating that
 Cognito token. This deployer stands up that second gateway:
@@ -91,7 +91,7 @@ def _ensure_gateway(agc, gw_role_arn: str, apply: bool, discovery_url: str, allo
         return agc.get_gateway(gatewayIdentifier=existing["gatewayId"])
     resp = agc.create_gateway(
         name=GW_NAME,
-        description="Retail Ops cross-persona OEM read for Amazon Quick (CUSTOM_JWT)",
+        description="Retail Ops cross-persona OEM read for AWS Quick (CUSTOM_JWT)",
         roleArn=gw_role_arn,
         protocolType="MCP",
         authorizerType="CUSTOM_JWT",
@@ -204,7 +204,7 @@ def delete_stack() -> None:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Retail Ops CUSTOM_JWT gateway for Amazon Quick")
+    ap = argparse.ArgumentParser(description="Retail Ops CUSTOM_JWT gateway for AWS Quick")
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--status", action="store_true")
     ap.add_argument("--delete", action="store_true")
@@ -214,7 +214,7 @@ def main() -> None:
     if args.delete:
         delete_stack(); return
     mode = "APPLY" if args.apply else "DRY-RUN"
-    print(f"[{mode}] CUSTOM_JWT gateway for Amazon Quick")
+    print(f"[{mode}] CUSTOM_JWT gateway for AWS Quick")
     cfg = apply_stack(args.apply)
     print(f"[{mode}] done. gateway_id={cfg.get('gateway_id')} url={cfg.get('gateway_url')}")
 

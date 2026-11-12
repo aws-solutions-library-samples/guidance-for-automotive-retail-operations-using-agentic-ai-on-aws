@@ -1,5 +1,5 @@
 # ruff: noqa: S101
-"""Amazon Quick content through the Quick API (app/infra/deploy_quick_content.py):
+"""AWS Quick content through the Quick API (app/infra/deploy_quick_content.py):
 dry run, apply, idempotence, sharing (the group and each builder user directly),
 the naming rule, no secret handling, the console connector link, the Flow step
 references and "OEM facts" prompts, the teardown order, and the embed allowed

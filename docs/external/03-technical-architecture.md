@@ -27,9 +27,9 @@ tools. Bedrock phrases grounded answers at defined points, every model call
 carries a managed Bedrock Guardrail, retrieval uses a Bedrock Knowledge Base,
 and every generative step has a deterministic fallback. State lives in Amazon
 DynamoDB, changes are published as typed events on Amazon EventBridge, events
-land in an Amazon S3 lake for analytics in Amazon Quick, and a Next.js console
+land in an Amazon S3 lake for analytics in AWS Quick, and a Next.js console
 is served from Amazon CloudFront behind Amazon Cognito sign-in. The Field Sales
-Agent for OEM field teams is native to Amazon Quick and reaches operational data
+Agent for OEM field teams is native to AWS Quick and reaches operational data
 only through an AgentCore Gateway.
 
 ## Layers
@@ -38,10 +38,10 @@ only through an AgentCore Gateway.
 |---|---|---|
 | Console | One Next.js 14 static site with five apps in one shell: Dealer Console (sales floor and service desk), OEM Workspace, Marketing Studio, Customer Web (Shop, My Garage) and Admin Console; 76 pages; persona-gated navigation and an agent panel on every staff screen | Amazon S3, Amazon CloudFront, AWS WAF |
 | API | One REST API, a token authorizer Lambda and one service Lambda that routes roughly 300 routes; every request carries a correlation id | Amazon API Gateway, AWS Lambda |
-| Agents | Seven agents: six custom agents in their own AgentCore runtimes (one of them with a Strands reasoning loop) and the Field Sales Agent in Amazon Quick; two AgentCore Gateways for cross-persona OEM reads | Amazon Bedrock AgentCore (Runtime, Gateway, Code Interpreter), Amazon Quick |
+| Agents | Seven agents: six custom agents in their own AgentCore runtimes (one of them with a Strands reasoning loop) and the Field Sales Agent in AWS Quick; two AgentCore Gateways for cross-persona OEM reads | Amazon Bedrock AgentCore (Runtime, Gateway, Code Interpreter), AWS Quick |
 | Events | A custom event bus with a catalogue of 82 event types, a subscriber Lambda with a dead-letter queue, twelve scheduled jobs and a human-approval state machine | Amazon EventBridge, EventBridge Scheduler, Amazon SQS, AWS Step Functions |
 | Data | 68 owner-prefixed DynamoDB tables, an S3 event lake with a Glue catalogue and Athena, a 538-document knowledge corpus, and versioned configuration tables | Amazon DynamoDB, Amazon S3, Amazon Data Firehose, AWS Glue, Amazon Athena |
-| Analytics | Direct-query datasets over the lake, a natural-language topic, a Campaign ROI dashboard, knowledge bases and the Field Sales chat agent and Flows, shared by group | Amazon Quick |
+| Analytics | Direct-query datasets over the lake, a natural-language topic, a Campaign ROI dashboard, knowledge bases and the Field Sales chat agent and Flows, shared by group | AWS Quick |
 | Identity | A Cognito staff pool with 19 role groups, optional OIDC or SAML federation, an administrator allowlist, customer one-time links, and RBAC plus organizational scope enforced in the service | Amazon Cognito, AWS IAM, AWS Secrets Manager |
 | Safety | Managed guardrails on every model call, a refuse-or-escalate classifier, the OEM policy rules engine, per-action autonomy levels with hard ceilings, deterministic fallbacks and data classification | Amazon Bedrock Guardrails |
 | Operations | Traces per request, CloudWatch alarms per Lambda, an agent health panel, a golden-prompt evaluation harness and scripted deploy, verify and teardown | Amazon CloudWatch |
@@ -53,7 +53,7 @@ flowchart TB
   subgraph Users
     STAFF["Dealer, OEM and admin staff"]
     CUST["Customers"]
-    QUSER["OEM field users in Amazon Quick"]
+    QUSER["OEM field users in AWS Quick"]
   end
   subgraph Edge
     WAF["AWS WAF"] --> CF["Amazon CloudFront"] --> S3C[("S3 console bucket")]
@@ -86,7 +86,7 @@ flowchart TB
     KB["Bedrock Knowledge Base on S3 Vectors"]
   end
   subgraph QuickLayer["Analytics"]
-    QK["Amazon Quick<br/>datasets, dashboard, topic, knowledge bases,<br/>Field Sales chat agent and Flows"]
+    QK["AWS Quick<br/>datasets, dashboard, topic, knowledge bases,<br/>Field Sales chat agent and Flows"]
   end
   STAFF --> WAF
   CUST --> WAF
@@ -125,9 +125,9 @@ publishes events, starts the approval state machine, reads OEM data through the
 AgentCore Gateway, calls Bedrock and the Knowledge Base, and invokes the agent
 runtimes for agent work. Scheduler drives job Lambdas, which invoke the owning
 agent's runtime. The event bus feeds a subscriber Lambda and, through Firehose,
-the S3 lake, which Glue and Athena expose to Amazon Quick. Every model call is
+the S3 lake, which Glue and Athena expose to AWS Quick. Every model call is
 checked by a Bedrock Guardrail. The Knowledge Base indexes the corpus stored in
-the lake bucket. OEM field users work in Amazon Quick, whose MCP connector
+the lake bucket. OEM field users work in AWS Quick, whose MCP connector
 reaches OEM data only through the Gateway, and the console embeds Quick
 dashboards through embed URLs.
 
@@ -210,14 +210,14 @@ path with no AWS at all. A call that was sent to a runtime but not answered is
 never re-run in-process, so an effectful job or tool cannot run twice; the job
 reports the unknown outcome and an alarm counts it.
 
-### Field Sales Agent, native to Amazon Quick
+### Field Sales Agent, native to AWS Quick
 
 The Field Sales Agent serves OEM district and regional managers, incentive
 planners, sales operations and finance. It has no AgentCore runtime by design,
 because its work is document generation and cited question answering for
-knowledge workers, which is what Amazon Quick provides:
+knowledge workers, which is what AWS Quick provides:
 
-- **In Amazon Quick**, the deployment scripts create a space, a chat agent, nine
+- **In AWS Quick**, the deployment scripts create a space, a chat agent, nine
   knowledge bases over the corpus (CRM notes, prior plans, bulletins, product
   guides, objection strategies, repair procedures, service bulletins and more),
   a natural-language topic over the journey funnel, a Campaign ROI dashboard,
@@ -242,7 +242,7 @@ with its own least-privilege role backs them; it re-checks the caller's scope,
 strips OEM-internal fields, and returns every record with a citation.
 
 - The **IAM-authenticated gateway** serves the service Lambda and the runtimes.
-- The **JWT-authenticated gateway** serves Amazon Quick. It validates tokens
+- The **JWT-authenticated gateway** serves AWS Quick. It validates tokens
   issued by the Cognito pool.
 
 OEM roles read down across their dealers directly; the Administrator, as a
@@ -251,7 +251,7 @@ viewing the console as one, always go through the Gateway.
 
 ### The Quick connector
 
-Amazon Quick's MCP connector authenticates to the JWT gateway with a Cognito
+AWS Quick's MCP connector authenticates to the JWT gateway with a Cognito
 client-credentials token: a dedicated machine client and a resource-server
 scope for OEM reads, with the client secret in AWS Secrets Manager. The OEM read
 Lambda derives a service-level OEM scope from the token and ignores any claims
@@ -418,7 +418,7 @@ as versioned configuration and read at run time:
   satisfaction, market intelligence, leads, campaigns) are added alongside.
 - A Glue database catalogues 13 lake tables, queried through a dedicated Athena
   workgroup.
-- Amazon Quick reads the lake through one Athena data source: a direct-query
+- AWS Quick reads the lake through one Athena data source: a direct-query
   dataset per lake table, plus two custom-SQL datasets (the journey funnel, and
   campaign spend allocated over the journeys each campaign started), a topic for
   natural-language questions, and the Campaign ROI dashboard.
@@ -435,7 +435,7 @@ as versioned configuration and read at run time:
   market. Retrieved chunks keep their `source_ref`, so citations resolve to the
   original record. If the Knowledge Base is unavailable, a keyword index over
   the same collections answers and the response says which engine ran.
-- **Amazon Quick knowledge bases** index the same corpus for the Field Sales
+- **AWS Quick knowledge bases** index the same corpus for the Field Sales
   Agent, so the console and Quick cite the same documents.
 
 ### Data classification
@@ -472,7 +472,7 @@ what answered.
 
 Default models are Anthropic Claude inference profiles: Claude Opus 4.5 for
 phrasing and Claude Sonnet 4.5 for the Sales Agent loop. Both are deployment
-settings. The Field Sales Agent in Amazon Quick uses Quick's own models.
+settings. The Field Sales Agent in AWS Quick uses Quick's own models.
 
 ### Guardrails
 
@@ -534,7 +534,7 @@ settings. The Field Sales Agent in Amazon Quick uses Quick's own models.
   ARNs and only the actions it uses; the Gateway Lambda reads only the tables
   its tools expose. The agent runtimes share one execution role in the current
   release.
-- **Amazon Quick access is by group, not by row.** Quick content is shared with
+- **AWS Quick access is by group, not by row.** Quick content is shared with
   sharing groups (builders as owners, OEM role groups as viewers). There is no
   row-level security in Quick by design: anyone who can open a Quick dashboard
   or dataset sees all of its rows. RBAC and scope checks in the API and the
@@ -641,7 +641,7 @@ the service Lambda answers through the one-shot grounded path and labels it.
 | Hosting and edge | Amazon S3, Amazon CloudFront, CloudFront Functions, AWS WAF | Private static hosting, URL rewrites, managed rules, rate limit, optional allowlist |
 | API | Amazon API Gateway (REST), AWS Lambda (Python 3.12) | Token authorizer, service router, job Lambdas, subscriber, Gateway target |
 | Agents | Amazon Bedrock AgentCore Runtime, Strands Agents SDK | One runtime per custom agent; the Sales Agent's reasoning loop |
-| Cross-persona data | Amazon Bedrock AgentCore Gateway (MCP) | Scoped, cited OEM reads for dealer code and Amazon Quick |
+| Cross-persona data | Amazon Bedrock AgentCore Gateway (MCP) | Scoped, cited OEM reads for dealer code and AWS Quick |
 | Computation | Amazon Bedrock AgentCore Code Interpreter | Audited calculations (inputs, code, result) with a restricted local fallback |
 | Models | Amazon Bedrock (Anthropic Claude via the Converse API) | Grounded phrasing, candidate ordering, planning, nightly insights |
 | Safety | Amazon Bedrock Guardrails | Denied topics, content and word filters, sensitive-identifier anonymisation, grounding |
@@ -649,8 +649,8 @@ the service Lambda answers through the one-shot grounded path and labels it.
 | Operational data | Amazon DynamoDB (on demand) | 68 owner-prefixed tables, event logs, versioned configuration |
 | Events | Amazon EventBridge, EventBridge Scheduler, Amazon SQS | Typed events, subscribers with a dead-letter queue, twelve jobs |
 | Workflow | AWS Step Functions | Human approval for account-plan publishing |
-| Analytics | Amazon Data Firehose, Amazon S3, AWS Glue, Amazon Athena, Amazon Quick | Event lake, catalogue, queries, datasets, topic, dashboard |
-| Field Sales Agent | Amazon Quick (chat agent, Flows, knowledge bases, space, MCP connector) | OEM field documents and cited chat |
+| Analytics | Amazon Data Firehose, Amazon S3, AWS Glue, Amazon Athena, AWS Quick | Event lake, catalogue, queries, datasets, topic, dashboard |
+| Field Sales Agent | AWS Quick (chat agent, Flows, knowledge bases, space, MCP connector) | OEM field documents and cited chat |
 | Identity | Amazon Cognito, AWS IAM, AWS Secrets Manager | Staff pool, optional federation, machine client for Quick, per-function roles, secrets |
 | Outreach | Amazon SES, Amazon SNS | Consent-checked email and SMS, recorded per customer |
 | Operations | Amazon CloudWatch | Logs, alarms, metric filters |
@@ -695,7 +695,7 @@ either an option you can turn on or a defined boundary of this release.
   vehicle-match play and a full-preparation play for service handoffs) are not
   in the seed data, so those subscribers run and find no play until you add
   them.
-- **Amazon Quick console steps.** Creating the MCP connector, one test chat, one
+- **AWS Quick console steps.** Creating the MCP connector, one test chat, one
   Flow test run and the district roll-up schedule have no public API and are
   done by hand; the rest of the Quick content is scripted.
 - **Data classification audit.** Role masking, field allowlists, hashed

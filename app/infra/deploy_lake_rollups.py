@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Generate the derived analytics lake roll-ups (spec §3.7) and publish to S3 +
-Athena + Amazon Quick: rdr/, csi/, marketintel/, leads/.
+Athena + AWS Quick: rdr/, csi/, marketintel/, leads/.
 
 Unlike deploy_lake_analytics.py (which mirrors existing generator tables), these
 four prefixes are DERIVED time-series facts with no backing table. They are

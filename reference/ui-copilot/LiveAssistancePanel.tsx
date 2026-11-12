@@ -22,7 +22,7 @@ export function LiveAssistancePanel({ customerId }: LiveAssistancePanelProps) {
   const [metrics, setMetrics] = useState<any>(null);
 
   useEffect(() => {
-    const intel = getCompetitiveIntel('RAV4');
+    const intel = getCompetitiveIntel('Trek 4');
     const dealMetrics = getDealMetrics(customerId);
 
     setCompetitorIntel(intel);
@@ -119,7 +119,7 @@ export function LiveAssistancePanel({ customerId }: LiveAssistancePanelProps) {
 
             {/* Quick Examples */}
             <div className="flex flex-wrap gap-2">
-              {['Price is too high', 'Missing features', 'Need to think about it', 'Comparing to Toyota'].map((example) => (
+              {['Price is too high', 'Missing features', 'Need to think about it', 'Comparing to Kestrel'].map((example) => (
                 <Button
                   key={example}
                   size="sm"
@@ -196,7 +196,7 @@ export function LiveAssistancePanel({ customerId }: LiveAssistancePanelProps) {
               </div>
               <div className="border rounded-lg p-3">
                 <div className="text-xs text-muted-foreground">Similar Customers</div>
-                <div className="text-lg font-bold">{metrics.similarCustomerConversion}% chose CR-V</div>
+                <div className="text-lg font-bold">{metrics.similarCustomerConversion}% chose Alder</div>
               </div>
               <div className="border rounded-lg p-3 col-span-2">
                 <div className="text-xs text-muted-foreground">Inventory</div>
@@ -216,7 +216,7 @@ export function LiveAssistancePanel({ customerId }: LiveAssistancePanelProps) {
           <div className="space-y-2">
             {[
               { name: 'College Graduate Program', amount: '$500 bonus cash', eligible: true },
-              { name: 'Loyalty Bonus', amount: '$750 for current Honda owners', eligible: true },
+              { name: 'Loyalty Bonus', amount: '$750 for current Halden owners', eligible: true },
               { name: 'Military Discount', amount: '$1,000', eligible: false }
             ].map((incentive, idx) => (
               <div key={idx} className={`flex items-start gap-3 p-3 border rounded-lg ${incentive.eligible ? 'border-green-500/20 bg-green-500/5' : 'opacity-50'}`}>

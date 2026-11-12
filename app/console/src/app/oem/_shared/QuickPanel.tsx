@@ -1,6 +1,6 @@
 "use client";
 
-// Amazon Quick (quicksight) — plug-and-play surface for the OEM Workspace.
+// AWS Quick (quicksight) — plug-and-play surface for the OEM Workspace.
 // Off by default: renders a setup state and makes no API call. On: lists Quick
 // Flows + dashboards and embeds a dashboard with a registered-user embed URL.
 // Flows/dashboards are authored in the Quick console; this screen consumes them.
@@ -19,9 +19,9 @@ export function QuickPanel({ showFlows = true }: { showFlows?: boolean }) {
 
   if (!enabled) {
     return (
-      <Card title={<span>Amazon Quick <Badge tone="gray">off</Badge></span>}>
+      <Card title={<span>AWS Quick <Badge tone="gray">off</Badge></span>}>
         <p className="text-sm muted">
-          Quick dashboards, Q topics and the Quick-hosted Field Sales Agent are built in the Amazon Quick console
+          Quick dashboards, Q topics and the Quick-hosted Field Sales Agent are built in the AWS Quick console
           (the Quick App). Enable with <code>NEXT_PUBLIC_ENABLE_QUICK=true</code> on the console and
           <code> ENABLE_QUICK=true</code> on the service. Nothing is called while off; the application
           views continue to use their scoped API read models and Bedrock-synthesized assistants.

@@ -2,7 +2,7 @@
 
 Stand up the Automotive Retail Operations powered by Agentic AI reference implementation
 in your own AWS account, verify it, operate it, and take it down. Everything in
-this guide is scripted except five Amazon Quick console steps that have no API
+this guide is scripted except five AWS Quick console steps that have no API
 (section 8.1); a first deployment takes about 30 minutes, most of it waiting for AWS.
 
 > Resource names use the prefix `retail-ops-<env>-` (an internal abbreviation, not a
@@ -20,12 +20,12 @@ this guide is scripted except five Amazon Quick console steps that have no API
 
 | Layer | Resources |
 |---|---|
-| Identity | Cognito user pool `retail-ops-dev-staff` (19 persona groups, seed users), a client-credentials client for Amazon Quick |
+| Identity | Cognito user pool `retail-ops-dev-staff` (19 persona groups, seed users), a client-credentials client for AWS Quick |
 | Data | 68 DynamoDB tables loaded from the synthetic packs; S3 event lake with Firehose → Glue → Athena (13 tables); the 538-document knowledge corpus in S3 |
-| AI | Bedrock Guardrails (the main one on every call, and the store digest's own copy with a relaxed grounding check); Bedrock Knowledge Base on S3 Vectors; AgentCore runtimes, one per custom agent (A1, A2, A3 with the Strands agent, A4, A5, A7; ADR 0009); two AgentCore Gateways (console and Amazon Quick) |
+| AI | Bedrock Guardrails (the main one on every call, and the store digest's own copy with a relaxed grounding check); Bedrock Knowledge Base on S3 Vectors; AgentCore runtimes, one per custom agent (A1, A2, A3 with the Strands agent, A4, A5, A7; ADR 0009); two AgentCore Gateways (console and AWS Quick) |
 | Compute | REST API (API Gateway) with a token authorizer and one service Lambda; event subscriber Lambda; approvals Step Functions; twelve scheduled job Lambdas; CloudWatch alarms |
 | Console | Next.js static site on CloudFront (private S3 origin, WAF) |
-| Analytics | Amazon Quick datasets over the lake and the Quick sharing groups (not row-scoped) |
+| Analytics | AWS Quick datasets over the lake and the Quick sharing groups (not row-scoped) |
 
 Architecture and flows: `docs/as-built/architecture.md`, `docs/as-built/agent-flows.md`.
 
@@ -47,7 +47,7 @@ Architecture and flows: `docs/as-built/architecture.md`, `docs/as-built/agent-fl
   `python3 enable-bedrock.py 'anthropic.claude-opus-4-5-20251101-v1:0' 'us-east-1'`,
   then the same for `anthropic.claude-sonnet-4-5-20250929-v1:0` and
   `amazon.titan-embed-text-v2:0`.
-* **Amazon Quick / QuickSight** subscription in the account (Enterprise) if you
+* **AWS Quick / QuickSight** subscription in the account (Enterprise) if you
   want the analytics stage; the rest of the stack does not depend on it.
 
 **Workstation**
@@ -98,7 +98,7 @@ deploy/bootstrap.sh --yes --enable-jobs   # deploy everything; also turn autonom
 ```
 
 Add `--markets us,de` to also load the German market, `--skip quick` if the
-account has no Amazon Quick subscription, or `--env <name>` to deploy a
+account has no AWS Quick subscription, or `--env <name>` to deploy a
 separately named environment next to another one.
 
 The last lines print the **API base URL** and the **console URL**. Keep both.
@@ -139,12 +139,12 @@ deploy/deploy.sh --apply --enable-jobs
 | 6 | `corpus` | `deploy_quick_index.py` | 538 Markdown docs under `quick-index/` in the lake bucket | lake |
 | 7 | `guardrails` | `deploy_guardrails.py` | Bedrock Guardrails `retail-ops-dev-guardrail` and `retail-ops-dev-guardrail-digest` (`--which main\|digest\|all`), each with a published version | — |
 | 8 | `kb` | `deploy_knowledge_base.py` | S3 Vectors bucket/index, KB role, Knowledge Base, data source, sidecars, ingestion | corpus |
-| 9 | `l4` | `deploy_l4.py`, `iam_roles.py` | per-function IAM roles, authorizer + service Lambdas, REST API; wires guardrail / KB / gateway / runtime ids into env; `ENABLE_QUICK=true` on the service when the account has Amazon Quick, and the console origin as the Quick embed domain (`RETAIL_OPS_QUICK_EMBED_DOMAINS`) and as the API's CORS origin (`RETAIL_OPS_CONSOLE_ORIGIN`; re-run `l4` once after the first `console` stage) (§8.1); `RETAIL_OPS_SES_FROM` from `deploy/config.env` as the outreach sender | cognito, guardrails, kb |
+| 9 | `l4` | `deploy_l4.py`, `iam_roles.py` | per-function IAM roles, authorizer + service Lambdas, REST API; wires guardrail / KB / gateway / runtime ids into env; `ENABLE_QUICK=true` on the service when the account has AWS Quick, and the console origin as the Quick embed domain (`RETAIL_OPS_QUICK_EMBED_DOMAINS`) and as the API's CORS origin (`RETAIL_OPS_CONSOLE_ORIGIN`; re-run `l4` once after the first `console` stage) (§8.1); `RETAIL_OPS_SES_FROM` from `deploy/config.env` as the outreach sender | cognito, guardrails, kb |
 | 10 | `approvals` | `deploy_approvals.py` | Step Functions state machine + submit Lambda | l4 |
 | 11 | `l6` | `deploy_l6.py` | twelve job Lambdas + schedules for both markets (the agent-bar jobs ship ENABLED; `--enable-jobs` adds autonomy-promotion) | data |
 | 12 | `alarms` | `deploy_alarms.py` | Errors + Throttles alarm per Lambda; `runtime_job_unknown` metric filter + alarm per agent-owned job Lambda | l4, l6 |
 | 13 | `agentcore` | `deploy_agentcore.py` | shared exec role, one code bundle per agent (arm64 wheels), six runtimes `retail_ops_dev_a1_discovery`, `…_a3_sales`, `…_a4_trade_in`, `…_a5_campaign`, `…_a7_service`, then `…_a2_journey` (ADR 0009); then re-runs `l4` and `l6` to wire `RETAIL_OPS_AGENT_RUNTIMES` | l4, l6 |
-| 14 | `gateway` | `deploy_gateway.py`, `deploy_gateway_quick.py` | OEM-read Lambda, AWS_IAM gateway (console), CUSTOM_JWT gateway (Amazon Quick) | cognito, l4 |
+| 14 | `gateway` | `deploy_gateway.py`, `deploy_gateway_quick.py` | OEM-read Lambda, AWS_IAM gateway (console), CUSTOM_JWT gateway (AWS Quick) | cognito, l4 |
 | 15 | `quick` | `deploy_quick_groups.py`, `deploy_quick_datasets.py`, `deploy_quick_content.py`, `deploy_quick.py` | Quick sharing groups + memberships, Athena data source + datasets (owned by `retail-ops-builders`); then the Quick content: two custom-SQL datasets, topic, 9 knowledge bases, space, Field Sales chat agent, 8 Flows, Campaign ROI dashboard, each shared with the groups (§8.1); then discovery of Flows and dashboards for the console | lake, corpus, gateway |
 | 16 | `console` | `deploy_console.py` | static build against the live API, S3 bucket, CloudFront + OAC | l4, cognito |
 | 17 | `waf` | `deploy_waf.py` | WAFv2 web ACL on the distribution | console |
@@ -277,7 +277,7 @@ python3 -m app.infra.deploy_knowledge_base --apply --sidecars --ingest
 
 DynamoDB on-demand, Lambda, API Gateway, EventBridge, Step Functions and S3 are
 pay-per-request and small. The items that cost when idle are: the CloudFront
-distribution and WAF web ACL (a few dollars a month), the Amazon Quick
+distribution and WAF web ACL (a few dollars a month), the AWS Quick
 subscription if enabled, and S3 Vectors storage (cents for this corpus). Model
 usage: each Assistant answer in Agent mode is 3–6 Sonnet calls plus guardrail
 units; the nightly jobs make no model calls except `store-digest` (about 120 short
@@ -285,7 +285,7 @@ calls per market on the first night, then only for figures that changed).
 
 ## 8. Optional managed integrations
 
-### 8.1 Amazon Quick
+### 8.1 AWS Quick
 
 The deployment scripts create the Athena datasets, the five Quick sharing
 groups (`docs/QUICK_BUILD.md` §P1), corpus, and CUSTOM_JWT AgentCore Gateway.
@@ -328,7 +328,7 @@ python3 -m app.infra.deploy_quick --apply
 ```
 
 The `l4` stage sets `ENABLE_QUICK=true` on the service when the account has an
-Amazon Quick subscription (override with `ENABLE_QUICK=true|false` in
+AWS Quick subscription (override with `ENABLE_QUICK=true|false` in
 `deploy/config.env`), and the `console` stage builds with
 `NEXT_PUBLIC_ENABLE_QUICK=true`, so discovered content shows without manual steps.
 `l4` also sets `RETAIL_OPS_QUICK_EMBED_DOMAINS` to the console URL from
@@ -448,10 +448,10 @@ deploy/destroy.sh --confirm --account <id> --only quick,alarms   # selected stag
 
 What it removes: schedules, alarms, the CloudFront distribution (disabled first,
 then deleted; if it is still disabling after 20 minutes, re-run the command),
-its function and origin-access controls, the WAF web ACL, the Amazon Quick content
+its function and origin-access controls, the WAF web ACL, the AWS Quick content
 (stage `quick_content`: the 8 `Retail Ops …` Flows, chat agent, space, dashboard and
 analysis, topic, knowledge bases and their S3 source, the custom-SQL datasets, and the
-console-built MCP connector `Retail Ops OEM Read Gateway`, in that order), Amazon Quick
+console-built MCP connector `Retail Ops OEM Read Gateway`, in that order), AWS Quick
 datasets, data source, groups and the service-role policy, AgentCore gateways, runtime,
 memory and workload identities, the Bedrock knowledge base with its S3 Vectors
 store and the guardrail, the REST API, Step Functions, Lambdas and layers,
@@ -483,7 +483,7 @@ and deployed again rather than renamed:
    Cognito pool, app clients and Hosted UI domain. For SSO, register the new
    redirect URI `https://retail-ops-dev-<pool-suffix>.auth.<region>.amazoncognito.com/oauth2/idpresponse`
    with your identity provider, then run `cognito_setup --federate --apply` (§8.2).
-   For Amazon Quick, the `quick` stage re-creates the content; then follow the
+   For AWS Quick, the `quick` stage re-creates the content; then follow the
    "Console checklist" of `docs/QUICK_BUILD.md` for the MCP connector against the new
    gateway and scope `retail-ops-oem/read`.
 5. `deploy/verify.sh` and refresh `docs/DEMO.md` from the new live state.
@@ -492,7 +492,7 @@ and deployed again rather than renamed:
 
 * **Environment name**: `--env <name>` (or `RETAIL_OPS_ENV`) names every resource
   `retail-ops-<env>-…`, so environments share an account without sharing a
-  resource; `dev` keeps the original names. Amazon Quick ids carry no environment
+  resource; `dev` keeps the original names. AWS Quick ids carry no environment
   name, so only one environment per account can use Quick. The region
   (`us-east-1`) is a constant in the deployers.
 * **Markets**: `--market de` on the `data` stage loads the German pack; both can

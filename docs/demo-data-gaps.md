@@ -85,7 +85,7 @@ Regenerated with `--seed 42`; only `DEALER_Customers` / `DEALER_Valuations` (lea
 - **Change:** populate trim from the catalog for Meridian vehicles and a small per-make list for conquest vehicles; add `hours`/`service_hours` to each dealer row and read them in `booking.py` slot generation and A2 dealer facts.
 
 ### 3. Embedded dashboards are placeholders
-- **Screen:** "QuickSight embed placeholder" on the account page; "Amazon Quick off" on Campaigns.
+- **Screen:** "QuickSight embed placeholder" on the account page; "AWS Quick off" on Campaigns.
 - **Change (environment):** `NEXT_PUBLIC_ENABLE_QUICK=true` / `ENABLE_QUICK=true` with the seeded A5 lake prefixes, or hide the card when Quick is off.
 
 ### 4. A journey born from a fresh lead has no saved build

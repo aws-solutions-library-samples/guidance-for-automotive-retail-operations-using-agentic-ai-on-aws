@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Export the Quick Index corpus to S3 for Amazon Quick knowledge bases
+"""Export the Quick Index corpus to S3 for AWS Quick knowledge bases
 (docs/QUICK_BUILD.md step 2a).
 
 The 538 `PLAT_KnowledgeCollections` rows carry only pointers (`body_ref =

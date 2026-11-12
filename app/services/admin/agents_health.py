@@ -8,7 +8,7 @@ PLAT_ConfigAutonomy, DEALER_Recommendations; admin audit rows are excluded.
 
 Each row also says where the agent runs (ADR 0009): `runtime.mode` is
 `agentcore` when this process has the agent's runtime configured, `in_process`
-otherwise, and `quick` for A6 (Amazon Quick). `runtime_calls` counts trace rows
+otherwise, and `quick` for A6 (AWS Quick). `runtime_calls` counts trace rows
 the agent's runtime tagged `transport: agentcore-runtime` (its `runtime.*` spans
 and A3's `assistant_agent` row); `fallbacks` counts the client's
 `in-process-fallback` spans, which are left out of the other figures.
@@ -30,7 +30,7 @@ AGENTS = {
     "A7": "Service Operations",
 }
 _OK = ("ok", "success", "allowed", "allow")
-_QUICK = "A6"                        # hosted in Amazon Quick, never an AgentCore runtime
+_QUICK = "A6"                        # hosted in AWS Quick, never an AgentCore runtime
 _RUNTIME_TRANSPORT = "agentcore-runtime"
 _FALLBACK_TRANSPORT = "in-process-fallback"
 

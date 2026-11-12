@@ -540,7 +540,7 @@ the answer, and the output is checked again before it is returned.
 * Where it runs: the Campaign Agent runtime serves the nightly job and both
   POSTs (`POST /oem/campaigns/budget-shift` and `POST
   /marketing/campaigns/budget-shift/submit`) when configured; the dashboards stay
-  in Amazon Quick. A submit whose runtime call was sent but not answered is not
+  in AWS Quick. A submit whose runtime call was sent but not answered is not
   re-run, so the approval may already exist and a retried submit answers 409.
   `approval.requested` can therefore be emitted more than once for one
   `approval_id`: consumers treat it as at-least-once.
@@ -576,11 +576,11 @@ deployed runtime refuses the old generic router payload (`{method, path, …}`).
 The service Lambda uses `agent` for `POST /assistant/agent` and `tool` for the
 Sales Package (A2) and the two A5 POSTs; the job Lambdas use `job`.
 
-### 5.2 Amazon Quick via the MCP Gateway
+### 5.2 AWS Quick via the MCP Gateway
 
 ```mermaid
 sequenceDiagram
-  participant Q as Amazon Quick agent / Flow
+  participant Q as AWS Quick agent / Flow
   participant COG as Cognito token endpoint
   participant GW as Gateway retail-ops-dev-crosspersona-quick (CUSTOM_JWT)
   participant L as Lambda retail-ops-dev-gateway-oem

@@ -19,11 +19,11 @@ and environment E it matches:
   bedrock-agentcore-S-<acct>  AgentCore code bucket (bedrock-agentcore-S-E-<acct> when E is not dev)
   AmazonBedrockAgentCore-S-exec  AgentCore execution role (AmazonBedrockAgentCore-S-E-exec when
                               E is not dev; app/infra/naming.py)
-  S-lake*, S-builders, S-oem-*   Amazon Quick datasets, data source, groups
+  S-lake*, S-builders, S-oem-*   AWS Quick datasets, data source, groups
   S-lake-and-data-read        inline policy on the Quick service role
   S-space, S-field-sales-agent, S-kb-*, S-knowledge-s3, S-journey-funnel,
   S-campaign-roi-funnel, S-*-sql
-                              Amazon Quick content of deploy_quick_content (space,
+                              AWS Quick content of deploy_quick_content (space,
                               chat agent, knowledge bases + S3 source, topic, analysis +
                               dashboard, custom-SQL datasets), plus its eight Flows and the
                               console-built MCP connector, matched by exact name
@@ -31,7 +31,7 @@ and environment E it matches:
   app-bus-E                   EventBridge bus (only rules named S-E-* are removed;
                               the bus is deleted when no rules remain)
 
-E is --env, default RETAIL_OPS_ENV (else dev). The Amazon Quick ids carry no
+E is --env, default RETAIL_OPS_ENV (else dev). The AWS Quick ids carry no
 env, so the Quick stages run only for env dev unless --include-quick is passed.
 
 Gates:
@@ -102,7 +102,7 @@ class Teardown:
         self.stem, self.env, self.region = stem, env, region
         self.confirm, self.include_data, self.include_quick_users = confirm, include_data, include_quick_users
         self.wait_cloudfront = wait_cloudfront
-        # Amazon Quick ids carry no env (one Quick deployment per account), so only
+        # AWS Quick ids carry no env (one Quick deployment per account), so only
         # the default env's teardown removes Quick content unless asked explicitly.
         self.include_quick = (env == naming.DEFAULT_ENV) if include_quick is None else include_quick
         self.s = boto3.Session(region_name=region)
@@ -510,7 +510,7 @@ class Teardown:
             if only and st not in only:
                 continue
             if st in QUICK_STAGES and not self.include_quick:
-                print(f"  {st:42s} skipped: Amazon Quick ids carry no env; pass --include-quick to remove them")
+                print(f"  {st:42s} skipped: AWS Quick ids carry no env; pass --include-quick to remove them")
                 continue
             try:
                 getattr(self, st)()
@@ -553,7 +553,7 @@ def main() -> int:
     ap.add_argument("--env", default=naming.ENV,
                     help="environment name (default: RETAIL_OPS_ENV, else dev); the one the stack was deployed with")
     ap.add_argument("--include-quick", action="store_true",
-                    help="also remove the Amazon Quick content for a non-default env (always on for dev)")
+                    help="also remove the AWS Quick content for a non-default env (always on for dev)")
     ap.add_argument("--region", default="us-east-1")
     ap.add_argument("--confirm", action="store_true", help="actually delete (default: dry run)")
     ap.add_argument("--account", help="required with --confirm; must equal the caller's AWS account id")

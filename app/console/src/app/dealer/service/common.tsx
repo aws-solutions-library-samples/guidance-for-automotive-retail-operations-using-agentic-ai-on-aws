@@ -36,7 +36,7 @@ const TABS: { seg: string; label: string; screen?: string }[] = [
   { seg: "estimate", label: "Estimate & approval", screen: "service.estimate" },
 ];
 
-/** Full-height operating-screen frame (sales-advisor-v2 layout, §5.20). */
+/** Full-height operating-screen frame (dealer-floor UI mockup layout, §5.20). */
 export function ServiceFrame({ id, q, children, hideTabs }: {
   id: string; q: Query<any>; children: (sj: any) => ReactNode; hideTabs?: string[] }) {
   const path = usePathname() || "";

@@ -1,13 +1,13 @@
-# Amazon Quick build runbook
+# AWS Quick build runbook
 
-**Target:** Amazon Quick in AWS account `<account-id>`, region `us-east-1` (dev)
+**Target:** AWS Quick in AWS account `<account-id>`, region `us-east-1` (dev)
 **Scope spec:** `docs/specs/retail-ops-quick-project.md` (what A5/A6/Quick Index are — the "what/why").
 **This file** is the single **build guide + deployed-handles reference + chat prompts**
 (the "how") for the Quick-native side: what the repo scripts create (next section), the
 one **Console checklist** of the steps that have no API, the full per-step detail
 (§P–§9), the live handles (Appendix A), and the console chat prompts (Appendix B). The
 script-side provisioning is summarised in `docs/DEPLOYMENT.md` §8.1; which build steps
-are done and which remain is tracked once, in `docs/ACCEPTANCE.md` ("Amazon Quick
+are done and which remain is tracked once, in `docs/ACCEPTANCE.md` ("AWS Quick
 console content"), not here.
 
 ---
@@ -38,7 +38,7 @@ The corpus, both gateways and the Cognito machine client are Track A below.
 
 ## Console checklist (do these by hand)
 
-Five steps, in order, in the Amazon Quick console (account `<account-id>`, `us-east-1`)
+Five steps, in order, in the AWS Quick console (account `<account-id>`, `us-east-1`)
 unless a step says *terminal*. Sign in as a member of `retail-ops-builders` (for
 example `admin/jdoe`). Steps 1, 3, 4 and 5 have no public API (the reason is
 in each step); step 2 is the repo command that has to follow step 1.
@@ -68,7 +68,7 @@ in each step); step 2 is the repo command that has to follow step 1.
   - *Done when:* answers cite account/alert ids or a `source_ref`; the wholesale question is declined naming GR-001/GR-005 with a gap analysis offered.
   - *Done 2026-10-23:* the chat agent opened and answered for the owner. The connector path works: between 21:24 and 21:34 PDT the Quick gateway served 12 `tools/call` (`oem_get_account` 4, `oem_get_alerts` 4, `oem_list_accounts` 3, `oem_get_incentive_programs` 1) with 0 errors, and the target Lambda ran 12 times with 0 errors (AgentCore and Lambda metrics; the metrics don't say which calls came from the chat and which from a Flow run). The cited answers and the GR-001/GR-005 refusal have not been checked yet.
   - *Why by hand:* the API has no call that chats with an agent. Chat is metered in agent hours: an Enterprise license includes 18 a month, then $3 per agent hour.
-    Source: [Amazon Quick pricing](https://aws.amazon.com/quick/pricing/), "Entitlements & overages" FAQ (read 2026-10-23).
+    Source: [AWS Quick pricing](https://aws.amazon.com/quick/pricing/), "Entitlements & overages" FAQ (read 2026-10-23).
 - [ ] **4. Run Flow 1 once** (detail [§6](#6--field-sales-quick-flows-eight-flows), [§6.3](#63-finish)). *Flows → `Retail Ops Account Plan` → Run*, `Account ID` = `ACC-US-00001`.
   - *Done when:* step `OEM facts` returns the account and its alerts, and the draft has the five sections (Performance vs objective, Gaps, Opportunities, Recommended actions, Risks), cites every figure and calls itself a draft.
   - *Why by hand:* the API has no call that runs a Flow. A run is metered in agent hours like chat (step 3).
@@ -103,7 +103,7 @@ is not row-scoped (§8); access is by the §P1 groups.
 ## Where the status lives
 
 Which of the build steps below are complete, and the verification evidence for
-each, is recorded once in `docs/ACCEPTANCE.md` under "Amazon Quick console
+each, is recorded once in `docs/ACCEPTANCE.md` under "AWS Quick console
 content". This runbook only says *how* to do each step.
 
 **Status, 2026-10-23 (read from the live account).** Track A is done, and so is every
@@ -235,12 +235,12 @@ space → agent → flows → dashboard` and adds the new dashboard to the space
 
 ## P — Prerequisites
 
-- [x] **Amazon Quick Enterprise** subscription (required for MCP connectors). Check: `aws quicksight describe-account-settings --aws-account-id <account-id> --region us-east-1` reports `ENTERPRISE`.
+- [x] **AWS Quick Enterprise** subscription (required for MCP connectors). Check: `aws quicksight describe-account-settings --aws-account-id <account-id> --region us-east-1` reports `ENTERPRISE`.
   - *Verified 2026-10-23:* `describe-account-settings` → `Edition: ENTERPRISE`; `describe-account-subscription` → `Edition: ENTERPRISE`, `AccountSubscriptionStatus: ACCOUNT_CREATED`.
 - [x] Builders can author chat agents, knowledge bases and Flows.
-  - *Met, 2026-10-23, on the owner's confirmation:* the owner confirmed admin rights in Amazon Quick. `admin/jdoe` (role `ADMIN`) authored a chat agent, knowledge bases and 8 Flows in this account on 2026-10-07 to 10-14 (the legacy content in "Where the status lives"), and on 2026-10-23 the IAM user `admin` (role `ADMIN`) created this runbook's agent, 9 knowledge bases and 8 Flows through the API. No role, tier or subscription was changed.
-  - *For another account:* the API reports role `ADMIN` for both builders, not `ADMIN_PRO` / `AUTHOR_PRO`, and no custom permissions profile is set. The Pro tiers are documented as the ones that build knowledge bases, configure actions, and use chat agents, spaces and Flows; Admin Pro is the same subscription as an Amazon Quick Enterprise user.
-    Source: [Amazon Quick user types](https://docs.aws.amazon.com/quick/latest/userguide/user-types.html).
+  - *Met, 2026-10-23, on the owner's confirmation:* the owner confirmed admin rights in AWS Quick. `admin/jdoe` (role `ADMIN`) authored a chat agent, knowledge bases and 8 Flows in this account on 2026-10-07 to 10-14 (the legacy content in "Where the status lives"), and on 2026-10-23 the IAM user `admin` (role `ADMIN`) created this runbook's agent, 9 knowledge bases and 8 Flows through the API. No role, tier or subscription was changed.
+  - *For another account:* the API reports role `ADMIN` for both builders, not `ADMIN_PRO` / `AUTHOR_PRO`, and no custom permissions profile is set. The Pro tiers are documented as the ones that build knowledge bases, configure actions, and use chat agents, spaces and Flows; Admin Pro is the same subscription as an AWS Quick Enterprise user.
+    Source: [AWS Quick user types](https://docs.aws.amazon.com/quick/latest/userguide/user-types.html).
   - *If a builder can't create these (another account):* check *Manage account → Your subscriptions*, then upgrade only the human builder (a user decision; it adds cost). Upgrading `admin` (the IAM user, also the shared embed user `default/admin`) is optional:
     ```bash
     aws quicksight update-user --aws-account-id <account-id> --namespace default --region us-east-1 \
@@ -250,11 +250,11 @@ space → agent → flows → dashboard` and adds the new dashboard to the space
     ```
     Or in the console: *Manage account → Manage users → role → Admin Pro*.
   - *Cost:* an Enterprise user is $40/user/month. Professional and Enterprise accounts also pay a flat $250/account/month infrastructure fee.
-    Source: [Amazon Quick pricing](https://aws.amazon.com/quick/pricing/), plan table and infrastructure-fee FAQ (read 2026-10-23).
+    Source: [AWS Quick pricing](https://aws.amazon.com/quick/pricing/), plan table and infrastructure-fee FAQ (read 2026-10-23).
   - *Usage:* an Enterprise license includes 18 agent hours a month; overage is $3 per agent hour.
-    Source: [Amazon Quick pricing](https://aws.amazon.com/quick/pricing/), "Entitlements & overages" FAQ (read 2026-10-23).
+    Source: [AWS Quick pricing](https://aws.amazon.com/quick/pricing/), "Entitlements & overages" FAQ (read 2026-10-23).
   - *Free upgrade:* BI Author licenses on Enterprise accounts get a free upgrade to Enterprise licenses until 12/31/2026.
-    Source: [Amazon Quick pricing](https://aws.amazon.com/quick/pricing/), "Entitlements & overages" FAQ (read 2026-10-23).
+    Source: [AWS Quick pricing](https://aws.amazon.com/quick/pricing/), "Entitlements & overages" FAQ (read 2026-10-23).
 - [x] **Athena access for Quick.** The Quick service role `aws-quicksight-service-role-v0` needs the inline policy `retail-ops-lake-and-data-read` (S3 lake + Athena results, workgroup `retail-ops-dev-lake`, Glue `retail_ops_dev_lake`, DynamoDB read). `deploy_quick_datasets.py` (deploy stage `quick`) puts it on the role. Check: `aws iam get-role-policy --role-name aws-quicksight-service-role-v0 --policy-name retail-ops-lake-and-data-read`. The grant it provides:
   - `s3:GetObject`, `s3:ListBucket` on `arn:aws:s3:::retail-ops-dev-event-lake-<account-id>` and `/*`
   - `s3:PutObject` on `…/athena-results/*`
@@ -267,7 +267,7 @@ space → agent → flows → dashboard` and adds the new dashboard to the space
 
 Every resource in this runbook (space, topic, knowledge bases, connector, Field Sales
 chat agent, Flows, Campaign ROI dashboard, datasets and data sources) is shared with
-**Amazon Quick groups**; `deploy_quick_content` and `deploy_quick_datasets` make every share.
+**AWS Quick groups**; `deploy_quick_content` and `deploy_quick_datasets` make every share.
 The groups live in the Quick `default` namespace of the account (they are Quick groups,
 not Cognito groups or IAM groups).
 
@@ -505,7 +505,7 @@ market: <market_id>
 - [ ] **Sync after the corpus changes.** The API has no sync call, and none of the repo's 13 scheduler jobs exports the corpus; after `deploy_quick_index --apply`, choose **Sync now** on each knowledge base (Console checklist, last note).
 - *Check* (chat, space attached): *"What are the top objection-handling notes for a customer worried about EV charging range? Show the source_ref for each."*
 - *Cost:* index storage is the raw size of the source files. Enterprise includes 50 GB per user, pooled across the account, and overage is $5 per GB per month; this corpus is about 0.1 MB (101,704 bytes of Markdown).
-  Source: [Amazon Quick pricing](https://aws.amazon.com/quick/pricing/), "Storage, fees & getting started" FAQ (read 2026-10-23).
+  Source: [AWS Quick pricing](https://aws.amazon.com/quick/pricing/), "Storage, fees & getting started" FAQ (read 2026-10-23).
 
 *Console fallback:* **Knowledge → Amazon S3 → + → + Add account** (bucket URL
 `s3://retail-ops-dev-event-lake-<account-id>/quick-index/`), then from the integration →
@@ -633,7 +633,7 @@ plan, contact a dealer, or change allocations.
   - "Should we cut D-105's wholesale next month?" → declined (GR-001/GR-005), gap analysis offered
   - "What does the EV charging bulletin say?" → cites a `source_ref`
 - [x] **Published and shared** (§P1): Viewer = `retail-ops-oem-dm`, `retail-ops-oem-regional`, `retail-ops-oem-ci-planning`; Owner = `retail-ops-builders`. Created by the repo, 2026-10-23.
-- The repo console embeds dashboards only (§7); it has no chat-agent panel, so users open the agent in Amazon Quick.
+- The repo console embeds dashboards only (§7); it has no chat-agent panel, so users open the agent in AWS Quick.
 
 ---
 
@@ -645,7 +645,7 @@ Brief, Win Strategy, Action Plan, Contact Report, Meeting Package, District
 Roll-up, Sales Ops Digest); each is one Flow built from the same pattern:
 **collect input → fetch data (Application actions + Quick data + Dashboards and
 topics) → draft with the A6 chat agent → review the draft.** The step names below
-are the ones the Amazon Quick console uses (Quick Flows pages under References).
+are the ones the AWS Quick console uses (Quick Flows pages under References).
 
 > **Created by the repo.** `deploy_quick_content --apply --only flows` creates the 8 Flows
 > below. `CreateFlow` publishes them, `UpdateFlow` rewrites both the draft and the published
@@ -847,7 +847,7 @@ name campaigns that `lake_campaigns` doesn't hold.
 - [x] Filters: event date (`event_ts`, date range), `dealer_id`, `source`, `market` (the last three apply to both datasets)
 - [x] **Published** and shared with the 4 `retail-ops-oem-*` groups (§P1; console readers reach it through their group) and the shared embed user `arn:aws:quicksight:us-east-1:<account-id>:user/default/admin` (fallback when per-user embed is off)
 - [x] Added to the space
-- [x] **Embed domain:** the `l4` stage writes the console origin (`url` in `app/infra/console-config.json`, override `RETAIL_OPS_QUICK_EMBED_DOMAINS` in `deploy/config.env`) to `RETAIL_OPS_QUICK_EMBED_DOMAINS` on the service Lambda, and the embed route passes it as `AllowedDomains` to `GenerateEmbedUrlForRegisteredUser` (up to three https origins). That replaces the Quick admin's domain allowlist for these URLs. *Verified 2026-10-23:* the Lambda holds `https://<distribution-domain>`, and the embed route returns a URL for the dashboard. On a fresh account the console stage runs after `l4`, so re-run `deploy.sh --apply --only l4` once after the first full deploy. *Fallback* if the embed shows a domain error: *profile icon → Manage Amazon Quick → Domains and Embedding* → add `https://<distribution-domain>`.
+- [x] **Embed domain:** the `l4` stage writes the console origin (`url` in `app/infra/console-config.json`, override `RETAIL_OPS_QUICK_EMBED_DOMAINS` in `deploy/config.env`) to `RETAIL_OPS_QUICK_EMBED_DOMAINS` on the service Lambda, and the embed route passes it as `AllowedDomains` to `GenerateEmbedUrlForRegisteredUser` (up to three https origins). That replaces the Quick admin's domain allowlist for these URLs. *Verified 2026-10-23:* the Lambda holds `https://<distribution-domain>`, and the embed route returns a URL for the dashboard. On a fresh account the console stage runs after `l4`, so re-run `deploy.sh --apply --only l4` once after the first full deploy. *Fallback* if the embed shows a domain error: *profile icon → Manage AWS Quick → Domains and Embedding* → add `https://<distribution-domain>`.
 - Dashboard ID for §9: `retail-ops-campaign-roi-funnel`.
 
 *Console fallback:* **Analyses → New analysis → dataset `Retail Ops · journey_events (funnel)`** (+ `Retail Ops · campaign ROI`), build the visuals and filters above, **Publish dashboard**, share, add to the space.
@@ -890,7 +890,7 @@ builder sees and can edit everything the scripts create.
 
 `/quick` and the embed route call Quick only when the service Lambda
 `retail-ops-dev-journeys-service` has `ENABLE_QUICK=true`. The `l4` stage sets it to
-`true` when `describe-account-subscription` reports an active Amazon Quick subscription
+`true` when `describe-account-subscription` reports an active AWS Quick subscription
 (`false` when there is none; unchanged when the subscription can't be read). Override
 it with `ENABLE_QUICK=true|false` in `deploy/config.env`. Set in dev on 2026-10-23. It
 turns on read calls only: list Flows, list dashboards, and an embed URL for the shared
@@ -1070,7 +1070,7 @@ lake datasets and the two custom-SQL datasets — §1, §A9.)
 | Cognito staff pool | `<user-pool-id>` (`retail-ops-dev-staff`), domain `retail-ops-dev-<domain-suffix>` |
 | Shared embed user | `arn:aws:quicksight:us-east-1:<account-id>:user/default/admin` (`RETAIL_OPS_QUICK_EMBED_USER_ARN`) |
 | Per-user embed | `RETAIL_OPS_QUICK_PER_USER_EMBED=1` — the embed route registers the signed-in user as a READER named by `user_id`, adds them to their role's group (§P1); the dashboard is not row-scoped (§8). Off by default, set by hand; not set in dev on 2026-10-23, so the OEM groups stay empty and embeds use the shared embed user |
-| Service Quick switch | `ENABLE_QUICK=true` on `retail-ops-dev-journeys-service`, set by the `l4` stage when the account has Amazon Quick; override with `ENABLE_QUICK=true\|false` in `deploy/config.env` (§9). Set in dev on 2026-10-23 |
+| Service Quick switch | `ENABLE_QUICK=true` on `retail-ops-dev-journeys-service`, set by the `l4` stage when the account has AWS Quick; override with `ENABLE_QUICK=true\|false` in `deploy/config.env` (§9). Set in dev on 2026-10-23 |
 | Embed allowed domains | `RETAIL_OPS_QUICK_EMBED_DOMAINS=https://<distribution-domain>` on `retail-ops-dev-journeys-service`, from `console-config.json` by the `l4` stage; passed as `AllowedDomains` on every embed URL (§7). Set in dev on 2026-10-23 |
 | Cognito app clients | `<staff-web-client-id>` (`retail-ops-dev-staff-web`), `<staff-hostedui-client-id>` (`retail-ops-dev-staff-hostedui`), `<quick-mcp-client-id>` (`retail-ops-quick-mcp`, §A6) |
 
@@ -1179,7 +1179,7 @@ git-ignored `app/infra/quick-content-config.json`.
 
 The repo creates the knowledge bases, agent, Flows and dashboard (§A9), so the
 authoring prompts below are a console fallback only. The checks (dataset, retrieval) are
-useful in any case. Amazon Quick chat is an assistant *inside each builder* — not a spec
+useful in any case. AWS Quick chat is an assistant *inside each builder* — not a spec
 compiler. Author **one artifact per ask**, grounded in a real handle. Prompts for each step:
 
 **Dataset sanity check** (after §1):

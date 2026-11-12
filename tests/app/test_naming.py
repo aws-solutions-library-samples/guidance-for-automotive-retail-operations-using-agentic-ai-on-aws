@@ -92,7 +92,7 @@ def test_custom_env_names_carry_the_env(long_names):
     assert long_names["services.bus.BUS_NAME"] == f"app-bus-{LONG_ENV}"
     assert long_names["teardown.runtime_names_for"][1:] == long_names["registry.runtime_names"]
     assert all(n.startswith(f"retail_ops_{LONG_ENV}_") for n in long_names["registry.runtime_names"])
-    # Amazon Quick ids stay env-less (one Quick deployment per account)
+    # AWS Quick ids stay env-less (one Quick deployment per account)
     assert long_names["deploy_quick_datasets.DATA_SOURCE_ID"] == "retail-ops-lake"
 
 

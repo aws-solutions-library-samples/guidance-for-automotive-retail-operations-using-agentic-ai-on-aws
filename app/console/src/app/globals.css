@@ -14,7 +14,7 @@
      prefers-reduced-motion and prefers-reduced-transparency, with a solid
      fallback when backdrop-filter is unsupported.
    - Component classes keep the reference HTML class names
-     (docs/use-cases/sales-advisor-v2.html, DM_Assistant_Demo.html) so
+     (the dealer-floor UI mockup, the OEM field-sales UI mockup) so
      screens map one-for-one to the visual contract.
    ========================================================================== */
 
@@ -498,7 +498,7 @@
     .agent-insight { flex-basis: auto; max-height: 64px; }
   }
 
-  /* ---- Advisor reference (sales-advisor-v2.html) --------------------------- */
+  /* ---- Advisor reference (the dealer-floor UI mockup) --------------------------- */
   .top-bar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .75rem 1.5rem; background: var(--app-header); border-bottom: 1px solid var(--glass-border); color: var(--app-header-text); box-shadow: inset 0 1px 0 rgba(255,255,255,.06); }
   .session-info { display: flex; align-items: center; gap: .75rem; font-size: .85rem; color: var(--text-secondary); }
   .session-info strong { color: var(--text-primary); }

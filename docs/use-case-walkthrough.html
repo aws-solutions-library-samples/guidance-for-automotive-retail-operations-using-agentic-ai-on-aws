@@ -174,12 +174,12 @@
 
 <section id="oem" aria-labelledby="oem-h">
   <span class="part">Part 2</span>
-  <h2 id="oem-h">Sales operations, simplified with Amazon Quick Flows</h2>
+  <h2 id="oem-h">Sales operations, simplified with AWS Quick Flows</h2>
   <p class="lede">One input in, a finished draft out. Eight Flows give the OEM district manager and sales operations a cited draft from live, scoped dealer data: District Roll-up, Sales Ops Digest, Account Plan, Opportunity Brief, Meeting Package, Win Strategy, Contact Report and Action Plan.</p>
 
   <div class="story">
     <iframe src="../assets/story-02-sales-operations-quick-flows.html"
-            title="Interactive story: sales operations simplified with Amazon Quick Flows, eight Flows for the district manager and sales operations"
+            title="Interactive story: sales operations simplified with AWS Quick Flows, eight Flows for the district manager and sales operations"
             loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe>
   </div>
   <p class="story-meta"><span>Interactive story, about 1920 × 1080. Sound may play when you press play.</span>
@@ -190,12 +190,12 @@
   <figure id="arch-field">
     <a class="img" href="../assets/images/architecture-06-oem-field-sales.png" target="_blank" rel="noopener">
       <img src="../assets/images/architecture-06-oem-field-sales.png" loading="lazy" width="2667" height="1500"
-           alt="OEM field sales architecture: the OEM field team opens Amazon Quick, whose shared space holds the Field Sales chat agent, eight Flows, a topic, a dashboard and nine knowledge bases; an MCP connector authenticates with Amazon Cognito and AWS Secrets Manager and reads scoped dealer data through the Amazon Bedrock AgentCore Gateway, AWS Lambda and Amazon DynamoDB; the event lake flows from Amazon Data Firehose to Amazon S3, AWS Glue and Amazon Athena">
+           alt="OEM field sales architecture: the OEM field team opens AWS Quick, whose shared space holds the Field Sales chat agent, eight Flows, a topic, a dashboard and nine knowledge bases; an MCP connector authenticates with Amazon Cognito and AWS Secrets Manager and reads scoped dealer data through the Amazon Bedrock AgentCore Gateway, AWS Lambda and Amazon DynamoDB; the event lake flows from Amazon Data Firehose to Amazon S3, AWS Glue and Amazon Athena">
     </a>
     <figcaption>
-      <strong>OEM field sales in Amazon Quick</strong>
+      <strong>OEM field sales in AWS Quick</strong>
       <ol>
-        <li>District managers, regional leads, planners, marketing and finance sign in to Amazon Quick, or open the OEM Workspace from the console.</li>
+        <li>District managers, regional leads, planners, marketing and finance sign in to AWS Quick, or open the OEM Workspace from the console.</li>
         <li>One shared Quick space holds the Field Sales chat agent, the eight Flows, the Journey Funnel topic, the Campaign ROI &amp; Funnel dashboard and nine knowledge bases.</li>
         <li>An MCP connector gets a token from Amazon Cognito, with its client secret in AWS Secrets Manager.</li>
         <li>The AgentCore Gateway checks the token and calls a Lambda function that derives the OEM scope and returns cited rows through four read-only tools.</li>
@@ -209,7 +209,7 @@
   <figure id="arch-marketing">
     <a class="img" href="../assets/images/architecture-05-marketing-analytics.png" target="_blank" rel="noopener">
       <img src="../assets/images/architecture-05-marketing-analytics.png" loading="lazy" width="2667" height="1500"
-           alt="Marketing analytics architecture: Amazon Data Firehose lands events in Amazon S3 catalogued by AWS Glue, a nightly attribution job queries Amazon Athena, Amazon Bedrock recommends budget shifts, AWS Step Functions routes approval, approved policy is published to Amazon DynamoDB and Amazon Quick through the AgentCore Gateway, and a nurture job executes it">
+           alt="Marketing analytics architecture: Amazon Data Firehose lands events in Amazon S3 catalogued by AWS Glue, a nightly attribution job queries Amazon Athena, Amazon Bedrock recommends budget shifts, AWS Step Functions routes approval, approved policy is published to Amazon DynamoDB and AWS Quick through the AgentCore Gateway, and a nurture job executes it">
     </a>
     <figcaption>
       <strong>Marketing analytics: spend to delivered vehicles</strong>
@@ -222,7 +222,7 @@
 
 <section id="agents" aria-labelledby="agents-h">
   <h2 id="agents-h">The seven agents</h2>
-  <p class="lede">The console and Amazon Quick show agents by name only. Each agent is named for its job and serves one or both processes, or the OEM level above them.</p>
+  <p class="lede">The console and AWS Quick show agents by name only. Each agent is named for its job and serves one or both processes, or the OEM level above them.</p>
   <table>
     <caption class="skip">Agents, the work they do and where they run</caption>
     <thead><tr><th scope="col">Agent</th><th scope="col">What it does</th><th scope="col">Where it works</th></tr></thead>
@@ -233,14 +233,14 @@
       <tr><th scope="row">Trade-In Agent</th><td>Trade-in value, payoff and equity, with comparables</td><td>Sales process</td></tr>
       <tr><th scope="row">Service Agent</th><td>Supervises the service journey, BOOK → FOLLOW-UP; repair-order briefs, estimates and follow-up</td><td>Service and ownership</td></tr>
       <tr><th scope="row">Campaign Agent</th><td>Campaign attribution and budget-shift recommendations</td><td>OEM marketing</td></tr>
-      <tr><th scope="row">Field Sales Agent</th><td>Chat and the eight Flows for district managers and sales operations</td><td>OEM field sales, in Amazon Quick</td></tr>
+      <tr><th scope="row">Field Sales Agent</th><td>Chat and the eight Flows for district managers and sales operations</td><td>OEM field sales, in AWS Quick</td></tr>
     </tbody>
   </table>
 </section>
 
 <section id="deploy" aria-labelledby="deploy-h">
   <h2 id="deploy-h">What gets deployed, and what it costs</h2>
-  <p class="lede">The one-click deployment (<code>deploy/guidance-deploy.sh</code>) runs unattended in a fresh account, verifies itself and prints the console URL. It needs no Docker, CDK, CloudFormation or third-party key. Amazon Quick is an optional add-on.</p>
+  <p class="lede">The one-click deployment (<code>deploy/guidance-deploy.sh</code>) runs unattended in a fresh account, verifies itself and prints the console URL. It needs no Docker, CDK, CloudFormation or third-party key. AWS Quick is an optional add-on.</p>
   <div class="kpis">
     <div class="kpi"><b>6</b><span>agent runtimes on Amazon Bedrock AgentCore</span></div>
     <div class="kpi"><b>68</b><span>on-demand Amazon DynamoDB tables</span></div>
@@ -255,7 +255,7 @@
       <tr><td>Regional rollout: Meridian Motors (US) + Nordwerk Automobile (DE), 100 dealers, 1,000 users</td><td class="num">$6,121.38</td><td class="num">$61.21</td></tr>
     </tbody>
   </table>
-  <p>US East (N. Virginia), on-demand list prices, for the resources a default deployment creates; Amazon Bedrock model usage is most of it. The assumptions and unit prices are in the editable <a href="cost/cost-estimate.xlsx">cost estimate workbook</a>. Prices change; check the AWS Pricing Calculator before you rely on them.</p>
+  <p>US East (N. Virginia), on-demand list prices, for the resources a default deployment creates; Amazon Bedrock model usage is most of it. The assumptions and unit prices are in the <a href="cost/cost-estimate.pdf">cost estimate (PDF)</a> and the editable <a href="cost/cost-estimate.xlsx">workbook</a>. Prices change; check the AWS Pricing Calculator before you rely on them.</p>
   <p>Next: <a href="../README.md#deploy-the-guidance">Deploy the Guidance</a> · <a href="external/README.md">Documentation for customers and partners</a> · <a href="DEMO_WORKFLOWS.md">Step-by-step demo workflows</a></p>
 </section>
 

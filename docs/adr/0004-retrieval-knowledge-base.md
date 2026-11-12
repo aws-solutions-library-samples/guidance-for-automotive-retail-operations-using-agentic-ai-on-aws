@@ -9,7 +9,7 @@ templates, transcripts, objection strategies, bulletins, prior plans, product
 guides, repair procedures, TSBs). Until this decision, retrieval was a keyword
 scan over DynamoDB rows — deterministic and cited, but weak: it matched on
 token overlap and returned truncated text. The same documents were already
-exported to S3 (`quick-index/<kind>/<market>/<doc>.md`) for the Amazon Quick
+exported to S3 (`quick-index/<kind>/<market>/<doc>.md`) for the AWS Quick
 knowledge bases, each with a `source_ref` front-matter line.
 
 ## Decision
@@ -17,7 +17,7 @@ knowledge bases, each with a `source_ref` front-matter line.
 Build an **Amazon Bedrock Knowledge Base** over that S3 prefix and make it the
 retrieval engine whenever the application runs in AWS mode, keeping the keyword
 index as the automatic fallback. One corpus therefore serves both the agents and
-the Amazon Quick side.
+the AWS Quick side.
 
 * Embeddings: Amazon Titan Text Embeddings v2 (1024 dimensions).
 * Vector store: **S3 Vectors** — a vector bucket and index with no always-on
@@ -35,7 +35,7 @@ the Amazon Quick side.
    matching — the weakest link in answer quality.
 2. **OpenSearch Serverless as the vector store.** Standard and powerful, but an
    always-on collection is the wrong cost shape for a reference build.
-3. **Amazon Quick Index as the retrieval API.** Quick Index is consumed through a
+3. **AWS Quick Index as the retrieval API.** Quick Index is consumed through a
    Quick user session, not a service principal; the agents are a service.
 4. **Bedrock Knowledge Base on S3 Vectors** *(chosen)*. Managed ingestion and
    retrieval, metadata filtering, pay-per-use storage, and the corpus is already

@@ -17,7 +17,7 @@ data (the write steps).
 Companion documents: [DEMO.md](DEMO.md) (runbook, environment snapshot, safety
 rules), [ACCESS_BY_PERSONA.md](ACCESS_BY_PERSONA.md) (sign-in and roles),
 [AGENT_PANEL_BY_PERSONA.md](AGENT_PANEL_BY_PERSONA.md) (what each agent-panel
-card does), [QUICK_BUILD.md](QUICK_BUILD.md) (the Amazon Quick content).
+card does), [QUICK_BUILD.md](QUICK_BUILD.md) (the AWS Quick content).
 
 ## Overview
 
@@ -28,7 +28,7 @@ card does), [QUICK_BUILD.md](QUICK_BUILD.md) (the Amazon Quick content).
 | 3 | [Live floor: from customer question to cited answer](#3-live-floor-from-customer-question-to-cited-answer) | Sales Advisor `U-US-00002` | Journey Agent, Discovery Agent, Sales Agent, Trade-In Agent | 8 min | One screen holds matches, equity, incentives and the next step; objections and questions get grounded, cited answers; the credit-compliance gate cannot be skipped. |
 | 4 | [Lead to first response](#4-lead-to-first-response) | BDC Agent Keisha Baker (`U-US-00005`) | Sales Agent, Journey Agent, Service Agent | 5 min | Every lead opens with a drafted first response, and stalled journeys and predicted service needs reach the desk overnight. |
 | 5 | [The cockpit explains itself](#5-the-cockpit-explains-itself) | General Manager Raj Nelson (`U-US-00001`) | Campaign Agent, Journey Agent, Service Agent | 5 min | Each cockpit tab opens with a written reading of its own figures, labelled with the agent that wrote it and when. |
-| 6 | [Monday district prep in Amazon Quick, connected to the app](#6-monday-district-prep-in-amazon-quick-connected-to-the-app) | OEM District Manager Casey Brennan (`U-US-00044`) | Field Sales Agent | 9 min | The week starts with draft plans already in the app, and Quick answers from live app data with a citation for each figure. |
+| 6 | [Monday district prep in AWS Quick, connected to the app](#6-monday-district-prep-in-amazon-quick-connected-to-the-app) | OEM District Manager Casey Brennan (`U-US-00044`) | Field Sales Agent | 9 min | The week starts with draft plans already in the app, and Quick answers from live app data with a citation for each figure. |
 | 7 | [One buyer, web lead to delivery](#7-one-buyer-web-lead-to-delivery) | BDC Keisha Baker (`U-US-00005`) → Sales Advisor Elizabeth Thomas (`U-US-00002`) → F&I Michael Lopez (`U-US-00006`) → Delivery Megan White (`U-US-00009`) → the buyer in My Garage | Sales Agent, Journey Agent, Discovery Agent, Trade-In Agent | 10 min | One web lead is followed by name through every desk: the drafted reply, the handoff, matches that lead with the model she asked about, her trade, a deal that adds up on a reserved VIN, delivery, and her own My Garage. |
 
 ## Before the demo
@@ -55,7 +55,7 @@ card does), [QUICK_BUILD.md](QUICK_BUILD.md) (the Amazon Quick content).
 | `U-US-00045` / `U-US-00046` / `U-US-00048` / `U-US-00049` | Regional Manager / C&I Planner / OEM Finance / Marketing Analyst | Morgan Ellis / Robert Okafor / Fatima Robinson / William Scott | their persona home | `<console-url>/login` |
 | `U-US-00001` | General Manager (`dealer_manager`) | Raj Nelson | Store Cockpit | `<console-url>/login` |
 | `U-US-00044` | OEM District Manager (`oem_dm`) | Casey Brennan | OEM Workspace · Today | `<console-url>/login` |
-| Your Quick user | member of `retail-ops-oem-dm` (run) or `retail-ops-builders` (owner) | — | Amazon Quick console, us-east-1 | your own Quick sign-in ([QUICK_BUILD.md](QUICK_BUILD.md) §P1) |
+| Your Quick user | member of `retail-ops-oem-dm` (run) or `retail-ops-builders` (owner) | — | AWS Quick console, us-east-1 | your own Quick sign-in ([QUICK_BUILD.md](QUICK_BUILD.md) §P1) |
 
 Each sign-in lands on the "Lands on" screen, the persona's home (decided 28
 October 2026); for these personas the demo portal is the shell bar's **Demo**
@@ -83,7 +83,7 @@ District 7 – Southeast (`DIST-07`). Market: US, currency USD.
 - [ ] Read-only pre-flight: `python3 -m app.demo.run_demo --smoke --api "$API"`
       ends with `SMOKE RESULT: ALL PASS` ([DEMO.md](DEMO.md) §3). Don't present
       in the minutes after an `l4` deploy.
-- [ ] Amazon Quick: `.venv/bin/python -m app.infra.deploy_quick_content --status`
+- [ ] AWS Quick: `.venv/bin/python -m app.infra.deploy_quick_content --status`
       lists the space `Automotive Retail Operations`, the chat agent
       `Retail Ops Field Sales Agent`, the connector `Retail Ops OEM Read Gateway`,
       8 `Retail Ops …` Flows as `PUBLISHED` and the dashboard
@@ -133,7 +133,7 @@ Every staff persona in the table above has a Cognito login (since 4 Nov 2026), s
 | 0–6 | 1. The service lane is planned | Opens on work done before anyone signed in |
 | 6–13 | 2. A service visit becomes a sale | Carries the same store from service into sales |
 | 13–21 | 3. Live floor | The sales advisor works the customer with every agent on one screen |
-| 21–30 | 6. Monday district prep | Ends at the OEM level, in the app and in Amazon Quick |
+| 21–30 | 6. Monday district prep | Ends at the OEM level, in the app and in AWS Quick |
 
 For a dealer-only audience, replace workflow 6 with workflows 4 and 5 (5 minutes
 each). All six in order take about 40 minutes.
@@ -539,15 +539,15 @@ digest traces. Step 6 by reading `agents.ts` against `/traces/latest`.
 
 ---
 
-## 6. Monday district prep in Amazon Quick, connected to the app
+## 6. Monday district prep in AWS Quick, connected to the app
 
 **Persona and screens.** OEM District Manager Casey Brennan (`U-US-00044`),
 District 7 – Southeast (`DIST-07`). Agent: Field Sales Agent. Screens in the
-console: OEM Workspace Today, AI Alerts, Accounts, Amazon Quick. In Amazon Quick:
+console: OEM Workspace Today, AI Alerts, Accounts, AWS Quick. In AWS Quick:
 the space, the chat agent, two Flows. Run time: 9 minutes.
 
 **Why it matters.** A district manager prepares for dealer visits from many
-separate reports. Here the app drafts the week's plans overnight, and Amazon Quick
+separate reports. Here the app drafts the week's plans overnight, and AWS Quick
 answers from the same live records, with a citation for each figure and the OEM
 guardrails applied.
 
@@ -572,9 +572,9 @@ guardrails applied.
 | 3 | Agent panel → **Weekly district cycle** | Click | — | Field Sales Agent, "Trigger: Mondays, 05:00 UTC. Last ran …(your market)" (26 Oct). |
 | 4 | Nav Dashboard → **Accounts** → **Decatur Meridian** | Click | (`/oem/accounts/ACC-US-00001`) | "Decatur Meridian", "dealer · DIST-07 · tier B". Tiles "Sales health 55% · -22 pts vs peers", "Service health 64%", "Days supply 55", "Open alerts 12 · 3 HIGH — action needed". "Account read-out": "Decatur Meridian is flagged at risk (csi decline lead sla). 4 plan version(s) on file; latest status published. Aligned C&I program: Lead-response SLA recovery." |
 | 5 | Tab **Action Plans** → "Version history" | Click | — | `AP-US-00957` v2 published, `AP-US-00956` v1 published, `BRIEF-US-DRAFT-00001` v1 draft (written by Monday's district cycle, 26 Oct 05:00:49 UTC), `BRIEF-US-00001` v1 brief. Nothing is published without a person. |
-| 6 | Nav Intelligence → **Amazon Quick** | Open | (`/oem/quick`) | "Quick Flows": 15 names with ids, including the 8 Retail Ops Flows (Account Plan, Opportunity Brief, Win Strategy, Action Plan, Contact Report, Meeting Package, District Roll-up, Sales Ops Digest). "Quick Sight dashboards": 4, including "Retail Ops Campaign ROI & Funnel". |
+| 6 | Nav Intelligence → **AWS Quick** | Open | (`/oem/quick`) | "Quick Flows": 15 names with ids, including the 8 Retail Ops Flows (Account Plan, Opportunity Brief, Win Strategy, Action Plan, Contact Report, Meeting Package, District Roll-up, Sales Ops Digest). "Quick Sight dashboards": 4, including "Retail Ops Campaign ROI & Funnel". |
 | 7 | "Retail Ops Campaign ROI & Funnel" → **Embed** | Click | — | A "Dashboard" card with the Quick Sight dashboard in a frame (registered-user embed). |
-| 8 | Amazon Quick console (us-east-1) | Sign in, open **Spaces** | your Quick user | The space "Automotive Retail Operations". |
+| 8 | AWS Quick console (us-east-1) | Sign in, open **Spaces** | your Quick user | The space "Automotive Retail Operations". |
 | 9 | **Chat agents** → **Retail Ops Field Sales Agent** | Open | — | Welcome "Ask about your dealers, performance, alerts, or programs. I'll cite every figure and draft plans for your review." Suggested prompts "Which of my dealers are below objective this month?", "Summarize open HIGH alerts for my district", "Draft an account plan for D-105". |
 | 10 | Chat | Ask | `List my accounts and their open alerts` | *Expected, from the records it reads (not a captured transcript):* it calls `oem_list_accounts` and `oem_get_alerts` for market `us` and lists the 17 accounts and the 28 open alerts, 12 of them on Decatur Meridian (D-101), citing ids such as `ACC-US-00001` and `AL-US-00008`. If it asks for a market, answer `us`. |
 | 11 | Chat | Ask | `Should we cut D-105's wholesale next month?` | *Expected, from the agent's instructions:* a refusal naming GR-001 (and GR-005 for allocations), with a performance-gap analysis offered instead. D-105 is Macon Meridian (`ACC-US-00005`), with 2 open alerts: `AL-US-00020` "Conquest share loss to competitor" (medium) and `AL-US-00016` "Aged units (>90 days) above threshold" (low). |
@@ -582,7 +582,7 @@ guardrails applied.
 | 13 | **Flows** → **Retail Ops Account Plan** → Run mode | Run | `Account ID` = `ACC-US-00001` (the default) | *Expected, from the records:* step "OEM facts" returns `ACC-US-00001` Decatur Meridian (tier B, sales health 0.55, service health 0.64, days supply 55, condition `csi_decline_lead_sla`) and its 12 open alerts, 3 HIGH (`AL-US-00008` Sales volume below district plan, `AL-US-00009` Conquest share loss to competitor, `AL-US-00025` EV days-supply above target). "Notes" returns CRM notes and prior plans. "Account plan draft" has the sections Performance vs objective, Gaps, Opportunities, Recommended actions, Risks, cites ids and calls itself a draft. |
 | 14 | **Flows** → **Retail Ops District Roll-up** → Run mode → scheduling icon → **Create schedule** | Fill in, **Save** | Name `District roll-up weekly`; Repeat Weekly, Monday, 5:00 AM, `America/New_York`; `District ID` = `DIST-07` | The schedule appears under **Flows → My schedules**. |
 
-**How the app and Amazon Quick are connected today.** Say this plainly.
+**How the app and AWS Quick are connected today.** Say this plainly.
 
 | Direction | What exists | What the audience sees |
 |---|---|---|

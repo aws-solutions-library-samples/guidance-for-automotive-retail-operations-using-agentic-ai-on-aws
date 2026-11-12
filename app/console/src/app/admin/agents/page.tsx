@@ -13,8 +13,8 @@ import { MarketPicker, TenantOnly } from "../common";
 import { agentLabel } from "@/lib/agents";
 
 const STATUS: Record<string, any> = { healthy: "green", degraded: "orange", idle: "gray" };
-// Where each agent runs (ADR 0009): its own AgentCore runtime, the service Lambda, or Amazon Quick.
-const RUNS_ON: Record<string, string> = { agentcore: "AgentCore (own runtime)", in_process: "In-process", quick: "Amazon Quick" };
+// Where each agent runs (ADR 0009): its own AgentCore runtime, the service Lambda, or AWS Quick.
+const RUNS_ON: Record<string, string> = { agentcore: "AgentCore (own runtime)", in_process: "In-process", quick: "AWS Quick" };
 
 export default function AgentsPage() {
   const [market, setMarket] = useState("us");

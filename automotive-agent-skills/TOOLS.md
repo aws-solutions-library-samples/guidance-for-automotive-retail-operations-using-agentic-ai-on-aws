@@ -21,8 +21,8 @@ Generated 2026-09-25 from the Intelligent Sales & Service Orchestration requirem
 | A2 | Purchase Journey Orchestration (supervisor + nurture) | Custom agent on Amazon Bedrock AgentCore | Process 1 — Retail purchase | 21 |
 | A3 | Dealer Sales Advisor | Custom agent on Amazon Bedrock AgentCore (floor streaming + assistant chat/flows in one agent; Quick Index as a retrieval tool) | Process 1 — Retail purchase | 13 |
 | A4 | Trade-In & Upgrade Advisor | Custom agent on Amazon Bedrock AgentCore | Process 1 — Retail purchase | 8 |
-| A5 | Campaign ROI Optimizer | Amazon Quick / QuickSight analytics + AgentCore for recommendations | Process 1 — Retail purchase | 9 |
-| A6 | OEM Sales Administrator | Amazon Quick (agent + Flows + Index + Research) | Process 1 — Retail purchase | 32 |
+| A5 | Campaign ROI Optimizer | AWS Quick / QuickSight analytics + AgentCore for recommendations | Process 1 — Retail purchase | 9 |
+| A6 | OEM Sales Administrator | AWS Quick (agent + Flows + Index + Research) | Process 1 — Retail purchase | 32 |
 | A7 | Service Operations (service-journey supervisor) | Custom agent on Amazon Bedrock AgentCore | Process 2 — Service & ownership | 25 |
 
 ## A1 — Personalized Vehicle Discovery
@@ -118,15 +118,15 @@ Generated 2026-09-25 from the Intelligent Sales & Service Orchestration requirem
 
 ## A5 — Campaign ROI Optimizer
 
-*Delivery model:* Amazon Quick / QuickSight analytics + AgentCore for recommendations  
+*Delivery model:* AWS Quick / QuickSight analytics + AgentCore for recommendations  
 *Process:* Process 1 — Retail purchase  
 *Tools:* 9
 
 | Tool | Signature | Source / behaviour | Proactive |
 |---|---|---|---|
-| `ask_quick` | `ask_quick(question)` | Amazon Quick APIs |  |
+| `ask_quick` | `ask_quick(question)` | AWS Quick APIs |  |
 | `attribute_conversions` | `attribute_conversions(model = last_touch\|linear\|position)` | Internal |  |
-| `create_quick_dashboard` | `create_quick_dashboard(spec)` | Amazon Quick APIs |  |
+| `create_quick_dashboard` | `create_quick_dashboard(spec)` | AWS Quick APIs |  |
 | `get_campaign_spend` | `get_campaign_spend(range, platform)` | Ad Platforms connector (Adobe, Google, Meta) |  |
 | `get_journey_funnel` | `get_journey_funnel(range, dims)` | Athena/Quick over S3 lake |  |
 | `get_personalize_segments` | `get_personalize_segments()` | Personalize (User-Segmentation) for audience recommendations |  |
@@ -136,7 +136,7 @@ Generated 2026-09-25 from the Intelligent Sales & Service Orchestration requirem
 
 ## A6 — OEM Sales Administrator
 
-*Delivery model:* Amazon Quick (agent + Flows + Index + Research)  
+*Delivery model:* AWS Quick (agent + Flows + Index + Research)  
 *Process:* Process 1 — Retail purchase  
 *Tools:* 32
 

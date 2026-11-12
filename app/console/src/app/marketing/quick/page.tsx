@@ -10,7 +10,7 @@ import { QuickPanel } from "../QuickPanel";
 export default function MarketingQuickPage() {
   return (
     <Page>
-      <ViewHeader title="Quick dashboards" subtitle="Campaign ROI dashboards and Q topics authored in Amazon Quick" />
+      <ViewHeader title="Quick dashboards" subtitle="Campaign ROI dashboards and Q topics authored in AWS Quick" />
       <QuickPanel showFlows={false} />
     </Page>
   );

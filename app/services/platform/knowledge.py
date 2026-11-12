@@ -39,7 +39,7 @@ def _mode() -> str:
 
 
 def _quick_config() -> dict:
-    """The provisioned Amazon Quick (Q Business) app config, if deploy_quick ran.
+    """The provisioned AWS Quick (Q Business) app config, if deploy_quick ran.
     Env vars override the file so the Lambda can carry them."""
     import json
     from pathlib import Path

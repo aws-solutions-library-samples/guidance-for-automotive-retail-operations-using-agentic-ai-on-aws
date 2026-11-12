@@ -22,7 +22,7 @@ the as-built documents link to it rather than restating it:
 | How to run, deploy, verify, roll back, tear down | [`docs/DEPLOYMENT.md`](../DEPLOYMENT.md), `deploy/README.md`, the root `README.md` |
 | Live resource inventory and demo script for the development account | [`docs/DEMO.md`](../DEMO.md) |
 | Verification status, acceptance evidence, remaining boundaries | [`docs/ACCEPTANCE.md`](../ACCEPTANCE.md) |
-| Amazon Quick console build steps | [`docs/QUICK_BUILD.md`](../QUICK_BUILD.md) |
+| AWS Quick console build steps | [`docs/QUICK_BUILD.md`](../QUICK_BUILD.md) |
 | Why a decision was taken | [`docs/adr/`](../adr/README.md) |
 | Agent behavior and promotion evidence | [`app/eval/README.md`](../../app/eval/README.md) |
 

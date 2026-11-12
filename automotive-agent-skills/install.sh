@@ -14,7 +14,7 @@ Usage: $(basename "$0") --target <kiro|claude-code|quick-desktop> [OPTIONS]
 Targets:
   kiro            Copy skills and agent config to ~/.kiro/ (or --path DIR/.kiro/)
   claude-code     Symlink skills into .claude/skills/ in a project directory
-  quick-desktop   Print manual upload instructions for Amazon Quick
+  quick-desktop   Print manual upload instructions for AWS Quick
 
 Options:
   --target TARGET       Target platform (required)
@@ -71,7 +71,7 @@ install_claude_code() {
 print_domain() { printf "\n%s\n" "$1:"; shift; for s in "$@"; do [[ -d "$SCRIPT_DIR/skills/$s" ]] && echo "  skills/$s/SKILL.md"; done; }
 
 install_quick_desktop() {
-  info "Amazon Quick requires manual upload of each SKILL.md file."
+  info "AWS Quick requires manual upload of each SKILL.md file."
   info "Recommended order (by domain):"
   print_domain "Fixed Operations" service-estimate-integrity multi-point-inspection-triage service-morning-work service-retention-and-declined-work
   print_domain "Retail Sales and F&I" ev-incentive-eligibility trade-equity-and-upgrade-timing deal-structuring-and-disclosure objection-handling-on-the-floor lead-response-and-nurture-policy

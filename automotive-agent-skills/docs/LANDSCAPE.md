@@ -22,7 +22,7 @@ Search on GitHub, the Agent Skills spec site, and the vercel-labs `npx skills` i
 | same, `aws-data-analytics` | S3 Tables, Glue, Athena, lake / ETL | same |
 | [awslabs/agentcore-samples](https://github.com/awslabs/agentcore-samples) `06-strands-with-skills` | Strands `AgentSkills` plugin: `SKILL.md` discovery and activation at runtime | reference |
 | [AgentCore harness skills](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/harness-skills.html) | Attaching skills from Git, S3, or the curated AWS catalog to a hosted harness | `agentcore` TUI |
-| [Amazon Quick desktop skills](https://docs.aws.amazon.com/quick/latest/userguide/desktop-skills.html) | Upload `SKILL.md`; skills can bundle tools and reference files; scheduled tasks | GUI |
+| [AWS Quick desktop skills](https://docs.aws.amazon.com/quick/latest/userguide/desktop-skills.html) | Upload `SKILL.md`; skills can bundle tools and reference files; scheduled tasks | GUI |
 
 Consequence for Track 2: our build skills cover only Retail Ops conventions and the seams AWS documents in separate places (Cognito + Federate + group mapping; Identity Center → Quick embedding + Quick groups from Cognito roles + `postMessage` navigation; Gateway → Quick tool bridge; event rules and schedules; autonomy and recommendations).
 

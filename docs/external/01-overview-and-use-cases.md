@@ -22,7 +22,7 @@ Service Orchestration.
   (sales floor and service desk), the OEM Workspace, the Marketing Studio, the
   Customer Web (Shop and My Garage) and the Admin Console. Each person lands on
   the home screen for their role and sees the agents that work for them.
-- **Amazon Quick** hosts the analytics dashboards and the Field Sales Agent's
+- **AWS Quick** hosts the analytics dashboards and the Field Sales Agent's
   chat and document Flows for OEM field teams.
 - **It runs in your own AWS account.** Scripts deploy the whole solution,
   verify it and tear it down. It ships with synthetic data for two markets, the
@@ -267,7 +267,7 @@ work is in [02-personas-and-benefits.md](02-personas-and-benefits.md).
   budget-shift requests into the finance approval queue when the projected lift
   clears a threshold. It builds rule-based audiences and exports them with
   hashed identifiers only, refusing customers who opted out. Dashboards and
-  natural-language questions over the same data live in Amazon Quick. Each night
+  natural-language questions over the same data live in AWS Quick. Each night
   it also writes the dealer Store Cockpit insights from the store's own figures.
 - **Outcome.** Budget decisions rest on attributed deliveries. Approving a
   request records the decision; the agent never changes spend.

@@ -46,7 +46,7 @@ export function ActionLog({ customerId }: ActionLogProps) {
       {
         timestamp: new Date(Date.now() - 14000).toLocaleTimeString(),
         iconType: 'sword',
-        message: 'Loaded competitive intelligence for Toyota RAV4',
+        message: 'Loaded competitive intelligence for Kestrel Trek 4',
         status: 'success'
       },
       {

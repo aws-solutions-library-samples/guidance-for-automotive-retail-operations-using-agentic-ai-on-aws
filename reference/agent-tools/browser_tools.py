@@ -16,8 +16,8 @@ def get_vehicle_reviews(make: str, model: str, year: int) -> dict:
     Returns review scores, common praise/complaints, and expert ratings.
 
     Args:
-        make: Vehicle manufacturer (e.g. 'Honda').
-        model: Vehicle model (e.g. 'CR-V').
+        make: Vehicle manufacturer (e.g. 'Halden').
+        model: Vehicle model (e.g. 'Alder').
         year: Model year.
     """
     # Realistic review data for common models
@@ -89,22 +89,22 @@ def get_competitor_offers(segment: str, zip_code: str) -> dict:
     """
     segment_deals = {
         "suv": [
-            {"competitor": "Toyota RAV4", "deal": "$1,000 off MSRP + 3.9% APR", "segment": "compact_suv"},
-            {"competitor": "Hyundai Tucson", "deal": "$2,000 Spring Event Cash", "segment": "compact_suv"},
-            {"competitor": "Ford Escape", "deal": "$2,500 inventory reduction", "segment": "compact_suv"},
+            {"competitor": "Kestrel Trek 4", "deal": "$1,000 off MSRP + 3.9% APR", "segment": "compact_suv"},
+            {"competitor": "Solari Dune", "deal": "$2,000 Spring Event Cash", "segment": "compact_suv"},
+            {"competitor": "Larkspur Fenland", "deal": "$2,500 inventory reduction", "segment": "compact_suv"},
         ],
         "sedan": [
-            {"competitor": "Toyota Camry", "deal": "$1,500 Spring Sales Event", "segment": "midsize_sedan"},
-            {"competitor": "Honda Accord", "deal": "1.9% APR for 60 months", "segment": "midsize_sedan"},
-            {"competitor": "Hyundai Sonata", "deal": "$2,000 off + 0% for 48 months", "segment": "midsize_sedan"},
+            {"competitor": "Kestrel Crescent", "deal": "$1,500 Spring Sales Event", "segment": "midsize_sedan"},
+            {"competitor": "Halden Cadence", "deal": "1.9% APR for 60 months", "segment": "midsize_sedan"},
+            {"competitor": "Solari Solace", "deal": "$2,000 off + 0% for 48 months", "segment": "midsize_sedan"},
         ],
         "truck": [
-            {"competitor": "Ford F-150", "deal": "$3,000 off MSRP", "segment": "full_size_truck"},
-            {"competitor": "Chevrolet Silverado", "deal": "$4,000 total value", "segment": "full_size_truck"},
+            {"competitor": "Larkspur F-100", "deal": "$3,000 off MSRP", "segment": "full_size_truck"},
+            {"competitor": "Brightwater Silvercrest", "deal": "$4,000 total value", "segment": "full_size_truck"},
         ],
         "ev": [
-            {"competitor": "Tesla Model 3", "deal": "Starting at $38,990", "segment": "ev"},
-            {"competitor": "Chevrolet Equinox EV", "deal": "$7,500 federal tax credit", "segment": "ev"},
+            {"competitor": "Ampera Spark S", "deal": "Starting at $38,990", "segment": "ev"},
+            {"competitor": "Brightwater Tide EV", "deal": "$7,500 federal tax credit", "segment": "ev"},
         ],
     }
 

@@ -47,7 +47,7 @@ checks are run with `deploy/verify.sh` after deployment.
 | 13 | Nurture controls and sensitive-question handoff | Acceptance runner covers frequency/consent facts, payment grounding, and credit escalation | PASS |
 | 14 | Advisor suggestions and shift work | Sourced suggestions and grounded answers pass; shift-list behavior is delivered through Tasks/Plays rather than the original dedicated route | PARTIAL |
 | 15 | Sourced OEM account plans and human control | Draft plans cite metrics/alerts/programs and never publish or allocate automatically | PASS |
-| 15a | Complete Quick-hosted OEM workspace | API/read-model capabilities exist; since 2026-10-23 the repo creates the space, topic, knowledge bases, Field Sales chat agent, 8 Flows and Campaign ROI dashboard (`deploy_quick_content`), and the MCP connector, built in the console that day, is linked; a Flow test run and the District Roll-up schedule have no API and remain ("Amazon Quick console content" below) | PARTIAL |
+| 15a | Complete Quick-hosted OEM workspace | API/read-model capabilities exist; since 2026-10-23 the repo creates the space, topic, knowledge bases, Field Sales chat agent, 8 Flows and Campaign ROI dashboard (`deploy_quick_content`), and the MCP connector, built in the console that day, is linked; a Flow test run and the District Roll-up schedule have no API and remain ("AWS Quick console content" below) | PARTIAL |
 | 15b | OEM guardrails | Managed Bedrock Guardrails (the main one on every model call; the nightly store digest's copy with the same topics and a relaxed grounding check) plus GR-001…008 rules, calibration set, safe alternatives, and event logging; the specification's larger allow-set sweep remains | PARTIAL |
 | 16 | Role visibility and Quick group access | Negative role/scope checks are automated; Quick content is not row-scoped (row-level security removed by user decision on 2026-10-21, spec §13), so Quick access is by group membership; since 2026-10-23 the repo shares every Quick resource it creates with the groups (verified by the describe-permissions calls below), while per-user reader registration stays off | PARTIAL |
 | 17 | Every persona has a valid home | All declared personas have a valid home and screen catalog; exhaustive deployed navigation of every role/screen pair remains | PARTIAL |
@@ -109,9 +109,9 @@ These are current capabilities, not open gaps:
   current Python/API Gateway transport buffers the document, so progressive
   token delivery is not claimed.
 
-## Amazon Quick console content
+## AWS Quick console content
 
-Criteria 15a, 16 and 18 depend on Amazon Quick content. The build steps are in
+Criteria 15a, 16 and 18 depend on AWS Quick content. The build steps are in
 `docs/QUICK_BUILD.md`; their status is kept here and nowhere else. Track A items are
 created by the repository (`deploy.sh --apply --only quick`, which runs
 `deploy_quick_content.py`); Track B items have no public API and are the runbook's
@@ -120,9 +120,9 @@ development account on 2026-10-23.
 
 | # | Build step | Track | Status | Evidence |
 |---|---|---|---|---|
-| P | Amazon Quick Enterprise edition; Athena/S3/Glue/DynamoDB access for Quick; Cognito Hosted UI domain | A | PASS | 2026-10-23: `describe-account-settings` → `Edition: ENTERPRISE`; `get-role-policy` → inline policy `retail-ops-lake-and-data-read` on `aws-quicksight-service-role-v0` with all five statements (lake read, `athena-results/*` write, workgroup `retail-ops-dev-lake`, Glue `retail_ops_dev_lake`, DynamoDB `retail-ops-dev-*` read); domain `retail-ops-dev-<domain-suffix>` `ACTIVE` |
+| P | AWS Quick Enterprise edition; Athena/S3/Glue/DynamoDB access for Quick; Cognito Hosted UI domain | A | PASS | 2026-10-23: `describe-account-settings` → `Edition: ENTERPRISE`; `get-role-policy` → inline policy `retail-ops-lake-and-data-read` on `aws-quicksight-service-role-v0` with all five statements (lake read, `athena-results/*` write, workgroup `retail-ops-dev-lake`, Glue `retail_ops_dev_lake`, DynamoDB `retail-ops-dev-*` read); domain `retail-ops-dev-<domain-suffix>` `ACTIVE` |
 | P1 | 5 Quick sharing groups (`retail-ops-builders` + 4 `retail-ops-oem-*`) and memberships | A | PASS | 2026-10-23: the 5 groups exist; `deploy_quick_groups --apply` with `RETAIL_OPS_QUICK_BUILDERS="admin/jdoe,admin"` added both builders, and `--status` shows them in `retail-ops-builders`. The console lists spaces, chat agents and Flows by direct user permission, so `deploy_quick_content` and `deploy_quick_datasets` also grant each builder user the owner set directly: `describe_*_permissions` on a sample of every type shows both users with it, and `search_spaces` / `search_agents` (`DIRECT_QUICKSIGHT_OWNER`) return the space and the agent for both. The 4 `retail-ops-oem-*` groups have no members yet: none of the 13 planned console users is registered in Quick. The service adds each one at first embed (`QuickClient.register_reader`) only with `RETAIL_OPS_QUICK_PER_USER_EMBED=1`, which is off by default and not set in dev |
-| P | Builders can author chat agents, knowledge bases and Flows | B | PASS | 2026-10-23: the owner confirmed admin rights in Amazon Quick; both builders have role `ADMIN`, and the IAM user `admin` created the agent, 9 knowledge bases and 8 Flows below through the API. No role, tier or subscription was changed |
+| P | Builders can author chat agents, knowledge bases and Flows | B | PASS | 2026-10-23: the owner confirmed admin rights in AWS Quick; both builders have role `ADMIN`, and the IAM user `admin` created the agent, 9 knowledge bases and 8 Flows below through the API. No role, tier or subscription was changed |
 | 0 | Space `Automotive Retail Operations` and sharing | A | PASS | 2026-10-23: `describe_space retail-ops-space` → the name and description; `describe_space_permissions` → `retail-ops-builders` (14 actions) and the 4 `retail-ops-oem-*` groups (3 actions) |
 | 1 | Athena data source `retail-ops-lake` and datasets incl. `journey_events`; lake tables and roll-ups | A | PASS | data source `retail-ops-lake` `CREATION_SUCCESSFUL`; 13 datasets `retail-ops-lake-<table>`, none with row-level security; `retail-ops-builders` and both builder users (directly, 2026-10-23) own the source (6 actions) and each dataset (10 actions). 2026-10-23: custom-SQL datasets `retail-ops-journey-events-sql` and `retail-ops-campaign-roi-sql` created, `DIRECT_QUERY`, 13 and 12 columns, owned by `retail-ops-builders`; the funnel SQL returns 8,339 rows over 550 journeys in Athena |
 | 1b | Topic `Retail Ops Journey Funnel` | A | PASS | 2026-10-23: `describe_topic_v2 retail-ops-journey-funnel` → the name, dataset `retail-ops-journey-events-sql`, custom instructions (932 characters: field meanings, synonyms, date field); published; `describe_topic_permissions_v2` → `retail-ops-builders` (6 actions) and the 4 OEM groups (`DescribeTopic`, `PassTopic`) |
@@ -141,7 +141,7 @@ development account on 2026-10-23.
 
 ## Remaining environment-dependent boundaries
 
-- Amazon Quick steps without an API (Track B above): one test run of a Flow and the
+- AWS Quick steps without an API (Track B above): one test run of a Flow and the
   District Roll-up schedule (the MCP connector and a first chat were done on
   2026-10-23). Follow the "Console checklist" in `docs/QUICK_BUILD.md`.
 - External identity provider registration in accounts other than the

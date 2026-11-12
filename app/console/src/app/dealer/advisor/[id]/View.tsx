@@ -1,6 +1,6 @@
 "use client";
 
-// Advisor (live) — spec §5.3, one-for-one with docs/use-cases/sales-advisor-v2.html:
+// Advisor (live) — spec §5.3, one-for-one with the dealer-floor UI mockup:
 // top-bar (session-info + live timer AR-8 + nav-tabs), 3 columns 320/1fr/340,
 // bottom AI Log. Mobile (≤480 px) renders the quick-look: Customer 360 + top
 // suggestion + objection response (§5.19). OEM roles see it read-only.

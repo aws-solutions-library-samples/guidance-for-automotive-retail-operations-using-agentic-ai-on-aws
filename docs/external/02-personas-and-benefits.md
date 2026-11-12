@@ -316,7 +316,7 @@ Quick screen that embeds the Quick dashboards and Flows.
 
 **How it helps.** Visit preparation moves from assembling data to reviewing a
 draft. Plans go through an approval workflow, so nothing reaches a dealer
-without a person's decision. In Amazon Quick, the same Field Sales Agent is
+without a person's decision. In AWS Quick, the same Field Sales Agent is
 available as a chat agent with eight document Flows (account plan, opportunity
 brief, win strategy, action plan, contact report, meeting package, district
 roll-up, sales-ops digest); each manager can schedule the weekly district
@@ -372,7 +372,7 @@ approving one records a decision without moving money automatically.
 
 - **Job.** Plans campaigns and audiences and defends the budget.
 - **Screens.** Campaigns (home), campaign detail, Audiences, Journey Ops, the
-  Amazon Quick dashboards.
+  AWS Quick dashboards.
 - **Agents.** Campaign Agent.
 
 | Automation | Agent | Trigger | What it does for you | Engine | KPI it moves |
@@ -381,7 +381,7 @@ approving one records a decision without moving money automatically.
 | Audience refresher | Campaign | On demand: when you press Refresh | Every segment recomputed with its movement and consented reach; exporting to an ad platform stays a separate step with hashed identifiers only | Rules | Campaign spend attributable to delivered vehicles |
 
 **How it helps.** Campaign return is measured in delivered vehicles, and the
-Campaign ROI dashboard and natural-language questions in Amazon Quick work over
+Campaign ROI dashboard and natural-language questions in AWS Quick work over
 the same data.
 
 ### OEM CX Lead

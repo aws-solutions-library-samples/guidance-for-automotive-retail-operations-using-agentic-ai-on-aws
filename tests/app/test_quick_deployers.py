@@ -1,5 +1,5 @@
 # ruff: noqa: S101
-"""Amazon Quick deploy wiring: the `quick` stage grants retail-ops-builders and each
+"""AWS Quick deploy wiring: the `quick` stage grants retail-ops-builders and each
 builder user owner on the repo's data source and datasets (deploy_quick_datasets), and the `l4`
 stage decides ENABLE_QUICK on the service Lambda (deploy_l4). boto3 is faked."""
 from __future__ import annotations

@@ -7,8 +7,8 @@ run it and take it down. What gets deployed is described in
 as `<account-id>`, `<region>`, `<env>` and `<your-console-url>` stand for your
 own values.
 
-Everything is scripted except a few Amazon Quick console steps that have no
-public API, and Amazon Quick itself is an optional add-on. Every script is a dry
+Everything is scripted except a few AWS Quick console steps that have no
+public API, and AWS Quick itself is an optional add-on. Every script is a dry
 run unless you tell it otherwise, prints the account it is acting on, runs
 unattended, stops at the first failing step, and is safe to re-run.
 
@@ -23,7 +23,7 @@ without any input, on a Linux machine or in AWS CodeBuild (image
 it is missing, clones the repository, creates a Python virtual environment,
 enables Amazon Bedrock model access, installs the console dependencies,
 generates the seed-user password, deploys under a generated environment name
-with Amazon Quick skipped, runs the verification suite, switches the
+with AWS Quick skipped, runs the verification suite, switches the
 development token off, and prints the console URL, the API base URL and the
 environment name. The sections below are the same steps by hand, with the
 options the script does not use.
@@ -46,7 +46,7 @@ options the script does not use.
 Use an AWS account where you can create resources in IAM, Lambda, DynamoDB, S3,
 API Gateway, EventBridge and EventBridge Scheduler, Step Functions, SQS,
 Cognito, Secrets Manager, Bedrock, Bedrock AgentCore, S3 Vectors, Data Firehose,
-Glue, Athena, CloudFront, WAF, CloudWatch, SES, SNS and Amazon Quick.
+Glue, Athena, CloudFront, WAF, CloudWatch, SES, SNS and AWS Quick.
 Administrator access is the simplest for a first deployment; the deployers then
 create least-privilege roles for the runtime components (one role per Lambda
 with enumerated table ARNs). Start in a dedicated, non-production account.
@@ -54,7 +54,7 @@ with enumerated table ARNs). Start in a dedicated, non-production account.
 ### Region
 
 The deployers are tested in `us-east-1`. Another region needs the same
-services, the Bedrock models and Amazon Quick to be available there.
+services, the Bedrock models and AWS Quick to be available there.
 
 ### Bedrock model access
 
@@ -77,10 +77,10 @@ The use case form's contact details come from `BEDROCK_USE_CASE_EMAIL`,
 `BEDROCK_USE_CASE_COMPANY`, `BEDROCK_USE_CASE_WEBSITE` and
 `BEDROCK_USE_CASE_TEXT`; set them to your own before the first run.
 
-### Amazon Quick (for analytics and the Field Sales Agent)
+### AWS Quick (for analytics and the Field Sales Agent)
 
 The analytics dashboards and the Field Sales Agent's chat and Flows need an
-**Amazon Quick Enterprise** subscription in the account (MCP connectors require
+**AWS Quick Enterprise** subscription in the account (MCP connectors require
 Enterprise). The rest of the solution does not depend on it: without Quick,
 deploy with `--skip quick` and `ENABLE_QUICK=false`, and the console's Quick
 panels stay off. Quick resource ids carry no environment name, so one account
@@ -112,7 +112,7 @@ your account.
 
 ```bash
 deploy/bootstrap.sh --env <env>                       # dry run: checks tools, shows the target account, changes nothing
-deploy/bootstrap.sh --yes --env <env> --skip quick    # deploy the whole stack into that account, without Amazon Quick
+deploy/bootstrap.sh --yes --env <env> --skip quick    # deploy the whole stack into that account, without AWS Quick
 deploy/verify.sh --env <env>                          # prove it works
 python3 -m app.infra.deploy_l4 --dev-token off --apply   # then refuse the development tokens
 ```
@@ -134,13 +134,13 @@ already exists there. With `--yes` it:
 | `--env <env>` | Environment name (default `RETAIL_OPS_ENV`, else `dev`): every resource is named `retail-ops-<env>-…`, so several environments can share an account |
 | `--region <region>` | Target region (default `us-east-1`) |
 | `--markets us,de` | Also load the German market (the US market is always loaded) |
-| `--skip <stage,…>` | Skip stages, for example `--skip quick` without an Amazon Quick subscription |
+| `--skip <stage,…>` | Skip stages, for example `--skip quick` without an AWS Quick subscription |
 | `--enable-jobs` | Also enable the weekly autonomy-promotion job (every other job ships enabled) |
 
 On a fresh account the console stage runs after the API stage, so the deploy
 runs the API stage once more right after the console stage. That sets the new
 console URL as the one origin the API answers CORS for and as the allowed
-origin for embedded Amazon Quick dashboards. To set it again by hand:
+origin for embedded AWS Quick dashboards. To set it again by hand:
 
 ```bash
 deploy/deploy.sh --apply --only l4
@@ -156,7 +156,7 @@ each writes the handles later stages need to a git-ignored
 
 | Order | Stage | What it creates or updates |
 |---|---|---|
-| 1 | `cognito` | Staff user pool `retail-ops-<env>-staff` with 19 role groups and development seed users, the web app client, the hosted-UI domain and client for federation, and a resource server plus client-credentials client for Amazon Quick (secret in Secrets Manager) |
+| 1 | `cognito` | Staff user pool `retail-ops-<env>-staff` with 19 role groups and development seed users, the web app client, the hosted-UI domain and client for federation, and a resource server plus client-credentials client for AWS Quick (secret in Secrets Manager) |
 | 2 | `data` | The 68 DynamoDB tables, loaded from the synthetic US pack |
 | 3 | `sso-admins` | Administrator user records for the identities on the administrator allowlist; removes records for identities no longer listed and never touches other records |
 | 4 | `events` | The event bus `app-bus-<env>`, the subscriber Lambda, its rule and a dead-letter queue |
@@ -164,13 +164,13 @@ each writes the handles later stages need to a git-ignored
 | 6 | `corpus` | The 538-document knowledge corpus exported to the lake bucket |
 | 7 | `guardrails` | The main Bedrock Guardrail and the store digest's copy, each with a published version |
 | 8 | `kb` | An S3 Vectors bucket and index, the Knowledge Base, its data source and metadata files, and the first ingestion |
-| 9 | `l4` | Per-function IAM roles, the authorizer and service Lambdas, and the REST API; wires guardrail, Knowledge Base, Gateway, agent runtimes, Amazon Quick and the embed origin into the service settings |
+| 9 | `l4` | Per-function IAM roles, the authorizer and service Lambdas, and the REST API; wires guardrail, Knowledge Base, Gateway, agent runtimes, AWS Quick and the embed origin into the service settings |
 | 10 | `approvals` | The plan-approval Step Functions state machine and its submit Lambda |
 | 11 | `l6` | Twelve job Lambdas, the scheduler role and 13 schedules for both markets |
 | 12 | `alarms` | Errors and throttles alarms for every Lambda, and an unknown-outcome alarm per agent-owned job |
 | 13 | `agentcore` | The shared runtime execution role, one code bundle per agent and the six AgentCore runtimes (the Journey Agent last, because it calls the others); then re-runs `l4` and `l6` to wire the runtimes in |
-| 14 | `gateway` | The OEM read Lambda and role, the IAM-authenticated Gateway for the console and the JWT-authenticated Gateway for Amazon Quick |
-| 15 | `quick` | Quick sharing groups and memberships, the Athena data source and lake datasets, then the Quick content (see [Amazon Quick](#amazon-quick)) and discovery of Flows and dashboards for the console |
+| 14 | `gateway` | The OEM read Lambda and role, the IAM-authenticated Gateway for the console and the JWT-authenticated Gateway for AWS Quick |
+| 15 | `quick` | Quick sharing groups and memberships, the Athena data source and lake datasets, then the Quick content (see [AWS Quick](#amazon-quick)) and discovery of Flows and dashboards for the console |
 | 16 | `console` | The static console build against the live API and Cognito clients, its S3 bucket, CloudFront distribution, origin access control and URL-rewrite function |
 | 17 | `waf` | The WAF web ACL on the distribution |
 
@@ -202,7 +202,7 @@ running the scripts. Only the seed password is required.
 | `RETAIL_OPS_IDP_CLIENT_ID`, `RETAIL_OPS_IDP_CLIENT_SECRET` | unset | OIDC client credentials given directly instead of the secret |
 | `RETAIL_OPS_IDP_NAME`, `RETAIL_OPS_IDP_PROTOCOL`, `RETAIL_OPS_IDP_METADATA_URL` | provider name, `oidc` | Name of the identity provider, `oidc` or `saml`, and the SAML metadata URL |
 | `RETAIL_OPS_SSO_ADMINS` | unset | The administrator allowlist: comma-separated user names from your identity provider that get the Administrator role; unset changes nothing, an empty value removes every Administrator |
-| `ENABLE_QUICK` | set by the `l4` stage | `true` when the account has Amazon Quick; set it to force `true` or `false` |
+| `ENABLE_QUICK` | set by the `l4` stage | `true` when the account has AWS Quick; set it to force `true` or `false` |
 | `RETAIL_OPS_QUICK_EMBED_DOMAINS` | `<your-console-url>` | The origins allowed to embed Quick dashboards (up to three https origins) |
 | `RETAIL_OPS_QUICK_PER_USER_EMBED` | off; no stage sets it | Registers each console user who opens a dashboard as their own Quick reader and adds them to their role's group; each reader can add per-user subscription cost |
 | `RETAIL_OPS_QUICK_BUILDERS` | unset | Quick user names of your authors, added to the builders group and given owner access to the Quick content |
@@ -257,7 +257,7 @@ python3 -m app.eval.run_eval --mode offline     # every golden case must pass
 (cd app/console && npm run lint:units && npx tsc --noEmit -p .)
 ```
 
-## Amazon Quick
+## AWS Quick
 
 ### What the scripts create
 
@@ -288,7 +288,7 @@ share it only with groups that may see every district and dealer.
 
 ### Console checklist
 
-Five steps, in order, signed in to the Amazon Quick console as a member of the
+Five steps, in order, signed in to the AWS Quick console as a member of the
 builders group. Steps 1, 3, 4 and 5 have no public API; step 2 is a command.
 
 1. **Create the MCP connector.** *Connectors → Create for your team → Model
@@ -339,7 +339,7 @@ After a deployment, reload the Quick console to see newly granted content. When
 the corpus changes, open each `Retail Ops …` knowledge base and choose **Sync
 now**; Quick has no sync API.
 
-Chat, Flow runs and scheduled Flows consume Amazon Quick agent hours (see
+Chat, Flow runs and scheduled Flows consume AWS Quick agent hours (see
 [Costs](#costs)).
 
 ## Operating
@@ -434,18 +434,18 @@ The solution is mostly pay-per-request. Plan for these categories:
 | Agents | AgentCore Runtime (billed on actual CPU and memory use per session), Gateway calls, Code Interpreter sessions |
 | Compute and requests | Lambda, API Gateway, DynamoDB on-demand, EventBridge and Scheduler, Step Functions, SQS, Data Firehose, Athena queries |
 | Storage | S3 (console, lake, corpus), S3 Vectors, DynamoDB storage, CloudWatch logs |
-| Always on | The CloudFront distribution and the WAF web ACL, Secrets Manager secrets, and the Amazon Quick subscription |
+| Always on | The CloudFront distribution and the WAF web ACL, Secrets Manager secrets, and the AWS Quick subscription |
 | Identity and messaging | Cognito monthly active users, SES email and SNS SMS |
-| Amazon Quick | Per-user subscriptions, the per-account infrastructure fee, agent hours for chat and Flows, and index storage; per-user embedding adds a reader for every console user who opens a dashboard |
+| AWS Quick | Per-user subscriptions, the per-account infrastructure fee, agent hours for chat and Flows, and index storage; per-user embedding adds a reader for every console user who opens a dashboard |
 
-Two Amazon Quick figures that affect planning:
+Two AWS Quick figures that affect planning:
 
 - Quick Enterprise costs $40 per user per month plus a $250 infrastructure fee
   per account per month.
-  - Source: [Amazon Quick pricing](https://aws.amazon.com/quick/pricing/) (checked October 2026)
+  - Source: [AWS Quick pricing](https://aws.amazon.com/quick/pricing/) (checked October 2026)
 - An Enterprise license includes 18 agent hours a month; overage is $3 per
   agent hour.
-  - Source: [Amazon Quick pricing](https://aws.amazon.com/quick/pricing/) (checked October 2026)
+  - Source: [AWS Quick pricing](https://aws.amazon.com/quick/pricing/) (checked October 2026)
 
 For everything else, use the primary pricing pages and the
 [AWS Pricing Calculator](https://calculator.aws/):
@@ -492,7 +492,7 @@ To keep an idle development account quiet, disable the writer jobs (see
 - **Restrict the console if it is not public.** Set `RETAIL_OPS_WAF_ALLOW_CIDRS`
   to your network ranges, and test the ranges before relying on them.
 - **Share Quick content deliberately.** There is no row-level security in
-  Amazon Quick; group membership decides who can open a dashboard or dataset,
+  AWS Quick; group membership decides who can open a dashboard or dataset,
   and they see all of its rows.
 - **Secrets stay in Secrets Manager.** The Quick machine client's secret and an
   optional identity-provider secret are stored there; the connector registry
@@ -521,12 +521,12 @@ deploy/destroy.sh --env <env> --confirm --account <account-id> --include-data   
 deploy/destroy.sh                                                   # dry run: list what it found (env dev)
 deploy/destroy.sh --confirm --account <account-id>                  # delete; keep tables and the lake
 deploy/destroy.sh --confirm --account <account-id> --include-data   # also delete the tables and the lake bucket
-deploy/destroy.sh --only quick_content,quick                        # review only the Amazon Quick part (dry run)
+deploy/destroy.sh --only quick_content,quick                        # review only the AWS Quick part (dry run)
 ```
 
 - It removes schedules, alarms, the CloudFront distribution (disabled first,
   then deleted; re-run if it is still disabling after 20 minutes), the WAF web
-  ACL, the Amazon Quick content and datasets, the AgentCore gateways and
+  ACL, the AWS Quick content and datasets, the AgentCore gateways and
   runtimes, the Knowledge Base with its vector store, the guardrails, the REST
   API, the state machine, Lambdas and layers, EventBridge rules and the bus once
   it is empty, SQS, Firehose, Glue and Athena, secrets (with a 7-day recovery
@@ -546,7 +546,7 @@ deploy/destroy.sh --only quick_content,quick                        # review onl
 - **Environment name and region.** `--env <env>` (or `RETAIL_OPS_ENV`) names
   every resource `retail-ops-<env>-…`, so a second environment in the same
   account shares nothing with the first; the default `dev` keeps the original
-  names. Amazon Quick resource ids carry no environment name, so only one
+  names. AWS Quick resource ids carry no environment name, so only one
   environment per account can use Quick. The region (`us-east-1`) is a constant
   in the deployers.
 - **Markets.** The US and German packs can coexist; load the second with
@@ -562,7 +562,7 @@ deploy/destroy.sh --only quick_content,quick                        # review onl
   `sso-admins` stage, or give the new provider its own `RETAIL_OPS_IDP_NAME`.
 - **Models.** `RETAIL_OPS_BEDROCK_MODEL` and the Sales Agent loop model are
   settings; choose models available in your region.
-- **Without Amazon Quick.** Deploy with `--skip quick`; the console hides its
+- **Without AWS Quick.** Deploy with `--skip quick`; the console hides its
   Quick panels and the rest works unchanged.
 - **Your own systems.** Live DMS, labor and parts endpoints are configured as
   connector entries (endpoint and secret references) in Admin › Connectors;

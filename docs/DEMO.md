@@ -38,7 +38,7 @@ runtimes (`RETAIL_OPS_AGENT_RUNTIMES`), the Knowledge Base, the main guardrail a
 the Gateway. Each job Lambda is wired to its owner agent's runtime only; the
 store-digest Lambda alone also carries the digest guardrail and calls Bedrock.
 
-### Honest Amazon Quick boundary
+### Honest AWS Quick boundary
 
 The data side is deployed: Athena datasets, Quick sharing groups,
 CUSTOM_JWT Gateway, shared corpus, and registered-user embedding. Account

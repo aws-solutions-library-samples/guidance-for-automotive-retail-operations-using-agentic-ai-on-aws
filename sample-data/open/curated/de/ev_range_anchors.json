@@ -1,7 +1,7 @@
 {
   "_meta": {
     "market": "de",
-    "description": "WLTP electric range anchors for the Europe seed pack. The EEA per-registration table used for CO2/consumption anchors does not expose BEV range, so ranges come from manufacturer public specifications (WLTP combined, largest standard battery of the volume trim). Values are approximate and rounded; verify=true means re-check the manufacturer spec page before demo. Used only as anchors for the synthetic Nordwerk lineup and as competitor rows; never copied as Nordwerk trim names.",
+    "description": "WLTP electric range anchors for the Europe seed pack. The EEA per-registration table used for CO2/consumption anchors does not expose BEV range, so ranges come from comparable public specifications (WLTP combined, largest standard battery of the volume trim). Values are approximate and rounded; verify=true means re-check the comparable spec before demo. Used only as anchors for the synthetic Nordwerk lineup and as competitor rows; never copied as Nordwerk trim names.",
     "curated_on": "2026-09-10",
     "unit": "km WLTP combined"
   },
@@ -10,10 +10,10 @@
       "segment": "ev_compact_crossover",
       "nordwerk_model": "Nordwerk Vela",
       "anchors": [
-        {"make": "Volkswagen", "model": "ID.3 Pro S", "battery_kwh": 79, "wltp_range_km": 560, "source_url": "https://www.volkswagen.de/de/modelle/id3.html", "verify": true},
-        {"make": "Cupra", "model": "Born 77 kWh", "battery_kwh": 77, "wltp_range_km": 570, "source_url": "https://www.cupraofficial.de/modelle/born", "verify": true},
-        {"make": "Renault", "model": "5 E-Tech 52 kWh", "battery_kwh": 52, "wltp_range_km": 410, "source_url": "https://www.renault.de/elektroautos/renault-5-e-tech.html", "verify": true},
-        {"make": "Peugeot", "model": "E-208 51 kWh", "battery_kwh": 51, "wltp_range_km": 430, "source_url": "https://www.peugeot.de/modelle/alle-modelle/e-208.html", "verify": true}
+        {"make": "Rheinmark", "model": "Eco 3 Pro S", "battery_kwh": 79, "wltp_range_km": 560, "source_url": "https://www.example.com", "verify": true},
+        {"make": "Cordero", "model": "Vento 77 kWh", "battery_kwh": 77, "wltp_range_km": 570, "source_url": "https://www.example.com", "verify": true},
+        {"make": "Aurel", "model": "Petit E 52 kWh", "battery_kwh": 52, "wltp_range_km": 410, "source_url": "https://www.example.com", "verify": true},
+        {"make": "Lyrien", "model": "E-Pico 51 kWh", "battery_kwh": 51, "wltp_range_km": 430, "source_url": "https://www.example.com", "verify": true}
       ],
       "anchor_range_km_median": 495,
       "anchor_battery_kwh_median": 64
@@ -22,11 +22,11 @@
       "segment": "ev_midsize_suv",
       "nordwerk_model": "Nordwerk Aurin",
       "anchors": [
-        {"make": "Volkswagen", "model": "ID.4 Pro", "battery_kwh": 77, "wltp_range_km": 550, "source_url": "https://www.volkswagen.de/de/modelle/id4.html", "verify": true},
-        {"make": "Skoda", "model": "Enyaq 85", "battery_kwh": 77, "wltp_range_km": 580, "source_url": "https://www.skoda-auto.de/modelle/enyaq", "verify": true},
-        {"make": "Tesla", "model": "Model Y Long Range RWD", "battery_kwh": 75, "wltp_range_km": 600, "source_url": "https://www.tesla.com/de_de/modely", "verify": true},
-        {"make": "Hyundai", "model": "IONIQ 5 84 kWh", "battery_kwh": 84, "wltp_range_km": 570, "source_url": "https://www.hyundai.de/modelle/ioniq5/", "verify": true},
-        {"make": "BMW", "model": "iX1 eDrive20", "battery_kwh": 65, "wltp_range_km": 475, "source_url": "https://www.bmw.de/de/neufahrzeuge/x/ix1/", "verify": true}
+        {"make": "Rheinmark", "model": "Eco 4 Pro", "battery_kwh": 77, "wltp_range_km": 550, "source_url": "https://www.example.com", "verify": true},
+        {"make": "Vltava", "model": "Elva 85", "battery_kwh": 77, "wltp_range_km": 580, "source_url": "https://www.example.com", "verify": true},
+        {"make": "Ampera", "model": "Spark X Long Range RWD", "battery_kwh": 75, "wltp_range_km": 600, "source_url": "https://www.example.com", "verify": true},
+        {"make": "Solari", "model": "Lumen 5 84 kWh", "battery_kwh": 84, "wltp_range_km": 570, "source_url": "https://www.example.com", "verify": true},
+        {"make": "Brandt", "model": "Terra E e20", "battery_kwh": 65, "wltp_range_km": 475, "source_url": "https://www.example.com", "verify": true}
       ],
       "anchor_range_km_median": 570,
       "anchor_battery_kwh_median": 77
@@ -35,10 +35,10 @@
       "segment": "ev_sedan",
       "nordwerk_model": "Nordwerk Stratos",
       "anchors": [
-        {"make": "Volkswagen", "model": "ID.7 Pro S", "battery_kwh": 86, "wltp_range_km": 700, "source_url": "https://www.volkswagen.de/de/modelle/id7.html", "verify": true},
-        {"make": "Tesla", "model": "Model 3 Long Range RWD", "battery_kwh": 79, "wltp_range_km": 700, "source_url": "https://www.tesla.com/de_de/model3", "verify": true},
-        {"make": "BMW", "model": "i4 eDrive40", "battery_kwh": 81, "wltp_range_km": 590, "source_url": "https://www.bmw.de/de/neufahrzeuge/4er/i4/", "verify": true},
-        {"make": "Hyundai", "model": "IONIQ 6 77 kWh", "battery_kwh": 77, "wltp_range_km": 610, "source_url": "https://www.hyundai.de/modelle/ioniq6/", "verify": true}
+        {"make": "Rheinmark", "model": "Eco 7 Pro S", "battery_kwh": 86, "wltp_range_km": 700, "source_url": "https://www.example.com", "verify": true},
+        {"make": "Ampera", "model": "Spark S Long Range RWD", "battery_kwh": 79, "wltp_range_km": 700, "source_url": "https://www.example.com", "verify": true},
+        {"make": "Brandt", "model": "Arc E4 e40", "battery_kwh": 81, "wltp_range_km": 590, "source_url": "https://www.example.com", "verify": true},
+        {"make": "Solari", "model": "Lumen 6 77 kWh", "battery_kwh": 77, "wltp_range_km": 610, "source_url": "https://www.example.com", "verify": true}
       ],
       "anchor_range_km_median": 650,
       "anchor_battery_kwh_median": 80

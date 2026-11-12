@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Amazon Quick sharing groups and their memberships (docs/QUICK_BUILD.md step P1).
+"""AWS Quick sharing groups and their memberships (docs/QUICK_BUILD.md step P1).
 
 Groups decide who may OPEN shared content. The five groups in
 `app/services/platform/quick.py` QUICK_GROUPS are created idempotently in the
@@ -111,7 +111,7 @@ def status() -> None:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Amazon Quick sharing groups and memberships")
+    ap = argparse.ArgumentParser(description="AWS Quick sharing groups and memberships")
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--status", action="store_true")
     args = ap.parse_args()

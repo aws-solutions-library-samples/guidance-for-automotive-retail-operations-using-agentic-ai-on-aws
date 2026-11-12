@@ -44,7 +44,7 @@ and every generative path has a deterministic fallback. State is 68 DynamoDB
 tables (the spec's 67 plus `OEM_CatalogModels` and `PLAT_Config`, which the spec
 does not list yet), changes are
 published as typed events on an EventBridge bus, events land in an S3 lake for
-analytics in Amazon Quick, and a Next.js console (one static site, five "apps"
+analytics in AWS Quick, and a Next.js console (one static site, five "apps"
 in one shell) is served from CloudFront behind Cognito sign-in.
 
 ---
@@ -73,7 +73,7 @@ flowchart LR
 
   subgraph Managed
     BR[Amazon Bedrock<br/>Claude via Converse]
-    QK[Amazon Quick<br/>datasets · dashboards · flows · agent]
+    QK[AWS Quick<br/>datasets · dashboards · flows · agent]
     COG[Amazon Cognito<br/>staff pool · groups]
     SFN[Step Functions<br/>plan approval]
     SESNS[SES · SNS]
@@ -98,7 +98,7 @@ code in-process when no runtime is configured. All three, which share one code
 base, read and write DynamoDB, publish events to
 EventBridge, call Bedrock for grounded phrasing, and drive the Step Functions
 approval and SES/SNS outreach. Events flow through Firehose into an S3 lake
-queried by Athena and Amazon Quick. Quick reaches operational OEM data only
+queried by Athena and AWS Quick. Quick reaches operational OEM data only
 through an AgentCore Gateway. Cognito authenticates staff.
 
 ### Personas served
@@ -232,7 +232,7 @@ Each custom agent has its own AgentCore runtime, named
 `retail_ops_dev_a2_journey`, `retail_ops_dev_a3_sales`,
 `retail_ops_dev_a4_trade_in`, `retail_ops_dev_a5_campaign` (the recommendation
 step only) and `retail_ops_dev_a7_service`. The Field Sales Agent (A6) stays in
-Amazon Quick. `app/agentcore/registry.py` lists what each runtime serves; only
+AWS Quick. `app/agentcore/registry.py` lists what each runtime serves; only
 agent work is routed there (the A3 agent turn, the Sales Package, the two A5
 budget-shift POSTs and the nine agent-owned jobs), and every other route runs in
 the service Lambda. With no runtime configured the same function runs
@@ -311,7 +311,7 @@ a working local implementation and a documented AWS implementation; the mode is
 | `compute` | restricted-AST arithmetic with an audit triple (inputs, code, result) | AgentCore Code Interpreter (`bedrock-agentcore` start/invoke/stop session, `aws.codeinterpreter.v1`, session cached per container, session id in `source_ref`) | **real** — falls back to the audited local twin and labels the engine when the service is unreachable |
 | `connectors` | DynamoDB-backed sandbox implementations for DMS, labor, and parts | `LiveConnector` loads endpoint and credential references from configuration | **real interface** — live endpoints are not configured in the reference environment |
 | `outreach` | — | SES e-mail + SNS SMS, consent-checked, recorded to `CUST_Messages`; Amazon Connect documented | **real** (SES/SNS) |
-| `quick` | `DisabledQuick` when `ENABLE_QUICK=false` | `quicksight` ListFlows / ListDashboards / registered-user embed URL with `AllowedDomains` from `RETAIL_OPS_QUICK_EMBED_DOMAINS` (per-user reader registration only with `RETAIL_OPS_QUICK_PER_USER_EMBED=1`, off by default) | **real** — the `l4` stage sets `ENABLE_QUICK=true` when the account has Amazon Quick, and the console URL as the embed domain |
+| `quick` | `DisabledQuick` when `ENABLE_QUICK=false` | `quicksight` ListFlows / ListDashboards / registered-user embed URL with `AllowedDomains` from `RETAIL_OPS_QUICK_EMBED_DOMAINS` (per-user reader registration only with `RETAIL_OPS_QUICK_PER_USER_EMBED=1`, off by default) | **real** — the `l4` stage sets `ENABLE_QUICK=true` when the account has AWS Quick, and the console URL as the embed domain |
 
 **Streaming boundary.** The live-floor client uses the authenticated
 `POST /journeys/{id}/utterance-sse` API route. It returns an SSE document but
@@ -352,7 +352,7 @@ guarded future transport and is not part of the default deployment.
   `lake_marketintel`, `lake_leads`, `lake_campaigns`) →
   Athena workgroup `retail-ops-dev-lake`. The same bucket holds the **knowledge
   corpus** (538 Markdown documents under `quick-index/<kind>/`) exported for
-  Amazon Quick knowledge bases.
+  AWS Quick knowledge bases.
 * **Knowledge Base** — `deploy_knowledge_base.py` builds a Bedrock Knowledge
   Base over the same `quick-index/` corpus: an S3 Vectors bucket and index
   (1024-dim cosine), a service role, a data source with fixed-size chunking,
@@ -447,7 +447,7 @@ own staff). Every record has `source_ref` (the Gateway path) and `data_source_re
   (`GET /gateway/oem/{tool}`) and the runtime.
 * `retail-ops-dev-crosspersona-quick` — inbound auth **CUSTOM_JWT** against the
   Cognito pool (client-credentials client `retail-ops-quick-mcp`, scope
-  `retail-ops-oem/read`); this is the endpoint Amazon Quick's MCP connector calls.
+  `retail-ops-oem/read`); this is the endpoint AWS Quick's MCP connector calls.
 
 ### 3.8 Human-in-the-loop controls
 
@@ -544,7 +544,7 @@ state. EventBridge fans the event out to the subscriber Lambda and to the lake.
   District Manager Assistant — plus the Campaign Agent's budget-shift drafter for
   finance (user decision 2026-10-22); A6's Interact opens `POST /oem/ask`, the
   same route as the OEM Workspace assistant. The A5 dashboards and the
-  Quick-native A6 content stay Amazon Quick surfaces reached through `/oem/quick`
+  Quick-native A6 content stay AWS Quick surfaces reached through `/oem/quick`
   and `/marketing/quick` (iframe embed via `GET /oem/quick/dashboards/{id}/embed-url`).
   The admin roles have a read-mostly bar (user decision 2026-10-22): the
   Administrator and `admin_tenant` see every staff automation (50, all seven
@@ -621,7 +621,7 @@ flowchart TB
     DDB[(DynamoDB 68 tables)]
     FH[Firehose] --> LK[(S3 event lake + quick-index corpus)]
     GL[Glue retail_ops_dev_lake 13 tables] --> AT[Athena wg retail-ops-dev-lake]
-    QK[Amazon Quick: 13 datasets · dashboards · flows]
+    QK[AWS Quick: 13 datasets · dashboards · flows]
     SM[(Secrets Manager quick-mcp-oauth)]
   end
   subgraph Ops
@@ -656,7 +656,7 @@ bucket and the browser calls API Gateway; the authorizer Lambda validates
 Cognito tokens and the service Lambda does the work against DynamoDB,
 EventBridge, Step Functions and the AWS_IAM Gateway. EventBridge fans events to
 a subscriber Lambda (with DLQ) and to Firehose into the S3 lake, which Glue and
-Athena expose to Amazon Quick. Scheduler drives twelve job Lambdas through 13
+Athena expose to AWS Quick. Scheduler drives twelve job Lambdas through 13
 schedules (`shop-load` has one per market; autonomy-promotion ships disabled). Both Gateways
 call one OEM-read Lambda. Six AgentCore runtimes, one per custom agent, read
 the same tables and publish to the same bus: the service Lambda invokes A3's
@@ -671,7 +671,7 @@ CloudWatch alarms watch every Lambda.
 
 | Stage | Deployer | Creates / updates |
 |---|---|---|
-| `cognito` | `cognito_setup.py` | user pool `retail-ops-dev-staff`, 19 groups, web client (`USER_PASSWORD_AUTH`), 9 seed users, Hosted-UI domain, resource server `retail-ops-oem` + client-credentials client `retail-ops-quick-mcp` for Amazon Quick (secret in Secrets Manager); `--federate` adds an OIDC/SAML IdP |
+| `cognito` | `cognito_setup.py` | user pool `retail-ops-dev-staff`, 19 groups, web client (`USER_PASSWORD_AUTH`), 9 seed users, Hosted-UI domain, resource server `retail-ops-oem` + client-credentials client `retail-ops-quick-mcp` for AWS Quick (secret in Secrets Manager); `--federate` adds an OIDC/SAML IdP |
 | `data` | `l1_data/ddb_load.py --market us` | 68 DynamoDB tables + rows from the synthetic manifest |
 | `sso-admins` | `sso_admins.py` | Administrator rows `U-ADMIN-<alias>` in `PLAT_Users` for the aliases in `RETAIL_OPS_SSO_ADMINS`; deletes rows of delisted aliases (marker `provisioned_by=sso-allowlist`), never touches other rows |
 | `guardrails` | `deploy_guardrails.py` | Bedrock Guardrails `retail-ops-dev-guardrail` (STANDARD tier, cross-region profile) and the store digest's `retail-ops-dev-guardrail-digest` (same policies, grounding 0.2, no relevance check), each with a published version; `--which main\|digest\|all`; `--calibrate` runs the allowed/denied lists; writes `guardrail-config.json` and `guardrail-digest-config.json` |
@@ -679,19 +679,19 @@ CloudWatch alarms watch every Lambda.
 | `l4` | `deploy_l4.py` + `iam_roles.py` | per-function IAM roles (explicit table ARNs, no wildcards; ApplyGuardrail, Retrieve, InvokeAgentRuntime), authorizer + service Lambdas (29 s / 512 MB), REST API + TOKEN authorizer, stage `dev`; wires env (`RETAIL_OPS_EVENT_BUS_LIVE`, Gateway, Guardrail, Knowledge Base, runtime map `RETAIL_OPS_AGENT_RUNTIMES`, `ENABLE_QUICK` from the Quick subscription with a `deploy/config.env` override, `RETAIL_OPS_QUICK_EMBED_DOMAINS` from the console URL, passed as the embed URL's `AllowedDomains`, …; keeps a hand-set `RETAIL_OPS_QUICK_PER_USER_EMBED`) |
 | `events` | `deploy_events.py` | bus `app-bus-dev`, subscriber Lambda, rule for all subscribed types, SQS DLQ |
 | `lake` | `deploy_lake.py`, `deploy_lake_analytics.py`, `deploy_lake_rollups.py` | lake bucket, Firehose, lake rule, Glue db + 13 tables, Athena workgroup; analytics mirrors and derived roll-ups |
-| `corpus` | `deploy_quick_index.py` | the 538-document knowledge corpus under `quick-index/` in the lake bucket (feeds the Knowledge Base and the Amazon Quick knowledge bases) |
+| `corpus` | `deploy_quick_index.py` | the 538-document knowledge corpus under `quick-index/` in the lake bucket (feeds the Knowledge Base and the AWS Quick knowledge bases) |
 | `approvals` | `deploy_approvals.py` | submit Lambda, SFN role, state machine `retail-ops-dev-plan-approval` |
 | `l6` | `deploy_l6.py` | 12 job Lambdas + Scheduler role + 13 schedules from one table, each for `us` and `de` (`equity-monitor` 06:00 UTC, `nurture-tick` 6 h, `stall-sweep` 05:30, `rescore-profiles` 05:45, `service-lane-monitor` 07:00, `shop-load` 05:00 local — 10:00 UTC `us`, 03:00 UTC `de`, `service-followup-tick` hourly, `predictive-scan` 06:15, `nightly-attribution` 08:00, `district-cycle` Mon 05:00, `store-digest` 06:30, `autonomy-promotion` Mon 06:00); every job on the agent bar ships ENABLED, `autonomy-promotion` ships DISABLED (`--enable-all` turns it on) |
 | `alarms` | `deploy_alarms.py` | Errors + Throttles alarm per Lambda; a `runtime_job_unknown` metric filter (dimension `Job`) and alarm per agent-owned job Lambda |
 | `agentcore` | `deploy_agentcore.py` | shared exec role `AmazonBedrockAgentCore-retail-ops-exec`, one S3 code zip per agent (its import closure plus `requirements-agentcore-tools.txt` or, for A3, `requirements-agentcore.txt`, vendored for **Linux arm64**), six runtimes `retail_ops_dev_<code>_<slug>` from the agent registry with A2 last (HTTP protocol, PYTHON_3_12, `INTEGRATION_MODE=aws`, guardrail env, KB id for A3, A2 gets the A1/A3/A4 ARNs); writes `agentcore-config.json` (schema v2); on `--apply`, `deploy.sh` then re-runs `l4` and `l6` |
-| `gateway` | `deploy_gateway.py`, `deploy_gateway_quick.py` | OEM-read Lambda + role, Gateway role, AWS_IAM gateway (console) and CUSTOM_JWT gateway (Amazon Quick; client id from `cognito-config.json`), Lambda targets with tool schema generated from code |
+| `gateway` | `deploy_gateway.py`, `deploy_gateway_quick.py` | OEM-read Lambda + role, Gateway role, AWS_IAM gateway (console) and CUSTOM_JWT gateway (AWS Quick; client id from `cognito-config.json`), Lambda targets with tool schema generated from code |
 | `quick` | `deploy_quick_groups.py`, `deploy_quick_datasets.py`, `deploy_quick_content.py`, `deploy_quick.py` | 5 Quick sharing groups + memberships; Athena data source + one dataset per lake table, owned by `retail-ops-builders`; Quick content through the Quick API (two custom-SQL Direct query datasets, topic V2, S3 knowledge source + 9 knowledge bases, space, Field Sales chat agent, 8 published Flows, analysis + published dashboard), each shared with the groups, server-assigned Flow ids in `quick-content-config.json`; discovery of Flows/dashboards into `quick-config.json` |
 | `console` | `deploy_console.py` | builds the static export against the current API base and Cognito client ids, S3 bucket, OAC, CloudFront distribution + Function, invalidation |
 | `waf` | `deploy_waf.py` | WAFv2 web ACL attached to the distribution |
 
 The resource names, versions, schedule states and verification results of the
 development account are recorded once, in `docs/DEMO.md` (inventory) and
-`docs/ACCEPTANCE.md` (status); the Amazon Quick content has its own runbook,
+`docs/ACCEPTANCE.md` (status); the AWS Quick content has its own runbook,
 `docs/QUICK_BUILD.md`, whose "Console checklist" lists the steps without an API (the
 MCP connector, test runs, the District Roll-up schedule).
 
@@ -723,5 +723,5 @@ MCP connector, test runs, the District Roll-up schedule).
 | follow a live demo and see the live resource inventory | `docs/DEMO.md` |
 | see current verification status and remaining boundaries | `docs/ACCEPTANCE.md` |
 | see which persona can open which screen and route | `docs/ACCESS_BY_PERSONA.md` |
-| build the Amazon Quick side | `docs/QUICK_BUILD.md` |
+| build the AWS Quick side | `docs/QUICK_BUILD.md` |
 | compare with the target architecture and requirements | `docs/specs/retail-ops-architecture.md`, `docs/specs/intelligent-sales-service-orchestration.md` |

@@ -14,7 +14,7 @@ app/infra/naming.py; `<env>` is RETAIL_OPS_ENV, default dev):
 
 Idempotent: updates code/role/api in place if they already exist.
 Dry-run by default; pass --apply to create/update. --delete tears the stack down.
-ENABLE_QUICK on the service Lambda is "true" when the account has an Amazon Quick
+ENABLE_QUICK on the service Lambda is "true" when the account has an AWS Quick
 subscription (DescribeAccountSubscription); ENABLE_QUICK=true|false in the deploy
 environment (deploy/config.env) overrides the detection.
 RETAIL_OPS_QUICK_EMBED_DOMAINS on the service Lambda is the console URL from
@@ -188,7 +188,7 @@ def quick_flag(qs, account: str, override: str | None = None) -> tuple[str | Non
     """ENABLE_QUICK for the service Lambda, and why.
 
     The deploy environment's ENABLE_QUICK=true|false wins. Otherwise "true" when
-    the account has an active Amazon Quick subscription and "false" when it has
+    the account has an active AWS Quick subscription and "false" when it has
     none. None (keep the current value) when the subscription cannot be read.
     The flag turns on read calls only (ListFlows, ListDashboards, the embed URL
     for the shared embed user); per-user embedding stays behind its own
@@ -201,13 +201,13 @@ def quick_flag(qs, account: str, override: str | None = None) -> tuple[str | Non
     try:
         info = qs.describe_account_subscription(AwsAccountId=account).get("AccountInfo") or {}
     except qs.exceptions.ResourceNotFoundException:
-        return "false", "no Amazon Quick subscription in this account"
+        return "false", "no AWS Quick subscription in this account"
     except Exception as e:  # noqa: BLE001 - undecided: keep whatever the Lambda has
-        return None, f"could not read the Amazon Quick subscription ({type(e).__name__})"
+        return None, f"could not read the AWS Quick subscription ({type(e).__name__})"
     status = info.get("AccountSubscriptionStatus")
     if status == "ACCOUNT_CREATED":
-        return "true", f"Amazon Quick {info.get('Edition') or 'subscription'} {status}"
-    return "false", f"Amazon Quick subscription status {status or 'unknown'}"
+        return "true", f"AWS Quick {info.get('Edition') or 'subscription'} {status}"
+    return "false", f"AWS Quick subscription status {status or 'unknown'}"
 
 
 def quick_env(qs, account: str, override: str | None = None) -> dict[str, str]:
@@ -812,7 +812,7 @@ def ensure_api(agw, lam, account: str, auth_arn: str, svc_arn: str, apply: bool,
     gateway_oem_tool = resource(gateway_oem, "{tool}")
     proxy_method(gateway_oem_tool, "GET")
 
-    # Amazon Quick (quicksight) — plug-and-play, disabled unless ENABLE_QUICK.
+    # AWS Quick (quicksight) — plug-and-play, disabled unless ENABLE_QUICK.
     # /oem/quick/flows (GET), /oem/quick/dashboards (GET),
     # /oem/quick/dashboards/{id}/embed-url (GET registered-user embed)
     oem_quick = resource(oem, "quick")
@@ -1002,7 +1002,7 @@ def main(argv=None) -> int:
     # The SES sender (a verified identity) has no built-in default: outreach
     # emails fall back to dealer tasks until the deploy environment names one.
     common_env.update(ses_from_env())
-    # If Amazon Quick (quicksight) resources were discovered, carry the embed
+    # If AWS Quick (quicksight) resources were discovered, carry the embed
     # user ARN onto the service Lambda so registered-user dashboard embedding
     # works (quick-config.json isn't in the Lambda zip). The ENABLE_QUICK flag
     # (quick_env above) still gates whether it's used.
@@ -1041,7 +1041,7 @@ def main(argv=None) -> int:
         qc = _json.loads(_qc.read_text())
         if qc.get("embed_user_arn"):
             common_env["RETAIL_OPS_QUICK_EMBED_USER_ARN"] = qc["embed_user_arn"]
-        print(f"  [quick] wired Amazon Quick embed user {qc.get('embed_user_name')} onto the service Lambda")
+        print(f"  [quick] wired AWS Quick embed user {qc.get('embed_user_name')} onto the service Lambda")
     # If Cognito has been provisioned, wire its issuer/client into the authorizer
     # so it verifies real JWTs. The dev token stays enabled (RETAIL_OPS_ALLOW_DEV_TOKEN
     # defaults on) unless switched off with --dev-token off, which redeploys keep.

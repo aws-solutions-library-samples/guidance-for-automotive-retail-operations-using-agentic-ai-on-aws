@@ -29,7 +29,7 @@ Pass `--env <name>` to `bootstrap.sh`, `deploy.sh`, `verify.sh` and
 the names of the first deployments. Names are 2-8 lowercase letters and digits
 without `aws`, `amazon` or `cognito`. The generated state files are per
 environment too: `app/infra/<name>-config.json` for `dev`,
-`app/infra/<name>-config.<env>.json` otherwise. The Amazon Quick ids carry no
+`app/infra/<name>-config.<env>.json` otherwise. The AWS Quick ids carry no
 environment name, so one account holds one Quick deployment.
 
 ## Python
@@ -101,7 +101,7 @@ sign-in is refused; see `docs/DEPLOYMENT.md` §8.2.
 
 ## What is not scripted
 
-The `quick` stage deploys the Amazon Quick content that has an API (datasets, topic,
+The `quick` stage deploys the AWS Quick content that has an API (datasets, topic,
 knowledge bases, space, Field Sales chat agent, eight Flows, Campaign ROI dashboard,
 and their sharing). Five steps have none and are done by hand: the MCP connector
 `Retail Ops OEM Read Gateway`, a re-run of `--only quick` to link it, one test chat,

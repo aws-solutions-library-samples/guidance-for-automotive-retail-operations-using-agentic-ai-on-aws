@@ -7,7 +7,7 @@ The repository contains application source, synthetic demonstration data, automa
 **Use case walkthrough:** [`docs/use-case-walkthrough.html`](docs/use-case-walkthrough.html)
 puts the business use case and the architecture on one page: two short
 interactive stories (one buyer's journey from lead to service, and the OEM's
-eight Amazon Quick Flows) next to the architecture diagrams that implement them,
+eight AWS Quick Flows) next to the architecture diagrams that implement them,
 the seven agents, and what a deployment creates and costs. GitHub shows HTML
 files as source, so open it locally after cloning, or from GitHub Pages.
 
@@ -102,7 +102,8 @@ account quiet, disable the writer jobs and run them on demand (see
 [`docs/external/04-deployment.md`](docs/external/04-deployment.md#operating)).
 
 The full estimate, with every assumption and unit price as an editable input, is
-in [`docs/cost/cost-estimate.xlsx`](docs/cost/cost-estimate.xlsx).
+in [`docs/cost/cost-estimate.xlsx`](docs/cost/cost-estimate.xlsx) (PDF:
+[`docs/cost/cost-estimate.pdf`](docs/cost/cost-estimate.pdf)).
 
 _We recommend creating a [Budget](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html)
 through [AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/)
@@ -167,9 +168,9 @@ two levels:
 | Service and ownership: booking, inspection, estimate, repair, follow-up | **Process 2 — Service & ownership**: service journey `BOOK → … → COMPLETED` | Service Agent supervises |
 | Hand-offs between sales and service | events `vehicle.delivered` (opens the first service journey) and `service.handoff_to_sales` (opens a new purchase journey) | Journey Agent ↔ Service Agent, never one driving the other |
 | OEM field sales and marketing | OEM level above both processes | Field Sales Agent, Campaign Agent |
-| Agentic AI | seven agents on Amazon Bedrock AgentCore and Amazon Quick, governed by per-action autonomy levels and guardrails | all seven agents |
+| Agentic AI | seven agents on Amazon Bedrock AgentCore and AWS Quick, governed by per-action autonomy levels and guardrails | all seven agents |
 
-The console and Amazon Quick show agents by name only. The specs and code identify them by id:
+The console and AWS Quick show agents by name only. The specs and code identify them by id:
 Discovery Agent = A1, Journey Agent = A2, Sales Agent = A3, Trade-In Agent = A4, Campaign Agent = A5,
 Field Sales Agent = A6, Service Agent = A7 (the display names live in `app/console/src/lib/agents.ts`,
 `AGENT_LABEL`).
@@ -229,7 +230,7 @@ The reference build uses:
 - Amazon Bedrock Knowledge Bases over the solution corpus
 - Amazon DynamoDB for operational data
 - Amazon EventBridge, scheduled workers, and approval workflows for proactive automation
-- Amazon Quick datasets and sharing groups for analytics and field workflows
+- AWS Quick datasets and sharing groups for analytics and field workflows
 
 See [`docs/as-built/architecture.md`](docs/as-built/architecture.md) for request paths, trust boundaries, data flow, and deployment topology.
 
@@ -257,12 +258,12 @@ a recorded handoff that opens a new sales journey.
 **Marketing analytics.** The event-lake pipeline attributes marketing spend to
 delivered vehicles and publishes approved customer nurture policy.
 
-![Marketing analytics architecture: Amazon Data Firehose lands events in Amazon S3 catalogued by AWS Glue, a nightly attribution job queries Amazon Athena, Amazon Bedrock and Amazon Personalize recommend budget shifts, AWS Step Functions routes approval, approved policy is published to Amazon DynamoDB and Amazon Quick Suite through the AgentCore Gateway, and a nurture job executes it through Amazon SES or SNS](assets/images/architecture-05-marketing-analytics.png)
+![Marketing analytics architecture: Amazon Data Firehose lands events in Amazon S3 catalogued by AWS Glue, a nightly attribution job queries Amazon Athena, Amazon Bedrock and Amazon Personalize recommend budget shifts, AWS Step Functions routes approval, approved policy is published to Amazon DynamoDB and AWS Quick through the AgentCore Gateway, and a nurture job executes it through Amazon SES or SNS](assets/images/architecture-05-marketing-analytics.png)
 
-**OEM field sales.** OEM district managers use Amazon Quick to plan dealer visits
+**OEM field sales.** OEM district managers use AWS Quick to plan dealer visits
 from live, scoped dealer data, the event lake and a knowledge corpus.
 
-![OEM field sales architecture: the OEM field team opens Amazon Quick, whose shared space holds the Field Sales chat agent, eight Flows, a topic, a dashboard and nine knowledge bases; an MCP connector authenticates with Amazon Cognito and AWS Secrets Manager and reads scoped dealer data through the Amazon Bedrock AgentCore Gateway, AWS Lambda and Amazon DynamoDB; the event lake flows from Amazon Data Firehose to Amazon S3, AWS Glue and Amazon Athena](assets/images/architecture-06-oem-field-sales.png)
+![OEM field sales architecture: the OEM field team opens AWS Quick, whose shared space holds the Field Sales chat agent, eight Flows, a topic, a dashboard and nine knowledge bases; an MCP connector authenticates with Amazon Cognito and AWS Secrets Manager and reads scoped dealer data through the Amazon Bedrock AgentCore Gateway, AWS Lambda and Amazon DynamoDB; the event lake flows from Amazon Data Firehose to Amazon S3, AWS Glue and Amazon Athena](assets/images/architecture-06-oem-field-sales.png)
 
 ## Local validation
 
@@ -328,7 +329,7 @@ generates `g` plus six random hex characters. Without it, the name is `dev`.
 export AWS_REGION="us-east-1"
 ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
 export RETAIL_OPS_ENV="g$(od -An -N3 -tx1 /dev/urandom | tr -d ' \n')"
-export ENABLE_QUICK="false"            # no Amazon Quick: the console hides its Quick panels
+export ENABLE_QUICK="false"            # no AWS Quick: the console hides its Quick panels
 export RETAIL_OPS_ENABLE_SSO="0"       # no federated sign-in (needs your identity provider)
 export BEDROCK_USE_CASE_EMAIL="<your-contact-email>"   # contact on Anthropic's one-time use case form (step 4)
 echo "environment: $RETAIL_OPS_ENV"    # keep it: teardown needs it
@@ -394,7 +395,7 @@ deploy/bootstrap.sh --yes --env "$RETAIL_OPS_ENV" --skip quick --markets us
 ```
 
 `bootstrap.sh` publishes the JWT verification layer, runs the 17 ordered stages
-of `deploy/deploy.sh --apply` (Amazon Quick skipped), and runs the smoke suite.
+of `deploy/deploy.sh --apply` (AWS Quick skipped), and runs the smoke suite.
 Most of the time goes to waiting for AWS (the Knowledge Base ingestion, the
 AgentCore runtimes and the CloudFront distribution).
 
@@ -444,10 +445,10 @@ the personas.
 
 To remove the deployment, see [Cleanup](#cleanup).
 
-### Optional: Amazon Quick add-on
+### Optional: AWS Quick add-on
 
 The Field Sales Agent's chat and Flows and the analytics dashboards run in
-Amazon Quick. They need an **Amazon Quick Enterprise** subscription in the
+AWS Quick. They need an **AWS Quick Enterprise** subscription in the
 account (a paid, account-level subscription) and a five-step console checklist,
 four of whose steps have no API (creating the MCP connector, one test chat, one
 Flow test run and the District Roll-up schedule; a knowledge-base "Sync now" is
@@ -461,7 +462,7 @@ deploy/deploy.sh --apply --env "$RETAIL_OPS_ENV" --only l4,console
 ```
 
 then follow the console checklist in [`docs/QUICK_BUILD.md`](docs/QUICK_BUILD.md).
-Amazon Quick ids carry no environment name, so one account supports one Quick
+AWS Quick ids carry no environment name, so one account supports one Quick
 deployment; a second environment with Quick in the same account is not
 supported yet.
 
@@ -561,8 +562,8 @@ workflows with the expected value on every screen.
 - **Restrict network access.** Set `RETAIL_OPS_WAF_ALLOW_CIDRS` to your network
   ranges and tune `RETAIL_OPS_WAF_RATE_LIMIT` (default 2,000 requests per five
   minutes per IP).
-- **Add Amazon Quick** for analytics dashboards and the Field Sales Agent's chat
-  and Flows (see [Optional: Amazon Quick add-on](#optional-amazon-quick-add-on)).
+- **Add AWS Quick** for analytics dashboards and the Field Sales Agent's chat
+  and Flows (see [Optional: AWS Quick add-on](#optional-amazon-quick-add-on)).
 - **Extend the agents and corpus.** Update the guardrail calibration lists or the
   Knowledge Base corpus and redeploy the stage (see
   [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md)); the reusable automotive skills are
@@ -625,16 +626,16 @@ deploy/destroy.sh --env "$RETAIL_OPS_ENV" --confirm --account "$ACCOUNT_ID" --in
   calls Amazon Bedrock nightly. Disable the writer jobs in an idle account.
 - In a new account Amazon SES is in its sandbox and sends only to verified
   addresses.
-- Amazon Quick content has no row-level security: anyone who can open a Quick
+- AWS Quick content has no row-level security: anyone who can open a Quick
   dataset or dashboard sees all of its rows. Share it deliberately.
 
 **Limitations**
 
 - The deployment is tested in `us-east-1` only, from Linux (Amazon Linux 2023
   x86_64). macOS works for local development; Windows is not supported.
-- Amazon Quick ids carry no environment name, so an account supports one Amazon
+- AWS Quick ids carry no environment name, so an account supports one Amazon
   Quick deployment.
-- Five Amazon Quick setup steps have no API and are done by hand (see
+- Five AWS Quick setup steps have no API and are done by hand (see
   [`docs/QUICK_BUILD.md`](docs/QUICK_BUILD.md)).
 
 For feedback, questions or suggestions, please use the issues tab of this

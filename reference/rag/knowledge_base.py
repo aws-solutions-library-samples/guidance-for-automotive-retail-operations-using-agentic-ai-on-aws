@@ -41,39 +41,39 @@ def _seed_customers(client: chromadb.ClientAPI) -> None:
     documents = [
         (
             "Customer CUST-1001 Alex Johnson is a Premium Loyalist with budget "
-            "$45,000-$60,000. Currently drives a 2020 Accord EX-L with lease ending "
+            "$45,000-$60,000. Currently drives a 2020 Cadence EX-L with lease ending "
             "2026-07-15. Equity position +$2,300. Satisfaction score 82. Medium price "
             "sensitivity. Prefers email contact. Past objections: Price, Feature. "
             "Lifetime value $127,000 across 3 previous purchases. Interested in "
-            "2026 Accord Hybrid Touring and 2026 CR-V Hybrid."
+            "2026 Cadence Hybrid Touring and 2026 Alder Hybrid."
         ),
         (
             "Customer CUST-1002 Maria Garcia is a First-Time Buyer with budget "
             "$25,000-$35,000. No current vehicle. High price sensitivity. Prefers "
             "text contact. Past objections: Price, Trust. No previous purchases. "
-            "Interested in 2026 Civic Sport and 2026 HR-V EX."
+            "Interested in 2026 Civis Sport and 2026 Hadley EX."
         ),
         (
             "Customer CUST-1003 Robert Chen is a Conquest Opportunity with budget "
-            "$50,000-$70,000. Currently drives a 2023 Toyota RAV4 Prime with lease "
+            "$50,000-$70,000. Currently drives a 2023 Kestrel Trek 4 Prime with lease "
             "ending 2026-09-01. Equity position -$1,200. Satisfaction score 65. Low "
             "price sensitivity. Prefers phone contact. Past objections: Competitor, "
-            "Feature. No previous purchases with us. Interested in 2026 Pilot "
-            "TrailSport and 2026 Passport."
+            "Feature. No previous purchases with us. Interested in 2026 Summit 3R "
+            "TrailSport and 2026 Passage."
         ),
         (
             "Customer CUST-1004 Sarah Williams is a Premium Loyalist with budget "
-            "$55,000-$75,000. Currently drives a 2021 Pilot Touring. Lease ending "
+            "$55,000-$75,000. Currently drives a 2021 Summit 3R Touring. Lease ending "
             "2026-11-01. Equity position +$4,100. Satisfaction score 91. Low price "
             "sensitivity. Prefers phone contact. Past objections: Timing. Lifetime "
-            "value $198,000 across 4 previous purchases. Interested in 2026 Pilot "
-            "TrailSport and 2026 Passport TrailSport."
+            "value $198,000 across 4 previous purchases. Interested in 2026 Summit 3R "
+            "TrailSport and 2026 Passage TrailSport."
         ),
         (
             "Customer CUST-1005 James Park is a First-Time Buyer with budget "
             "$20,000-$28,000. No current vehicle. Very high price sensitivity. "
             "Prefers text contact. Past objections: Price, Price, Timing. No "
-            "previous purchases. Interested in 2026 Civic LX and 2026 HR-V Sport."
+            "previous purchases. Interested in 2026 Civis LX and 2026 Hadley Sport."
         ),
     ]
     metadatas = [
@@ -249,45 +249,45 @@ def _seed_competitor_intel(client: chromadb.ClientAPI) -> None:
     col = client.get_or_create_collection("competitor_intel")
     documents = [
         (
-            "Vehicle comparison: 2026 Accord Hybrid Touring ($38,500) vs "
-            "2026 Toyota Camry Hybrid XSE ($37,200). Our advantages: More "
+            "Vehicle comparison: 2026 Cadence Hybrid Touring ($38,500) vs "
+            "2026 Kestrel Crescent Hybrid XSE ($37,200). Our advantages: More "
             "standard horsepower (225 vs 204 HP), larger trunk (16.7 vs 15.1 "
             "cu ft), standard wireless CarPlay/Android Auto, better predicted "
             "reliability per J.D. Power. Their advantages: Slightly lower MSRP "
             "(-$1,300), available AWD option."
         ),
         (
-            "Vehicle comparison: 2026 Accord Hybrid Touring ($38,500) vs "
-            "2026 Hyundai Sonata Hybrid Limited ($36,800). Our advantages: "
+            "Vehicle comparison: 2026 Cadence Hybrid Touring ($38,500) vs "
+            "2026 Solari Solace Hybrid Limited ($36,800). Our advantages: "
             "Higher resale value (52% vs 45% at 3 years), more refined ride "
             "quality, longer powertrain warranty track record. Their advantages: "
             "Lower MSRP (-$1,700), larger infotainment screen (12.3 vs 9 in), "
             "10-year/100K powertrain warranty."
         ),
         (
-            "Vehicle comparison: 2026 Civic Sport ($28,500) vs 2026 Toyota "
-            "Corolla SE ($27,400). Our advantages: More interior space (97.5 "
+            "Vehicle comparison: 2026 Civis Sport ($28,500) vs 2026 Kestrel "
+            "Corvane SE ($27,400). Our advantages: More interior space (97.5 "
             "vs 88.6 cu ft), better driving dynamics, higher safety ratings "
             "(IIHS TSP+). Their advantages: Lower MSRP (-$1,100), better fuel "
             "economy (35 vs 33 combined MPG)."
         ),
         (
-            "Vehicle comparison: 2026 Pilot TrailSport ($52,500) vs 2026 Toyota "
-            "Grand Highlander Hybrid ($50,800). Our advantages: True off-road "
+            "Vehicle comparison: 2026 Summit 3R TrailSport ($52,500) vs 2026 Kestrel "
+            "Grand Highmark Hybrid ($50,800). Our advantages: True off-road "
             "capability (TrailSport package), more cargo space (101 vs 97.5 cu "
             "ft), standard i-VTM4 AWD system. Their advantages: Better fuel "
             "economy (hybrid), lower MSRP (-$1,700)."
         ),
         (
-            "Vehicle comparison: 2026 CR-V Hybrid ($36,200) vs 2026 Toyota "
-            "RAV4 Hybrid ($35,400). Our advantages: More refined interior, "
+            "Vehicle comparison: 2026 Alder Hybrid ($36,200) vs 2026 Kestrel "
+            "Trek 4 Hybrid ($35,400). Our advantages: More refined interior, "
             "better noise insulation, larger rear seat legroom (41.0 vs 37.8 in), "
             "standard 9-inch touchscreen. Their advantages: Lower MSRP (-$800), "
             "slightly better fuel economy (41 vs 40 combined MPG), available "
             "plug-in hybrid variant."
         ),
         (
-            "Vehicle comparison: 2026 HR-V EX ($28,900) vs 2026 Toyota Corolla "
+            "Vehicle comparison: 2026 Hadley EX ($28,900) vs 2026 Kestrel Corvane "
             "Cross LE ($27,600). Our advantages: More cargo space (24.4 vs 22.2 "
             "cu ft), better standard tech features, sportier driving feel. "
             "Their advantages: Lower MSRP (-$1,300), better fuel economy, "
@@ -295,12 +295,12 @@ def _seed_competitor_intel(client: chromadb.ClientAPI) -> None:
         ),
     ]
     metadatas = [
-        {"our_vehicle": "2026 Accord Hybrid Touring", "competitor": "2026 Toyota Camry Hybrid XSE"},
-        {"our_vehicle": "2026 Accord Hybrid Touring", "competitor": "2026 Hyundai Sonata Hybrid Limited"},
-        {"our_vehicle": "2026 Civic Sport", "competitor": "2026 Toyota Corolla SE"},
-        {"our_vehicle": "2026 Pilot TrailSport", "competitor": "2026 Toyota Grand Highlander Hybrid"},
-        {"our_vehicle": "2026 CR-V Hybrid", "competitor": "2026 Toyota RAV4 Hybrid"},
-        {"our_vehicle": "2026 HR-V EX", "competitor": "2026 Toyota Corolla Cross LE"},
+        {"our_vehicle": "2026 Cadence Hybrid Touring", "competitor": "2026 Kestrel Crescent Hybrid XSE"},
+        {"our_vehicle": "2026 Cadence Hybrid Touring", "competitor": "2026 Solari Solace Hybrid Limited"},
+        {"our_vehicle": "2026 Civis Sport", "competitor": "2026 Kestrel Corvane SE"},
+        {"our_vehicle": "2026 Summit 3R TrailSport", "competitor": "2026 Kestrel Grand Highmark Hybrid"},
+        {"our_vehicle": "2026 Alder Hybrid", "competitor": "2026 Kestrel Trek 4 Hybrid"},
+        {"our_vehicle": "2026 Hadley EX", "competitor": "2026 Kestrel Corvane Cross LE"},
     ]
     col.add(
         documents=documents,
@@ -364,21 +364,21 @@ def _seed_vehicle_inventory(client: chromadb.ClientAPI) -> None:
     col = client.get_or_create_collection("vehicle_inventory")
     documents = [
         (
-            "2026 Accord Hybrid Touring. MSRP $38,500. Powertrain: 2.0L hybrid, "
+            "2026 Cadence Hybrid Touring. MSRP $38,500. Powertrain: 2.0L hybrid, "
             "225 HP combined. Fuel economy: 48 city / 47 highway / 48 combined MPG. "
             "Key features: Wireless CarPlay/Android Auto, 9-inch touchscreen, "
             "leather seats, heated/ventilated front seats, Bose 12-speaker audio, "
-            "Honda Sensing suite, adaptive cruise control, lane keeping assist, "
+            "Halden Sensing suite, adaptive cruise control, lane keeping assist, "
             "blind spot monitoring. Trunk: 16.7 cu ft. Warranty: 3yr/36K bumper-to-"
             "bumper, 5yr/60K powertrain. Current inventory: 12 units. "
             "Current incentive: $1,500 loyalty bonus + 2.9% APR for 60 months. "
             "Resale value at 3 years: 52%."
         ),
         (
-            "2026 Civic Sport. MSRP $28,500. Powertrain: 1.5L turbo, 180 HP. "
+            "2026 Civis Sport. MSRP $28,500. Powertrain: 1.5L turbo, 180 HP. "
             "Fuel economy: 31 city / 38 highway / 33 combined MPG. Key features: "
             "7-inch touchscreen, Apple CarPlay/Android Auto, sport-tuned suspension, "
-            "18-inch alloy wheels, Honda Sensing suite, adaptive cruise control, "
+            "18-inch alloy wheels, Halden Sensing suite, adaptive cruise control, "
             "lane keeping assist. Trunk: 14.8 cu ft. Interior space: 97.5 cu ft. "
             "Warranty: 3yr/36K bumper-to-bumper, 5yr/60K powertrain. "
             "Current inventory: 24 units. Current incentive: $750 first-time "
@@ -386,54 +386,54 @@ def _seed_vehicle_inventory(client: chromadb.ClientAPI) -> None:
             "Resale value at 3 years: 55%."
         ),
         (
-            "2026 CR-V Hybrid. MSRP $36,200. Powertrain: 2.0L hybrid, 204 HP. "
+            "2026 Alder Hybrid. MSRP $36,200. Powertrain: 2.0L hybrid, 204 HP. "
             "Fuel economy: 43 city / 36 highway / 40 combined MPG. Key features: "
             "9-inch touchscreen, wireless CarPlay/Android Auto, heated front seats, "
-            "dual-zone climate, Honda Sensing suite, rear seat legroom 41.0 inches. "
+            "dual-zone climate, Halden Sensing suite, rear seat legroom 41.0 inches. "
             "Cargo: 36.3 cu ft behind rear seats. Warranty: 3yr/36K bumper-to-"
             "bumper, 5yr/60K powertrain. Current inventory: 18 units. "
             "Current incentive: $1,000 loyalty bonus + 3.4% APR for 60 months. "
             "Resale value at 3 years: 54%."
         ),
         (
-            "2026 Pilot TrailSport. MSRP $52,500. Powertrain: 3.5L V6, 285 HP. "
+            "2026 Summit 3R TrailSport. MSRP $52,500. Powertrain: 3.5L V6, 285 HP. "
             "Fuel economy: 19 city / 26 highway / 22 combined MPG. Key features: "
             "TrailSport exclusive suspension, all-terrain tires, i-VTM4 AWD, "
             "steel skid plates, 9-inch touchscreen, wireless CarPlay/Android Auto, "
             "leather seats, heated/ventilated front seats, 10-speaker audio, "
-            "Honda Sensing suite. Cargo: 101 cu ft total. Towing: 5,000 lbs. "
+            "Halden Sensing suite. Cargo: 101 cu ft total. Towing: 5,000 lbs. "
             "Warranty: 3yr/36K bumper-to-bumper, 5yr/60K powertrain. "
             "Current inventory: 8 units. Current incentive: $2,000 conquest "
             "bonus + 2.4% APR for 60 months. Resale value at 3 years: 50%."
         ),
         (
-            "2026 HR-V EX. MSRP $28,900. Powertrain: 2.0L, 158 HP. "
+            "2026 Hadley EX. MSRP $28,900. Powertrain: 2.0L, 158 HP. "
             "Fuel economy: 28 city / 34 highway / 30 combined MPG. Key features: "
             "9-inch touchscreen, wireless CarPlay/Android Auto, heated front seats, "
-            "Honda Sensing suite, sunroof, blind spot monitoring. "
+            "Halden Sensing suite, sunroof, blind spot monitoring. "
             "Cargo: 24.4 cu ft behind rear seats. Warranty: 3yr/36K bumper-to-"
             "bumper, 5yr/60K powertrain. Current inventory: 15 units. "
             "Current incentive: $500 bonus + 4.4% APR for 60 months. "
             "Resale value at 3 years: 51%."
         ),
         (
-            "2026 Passport TrailSport. MSRP $47,800. Powertrain: 3.5L V6, 285 HP. "
+            "2026 Passage TrailSport. MSRP $47,800. Powertrain: 3.5L V6, 285 HP. "
             "Fuel economy: 20 city / 25 highway / 22 combined MPG. Key features: "
             "TrailSport exclusive suspension, all-terrain tires, i-VTM4 AWD, "
             "9-inch touchscreen, wireless CarPlay/Android Auto, leather seats, "
-            "heated front seats, Honda Sensing suite. Cargo: 77.9 cu ft total. "
+            "heated front seats, Halden Sensing suite. Cargo: 77.9 cu ft total. "
             "Towing: 5,000 lbs. Warranty: 3yr/36K bumper-to-bumper, 5yr/60K "
             "powertrain. Current inventory: 6 units. Current incentive: $1,500 "
             "conquest bonus + 2.9% APR for 60 months. Resale value at 3 years: 49%."
         ),
     ]
     metadatas = [
-        {"vehicle": "2026 Accord Hybrid Touring", "msrp": 38500, "inventory": 12, "type": "sedan"},
-        {"vehicle": "2026 Civic Sport", "msrp": 28500, "inventory": 24, "type": "sedan"},
-        {"vehicle": "2026 CR-V Hybrid", "msrp": 36200, "inventory": 18, "type": "suv"},
-        {"vehicle": "2026 Pilot TrailSport", "msrp": 52500, "inventory": 8, "type": "suv"},
-        {"vehicle": "2026 HR-V EX", "msrp": 28900, "inventory": 15, "type": "suv"},
-        {"vehicle": "2026 Passport TrailSport", "msrp": 47800, "inventory": 6, "type": "suv"},
+        {"vehicle": "2026 Cadence Hybrid Touring", "msrp": 38500, "inventory": 12, "type": "sedan"},
+        {"vehicle": "2026 Civis Sport", "msrp": 28500, "inventory": 24, "type": "sedan"},
+        {"vehicle": "2026 Alder Hybrid", "msrp": 36200, "inventory": 18, "type": "suv"},
+        {"vehicle": "2026 Summit 3R TrailSport", "msrp": 52500, "inventory": 8, "type": "suv"},
+        {"vehicle": "2026 Hadley EX", "msrp": 28900, "inventory": 15, "type": "suv"},
+        {"vehicle": "2026 Passage TrailSport", "msrp": 47800, "inventory": 6, "type": "suv"},
     ]
     col.add(
         documents=documents,

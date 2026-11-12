@@ -27,8 +27,8 @@ AGENT_META = {
     "2": ("A2", "Purchase Journey Orchestration (supervisor + nurture)", "Custom agent on Amazon Bedrock AgentCore", "Process 1 — Retail purchase"),
     "3": ("A3", "Dealer Sales Advisor", "Custom agent on Amazon Bedrock AgentCore (floor streaming + assistant chat/flows in one agent; Quick Index as a retrieval tool)", "Process 1 — Retail purchase"),
     "4": ("A4", "Trade-In & Upgrade Advisor", "Custom agent on Amazon Bedrock AgentCore", "Process 1 — Retail purchase"),
-    "5": ("A5", "Campaign ROI Optimizer", "Amazon Quick / QuickSight analytics + AgentCore for recommendations", "Process 1 — Retail purchase"),
-    "6": ("A6", "OEM Sales Administrator", "Amazon Quick (agent + Flows + Index + Research)", "Process 1 — Retail purchase"),
+    "5": ("A5", "Campaign ROI Optimizer", "AWS Quick / QuickSight analytics + AgentCore for recommendations", "Process 1 — Retail purchase"),
+    "6": ("A6", "OEM Sales Administrator", "AWS Quick (agent + Flows + Index + Research)", "Process 1 — Retail purchase"),
     "7": ("A7", "Service Operations (service-journey supervisor)", "Custom agent on Amazon Bedrock AgentCore", "Process 2 — Service & ownership"),
 }
 

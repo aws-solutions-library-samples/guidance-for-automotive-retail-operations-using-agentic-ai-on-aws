@@ -13,7 +13,7 @@ read from RETAIL_OPS_ENV (default `dev`):
 two account-wide AgentCore names that carry no environment (the runtime
 execution role and the code bucket). Every other environment puts its name into
 those two as well, so two environments in one account never share a resource.
-The Amazon Quick ids (`retail-ops-lake`, `retail-ops-builders`, ...) carry no
+The AWS Quick ids (`retail-ops-lake`, `retail-ops-builders`, ...) carry no
 environment for any env: one Quick deployment per account is supported.
 
 The generated, git-ignored deployment state follows the same rule:

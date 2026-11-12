@@ -1965,7 +1965,7 @@ def _route(event: dict[str, Any], context: Any = None) -> dict[str, Any]:
             out["retrieval"] = knowledge.get_knowledge_base().__class__.__name__
         return _response(200, out)
 
-    # --- Amazon Quick (quicksight) — plug-and-play; disabled unless ENABLE_QUICK ---
+    # --- AWS Quick (quicksight) — plug-and-play; disabled unless ENABLE_QUICK ---
     if _QUICK_FLOWS_RE.match(path) and method == "GET":
         sc, err = _oem_gate(event)
         if err:

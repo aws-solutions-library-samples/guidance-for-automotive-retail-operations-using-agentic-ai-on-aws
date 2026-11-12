@@ -28,8 +28,8 @@ opens a new purchase journey), never by one driving the other.
 | A2 | Purchase Journey Orchestration | Owns the purchase state machine: validates each stage's required context before advancing, writes the event before the state, picks the next best action, aggregates the Sales Package, runs Plays on triggers, nurtures prospects on a consented cadence, detects intent shifts, answers customer questions from their own record | System (events, schedule); advisor; customer (`/shop/chat`) | `journeys/*` (supervisor, package, nurture, nurture_tick, plays, qa, intent_shift, actions, handoffs) | grounded customer Q&A after a deterministic refuse/escalate gate | `a2.schedule_outreach` default `recommend` (writes a card, does not send) |
 | A3 | Dealer Sales Advisor | Stage-aware suggestions that cite a real recent activity, live-floor objection classification with a grounded suggested response, competitive/incentive panels, deal structuring with a credit-compliance gate, assistant chat and flows (follow-up draft, service upsell, call list / shift list), and the **Assistant reasoning agent** (Strands on Bedrock, ADR 0002) that plans over eleven tools | Advisor (`/dealer/advisor`, `/dealer/assistant` with *Agent mode*), BDC (`/dealer/leads`), service advisor (Service Lane) | `agents/assistant.py`, `a3_agent.py`, `suggestions.py`, `objection.py`, `intel.py`, `deal.py`; `dealer/leads.py` | objection response; assistant answers (grounded, Knowledge Base retrieval); agent loop (Sonnet 4.5) — all behind the Bedrock Guardrail | suggestions only; `send_outreach` tool held for human below `act_and_notify` |
 | A4 | Trade-In & Upgrade Advisor | Valuation band, payoff, equity and payment delta with the formula; nightly equity monitor that flags customers crossing into positive equity (`equity.crossed_positive`) and lease-end windows (`lease.end_window_entered`); upgrade prospects and used-vehicle acquisition recommendations; trade dispositions | Advisor (`/dealer/trade-in`), inventory/used-car manager (`/dealer/inventory`), customer (My Garage trade) | `agents/trade.py`, `equity.py`, `equity_monitor.py`, `prospects.py`; `dealer/inventory.py` | one-line equity explanation (optional) | `a4.detect_equity` `recommend`; never contacts the customer |
-| A5 | Campaign ROI Optimizer | Spend → journeys → deliveries attribution per campaign/dealer, funnel by source, rule-built audiences with hashed-id export, a budget-shift recommendation that becomes an approval request; nightly attribution job; analytics Q&A delegating to Amazon Quick when enabled | OEM marketing/finance (`/marketing/*`), dealer principal (`/dealer/campaigns`) | `marketing/analytics.py`, `audiences.py`; `oem/campaigns.py`, `district_cycle.run_nightly_attribution` | budget-shift insight sentence | hard ceiling `act_with_approval`: spend is never changed by the agent |
-| A6 | OEM Sales Administrator | District manager workspace: Today KPIs and alerts, account detail with composite/EV-readiness/compliance, region view, scenario planning, weekend projection, guardrail-checked `ask`, draft account plans that go through a human approval state machine, weekly district cycle | District / regional managers, C&I planning, sales ops (`/oem/*`, 22 screens) | `oem/workspace.py`, `today.py`, `alerts.py`, `planner.py`, `account_plan.py`, `guardrails.py`, `district_cycle.py`; Amazon Quick agent/flows via `platform/quick.py` | Today insight; workspace `ask` (grounded) | hard ceilings: plan publishing `act_with_approval`, incentive allocation `recommend`; GR-001…008 rules on input and output |
+| A5 | Campaign ROI Optimizer | Spend → journeys → deliveries attribution per campaign/dealer, funnel by source, rule-built audiences with hashed-id export, a budget-shift recommendation that becomes an approval request; nightly attribution job; analytics Q&A delegating to AWS Quick when enabled | OEM marketing/finance (`/marketing/*`), dealer principal (`/dealer/campaigns`) | `marketing/analytics.py`, `audiences.py`; `oem/campaigns.py`, `district_cycle.run_nightly_attribution` | budget-shift insight sentence | hard ceiling `act_with_approval`: spend is never changed by the agent |
+| A6 | OEM Sales Administrator | District manager workspace: Today KPIs and alerts, account detail with composite/EV-readiness/compliance, region view, scenario planning, weekend projection, guardrail-checked `ask`, draft account plans that go through a human approval state machine, weekly district cycle | District / regional managers, C&I planning, sales ops (`/oem/*`, 22 screens) | `oem/workspace.py`, `today.py`, `alerts.py`, `planner.py`, `account_plan.py`, `guardrails.py`, `district_cycle.py`; AWS Quick agent/flows via `platform/quick.py` | Today insight; workspace `ask` (grounded) | hard ceilings: plan publishing `act_with_approval`, incentive allocation `recommend`; GR-001…008 rules on input and output |
 | A7 | Service Operations | Owns the service state machine; predicts next service and books; opens the RO; records MPI findings; builds a priced, sourced estimate line by line; presents it to the customer by magic link; per-line approve/decline; parts tracking and line status; ready notification; declined-work follow-up on a service cadence; morning shop-load (dispatch, stage parts, re-forecast); service-lane equity monitor → handoff to sales; predictive maintenance leads | Service advisor, technician, parts, service manager (`/dealer/service/*`), customer (`/garage/service`) | `service/*` (supervisor, booking, inspection, estimates, repair, followup, morning_work, shop_load, lane_monitor, predictive, connectors, desk) | customer-safe explanation of a finding (grounded) | `a7.dispatch_ro` / `stage_parts` / `reforecast_promise` `recommend`; estimate approval is the customer's (hard ceiling) |
 
 ---
@@ -191,8 +191,8 @@ opens a new purchase journey), never by one driving the other.
   over profiles, journeys, vehicles and valuations; `export_audience` emits a
   manifest with SHA-256 hashed ids only and refuses consent opt-outs.
 * **Analytics Q&A and dashboards.** `POST /marketing/ask` answers from the
-  read models and delegates to Amazon Quick when `ENABLE_QUICK=true`;
-  dashboards are authored in Amazon Quick over the lake datasets and embedded
+  read models and delegates to AWS Quick when `ENABLE_QUICK=true`;
+  dashboards are authored in AWS Quick over the lake datasets and embedded
   through `GET /oem/quick/dashboards/{id}/embed-url` (per-user reader
   registration + group sharing; not row-scoped).
 * **Screens.** `/marketing/campaigns`, `/marketing/audiences`,
@@ -221,8 +221,8 @@ opens a new purchase journey), never by one driving the other.
 * **District cycle.** `district_cycle.run_district_cycle` (the `district-cycle`
   job, scheduled weekly on Monday 05:00 UTC for both markets) drafts plans for
   red dealers and rolls up gaps.
-* **Amazon Quick.** The document workbench (chat agent, eight Flows,
-  knowledge bases, Quick Research) is authored in the Amazon Quick console and
+* **AWS Quick.** The document workbench (chat agent, eight Flows,
+  knowledge bases, Quick Research) is authored in the AWS Quick console and
   reaches operational data through the CUSTOM_JWT Gateway's four read tools;
   `GET /oem/quick/flows` lists what exists and `/oem/quick` embeds it.
 * **Screens.** 20 under `/oem/*` (Today, Performance, Composite, Region,
@@ -301,13 +301,13 @@ opens a new purchase journey), never by one driving the other.
 | Autonomy configuration | `admin/autonomy.py`, `common/autonomy_config.py` | per-action level with history, rollback and hard ceilings |
 | Versioned configuration | `admin/config_store.py`, `marketing/journey_ops.py` | guardrails, suggestion matrix, notification rules, flags, connectors, nurture policy — publish/rollback without redeploy |
 | Market parameterisation | `common/market.py`, `console/src/lib/market.ts` | currency, units, tax and energy defaults from `OEM_Markets` (`us`, `de` seeded) |
-| Knowledge corpus | `PLAT_KnowledgeCollections` + 538 documents exported to S3 + Bedrock Knowledge Base `retail-ops-dev-quick-index` (S3 Vectors) | CRM notes, templates, transcripts, objection strategies, bulletins, prior plans, product guides, repair procedures, TSBs — semantically retrieved, filtered by kind/market, cited by `source_ref`, for A3/A6/A7 and the Amazon Quick knowledge bases |
+| Knowledge corpus | `PLAT_KnowledgeCollections` + 538 documents exported to S3 + Bedrock Knowledge Base `retail-ops-dev-quick-index` (S3 Vectors) | CRM notes, templates, transcripts, objection strategies, bulletins, prior plans, product guides, repair procedures, TSBs — semantically retrieved, filtered by kind/market, cited by `source_ref`, for A3/A6/A7 and the AWS Quick knowledge bases |
 | Durable customer memory | `platform/memory.py`, `deploy_memory.py`, `PLAT_AgentMemory`, AgentCore Memory | preferences, objections, promises, and sourced facts persist across journeys; AWS failures degrade to the provenance-preserving DynamoDB store. Not deployed in the development account (`deploy_memory.py` is not a `deploy.sh` stage), so memory is off there |
 | Audited computation | `platform/compute.py` | AgentCore Code Interpreter executes calculation expressions in AWS mode; the restricted local evaluator preserves the same inputs/code/result audit contract as fallback |
 | Connector boundary | `connectors/{base,sandbox,live}.py` | DMS, labor, and parts operations share one sandbox/live interface; live endpoints and credentials are environment configuration |
 | Model-tier guardrail | `app/infra/deploy_guardrails.py`, `platform/generate.py` | a Bedrock Guardrail on every Converse call (denied topics, filters, PII, grounding), calibrated against 21 prompts; the nightly store digest has its own copy with grounding 0.2 and no relevance check, every other call uses the main one |
 | Evaluation harness | `app/eval/` | golden prompts per agent; offline suite gates CI, agent/API modes score the Strands pilot against a kept baseline |
-| Event lake and analytics | `deploy_lake*.py`, `deploy_quick_*.py` | Athena tables and Amazon Quick datasets (shared by Quick group, not row-scoped) for A5 and Store/Service cockpits |
+| Event lake and analytics | `deploy_lake*.py`, `deploy_quick_*.py` | Athena tables and AWS Quick datasets (shared by Quick group, not row-scoped) for A5 and Store/Service cockpits |
 | Admin Console | `admin/*`, `/admin/*` (13 screens) | users and roles, org tree, market and state rules, connectors, flags, guardrail harness, autonomy, agents health, audit, data-subject requests, entity merge queue |
 | Synthetic data and offline mode | `scripts/seed/generate`, `sample-data/synthetic`, `common/local_ddb.py` | two markets (US, DE), 68 tables, storylines; every screen and the 752 tests run without AWS |
 
@@ -319,7 +319,7 @@ What has been verified against the deployed development stack, how (the
 `run_demo` write loop, smoke and acceptance suites, the eval harness in API
 mode), and which boundaries remain (deterministic orchestration for A2, A6 and
 A7; buffered rather than streamed floor responses; live CRM/DMS, Personalize,
-Amazon Connect and console-authored Amazon Quick content as environment-specific
+Amazon Connect and console-authored AWS Quick content as environment-specific
 setup) are recorded once, in `docs/ACCEPTANCE.md`. The live inventory of the
-development account is in `docs/DEMO.md`; the Amazon Quick console runbook is
+development account is in `docs/DEMO.md`; the AWS Quick console runbook is
 `docs/QUICK_BUILD.md`. This document does not repeat them.

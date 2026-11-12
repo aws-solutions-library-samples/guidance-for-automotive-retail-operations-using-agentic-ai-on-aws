@@ -44,7 +44,7 @@ drafts for a person to act on and send nothing to a customer.
 | Sales Agent | the floor and F&I desk | AgentCore runtime `retail_ops_dev_a3_sales`, the one agent that reasons with a model (Strands on Bedrock), used by the Assistant page's agent mode |
 | Trade-In Agent | trade value, equity, used-stock decisions | AgentCore runtime `retail_ops_dev_a4_trade_in` (rules) |
 | Campaign Agent | campaign ROI, budgets, audiences, the store digest | AgentCore runtime `retail_ops_dev_a5_campaign` (rules); the nightly digest uses Bedrock |
-| Field Sales Agent | the OEM district manager's dealers, alerts and plans | no runtime yet (planned in Amazon Quick); answers through `/oem/ask` with Bedrock |
+| Field Sales Agent | the OEM district manager's dealers, alerts and plans | no runtime yet (planned in AWS Quick); answers through `/oem/ask` with Bedrock |
 | Service Agent | the service visit end to end | AgentCore runtime `retail_ops_dev_a7_service` (rules) |
 
 ## Persona overview

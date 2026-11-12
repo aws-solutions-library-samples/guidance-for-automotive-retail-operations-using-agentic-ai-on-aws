@@ -2,14 +2,14 @@
 
 Open-source **agent skills** and a **tools reference** for automotive retail and dealer service workflows, following the [Agent Skills open standard](https://agentskills.io) (`SKILL.md` + YAML frontmatter). Modeled on [awslabs/hcls-agent-skills](https://github.com/awslabs/hcls-agent-skills).
 
-Skills encode the methodology, thresholds, and failure modes that domain experts internalize and that base models get wrong: how to build a repair estimate a customer can approve line by line, which EV incentives still exist on a given date, when a trade-in equity position justifies an upgrade conversation, what an OEM district manager's assistant must never say to a franchised dealer, and how to pick the right AWS delivery model per persona. Skills work across Kiro, Amazon Quick, Amazon Bedrock AgentCore, AWS Strands Agents SDK, Claude Code, and any platform that reads the standard.
+Skills encode the methodology, thresholds, and failure modes that domain experts internalize and that base models get wrong: how to build a repair estimate a customer can approve line by line, which EV incentives still exist on a given date, when a trade-in equity position justifies an upgrade conversation, what an OEM district manager's assistant must never say to a franchised dealer, and how to pick the right AWS delivery model per persona. Skills work across Kiro, AWS Quick, Amazon Bedrock AgentCore, AWS Strands Agents SDK, Claude Code, and any platform that reads the standard.
 
 Two artifacts:
 
 - **`skills/`** — reasoning and pipeline skills (`SKILL.md`) that shape how an agent thinks.
 - **`TOOLS.md`** — the reference of **121 agent tools across 7 agents** (the callable functions an agent runtime exposes), generated from the reference architecture's requirements spec. Skills reference tools by name where a procedure step maps to a call.
 
-The reference architecture behind both is **Intelligent Sales & Service Orchestration**, the orchestration layer of *Automotive Retail Operations powered by Agentic AI* ("Retail Ops" below): two business processes (the 8-stage retail purchase journey and the 8-stage service & ownership journey) run by seven agents on a deliberately mixed stack (custom agents on Amazon Bedrock AgentCore, Amazon Quick agents/Flows/Index/Research, QuickSight analytics, deterministic read models, brand customer web), with a per-dealer autonomy ladder and hard rules above configuration.
+The reference architecture behind both is **Intelligent Sales & Service Orchestration**, the orchestration layer of *Automotive Retail Operations powered by Agentic AI* ("Retail Ops" below): two business processes (the 8-stage retail purchase journey and the 8-stage service & ownership journey) run by seven agents on a deliberately mixed stack (custom agents on Amazon Bedrock AgentCore, AWS Quick agents/Flows/Index/Research, QuickSight analytics, deterministic read models, brand customer web), with a per-dealer autonomy ladder and hard rules above configuration.
 
 > All examples use synthetic brands (Meridian Motors, Nordwerk Automobile) and synthetic data. No real OEM trademarks, dealer data, or customer data. Not legal, tax, or financial advice.
 
@@ -66,7 +66,7 @@ Dealers lose the customer at handoffs: between online and showroom, between sale
 
 | Name | Category | Description | Status |
 |---|---|---|---|
-| `agentic-delivery-model-selection` | reasoning | Rules R1–R7 for AgentCore custom agent vs AgentCore real-time path vs Amazon Quick vs QuickSight vs read models vs brand web vs outreach provider; composition rules; autonomy ladder; hard rules; anti-patterns | ✅ |
+| `agentic-delivery-model-selection` | reasoning | Rules R1–R7 for AgentCore custom agent vs AgentCore real-time path vs AWS Quick vs QuickSight vs read models vs brand web vs outreach provider; composition rules; autonomy ladder; hard rules; anti-patterns | ✅ |
 | `autonomy-ladder-and-hard-rules` | reasoning | Action registry, observe / recommend / act_with_approval / act_and_notify, per-dealer scope, observation fortnight, constraints (caps, channels), what may never be configurable | 🔜 |
 | `agent-outcome-loop` | pipeline | Logging shown → accepted → converted per recommendation, context hashing, ranking from aggregates, lake export with hashed ids | 🔜 |
 | `two-supervisor-orchestration` | reasoning | One supervisor per state machine, specialists as tools, supervisors meet through events, handoff validation, journey supersession | 🔜 |
@@ -86,7 +86,7 @@ python3 scripts/extract_tools.py --spec ../docs/specs/intelligent-sales-service-
 | A3 | Dealer Sales Advisor | AgentCore (floor + assistant, one agent; Quick Index as retrieval tool) | 13 |
 | A4 | Trade-In & Upgrade Advisor | AgentCore | 8 |
 | A5 | Campaign ROI Optimizer | Quick / QuickSight + AgentCore recommendations | 9 |
-| A6 | OEM Sales Administrator | Amazon Quick (agent, Flows, Index, Research) | 32 |
+| A6 | OEM Sales Administrator | AWS Quick (agent, Flows, Index, Research) | 32 |
 | A7 | Service Operations (supervisor) | AgentCore | 25 |
 
 Skills and tools relate but are not the same thing: a tool is what the agent *can call*; a skill is how the agent *decides* what to call and how to interpret the result. `service-estimate-integrity`, for example, orchestrates `check_coverage`, `get_labor_time`, `lookup_parts`, `build_estimate`, `present_estimate`, and `record_approval`.
@@ -120,7 +120,7 @@ Multi-agent mode routes to three specialists (fixed ops, retail, OEM and archite
 /agent automotive-multiagent
 ```
 
-### Amazon Quick
+### AWS Quick
 
 Upload individual `SKILL.md` files: Settings → Capabilities → Skills → Upload. Start with one domain (for example, fixed operations) and add more. `./install.sh --target quick-desktop` prints the recommended order.
 

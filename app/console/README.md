@@ -62,7 +62,7 @@ python3 -m app.infra.deploy_console --apply                      # S3 + CloudFro
 (§5.1 dealer dark verbatim, §5.9 OEM light, marketing, brand, neutral). The
 shell sets `data-theme` per app. Component classes keep the reference HTML
 names (`panel`, `rec-card`, `kpi-card`, `ai-insight`, `chat-panel`, …) from
-`docs/use-cases/sales-advisor-v2.html` and `DM_Assistant_Demo.html`, so
+`the dealer-floor UI mockup` and `the OEM field-sales UI mockup`, so
 a screen maps one-for-one to its reference. Tailwind utilities are themed via
 the same variables (`text-fg-2`, `bg-surface/5`, `text-success`, …).
 

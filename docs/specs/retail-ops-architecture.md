@@ -12,7 +12,7 @@
 > sourced DynamoDB fallback, and `deploy/deploy.sh --only <stage>` for selective
 > deployment.
 
-Companion to `intelligent-sales-service-orchestration.md` (the spec, v1.3). This document is the end-to-end architecture: how the five apps, **seven agents across two business processes**, two AI stacks (AgentCore and Amazon Quick), the event backbone, the **agentic operating model** (autonomy levels, event subscriptions, outcome loop), and the integration layer fit together, and how a request, a purchase journey, a service journey, an event, and a user move through them.
+Companion to `intelligent-sales-service-orchestration.md` (the spec, v1.3). This document is the end-to-end architecture: how the five apps, **seven agents across two business processes**, two AI stacks (AgentCore and AWS Quick), the event backbone, the **agentic operating model** (autonomy levels, event subscriptions, outcome loop), and the integration layer fit together, and how a request, a purchase journey, a service journey, an event, and a user move through them.
 
 Aligned with spec v1.3: Process 2 — Service & ownership (A7, service state machine, Service Desk, 12 service tables), `DEALER_Vehicles` VIN master, OWN as a resting state, and §4.10 (autonomy, subscriptions, recommendations). 67 operational tables.
 
@@ -122,7 +122,7 @@ flowchart TB
       MEM[AgentCore Memory]
       CI[AgentCore Code Interpreter<br/>TCO · equity · estimate math]
     end
-    subgraph QS[Amazon Quick Suite]
+    subgraph QS[AWS Quick]
       A6[A6 OEM Sales Administrator<br/>Quick agent · Flows · Research]
       QI[Quick Index<br/>retrieval tool for A3 & A7]
       QSD[QuickSight dashboards]
@@ -193,7 +193,7 @@ flowchart LR
 
   SH -->|JWT app-staff or app-customers| APIGW[API Gateway]
   SH <-->|postMessage: navigate resourceUrl| QE
-  QE -->|Identity Center session<br/>federated from Cognito| QUICK[Amazon Quick Suite]
+  QE -->|Identity Center session<br/>federated from Cognito| QUICK[AWS Quick]
 
   APIGW --> AUTH[Lambda authorizer<br/>role + scope claims from PLAT_OrgHierarchy]
   AUTH --> LAM[Domain Lambda]
@@ -724,7 +724,7 @@ flowchart TB
     FED[the enterprise IdP<br/>OIDC · day one] -- Hosted UI identity_provider=CorpDirectory --> CSTAFF[Cognito app-staff<br/>native password + federated<br/>19 groups: dealer_* incl. technician · parts · service_manager<br/>oem_* · admin_*]
     CORP[OEM corporate IdP<br/>Okta / Entra · optional later] -. SAML/OIDC .-> CSTAFF
     CSTAFF -. SAML .-> IDC[IAM Identity Center]
-    IDC --> QUICK[Amazon Quick<br/>JIT/SCIM users · access by Quick group<br/>not row-scoped]
+    IDC --> QUICK[AWS Quick<br/>JIT/SCIM users · access by Quick group<br/>not row-scoped]
     IDC -. optional .-> CONN[Amazon Connect agent SSO]
     CCUST[Cognito app-customers<br/>email OTP + magic links<br/>SMS OTP after 10DLC]
   end
@@ -838,7 +838,7 @@ flowchart TB
     CIS[AgentCore Code Interpreter]
   end
 
-  subgraph Quick[Amazon Quick Suite account-level]
+  subgraph Quick[AWS Quick account-level]
     QAG[Quick agent A6]
     QFL[Quick Flows]
     QIX[Quick Index collections]
@@ -906,7 +906,7 @@ The diagram shows the target topology. A deployment does not provision the custo
 | `demo-reset` | The dev-only demo-reset Lambda |
 | `alarms` | Errors and throttles alarms for every Lambda, and an unknown-outcome alarm per agent-owned job |
 | `agentcore` | Direct code deployment (ADR 0007): one Linux arm64 zip per agent → S3 → one AgentCore runtime per agent (ADR 0009), the Journey Agent last; then re-runs `l4` and `l6` |
-| `gateway` | The OEM read Lambda, the IAM-authenticated Gateway for the console and the JWT-authenticated Gateway for Amazon Quick |
+| `gateway` | The OEM read Lambda, the IAM-authenticated Gateway for the console and the JWT-authenticated Gateway for AWS Quick |
 | `quick` (optional) | Quick sharing groups, the Athena data source and lake datasets, then the Quick content (`docs/QUICK_BUILD.md`) |
 | `console` | The static console build, its S3 bucket, CloudFront distribution, origin access control and URL-rewrite function |
 | `waf` | The AWS WAF web ACL on the distribution |

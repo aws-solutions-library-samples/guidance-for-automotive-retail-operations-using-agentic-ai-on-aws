@@ -258,11 +258,11 @@ def service_policy(account: str, fn_name: str = naming.name("journeys-service"))
         # bedrock stmt / are no-ops until configured.
         {"Sid": "Outreach", "Effect": "Allow",
          "Action": ["ses:SendEmail", "ses:SendRawEmail", "sns:Publish"], "Resource": "*"},
-        # Plug-and-play Amazon Quick (Q Apps) — only used when ENABLE_QUICK=true
+        # Plug-and-play AWS Quick (Q Apps) — only used when ENABLE_QUICK=true
         # + a Q Business instance is configured; granted here so enabling the flag
         # needs no IAM change. Plus Bedrock KB / Personalize read paths for
         # INTEGRATION_MODE=aws.
-        # Amazon Quick = the quicksight service (Quick evolved from QuickSight).
+        # AWS Quick = the quicksight service (Quick evolved from QuickSight).
         # Flow listing, dashboard listing, and registered-user embed for A6/A5.
         {"Sid": "AmazonQuick", "Effect": "Allow",
          "Action": ["quicksight:ListFlows", "quicksight:SearchFlows",

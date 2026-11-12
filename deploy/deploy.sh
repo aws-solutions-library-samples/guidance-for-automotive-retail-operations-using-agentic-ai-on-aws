@@ -15,7 +15,7 @@
 #     guardrails — Bedrock Guardrail attached to every model call
 #     kb         — Bedrock Knowledge Base over the corpus (needs corpus)
 #     l4         — per-function IAM roles, authorizer + service Lambdas, REST API
-#                  (ENABLE_QUICK=true on the service when the account has Amazon Quick, and the
+#                  (ENABLE_QUICK=true on the service when the account has AWS Quick, and the
 #                  console URL as the CORS and Quick embed origin; on a first deploy l4 runs once
 #                  more right after the console stage to pick that URL up)
 #     approvals  — plan-approval Step Functions state machine + submit Lambda
@@ -24,7 +24,7 @@
 #     demo-reset — dev only: the Lambda behind the Admin Console's "Reset demo data" (seed bundled)
 #     alarms     — CloudWatch Errors/Throttles alarms per Lambda
 #     agentcore  — AgentCore runtimes, one per agent (A1 A2 A3 A4 A5 A7); re-run l4 and l6 after
-#     gateway    — AgentCore Gateways (AWS_IAM for the console, CUSTOM_JWT for Amazon Quick)
+#     gateway    — AgentCore Gateways (AWS_IAM for the console, CUSTOM_JWT for AWS Quick)
 #     quick      — sharing groups + Quick datasets (owned by retail-ops-builders), then the
 #                  Quick content (deploy_quick_content: custom-SQL datasets, topic, 9 knowledge
 #                  bases, space, Field Sales chat agent, 8 Flows, Campaign ROI dashboard),
@@ -256,7 +256,7 @@ fi
 
 if should_run corpus; then
   # Knowledge corpus (538 Markdown docs with source_ref front-matter) -> s3://<lake>/quick-index/.
-  # Feeds the Bedrock Knowledge Base (kb) and the Amazon Quick knowledge bases.
+  # Feeds the Bedrock Knowledge Base (kb) and the AWS Quick knowledge bases.
   run_stage "corpus (knowledge corpus -> S3 quick-index/)" \
     "$PY" -m app.infra.deploy_quick_index $APPLY_FLAG
 fi
@@ -329,9 +329,9 @@ if should_run gateway; then
   # OEM-owned data only through this Gateway's scoped MCP tools, never directly.
   run_stage "gateway (AgentCore Gateway — cross-persona OEM read bridge)" \
     "$PY" -m app.infra.deploy_gateway $APPLY_FLAG
-  # Second gateway with a CUSTOM_JWT authorizer for Amazon Quick's MCP connector
+  # Second gateway with a CUSTOM_JWT authorizer for AWS Quick's MCP connector
   # (client-credentials token from the retail-ops-quick-mcp Cognito client).
-  run_stage "gateway (CUSTOM_JWT gateway for the Amazon Quick MCP connector)" \
+  run_stage "gateway (CUSTOM_JWT gateway for the AWS Quick MCP connector)" \
     "$PY" -m app.infra.deploy_gateway_quick $APPLY_FLAG
 fi
 
@@ -349,7 +349,7 @@ if should_run quick; then
   # connector to the space and agent once it has been built in the console.
   run_stage "quick (content: topic, knowledge bases, space, chat agent, Flows, dashboard)" \
     "$PY" -m app.infra.deploy_quick_content $APPLY_FLAG
-  # Amazon Quick (quicksight) resource discovery -> quick-config.json (Flows / dashboards for the console).
+  # AWS Quick (quicksight) resource discovery -> quick-config.json (Flows / dashboards for the console).
   run_stage "quick (discover Flows / dashboards / embed user for the console)" \
     "$PY" -m app.infra.deploy_quick $APPLY_FLAG
 fi
@@ -411,7 +411,7 @@ if should_run console; then
       echo "  SSO: hosted UI $hosted_ui — IdPs: $sso_idps"
     fi
     if command -v npm >/dev/null 2>&1; then
-      # ENABLE_QUICK=false (no Amazon Quick in the account) hides the console's Quick panels.
+      # ENABLE_QUICK=false (no AWS Quick in the account) hides the console's Quick panels.
       local build_log
       local tmp_dir="${TMPDIR:-/tmp}"
       build_log="$(mktemp "${tmp_dir%/}/retail_ops_console_build.XXXXXX")"

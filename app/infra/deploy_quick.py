@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Amazon Quick integration config (spec retail-ops-quick-project.md).
+"""AWS Quick integration config (spec retail-ops-quick-project.md).
 
-CORRECTION: Amazon Quick evolved from QuickSight — it is the **`quicksight`
-service** (QuickSight continues as "Amazon Quick Sight", a feature within Quick;
+CORRECTION: AWS Quick evolved from QuickSight — it is the **`quicksight`
+service** (QuickSight continues as "AWS Quick Sight", a feature within Quick;
 all QuickSight APIs still work). The earlier Amazon **Q Business** (`qbusiness`/
 `qapps`) build targeted the DEPRECATED product and has been removed.
 
 The Quick-native build surface — Quick Flows, Quick Automate connectors, Quick
-Sight dashboards, Quick Index — lives in **Amazon Quick** on its own lifecycle,
+Sight dashboards, Quick Index — lives in **AWS Quick** on its own lifecycle,
 per the spec: deploy_quick_content.py creates what has an API, the rest is built
 in the Quick console (docs/QUICK_BUILD.md). What this deployer does is
 **discover and record** the account's Quick resources so the Retail Ops Quick
@@ -41,7 +41,7 @@ CONFIG_PATH = naming.config_path("quick")
 
 
 def discover(qs, sts, account: str) -> dict:
-    cfg: dict = {"region": REGION, "service": "quicksight (Amazon Quick)"}
+    cfg: dict = {"region": REGION, "service": "quicksight (AWS Quick)"}
 
     # Quick Flows (console-authored; discovered here)
     try:
@@ -87,7 +87,7 @@ def discover(qs, sts, account: str) -> dict:
 
 
 def main(argv=None) -> int:
-    ap = argparse.ArgumentParser(description="Discover + record the account's Amazon Quick resources.")
+    ap = argparse.ArgumentParser(description="Discover + record the account's AWS Quick resources.")
     ap.add_argument("--apply", action="store_true", help="write quick-config.json")
     ap.add_argument("--status", action="store_true")
     ap.add_argument("--delete", action="store_true", help="remove quick-config.json")
@@ -97,7 +97,7 @@ def main(argv=None) -> int:
     s = boto3.Session(region_name=REGION)
     account = s.client("sts").get_caller_identity()["Account"]
     qs, sts = s.client("quicksight"), s.client("sts")
-    print(f"account={account} region={REGION} service=quicksight (Amazon Quick)")
+    print(f"account={account} region={REGION} service=quicksight (AWS Quick)")
 
     if args.delete:
         if CONFIG_PATH.exists():

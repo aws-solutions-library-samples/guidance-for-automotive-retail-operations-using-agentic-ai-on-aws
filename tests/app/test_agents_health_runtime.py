@@ -62,7 +62,7 @@ def test_agentcore_mode_follows_the_runtime_map(fake_ddb, monkeypatch):
     assert rows["A3"]["runtime"]["mode"] == "agentcore"
     assert rows["A2"]["runtime"]["mode"] == "in_process"
     assert rows["A7"]["runtime"]["mode"] == "in_process"
-    # A6 lives in Amazon Quick even if a map names it
+    # A6 lives in AWS Quick even if a map names it
     assert rows["A6"]["runtime"]["mode"] == "quick"
 
 

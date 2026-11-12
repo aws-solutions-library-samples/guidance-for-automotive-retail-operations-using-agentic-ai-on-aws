@@ -70,7 +70,7 @@ export const NAV: Record<AppId, NavGroup[]> = {
       { href: "/oem/ev-readiness", label: "EV Readiness", screen: "oem.today" },
       { href: "/oem/compliance", label: "Compliance", screen: "oem.today" },
       { href: "/oem/campaigns", label: "Campaign ROI", screen: "oem.today" },
-      { href: "/oem/quick", label: "Amazon Quick", screen: "oem.today", flag: "quick" },
+      { href: "/oem/quick", label: "AWS Quick", screen: "oem.today", flag: "quick" },
     ] },
     { group: "Admin", items: [
       { href: "/oem/comms", label: "Sales Ops Comms", screen: "oem.comms" },

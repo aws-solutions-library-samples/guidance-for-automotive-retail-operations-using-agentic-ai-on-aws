@@ -297,7 +297,7 @@ The deployed console is the specification's five apps joined by one shell bar
 | App (theme) | Console UI route | Screens | Who the app switcher offers it to |
 |---|---|---|---|
 | Dealer Console (dark) | `/dealer/journeys` `/dealer/cockpit` `/dealer/service` `/dealer/leads` `/dealer/delivery` | Journeys, Store Cockpit, Service Desk, Lead Desk, Delivery | dealer roles; OEM/admin (read); Administrator |
-| OEM Workspace (light) | `/oem` `/oem/campaigns` `/oem/quick` | Today/Alerts/Scenario, Campaign ROI, Amazon Quick | OEM roles; admin; Administrator |
+| OEM Workspace (light) | `/oem` `/oem/campaigns` `/oem/quick` | Today/Alerts/Scenario, Campaign ROI, AWS Quick | OEM roles; admin; Administrator |
 | Marketing Studio (light) | `/marketing/campaigns` `/marketing/quick` | Campaign ROI, Quick dashboards | `oem_cx`/marketing, manager, admin; Administrator |
 | Customer Web (brand) | `/garage` | My Garage | customer (`cust:` token) only |
 | Admin Console (neutral) | `/admin` | Autonomy, guardrails, connectors | `admin_tenant` / `admin_dealer` / Administrator (`platform_admin`) |

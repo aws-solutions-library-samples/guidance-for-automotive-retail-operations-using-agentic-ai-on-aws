@@ -11,7 +11,7 @@ import { MarketPicker, TenantOnly, VersionedConfig } from "../common";
 const DESCRIPTIONS: Record<string, string> = {
   ENABLE_CONNECT: "Amazon Connect outreach provider (voice callbacks, Contact Lens). Off = SES/SNS + dealer tasks.",
   ENABLE_PERSONALIZE: "Amazon Personalize ranking for the Discovery Agent. Off = transparent rules ranker.",
-  ENABLE_QUICK_EMBED: "Embedded Amazon Quick dashboards and agents in OEM Workspace / Marketing Studio.",
+  ENABLE_QUICK_EMBED: "Embedded AWS Quick dashboards and agents in OEM Workspace / Marketing Studio.",
   ENABLE_FEDERATE: "Tenant intent to use the enterprise IdP (SSO) for staff sign-in. The login page's SSO buttons follow the external identity providers actually registered on the Cognito pool.",
   ENABLE_TELEMATICS: "Connected-car alerts connector for the Service Agent's proactive booking.",
 };

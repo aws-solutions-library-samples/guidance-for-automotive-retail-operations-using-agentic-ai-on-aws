@@ -49,7 +49,7 @@ C4_FIELDS = frozenset({"credit_score", "fico", "fico_score", "credit_tier", "ssn
                        "apr_pct", "monthly_payment", "down_payment"})
 EXTERNAL_STEPS = [
     {"system": "Amazon Personalize", "action": "delete user from dataset group app-vehicles (hashed user id)"},
-    {"system": "Amazon Quick Index", "action": "purge CRM-note documents mentioning the customer"},
+    {"system": "AWS Quick Index", "action": "purge CRM-note documents mentioning the customer"},
     {"system": "S3 lake", "action": "lake rows carry hashed ids only (§8.2); no purge needed"},
 ]
 

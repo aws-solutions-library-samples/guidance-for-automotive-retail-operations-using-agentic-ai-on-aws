@@ -235,7 +235,7 @@ def provision(c, apply: bool) -> dict:
 
 
 def ensure_quick_mcp_client(c, pool_id: str) -> dict:
-    """Machine client for Amazon Quick's MCP connector (docs/QUICK_BUILD.md §3b).
+    """Machine client for AWS Quick's MCP connector (docs/QUICK_BUILD.md §3b).
 
     Quick authenticates to the CUSTOM_JWT AgentCore Gateway with an OAuth
     client-credentials token, so the pool needs a resource server (`retail-ops-oem`,

@@ -155,5 +155,5 @@ Result: **Rewrite.** The CSI and lead-response findings are allowed and cited (C
 ## References
 
 - Intelligent Sales & Service Orchestration requirements spec v1.3 §3.6 and §3.6.1 (A6, GR-001…GR-008), §5.9 (OEM Field Sales Workspace), §8 (guardrail events), §11 criterion 15b
-- `docs/use-cases/DM_Assistant_Demo.html` (reference guardrail view)
+- `the OEM field-sales UI mockup` (reference guardrail view)
 - OEM legal and compliance guidance on franchised-dealer communications; state motor vehicle franchise statutes (vary by state) — consult counsel

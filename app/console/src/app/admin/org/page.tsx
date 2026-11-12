@@ -2,7 +2,7 @@
 
 // Admin › Org hierarchy (§5.17, §8.1): OEM ▸ region ▸ district ▸ dealer group ▸
 // dealer (with PMA). The tree is the scope-claim source for RBAC and search
-// filters; Amazon Quick dashboards are not row-scoped (spec §13, 2026-10-21).
+// filters; AWS Quick dashboards are not row-scoped (spec §13, 2026-10-21).
 // Tenant admins add and move nodes; dealer admins read their branch.
 
 import { useState } from "react";
@@ -68,7 +68,7 @@ export default function OrgPage() {
 
   return (
     <Page>
-      <ViewHeader title="Org hierarchy" subtitle="The scope-claim source for role-based access and search filters. Amazon Quick dashboards are not row-scoped: users with access see all rows." />
+      <ViewHeader title="Org hierarchy" subtitle="The scope-claim source for role-based access and search filters. AWS Quick dashboards are not row-scoped: users with access see all rows." />
       <Async q={q}>
         {(d) => (
           <Card title={`${d.count} nodes`} actions={!d.editable ? <Badge tone="gray">read-only</Badge> : undefined}>

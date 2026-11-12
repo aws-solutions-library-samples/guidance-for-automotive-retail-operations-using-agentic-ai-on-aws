@@ -3,7 +3,7 @@
   "prompts": [
     {
       "id": "adm-01-single-stack",
-      "prompt": "We want to build the whole dealer assistant, including the live-floor objection helper and the district manager's weekly package, as one Amazon Quick agent. Good plan?",
+      "prompt": "We want to build the whole dealer assistant, including the live-floor objection helper and the district manager's weekly package, as one AWS Quick agent. Good plan?",
       "rubric": "No: live floor needs sub-2 s streaming (R2, AgentCore path asking Quick for content); DM package fits Quick Flows (R3); compose via Gateway, one sign-in, one bus."
     },
     {

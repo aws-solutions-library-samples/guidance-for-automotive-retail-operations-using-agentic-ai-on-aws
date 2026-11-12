@@ -16,8 +16,8 @@
 # (printed as GUIDANCE_ENV_NAME=…), so the deployment never collides with
 # another one in the same account. Tear it down with
 #   deploy/destroy.sh --env <env> --confirm --account <account-id> --include-data
-# Amazon Quick is skipped (it needs a paid Enterprise subscription and console
-# steps that have no API); see "Optional: Amazon Quick" in README.md.
+# AWS Quick is skipped (it needs a paid Enterprise subscription and console
+# steps that have no API); see "Optional: AWS Quick" in README.md.
 set -euo pipefail
 
 # =============================================================================
@@ -37,8 +37,8 @@ RUN_ID="$(date -u +%Y%m%d%H%M%S)"
 # spell a word Cognito refuses in a domain prefix ("aws", "amazon", "cognito").
 export RETAIL_OPS_ENV="${RETAIL_OPS_ENV:-g$(od -An -N3 -tx1 /dev/urandom | tr -d ' \n')}"
 MARKETS="us"                                   # synthetic market packs to load (us, or us,de)
-SKIP_STAGES="quick"                            # Amazon Quick: optional add-on, not deployed here
-export ENABLE_QUICK="false"                    # console hides its Amazon Quick panels
+SKIP_STAGES="quick"                            # AWS Quick: optional add-on, not deployed here
+export ENABLE_QUICK="false"                    # console hides its AWS Quick panels
 export RETAIL_OPS_ENABLE_SSO="0"               # no federated sign-in (needs an external identity provider)
 export BEDROCK_USE_CASE_EMAIL="wwso-guidance-deployments-ignore@amazon.com"   # Bedrock use case form contact
 PYTHON_VERSION="3.12"                          # deployers and the agent runtimes use Python 3.12

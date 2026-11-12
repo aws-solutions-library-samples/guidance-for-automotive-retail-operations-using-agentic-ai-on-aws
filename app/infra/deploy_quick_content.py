@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Amazon Quick content for Automotive Retail Operations, created through the Quick API.
+"""AWS Quick content for Automotive Retail Operations, created through the Quick API.
 
 Builds the Quick-native content of docs/QUICK_BUILD.md §1–§8 that has a working
 public API, in dependency order, idempotently (create when missing, update when
@@ -1438,7 +1438,7 @@ def run(ctx: Ctx, only: set[str] | None = None) -> None:
 
 
 def main(argv: list[str] | None = None) -> int:
-    ap = argparse.ArgumentParser(description="Create the Amazon Quick content of docs/QUICK_BUILD.md through the API")
+    ap = argparse.ArgumentParser(description="Create the AWS Quick content of docs/QUICK_BUILD.md through the API")
     ap.add_argument("--apply", action="store_true", help="make the changes (default: dry run)")
     ap.add_argument("--only", help="comma-separated steps: " + ",".join(STEPS))
     ap.add_argument("--status", action="store_true", help="list what exists")
@@ -1459,7 +1459,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.delete:
         return delete(qs, account, args.apply)
     mode = "APPLY" if args.apply else "DRY-RUN"
-    print(f"[{mode}] Amazon Quick content for {SPACE_NAME}"
+    print(f"[{mode}] AWS Quick content for {SPACE_NAME}"
           + (f" (only {', '.join(sorted(only))})" if only else ""))
     try:
         qs.describe_group(AwsAccountId=account, Namespace=NAMESPACE, GroupName=QUICK_BUILDERS_GROUP)
