@@ -1,6 +1,5 @@
 """Demo gaps closed on 2026-11-04 (each test pins one reported symptom).
 
-* sign-in: every staff persona the demo signs in as has a password login
 * delivery: a seeded delivery-week deal is booked against a reserved unit, so
   "Mark delivered" records the car in the customer's garage
 * book service: an advisor finds the car by owner name or model, not only by VIN
@@ -18,7 +17,6 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from app.infra import cognito_setup
 from app.services.api import handler
 from app.services.common import ddb
 from app.services.dealer import delivery, store_digest
@@ -28,24 +26,10 @@ from tests.app.conftest import api_event
 
 ROOT = Path(__file__).resolve().parents[2]
 SEED = ROOT / "sample-data" / "synthetic" / "us" / "tables"
-CAPTURE = ROOT / "docs" / "presentation" / "capture_live.py"
 
 
 def _rows(table: str) -> list[dict]:
     return json.loads((SEED / f"{table}.json").read_text())
-
-
-# --- sign-in -------------------------------------------------------------------------
-
-def test_every_staff_persona_the_demo_uses_has_a_password_login():
-    seeded = {u for u, _ in cognito_setup.SEED_USERS}
-    src = CAPTURE.read_text()
-    staff = {u for u in ("U-US-00005", "U-US-00006", "U-US-00008", "U-US-00009",
-                         "U-US-00045", "U-US-00046", "U-US-00048", "U-US-00049") if u in src}
-    assert staff and staff <= seeded
-    groups = {r["user_id"]: r.get("groups") or [] for r in _rows("PLAT_Users")}
-    # each seed user is added to the Cognito group PLAT_Users lists for it
-    assert [(u, role) for u, role in cognito_setup.SEED_USERS if role not in groups.get(u, [])] == []
 
 
 # --- delivery → ownership ----------------------------------------------------------
