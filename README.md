@@ -224,7 +224,7 @@ a stack deployed before 2026-10-19 still carries it until it is removed with
 The reference build uses:
 
 - Python 3.12 Lambda functions behind Amazon API Gateway
-- Next.js 14 hosted through Amazon S3 and CloudFront
+- Next.js 15 hosted through Amazon S3 and CloudFront
 - Amazon Cognito authentication with role and organizational-scope authorization
 - Amazon Bedrock AgentCore with a Strands reasoning agent layered over deterministic tools
 - Amazon Bedrock Guardrails on model calls

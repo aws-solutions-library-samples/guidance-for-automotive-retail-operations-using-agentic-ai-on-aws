@@ -535,7 +535,7 @@ Consolidated view of every feature in this spec and the stack that implements it
 
 | Layer | Technology | Used by |
 |---|---|---|
-| Front-end | Next.js 14 (static export), React 18, Tailwind + design tokens (dark dealer / light OEM / brand customer), Mantine/Radix primitives, framer-motion, Recharts | All five apps + shell |
+| Front-end | Next.js 15 (static export), React 18, Tailwind + design tokens (dark dealer / light OEM / brand customer), Mantine/Radix primitives, framer-motion, Recharts | All five apps + shell |
 | Embedded analytics / agents | AWS Quick: Quick agent + Flows + Research (A6), Quick Index (retrieval for A3/A7 AgentCore agents), QuickSight (registered-user embedding; access by Quick group, not row-scoped) | OEM Workspace (A6), Marketing Studio (A5), Store Cockpit tiles; A3 Assistant is native Next.js over AgentCore |
 | Agents | Strands Agents SDK (Python 3.12), one zipped code bundle per agent (Linux arm64 wheels) on the Amazon Bedrock AgentCore managed runtime; AgentCore Gateway, Code Interpreter, Observability; AgentCore Memory (target) | A1, A2, A3 (floor + assistant), A4, A5 recommendations, A7 |
 | Foundation models | Amazon Bedrock (Claude Sonnet family), Bedrock Guardrails | All agents |

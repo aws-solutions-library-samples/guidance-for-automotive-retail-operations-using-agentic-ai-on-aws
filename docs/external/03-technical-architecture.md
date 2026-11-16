@@ -36,7 +36,7 @@ only through an AgentCore Gateway.
 
 | Layer | What it is | Main AWS services |
 |---|---|---|
-| Console | One Next.js 14 static site with five apps in one shell: Dealer Console (sales floor and service desk), OEM Workspace, Marketing Studio, Customer Web (Shop, My Garage) and Admin Console; 76 pages; persona-gated navigation and an agent panel on every staff screen | Amazon S3, Amazon CloudFront, AWS WAF |
+| Console | One Next.js 15 static site with five apps in one shell: Dealer Console (sales floor and service desk), OEM Workspace, Marketing Studio, Customer Web (Shop, My Garage) and Admin Console; 76 pages; persona-gated navigation and an agent panel on every staff screen | Amazon S3, Amazon CloudFront, AWS WAF |
 | API | One REST API, a token authorizer Lambda and one service Lambda that routes roughly 300 routes; every request carries a correlation id | Amazon API Gateway, AWS Lambda |
 | Agents | Seven agents: six custom agents in their own AgentCore runtimes (one of them with a Strands reasoning loop) and the Field Sales Agent in AWS Quick; two AgentCore Gateways for cross-persona OEM reads | Amazon Bedrock AgentCore (Runtime, Gateway, Code Interpreter), AWS Quick |
 | Events | A custom event bus with a catalogue of 82 event types, a subscriber Lambda with a dead-letter queue, twelve scheduled jobs and a human-approval state machine | Amazon EventBridge, EventBridge Scheduler, Amazon SQS, AWS Step Functions |
@@ -637,7 +637,7 @@ the service Lambda answers through the one-shot grounded path and labels it.
 
 | Area | Technology | Role in the solution |
 |---|---|---|
-| Console | Next.js 14, React 18, TypeScript, static export | Five apps in one shell, persona-gated, agent panel |
+| Console | Next.js 15, React 18, TypeScript, static export | Five apps in one shell, persona-gated, agent panel |
 | Hosting and edge | Amazon S3, Amazon CloudFront, CloudFront Functions, AWS WAF | Private static hosting, URL rewrites, managed rules, rate limit, optional allowlist |
 | API | Amazon API Gateway (REST), AWS Lambda (Python 3.12) | Token authorizer, service router, job Lambdas, subscriber, Gateway target |
 | Agents | Amazon Bedrock AgentCore Runtime, Strands Agents SDK | One runtime per custom agent; the Sales Agent's reasoning loop |

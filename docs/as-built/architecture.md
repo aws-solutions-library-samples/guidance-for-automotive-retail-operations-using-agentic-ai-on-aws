@@ -158,7 +158,7 @@ app/
                             outreach (SES/SNS), quick (quicksight), tasks, recommendations
     l1_data/ddb_load.py     synthetic data → DynamoDB tables
   infra/                    18 boto3 deployers (one per stage) + iam_roles.py (per-function roles)
-  console/                  Next.js 14 app (76 pages), static export
+  console/                  Next.js 15 app (76 pages), static export
   demo/run_demo.py          end-to-end write loop + smoke + acceptance checks against the live API
 ```
 
@@ -522,7 +522,7 @@ state. EventBridge fans the event out to the subscriber Lambda and to the lake.
 
 ## 5. Console
 
-* **Stack**: Next.js 14.2 / React 18, static export (`RETAIL_OPS_STATIC_EXPORT=1`),
+* **Stack**: Next.js 15.5 / React 18, static export (`RETAIL_OPS_STATIC_EXPORT=1`),
   **76 pages**, TypeScript. No server-side rendering; all data comes from the
   REST API with the user's token (`src/lib/api.ts`).
 * **Five apps in one shell** (`src/components/Shell.tsx`, `src/lib/nav.ts`):
