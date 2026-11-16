@@ -1,0 +1,59 @@
+# Publishes the landing page, the use case walkthrough and the two interactive
+# stories to GitHub Pages. Only the files listed in "Assemble the site" are
+# published, not the whole repository.
+#
+# One-time setup: Settings > Pages > Build and deployment > Source: GitHub Actions.
+name: Deploy stories to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "index.html"
+      - "docs/use-case-walkthrough.html"
+      - "docs/cost/cost-estimate.xlsx"
+      - "assets/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time; let a running deployment finish.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Assemble the site
+        run: |
+          mkdir -p _site/docs/cost _site/assets/images
+          cp index.html .nojekyll _site/
+          cp docs/use-case-walkthrough.html _site/docs/
+          cp docs/cost/cost-estimate.xlsx _site/docs/cost/
+          cp assets/story-*.html _site/assets/
+          cp assets/images/architecture-*.png _site/assets/images/
+          find _site -type f | sort
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "_site"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
