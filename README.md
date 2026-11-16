@@ -547,6 +547,40 @@ service lane.
 [`docs/DEMO_WORKFLOWS.md`](docs/DEMO_WORKFLOWS.md) gives the step-by-step customer
 workflows with the expected value on every screen.
 
+### What the demo looks like
+
+These screenshots come from the deployed console and AWS Quick, with the
+synthetic data (fictional brands, dealers and customers). Select one to open it
+full size. The interactive versions are in the
+[use case walkthrough](docs/use-case-walkthrough.md), and the step-by-step
+scripts are in [`docs/DEMO_WORKFLOWS.md`](docs/DEMO_WORKFLOWS.md).
+
+**Dealer sales floor**
+
+| Lead Desk | Advisor (live) |
+|---|---|
+| [![Lead Desk in the Dealer Console: the Sales Agent has drafted a first response to a new web lead for the BDC agent to review, with the first-response clock and the inbound queue](assets/images/demo-01-lead-desk.jpg)](assets/images/demo-01-lead-desk.jpg) | [![Advisor screen: Customer 360, ranked vehicle matches for EV and ICE, and Live Assistance with a detected 'payment too high' objection and a suggested response](assets/images/demo-02-advisor-live.jpg)](assets/images/demo-02-advisor-live.jpg) |
+| The Sales Agent drafts a first response to a web lead, and the BDC agent reviews it before sending. | Customer 360, ranked vehicle matches and live objection coaching on one screen. |
+
+| Trade-In | F&I Desk |
+|---|---|
+| [![Trade-In and Upgrade screen: value $24,954, loan payoff $8,400 and equity $16,554 for a 2019 Kestrel Trek 4, with an upgrade recommendation](assets/images/demo-03-trade-in.jpg)](assets/images/demo-03-trade-in.jpg) | [![F&I Desk: the deal worksheet for a Meridian Ion C Extended with price, estimated tax and trade-in, a compliance check showing clear, and the deal booked in the DMS](assets/images/demo-04-fni-desk.jpg)](assets/images/demo-04-fni-desk.jpg) |
+| The Trade-In Agent values the trade and works out equity and payment change. | The deal worksheet with a compliance check; the deal is pushed to the DMS only when it is clear. |
+
+**Service and ownership**
+
+| Estimate | Customer approval | My Garage |
+|---|---|---|
+| [![Service Board: an estimate with a warranty-covered line and a cabin filter line from the inspection, each with its source, before the customer approves](assets/images/demo-05-service-estimate.jpg)](assets/images/demo-05-service-estimate.jpg) | [![My Garage on a customer's device: a warranty-covered repair line with Approve and Not now buttons, the approved total, and the inspection report](assets/images/demo-06-customer-approval.jpg)](assets/images/demo-06-customer-approval.jpg) | [![My Garage home: the customer's vehicle, the OWN journey stage and the service journey](assets/images/demo-07-my-garage.jpg)](assets/images/demo-07-my-garage.jpg) |
+| The Service Agent builds a sourced estimate from the inspection. | The customer approves line by line; declined work is saved. | The customer sees their vehicle, journey stage and service status. |
+
+**OEM field sales in AWS Quick**
+
+| District Roll-up | Meeting Package |
+|---|---|
+| [![District Roll-up Flow output: a draft for district DIST-07 marked for human review, with district KPIs each carrying its source](assets/images/demo-08-district-roll-up.jpg)](assets/images/demo-08-district-roll-up.jpg) | [![Meeting Package Flow output: a draft quarterly business review for a dealer with an agenda, KPI snapshot and talking points](assets/images/demo-09-meeting-package.jpg)](assets/images/demo-09-meeting-package.jpg) |
+| A cited draft from live, scoped dealer data; nothing is published or sent. | A dealer meeting package for the district manager to review. |
+
 ## Next Steps
 
 - **Connect your identity provider.** Set `RETAIL_OPS_ENABLE_SSO=1` and the
