@@ -332,7 +332,7 @@ ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
 export RETAIL_OPS_ENV="g$(od -An -N3 -tx1 /dev/urandom | tr -d ' \n')"
 export ENABLE_QUICK="false"            # no AWS Quick: the console hides its Quick panels
 export RETAIL_OPS_ENABLE_SSO="0"       # no federated sign-in (needs your identity provider)
-export BEDROCK_USE_CASE_EMAIL="<your-contact-email>"   # contact on Anthropic's one-time use case form (step 4)
+export BEDROCK_USE_CASE_EMAIL="<your-contact-email>"   # optional: contact on Anthropic's one-time use case form (step 4)
 echo "environment: $RETAIL_OPS_ENV"    # keep it: teardown needs it
 ```
 
@@ -361,9 +361,9 @@ profiles, and Titan Text Embeddings V2 for the Knowledge Base.
 the model's availability, submits Anthropic's one-time use case form when the
 account has not, creates the model agreement, and waits until the model is
 available. It exits non-zero with the reason otherwise. The form's contact
-address is `BEDROCK_USE_CASE_EMAIL` (and `BEDROCK_USE_CASE_COMPANY`,
-`BEDROCK_USE_CASE_WEBSITE`, `BEDROCK_USE_CASE_TEXT` override the neutral
-defaults).
+address is optional: set `BEDROCK_USE_CASE_EMAIL` to add one, and no address is
+included by default (`BEDROCK_USE_CASE_COMPANY`, `BEDROCK_USE_CASE_WEBSITE` and
+`BEDROCK_USE_CASE_TEXT` override the neutral defaults).
 
 ```bash
 pip install --upgrade boto3

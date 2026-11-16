@@ -40,7 +40,7 @@ MARKETS="us"                                   # synthetic market packs to load 
 SKIP_STAGES="quick"                            # AWS Quick: optional add-on, not deployed here
 export ENABLE_QUICK="false"                    # console hides its AWS Quick panels
 export RETAIL_OPS_ENABLE_SSO="0"               # no federated sign-in (needs an external identity provider)
-export BEDROCK_USE_CASE_EMAIL="wwso-guidance-deployments-ignore@amazon.com"   # Bedrock use case form contact
+# Optional: export BEDROCK_USE_CASE_EMAIL to add a contact address to the Bedrock use case form.
 PYTHON_VERSION="3.12"                          # deployers and the agent runtimes use Python 3.12
 WORK_DIR="${WORK_DIR:-${TMPDIR:-/tmp}/guidance-retail-ops-${RUN_ID}}"
 # Bedrock models (base model ids from the Bedrock model cards; the solution calls

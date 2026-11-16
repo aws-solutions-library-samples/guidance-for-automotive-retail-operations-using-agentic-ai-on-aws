@@ -17,7 +17,8 @@ guide (Manage model access using SDK and CLI):
      with PutUseCaseForModelAccess, unless the agreement is already set up or
      pending. The form has no e-mail field; the contact address goes in the use
      case text. Override the neutral defaults with BEDROCK_USE_CASE_COMPANY,
-     BEDROCK_USE_CASE_WEBSITE, BEDROCK_USE_CASE_EMAIL and BEDROCK_USE_CASE_TEXT.
+     BEDROCK_USE_CASE_WEBSITE and BEDROCK_USE_CASE_TEXT. BEDROCK_USE_CASE_EMAIL
+     is optional: when set, "Contact: <address>" is added to the use case text.
   4. Third-party models: ListFoundationModelAgreementOffers (PUBLIC) and
      CreateFoundationModelAgreement with the offer token. First-party models
      (Amazon) have no agreement and are enabled by default; an embeddings model
@@ -55,7 +56,6 @@ MODEL_ID = re.compile(r"^[a-z0-9-]+\.[A-Za-z0-9._:-]+$")
 REGION = re.compile(r"^[a-z]{2}(-gov)?-[a-z]+-\d$")
 DEFAULT_WAIT_S = 600
 POLL_S = 15
-DEFAULT_EMAIL = "wwso-guidance-deployments-ignore@amazon.com"
 
 
 class EnableError(RuntimeError):
@@ -77,11 +77,12 @@ def provider(model_id: str) -> str:
 
 def use_case_form() -> dict[str, str]:
     """The Anthropic first-time-use form (field names and limits from the user guide)."""
-    email = os.environ.get("BEDROCK_USE_CASE_EMAIL") or DEFAULT_EMAIL
+    email = (os.environ.get("BEDROCK_USE_CASE_EMAIL") or "").strip()
     text = os.environ.get("BEDROCK_USE_CASE_TEXT") or (
         "Automated deployment and validation of AWS Solutions Guidance sample code in a test account: "
         "an agentic AI reference implementation for automotive retail operations that answers staff "
-        "questions over synthetic data. No end customers. Contact: " + email)
+        "questions over synthetic data. No end customers."
+        + (" Contact: " + email if email else ""))
     return {
         "companyName": (os.environ.get("BEDROCK_USE_CASE_COMPANY") or "AWS Solutions Guidance sample code")[:128],
         "companyWebsite": (os.environ.get("BEDROCK_USE_CASE_WEBSITE") or "https://aws.amazon.com/solutions/guidance/")[:128],

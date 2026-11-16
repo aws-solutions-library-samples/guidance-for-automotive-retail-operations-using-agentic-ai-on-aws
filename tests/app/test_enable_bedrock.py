@@ -119,10 +119,20 @@ def test_anthropic_first_use_submits_the_form_then_the_agreement_and_waits():
     form = json.loads(next(kw for n, kw in b.calls if n == "put_use_case")["formData"])
     assert set(form) == {"companyName", "companyWebsite", "intendedUsers", "industryOption",
                          "otherIndustryOption", "useCases"}
-    assert form["intendedUsers"] == "0" and "wwso-guidance-deployments-ignore@amazon.com" in form["useCases"]
+    assert form["intendedUsers"] == "0" and "@" not in form["useCases"] and "Contact" not in form["useCases"]
     assert all(len(form[k]) <= 128 for k in ("companyName", "companyWebsite", "industryOption", "otherIndustryOption"))
     assert next(kw for n, kw in b.calls if n == "create") == {"offerToken": "tok-1", "modelId": OPUS}
     assert next(kw for n, kw in b.calls if n == "offers")["offerType"] == "PUBLIC"
+
+
+def test_use_case_form_has_no_contact_address_unless_one_is_configured(monkeypatch):
+    monkeypatch.delenv("BEDROCK_USE_CASE_EMAIL", raising=False)
+    monkeypatch.delenv("BEDROCK_USE_CASE_TEXT", raising=False)
+    assert "@" not in eb.use_case_form()["useCases"]
+    monkeypatch.setenv("BEDROCK_USE_CASE_EMAIL", "  owner@example.com ")
+    assert eb.use_case_form()["useCases"].endswith("Contact: owner@example.com")
+    monkeypatch.setenv("BEDROCK_USE_CASE_EMAIL", "   ")
+    assert "Contact" not in eb.use_case_form()["useCases"]
 
 
 def test_pending_agreement_is_not_submitted_again():

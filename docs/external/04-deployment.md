@@ -73,9 +73,11 @@ python3 enable-bedrock.py 'anthropic.claude-sonnet-4-5-20250929-v1:0' 'us-east-1
 python3 enable-bedrock.py 'amazon.titan-embed-text-v2:0' 'us-east-1'
 ```
 
-The use case form's contact details come from `BEDROCK_USE_CASE_EMAIL`,
+The use case form's company name, website and text come from
 `BEDROCK_USE_CASE_COMPANY`, `BEDROCK_USE_CASE_WEBSITE` and
-`BEDROCK_USE_CASE_TEXT`; set them to your own before the first run.
+`BEDROCK_USE_CASE_TEXT`; set them to your own before the first run. Set
+`BEDROCK_USE_CASE_EMAIL` to add a contact address to the text; it is optional,
+and no address is included by default.
 
 ### AWS Quick (for analytics and the Field Sales Agent)
 
