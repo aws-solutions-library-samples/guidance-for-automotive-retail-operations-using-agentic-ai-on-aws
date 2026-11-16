@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Automotive Retail Operations powered by Agentic AI: interactive stories</title>
+<meta name="description" content="Interactive stories and the use case walkthrough for the Guidance for Automotive Retail Operations using Agentic AI on AWS.">
+<style>
+  :root { --ink:#16191f; --muted:#414d5c; --line:#d5dbdb; --panel:#f2f3f3; --squid:#232f3e; --accent:#b84d00; --link:#0b5fbd; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; color:var(--ink); background:#fff; }
+  a { color:var(--link); }
+  a:focus-visible { outline:3px solid var(--accent); outline-offset:3px; }
+  header { background:var(--squid); color:#fff; padding:3rem 1.25rem 2.5rem; }
+  .wrap { max-width:1000px; margin:0 auto; }
+  .eyebrow { text-transform:uppercase; letter-spacing:.08em; font-size:.8rem; color:#ffb980; margin:0 0 .5rem; }
+  h1 { font-size:clamp(1.7rem,3.2vw,2.4rem); line-height:1.2; margin:0 0 .8rem; }
+  header p { margin:0; max-width:46rem; color:#e9ecef; }
+  main { max-width:1000px; margin:0 auto; padding:2rem 1.25rem 3rem; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(18rem,1fr)); gap:1.2rem; padding:0; margin:0; list-style:none; }
+  .card { border:1px solid var(--line); border-radius:10px; padding:1.2rem 1.3rem; display:flex; flex-direction:column; }
+  .card h2 { font-size:1.15rem; margin:0 0 .4rem; }
+  .card p { margin:0 0 1rem; color:var(--muted); font-size:.95rem; flex:1; }
+  .btn { display:inline-block; align-self:flex-start; background:var(--squid); color:#fff; text-decoration:none; font-weight:600; padding:.55rem 1rem; border-radius:6px; }
+  .btn:hover { background:#0b5fbd; }
+  .btn:focus-visible { outline:3px solid var(--accent); outline-offset:3px; }
+  .note { background:var(--panel); border-left:4px solid var(--accent); padding:.8rem 1rem; border-radius:0 6px 6px 0; margin:1.8rem 0 0; font-size:.95rem; color:var(--muted); }
+  footer { border-top:1px solid var(--line); color:var(--muted); font-size:.85rem; padding:1.4rem 1.25rem 2.2rem; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <p class="eyebrow">Guidance for Automotive Retail Operations using Agentic AI on AWS</p>
+    <h1>Interactive stories and use case walkthrough</h1>
+    <p>See how seven agents work for dealer teams, OEM field teams and customers, from the first lead through service and the next purchase.</p>
+  </div>
+</header>
+
+<main>
+  <ul class="cards">
+    <li class="card">
+      <h2>Use case walkthrough</h2>
+      <p>The business use case and the architecture on one page: both stories, the architecture diagrams, the seven agents, and what a deployment creates and costs.</p>
+      <a class="btn" href="docs/use-case-walkthrough.html">Open the walkthrough</a>
+    </li>
+    <li class="card">
+      <h2>Story 1: agents for your team and your customer</h2>
+      <p>One buyer's journey from an online lead through sale, finance, delivery and the first service visit, and which agent helps each role at each handoff.</p>
+      <a class="btn" href="assets/story-01-agents-one-journey-lead-to-service.html">Play story 1</a>
+    </li>
+    <li class="card">
+      <h2>Story 2: sales operations with AWS Quick Flows</h2>
+      <p>Eight Flows give the OEM district manager and sales operations a cited draft from live, scoped dealer data, from one input.</p>
+      <a class="btn" href="assets/story-02-sales-operations-quick-flows.html">Play story 2</a>
+    </li>
+  </ul>
+
+  <p class="note">Each story is an interactive page with its own play, pause and scrub control at the bottom. Press play to start; sound may play. The data shown is synthetic: fictional brands and dealers, no real customer records. The stories are large files, so they can take a moment to load.</p>
+
+  <p>Source code, deployment steps and the cost estimate are in the <a href="https://github.com/aws-solutions-library-samples/guidance-for-automotive-retail-operations-using-agentic-ai-on-aws">GitHub repository</a>.</p>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Amazon Web Services, Inc. or its affiliates. All rights reserved. This Guidance is for informational purposes only; see the Notices section of the repository README.</div>
+</footer>
+</body>
+</html>
