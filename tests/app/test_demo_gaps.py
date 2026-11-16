@@ -17,6 +17,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from app.infra import cognito_setup
 from app.services.api import handler
 from app.services.common import ddb
 from app.services.dealer import delivery, store_digest
@@ -30,6 +31,13 @@ SEED = ROOT / "sample-data" / "synthetic" / "us" / "tables"
 
 def _rows(table: str) -> list[dict]:
     return json.loads((SEED / f"{table}.json").read_text())
+
+
+# --- sign-in -------------------------------------------------------------------------
+
+def test_every_seed_user_is_in_its_cognito_group():
+    groups = {r["user_id"]: r.get("groups") or [] for r in _rows("PLAT_Users")}
+    assert [(u, role) for u, role in cognito_setup.SEED_USERS if role not in groups.get(u, [])] == []
 
 
 # --- delivery → ownership ----------------------------------------------------------
