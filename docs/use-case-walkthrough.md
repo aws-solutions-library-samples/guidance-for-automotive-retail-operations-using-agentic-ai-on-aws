@@ -10,11 +10,10 @@ size. Deployment steps and cost are in the [README](../README.md).
 > **About the interactive stories.** GitHub shows HTML files as source code, so
 > each story below is a still frame. To play it, use the "Play the story" link
 > under it, which opens the story on this repository's
-> [GitHub Pages site](https://special-couscous-2mmzmoq.pages.github.io/) (sign in with a GitHub account that has access to
-> the repository). You can also download the HTML file and open it in a browser;
+> [GitHub Pages site](https://aws-solutions-library-samples.github.io/guidance-for-automotive-retail-operations-using-agentic-ai-on-aws/). You can also download the HTML file and open it in a browser;
 > it needs no internet connection. In both cases, the play control at the bottom
 > plays, pauses and scrubs. The same page with both stories playable in place is
-> the [walkthrough on the Pages site](https://special-couscous-2mmzmoq.pages.github.io/docs/use-case-walkthrough.html).
+> the [walkthrough on the Pages site](https://aws-solutions-library-samples.github.io/guidance-for-automotive-retail-operations-using-agentic-ai-on-aws/docs/use-case-walkthrough.html).
 
 **On this page:** [The problem](#the-problem-every-handoff-loses-the-customer) ·
 [Part 1: Dealer journey](#part-1-agents-for-your-team-and-your-customer) ·
@@ -41,9 +40,9 @@ and people re-key, look up and chase information by hand while the buyer waits.
 sale, finance, delivery and the first service visit, and see which agent helps
 each role at each handoff.
 
-[![Interactive story, opening scene: the Lead Desk in the Dealer Console, where the Sales Agent has drafted a first response to a web lead from Natalie Brooks about the Meridian Ion C. Select to open the story.](../assets/images/story-01-poster.jpg)](https://special-couscous-2mmzmoq.pages.github.io/assets/story-01-agents-one-journey-lead-to-service.html)
+[![Interactive story, opening scene: the Lead Desk in the Dealer Console, where the Sales Agent has drafted a first response to a web lead from Natalie Brooks about the Meridian Ion C. Select to open the story.](../assets/images/story-01-poster.jpg)](https://aws-solutions-library-samples.github.io/guidance-for-automotive-retail-operations-using-agentic-ai-on-aws/assets/story-01-agents-one-journey-lead-to-service.html)
 
-[Play the story: one journey, lead to service](https://special-couscous-2mmzmoq.pages.github.io/assets/story-01-agents-one-journey-lead-to-service.html) ·
+[Play the story: one journey, lead to service](https://aws-solutions-library-samples.github.io/guidance-for-automotive-retail-operations-using-agentic-ai-on-aws/assets/story-01-agents-one-journey-lead-to-service.html) ·
 [download the HTML file](../assets/story-01-agents-one-journey-lead-to-service.html) (about 12 MB)
 
 ### How it is built
@@ -113,9 +112,9 @@ manager and sales operations a cited draft from live, scoped dealer data:
 District Roll-up, Sales Ops Digest, Account Plan, Opportunity Brief, Meeting
 Package, Win Strategy, Contact Report and Action Plan.
 
-[![Interactive story, scene from the District Roll-up Flow: a cited draft for district DIST-07 with district KPIs, each figure sourced through the OEM read gateway, and a funnel for the last 30 days. Select to open the story.](../assets/images/story-02-poster.jpg)](https://special-couscous-2mmzmoq.pages.github.io/assets/story-02-sales-operations-quick-flows.html)
+[![Interactive story, scene from the District Roll-up Flow: a cited draft for district DIST-07 with district KPIs, each figure sourced through the OEM read gateway, and a funnel for the last 30 days. Select to open the story.](../assets/images/story-02-poster.jpg)](https://aws-solutions-library-samples.github.io/guidance-for-automotive-retail-operations-using-agentic-ai-on-aws/assets/story-02-sales-operations-quick-flows.html)
 
-[Play the story: eight AWS Quick Flows](https://special-couscous-2mmzmoq.pages.github.io/assets/story-02-sales-operations-quick-flows.html) ·
+[Play the story: eight AWS Quick Flows](https://aws-solutions-library-samples.github.io/guidance-for-automotive-retail-operations-using-agentic-ai-on-aws/assets/story-02-sales-operations-quick-flows.html) ·
 [download the HTML file](../assets/story-02-sales-operations-quick-flows.html) (about 18 MB)
 
 ### How it is built
