@@ -8,7 +8,7 @@ guardrails) can be changed and promoted on evidence instead of a gut feel.
 app/eval/golden/*.json     the cases (A3 assistant, A2 customer Q&A, A6 workspace ask, A7 explain)
 app/eval/run_eval.py       the runner
 app/eval/html_report.py    renders a report JSON as one self-contained HTML page
-app/eval/reports/          JSON reports (agent-baseline.json is the kept baseline)
+app/eval/reports/          JSON reports (agent-baseline.json is the kept baseline) and published Markdown report cards
 ```
 
 ## Running
@@ -103,6 +103,11 @@ Self-contained HTML (CSS-only tabs, no scripts): an overview table plus a tab pe
 engines used, the dated found / fixed / open notes from `report_card.NOTES`, and every case with its
 fences, UAEF scores, judge groundedness and the full answer behind a disclosure. Numbers come from the
 report; only the narrative and grades are hand-maintained.
+
+The 2026-10-29 run is published as Markdown, so it can be read on GitHub:
+[`reports/report_card-20261029.md`](reports/report_card-20261029.md). It has the same numbers, with each
+tab as a section and ✗ / ⚠ markers for scores below, or within 0.10 of, their floor. It was converted from
+the HTML once; `report_card.py` still writes only HTML.
 
 ## Baseline (2026-10-08, dev data, `us.anthropic.claude-sonnet-4-5`)
 

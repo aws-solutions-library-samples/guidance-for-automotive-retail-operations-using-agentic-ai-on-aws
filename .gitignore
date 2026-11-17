@@ -41,6 +41,8 @@ sample-data/open/raw/
 # Evaluation reports other than the retained baseline
 app/eval/reports/*
 !app/eval/reports/agent-baseline.json
+# Markdown report cards are published; their HTML and JSON sources are not
+!app/eval/reports/*.md
 
 ### Python ###
 __pycache__/
