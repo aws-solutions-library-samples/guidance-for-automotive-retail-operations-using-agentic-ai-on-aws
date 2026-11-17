@@ -44,6 +44,7 @@ jobs:
           cp docs/cost/cost-estimate.xlsx _site/docs/cost/
           cp assets/story-*.html _site/assets/
           cp assets/images/architecture-*.png _site/assets/images/
+          cp assets/images/story-*-og.jpg _site/assets/images/
           find _site -type f | sort
 
       - name: Setup Pages
